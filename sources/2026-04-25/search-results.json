@@ -1,192 +1,216 @@
 {
   "date": "2026-04-25",
-  "collected_at": "2026-04-25T07:00:00+09:00",
+  "collected_at": "2026-04-25T22:00:00+09:00",
   "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
-  "search_count": 14,
-  "total_results": 42,
-  "expanded_keywords": [],
+  "search_count": 16,
+  "total_results": 72,
+  "expanded_keywords": [
+    "엑스포과학공원",
+    "국립어린이과학관",
+    "국립중앙과학관",
+    "대전시민천문대",
+    "관평도서관",
+    "유성구통합도서관"
+  ],
   "searches": [
     {
       "method": "websearch",
       "engine": "built-in",
       "keyword": "유성구 어린이 행사 2026년 4월",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:01+09:00",
+      "timestamp": "2026-04-25T22:00:01+09:00",
       "result_count": 3,
       "results": [
-        { "title": "2026년 어린이날 완벽 가이드: 전국 7대 명소 꿀팁!", "url": "https://freedom.greatsisyphus.com/2026-childrens-day-guide/", "snippet": "어린이날 전국 체험 명소 가이드", "source_name": "자유로운 인생" },
         { "title": "행사 일정 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule", "snippet": "유성온천문화축제 행사 일정", "source_name": "유성온천문화축제" },
-        { "title": "어린이 행사 2026 - Localing", "url": "https://localing.kr/events/kids", "snippet": "2026 어린이 공연·전시 행사", "source_name": "Localing" }
+        { "title": "어린이 행사 2026 - Localing", "url": "https://localing.kr/events/kids", "snippet": "어린이 공연·전시·체험 프로그램 매주 업데이트", "source_name": "Localing" },
+        { "title": "2026년 어린이날 완벽 가이드: 전국 7대 명소 꿀팁!", "url": "https://freedom.greatsisyphus.com/2026-childrens-day-guide/", "snippet": "어린이날 전국 무료 체험 행사 가이드", "source_name": "자유로운 인생" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "유성구 가족 체험 프로그램 2026년 5월",
+      "keyword": "유성구 가족 체험 프로그램 2026",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:05+09:00",
+      "timestamp": "2026-04-25T22:00:02+09:00",
       "result_count": 3,
       "results": [
-        { "title": "유성구 문화관광", "url": "https://www.yuseong.go.kr/tour/", "snippet": "유성구 문화관광 공식 페이지", "source_name": "유성구청" },
-        { "title": "유성구 평생학습센터", "url": "https://lifelong.yuseong.go.kr/lly/lly/index.do", "snippet": "유성구 평생학습센터 프로그램", "source_name": "유성구 평생학습센터" },
-        { "title": "유성온천문화축제 > 유성구 문화관광", "url": "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7", "snippet": "유성온천문화축제 소개 — 온천 체험, 공연, 어린이 프로그램 등", "source_name": "유성구청" }
+        { "title": "유성구 평생학습센터", "url": "https://lifelong.yuseong.go.kr/lly/lly/index.do", "snippet": "유성구 평생학습센터 학습동아리 및 교육 프로그램", "source_name": "유성구청" },
+        { "title": "유성구청소년수련관", "url": "https://happy-you.kr/", "snippet": "진로체험 프로그램 등 청소년 체험활동", "source_name": "유성구청소년수련관" },
+        { "title": "유성구 문화관광", "url": "https://www.yuseong.go.kr/tour/", "snippet": "유성온천문화축제 및 관광 정보", "source_name": "유성구청" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "유성구 도서관 프로그램 어린이 2026",
+      "keyword": "유성구 도서관 프로그램 어린이 2026년 4월",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:09+09:00",
+      "timestamp": "2026-04-25T22:00:03+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 통합도서관 문화행사 및 프로그램", "source_name": "유성구통합도서관" },
+        { "title": "북스타트 책놀이 모집", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "36개월~미취학아동+보호자 대상 북스타트 책놀이", "source_name": "유성구통합도서관" },
+        { "title": "대전공공도서관", "url": "https://www.u-library.kr/", "snippet": "대전 공공도서관 통합 프로그램 안내", "source_name": "대전공공도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 어린이 프로그램 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:04+09:00",
       "result_count": 4,
       "results": [
-        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 통합도서관 — 행사신청, 프로그램 안내", "source_name": "유성구통합도서관" },
-        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "북스타트 책놀이 프로그램 모집 (36개월~미취학아동+보호자)", "source_name": "유성구통합도서관" },
-        { "title": "유성구 '생활밀착형 독서문화' 확산", "url": "https://www.dominilbo.com/news/articleView.html?idxno=262086", "snippet": "유성구 도서관 세대별 맞춤형 프로그램 운영, 영유아 '북스타트 책놀이' 등", "source_name": "충청도민일보" },
-        { "title": "전민센터 정규강좌 - 유성구 평생학습센터", "url": "https://lifelong.yuseong.go.kr/lly/prog/lctr/lly/sub02_02_04/LIFELONG_002/classList.do", "snippet": "전민평생학습센터 정규강좌 목록", "source_name": "유성구 평생학습센터" }
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "교육·전시·체험 프로그램", "source_name": "국립중앙과학관" },
+        { "title": "교육프로그램 | 전체교육프로그램", "url": "https://www.science.go.kr/mps/1092/allEduPrograms.do", "snippet": "국립중앙과학관 교육 프로그램 목록", "source_name": "국립중앙과학관" },
+        { "title": "국립어린이과학관", "url": "https://www.csc.go.kr/", "snippet": "공존의 과학 주제, 감각놀이터·상상놀이터", "source_name": "국립어린이과학관" },
+        { "title": "어린이과학관 통합예약", "url": "https://rsvn.science.go.kr/nsm/exbtrsvn/dspy/0021", "snippet": "기본관람 무료, 유료프로그램 예약", "source_name": "국립중앙과학관 통합예약" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "국립중앙과학관 어린이 행사 2026년 4월 5월",
+      "keyword": "대전시민천문대 가족 프로그램 2026",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:13+09:00",
+      "timestamp": "2026-04-25T22:00:05+09:00",
       "result_count": 3,
       "results": [
-        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "국립중앙과학관 공식 홈페이지 — 전시·교육·행사", "source_name": "국립중앙과학관" },
-        { "title": "국립어린이과학관", "url": "https://www.csc.go.kr/", "snippet": "국립어린이과학관 공식 홈페이지", "source_name": "국립어린이과학관" },
-        { "title": "교육 | 전체교육프로그램", "url": "https://www.science.go.kr/mps/1092/allEduPrograms.do", "snippet": "국립중앙과학관 교육프로그램 안내", "source_name": "국립중앙과학관" }
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "지자체 1호 천문과학관. 14:00~22:00, 무료", "source_name": "대전시민천문대" },
+        { "title": "대전시민천문대 별축제", "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=306fb919-36d3-48d9-85cf-7d2247ad580c", "snippet": "토요 별 음악회, 시와 음악회 등", "source_name": "대한민국 구석구석" },
+        { "title": "2026 생애주기별·유아 문화예술교육지원 프로그램", "url": "https://www.dcaf.or.kr/web/board.do?menuIdx=374&bbsIdx=18865", "snippet": "2026 생애주기별·유아 문화예술교육지원 프로그램 안내", "source_name": "대전문화재단" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "대전시민천문대 가족 천문교실 2026",
+      "keyword": "유성구 축제 어린이날 2026년 5월",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:17+09:00",
-      "result_count": 2,
-      "results": [
-        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "대전시민천문대 공식 — 무료, 오후2시~밤10시 운영, 매주 월요일 휴관", "source_name": "대전시민천문대" },
-        { "title": "대전시민천문대 > 명소 | 대전관광", "url": "https://daejeontour.co.kr/sights_djt/26?sca=%EA%B3%BC%ED%95%99%EB%AA%85%EC%86%8C", "snippet": "대전시민천문대 — 지자체 1호 천문과학관, 연간 10만 명 방문, 무료 입장", "source_name": "대전관광" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "유성구 축제 2026년 봄 어린이날",
-      "language": "ko",
-      "timestamp": "2026-04-25T07:00:21+09:00",
-      "result_count": 3,
-      "results": [
-        { "title": "유성온천문화축제 > 축제·공연 > 유성구 문화관광", "url": "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7", "snippet": "유성온천문화축제 — 생활무용 경연, 뮤직&댄스 경연, 온천수 수영장, 족욕 열차, 어린이 프로그램", "source_name": "유성구청" },
-        { "title": "유성온천문화축제", "url": "http://ysfesta.com/index.php", "snippet": "유성온천문화축제 공식 사이트", "source_name": "유성온천문화축제" },
-        { "title": "행사 일정 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule", "snippet": "유성온천문화축제 행사 일정 안내", "source_name": "유성온천문화축제" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "대전 유성 키즈 체험 2026년 4월 5월",
-      "language": "ko",
-      "timestamp": "2026-04-25T07:00:25+09:00",
-      "result_count": 4,
-      "results": [
-        { "title": "대전광역시어린이회관", "url": "https://www.djkids.or.kr/", "snippet": "대전 어린이회관 — 다양한 어린이 체험 활동", "source_name": "대전광역시어린이회관" },
-        { "title": "어린이 관광코스 > 유성구 문화관광", "url": "https://www.yuseong.go.kr/tour/sub03_03.do", "snippet": "유성구 어린이 관광코스 — 국립중앙과학관, 대전시민천문대, 엑스포과학공원 등", "source_name": "유성구청" },
-        { "title": "\"스타필드가 거대한 놀이터로\"... 신세계프라퍼티 어린이날 행사", "url": "https://www.insight.co.kr/news/551600", "snippet": "스타필드 전국 매장 '키즈 페스타' 개최 — 체험형 놀이터", "source_name": "인사이트" },
-        { "title": "실내여행! 안에서 노는 대전 여행지5", "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=495e639b-ad40-491b-aaae-2a07a0d4e581", "snippet": "대전 실내 여행지 — 국립중앙과학관, 대전시민천문대 등", "source_name": "대한민국 구석구석" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "관평도서관 프로그램 어린이 2026",
-      "language": "ko",
-      "timestamp": "2026-04-25T07:00:29+09:00",
-      "result_count": 3,
-      "results": [
-        { "title": "관평도서관", "url": "https://www.gplib.or.kr/", "snippet": "관평도서관 공식 사이트", "source_name": "관평도서관" },
-        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/index.do", "snippet": "유성구 통합도서관 포털", "source_name": "유성구통합도서관" },
-        { "title": "대전공공도서관", "url": "https://www.u-library.kr/", "snippet": "2026 미래산업 진로탐색 독서아카데미 — 관평도서관·전민종합문화센터 참여", "source_name": "대전공공도서관" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "유성구 평생학습관 가족 프로그램 2026",
-      "language": "ko",
-      "timestamp": "2026-04-25T07:00:33+09:00",
-      "result_count": 2,
-      "results": [
-        { "title": "유성구 평생학습센터 - 유성구청", "url": "https://lifelong.yuseong.go.kr/lly/lly/index.do", "snippet": "유성구 평생학습센터 — 구암센터·전민센터 운영, 정규강좌 및 수시 프로그램", "source_name": "유성구 평생학습센터" },
-        { "title": "주요일정 > 유성학습포털", "url": "https://lifelong.yuseong.go.kr/lly/prog/monthlyEvnt/lly/sub03_01/list.do", "snippet": "유성구 평생학습센터 월별 주요 일정", "source_name": "유성구 평생학습센터" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "대전엑스포과학공원 어린이 체험 2026",
-      "language": "ko",
-      "timestamp": "2026-04-25T07:00:37+09:00",
-      "result_count": 4,
-      "results": [
-        { "title": "[포토] 2026 대전사이언스페스티벌, 체험형 과학 콘텐츠", "url": "https://www.newscj.com/news/articleView.html?idxno=3394594", "snippet": "2026 대전사이언스페스티벌 — 4.17~19 엑스포과학공원에서 체험형 과학 콘텐츠 전시", "source_name": "천지일보" },
-        { "title": "AI-로봇-VR… 대전서 '테크 시민' 체험", "url": "https://v.daum.net/v/20260407043324504", "snippet": "대전 테크 시민 체험 행사", "source_name": "Daum" },
-        { "title": "2026 대전사이언스페스티벌 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/25", "snippet": "2026 대전사이언스페스티벌 — 대전컨벤션센터·엑스포과학공원, 4.17~4.19", "source_name": "대전관광" },
-        { "title": "BMW 코리아 미래재단, '2026 대전사이언스페스티벌' 운영", "url": "https://www.autoracing.co.kr/news/articleView.html?idxno=47794", "snippet": "BMW 모바일 주니어 캠퍼스 — 초등학생 대상 전기차·수소차·자율주행 체험, 하루 8회 45분 무료", "source_name": "오토레이싱" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "Yuseong-gu kids events Daejeon 2026",
-      "language": "en",
-      "timestamp": "2026-04-25T07:00:41+09:00",
-      "result_count": 2,
-      "results": [
-        { "title": "Yuseong-gu: The Heartbeat of Daejeon's Culture and Wellness", "url": "https://evendo.com/locations/south-korea/daejeon/yuseong-gu", "snippet": "National Science Museum, children's museum, Daejeon O-World, Expo Park", "source_name": "Evendo" },
-        { "title": "The 10 Best attractions in Yuseong-gu (2026 ranked)", "url": "https://evendo.com/locations/south-korea/daejeon/yuseong-gu/best-attractions", "snippet": "Yuseong-gu top attractions including science museums and family parks", "source_name": "Evendo" }
-      ]
-    },
-    {
-      "method": "websearch",
-      "engine": "built-in",
-      "keyword": "유성구 가족센터 부모자녀 프로그램 2026 봄",
-      "language": "ko",
-      "timestamp": "2026-04-25T07:00:45+09:00",
+      "timestamp": "2026-04-25T22:00:06+09:00",
       "result_count": 1,
       "results": [
-        { "title": "가족센터", "url": "https://www.familynet.or.kr/", "snippet": "전국 가족센터 포털", "source_name": "가족센터" }
+        { "title": "2026 전국 축제/행사 일정", "url": "https://xn--ok0b236bp0a.com/map", "snippet": "전국 축제·행사 통합 일정", "source_name": "축제일정" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "2026 대전사이언스페스티벌 4월 엑스포과학공원 어린이 체험",
+      "keyword": "관평도서관 프로그램 2026년 4월 어린이",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:49+09:00",
-      "result_count": 6,
+      "timestamp": "2026-04-25T22:00:07+09:00",
+      "result_count": 2,
       "results": [
-        { "title": "BMW 코리아 미래재단, '2026 대전사이언스페스티벌' 운영", "url": "https://www.autoracing.co.kr/news/articleView.html?idxno=47794", "snippet": "BMW 모바일 주니어 캠퍼스 — 초등학생 대상 전기차·수소차·자율주행 체험, 하루 8회 45분 무료", "source_name": "오토레이싱" },
-        { "title": "BMW, '2026 대전사이언스페스티벌'서 모바일 주니어 캠퍼스 운영", "url": "https://biz.heraldcorp.com/article/10718465", "snippet": "BMW 코리아 미래재단 모바일 주니어 캠퍼스 운영 — 미래 모빌리티 기술 교육", "source_name": "헤럴드경제" },
-        { "title": "대전시교육청, 2026 꿈돌이사이언스페스티벌 4월 17일부터 18일까지 개최", "url": "https://www.thesnstime.com/daejeonsigyoyugceong-2026-ggumdolisaieonseupeseutibeol-4weol-17ilbuteo-18ilggaji-gaecoe/", "snippet": "꿈돌이사이언스페스티벌 4.17~18, 대전시교육청 주관", "source_name": "thesnstime" },
-        { "title": "[포토] 2026 대전사이언스페스티벌, 체험형 과학 콘텐츠", "url": "https://www.newscj.com/news/articleView.html?idxno=3394594", "snippet": "체험형 과학 콘텐츠 부스 운영 현장", "source_name": "천지일보" },
-        { "title": "\"인간과 AI가 만나는 과학축제\"... 대전사이언스페스티벌 개최", "url": "https://www.devtimes.co.kr/news/479911", "snippet": "인공지능과 인간의 공존 주제, 국내 최대 규모 과학문화 축제", "source_name": "청년개발자신문" },
-        { "title": "[포토] 2026 대전사이언스페스티벌, 다양한 부스 체험", "url": "https://www.newscj.com/news/articleView.html?idxno=3394595", "snippet": "RC카 레이싱, 종이비행기, 과학 퀴즈 등 다양한 체험 부스", "source_name": "천지일보" }
+        { "title": "관평도서관", "url": "https://www.gplib.or.kr/", "snippet": "관평도서관 프로그램 안내", "source_name": "관평도서관" },
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/index.do", "snippet": "유성구 통합도서관 문화행사", "source_name": "유성구통합도서관" }
       ]
     },
     {
       "method": "websearch",
       "engine": "built-in",
-      "keyword": "국립어린이과학관 K-사이언스 2026 교육 프로그램 도룡동",
+      "keyword": "대전 엑스포과학공원 행사 2026년 4월 5월",
       "language": "ko",
-      "timestamp": "2026-04-25T07:00:53+09:00",
-      "result_count": 3,
+      "timestamp": "2026-04-25T22:00:08+09:00",
+      "result_count": 4,
       "results": [
-        { "title": "국립어린이과학관", "url": "https://www.csc.go.kr/", "snippet": "국립어린이과학관 공식 홈페이지", "source_name": "국립어린이과학관" },
-        { "title": "[2026 K-사이언스 어린이 교육 프로그램 안내]", "url": "https://www.facebook.com/scijoy2017/posts/2026-k-사이언스-어린이-교육-프로그램-안내", "snippet": "K-사이언스 — 선조의 전통 과학기술 지혜 계승, 첨단 과학기술 체험 교육", "source_name": "국립어린이과학관 Facebook" },
-        { "title": "과학관 통합회원 시대…사이언스 패스 출시", "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202604211105174220", "snippet": "4월 21일 사이언스 패스 출시 — 과학관 통합 회원 카드", "source_name": "YTN 사이언스" }
+        { "title": "'대전사이언스페스티벌' 37만 명 방문 속 성황리 폐막", "url": "https://www.ysmagaz.com/news/articleView.html?idxno=1557", "snippet": "287개 기관, 420개 프로그램, 37만 명 방문", "source_name": "유성매거진" },
+        { "title": "'2026 대전사이언스페스티벌' 성료…3일간 37만 명", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=884549", "snippet": "과학기술정보통신부 '대한민국 과학축제'와 통합", "source_name": "충남일보" },
+        { "title": "과학이 도시를 점유했다… 37만 몰린 대전", "url": "https://cc.newdaily.co.kr/site/data/html/2026/04/21/2026042100039.html", "snippet": "6개 거점 운영: DCC, 엑스포과학공원, 엑스포다리, 시민광장, 한밭수목원, 국립중앙과학관", "source_name": "뉴데일리" },
+        { "title": "엑스포과학공원 음악분수 운영 안내", "url": "http://www.daejeontourism.com/kor/board.do?menuIdx=710&bbsIdx=10201", "snippet": "엑스포과학공원 음악분수 운영", "source_name": "대전관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립어린이과학관 체험 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:09+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립어린이과학관", "url": "https://www.csc.go.kr/", "snippet": "공존의 과학, 감각놀이터·상상놀이터", "source_name": "국립어린이과학관" },
+        { "title": "국립어린이과학관 전시개선사업(몰입형 실감미디어아트)", "url": "https://www.jungi.net/detail_bid/index/bid9450328", "snippet": "2025~2026 몰입형 실감미디어아트 체험관 개선사업", "source_name": "전기넷" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 평생학습관 가족센터 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:10+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 평생학습센터", "url": "https://lifelong.yuseong.go.kr/lly/lly/index.do", "snippet": "구암·전민 평생학습센터 강사채용 및 학습동아리", "source_name": "유성구청" },
+        { "title": "유성구 평생학습센터 온라인 신청", "url": "https://lifelong.yuseong.go.kr/", "snippet": "평생학습센터 프로그램 신청", "source_name": "유성구 평생학습센터" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성 키즈 카페 체험 행사 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:11+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "대전광역시어린이회관", "url": "https://www.djkids.or.kr/", "snippet": "체험숲, 사계절상상놀이터, 아뜰리에, 어린이뮤지컬, 3D 영상", "source_name": "대전광역시어린이회관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon 2026 April May",
+      "language": "en",
+      "timestamp": "2026-04-25T22:00:12+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "The 10 Best attractions in Yuseong-gu (2026)", "url": "https://evendo.com/locations/south-korea/daejeon/yuseong-gu/best-attractions", "snippet": "National Science Museum, Expo Science Park, hot springs", "source_name": "evendo" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전사이언스페스티벌 2026 37만명 성료",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:13+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전사이언스페스티벌 37만명 방문 성료", "url": "https://www.dominilbo.com/news/articleView.html?idxno=266372", "snippet": "287개 기관 참여, 420개 프로그램, 3일간 37만 명", "source_name": "충청도민일보" },
+        { "title": "'2026 대전사이언스페스티벌' 성료…3일간 37만 명", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=884549", "snippet": "과학기술정보통신부 통합, 국립중앙과학관 연계", "source_name": "충남일보" },
+        { "title": "'대전사이언스페스티벌' 37만 명 성황리 폐막", "url": "https://www.ysmagaz.com/news/articleView.html?idxno=1557", "snippet": "6개 거점 운영", "source_name": "유성매거진" },
+        { "title": "37만명 몰린 대전사이언스페스티벌, 위상 재확인", "url": "https://v.daum.net/v/20260421170554915", "snippet": "과학문화축제 위상 재확인", "source_name": "다음뉴스" },
+        { "title": "과학이 도시를 점유했다… 37만 몰린 대전", "url": "https://cc.newdaily.co.kr/site/data/html/2026/04/21/2026042100039.html", "snippet": "DCC, 엑스포과학공원 등 6개 거점", "source_name": "뉴데일리" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성온천문화축제 2026 일정",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:14+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성온천문화축제", "url": "http://ysfesta.com/index.php", "snippet": "유성온천문화축제 공식 홈페이지", "source_name": "유성온천문화축제" },
+        { "title": "행사 개요 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=overview", "snippet": "2025년 제30회 개최. 온천로 일원", "source_name": "유성온천문화축제" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 어린이날 행사 2026 과학관 도서관",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:15+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "사이언스데이, 과학의 달 행사", "source_name": "국립중앙과학관" },
+        { "title": "국립어린이과학관", "url": "https://www.csc.go.kr/", "snippet": "어린이 전용 과학 놀이터", "source_name": "국립어린이과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전광역시 어린이회관 유성 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-04-25T22:00:16+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전광역시어린이회관", "url": "https://www.djkids.or.kr/", "snippet": "대전월드컵경기장 동관 1층. 체험숲, 사계절상상놀이터, 아뜰리에, 어린이뮤지컬, 3D 영상. 실내 3520㎡, 야외 2250㎡", "source_name": "대전광역시어린이회관" },
+        { "title": "대전어린이회관 유성구 노은동", "url": "https://mom-mom.net/travel/places/62cd16802718fee95297d429", "snippet": "대전 유성구 노은동 월드컵경기장 동관 1층", "source_name": "맘맘" }
       ]
     }
   ]

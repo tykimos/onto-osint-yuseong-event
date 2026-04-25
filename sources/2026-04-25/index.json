@@ -1,9 +1,9 @@
 {
   "date": "2026-04-25",
-  "total": 8,
-  "new": 8,
+  "total": 11,
+  "new": 10,
   "reported": 0,
-  "update": 0,
+  "update": 1,
   "items": [
     {
       "id": "src-001",
@@ -68,6 +68,31 @@
       "tag": "new",
       "related_report": null,
       "entity_count": 4
+    },
+    {
+      "id": "src-009",
+      "title": "대전사이언스페스티벌 37만 명 방문 성황리 폐막 — 287개 기관·420개 프로그램",
+      "url": "https://www.ysmagaz.com/news/articleView.html?idxno=1557",
+      "tag": "update",
+      "related_report": null,
+      "related_item": "src-001",
+      "entity_count": 6
+    },
+    {
+      "id": "src-010",
+      "title": "대전광역시어린이회관 — 체험숲·사계절상상놀이터·아뜰리에 (노은동)",
+      "url": "https://www.djkids.or.kr/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-011",
+      "title": "2026 생애주기별·유아 문화예술교육지원 프로그램 — 대전문화재단",
+      "url": "https://www.dcaf.or.kr/web/board.do?menuIdx=374&bbsIdx=18865",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 2
     }
   ]
 }

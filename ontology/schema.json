@@ -75,6 +75,13 @@
       "target": "all",
       "reason": "config/osint-config.json의 seed_classes 및 seed_relations로부터 초기화",
       "source_ids": []
+    },
+    {
+      "date": "2026-04-25",
+      "action": "add_instances",
+      "target": "Venue(어린이회관), Organization(과학기술정보통신부, 어린이회관, 대전문화재단), Event(어린이회관 체험, 유아 문화예술교육)",
+      "reason": "2차 수집에서 노은동 어린이회관 및 대전문화재단 프로그램 발견. 사이언스페스티벌 공동운영 기관 확인.",
+      "source_ids": ["src-009", "src-010", "src-011"]
     }
   ]
 }

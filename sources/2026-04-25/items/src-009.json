@@ -1,0 +1,24 @@
+{
+  "id": "src-009",
+  "title": "대전사이언스페스티벌 37만 명 방문 성황리 폐막 — 287개 기관·420개 프로그램",
+  "url": "https://www.ysmagaz.com/news/articleView.html?idxno=1557",
+  "snippet": "2026 대전사이언스페스티벌이 3일간 약 37만 명의 방문객을 기록하며 폐막했다. 287개 기관이 참여하고 420개 프로그램이 운영됐으며, DCC·엑스포과학공원·엑스포다리·시민광장·한밭수목원·국립중앙과학관 등 6개 거점에서 진행됐다. 'AI와 인간의 공존'을 주제로 과학기술정보통신부 '대한민국 과학축제'와 통합 운영되었다.",
+  "source_name": "유성매거진",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "update",
+  "related_report": null,
+  "related_item": "src-001",
+  "tag_reason": "기존 src-001(사이언스페스티벌 개최 정보)에 대한 후속보도. 37만 명 방문 실적, 287개 기관·420개 프로그램 규모, 6개 거점 상세 등 유의미한 새 수치 포함.",
+  "entities": [
+    { "id": "ent-evt-001", "type": "Event", "name": "2026 대전사이언스페스티벌", "role": "주제" },
+    { "id": "ent-org-001", "type": "Organization", "name": "대전광역시", "role": "주최" },
+    { "id": "temp-009-01", "type": "Organization", "name": "과학기술정보통신부", "role": "공동운영" },
+    { "id": "ent-venue-001", "type": "Venue", "name": "엑스포과학공원", "role": "거점" },
+    { "id": "ent-venue-002", "type": "Venue", "name": "대전컨벤션센터(DCC)", "role": "거점" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "거점" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-001", "predicate": "organizedBy", "object": "temp-009-01" }
+  ]
+}

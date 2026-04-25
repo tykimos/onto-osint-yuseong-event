@@ -1,0 +1,29 @@
+{
+  "id": "src-010",
+  "title": "대전광역시어린이회관 — 체험숲·사계절상상놀이터·아뜰리에 (노은동)",
+  "url": "https://www.djkids.or.kr/",
+  "snippet": "대전 유성구 노은동 대전월드컵경기장 동관 1층에 위치한 어린이 대상 복합 문화시설. 실내 3,520㎡, 야외 2,250㎡ 규모. 체험숲, 사계절상상놀이터, 아뜰리에 등 체험 프로그램과 어린이뮤지컬, 3D 입체영상, 아동상담 프로그램 운영. 운영시간 10:00~17:30, 예약제, 휴게시간 12:00~13:00/15:00~15:30.",
+  "source_name": "대전광역시어린이회관",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 수집에서 누락된 유성구 소재 어린이 전용 체험시설. 노은동(보조 타겟)에 위치하며, 어린이 친화도가 매우 높은 상시 운영 시설.",
+  "entities": [
+    { "id": "temp-010-01", "type": "Venue", "name": "대전광역시어린이회관", "properties": { "dong": "노은동", "venue_type": "어린이회관", "address": "대전 유성구 월드컵대로 32 대전월드컵경기장 동관 1층", "indoor_outdoor": "실내+야외" } },
+    { "id": "temp-010-02", "type": "Organization", "name": "대전광역시어린이회관", "properties": { "org_type": "공공시설" } },
+    { "id": "temp-010-03", "type": "Event", "name": "어린이회관 체험 프로그램", "properties": { "fee": "유료 (프로그램별 상이)", "registration_required": true, "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.95 } },
+    { "id": "temp-010-04", "type": "Activity", "name": "체험숲", "properties": { "category": "체험" } },
+    { "id": "temp-010-05", "type": "Activity", "name": "사계절상상놀이터", "properties": { "category": "체험" } }
+  ],
+  "relations": [
+    { "subject": "temp-010-03", "predicate": "hostsAt", "object": "temp-010-01" },
+    { "subject": "temp-010-03", "predicate": "organizedBy", "object": "temp-010-02" },
+    { "subject": "temp-010-03", "predicate": "featuresActivity", "object": "temp-010-04" },
+    { "subject": "temp-010-03", "predicate": "featuresActivity", "object": "temp-010-05" },
+    { "subject": "temp-010-03", "predicate": "targetsAgeGroup", "object": "age-toddler" },
+    { "subject": "temp-010-03", "predicate": "targetsAgeGroup", "object": "age-elem-low" },
+    { "subject": "temp-010-01", "predicate": "locatedIn", "object": "dong-noeun" }
+  ]
+}
