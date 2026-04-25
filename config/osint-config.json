@@ -1,0 +1,337 @@
+{
+  "project": {
+    "name": "onto-osint-yuseong-event",
+    "topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+    "description": "대전 유성구(특히 용산동·전민동·관평동·문지동·신성동·도룡동 일대)에서 진행되는 행사·체험·전시·공연·도서관 프로그램 등 어린이·가족 동반이 가능한 이벤트를 매일 OSINT로 수집·구조화하여 일일 보고서를 생성한다.",
+    "goals": [
+      "유성구 일대 어린이·가족 동반 가능한 이벤트의 일별 신규/지속/마감 정보를 추적",
+      "동(洞) 단위 — 용산동/전민동/관평동/문지동/신성동/도룡동 등 — 별로 이벤트를 묶어 가시화",
+      "연령대(영유아/유아/초등저학년/초등고학년)별 적합 이벤트 분류",
+      "주최기관(유성구청·도서관·과학관·평생학습관·박물관·복지관)별 시리즈/정기 프로그램 패턴 식별",
+      "사전신청 마감일·정원·비용 같은 액션 가능한 정보를 우선 수집"
+    ],
+    "scope": {
+      "include": [
+        "유성구",
+        "용산동",
+        "전민동",
+        "관평동",
+        "문지동",
+        "신성동",
+        "도룡동",
+        "노은동",
+        "어은동",
+        "구암동",
+        "지족동",
+        "반석동",
+        "어린이 체험",
+        "가족 동반",
+        "유아",
+        "초등",
+        "도서관 프로그램",
+        "과학관 행사",
+        "박물관 체험",
+        "공원 축제",
+        "키즈",
+        "패밀리"
+      ],
+      "exclude": [
+        "성인 전용",
+        "19금",
+        "주류 행사",
+        "클럽",
+        "성인 콘서트",
+        "선거",
+        "정치 집회",
+        "장례",
+        "추모"
+      ]
+    },
+    "report_language": "ko",
+    "lookback_days": 14,
+    "schedule_cron": "0 22 * * *",
+    "schedule_description": "KST 07:00 매일 (전날 수집된 이벤트 + 향후 2주간 모집/개최 이벤트)"
+  },
+  "search": {
+    "min_searches": 12,
+    "engines": [
+      {
+        "id": "google",
+        "name": "Google",
+        "engine": "google",
+        "languages": ["ko"],
+        "enabled": true
+      },
+      {
+        "id": "naver",
+        "name": "Naver",
+        "engine": "naver",
+        "languages": ["ko"],
+        "enabled": true
+      },
+      {
+        "id": "daum",
+        "name": "Daum",
+        "engine": "daum",
+        "languages": ["ko"],
+        "enabled": true
+      }
+    ],
+    "custom_sites": [
+      {
+        "id": "yuseong-gu",
+        "name": "대전광역시 유성구청",
+        "url": "https://www.yuseong.go.kr",
+        "section": "행사·공지·새소식",
+        "notes": "구 단위 공식 행사·축제·교육 프로그램 1차 출처"
+      },
+      {
+        "id": "yuseong-library",
+        "name": "유성구 도서관 (관평·노은·진잠·전민)",
+        "url": "https://www.yuseong.go.kr/lib",
+        "section": "도서관 프로그램·독서문화행사",
+        "notes": "어린이 독서·체험 프로그램, 가족 영화상영, 인형극 등"
+      },
+      {
+        "id": "smnc",
+        "name": "국립중앙과학관 (도룡동)",
+        "url": "https://www.science.go.kr",
+        "section": "행사/교육/특별전",
+        "notes": "어린이과학관·창의나래관·자기부상열차 등 가족 단위 체험"
+      },
+      {
+        "id": "daejeon-observatory",
+        "name": "대전시민천문대 (도룡동)",
+        "url": "https://star.daejeon.go.kr",
+        "section": "관측회·천체교실",
+        "notes": "야간 관측, 가족 천문교실"
+      },
+      {
+        "id": "expo-park",
+        "name": "대전엑스포과학공원·꿈돌이랜드 일원",
+        "url": "https://www.daejeon.go.kr",
+        "section": "공원행사·전시",
+        "notes": "도룡동 일대 야외 가족 행사"
+      },
+      {
+        "id": "hanbat-arboretum",
+        "name": "한밭수목원·대전시립미술관 일원",
+        "url": "https://www.daejeon.go.kr/gar",
+        "section": "수목원 가족 프로그램",
+        "notes": "유성구 인접 둔산권이지만 가족 동반 빈도 높음"
+      },
+      {
+        "id": "yuseong-edu",
+        "name": "유성구 평생학습관·가족센터",
+        "url": "https://www.yuseong.go.kr/lll",
+        "section": "가족·부모·아동 프로그램",
+        "notes": "주말 가족 강좌, 부모-자녀 만들기"
+      },
+      {
+        "id": "kaist-events",
+        "name": "KAIST·출연연 공개 행사",
+        "url": "https://www.kaist.ac.kr",
+        "section": "공개강연·과학캠프",
+        "notes": "신성동·도룡동 권역 가족 대상 과학 행사"
+      },
+      {
+        "id": "daejeon-tour",
+        "name": "대전관광공사",
+        "url": "https://www.djto.or.kr",
+        "section": "축제·이벤트 캘린더",
+        "notes": "구 단위 축제 통합 캘린더"
+      }
+    ],
+    "keywords": {
+      "ko": [
+        "유성구 행사",
+        "유성구 어린이",
+        "유성구 가족 체험",
+        "유성구 도서관 프로그램",
+        "유성구 축제",
+        "용산동 행사",
+        "전민동 도서관",
+        "관평동 어린이",
+        "관평도서관 프로그램",
+        "문지동 어린이",
+        "신성동 어린이 체험",
+        "도룡동 과학관 행사",
+        "국립중앙과학관 어린이",
+        "대전시민천문대 가족",
+        "대전 유성 키즈",
+        "대전 유성 패밀리 데이",
+        "유성구 평생학습관 부모",
+        "유성구 가족센터 프로그램",
+        "유성문화원 어린이",
+        "노은동 어린이",
+        "지족동 도서관"
+      ],
+      "en": [
+        "Yuseong-gu kids events Daejeon",
+        "Daejeon family event Yuseong",
+        "National Science Museum Daejeon kids",
+        "Daejeon Observatory family"
+      ]
+    }
+  },
+  "ontology": {
+    "seed_classes": [
+      {
+        "id": "Entity",
+        "label": "엔티티",
+        "description": "최상위 클래스",
+        "subclasses": [
+          {
+            "id": "Event",
+            "label": "이벤트",
+            "description": "유성구 일대에서 개최되는 행사·체험·공연·교육 프로그램",
+            "properties": [
+              "name",
+              "start_date",
+              "end_date",
+              "start_time",
+              "end_time",
+              "venue",
+              "host",
+              "fee",
+              "capacity",
+              "registration_required",
+              "registration_deadline",
+              "registration_url",
+              "target_age_group",
+              "kid_friendly_score",
+              "weather_dependency",
+              "indoor_outdoor",
+              "source_url"
+            ]
+          },
+          {
+            "id": "Venue",
+            "label": "장소",
+            "description": "이벤트가 열리는 물리적 장소 (도서관·과학관·공원·문화원 등)",
+            "properties": [
+              "name",
+              "dong",
+              "address",
+              "venue_type",
+              "parking",
+              "stroller_accessible",
+              "nursing_room",
+              "kids_zone",
+              "transit",
+              "phone",
+              "website"
+            ]
+          },
+          {
+            "id": "Organization",
+            "label": "주최기관",
+            "description": "이벤트를 주최·주관·후원하는 기관",
+            "properties": ["name", "org_type", "contact", "website"]
+          },
+          {
+            "id": "Activity",
+            "label": "활동",
+            "description": "이벤트의 핵심 활동 유형 (체험·전시·공연·강연·축제·스포츠 등)",
+            "properties": ["name", "category", "duration_minutes"]
+          },
+          {
+            "id": "AgeGroup",
+            "label": "대상연령",
+            "description": "이벤트가 적합한 연령대 분류",
+            "properties": ["label", "min_age", "max_age"]
+          },
+          {
+            "id": "Dong",
+            "label": "행정동",
+            "description": "유성구 행정동 단위 — 동별 모니터링 대상",
+            "properties": ["name", "is_primary_target"]
+          }
+        ]
+      }
+    ],
+    "seed_relations": [
+      { "id": "hostsAt", "label": "개최장소", "domain": "Event", "range": "Venue" },
+      { "id": "organizedBy", "label": "주최", "domain": "Event", "range": "Organization" },
+      { "id": "locatedIn", "label": "소재동", "domain": "Venue", "range": "Dong" },
+      { "id": "featuresActivity", "label": "활동내용", "domain": "Event", "range": "Activity" },
+      { "id": "targetsAgeGroup", "label": "대상연령", "domain": "Event", "range": "AgeGroup" },
+      { "id": "followsEvent", "label": "후속회차", "domain": "Event", "range": "Event" },
+      { "id": "partOfSeries", "label": "시리즈일부", "domain": "Event", "range": "Event" },
+      { "id": "nearby", "label": "근처", "domain": "Venue", "range": "Venue" },
+      { "id": "operates", "label": "운영", "domain": "Organization", "range": "Venue" },
+      { "id": "supersedes", "label": "대체", "domain": "Event", "range": "Event" }
+    ],
+    "reasoning_rules": [
+      {
+        "id": "same_venue_series",
+        "description": "같은 장소에서 같은 주최가 반복적으로 여는 이벤트는 시리즈로 추정",
+        "pattern": "(?e1 hostsAt ?v) AND (?e2 hostsAt ?v) AND (?e1 organizedBy ?o) AND (?e2 organizedBy ?o) => (?e1 partOfSeries ?e2)"
+      },
+      {
+        "id": "same_dong_combo",
+        "description": "같은 동에서 같은 날 열리는 이벤트는 묶어 방문 후보",
+        "pattern": "(?e1 hostsAt ?v1) AND (?e2 hostsAt ?v2) AND (?v1 locatedIn ?d) AND (?v2 locatedIn ?d) AND (?e1 sameDate ?e2) => (?e1 visitCombo ?e2)"
+      },
+      {
+        "id": "age_group_overlap",
+        "description": "같은 연령대 대상 이벤트는 잠재적 방문 후보군",
+        "pattern": "(?e1 targetsAgeGroup ?a) AND (?e2 targetsAgeGroup ?a) => (?e1 candidateFor ?a)"
+      },
+      {
+        "id": "operator_kid_friendliness",
+        "description": "어린이 도서관·과학관·평생학습관이 운영하는 이벤트는 기본적으로 어린이 친화도 가산점",
+        "pattern": "(?o operates ?v) AND (?o orgType in {도서관,과학관,평생학습관,박물관,가족센터}) AND (?e hostsAt ?v) => (?e kidFriendlyBoost +0.2)"
+      },
+      {
+        "id": "indoor_rainy_fallback",
+        "description": "동일 동 내 실내 이벤트는 우천 시 야외 이벤트의 대체 후보",
+        "pattern": "(?e1 indoor_outdoor outdoor) AND (?e2 indoor_outdoor indoor) AND (?e1 sameDong ?e2) => (?e2 rainyFallbackFor ?e1)"
+      }
+    ],
+    "max_new_classes_per_day": 3,
+    "max_new_relations_per_day": 5,
+    "confidence_threshold": 0.7,
+    "seed_instances": {
+      "Dong": [
+        { "id": "dong-yongsan", "name": "용산동", "is_primary_target": true },
+        { "id": "dong-jeonmin", "name": "전민동", "is_primary_target": true },
+        { "id": "dong-gwanpyeong", "name": "관평동", "is_primary_target": true },
+        { "id": "dong-munji", "name": "문지동", "is_primary_target": true },
+        { "id": "dong-sinseong", "name": "신성동", "is_primary_target": true },
+        { "id": "dong-doryong", "name": "도룡동", "is_primary_target": true },
+        { "id": "dong-noeun", "name": "노은동", "is_primary_target": false },
+        { "id": "dong-eoeun", "name": "어은동", "is_primary_target": false },
+        { "id": "dong-guam", "name": "구암동", "is_primary_target": false },
+        { "id": "dong-jijok", "name": "지족동", "is_primary_target": false },
+        { "id": "dong-banseok", "name": "반석동", "is_primary_target": false }
+      ],
+      "AgeGroup": [
+        { "id": "age-infant", "label": "영유아", "min_age": 0, "max_age": 3 },
+        { "id": "age-toddler", "label": "유아", "min_age": 4, "max_age": 6 },
+        { "id": "age-elem-low", "label": "초등저학년", "min_age": 7, "max_age": 9 },
+        { "id": "age-elem-high", "label": "초등고학년", "min_age": 10, "max_age": 12 },
+        { "id": "age-middle", "label": "중학생이상", "min_age": 13, "max_age": 99 },
+        { "id": "age-family", "label": "전연령가족", "min_age": 0, "max_age": 99 }
+      ]
+    }
+  },
+  "report": {
+    "format": "markdown",
+    "include_kg_visualization": true,
+    "kg_visualization_format": "mermaid",
+    "max_kg_nodes": 30,
+    "wiki_publish": true,
+    "empty_report_message": "금일 유성구 일대 어린이·가족 동반 신규 이벤트 특이사항 없음",
+    "sections": [
+      "오늘의 추천 (가족 동반 Top 5)",
+      "신규 이벤트",
+      "마감 임박 (사전신청 D-3 이내)",
+      "동(洞)별 이벤트 묶음",
+      "연령대별 묶음",
+      "시리즈/정기 프로그램 업데이트",
+      "지식그래프 시각화",
+      "출처 목록"
+    ]
+  }
+}
