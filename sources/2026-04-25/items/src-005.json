@@ -1,0 +1,24 @@
+{
+  "id": "src-005",
+  "title": "사이언스 패스 출시 — 과학관 통합회원 카드 (4.21~)",
+  "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202604211105174220",
+  "snippet": "4월 21일 '사이언스 패스' 출시. 과학관 통합 회원 시대 개막. 국립중앙과학관·국립어린이과학관 등 과학관 통합 회원 카드로 편리하게 이용 가능.",
+  "source_name": "YTN 사이언스",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음",
+  "entities": [
+    { "id": "temp-evt-005", "type": "Event", "name": "사이언스 패스 출시", "start_date": "2026-04-21", "fee": "무료 (회원카드)", "indoor_outdoor": "실내", "kid_friendly_score": 0.7, "kid_friendly_reason": "과학관 이용 편의 향상이나 어린이 전용은 아님" },
+    { "id": "temp-org-006", "type": "Organization", "name": "국립중앙과학관", "org_type": "과학관" },
+    { "id": "temp-venue-005", "type": "Venue", "name": "국립중앙과학관", "dong": "도룡동" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-005", "predicate": "hostsAt", "object": "temp-venue-005" },
+    { "subject": "temp-evt-005", "predicate": "organizedBy", "object": "temp-org-006" },
+    { "subject": "temp-venue-005", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "temp-org-006", "predicate": "operates", "object": "temp-venue-005" }
+  ]
+}

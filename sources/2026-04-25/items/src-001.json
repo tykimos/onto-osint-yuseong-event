@@ -1,0 +1,31 @@
+{
+  "id": "src-001",
+  "title": "2026 대전사이언스페스티벌 개최 (4.17~19, 엑스포과학공원)",
+  "url": "https://daejeontour.co.kr/festival_djt/25",
+  "snippet": "2026 대전사이언스페스티벌이 4월 17~19일 대전컨벤션센터·엑스포과학공원 일원에서 '인공지능과 인간의 공존'을 주제로 개최. RC카 레이싱, 종이비행기 챌린지, 과학 퀴즈, 과학 마술·버스킹 등 체험형 과학 콘텐츠 다수. 모든 프로그램 무료 참여 가능. 국내 최대 규모 과학문화 축제.",
+  "source_name": "대전관광",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음, 전체 new 태깅",
+  "entities": [
+    { "id": "temp-evt-001", "type": "Event", "name": "2026 대전사이언스페스티벌", "start_date": "2026-04-17", "end_date": "2026-04-19", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.9, "kid_friendly_reason": "과학관 권역 대규모 가족 축제, 어린이 체험 부스 다수" },
+    { "id": "temp-venue-001", "type": "Venue", "name": "엑스포과학공원", "dong": "도룡동" },
+    { "id": "temp-venue-002", "type": "Venue", "name": "대전컨벤션센터(DCC)", "dong": "도룡동" },
+    { "id": "temp-org-001", "type": "Organization", "name": "대전광역시", "org_type": "지자체" },
+    { "id": "temp-org-002", "type": "Organization", "name": "대전관광공사", "org_type": "공사" },
+    { "id": "temp-act-001", "type": "Activity", "name": "RC카 레이싱", "category": "체험" },
+    { "id": "temp-act-002", "type": "Activity", "name": "종이비행기 챌린지", "category": "체험" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-001", "predicate": "hostsAt", "object": "temp-venue-001" },
+    { "subject": "temp-evt-001", "predicate": "hostsAt", "object": "temp-venue-002" },
+    { "subject": "temp-evt-001", "predicate": "organizedBy", "object": "temp-org-001" },
+    { "subject": "temp-evt-001", "predicate": "featuresActivity", "object": "temp-act-001" },
+    { "subject": "temp-evt-001", "predicate": "featuresActivity", "object": "temp-act-002" },
+    { "subject": "temp-venue-001", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "temp-venue-002", "predicate": "locatedIn", "object": "dong-doryong" }
+  ]
+}

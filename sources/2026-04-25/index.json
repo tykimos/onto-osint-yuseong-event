@@ -1,0 +1,73 @@
+{
+  "date": "2026-04-25",
+  "total": 8,
+  "new": 8,
+  "reported": 0,
+  "update": 0,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "2026 대전사이언스페스티벌 개최 (4.17~19, 엑스포과학공원)",
+      "url": "https://daejeontour.co.kr/festival_djt/25",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-002",
+      "title": "BMW 모바일 주니어 캠퍼스 — 대전사이언스페스티벌 어린이 체험",
+      "url": "https://biz.heraldcorp.com/article/10718465",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-003",
+      "title": "유성구통합도서관 북스타트 책놀이 프로그램 모집",
+      "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-004",
+      "title": "국립어린이과학관 2026 K-사이언스 어린이 교육 프로그램",
+      "url": "https://www.facebook.com/scijoy2017/posts/2026-k-사이언스-어린이-교육-프로그램-안내",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-005",
+      "title": "사이언스 패스 출시 — 과학관 통합회원 카드 (4.21~)",
+      "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202604211105174220",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-006",
+      "title": "대전시민천문대 상시 무료 관측 프로그램",
+      "url": "https://djstar.kr/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-007",
+      "title": "유성구 '생활밀착형 독서문화' 확산 — 세대별 맞춤 프로그램",
+      "url": "https://www.dominilbo.com/news/articleView.html?idxno=262086",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-008",
+      "title": "2026 미래산업 진로탐색 독서아카데미 — 관평도서관·전민종합문화센터",
+      "url": "https://www.u-library.kr/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    }
+  ]
+}

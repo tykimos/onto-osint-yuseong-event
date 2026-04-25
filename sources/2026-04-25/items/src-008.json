@@ -1,0 +1,27 @@
+{
+  "id": "src-008",
+  "title": "2026 미래산업 진로탐색 독서아카데미 — 관평도서관·전민종합문화센터",
+  "url": "https://www.u-library.kr/",
+  "snippet": "대전공공도서관 연계 '2026 미래산업 진로탐색 독서아카데미' 프로그램. 관평도서관과 전민종합문화센터에서 참여. 강사 채용 완료 후 프로그램 운영 중.",
+  "source_name": "대전공공도서관",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음",
+  "entities": [
+    { "id": "temp-evt-008", "type": "Event", "name": "2026 미래산업 진로탐색 독서아카데미", "fee": "무료", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.7, "kid_friendly_reason": "진로탐색 주제로 초등고학년~중학생 대상 가능성 높으나 명확하지 않아 보수적 평가" },
+    { "id": "temp-org-008", "type": "Organization", "name": "대전공공도서관", "org_type": "도서관" },
+    { "id": "temp-venue-007", "type": "Venue", "name": "관평도서관", "dong": "관평동" },
+    { "id": "temp-venue-010", "type": "Venue", "name": "전민종합문화센터", "dong": "전민동" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-008", "predicate": "hostsAt", "object": "temp-venue-007" },
+    { "subject": "temp-evt-008", "predicate": "hostsAt", "object": "temp-venue-010" },
+    { "subject": "temp-evt-008", "predicate": "organizedBy", "object": "temp-org-008" },
+    { "subject": "temp-evt-008", "predicate": "targetsAgeGroup", "object": "age-elem-high" },
+    { "subject": "temp-venue-007", "predicate": "locatedIn", "object": "dong-gwanpyeong" },
+    { "subject": "temp-venue-010", "predicate": "locatedIn", "object": "dong-jeonmin" }
+  ]
+}

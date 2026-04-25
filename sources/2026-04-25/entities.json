@@ -1,0 +1,277 @@
+{
+  "date": "2026-04-25",
+  "entities": [
+    {
+      "temp_id": "temp-evt-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026 대전사이언스페스티벌",
+      "properties": { "start_date": "2026-04-17", "end_date": "2026-04-19", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.9, "kid_friendly_reason": "과학관 권역 대규모 가족 축제, 어린이 체험 부스 다수" },
+      "source_ids": ["src-001", "src-002"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-evt-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "BMW 모바일 주니어 캠퍼스",
+      "properties": { "start_date": "2026-04-17", "end_date": "2026-04-19", "fee": "무료", "capacity": "하루 8회, 회당 45분", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "kid_friendly_reason": "초등학생 전용 과학체험 워크숍" },
+      "source_ids": ["src-002"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-evt-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "북스타트 책놀이",
+      "properties": { "fee": "무료", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "kid_friendly_reason": "영유아 전용 독서놀이 프로그램" },
+      "source_ids": ["src-003", "src-007"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-evt-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026 K-사이언스 어린이 교육 프로그램",
+      "properties": { "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "kid_friendly_reason": "어린이 전용 과학관의 교육 프로그램" },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-evt-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "사이언스 패스 출시",
+      "properties": { "start_date": "2026-04-21", "fee": "무료 (회원카드)", "indoor_outdoor": "실내", "kid_friendly_score": 0.7, "kid_friendly_reason": "과학관 이용 편의 향상이나 어린이 전용은 아님" },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-evt-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "대전시민천문대 상시 관측 프로그램",
+      "properties": { "fee": "무료", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.85, "kid_friendly_reason": "가족 단위 천문 관측, 어린이 천문교실 운영" },
+      "source_ids": ["src-006"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-evt-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "유성구 도서관 세대별 독서문화 프로그램",
+      "properties": { "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.9, "kid_friendly_reason": "영유아~어린이 전용 독서·체험 프로그램 다수 포함" },
+      "source_ids": ["src-007"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-evt-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026 미래산업 진로탐색 독서아카데미",
+      "properties": { "fee": "무료", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.7, "kid_friendly_reason": "진로탐색 주제로 초등고학년~중학생 대상 가능성 높으나 명확하지 않아 보수적 평가" },
+      "source_ids": ["src-008"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-venue-001",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "엑스포과학공원",
+      "properties": { "dong": "도룡동", "venue_type": "과학공원" },
+      "source_ids": ["src-001", "src-002"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-venue-002",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "대전컨벤션센터(DCC)",
+      "properties": { "dong": "도룡동", "venue_type": "컨벤션센터" },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-venue-003",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "유성도서관",
+      "properties": { "dong": "가정동", "venue_type": "도서관", "address": "대덕대로 507-38 (가정동)", "phone": "042-611-6530" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-venue-004",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "국립어린이과학관",
+      "properties": { "dong": "도룡동", "venue_type": "과학관" },
+      "source_ids": ["src-004"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-venue-005",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "국립중앙과학관",
+      "properties": { "dong": "도룡동", "venue_type": "과학관" },
+      "source_ids": ["src-005"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-venue-006",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "대전시민천문대",
+      "properties": { "dong": "도룡동", "venue_type": "천문대" },
+      "source_ids": ["src-006"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-venue-007",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "관평도서관",
+      "properties": { "dong": "관평동", "venue_type": "도서관", "address": "테크노4로 131 (관평동)", "phone": "042-716-0350" },
+      "source_ids": ["src-007", "src-008"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-venue-008",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "노은도서관",
+      "properties": { "dong": "노은동", "venue_type": "도서관" },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-venue-009",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "전민도서관",
+      "properties": { "dong": "문지동", "venue_type": "도서관", "address": "문지로299번길 18 (문지동)", "phone": "042-389-0350" },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-venue-010",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "전민종합문화센터",
+      "properties": { "dong": "전민동", "venue_type": "문화센터" },
+      "source_ids": ["src-008"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-org-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전광역시",
+      "properties": { "org_type": "지자체" },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-org-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전관광공사",
+      "properties": { "org_type": "공사" },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-org-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "BMW 코리아 미래재단",
+      "properties": { "org_type": "재단" },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-org-004",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "유성구통합도서관",
+      "properties": { "org_type": "도서관" },
+      "source_ids": ["src-003", "src-007"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-org-005",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "국립어린이과학관",
+      "properties": { "org_type": "과학관" },
+      "source_ids": ["src-004"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-org-006",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "국립중앙과학관",
+      "properties": { "org_type": "과학관" },
+      "source_ids": ["src-005"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-org-007",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전시민천문대",
+      "properties": { "org_type": "천문대" },
+      "source_ids": ["src-006"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-org-008",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전공공도서관",
+      "properties": { "org_type": "도서관" },
+      "source_ids": ["src-008"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "temp-evt-001", "predicate": "hostsAt", "object": "temp-venue-001", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-evt-001", "predicate": "hostsAt", "object": "temp-venue-002", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-evt-001", "predicate": "organizedBy", "object": "temp-org-001", "source_ids": ["src-001"], "confidence": 0.9 },
+    { "subject": "temp-evt-002", "predicate": "hostsAt", "object": "temp-venue-001", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "temp-evt-002", "predicate": "organizedBy", "object": "temp-org-003", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "temp-evt-002", "predicate": "partOfSeries", "object": "temp-evt-001", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-evt-003", "predicate": "hostsAt", "object": "temp-venue-003", "source_ids": ["src-003"], "confidence": 0.85 },
+    { "subject": "temp-evt-003", "predicate": "organizedBy", "object": "temp-org-004", "source_ids": ["src-003"], "confidence": 0.9 },
+    { "subject": "temp-evt-004", "predicate": "hostsAt", "object": "temp-venue-004", "source_ids": ["src-004"], "confidence": 0.95 },
+    { "subject": "temp-evt-004", "predicate": "organizedBy", "object": "temp-org-005", "source_ids": ["src-004"], "confidence": 0.95 },
+    { "subject": "temp-evt-005", "predicate": "organizedBy", "object": "temp-org-006", "source_ids": ["src-005"], "confidence": 0.9 },
+    { "subject": "temp-evt-006", "predicate": "hostsAt", "object": "temp-venue-006", "source_ids": ["src-006"], "confidence": 0.95 },
+    { "subject": "temp-evt-006", "predicate": "organizedBy", "object": "temp-org-007", "source_ids": ["src-006"], "confidence": 0.95 },
+    { "subject": "temp-evt-007", "predicate": "organizedBy", "object": "temp-org-004", "source_ids": ["src-007"], "confidence": 0.9 },
+    { "subject": "temp-evt-008", "predicate": "hostsAt", "object": "temp-venue-007", "source_ids": ["src-008"], "confidence": 0.85 },
+    { "subject": "temp-evt-008", "predicate": "hostsAt", "object": "temp-venue-010", "source_ids": ["src-008"], "confidence": 0.85 },
+    { "subject": "temp-evt-008", "predicate": "organizedBy", "object": "temp-org-008", "source_ids": ["src-008"], "confidence": 0.85 },
+    { "subject": "temp-venue-001", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-venue-002", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-venue-004", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-004"], "confidence": 0.95 },
+    { "subject": "temp-venue-005", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-005"], "confidence": 0.95 },
+    { "subject": "temp-venue-006", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-006"], "confidence": 0.95 },
+    { "subject": "temp-venue-007", "predicate": "locatedIn", "object": "dong-gwanpyeong", "source_ids": ["src-007", "src-008"], "confidence": 0.95 },
+    { "subject": "temp-venue-008", "predicate": "locatedIn", "object": "dong-noeun", "source_ids": ["src-007"], "confidence": 0.9 },
+    { "subject": "temp-venue-009", "predicate": "locatedIn", "object": "dong-munji", "source_ids": ["src-007"], "confidence": 0.9 },
+    { "subject": "temp-venue-010", "predicate": "locatedIn", "object": "dong-jeonmin", "source_ids": ["src-008"], "confidence": 0.9 },
+    { "subject": "temp-org-004", "predicate": "operates", "object": "temp-venue-003", "source_ids": ["src-003"], "confidence": 0.9 },
+    { "subject": "temp-org-005", "predicate": "operates", "object": "temp-venue-004", "source_ids": ["src-004"], "confidence": 0.95 },
+    { "subject": "temp-org-006", "predicate": "operates", "object": "temp-venue-005", "source_ids": ["src-005"], "confidence": 0.95 },
+    { "subject": "temp-org-007", "predicate": "operates", "object": "temp-venue-006", "source_ids": ["src-006"], "confidence": 0.95 }
+  ],
+  "stats": {
+    "total_entities": 26,
+    "new_entities": 26,
+    "matched_entities": 0,
+    "total_relations": 30
+  }
+}

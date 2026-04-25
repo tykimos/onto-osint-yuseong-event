@@ -1,8 +1,80 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": null,
-  "classes": [],
-  "relations": [],
-  "changelog": []
+  "last_updated": "2026-04-25",
+  "classes": [
+    {
+      "id": "Entity",
+      "label": "엔티티",
+      "description": "최상위 클래스",
+      "subclasses": [
+        {
+          "id": "Event",
+          "label": "이벤트",
+          "description": "유성구 일대에서 개최되는 행사·체험·공연·교육 프로그램",
+          "properties": [
+            "name", "start_date", "end_date", "start_time", "end_time",
+            "venue", "host", "fee", "capacity", "registration_required",
+            "registration_deadline", "registration_url", "target_age_group",
+            "kid_friendly_score", "weather_dependency", "indoor_outdoor", "source_url"
+          ]
+        },
+        {
+          "id": "Venue",
+          "label": "장소",
+          "description": "이벤트가 열리는 물리적 장소 (도서관·과학관·공원·문화원 등)",
+          "properties": [
+            "name", "dong", "address", "venue_type", "parking",
+            "stroller_accessible", "nursing_room", "kids_zone",
+            "transit", "phone", "website"
+          ]
+        },
+        {
+          "id": "Organization",
+          "label": "주최기관",
+          "description": "이벤트를 주최·주관·후원하는 기관",
+          "properties": ["name", "org_type", "contact", "website"]
+        },
+        {
+          "id": "Activity",
+          "label": "활동",
+          "description": "이벤트의 핵심 활동 유형 (체험·전시·공연·강연·축제·스포츠 등)",
+          "properties": ["name", "category", "duration_minutes"]
+        },
+        {
+          "id": "AgeGroup",
+          "label": "대상연령",
+          "description": "이벤트가 적합한 연령대 분류",
+          "properties": ["label", "min_age", "max_age"]
+        },
+        {
+          "id": "Dong",
+          "label": "행정동",
+          "description": "유성구 행정동 단위 — 동별 모니터링 대상",
+          "properties": ["name", "is_primary_target"]
+        }
+      ]
+    }
+  ],
+  "relations": [
+    { "id": "hostsAt", "label": "개최장소", "domain": "Event", "range": "Venue" },
+    { "id": "organizedBy", "label": "주최", "domain": "Event", "range": "Organization" },
+    { "id": "locatedIn", "label": "소재동", "domain": "Venue", "range": "Dong" },
+    { "id": "featuresActivity", "label": "활동내용", "domain": "Event", "range": "Activity" },
+    { "id": "targetsAgeGroup", "label": "대상연령", "domain": "Event", "range": "AgeGroup" },
+    { "id": "followsEvent", "label": "후속회차", "domain": "Event", "range": "Event" },
+    { "id": "partOfSeries", "label": "시리즈일부", "domain": "Event", "range": "Event" },
+    { "id": "nearby", "label": "근처", "domain": "Venue", "range": "Venue" },
+    { "id": "operates", "label": "운영", "domain": "Organization", "range": "Venue" },
+    { "id": "supersedes", "label": "대체", "domain": "Event", "range": "Event" }
+  ],
+  "changelog": [
+    {
+      "date": "2026-04-25",
+      "action": "initialize",
+      "target": "all",
+      "reason": "config/osint-config.json의 seed_classes 및 seed_relations로부터 초기화",
+      "source_ids": []
+    }
+  ]
 }

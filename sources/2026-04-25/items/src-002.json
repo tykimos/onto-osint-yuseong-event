@@ -1,0 +1,28 @@
+{
+  "id": "src-002",
+  "title": "BMW 모바일 주니어 캠퍼스 — 대전사이언스페스티벌 어린이 체험",
+  "url": "https://biz.heraldcorp.com/article/10718465",
+  "snippet": "BMW 코리아 미래재단이 2026 대전사이언스페스티벌에서 '모바일 주니어 캠퍼스' 운영. 초등학생 대상 전기차·수소차·자율주행 등 미래 모빌리티 기술 체험 실험실·워크숍. 하루 8회, 회당 45분, 무료.",
+  "source_name": "헤럴드경제",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-001",
+  "tag_reason": "src-001(사이언스페스티벌)의 세부 프로그램이나 별도 출처·상세 정보이므로 독립 항목 처리",
+  "entities": [
+    { "id": "temp-evt-002", "type": "Event", "name": "BMW 모바일 주니어 캠퍼스", "start_date": "2026-04-17", "end_date": "2026-04-19", "fee": "무료", "capacity": "회당 정원 있음", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "kid_friendly_reason": "초등학생 전용 과학체험 워크숍" },
+    { "id": "temp-org-003", "type": "Organization", "name": "BMW 코리아 미래재단", "org_type": "재단" },
+    { "id": "temp-act-003", "type": "Activity", "name": "미래 모빌리티 체험 워크숍", "category": "교육·체험", "duration_minutes": 45 },
+    { "id": "temp-age-elem", "type": "AgeGroup", "name": "초등학생", "min_age": 7, "max_age": 12 },
+    { "id": "temp-venue-001", "type": "Venue", "name": "엑스포과학공원", "dong": "도룡동" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-002", "predicate": "hostsAt", "object": "temp-venue-001" },
+    { "subject": "temp-evt-002", "predicate": "organizedBy", "object": "temp-org-003" },
+    { "subject": "temp-evt-002", "predicate": "featuresActivity", "object": "temp-act-003" },
+    { "subject": "temp-evt-002", "predicate": "targetsAgeGroup", "object": "age-elem-low" },
+    { "subject": "temp-evt-002", "predicate": "targetsAgeGroup", "object": "age-elem-high" },
+    { "subject": "temp-evt-002", "predicate": "partOfSeries", "object": "temp-evt-001" }
+  ]
+}

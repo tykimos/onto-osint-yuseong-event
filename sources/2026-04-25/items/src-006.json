@@ -1,0 +1,25 @@
+{
+  "id": "src-006",
+  "title": "대전시민천문대 상시 무료 관측 프로그램",
+  "url": "https://djstar.kr/",
+  "snippet": "대전시민천문대는 2001년 개관한 지자체 1호 천문과학관. 무료 입장, 오후 2시~밤 10시 운영 (입장마감 21:50). 매주 월요일·공휴일 다음날·명절 휴관. 연간 10만 명 이상 방문. 천체망원경 이용 4계절 별자리 관측, 천문우주과학 체험 프로그램 상시 운영.",
+  "source_name": "대전시민천문대",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음",
+  "entities": [
+    { "id": "temp-evt-006", "type": "Event", "name": "대전시민천문대 상시 관측 프로그램", "fee": "무료", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.85, "kid_friendly_reason": "가족 단위 천문 관측, 어린이 천문교실 운영" },
+    { "id": "temp-org-007", "type": "Organization", "name": "대전시민천문대", "org_type": "천문대" },
+    { "id": "temp-venue-006", "type": "Venue", "name": "대전시민천문대", "dong": "도룡동" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-006", "predicate": "hostsAt", "object": "temp-venue-006" },
+    { "subject": "temp-evt-006", "predicate": "organizedBy", "object": "temp-org-007" },
+    { "subject": "temp-evt-006", "predicate": "targetsAgeGroup", "object": "age-family" },
+    { "subject": "temp-venue-006", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "temp-org-007", "predicate": "operates", "object": "temp-venue-006" }
+  ]
+}

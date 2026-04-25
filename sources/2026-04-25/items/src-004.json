@@ -1,0 +1,28 @@
+{
+  "id": "src-004",
+  "title": "국립어린이과학관 2026 K-사이언스 어린이 교육 프로그램",
+  "url": "https://www.facebook.com/scijoy2017/posts/2026-k-사이언스-어린이-교육-프로그램-안내",
+  "snippet": "국립어린이과학관에서 2026 K-사이언스 어린이 교육 프로그램 운영. 우리 선조의 전통 과학기술에 담긴 지혜를 계승하고 대한민국 핵심 첨단 과학기술 체험 교육.",
+  "source_name": "국립어린이과학관 Facebook",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음",
+  "entities": [
+    { "id": "temp-evt-004", "type": "Event", "name": "2026 K-사이언스 어린이 교육 프로그램", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "kid_friendly_reason": "어린이 전용 과학관의 교육 프로그램" },
+    { "id": "temp-org-005", "type": "Organization", "name": "국립어린이과학관", "org_type": "과학관" },
+    { "id": "temp-venue-004", "type": "Venue", "name": "국립어린이과학관", "dong": "도룡동" },
+    { "id": "temp-act-005", "type": "Activity", "name": "전통과학·첨단기술 체험교육", "category": "교육·체험" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-004", "predicate": "hostsAt", "object": "temp-venue-004" },
+    { "subject": "temp-evt-004", "predicate": "organizedBy", "object": "temp-org-005" },
+    { "subject": "temp-evt-004", "predicate": "featuresActivity", "object": "temp-act-005" },
+    { "subject": "temp-evt-004", "predicate": "targetsAgeGroup", "object": "age-elem-low" },
+    { "subject": "temp-evt-004", "predicate": "targetsAgeGroup", "object": "age-elem-high" },
+    { "subject": "temp-venue-004", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "temp-org-005", "predicate": "operates", "object": "temp-venue-004" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "src-007",
+  "title": "유성구 '생활밀착형 독서문화' 확산 — 세대별 맞춤 프로그램",
+  "url": "https://www.dominilbo.com/news/articleView.html?idxno=262086",
+  "snippet": "유성구가 생활밀착형 독서문화 확산에 나서고 있다. 영유아 대상 '북스타트 책놀이', 어린이 독서·체험 프로그램, 가족 영화상영, 인형극 등 세대별 맞춤형 프로그램 운영. 관평·노은·진잠·전민 등 각 도서관에서 다양한 독서문화행사 진행.",
+  "source_name": "충청도민일보",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음",
+  "entities": [
+    { "id": "temp-evt-007", "type": "Event", "name": "유성구 도서관 세대별 독서문화 프로그램", "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.9, "kid_friendly_reason": "영유아~어린이 전용 독서·체험 프로그램 다수 포함" },
+    { "id": "temp-org-004", "type": "Organization", "name": "유성구통합도서관", "org_type": "도서관" },
+    { "id": "temp-venue-007", "type": "Venue", "name": "관평도서관", "dong": "관평동" },
+    { "id": "temp-venue-008", "type": "Venue", "name": "노은도서관", "dong": "노은동" },
+    { "id": "temp-venue-009", "type": "Venue", "name": "전민도서관", "dong": "문지동" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-007", "predicate": "hostsAt", "object": "temp-venue-007" },
+    { "subject": "temp-evt-007", "predicate": "hostsAt", "object": "temp-venue-008" },
+    { "subject": "temp-evt-007", "predicate": "hostsAt", "object": "temp-venue-009" },
+    { "subject": "temp-evt-007", "predicate": "organizedBy", "object": "temp-org-004" },
+    { "subject": "temp-evt-007", "predicate": "targetsAgeGroup", "object": "age-infant" },
+    { "subject": "temp-evt-007", "predicate": "targetsAgeGroup", "object": "age-toddler" },
+    { "subject": "temp-evt-007", "predicate": "targetsAgeGroup", "object": "age-elem-low" },
+    { "subject": "temp-venue-007", "predicate": "locatedIn", "object": "dong-gwanpyeong" },
+    { "subject": "temp-venue-008", "predicate": "locatedIn", "object": "dong-noeun" },
+    { "subject": "temp-venue-009", "predicate": "locatedIn", "object": "dong-munji" }
+  ]
+}

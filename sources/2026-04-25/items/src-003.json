@@ -1,0 +1,27 @@
+{
+  "id": "src-003",
+  "title": "유성구통합도서관 북스타트 책놀이 프로그램 모집",
+  "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956",
+  "snippet": "유성구통합도서관에서 '북스타트 책놀이' 프로그램 모집. 36개월~미취학 아동 + 보호자 대상. 영유아 독서진흥 프로그램의 일환으로 세대별 맞춤형 독서문화 확산 사업.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-04-25",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행 — 이전 소스 없음",
+  "entities": [
+    { "id": "temp-evt-003", "type": "Event", "name": "북스타트 책놀이", "fee": "무료", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "kid_friendly_reason": "영유아 전용 독서놀이 프로그램" },
+    { "id": "temp-org-004", "type": "Organization", "name": "유성구통합도서관", "org_type": "도서관" },
+    { "id": "temp-venue-003", "type": "Venue", "name": "유성도서관", "dong": "가정동" },
+    { "id": "temp-act-004", "type": "Activity", "name": "책놀이·독서활동", "category": "교육" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-003", "predicate": "hostsAt", "object": "temp-venue-003" },
+    { "subject": "temp-evt-003", "predicate": "organizedBy", "object": "temp-org-004" },
+    { "subject": "temp-evt-003", "predicate": "featuresActivity", "object": "temp-act-004" },
+    { "subject": "temp-evt-003", "predicate": "targetsAgeGroup", "object": "age-infant" },
+    { "subject": "temp-evt-003", "predicate": "targetsAgeGroup", "object": "age-toddler" },
+    { "subject": "temp-org-004", "predicate": "operates", "object": "temp-venue-003" }
+  ]
+}
