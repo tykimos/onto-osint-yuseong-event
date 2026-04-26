@@ -13,6 +13,8 @@
     "scope": {
       "include": [
         "유성구",
+        "용성로",
+        "용성로20",
         "용산동",
         "전민동",
         "관평동",
@@ -33,7 +35,26 @@
         "박물관 체험",
         "공원 축제",
         "키즈",
-        "패밀리"
+        "패밀리",
+        "행정복지센터",
+        "주민센터",
+        "보건소",
+        "우체국",
+        "경찰서",
+        "소방서",
+        "복지관",
+        "주민자치",
+        "오픈이벤트",
+        "그랜드오픈",
+        "신규개점",
+        "프로모션",
+        "팝업스토어",
+        "원데이클래스",
+        "키즈카페",
+        "키즈존",
+        "베이커리",
+        "카페 이벤트",
+        "맛집 이벤트"
       ],
       "exclude": [
         "성인 전용",
@@ -50,7 +71,20 @@
     "report_language": "ko",
     "lookback_days": 14,
     "schedule_cron": "0 22 * * *",
-    "schedule_description": "KST 07:00 매일 (전날 수집된 이벤트 + 향후 2주간 모집/개최 이벤트)"
+    "schedule_description": "KST 07:00 매일 (전날 수집된 이벤트 + 향후 2주간 모집/개최 이벤트)",
+    "geo_focus": {
+      "center_address": "대전광역시 유성구 용성로 20",
+      "center_label": "용성로20",
+      "rationale": "사용자 거점 — 도보·차량 접근성이 가장 좋은 지점. 이 지점을 중심으로 동심원 우선순위 부여",
+      "rings": [
+        { "id": "ring-walk",  "radius_km": 0.5, "label": "도보권 (5분 내)",   "priority": 1 },
+        { "id": "ring-stroll", "radius_km": 1.0, "label": "도보권 (15분 내)",  "priority": 2 },
+        { "id": "ring-bike",   "radius_km": 2.0, "label": "자전거·짧은 차량",  "priority": 3 },
+        { "id": "ring-car",    "radius_km": 5.0, "label": "차량 10분 내",      "priority": 4 }
+      ],
+      "anchor_dongs": ["용산동", "전민동", "관평동"],
+      "include_in_report": true
+    }
   },
   "search": {
     "min_searches": 12,
@@ -140,6 +174,48 @@
         "url": "https://www.djto.or.kr",
         "section": "축제·이벤트 캘린더",
         "notes": "구 단위 축제 통합 캘린더"
+      },
+      {
+        "id": "yongsan-jumin",
+        "name": "용산동·전민동·관평동 행정복지센터",
+        "url": "https://www.yuseong.go.kr/dong",
+        "section": "주민자치·동 단위 공지·동네 행사",
+        "notes": "용성로20 도보권의 1차 행정 출처 — 동 단위 소규모 행사·자치프로그램"
+      },
+      {
+        "id": "yuseong-health",
+        "name": "유성구 보건소",
+        "url": "https://www.yuseong.go.kr/health",
+        "section": "건강프로그램·예방접종·아동건강",
+        "notes": "영유아 건강검진·구강관리·부모교육"
+      },
+      {
+        "id": "yuseong-welfare",
+        "name": "유성구 복지관·아동복지·다함께돌봄",
+        "url": "https://www.yuseong.go.kr/welfare",
+        "section": "아동·가족 복지 프로그램",
+        "notes": "다함께돌봄센터·지역아동센터·가족복지 행사"
+      },
+      {
+        "id": "naver-place",
+        "name": "Naver Place / Naver Map (용성로20 인근 가게·이벤트)",
+        "url": "https://map.naver.com/p/search/%EC%9A%A9%EC%84%B1%EB%A1%9C%2020",
+        "section": "주변 가게·신규 오픈·이벤트 공지",
+        "notes": "용성로20 인근 카페·식당·키즈카페·학원의 신규 오픈/프로모션 1차 출처"
+      },
+      {
+        "id": "kakao-place",
+        "name": "Kakao Map / 카카오 플레이스 (용성로20 인근)",
+        "url": "https://map.kakao.com/?q=용성로%2020",
+        "section": "주변 가게·이벤트",
+        "notes": "Naver와 교차검증 — 영업시간·정기휴무·이벤트 공지 차이 비교"
+      },
+      {
+        "id": "instagram-local",
+        "name": "Instagram 지역 해시태그",
+        "url": "https://www.instagram.com/explore/tags/%EC%9A%A9%EC%84%B1%EB%A1%9C/",
+        "section": "#용성로 #용산동맛집 #전민동카페 #관평동키즈카페 #유성구가볼만한곳",
+        "notes": "신규 오픈·팝업·이벤트의 SNS 비공식 공지 — 출처는 게시물 URL"
       }
     ],
     "keywords": {
@@ -164,7 +240,32 @@
         "유성구 가족센터 프로그램",
         "유성문화원 어린이",
         "노은동 어린이",
-        "지족동 도서관"
+        "지족동 도서관",
+        "유성구 용성로",
+        "용성로20",
+        "용성로 카페",
+        "용성로 맛집",
+        "용성로 키즈카페",
+        "용성로 오픈",
+        "용산동 행정복지센터",
+        "전민동 행정복지센터",
+        "관평동 행정복지센터",
+        "유성구 보건소",
+        "유성구 우체국 이벤트",
+        "유성구 경찰서 어린이",
+        "유성구 소방서 체험",
+        "유성구 주민자치 프로그램",
+        "유성구 복지관 프로그램",
+        "유성구 신규 오픈",
+        "용산동 카페 신규",
+        "전민동 베이커리 신규",
+        "관평동 식당 오픈",
+        "유성구 팝업스토어",
+        "유성구 원데이클래스",
+        "용산동 가게",
+        "전민동 가게",
+        "관평동 가게",
+        "문지동 가게"
       ],
       "en": [
         "Yuseong-gu kids events Daejeon",
@@ -226,8 +327,26 @@
           {
             "id": "Organization",
             "label": "주최기관",
-            "description": "이벤트를 주최·주관·후원하는 기관",
-            "properties": ["name", "org_type", "contact", "website"]
+            "description": "이벤트를 주최·주관·후원하는 기관 — 공공기관/민간상점/단체 등 (org_type으로 구분)",
+            "properties": ["name", "org_type", "contact", "website"],
+            "org_type_enum": [
+              "구청", "행정복지센터", "도서관", "과학관", "박물관",
+              "평생학습관", "가족센터", "보건소", "복지관", "주민자치회",
+              "우체국", "경찰서", "소방서", "출연연", "대학",
+              "카페", "베이커리", "식당", "키즈카페", "학원",
+              "공방", "팝업스토어", "갤러리", "기타민간"
+            ]
+          },
+          {
+            "id": "Shop",
+            "label": "가게",
+            "description": "용성로20 인근 민간 상업 시설 — 카페·식당·키즈카페·공방·학원 등. Venue의 한 형태이지만 영업/이벤트 정보가 자주 변하므로 별도 클래스로 분리",
+            "properties": [
+              "name", "shop_type", "dong", "address", "distance_from_anchor_m",
+              "open_hours", "regular_holiday", "kid_friendly",
+              "menu_highlights", "price_range", "instagram", "naver_url",
+              "opened_date", "is_new"
+            ]
           },
           {
             "id": "Activity",
@@ -260,7 +379,11 @@
       { "id": "partOfSeries", "label": "시리즈일부", "domain": "Event", "range": "Event" },
       { "id": "nearby", "label": "근처", "domain": "Venue", "range": "Venue" },
       { "id": "operates", "label": "운영", "domain": "Organization", "range": "Venue" },
-      { "id": "supersedes", "label": "대체", "domain": "Event", "range": "Event" }
+      { "id": "supersedes", "label": "대체", "domain": "Event", "range": "Event" },
+      { "id": "shopHosts", "label": "가게주최", "domain": "Shop", "range": "Event" },
+      { "id": "shopLocatedIn", "label": "가게소재동", "domain": "Shop", "range": "Dong" },
+      { "id": "withinRing", "label": "동심원소속", "domain": "Venue", "range": "GeoRing" },
+      { "id": "shopWithinRing", "label": "가게동심원", "domain": "Shop", "range": "GeoRing" }
     ],
     "reasoning_rules": [
       {
@@ -287,6 +410,21 @@
         "id": "indoor_rainy_fallback",
         "description": "동일 동 내 실내 이벤트는 우천 시 야외 이벤트의 대체 후보",
         "pattern": "(?e1 indoor_outdoor outdoor) AND (?e2 indoor_outdoor indoor) AND (?e1 sameDong ?e2) => (?e2 rainyFallbackFor ?e1)"
+      },
+      {
+        "id": "anchor_distance_priority",
+        "description": "용성로20에서 가까운 ring일수록 보고서 우선순위 가산점 — ring-walk(0.5km)>ring-stroll(1km)>ring-bike(2km)>ring-car(5km)",
+        "pattern": "(?v withinRing ?r) AND (?r.priority < N) => (?e priorityBoost = (5-priority)*0.1)"
+      },
+      {
+        "id": "new_shop_event_combo",
+        "description": "신규 오픈한 가게(opened_date <= 30일) + 오픈 이벤트는 우선 추천",
+        "pattern": "(?s is_new true) AND (?s shopHosts ?e) AND (?e activity 그랜드오픈|프로모션) => (?e newShopBoost +0.3)"
+      },
+      {
+        "id": "public_institution_kid_event",
+        "description": "공공기관(보건소·복지관·행정복지센터·소방서·경찰서) 주최 어린이 대상 이벤트는 신뢰도·접근성 가산",
+        "pattern": "(?o orgType in {보건소,복지관,행정복지센터,소방서,경찰서,우체국}) AND (?e organizedBy ?o) AND (?e targetsAgeGroup 영유아|유아|초등저학년|초등고학년) => (?e publicTrustBoost +0.15)"
       }
     ],
     "max_new_classes_per_day": 3,
@@ -313,6 +451,12 @@
         { "id": "age-elem-high", "label": "초등고학년", "min_age": 10, "max_age": 12 },
         { "id": "age-middle", "label": "중학생이상", "min_age": 13, "max_age": 99 },
         { "id": "age-family", "label": "전연령가족", "min_age": 0, "max_age": 99 }
+      ],
+      "GeoRing": [
+        { "id": "ring-walk",   "radius_km": 0.5, "label": "도보권 (5분 내)",  "priority": 1 },
+        { "id": "ring-stroll", "radius_km": 1.0, "label": "도보권 (15분 내)", "priority": 2 },
+        { "id": "ring-bike",   "radius_km": 2.0, "label": "자전거·짧은 차량", "priority": 3 },
+        { "id": "ring-car",    "radius_km": 5.0, "label": "차량 10분 내",     "priority": 4 }
       ]
     }
   },
@@ -324,9 +468,13 @@
     "wiki_publish": true,
     "empty_report_message": "금일 유성구 일대 어린이·가족 동반 신규 이벤트 특이사항 없음",
     "sections": [
+      "용성로20 주변 (도보권 0.5km 내) — 최우선",
       "오늘의 추천 (가족 동반 Top 5)",
       "신규 이벤트",
+      "신규 오픈 가게·팝업·프로모션",
+      "공공기관 주최 행사 (행정복지센터·보건소·복지관·도서관·우체국·경찰서·소방서)",
       "마감 임박 (사전신청 D-3 이내)",
+      "동심원별 묶음 (0.5km / 1km / 2km / 5km)",
       "동(洞)별 이벤트 묶음",
       "연령대별 묶음",
       "시리즈/정기 프로그램 업데이트",
