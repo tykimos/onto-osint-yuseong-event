@@ -1,0 +1,19 @@
+{
+  "id": "src-015",
+  "title": "유성구 북스타트 7개 도서관 확대 운영 — 영유아 독서 첫걸음",
+  "url": "https://www.dominilbo.com/news/articleView.html?idxno=262939",
+  "snippet": "유성구가 관내 7개 도서관에서 영유아 북스타트 프로그램을 확대 운영한다. 연령별 맞춤 책놀이: 3~18개월(아가랑도서관), 19~35개월(원신흥·노은), 6개월~미취학(구즉·유성). 4월 참가자 5월 중복 신청 가능",
+  "source_name": "충청도민일보",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "update",
+  "related_report": "2026-04-25",
+  "related_item": "src-003 (북스타트 책놀이 프로그램)",
+  "tag_reason": "기존 북스타트 프로그램의 확대 운영 정보 — 7개 도서관 목록, 연령별 세분화, 5월 재참가 가능 등 유의미한 새 정보 포함",
+  "entities": [
+    { "id": "ent-venue-016", "type": "Venue", "name": "아가랑도서관", "properties": { "dong": "전민동", "venue_type": "도서관" } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-003", "predicate": "hostsAt", "object": "ent-venue-016" }
+  ]
+}

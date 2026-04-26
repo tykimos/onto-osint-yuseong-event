@@ -1,0 +1,19 @@
+{
+  "id": "src-018",
+  "title": "대전 신세계 Art&Science 봄맞이 이색 팝업·신규 브랜드 입점",
+  "url": "https://www.news1.kr/local/daejeon-chungnam/6116778",
+  "snippet": "대전 신세계 Art&Science에서 봄시즌 이색 팝업과 신규 브랜드로 봄맞이 진행. 도룡동 엑스포로 소재로 아쿠아리움과 동일 건물",
+  "source_name": "뉴스1",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "도룡동 신세계 Art&Science 봄 팝업 — Shop 카테고리 추가 인스턴스. 아쿠아리움과 동일 건물이므로 가족 연계 방문 시너지",
+  "entities": [
+    { "id": "ent-shop-003", "type": "Shop", "name": "신세계 Art&Science 대전", "properties": { "shop_type": "백화점", "dong": "도룡동", "address": "대전 유성구 엑스포로 1", "distance_from_anchor_m": 3500, "kid_friendly": true, "is_new": false } }
+  ],
+  "relations": [
+    { "subject": "ent-shop-003", "predicate": "shopLocatedIn", "object": "dong-doryong" }
+  ]
+}

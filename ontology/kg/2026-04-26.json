@@ -21,7 +21,24 @@
     { "subject": "ent-evt-013", "predicate": "hostsAt", "object": "ent-venue-015", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
     { "subject": "ent-evt-013", "predicate": "organizedBy", "object": "ent-org-014", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
     { "subject": "ent-org-014", "predicate": "operates", "object": "ent-venue-015", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
-    { "subject": "ent-venue-015", "predicate": "locatedIn", "object": "dong-guam", "confidence": 0.85, "type": "explicit", "source_id": "src-004" }
+    { "subject": "ent-venue-015", "predicate": "locatedIn", "object": "dong-guam", "confidence": 0.85, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-evt-014", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.9, "type": "explicit", "source_id": "src-013" },
+    { "subject": "ent-evt-014", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.9, "type": "explicit", "source_id": "src-013" },
+    { "subject": "ent-evt-014", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit", "source_id": "src-013" },
+    { "subject": "ent-evt-015", "predicate": "hostsAt", "object": "ent-venue-004", "confidence": 0.95, "type": "explicit", "source_id": "src-014" },
+    { "subject": "ent-evt-015", "predicate": "organizedBy", "object": "ent-org-005", "confidence": 0.95, "type": "explicit", "source_id": "src-014" },
+    { "subject": "ent-evt-015", "predicate": "partOfSeries", "object": "ent-evt-004", "confidence": 0.85, "type": "explicit", "source_id": "src-014" },
+    { "subject": "ent-evt-016", "predicate": "hostsAt", "object": "ent-venue-004", "confidence": 0.95, "type": "explicit", "source_id": "src-014" },
+    { "subject": "ent-evt-017", "predicate": "hostsAt", "object": "ent-venue-016", "confidence": 0.9, "type": "explicit", "source_id": "src-016" },
+    { "subject": "ent-evt-017", "predicate": "organizedBy", "object": "ent-org-004", "confidence": 0.85, "type": "explicit", "source_id": "src-016" },
+    { "subject": "ent-evt-017", "predicate": "targetsAgeGroup", "object": "age-infant", "confidence": 0.95, "type": "explicit", "source_id": "src-016" },
+    { "subject": "ent-venue-016", "predicate": "locatedIn", "object": "dong-jeonmin", "confidence": 0.9, "type": "explicit", "source_id": "src-016" },
+    { "subject": "ent-venue-016", "predicate": "withinRing", "object": "ring-stroll", "confidence": 0.8, "type": "explicit", "source_id": "src-016" },
+    { "subject": "ent-evt-018", "predicate": "organizedBy", "object": "ent-org-015", "confidence": 0.9, "type": "explicit", "source_id": "src-017" },
+    { "subject": "ent-evt-019", "predicate": "hostsAt", "object": "ent-venue-017", "confidence": 0.85, "type": "explicit", "source_id": "src-017" },
+    { "subject": "ent-evt-019", "predicate": "organizedBy", "object": "ent-org-015", "confidence": 0.9, "type": "explicit", "source_id": "src-017" },
+    { "subject": "ent-org-015", "predicate": "operates", "object": "ent-venue-017", "confidence": 0.9, "type": "explicit", "source_id": "src-017" },
+    { "subject": "ent-shop-003", "predicate": "shopLocatedIn", "object": "dong-doryong", "confidence": 0.9, "type": "explicit", "source_id": "src-018" }
   ],
   "updated_triples": [],
   "inferred_triples": [
@@ -31,11 +48,17 @@
     { "subject": "ent-evt-011", "predicate": "visitCombo", "object": "ent-evt-006", "confidence": 0.8, "type": "inferred", "rule": "same_dong_combo", "reason": "도룡동 동일 소재, 아쿠아리움(주간) + 천문대(야간) 시간대 연계" },
     { "subject": "ent-evt-012", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness", "reason": "평생학습관 운영 프로그램 → 공공기관 가산" },
     { "subject": "ent-evt-013", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "reason": "복지관 주최 청소년 프로그램 → 공공기관 신뢰도 가산" },
-    { "subject": "ent-venue-013", "predicate": "nearby", "object": "ent-venue-015", "confidence": 0.75, "type": "inferred", "rule": "proximity", "reason": "둘 다 구암동 소재, 묶음 방문 가능" }
+    { "subject": "ent-venue-013", "predicate": "nearby", "object": "ent-venue-015", "confidence": 0.75, "type": "inferred", "rule": "proximity", "reason": "둘 다 구암동 소재, 묶음 방문 가능" },
+    { "subject": "ent-evt-014", "predicate": "visitCombo", "object": "ent-evt-011", "confidence": 0.85, "type": "inferred", "rule": "same_dong_combo", "reason": "사이언스데이(국립중앙과학관 도룡동) + 아쿠아리움(도룡동) 당일 연계" },
+    { "subject": "ent-evt-015", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness", "reason": "과학관 운영 프로그램 가산" },
+    { "subject": "ent-evt-017", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness", "reason": "도서관 운영 영유아 프로그램 가산" },
+    { "subject": "ent-evt-018", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "reason": "소방서 주최 어린이 안전교육 → 공공기관 신뢰도 가산" },
+    { "subject": "ent-evt-019", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "reason": "소방서 운영 시민체험센터 → 공공기관 가산" },
+    { "subject": "ent-venue-016", "predicate": "nearby", "object": "ent-venue-014", "confidence": 0.8, "type": "inferred", "rule": "proximity", "reason": "아가랑도서관(전민동) ↔ 평생학습센터 전민센터(전민동) 동일 동 소재" }
   ],
   "stats": {
-    "new_nodes": 13,
-    "new_edges": 21,
-    "inferred_edges": 7
+    "new_nodes": 23,
+    "new_edges": 38,
+    "inferred_edges": 13
   }
 }

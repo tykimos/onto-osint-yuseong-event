@@ -1,0 +1,21 @@
+{
+  "id": "src-013",
+  "title": "제55회 사이언스데이 — 국립중앙과학관 봄 과학체험 축제",
+  "url": "https://www.science.go.kr/",
+  "snippet": "국립중앙과학관 제55회 사이언스데이 과학체험콘텐츠 부스 모집 안내. 매년 봄(4~5월) 개최되는 대표 과학체험 축제로 학생·가족 대상 체험부스 다수 운영",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "2026 제55회 사이언스데이는 이전 보고서에서 언급되지 않은 신규 이벤트. 사이언스페스티벌(4.17~19, 종료)과는 별개 행사",
+  "entities": [
+    { "id": "ent-evt-014", "type": "Event", "name": "제55회 사이언스데이", "properties": { "host": "국립중앙과학관", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.9, "target_age_group": ["초등저학년", "초등고학년", "전연령가족"] } },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-014", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-014", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

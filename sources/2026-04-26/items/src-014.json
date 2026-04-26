@@ -1,0 +1,24 @@
+{
+  "id": "src-014",
+  "title": "국립어린이과학관 '탐이 꿈이의 비밀 실험실' + 4월 주말과학교실",
+  "url": "https://www.csc.go.kr/",
+  "snippet": "어린이과학관 실험프로그램 '탐이 꿈이의 비밀 실험실' 4~6월 수·목·금·토 운영 (초등생+보호자 1인, 10시·13시·15시). 4월 주말과학교실 4.5~26(토) 만5세~초등6학년 대상",
+  "source_name": "국립어린이과학관",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "update",
+  "related_report": "2026-04-25",
+  "related_item": "src-004 (K-사이언스 프로그램)",
+  "tag_reason": "기존 K-사이언스 교육 프로그램의 구체적 하위 프로그램 확인 — 탐이꿈이 실험실(신규), 주말과학교실(4/26 최종일) 상세 정보 추가",
+  "entities": [
+    { "id": "ent-evt-015", "type": "Event", "name": "탐이 꿈이의 비밀 실험실", "properties": { "start_date": "2026-04-01", "end_date": "2026-06-30", "fee": "유료 (프로그램비)", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true, "target_age_group": ["초등저학년", "초등고학년"] } },
+    { "id": "ent-evt-016", "type": "Event", "name": "4월 주말과학교실", "properties": { "start_date": "2026-04-05", "end_date": "2026-04-26", "fee": "유료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true, "target_age_group": ["유아", "초등저학년", "초등고학년"] } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-015", "predicate": "hostsAt", "object": "ent-venue-004" },
+    { "subject": "ent-evt-015", "predicate": "organizedBy", "object": "ent-org-005" },
+    { "subject": "ent-evt-015", "predicate": "partOfSeries", "object": "ent-evt-004" },
+    { "subject": "ent-evt-016", "predicate": "hostsAt", "object": "ent-venue-004" },
+    { "subject": "ent-evt-016", "predicate": "organizedBy", "object": "ent-org-005" }
+  ]
+}

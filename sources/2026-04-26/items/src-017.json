@@ -1,0 +1,25 @@
+{
+  "id": "src-017",
+  "title": "유성소방서 이동안전체험차량 도입 + 119시민체험센터 상시 운영",
+  "url": "https://m.anewsa.com/article_sub3.php?number=2358601",
+  "snippet": "대전유성소방서가 이동안전체험차량을 신규 도입하여 학교·유치원·어린이집에 직접 방문해 안전체험교육 제공. 119시민체험센터는 화~토 09:30~15:30 운영, 지진·소화기·심폐소생술 체험 무료. 예약: OK예약서비스 or 042-270-1688",
+  "source_name": "아시아뉴스통신",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고서에 없던 공공기관(소방서) 행사 — 소방서 어린이 체험 카테고리 최초 수집",
+  "entities": [
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서", "properties": { "org_type": "소방서", "phone": "042-270-1688" } },
+    { "id": "ent-venue-017", "type": "Venue", "name": "119시민체험센터", "properties": { "dong": "유성구", "venue_type": "체험센터", "open_hours": "화~토 09:30~11:30 / 13:30~15:30" } },
+    { "id": "ent-evt-018", "type": "Event", "name": "유성소방서 이동안전체험교육", "properties": { "fee": "무료", "indoor_outdoor": "야외", "kid_friendly_score": 0.85, "registration_required": true, "target_age_group": ["유아", "초등저학년", "초등고학년"] } },
+    { "id": "ent-evt-019", "type": "Event", "name": "119시민체험센터 소방안전체험", "properties": { "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.8, "registration_required": true, "target_age_group": ["초등저학년", "초등고학년", "전연령가족"] } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-018", "predicate": "organizedBy", "object": "ent-org-015" },
+    { "subject": "ent-evt-019", "predicate": "hostsAt", "object": "ent-venue-017" },
+    { "subject": "ent-evt-019", "predicate": "organizedBy", "object": "ent-org-015" },
+    { "subject": "ent-org-015", "predicate": "operates", "object": "ent-venue-017" }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "date": "2026-04-26",
-  "total": 12,
-  "new": 5,
+  "total": 18,
+  "new": 9,
   "reported": 6,
-  "update": 1,
+  "update": 3,
   "items": [
     {
       "id": "src-001",
@@ -101,6 +101,56 @@
       "tag": "reported",
       "related_report": "2026-04-25",
       "entity_count": 3
+    },
+    {
+      "id": "src-013",
+      "title": "제55회 사이언스데이 — 국립중앙과학관 봄 과학체험 축제",
+      "url": "https://www.science.go.kr/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 2
+    },
+    {
+      "id": "src-014",
+      "title": "국립어린이과학관 '탐이 꿈이의 비밀 실험실' + 4월 주말과학교실",
+      "url": "https://www.csc.go.kr/",
+      "tag": "update",
+      "related_report": "2026-04-25",
+      "related_item": "src-004 (K-사이언스 프로그램)",
+      "entity_count": 3
+    },
+    {
+      "id": "src-015",
+      "title": "유성구 북스타트 7개 도서관 확대 운영 — 영유아 독서 첫걸음",
+      "url": "https://www.dominilbo.com/news/articleView.html?idxno=262939",
+      "tag": "update",
+      "related_report": "2026-04-25",
+      "related_item": "src-003 (북스타트 책놀이 프로그램)",
+      "entity_count": 2
+    },
+    {
+      "id": "src-016",
+      "title": "아가랑도서관 '아가·맘 행복교실' — 아이+엄마 소통 프로그램 (4/4~6/27)",
+      "url": "https://www.welfarehello.com/community/hometownNews/0fda2727-354e-4382-8caa-04ccebd49352",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-017",
+      "title": "유성소방서 이동안전체험차량 도입 + 119시민체험센터 상시 운영",
+      "url": "https://m.anewsa.com/article_sub3.php?number=2358601",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-018",
+      "title": "대전 신세계 Art&Science 봄맞이 이색 팝업·신규 브랜드 입점",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6116778",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 1
     }
   ]
 }

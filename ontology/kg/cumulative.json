@@ -3,141 +3,1022 @@
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
   "last_updated": "2026-04-26",
   "nodes": [
-    { "id": "ent-evt-001", "type": "Event", "label": "2026 대전사이언스페스티벌" },
-    { "id": "ent-evt-002", "type": "Event", "label": "BMW 모바일 주니어 캠퍼스" },
-    { "id": "ent-evt-003", "type": "Event", "label": "북스타트 책놀이" },
-    { "id": "ent-evt-004", "type": "Event", "label": "2026 K-사이언스 어린이 교육 프로그램" },
-    { "id": "ent-evt-005", "type": "Event", "label": "사이언스 패스 출시" },
-    { "id": "ent-evt-006", "type": "Event", "label": "대전시민천문대 상시 관측 프로그램" },
-    { "id": "ent-evt-007", "type": "Event", "label": "유성구 도서관 세대별 독서문화 프로그램" },
-    { "id": "ent-evt-008", "type": "Event", "label": "2026 미래산업 진로탐색 독서아카데미" },
-    { "id": "ent-evt-009", "type": "Event", "label": "대전광역시어린이회관 체험 프로그램" },
-    { "id": "ent-evt-010", "type": "Event", "label": "2026 생애주기별 유아 문화예술교육지원 프로그램" },
-    { "id": "ent-venue-001", "type": "Venue", "label": "엑스포과학공원" },
-    { "id": "ent-venue-002", "type": "Venue", "label": "대전컨벤션센터(DCC)" },
-    { "id": "ent-venue-003", "type": "Venue", "label": "유성도서관" },
-    { "id": "ent-venue-004", "type": "Venue", "label": "국립어린이과학관" },
-    { "id": "ent-venue-005", "type": "Venue", "label": "국립중앙과학관" },
-    { "id": "ent-venue-006", "type": "Venue", "label": "대전시민천문대" },
-    { "id": "ent-venue-007", "type": "Venue", "label": "관평도서관" },
-    { "id": "ent-venue-008", "type": "Venue", "label": "노은도서관" },
-    { "id": "ent-venue-009", "type": "Venue", "label": "전민도서관" },
-    { "id": "ent-venue-010", "type": "Venue", "label": "전민종합문화센터" },
-    { "id": "ent-venue-011", "type": "Venue", "label": "대전광역시어린이회관" },
-    { "id": "ent-org-001", "type": "Organization", "label": "대전광역시" },
-    { "id": "ent-org-003", "type": "Organization", "label": "BMW 코리아 미래재단" },
-    { "id": "ent-org-004", "type": "Organization", "label": "유성구통합도서관" },
-    { "id": "ent-org-005", "type": "Organization", "label": "국립어린이과학관" },
-    { "id": "ent-org-006", "type": "Organization", "label": "국립중앙과학관" },
-    { "id": "ent-org-007", "type": "Organization", "label": "대전시민천문대" },
-    { "id": "ent-org-008", "type": "Organization", "label": "대전공공도서관" },
-    { "id": "ent-org-009", "type": "Organization", "label": "과학기술정보통신부" },
-    { "id": "ent-org-010", "type": "Organization", "label": "대전광역시어린이회관" },
-    { "id": "ent-org-011", "type": "Organization", "label": "대전문화재단" },
-    { "id": "dong-doryong", "type": "Dong", "label": "도룡동" },
-    { "id": "dong-gwanpyeong", "type": "Dong", "label": "관평동" },
-    { "id": "dong-jeonmin", "type": "Dong", "label": "전민동" },
-    { "id": "dong-munji", "type": "Dong", "label": "문지동" },
-    { "id": "dong-noeun", "type": "Dong", "label": "노은동" },
-    { "id": "dong-guam", "type": "Dong", "label": "구암동" },
-    { "id": "ent-venue-012", "type": "Venue", "label": "대전엑스포아쿠아리움" },
-    { "id": "ent-org-012", "type": "Organization", "label": "대전엑스포아쿠아리움" },
-    { "id": "ent-evt-011", "type": "Event", "label": "대전엑스포아쿠아리움 상시 체험 프로그램" },
-    { "id": "ent-org-013", "type": "Organization", "label": "유성구 평생학습센터" },
-    { "id": "ent-venue-013", "type": "Venue", "label": "유성구 평생학습센터 구암센터" },
-    { "id": "ent-venue-014", "type": "Venue", "label": "유성구 평생학습��터 전민센터" },
-    { "id": "ent-evt-012", "type": "Event", "label": "유성구 평생학습센터 원데이��래스" },
-    { "id": "ent-shop-001", "type": "Shop", "label": "현대프리미엄아울렛 대전점" },
-    { "id": "ent-shop-002", "type": "Shop", "label": "IKEA 팝업스토어 (현대아울렛 ���전)" },
-    { "id": "ent-org-014", "type": "Organization", "label": "유성구청소년수련관" },
-    { "id": "ent-venue-015", "type": "Venue", "label": "유성구청소년수련관" },
-    { "id": "ent-evt-013", "type": "Event", "label": "유성구청소년���련관 프로그램" }
+    {
+      "id": "ent-evt-001",
+      "type": "Event",
+      "label": "2026 대전사이언스페스티벌"
+    },
+    {
+      "id": "ent-evt-002",
+      "type": "Event",
+      "label": "BMW 모바일 주니어 캠퍼스"
+    },
+    {
+      "id": "ent-evt-003",
+      "type": "Event",
+      "label": "북스타트 책놀이"
+    },
+    {
+      "id": "ent-evt-004",
+      "type": "Event",
+      "label": "2026 K-사이언스 어린이 교육 프로그램"
+    },
+    {
+      "id": "ent-evt-005",
+      "type": "Event",
+      "label": "사이언스 패스 출시"
+    },
+    {
+      "id": "ent-evt-006",
+      "type": "Event",
+      "label": "대전시민천문대 상시 관측 프로그램"
+    },
+    {
+      "id": "ent-evt-007",
+      "type": "Event",
+      "label": "유성구 도서관 세대별 독서문화 프로그램"
+    },
+    {
+      "id": "ent-evt-008",
+      "type": "Event",
+      "label": "2026 미래산업 진로탐색 독서아카데미"
+    },
+    {
+      "id": "ent-evt-009",
+      "type": "Event",
+      "label": "대전광역시어린이회관 체험 프로그램"
+    },
+    {
+      "id": "ent-evt-010",
+      "type": "Event",
+      "label": "2026 생애주기별 유아 문화예술교육지원 프로그램"
+    },
+    {
+      "id": "ent-venue-001",
+      "type": "Venue",
+      "label": "엑스포과학공원"
+    },
+    {
+      "id": "ent-venue-002",
+      "type": "Venue",
+      "label": "대전컨벤션센터(DCC)"
+    },
+    {
+      "id": "ent-venue-003",
+      "type": "Venue",
+      "label": "유성도서관"
+    },
+    {
+      "id": "ent-venue-004",
+      "type": "Venue",
+      "label": "국립어린이과학관"
+    },
+    {
+      "id": "ent-venue-005",
+      "type": "Venue",
+      "label": "국립중앙과학관"
+    },
+    {
+      "id": "ent-venue-006",
+      "type": "Venue",
+      "label": "대전시민천문대"
+    },
+    {
+      "id": "ent-venue-007",
+      "type": "Venue",
+      "label": "관평도서관"
+    },
+    {
+      "id": "ent-venue-008",
+      "type": "Venue",
+      "label": "노은도서관"
+    },
+    {
+      "id": "ent-venue-009",
+      "type": "Venue",
+      "label": "전민도서관"
+    },
+    {
+      "id": "ent-venue-010",
+      "type": "Venue",
+      "label": "전민종합문화센터"
+    },
+    {
+      "id": "ent-venue-011",
+      "type": "Venue",
+      "label": "대전광역시어린이회관"
+    },
+    {
+      "id": "ent-org-001",
+      "type": "Organization",
+      "label": "대전광역시"
+    },
+    {
+      "id": "ent-org-003",
+      "type": "Organization",
+      "label": "BMW 코리아 미래재단"
+    },
+    {
+      "id": "ent-org-004",
+      "type": "Organization",
+      "label": "유성구통합도서관"
+    },
+    {
+      "id": "ent-org-005",
+      "type": "Organization",
+      "label": "국립어린이과학관"
+    },
+    {
+      "id": "ent-org-006",
+      "type": "Organization",
+      "label": "국립중앙과학관"
+    },
+    {
+      "id": "ent-org-007",
+      "type": "Organization",
+      "label": "대전시민천문대"
+    },
+    {
+      "id": "ent-org-008",
+      "type": "Organization",
+      "label": "대전공공도서관"
+    },
+    {
+      "id": "ent-org-009",
+      "type": "Organization",
+      "label": "과학기술정보통신부"
+    },
+    {
+      "id": "ent-org-010",
+      "type": "Organization",
+      "label": "대전광역시어린이회관"
+    },
+    {
+      "id": "ent-org-011",
+      "type": "Organization",
+      "label": "대전문화재단"
+    },
+    {
+      "id": "dong-doryong",
+      "type": "Dong",
+      "label": "도룡동"
+    },
+    {
+      "id": "dong-gwanpyeong",
+      "type": "Dong",
+      "label": "관평동"
+    },
+    {
+      "id": "dong-jeonmin",
+      "type": "Dong",
+      "label": "전민동"
+    },
+    {
+      "id": "dong-munji",
+      "type": "Dong",
+      "label": "문지동"
+    },
+    {
+      "id": "dong-noeun",
+      "type": "Dong",
+      "label": "노은동"
+    },
+    {
+      "id": "dong-guam",
+      "type": "Dong",
+      "label": "구암동"
+    },
+    {
+      "id": "ent-venue-012",
+      "type": "Venue",
+      "label": "대전엑스포아쿠아리움"
+    },
+    {
+      "id": "ent-org-012",
+      "type": "Organization",
+      "label": "대전엑스포아쿠아리움"
+    },
+    {
+      "id": "ent-evt-011",
+      "type": "Event",
+      "label": "대전엑스포아쿠아리움 상시 체험 프로그램"
+    },
+    {
+      "id": "ent-org-013",
+      "type": "Organization",
+      "label": "유성구 평생학습센터"
+    },
+    {
+      "id": "ent-venue-013",
+      "type": "Venue",
+      "label": "유성구 평생학습센터 구암센터"
+    },
+    {
+      "id": "ent-venue-014",
+      "type": "Venue",
+      "label": "유성구 평생학습��터 전민센터"
+    },
+    {
+      "id": "ent-evt-012",
+      "type": "Event",
+      "label": "유성구 평생학습센터 원데이��래스"
+    },
+    {
+      "id": "ent-shop-001",
+      "type": "Shop",
+      "label": "현대프리미엄아울렛 대전점"
+    },
+    {
+      "id": "ent-shop-002",
+      "type": "Shop",
+      "label": "IKEA 팝업스토어 (현대아울렛 ���전)"
+    },
+    {
+      "id": "ent-org-014",
+      "type": "Organization",
+      "label": "유성구청소년수련관"
+    },
+    {
+      "id": "ent-venue-015",
+      "type": "Venue",
+      "label": "유성구청소년수련관"
+    },
+    {
+      "id": "ent-evt-013",
+      "type": "Event",
+      "label": "유성구청소년���련관 프로그램"
+    },
+    {
+      "id": "ent-evt-014",
+      "type": "Event",
+      "label": "제55회 사이언스데이"
+    },
+    {
+      "id": "ent-evt-015",
+      "type": "Event",
+      "label": "탐이 꿈이의 비밀 실험실"
+    },
+    {
+      "id": "ent-evt-016",
+      "type": "Event",
+      "label": "4월 주말과학교실"
+    },
+    {
+      "id": "ent-venue-016",
+      "type": "Venue",
+      "label": "아가랑도서관"
+    },
+    {
+      "id": "ent-evt-017",
+      "type": "Event",
+      "label": "아가·맘 행복교실"
+    },
+    {
+      "id": "ent-org-015",
+      "type": "Organization",
+      "label": "대전유성소방서"
+    },
+    {
+      "id": "ent-venue-017",
+      "type": "Venue",
+      "label": "119시민체험센터"
+    },
+    {
+      "id": "ent-evt-018",
+      "type": "Event",
+      "label": "유성소방서 이동안전체험교육"
+    },
+    {
+      "id": "ent-evt-019",
+      "type": "Event",
+      "label": "119시민체험센터 소방안전체험"
+    },
+    {
+      "id": "ent-shop-003",
+      "type": "Shop",
+      "label": "신세계 Art&Science 대전"
+    }
   ],
   "edges": [],
   "triples": [
-    { "subject": "ent-evt-001", "predicate": "hostsAt", "object": "ent-venue-001", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-001", "predicate": "hostsAt", "object": "ent-venue-002", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-001", "predicate": "organizedBy", "object": "ent-org-001", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-001", "predicate": "organizedBy", "object": "ent-org-009", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-002", "predicate": "hostsAt", "object": "ent-venue-001", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-002", "predicate": "organizedBy", "object": "ent-org-003", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-002", "predicate": "partOfSeries", "object": "ent-evt-001", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-002", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-002", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-003", "predicate": "hostsAt", "object": "ent-venue-003", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-003", "predicate": "organizedBy", "object": "ent-org-004", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-003", "predicate": "targetsAgeGroup", "object": "age-infant", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-003", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-004", "predicate": "hostsAt", "object": "ent-venue-004", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-004", "predicate": "organizedBy", "object": "ent-org-005", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-004", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-004", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-005", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-006", "predicate": "hostsAt", "object": "ent-venue-006", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-006", "predicate": "organizedBy", "object": "ent-org-007", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-006", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-007", "predicate": "organizedBy", "object": "ent-org-004", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-008", "predicate": "hostsAt", "object": "ent-venue-007", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-008", "predicate": "hostsAt", "object": "ent-venue-010", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-008", "predicate": "organizedBy", "object": "ent-org-008", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-009", "predicate": "hostsAt", "object": "ent-venue-011", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-009", "predicate": "organizedBy", "object": "ent-org-010", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-009", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-009", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-010", "predicate": "organizedBy", "object": "ent-org-011", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-010", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-venue-001", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-venue-002", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-venue-004", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-venue-005", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-venue-006", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-venue-007", "predicate": "locatedIn", "object": "dong-gwanpyeong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-venue-008", "predicate": "locatedIn", "object": "dong-noeun", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-009", "predicate": "locatedIn", "object": "dong-munji", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-010", "predicate": "locatedIn", "object": "dong-jeonmin", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-011", "predicate": "locatedIn", "object": "dong-noeun", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-org-004", "predicate": "operates", "object": "ent-venue-003", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-org-005", "predicate": "operates", "object": "ent-venue-004", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-org-006", "predicate": "operates", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-org-007", "predicate": "operates", "object": "ent-venue-006", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-org-010", "predicate": "operates", "object": "ent-venue-011", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-001", "predicate": "visitCombo", "object": "ent-evt-006", "confidence": 0.85, "type": "inferred" },
-    { "subject": "ent-evt-004", "predicate": "visitCombo", "object": "ent-evt-006", "confidence": 0.85, "type": "inferred" },
-    { "subject": "ent-venue-001", "predicate": "nearby", "object": "ent-venue-004", "confidence": 0.9, "type": "inferred" },
-    { "subject": "ent-venue-001", "predicate": "nearby", "object": "ent-venue-006", "confidence": 0.9, "type": "inferred" },
-    { "subject": "ent-venue-004", "predicate": "nearby", "object": "ent-venue-005", "confidence": 0.95, "type": "inferred" },
-    { "subject": "ent-evt-006", "predicate": "rainyFallbackFor", "object": "ent-evt-001", "confidence": 0.75, "type": "inferred" },
-    { "subject": "ent-evt-009", "predicate": "visitCombo", "object": "ent-evt-007", "confidence": 0.7, "type": "inferred" },
-    { "subject": "ent-evt-011", "predicate": "hostsAt", "object": "ent-venue-012", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-011", "predicate": "organizedBy", "object": "ent-org-012", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-011", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-012", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-org-012", "predicate": "operates", "object": "ent-venue-012", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-012", "predicate": "withinRing", "object": "ring-car", "confidence": 0.8, "type": "explicit" },
-    { "subject": "ent-evt-012", "predicate": "hostsAt", "object": "ent-venue-013", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-012", "predicate": "hostsAt", "object": "ent-venue-014", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-evt-012", "predicate": "organizedBy", "object": "ent-org-013", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-org-013", "predicate": "operates", "object": "ent-venue-013", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-org-013", "predicate": "operates", "object": "ent-venue-014", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-013", "predicate": "locatedIn", "object": "dong-guam", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-014", "predicate": "locatedIn", "object": "dong-jeonmin", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-014", "predicate": "withinRing", "object": "ring-stroll", "confidence": 0.8, "type": "explicit" },
-    { "subject": "ent-shop-002", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-shop-002", "predicate": "shopWithinRing", "object": "ring-bike", "confidence": 0.8, "type": "explicit" },
-    { "subject": "ent-shop-001", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong", "confidence": 0.95, "type": "explicit" },
-    { "subject": "ent-evt-013", "predicate": "hostsAt", "object": "ent-venue-015", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-evt-013", "predicate": "organizedBy", "object": "ent-org-014", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-org-014", "predicate": "operates", "object": "ent-venue-015", "confidence": 0.9, "type": "explicit" },
-    { "subject": "ent-venue-015", "predicate": "locatedIn", "object": "dong-guam", "confidence": 0.85, "type": "explicit" },
-    { "subject": "ent-venue-012", "predicate": "nearby", "object": "ent-venue-001", "confidence": 0.9, "type": "inferred" },
-    { "subject": "ent-venue-012", "predicate": "nearby", "object": "ent-venue-004", "confidence": 0.85, "type": "inferred" },
-    { "subject": "ent-evt-011", "predicate": "visitCombo", "object": "ent-evt-004", "confidence": 0.85, "type": "inferred" },
-    { "subject": "ent-evt-011", "predicate": "visitCombo", "object": "ent-evt-006", "confidence": 0.8, "type": "inferred" },
-    { "subject": "ent-venue-013", "predicate": "nearby", "object": "ent-venue-015", "confidence": 0.75, "type": "inferred" }
+    {
+      "subject": "ent-evt-001",
+      "predicate": "hostsAt",
+      "object": "ent-venue-001",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-001",
+      "predicate": "hostsAt",
+      "object": "ent-venue-002",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-001",
+      "predicate": "organizedBy",
+      "object": "ent-org-001",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-001",
+      "predicate": "organizedBy",
+      "object": "ent-org-009",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-002",
+      "predicate": "hostsAt",
+      "object": "ent-venue-001",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-002",
+      "predicate": "organizedBy",
+      "object": "ent-org-003",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-002",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-001",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-002",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-002",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-003",
+      "predicate": "hostsAt",
+      "object": "ent-venue-003",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-003",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-003",
+      "predicate": "targetsAgeGroup",
+      "object": "age-infant",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-003",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-004",
+      "predicate": "hostsAt",
+      "object": "ent-venue-004",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-004",
+      "predicate": "organizedBy",
+      "object": "ent-org-005",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-004",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-004",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-005",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-006",
+      "predicate": "hostsAt",
+      "object": "ent-venue-006",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-006",
+      "predicate": "organizedBy",
+      "object": "ent-org-007",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-006",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-007",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-008",
+      "predicate": "hostsAt",
+      "object": "ent-venue-007",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-008",
+      "predicate": "hostsAt",
+      "object": "ent-venue-010",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-008",
+      "predicate": "organizedBy",
+      "object": "ent-org-008",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-009",
+      "predicate": "hostsAt",
+      "object": "ent-venue-011",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-009",
+      "predicate": "organizedBy",
+      "object": "ent-org-010",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-009",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-009",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-010",
+      "predicate": "organizedBy",
+      "object": "ent-org-011",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-010",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-001",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-002",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-004",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-005",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-006",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-007",
+      "predicate": "locatedIn",
+      "object": "dong-gwanpyeong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-008",
+      "predicate": "locatedIn",
+      "object": "dong-noeun",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-009",
+      "predicate": "locatedIn",
+      "object": "dong-munji",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-010",
+      "predicate": "locatedIn",
+      "object": "dong-jeonmin",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-011",
+      "predicate": "locatedIn",
+      "object": "dong-noeun",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-004",
+      "predicate": "operates",
+      "object": "ent-venue-003",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-005",
+      "predicate": "operates",
+      "object": "ent-venue-004",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-006",
+      "predicate": "operates",
+      "object": "ent-venue-005",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-007",
+      "predicate": "operates",
+      "object": "ent-venue-006",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-010",
+      "predicate": "operates",
+      "object": "ent-venue-011",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-001",
+      "predicate": "visitCombo",
+      "object": "ent-evt-006",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-004",
+      "predicate": "visitCombo",
+      "object": "ent-evt-006",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-venue-001",
+      "predicate": "nearby",
+      "object": "ent-venue-004",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-venue-001",
+      "predicate": "nearby",
+      "object": "ent-venue-006",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-venue-004",
+      "predicate": "nearby",
+      "object": "ent-venue-005",
+      "confidence": 0.95,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-006",
+      "predicate": "rainyFallbackFor",
+      "object": "ent-evt-001",
+      "confidence": 0.75,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-009",
+      "predicate": "visitCombo",
+      "object": "ent-evt-007",
+      "confidence": 0.7,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-011",
+      "predicate": "hostsAt",
+      "object": "ent-venue-012",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-011",
+      "predicate": "organizedBy",
+      "object": "ent-org-012",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-011",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-012",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-012",
+      "predicate": "operates",
+      "object": "ent-venue-012",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-012",
+      "predicate": "withinRing",
+      "object": "ring-car",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-012",
+      "predicate": "hostsAt",
+      "object": "ent-venue-013",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-012",
+      "predicate": "hostsAt",
+      "object": "ent-venue-014",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-012",
+      "predicate": "organizedBy",
+      "object": "ent-org-013",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-013",
+      "predicate": "operates",
+      "object": "ent-venue-013",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-013",
+      "predicate": "operates",
+      "object": "ent-venue-014",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-013",
+      "predicate": "locatedIn",
+      "object": "dong-guam",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-014",
+      "predicate": "locatedIn",
+      "object": "dong-jeonmin",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-014",
+      "predicate": "withinRing",
+      "object": "ring-stroll",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-002",
+      "predicate": "shopLocatedIn",
+      "object": "dong-gwanpyeong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-002",
+      "predicate": "shopWithinRing",
+      "object": "ring-bike",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-001",
+      "predicate": "shopLocatedIn",
+      "object": "dong-gwanpyeong",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-013",
+      "predicate": "hostsAt",
+      "object": "ent-venue-015",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-013",
+      "predicate": "organizedBy",
+      "object": "ent-org-014",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-014",
+      "predicate": "operates",
+      "object": "ent-venue-015",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-015",
+      "predicate": "locatedIn",
+      "object": "dong-guam",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-012",
+      "predicate": "nearby",
+      "object": "ent-venue-001",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-venue-012",
+      "predicate": "nearby",
+      "object": "ent-venue-004",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-011",
+      "predicate": "visitCombo",
+      "object": "ent-evt-004",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-011",
+      "predicate": "visitCombo",
+      "object": "ent-evt-006",
+      "confidence": 0.8,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-venue-013",
+      "predicate": "nearby",
+      "object": "ent-venue-015",
+      "confidence": 0.75,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-014",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-014",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-014",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-015",
+      "predicate": "hostsAt",
+      "object": "ent-venue-004",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-015",
+      "predicate": "organizedBy",
+      "object": "ent-org-005",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-015",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-004",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-016",
+      "predicate": "hostsAt",
+      "object": "ent-venue-004",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-017",
+      "predicate": "hostsAt",
+      "object": "ent-venue-016",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-017",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-017",
+      "predicate": "targetsAgeGroup",
+      "object": "age-infant",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-016",
+      "predicate": "locatedIn",
+      "object": "dong-jeonmin",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-venue-016",
+      "predicate": "withinRing",
+      "object": "ring-stroll",
+      "confidence": 0.8,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-018",
+      "predicate": "organizedBy",
+      "object": "ent-org-015",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-019",
+      "predicate": "hostsAt",
+      "object": "ent-venue-017",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-019",
+      "predicate": "organizedBy",
+      "object": "ent-org-015",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-015",
+      "predicate": "operates",
+      "object": "ent-venue-017",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-003",
+      "predicate": "shopLocatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-014",
+      "predicate": "visitCombo",
+      "object": "ent-evt-011",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-015",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-017",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-018",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-019",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-venue-016",
+      "predicate": "nearby",
+      "object": "ent-venue-014",
+      "confidence": 0.8,
+      "type": "inferred"
+    }
   ],
   "stats": {
-    "total_nodes": 50,
+    "total_nodes": 60,
     "total_edges": 0,
-    "total_triples": 81
+    "total_triples": 104
   }
 }

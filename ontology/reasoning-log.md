@@ -108,3 +108,43 @@
 - **신뢰도:** 0.75
 - **���태:** 확정
 - **비고:** 둘 다 구암동 소재 공공시설, 묶음 방문 가능
+
+### 추론 #8: same_dong_combo (사이언스데이 + 아쿠아리움)
+- **입력:** (ent-evt-014 hostsAt ent-venue-005), (ent-evt-011 hostsAt ent-venue-012), (ent-venue-005 locatedIn dong-doryong), (ent-venue-012 locatedIn dong-doryong)
+- **추론:** (ent-evt-014 visitCombo ent-evt-011)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 사이언스데이(국립중앙과학관) + 아쿠아리움(신세계 B1) = 도룡동 당일 과학+해양 연계 체험
+
+### 추론 #9: operator_kid_friendliness (탐이꿈이 실험실)
+- **입력:** (ent-org-005 operates ent-venue-004), (ent-org-005 orgType 과학관), (ent-evt-015 hostsAt ent-venue-004)
+- **추론:** (ent-evt-015 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+
+### 추론 #10: operator_kid_friendliness (아가맘 행복교실)
+- **입력:** (ent-org-004 orgType 도서관), (ent-evt-017 organizedBy ent-org-004)
+- **추론:** (ent-evt-017 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 도서관 운영 영유아 프로그램 — 기본 친화도 높음
+
+### 추론 #11: public_institution_kid_event (유성소방서 이동안전체험)
+- **입력:** (ent-org-015 orgType 소방서), (ent-evt-018 organizedBy ent-org-015), (ent-evt-018 targetsAgeGroup 유아|초등)
+- **추론:** (ent-evt-018 publicTrustBoost +0.15)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 소방서 주최 어린이 안전교육 — 공공 신뢰도 가산
+
+### 추론 #12: public_institution_kid_event (119시민체험센터)
+- **입력:** (ent-org-015 orgType 소방서), (ent-evt-019 organizedBy ent-org-015)
+- **추론:** (ent-evt-019 publicTrustBoost +0.15)
+- **신뢰도:** 0.85
+- **상태:** 확정
+
+### 추론 #13: proximity (아가랑도서관 ↔ 평생학습센터 전민센터)
+- **입력:** (ent-venue-016 locatedIn dong-jeonmin), (ent-venue-014 locatedIn dong-jeonmin)
+- **추론:** (ent-venue-016 nearby ent-venue-014)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 전민동 내 도서관 + 평생학습센터 묶음 방문 가능. 용성로20 도보권(ring-stroll) 내 공공 프로그램 클러스터 형성

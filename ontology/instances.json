@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-04-26",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -51,9 +51,19 @@
     { "id": "ent-evt-007", "type": "Event", "name": "유성구 도서관 세대�� 독서문화 프로그램", "properties": { "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.9 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 2 },
     { "id": "ent-evt-008", "type": "Event", "name": "2026 미래산업 진로탐색 독서아카데미", "properties": { "fee": "무료", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.7 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
     { "id": "ent-evt-009", "type": "Event", "name": "대전광��시어린이회관 체험 프로그램", "properties": { "fee": "유료 (프로그램별 상이)", "registration_required": true, "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.95 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 2 },
-    { "id": "ent-evt-010", "type": "Event", "name": "2026 생애주기별·유아 ����예술교육지원 프로그램", "properties": { "fee": "지원사업 (무료)", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.9 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 }
+    { "id": "ent-evt-010", "type": "Event", "name": "2026 생애주기별·유아 ����예술교육지원 프로그램", "properties": { "fee": "지원사업 (무료)", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.9 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
+    { "id": "ent-evt-014", "type": "Event", "name": "제55회 사이언스데이", "properties": { "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.9, "registration_required": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-015", "type": "Event", "name": "탐이 꿈이의 비밀 실험실", "properties": { "start_date": "2026-04-01", "end_date": "2026-06-30", "fee": "유료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-016", "type": "Event", "name": "4월 주말과학교실", "properties": { "start_date": "2026-04-05", "end_date": "2026-04-26", "fee": "유료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-venue-016", "type": "Venue", "name": "아가랑도서관", "properties": { "dong": "전민동", "venue_type": "도서관", "distance_from_anchor_m": 900, "ring": "ring-stroll" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-evt-017", "type": "Event", "name": "아가·맘 행복교실", "properties": { "start_date": "2026-04-04", "end_date": "2026-06-27", "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서", "properties": { "org_type": "소방서", "phone": "042-270-1688" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-venue-017", "type": "Venue", "name": "119시민체험센터", "properties": { "venue_type": "체험센터", "open_hours": "화~토 09:30~11:30/13:30~15:30" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-018", "type": "Event", "name": "유성소방서 이동안전체험교육", "properties": { "fee": "무료", "indoor_outdoor": "야외", "kid_friendly_score": 0.85, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-019", "type": "Event", "name": "119시민체험센터 소방안전체험", "properties": { "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.8, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-shop-003", "type": "Shop", "name": "신세계 Art&Science 대전", "properties": { "shop_type": "백화점", "dong": "도룡동", "address": "대전 유성구 엑스포로 1", "distance_from_anchor_m": 3500, "kid_friendly": true, "is_new": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 }
   ],
-  "total_count": 62,
+  "total_count": 72,
   "new_entities_2026_04_26": [
     { "id": "ent-venue-012", "type": "Venue", "name": "대전엑스포아쿠아리움", "properties": { "dong": "도룡동", "address": "대전 유성구 엑스포로 1, 신세계 Art&Science B1", "venue_type": "아쿠아리움", "phone": "042-607-8852", "open_hours": "10:00~19:00", "kid_friendly": true, "stroller_accessible": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 4 },
     { "id": "ent-org-012", "type": "Organization", "name": "대전엑스포아쿠아리움", "properties": { "org_type": "기타민간", "website": "https://djexpoaqua.com/" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 4 },
@@ -66,6 +76,16 @@
     { "id": "ent-shop-002", "type": "Shop", "name": "IKEA 팝업스토어 (현대아울렛 대전)", "properties": { "shop_type": "팝업스토어", "dong": "관평동", "address": "현대프리미엄아울렛 대전점 1층", "distance_from_anchor_m": 2500, "kid_friendly": true, "is_new": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 3 },
     { "id": "ent-org-014", "type": "Organization", "name": "유성구청소년수련관", "properties": { "org_type": "복지관", "website": "https://happy-you.kr" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
     { "id": "ent-venue-015", "type": "Venue", "name": "유성구청소년수련관", "properties": { "dong": "구암동", "venue_type": "청소년수련관" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
-    { "id": "ent-evt-013", "type": "Event", "name": "유성구청소년수련관 프로그램", "properties": { "fee": "프로그램별 상이", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.7, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 }
+    { "id": "ent-evt-013", "type": "Event", "name": "유성구청소년수련관 프로그램", "properties": { "fee": "프로그램별 상이", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.7, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-evt-014", "type": "Event", "name": "제55회 사이언스데이", "properties": { "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.9, "registration_required": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-015", "type": "Event", "name": "탐이 꿈이의 비밀 실험실", "properties": { "start_date": "2026-04-01", "end_date": "2026-06-30", "fee": "유료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-016", "type": "Event", "name": "4월 주말과학교실", "properties": { "start_date": "2026-04-05", "end_date": "2026-04-26", "fee": "유료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-venue-016", "type": "Venue", "name": "아가랑도서관", "properties": { "dong": "전민동", "venue_type": "도서관", "distance_from_anchor_m": 900, "ring": "ring-stroll" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-evt-017", "type": "Event", "name": "아가·맘 행복교실", "properties": { "start_date": "2026-04-04", "end_date": "2026-06-27", "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서", "properties": { "org_type": "소방서", "phone": "042-270-1688" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-venue-017", "type": "Venue", "name": "119시민체험센터", "properties": { "venue_type": "체험센터", "open_hours": "화~토 09:30~11:30/13:30~15:30" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-018", "type": "Event", "name": "유성소방서 이동안전체험교육", "properties": { "fee": "무료", "indoor_outdoor": "야외", "kid_friendly_score": 0.85, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-019", "type": "Event", "name": "119시민체험센터 소방안전체험", "properties": { "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.8, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-shop-003", "type": "Shop", "name": "신세계 Art&Science 대전", "properties": { "shop_type": "백화점", "dong": "도룡동", "address": "대전 유성구 엑스포로 1", "distance_from_anchor_m": 3500, "kid_friendly": true, "is_new": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 }
   ]
 }
