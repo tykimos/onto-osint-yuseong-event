@@ -53,5 +53,19 @@
     { "id": "ent-evt-009", "type": "Event", "name": "대전광��시어린이회관 체험 프로그램", "properties": { "fee": "유료 (프로그램별 상이)", "registration_required": true, "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.95 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 2 },
     { "id": "ent-evt-010", "type": "Event", "name": "2026 생애주기별·유아 ����예술교육지원 프로그램", "properties": { "fee": "지원사업 (무료)", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.9 }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 }
   ],
-  "total_count": 49
+  "total_count": 62,
+  "new_entities_2026_04_26": [
+    { "id": "ent-venue-012", "type": "Venue", "name": "대전엑스포아쿠아리움", "properties": { "dong": "도룡동", "address": "대전 유성구 엑스포로 1, 신세계 Art&Science B1", "venue_type": "아쿠아리움", "phone": "042-607-8852", "open_hours": "10:00~19:00", "kid_friendly": true, "stroller_accessible": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 4 },
+    { "id": "ent-org-012", "type": "Organization", "name": "대전엑스포아쿠아리움", "properties": { "org_type": "기타민간", "website": "https://djexpoaqua.com/" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 4 },
+    { "id": "ent-evt-011", "type": "Event", "name": "대전엑스포아쿠아리움 상시 체험 프로그램", "properties": { "fee": "유료 (입장권)", "indoor_outdoor": "실내", "kid_friendly_score": 0.85, "registration_required": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 4 },
+    { "id": "ent-org-013", "type": "Organization", "name": "유성구 평생학습센터", "properties": { "org_type": "평생학습관", "website": "https://lifelong.yuseong.go.kr" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 3 },
+    { "id": "ent-venue-013", "type": "Venue", "name": "유성구 평생학습센터 구암센터", "properties": { "dong": "구암동", "venue_type": "평생학습관", "phone": "042-611-6559" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-venue-014", "type": "Venue", "name": "유성구 평생학습센터 전민센터", "properties": { "dong": "전민동", "venue_type": "평생학습관", "phone": "042-611-6553" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-012", "type": "Event", "name": "유성구 평생학습센터 원데이클래스", "properties": { "fee": "무료/저비용", "indoor_outdoor": "실내", "kid_friendly_score": 0.6, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 3 },
+    { "id": "ent-shop-001", "type": "Shop", "name": "현대프리미엄아울렛 대전점", "properties": { "shop_type": "아울렛", "dong": "관평동", "address": "대전 유성구 테크노중앙로 123", "distance_from_anchor_m": 2500, "open_hours": "10:30~21:00", "kid_friendly": true, "is_new": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 4 },
+    { "id": "ent-shop-002", "type": "Shop", "name": "IKEA 팝업스토어 (현대아울렛 대전)", "properties": { "shop_type": "팝업스토어", "dong": "관평동", "address": "현대프리미엄아울렛 대전점 1층", "distance_from_anchor_m": 2500, "kid_friendly": true, "is_new": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 3 },
+    { "id": "ent-org-014", "type": "Organization", "name": "유성구청소년수련관", "properties": { "org_type": "복지관", "website": "https://happy-you.kr" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-venue-015", "type": "Venue", "name": "유성구청소년수련관", "properties": { "dong": "구암동", "venue_type": "청소년수련관" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 },
+    { "id": "ent-evt-013", "type": "Event", "name": "유성구청소년수련관 프로그램", "properties": { "fee": "프로그램별 상이", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.7, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 2 }
+  ]
 }

@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-26",
+  "total": 12,
+  "new": 5,
+  "reported": 6,
+  "update": 1,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "대전엑스포아쿠아리움 — 도룡동 가족 체험 시설 (수중발레·터치풀·마술쇼)",
+      "url": "https://djexpoaqua.com/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-002",
+      "title": "유성구 평생학습센터 원데이클래스 — 구암센터·전민센터 운영",
+      "url": "https://lifelong.yuseong.go.kr/lly/prog/lctr/lly/sub02_06/LIFELONG_016/classDetail.do?lctrNo=8271",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-003",
+      "title": "현대프리미엄아울렛 대전점 IKEA 팝업스토어 (관평동)",
+      "url": "https://www.ikea.com/kr/ko/stores/giheung/ikea-hyundai-outlet-dj-pub6d82f570/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-004",
+      "title": "유성구청소년수련관 프로그램 (구암동)",
+      "url": "https://happy-you.kr/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "2026년 대전 대표축제 9개 선정 — 유성사계절축제·유성국화축제 포함",
+      "url": "https://v.daum.net/v/20260114165842736?f=p",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-006",
+      "title": "유성온천문화축제 — 2026 일정 여전히 미공지",
+      "url": "http://ysfesta.com/index.php",
+      "tag": "update",
+      "related_report": "2026-04-25",
+      "related_item": "추적항목: 유성온천문화축제",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "국립중앙과학관 교육 프로그램 (상시 운영)",
+      "url": "https://www.science.go.kr/mps/1092/allEduPrograms.do",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "국립어린이과학관 K-사이언스 프로그램",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "대전시민천문대 상시 관측 프로그램",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "대전광역시어린이회관 체험 프로그램 (노은동)",
+      "url": "https://www.djkids.or.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "유성구통합도서관 프로그램 — 지역작가 인 도서관 운영",
+      "url": "https://pedien.com/html/view.php?idx=1014924",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "대전 어린이날 행사 풍성 — 각 구별 무료행사 다수",
+      "url": "https://www.dailycc.net/news/articleView.html?idxno=742937",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 3
+    }
+  ]
+}

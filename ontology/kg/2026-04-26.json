@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-26",
+  "new_triples": [
+    { "subject": "ent-evt-011", "predicate": "hostsAt", "object": "ent-venue-012", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-011", "predicate": "organizedBy", "object": "ent-org-012", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-011", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-venue-012", "predicate": "locatedIn", "object": "dong-doryong", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-org-012", "predicate": "operates", "object": "ent-venue-012", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-venue-012", "predicate": "withinRing", "object": "ring-car", "confidence": 0.8, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-012", "predicate": "hostsAt", "object": "ent-venue-013", "confidence": 0.85, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-evt-012", "predicate": "hostsAt", "object": "ent-venue-014", "confidence": 0.85, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-evt-012", "predicate": "organizedBy", "object": "ent-org-013", "confidence": 0.9, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-org-013", "predicate": "operates", "object": "ent-venue-013", "confidence": 0.9, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-org-013", "predicate": "operates", "object": "ent-venue-014", "confidence": 0.9, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-venue-013", "predicate": "locatedIn", "object": "dong-guam", "confidence": 0.9, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-venue-014", "predicate": "locatedIn", "object": "dong-jeonmin", "confidence": 0.9, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-venue-014", "predicate": "withinRing", "object": "ring-stroll", "confidence": 0.8, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-shop-002", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong", "confidence": 0.95, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-shop-002", "predicate": "shopWithinRing", "object": "ring-bike", "confidence": 0.8, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-shop-001", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong", "confidence": 0.95, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-evt-013", "predicate": "hostsAt", "object": "ent-venue-015", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-evt-013", "predicate": "organizedBy", "object": "ent-org-014", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-org-014", "predicate": "operates", "object": "ent-venue-015", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-venue-015", "predicate": "locatedIn", "object": "dong-guam", "confidence": 0.85, "type": "explicit", "source_id": "src-004" }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    { "subject": "ent-venue-012", "predicate": "nearby", "object": "ent-venue-001", "confidence": 0.9, "type": "inferred", "rule": "proximity", "reason": "둘 다 도룡동 엑스포 권역 소재, 도보 연계 가능" },
+    { "subject": "ent-venue-012", "predicate": "nearby", "object": "ent-venue-004", "confidence": 0.85, "type": "inferred", "rule": "proximity", "reason": "도룡동 엑스포 권역 내 아쿠아리움과 어린이과학관 근접" },
+    { "subject": "ent-evt-011", "predicate": "visitCombo", "object": "ent-evt-004", "confidence": 0.85, "type": "inferred", "rule": "same_dong_combo", "reason": "도룡동 동일 소재, 아쿠아리움 + K-사이언스 당일 연계 가능" },
+    { "subject": "ent-evt-011", "predicate": "visitCombo", "object": "ent-evt-006", "confidence": 0.8, "type": "inferred", "rule": "same_dong_combo", "reason": "도룡동 동일 소재, 아쿠아리움(주간) + 천문대(야간) 시간대 연계" },
+    { "subject": "ent-evt-012", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness", "reason": "평생학습관 운영 프로그램 → 공공기관 가산" },
+    { "subject": "ent-evt-013", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "reason": "복지관 주최 청소년 프로그램 → 공공기관 신뢰도 가산" },
+    { "subject": "ent-venue-013", "predicate": "nearby", "object": "ent-venue-015", "confidence": 0.75, "type": "inferred", "rule": "proximity", "reason": "둘 다 구암동 소재, 묶음 방문 가능" }
+  ],
+  "stats": {
+    "new_nodes": 13,
+    "new_edges": 21,
+    "inferred_edges": 7
+  }
+}

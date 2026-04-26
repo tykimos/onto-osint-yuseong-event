@@ -1,0 +1,25 @@
+{
+  "id": "src-001",
+  "title": "대전엑스포아쿠아리움 — 도룡동 가족 체험 시설 (수중발레·터치풀·마술쇼)",
+  "url": "https://djexpoaqua.com/",
+  "snippet": "국내 최초 살아있는 생물과 디지털 미디어가 결합된 전시. 200여 종, 2만여 마리 해양생물. 수중발레(매일 5회), 먹이주기 체험(매일 2회), 가오리 터치풀, 마술쇼. 대전 유성구 엑스포로 1(도룡동), 신세계 Art&Science B1.",
+  "source_name": "대전엑스포아쿠아리움",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 대전엑스포아쿠아리움 관련 항목 없음. 도룡동 과학벨트 권역의 새로운 가족 체험 시설 발견.",
+  "entities": [
+    { "id": "temp-001", "type": "Venue", "name": "대전엑스포아쿠아리움", "properties": { "dong": "도룡동", "address": "대전 유성구 엑스포로 1, 신세계 Art&Science B1", "venue_type": "아쿠아리움", "phone": "042-607-8852", "open_hours": "10:00~19:00 (입장마감 18:00)", "kid_friendly": true, "stroller_accessible": true } },
+    { "id": "temp-002", "type": "Organization", "name": "대전엑스포아쿠아리움", "properties": { "org_type": "기타민간" } },
+    { "id": "temp-003", "type": "Event", "name": "대전엑스포아쿠아리움 상시 체험 프로그램", "properties": { "fee": "유료 (입장권)", "indoor_outdoor": "실내", "kid_friendly_score": 0.85, "registration_required": false } },
+    { "id": "temp-004", "type": "Activity", "name": "수중발레·먹이주기·터치풀 체험", "properties": { "category": "체험" } }
+  ],
+  "relations": [
+    { "subject": "temp-003", "predicate": "hostsAt", "object": "temp-001" },
+    { "subject": "temp-003", "predicate": "organizedBy", "object": "temp-002" },
+    { "subject": "temp-003", "predicate": "featuresActivity", "object": "temp-004" },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "dong-doryong" }
+  ]
+}

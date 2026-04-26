@@ -1,0 +1,28 @@
+{
+  "id": "src-002",
+  "title": "유성구 평생학습센터 원데이클래스 — 구암센터·전민센터 운영",
+  "url": "https://lifelong.yuseong.go.kr/lly/prog/lctr/lly/sub02_06/LIFELONG_016/classDetail.do?lctrNo=8271",
+  "snippet": "유성구 평생학습센터에서 원데이클래스 프로그램 운영. 구암센터(042-611-6559)와 전민센터(042-611-6553)에서 진행. 유성구민 및 유성구 소재 학교 재학생·직장 재직자 대상. 3일 전 취소 및 당일 불참 시 2026년 특강 제한.",
+  "source_name": "유성구 평생학습센터",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 유성구 평생학습센터 원데이클래스 관련 항목 없음. 공공기관 주최 교육 프로그램 신규 발견.",
+  "entities": [
+    { "id": "temp-005", "type": "Organization", "name": "유성구 평생학습센터", "properties": { "org_type": "평생학습관", "website": "https://lifelong.yuseong.go.kr" } },
+    { "id": "temp-006", "type": "Venue", "name": "유성구 평생학습센터 구암센터", "properties": { "dong": "구암동", "venue_type": "평생학습관", "phone": "042-611-6559" } },
+    { "id": "temp-007", "type": "Venue", "name": "유성구 평생학습센터 전민센터", "properties": { "dong": "전민동", "venue_type": "평생학습관", "phone": "042-611-6553" } },
+    { "id": "temp-008", "type": "Event", "name": "유성구 평생학습센터 원데이클래스", "properties": { "fee": "무료/저비용 (프로그램별 상이)", "indoor_outdoor": "실내", "kid_friendly_score": 0.6, "registration_required": true } }
+  ],
+  "relations": [
+    { "subject": "temp-008", "predicate": "hostsAt", "object": "temp-006" },
+    { "subject": "temp-008", "predicate": "hostsAt", "object": "temp-007" },
+    { "subject": "temp-008", "predicate": "organizedBy", "object": "temp-005" },
+    { "subject": "temp-005", "predicate": "operates", "object": "temp-006" },
+    { "subject": "temp-005", "predicate": "operates", "object": "temp-007" },
+    { "subject": "temp-006", "predicate": "locatedIn", "object": "dong-guam" },
+    { "subject": "temp-007", "predicate": "locatedIn", "object": "dong-jeonmin" }
+  ]
+}

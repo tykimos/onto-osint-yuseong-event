@@ -1,0 +1,24 @@
+{
+  "id": "src-004",
+  "title": "유성구청소년수련관 프로그램 (구암동)",
+  "url": "https://happy-you.kr/",
+  "snippet": "유성구 청소년수련관에서 수련활동·동아리·캠프 등 청소년 프로그램 운영. 초등고학년~중학생 대상 프로그램 다수.",
+  "source_name": "유성구청소년수련관",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 유성구청소년수련관 관련 항목 없음. 공공기관 주최 프로그램 신규 발견.",
+  "entities": [
+    { "id": "temp-012", "type": "Organization", "name": "유성구청소년수련관", "properties": { "org_type": "복지관", "website": "https://happy-you.kr" } },
+    { "id": "temp-013", "type": "Venue", "name": "유성구청소년수련관", "properties": { "dong": "구암동", "venue_type": "청소년수련관" } },
+    { "id": "temp-014", "type": "Event", "name": "유성구청소년수련관 프로그램", "properties": { "fee": "프로그램별 상이", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.7, "registration_required": true } }
+  ],
+  "relations": [
+    { "subject": "temp-014", "predicate": "hostsAt", "object": "temp-013" },
+    { "subject": "temp-014", "predicate": "organizedBy", "object": "temp-012" },
+    { "subject": "temp-012", "predicate": "operates", "object": "temp-013" },
+    { "subject": "temp-013", "predicate": "locatedIn", "object": "dong-guam" }
+  ]
+}

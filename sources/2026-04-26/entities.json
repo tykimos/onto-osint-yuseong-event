@@ -1,0 +1,208 @@
+{
+  "date": "2026-04-26",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "대전엑스포아쿠아리움",
+      "properties": {
+        "dong": "도룡동",
+        "address": "대전 유성구 엑스포로 1, 신세계 Art&Science B1",
+        "venue_type": "아쿠아리움",
+        "phone": "042-607-8852",
+        "open_hours": "10:00~19:00 (입장마감 18:00)",
+        "kid_friendly": true,
+        "stroller_accessible": true,
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car",
+        "distance_reasoning": "도룡동 엑스포로 소재, 용성로20 기준 약 3.5km — 차량 10분 이내 ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전엑스포아쿠아리움",
+      "properties": { "org_type": "기타민간", "website": "https://djexpoaqua.com/" },
+      "source_ids": ["src-001"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "대전엑스포아쿠아리움 상시 체험 프로그램",
+      "properties": {
+        "fee": "유료 (입장권)",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reasoning": "해양생물 관찰·터치풀 체험·수중발레 등 어린이 체험 콘텐츠 다수, 유모차 접근 가능",
+        "registration_required": false,
+        "target_age_group": ["전연령가족"]
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "유성구 평생학습센터",
+      "properties": { "org_type": "평생학습관", "website": "https://lifelong.yuseong.go.kr" },
+      "source_ids": ["src-002"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "유성구 평생학습센터 구암센터",
+      "properties": {
+        "dong": "구암동",
+        "venue_type": "평생학습관",
+        "phone": "042-611-6559",
+        "distance_from_anchor_m": 3000,
+        "ring": "ring-car",
+        "distance_reasoning": "구암동 소재, 용성로20 기준 약 3km — ring-car"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "유성구 평생학습센터 전민센터",
+      "properties": {
+        "dong": "전민동",
+        "venue_type": "평생학습관",
+        "phone": "042-611-6553",
+        "distance_from_anchor_m": 800,
+        "ring": "ring-stroll",
+        "distance_reasoning": "전민동 소재, 용성로20 기준 약 0.8km — 도보 15분 이내 ring-stroll"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "유성구 평생학습센터 원데이클래스",
+      "properties": {
+        "fee": "무료/저비용 (프로그램별 상이)",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.6,
+        "kid_friendly_reasoning": "주 대상은 성인이지만 부모-자녀 참여형 프로그램도 있음. 보수적 평가",
+        "registration_required": true
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Shop",
+      "name": "현대프리미엄아울렛 대전점",
+      "properties": {
+        "shop_type": "아울렛",
+        "dong": "관평동",
+        "address": "대전 유성구 테크노중앙로 123",
+        "distance_from_anchor_m": 2500,
+        "open_hours": "10:30~21:00",
+        "kid_friendly": true,
+        "is_new": false,
+        "source_url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00177000",
+        "ring": "ring-bike",
+        "distance_reasoning": "관평동 테크노중앙로 소재, 용성로20 기준 약 2.5km — ring-bike"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Shop",
+      "name": "IKEA 팝업스토어 (현대아울렛 대전)",
+      "properties": {
+        "shop_type": "팝업스토어",
+        "dong": "관평동",
+        "address": "현대프리미엄아울렛 대전점 1층",
+        "distance_from_anchor_m": 2500,
+        "kid_friendly": true,
+        "is_new": true,
+        "source_url": "https://www.ikea.com/kr/ko/stores/giheung/ikea-hyundai-outlet-dj-pub6d82f570/",
+        "ring": "ring-bike",
+        "distance_reasoning": "관평동 현대프리미엄아울렛 내, 용성로20 기준 약 2.5km — ring-bike"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "유성구청소년수련관",
+      "properties": { "org_type": "복지관", "website": "https://happy-you.kr" },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "유성구청소년수련관",
+      "properties": {
+        "dong": "구암동",
+        "venue_type": "청소년수련관",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "distance_reasoning": "구암동 소재, 용성로20 기준 약 3.2km — ring-car"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "유성구청소년수련관 프로그램",
+      "properties": {
+        "fee": "프로그램별 상이",
+        "indoor_outdoor": "실내+야외",
+        "kid_friendly_score": 0.7,
+        "kid_friendly_reasoning": "청소년 대상이므로 초등고학년~중학생 적합, 영유아·유아 부적합으로 보수적 평가",
+        "registration_required": true,
+        "target_age_group": ["초등고학년", "중학생이상"]
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    { "subject": "temp-003", "predicate": "hostsAt", "object": "temp-001", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-003", "predicate": "organizedBy", "object": "temp-002", "source_ids": ["src-001"], "confidence": 0.9 },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-008", "predicate": "hostsAt", "object": "temp-006", "source_ids": ["src-002"], "confidence": 0.85 },
+    { "subject": "temp-008", "predicate": "hostsAt", "object": "temp-007", "source_ids": ["src-002"], "confidence": 0.85 },
+    { "subject": "temp-008", "predicate": "organizedBy", "object": "temp-005", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-005", "predicate": "operates", "object": "temp-006", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-005", "predicate": "operates", "object": "temp-007", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-006", "predicate": "locatedIn", "object": "dong-guam", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-007", "predicate": "locatedIn", "object": "dong-jeonmin", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-010", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong", "source_ids": ["src-003"], "confidence": 0.95 },
+    { "subject": "temp-010", "predicate": "shopWithinRing", "object": "ring-bike", "source_ids": ["src-003"], "confidence": 0.8 },
+    { "subject": "temp-014", "predicate": "hostsAt", "object": "temp-013", "source_ids": ["src-004"], "confidence": 0.9 },
+    { "subject": "temp-014", "predicate": "organizedBy", "object": "temp-012", "source_ids": ["src-004"], "confidence": 0.9 },
+    { "subject": "temp-013", "predicate": "locatedIn", "object": "dong-guam", "source_ids": ["src-004"], "confidence": 0.85 }
+  ],
+  "stats": {
+    "total_entities": 13,
+    "new_entities": 13,
+    "matched_entities": 0,
+    "total_relations": 15
+  }
+}

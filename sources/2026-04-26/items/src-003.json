@@ -1,0 +1,25 @@
+{
+  "id": "src-003",
+  "title": "현대프리미엄아울렛 대전점 IKEA 팝업스토어 (관평동)",
+  "url": "https://www.ikea.com/kr/ko/stores/giheung/ikea-hyundai-outlet-dj-pub6d82f570/",
+  "snippet": "IKEA 팝업스토어가 현대프리미엄아울렛 대전점(관평동)에서 운영. 280여 개 브랜드, 키즈 매장 포함. 가족 단위 쇼핑·키즈존·체험형 매장.",
+  "source_name": "IKEA",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 현대프리미엄아울렛 대전점 IKEA 팝업스토어 관련 항목 없음. Shop 카테고리 — 가족 대상 팝업/프로모션 신규 발견.",
+  "entities": [
+    { "id": "temp-009", "type": "Shop", "name": "현대프리미엄아울렛 대전점", "properties": { "shop_type": "아울렛", "dong": "관평동", "address": "대전 유성구 테크노중앙로 123", "distance_from_anchor_m": 2500, "open_hours": "10:30~21:00", "kid_friendly": true, "naver_url": "https://map.naver.com" } },
+    { "id": "temp-010", "type": "Shop", "name": "IKEA 팝업스토어 (현대아울렛 대전)", "properties": { "shop_type": "팝업스토어", "dong": "관평동", "address": "현대프리미엄아울렛 대전점 1층", "distance_from_anchor_m": 2500, "kid_friendly": true, "is_new": true } },
+    { "id": "temp-011", "type": "Event", "name": "IKEA 팝업스토어 운영", "properties": { "fee": "무료 (입장)", "indoor_outdoor": "실내", "kid_friendly_score": 0.65 } }
+  ],
+  "relations": [
+    { "subject": "temp-010", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong" },
+    { "subject": "temp-010", "predicate": "shopWithinRing", "object": "ring-bike" },
+    { "subject": "temp-009", "predicate": "shopLocatedIn", "object": "dong-gwanpyeong" },
+    { "subject": "temp-009", "predicate": "shopWithinRing", "object": "ring-bike" },
+    { "subject": "temp-010", "predicate": "shopHosts", "object": "temp-011" }
+  ]
+}

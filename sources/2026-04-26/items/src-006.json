@@ -1,0 +1,17 @@
+{
+  "id": "src-006",
+  "title": "유성온천문화축제 — 2026 일정 여전히 미공지",
+  "url": "http://ysfesta.com/index.php",
+  "snippet": "유성온천문화축제 공식 사이트 및 대한민국구석구석에서 2026년 일정이 여전히 공지되지 않음. 2025년은 5.2~5.4에 개최. 온천로·계룡스파텔·갑천변·유림공원 일원. 30회째. 족욕테마열차, 어린이 프로그램, 체험부스(공예·과학VR·건강) 운영.",
+  "source_name": "유성온천문화축제",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "update",
+  "related_report": "2026-04-25",
+  "related_item": "추적항목: 유성온천문화축제",
+  "tag_reason": "4/25 보고서에서 '2026 일정 미공지' 추적 항목이었음. 4/26 재확인 결과 여전히 미공지. 족욕테마열차·어린이프로그램 등 상세 콘텐츠 정보 추가.",
+  "entities": [
+    { "id": "ent-evt-yuseong-fest", "type": "Event", "name": "유성온천문화축제 2026", "properties": { "fee": "무료 (일부 유료)", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.8 } }
+  ],
+  "relations": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-005",
+  "title": "2026년 대전 대표축제 9개 선정 — 유성사계절축제·유성국화축제 포함",
+  "url": "https://v.daum.net/v/20260114165842736?f=p",
+  "snippet": "대전시가 2026년 대표축제 9개를 선정. 유성구 관련으로 유성사계절축제, 유성국화축제가 포함됨. 유성온천문화축제도 30회째 개최 예정.",
+  "source_name": "Daum뉴스",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 2026 대전 대표축제 선정 관련 항목 없음. 유성구 연간 축제 로드맵 맥락 제공.",
+  "entities": [
+    { "id": "temp-015", "type": "Event", "name": "유성사계절축제", "properties": { "kid_friendly_score": 0.7, "indoor_outdoor": "야외" } },
+    { "id": "temp-016", "type": "Event", "name": "유성국화축제", "properties": { "kid_friendly_score": 0.6, "indoor_outdoor": "야외" } }
+  ],
+  "relations": [
+    { "subject": "temp-015", "predicate": "organizedBy", "object": "ent-org-001" },
+    { "subject": "temp-016", "predicate": "organizedBy", "object": "ent-org-001" }
+  ]
+}
