@@ -1014,11 +1014,151 @@
       "object": "ent-venue-014",
       "confidence": 0.8,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "organizedBy",
+      "object": "ent-org-001",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "hostsAt",
+      "object": "ent-venue-018",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "organizedBy",
+      "object": "ent-org-016",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-022",
+      "predicate": "organizedBy",
+      "object": "ent-org-015",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-022",
+      "predicate": "followsEvent",
+      "object": "ent-evt-018",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-023",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-017",
+      "predicate": "operates",
+      "object": "ent-venue-019",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-004",
+      "predicate": "shopLocatedIn",
+      "object": "dong-deokmyeong",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "visitCombo",
+      "object": "ent-evt-014",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "visitCombo",
+      "object": "ent-evt-011",
+      "confidence": 0.8,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-022",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "visitCombo",
+      "object": "ent-evt-020",
+      "confidence": 0.75,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "type": "inferred"
     }
   ],
   "stats": {
-    "total_nodes": 60,
+    "total_nodes": 69,
     "total_edges": 0,
-    "total_triples": 104
+    "total_triples": 124
   }
 }

@@ -1,0 +1,22 @@
+{
+  "id": "src-004",
+  "title": "유성구 '지역작가 인 도서관' 프로그램 — 5월~ 6개 도서관",
+  "url": "https://pedien.com/html/view.php?idx=1014924",
+  "snippet": "유성구, 5월부터 6개 공공도서관에서 지역작가와 주민이 직접 만나 소통하는 '지역작가 인(人) 도서관' 프로그램 운영. 강연, 북토크, 창작 프로그램 등 다채로운 행사 진행.",
+  "source_name": "페디앙",
+  "additional_source": "https://www.kspnews.com/2595126",
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고의 '유성구통합도서관 지역작가 인 도서관' 항목은 4/26에 reported 태그였으나, 금일 검색에서 5월부터 정식 운영 시작 확인 → 별도 신규 항목. 6개 도서관 확대 구체화.",
+  "entities": [
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관", "properties": { "start_date": "2026-05-01", "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.6, "registration_required": false, "target_age_group": ["전연령가족"] } },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "matched_id": "ent-org-004" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004" },
+    { "subject": "ent-evt-023", "predicate": "targetsAgeGroup", "object": "age-family" }
+  ]
+}

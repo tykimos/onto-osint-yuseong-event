@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-27",
+  "new_triples": [
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-020", "predicate": "organizedBy", "object": "ent-org-001", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018", "confidence": 0.9, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-016", "confidence": 0.85, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-evt-021", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit", "source_id": "src-002" },
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015", "confidence": 0.9, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-evt-022", "predicate": "followsEvent", "object": "ent-evt-018", "confidence": 0.85, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004", "confidence": 0.9, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-org-017", "predicate": "operates", "object": "ent-venue-019", "confidence": 0.9, "type": "explicit", "source_id": "src-005" },
+    { "subject": "ent-shop-004", "predicate": "shopLocatedIn", "object": "dong-deokmyeong", "confidence": 0.85, "type": "explicit", "source_id": "src-006" }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    { "subject": "ent-evt-020", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.9, "type": "inferred", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-020", "predicate": "visitCombo", "object": "ent-evt-014", "confidence": 0.85, "type": "inferred", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-020", "predicate": "visitCombo", "object": "ent-evt-011", "confidence": 0.8, "type": "inferred", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-022", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-021", "predicate": "visitCombo", "object": "ent-evt-020", "confidence": 0.75, "type": "inferred", "rule": "temporal_sequence" },
+    { "subject": "ent-evt-020", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness" }
+  ],
+  "stats": {
+    "new_nodes": 9,
+    "new_edges": 14,
+    "inferred_edges": 6
+  }
+}

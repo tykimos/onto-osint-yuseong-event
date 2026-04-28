@@ -86,6 +86,27 @@
     { "id": "ent-venue-017", "type": "Venue", "name": "119시민체험센터", "properties": { "venue_type": "체험센터", "open_hours": "화~토 09:30~11:30/13:30~15:30" }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
     { "id": "ent-evt-018", "type": "Event", "name": "유성소방서 이동안전체험교육", "properties": { "fee": "무료", "indoor_outdoor": "야외", "kid_friendly_score": 0.85, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
     { "id": "ent-evt-019", "type": "Event", "name": "119시민체험센터 소방안전체험", "properties": { "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.8, "registration_required": true }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
-    { "id": "ent-shop-003", "type": "Shop", "name": "신세계 Art&Science 대전", "properties": { "shop_type": "백화점", "dong": "도룡동", "address": "대전 유성구 엑스포로 1", "distance_from_anchor_m": 3500, "kid_friendly": true, "is_new": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 }
+    { "id": "ent-shop-003", "type": "Shop", "name": "신세계 Art&Science 대전", "properties": { "shop_type": "백화점", "dong": "도룡동", "address": "대전 유성구 엑스포로 1", "distance_from_anchor_m": 3500, "kid_friendly": true, "is_new": false }, "first_seen": "2026-04-26", "last_seen": "2026-04-26", "mention_count": 1 },
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "properties": { "start_date": "2026-05-05", "end_date": "2026-05-05", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.95, "registration_required": false, "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"] }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 3 },
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "properties": { "start_date": "2026-05-02", "end_date": "2026-05-04", "fee": "무료 (일부 유료)", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.7, "registration_required": false, "program_count": 100 }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 3 },
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장", "properties": { "start_date": "2026-05-01", "end_date": "2026-05-31", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.85, "registration_required": true }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관", "properties": { "start_date": "2026-05-01", "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.6, "registration_required": false }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 2 },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장", "properties": { "dong": "봉명동", "venue_type": "축제장", "distance_from_anchor_m": 5000 }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
+    { "id": "ent-venue-019", "type": "Venue", "name": "유성구종합사회복지관", "properties": { "dong": "봉명동", "venue_type": "복지관", "address": "대전 유성구 도안대로589번길 27 (봉명동)", "phone": "042-825-3183", "distance_from_anchor_m": 4500 }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "properties": { "org_type": "기타민간" }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
+    { "id": "ent-org-017", "type": "Organization", "name": "유성구종합사회복지관", "properties": { "org_type": "복지관", "address": "대전 유성구 도안대로589번길 27 (봉명동)", "phone": "042-825-3183" }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
+    { "id": "ent-shop-004", "type": "Shop", "name": "레포레스트", "properties": { "shop_type": "카페", "dong": "덕명동", "address": "대전 유성구 덕명동 (한밭대학교 인근)", "distance_from_anchor_m": 4000, "kid_friendly": true, "is_new": true }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 }
+  ],
+  "total_count": 81,
+  "new_entities_2026_04_27": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당" },
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제" },
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장" },
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관" },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장" },
+    { "id": "ent-venue-019", "type": "Venue", "name": "유성구종합사회복지관" },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회" },
+    { "id": "ent-org-017", "type": "Organization", "name": "유성구종합사회복지관" },
+    { "id": "ent-shop-004", "type": "Shop", "name": "레포레스트" }
   ]
 }

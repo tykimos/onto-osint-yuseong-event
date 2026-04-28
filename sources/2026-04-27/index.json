@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-27",
+  "total": 14,
+  "new": 4,
+  "reported": 8,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "유성구 어린이날 '유성 어린이 한마당' 개최 — 5/5 국립중앙과학관 (도룡동)",
+      "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-002",
+      "title": "유성온천문화축제 2026 일정 확정 — 5/2~5/4 온천로 일원",
+      "url": "http://ysfesta.com/bbs/spafest.php?page_id=overview",
+      "tag": "update",
+      "related_report": "2026-04-26",
+      "related_item": "src-006 (유성온천문화축제 일정 미공지)",
+      "entity_count": 4
+    },
+    {
+      "id": "src-003",
+      "title": "유성소방서, 가정의 달 소방안전체험의 장 운영",
+      "url": "https://www.gocj.net/news/articleView.html?idxno=133782",
+      "tag": "update",
+      "related_report": "2026-04-26",
+      "related_item": "src-017 (유성소방서 이동안전체험)",
+      "entity_count": 3
+    },
+    {
+      "id": "src-004",
+      "title": "유성구 '지역작가 인 도서관' 프로그램 — 5월~ 6개 도서관",
+      "url": "https://pedien.com/html/view.php?idx=1014924",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "유성구종합사회복지관 — 봉명동 지역사회복지 프로그램",
+      "url": "http://yuseongswc.or.kr",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "레포레스트 — 덕명동 신규 대형카페 (유성구)",
+      "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "국립중앙과학관 교육 프로그램 (상시 운영)",
+      "url": "https://www.science.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "국립어린이과학관 탐이꿈이 비밀실험실·K-사이언스 프로그램",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "대전시민천문대 상시 관측 프로그램",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "대전광역시어린이회관 체험 프로그램 (노은동)",
+      "url": "https://www.djkids.or.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "대전엑스포아쿠아리움 — 상시 체험 시설",
+      "url": "https://djexpoaqua.com/",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "아가랑도서관 아가·맘 행복교실 (전민동)",
+      "url": "https://www.welfarehello.com/community/hometownNews/0fda2727-354e-4382-8caa-04ccebd49352",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-013",
+      "title": "119시민체험센터 소방안전체험",
+      "url": "https://daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4462",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    },
+    {
+      "id": "src-014",
+      "title": "유성구 도서관 세대별 독서문화·북스타트 프로그램",
+      "url": "https://lib.yuseong.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "src-001",
+  "title": "유성구 어린이날 '유성 어린이 한마당' 개최 — 5/5 국립중앙과학관 (도룡동)",
+  "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+  "snippet": "유성구는 5월 5일 국립중앙과학관 중앙광장 일원에서 제104회 어린이날 기념 '유성 어린이 한마당' 개최. 목재친화 팝업놀이터 '나무랑 놀꾸야' 연계, 공연·체험·놀이 복합 축제. 사이언스홀 매직쇼·버블쇼, 초코파이 진공 실험, 밀가루 배터리 시계 만들기, 무지개 망원경, 3D펜, 모루 인형 만들기, 목공 체험 16종, 보드게임·전통놀이, 아동 권리 캠페인·지문 사전등록·감염병 예방 교육.",
+  "source_name": "디트NEWS24",
+  "additional_source": "https://www.ccdn.co.kr/news/articleView.html?idxno=1075693",
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유성구 어린이날 행사 '유성 어린이 한마당'은 이전 14일 소스에 동일/유사 항목 없음. 추적 항목 '어린이날 특별행사 D-9'의 구체적 일정이 확인됨.",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "properties": { "start_date": "2026-05-05", "end_date": "2026-05-05", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.95, "registration_required": false, "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"] } },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "matched_id": "ent-venue-005" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구", "properties": { "org_type": "구청" } },
+    { "id": "ent-act-001", "type": "Activity", "name": "과학체험·목공·공연", "properties": { "category": "체험·공연" } },
+    { "id": "ent-act-002", "type": "Activity", "name": "나무랑 놀꾸야 목재 팝업놀이터", "properties": { "category": "목공 체험" } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-020", "predicate": "organizedBy", "object": "ent-org-001" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "ent-act-001" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "ent-act-002" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-toddler" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-elem-low" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-elem-high" },
+    { "subject": "ent-evt-020", "predicate": "targetsAgeGroup", "object": "age-family" }
+  ]
+}

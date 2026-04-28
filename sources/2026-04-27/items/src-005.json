@@ -1,0 +1,21 @@
+{
+  "id": "src-005",
+  "title": "유성구종합사회복지관 — 봉명동 지역사회복지 프로그램",
+  "url": "http://yuseongswc.or.kr",
+  "snippet": "대전 유성구 도안대로589번길 27 (봉명동). 복지관 소개, 지역사회복지, 수영장, 체련장, 후원, 자원봉사 안내. 전화: 042-825-3183 / 노인복지센터 042-825-3182",
+  "source_name": "유성구종합사회복지관",
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유성구종합사회복지관이 온톨로지에 등록되지 않았던 공공기관(복지관). 3종 의무 커버 중 복지관 카테고리 강화.",
+  "entities": [
+    { "id": "ent-org-017", "type": "Organization", "name": "유성구종합사회복지관", "properties": { "org_type": "복지관", "address": "대전 유성구 도안대로589번길 27 (봉명동)", "phone": "042-825-3183" } },
+    { "id": "ent-venue-019", "type": "Venue", "name": "유성구종합사회복지관", "properties": { "dong": "봉명동", "venue_type": "복지관", "address": "대전 유성구 도안대로589번길 27 (봉명동)", "distance_from_anchor_m": 4500 } }
+  ],
+  "relations": [
+    { "subject": "ent-org-017", "predicate": "operates", "object": "ent-venue-019" },
+    { "subject": "ent-venue-019", "predicate": "locatedIn", "object": "dong-bongmyeong" }
+  ]
+}

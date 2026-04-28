@@ -1,0 +1,21 @@
+{
+  "id": "src-003",
+  "title": "유성소방서, 가정의 달 소방안전체험의 장 운영",
+  "url": "https://www.gocj.net/news/articleView.html?idxno=133782",
+  "snippet": "유성소방서, 5월 가정의 달 맞아 소방안전체험의 장 운영. 어린이·가족 대상 체험 행사 확대. 이동안전체험차량 + 119시민체험센터 연계.",
+  "source_name": "대전시티저널",
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "update",
+  "related_report": "2026-04-26",
+  "related_item": "src-017",
+  "tag_reason": "4/26에 신규 보고된 유성소방서 이동안전체험의 후속 정보. 5월 '가정의 달' 확대 운영이 새로운 정보.",
+  "entities": [
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서", "matched_id": "ent-org-015" },
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장", "properties": { "start_date": "2026-05-01", "end_date": "2026-05-31", "fee": "무료", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.85, "registration_required": true, "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"] } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015" },
+    { "subject": "ent-evt-022", "predicate": "followsEvent", "object": "ent-evt-018" }
+  ]
+}

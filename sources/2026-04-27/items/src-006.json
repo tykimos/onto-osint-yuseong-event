@@ -1,0 +1,19 @@
+{
+  "id": "src-006",
+  "title": "레포레스트 — 덕명동 신규 대형카페 (유성구)",
+  "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8",
+  "snippet": "한밭대학교 근처 덕명동 신규 대형카페 레포레스트. 1층부터 4층까지 각기 다른 분위기. 야외 테라스, 넓은 공간, 단체석. 가족·모임 카페.",
+  "source_name": "웰페어헬로",
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "덕명동에 새로 오픈한 대형카페. 유성구 내이나 1차 타겟 동(용산·전민·관평·문지·신성·도룡)은 아님. ring-car 범위 내.",
+  "entities": [
+    { "id": "ent-shop-004", "type": "Shop", "name": "레포레스트", "properties": { "shop_type": "카페", "dong": "덕명동", "address": "대전 유성구 덕명동 (한밭대학교 인근)", "distance_from_anchor_m": 4000, "kid_friendly": true, "is_new": true } }
+  ],
+  "relations": [
+    { "subject": "ent-shop-004", "predicate": "shopLocatedIn", "object": "dong-deokmyeong" }
+  ]
+}

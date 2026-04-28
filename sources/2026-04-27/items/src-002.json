@@ -1,0 +1,27 @@
+{
+  "id": "src-002",
+  "title": "유성온천문화축제 2026 일정 확정 — 5/2~5/4 온천로 일원",
+  "url": "http://ysfesta.com/bbs/spafest.php?page_id=overview",
+  "snippet": "2026 유성온천문화축제 5월 2일(금)~4일(일) 3일간, 온천로 일원·계룡스파텔 광장. 8개 분야 100여개 프로그램. 온천거리퍼레이드, 온천수 물총 스플래쉬, 온천수 DJ파티 등.",
+  "source_name": "유성온천문화축제 공식",
+  "additional_sources": [
+    "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7",
+    "https://www.daejeontour.co.kr/ko/festival/festivalView.do?festv_id=58"
+  ],
+  "language": "ko",
+  "discovered_date": "2026-04-27",
+  "tag": "update",
+  "related_report": "2026-04-26",
+  "related_item": "src-006",
+  "tag_reason": "이전 보고(4/25~26)에서 '유성온천문화축제 2026 일정 미공지'로 추적 중이었으나, 금일 검색에서 5/2~5/4 일정이 공식 확정됨. 핵심 업데이트.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "properties": { "start_date": "2026-05-02", "end_date": "2026-05-04", "fee": "무료 (일부 유료)", "indoor_outdoor": "야외+실내", "kid_friendly_score": 0.7, "registration_required": false, "target_age_group": ["전연령가족"], "program_count": 100 } },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장", "properties": { "dong": "봉명동", "venue_type": "축제장" } },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "properties": { "org_type": "기타민간" } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-016" },
+    { "subject": "ent-evt-021", "predicate": "targetsAgeGroup", "object": "age-family" }
+  ]
+}

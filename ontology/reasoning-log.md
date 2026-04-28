@@ -148,3 +148,47 @@
 - **신뢰도:** 0.80
 - **상태:** 확정
 - **비고:** 전민동 내 도서관 + 평생학습센터 묶음 방문 가능. 용성로20 도보권(ring-stroll) 내 공공 프로그램 클러스터 형성
+
+## 2026-04-27 추론 결과
+
+### 추론 #1: public_institution_kid_event (유성 어린이 한마당)
+- **입력:** (ent-org-001 orgType 구청), (ent-evt-020 organizedBy ent-org-001), (ent-evt-020 targetsAgeGroup 유아|초등저학년|초등고학년|전연령가족)
+- **추론:** (ent-evt-020 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 유성구청 주최 어린이날 행사 — 최고 수준 공공 신뢰도. 무료·사전신청 불필요.
+
+### 추론 #2: same_dong_combo (어린이 한마당 + 사이언스데이)
+- **입력:** (ent-evt-020 hostsAt ent-venue-005), (ent-evt-014 hostsAt ent-venue-005)
+- **추론:** (ent-evt-020 visitCombo ent-evt-014)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 같은 국립중앙과학관에서 열리는 행사. 사이언스데이(4/17~19, 종료)와 어린이 한마당(5/5)은 시기가 다르지만, 동일 venue에서 유성구가 반복 개최하는 시리즈로 볼 수 있음.
+
+### 추론 #3: same_dong_combo (어린이 한마당 + 아쿠아리움)
+- **입력:** (ent-evt-020 hostsAt ent-venue-005), (ent-evt-011 hostsAt ent-venue-012), (ent-venue-005 locatedIn dong-doryong), (ent-venue-012 locatedIn dong-doryong)
+- **추론:** (ent-evt-020 visitCombo ent-evt-011)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 어린이날(5/5) 어린이 한마당(국립중앙과학관) + 아쿠아리움(신세계 B1) 도룡동 당일 연계
+
+### 추론 #4: public_institution_kid_event (가정의 달 소방안전체험)
+- **입력:** (ent-org-015 orgType 소방서), (ent-evt-022 organizedBy ent-org-015)
+- **추론:** (ent-evt-022 publicTrustBoost +0.15)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 소방서 주최 가정의 달 확대 운영 — 기존 이동안전체험(ent-evt-018)의 후속
+
+### 추론 #5: temporal_sequence (유성온천문화축제 → 어린이 한마당)
+- **입력:** (ent-evt-021 start_date 2026-05-02), (ent-evt-021 end_date 2026-05-04), (ent-evt-020 start_date 2026-05-05)
+- **추론:** (ent-evt-021 visitCombo ent-evt-020)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 유성온천문화축제(5/2~4) 직후 어린이 한마당(5/5) = 5일 연속 가족 행사. 다만 장소가 봉명동 → 도룡동으로 이동이 필요하므로 신뢰도 0.75.
+
+### 추론 #6: operator_kid_friendliness (어린이 한마당)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-020 hostsAt ent-venue-005)
+- **추론:** (ent-evt-020 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관이 운영하는 장소에서 개최 → 어린이 친화도 가산
