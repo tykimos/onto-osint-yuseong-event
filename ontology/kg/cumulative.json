@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-28",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1154,11 +1154,94 @@
       "object": "+0.2",
       "confidence": 0.9,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-001",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-002",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-003",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "shopLocatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "shopWithinRing",
+      "object": "ring-car",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-act-001",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "nearby",
+      "object": "ent-venue-012",
+      "confidence": 0.85,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "nearby",
+      "object": "ent-venue-005",
+      "confidence": 0.8,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.1",
+      "confidence": 0.85,
+      "type": "inferred"
     }
   ],
+  "nodes_added_2026_04_28": [
+    { "id": "ent-act-001", "type": "Activity", "label": "캐치! 티니핑 공연" },
+    { "id": "ent-act-002", "type": "Activity", "label": "유성호 족욕 테마열차" },
+    { "id": "ent-act-003", "type": "Activity", "label": "유성온천수 수영장" },
+    { "id": "ent-shop-005", "type": "Shop", "label": "너티차일드 키즈 테마파크" }
+  ],
   "stats": {
-    "total_nodes": 69,
+    "total_nodes": 73,
     "total_edges": 0,
-    "total_triples": 124
+    "total_triples": 136
   }
 }

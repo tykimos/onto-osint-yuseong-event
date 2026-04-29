@@ -1,0 +1,21 @@
+{
+  "id": "src-002",
+  "title": "너티차일드 프리미엄 키즈 테마파크 대전점 (도룡동 엑스포로)",
+  "url": "https://www.naughtychild.co.kr/daejeon",
+  "snippet": "대전 유성구 엑스포로151번길에 위치한 프리미엄 키즈 테마파크. 매일 10:30~20:30 운영. 대형 실내 놀이 시설로 유아~초등저학년 대상. 도룡동 엑스포 권역 내 위치하여 과학관·아쿠아리움과 연계 가능.",
+  "source_name": "너티차일드 공식",
+  "language": "ko",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 4일간 보고서에 너티차일드 키즈 테마파크 언급 없음. 도룡동 엑스포 권역 내 어린이 전용 시설로 신규 발견.",
+  "entities": [
+    { "id": "temp-004", "type": "Shop", "name": "너티차일드 프리미엄 키즈 테마파크 대전점", "properties": { "shop_type": "키즈카페", "dong": "도룡동", "address": "대전 유성구 엑스포로151번길", "distance_from_anchor_m": 3500, "open_hours": "매일 10:30~20:30", "kid_friendly": true, "is_new": false } },
+    { "id": "dong-doryong", "type": "Dong", "name": "도룡동", "role": "소재동" }
+  ],
+  "relations": [
+    { "subject": "temp-004", "predicate": "shopLocatedIn", "object": "dong-doryong" },
+    { "subject": "temp-004", "predicate": "shopWithinRing", "object": "ring-car" }
+  ]
+}

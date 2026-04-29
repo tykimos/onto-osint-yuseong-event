@@ -1,0 +1,111 @@
+{
+  "date": "2026-04-28",
+  "new_triples": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-001",
+      "source_id": "src-001",
+      "date": "2026-04-28",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-002",
+      "source_id": "src-001",
+      "date": "2026-04-28",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-003",
+      "source_id": "src-001",
+      "date": "2026-04-28",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "shopLocatedIn",
+      "object": "dong-doryong",
+      "source_id": "src-002",
+      "date": "2026-04-28",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "shopWithinRing",
+      "object": "ring-car",
+      "source_id": "src-002",
+      "date": "2026-04-28",
+      "confidence": 0.85,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "type": "explicit",
+      "note": "캐치! 티니핑 공연 확정으로 유아 타겟 명확화"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.85,
+      "type": "explicit",
+      "note": "물총 스플래쉬 + 티니핑 = 초등저학년 타겟"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-act-001",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "type": "inferred",
+      "rule": "age_group_overlap",
+      "note": "캐치! 티니핑은 유아·초등저학년 핵심 IP"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "nearby",
+      "object": "ent-venue-012",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "proximity",
+      "note": "너티차일드(엑스포로151번길)와 아쿠아리움(엑스포로1) 모두 도룡동 엑스포 권역"
+    },
+    {
+      "subject": "ent-shop-005",
+      "predicate": "nearby",
+      "object": "ent-venue-005",
+      "confidence": 0.8,
+      "type": "inferred",
+      "rule": "proximity",
+      "note": "너티차일드와 국립중앙과학관 도룡동 내 근접"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.1",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "kid_program_boost",
+      "note": "캐치! 티니핑 + 물총 스플래쉬 확정으로 어린이 친화도 0.7→0.8 상향"
+    }
+  ],
+  "stats": {
+    "new_nodes": 5,
+    "new_edges": 5,
+    "inferred_edges": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "src-003",
+  "title": "전국 5월 가정의 달 어린이 축제 종합 — 대전·유성 포함",
+  "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may",
+  "snippet": "서울경제 영문판. 전국 지자체가 5월 가정의 달에 어린이 축제를 대규모 개최. 대전 유성구를 포함한 과학관·공원·복지시설 등에서 어린이 체험 프로그램 확대. 유성구 어린이 한마당과 유성온천문화축제가 대전 지역 대표 행사로 언급.",
+  "source_name": "Seoul Economic Daily (English)",
+  "language": "en",
+  "discovered_date": "2026-04-28",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "전국 규모 종합 기사에서 유성구 행사가 언급됨. 유성 어린이 한마당과 유성온천문화축제가 대전 대표 행사로 포지셔닝되는 맥락 확인.",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당" },
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제" }
+  ],
+  "relations": []
+}

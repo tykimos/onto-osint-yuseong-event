@@ -192,3 +192,33 @@
 - **신뢰도:** 0.90
 - **상태:** 확정
 - **비고:** 국립중앙과학관이 운영하는 장소에서 개최 → 어린이 친화도 가산
+
+## 2026-04-28 추론 결과
+
+### 추론 #1: age_group_overlap (캐치! 티니핑 → 유아 타겟)
+- **입력:** (ent-evt-021 featuresActivity ent-act-001), (ent-act-001 target_age 유아·초등저학년)
+- **추론:** (ent-act-001 targetsAgeGroup age-toddler)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 캐치! 티니핑은 유아·초등저학년 핵심 IP. 축제 전체의 어린이 집객력을 크게 높이는 프로그램.
+
+### 추론 #2: proximity (너티차일드 ↔ 아쿠아리움)
+- **입력:** (ent-shop-005 shopLocatedIn dong-doryong), (ent-venue-012 locatedIn dong-doryong)
+- **추론:** (ent-shop-005 nearby ent-venue-012)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 너티차일드(엑스포로151번길)와 아쿠아리움(엑스포로1, 신세계 B1) 모두 도룡동 엑스포 권역. 도보 15분 이내 추정. 어린이날 실내 연계 루트로 활용 가능.
+
+### 추론 #3: proximity (너티차일드 ↔ 국립중앙과학관)
+- **입력:** (ent-shop-005 shopLocatedIn dong-doryong), (ent-venue-005 locatedIn dong-doryong)
+- **추론:** (ent-shop-005 nearby ent-venue-005)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 어린이 한마당(5/5, 국립중앙과학관) 후 너티차일드에서 실내 놀이 가능. 우천 시 대체 루트.
+
+### 추론 #4: kid_program_boost (유성온천문화축제 어린이 친화도 상향)
+- **입력:** (ent-evt-021 featuresActivity ent-act-001), (ent-act-001 kid_friendly_score 0.95), (ent-evt-021 기존 kid_friendly_score 0.7)
+- **추론:** (ent-evt-021 kidFriendlyBoost +0.1)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 캐치! 티니핑(유아 IP) + 물총 스플래쉬(초등) 프로그램 확정으로 축제 전체의 어린이 친화도를 0.7→0.8으로 상향 조정할 근거 확보. DJ파티·7080 등 성인 프로그램도 혼재하여 0.8이 적정.

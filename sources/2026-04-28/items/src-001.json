@@ -1,0 +1,25 @@
+{
+  "id": "src-001",
+  "title": "유성온천문화축제 세부 프로그램 공개 — 캐치! 티니핑, 족욕 열차, 온천수 수영장",
+  "url": "http://ysfesta.com/bbs/spafest.php?page_id=program1",
+  "snippet": "유성온천문화축제 공식 사이트에서 대표 프로그램 상세 공개. 캐치! 티니핑 공연(어린이 인기 IP), 유성호 족욕 테마열차, 유성온천수 수영장(11시~20시, 매시간 45분), 힙합&댄스 공연, 헤어아트쇼, 7080 음악 공연, 생활체조·생활무용·뮤직&댄스 경연대회.",
+  "source_name": "유성온천문화축제 공식",
+  "language": "ko",
+  "discovered_date": "2026-04-28",
+  "tag": "update",
+  "related_report": "2026-04-27",
+  "related_item": "src-002 (유성온천문화축제 일정 확정)",
+  "tag_reason": "어제 보고서에서 일정만 확정 상태였으나, 오늘 공식 사이트에서 세부 프로그램 목록이 공개됨. 특히 캐치! 티니핑(어린이 인기 IP)과 족욕 열차는 가족 동반 핵심 프로그램.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "프로그램 상세 공개" },
+    { "id": "temp-001", "type": "Activity", "name": "캐치! 티니핑 공연", "properties": { "category": "공연", "target_age": "유아·초등저학년", "kid_friendly_score": 0.95 } },
+    { "id": "temp-002", "type": "Activity", "name": "유성호 족욕 테마열차", "properties": { "category": "체험", "target_age": "전연령가족" } },
+    { "id": "temp-003", "type": "Activity", "name": "유성온천수 수영장", "properties": { "category": "체험", "duration_minutes": 45, "operating_hours": "11:00~20:00", "target_age": "전연령가족" } },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-001" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-002" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-003" }
+  ]
+}

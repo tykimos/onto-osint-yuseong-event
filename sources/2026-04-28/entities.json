@@ -1,0 +1,83 @@
+{
+  "date": "2026-04-28",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "캐치! 티니핑 공연",
+      "properties": { "category": "공연", "target_age": "유아·초등저학년", "kid_friendly_score": 0.95, "event_parent": "ent-evt-021" },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "유성호 족욕 테마열차",
+      "properties": { "category": "체험", "target_age": "전연령가족", "event_parent": "ent-evt-021" },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "유성온천수 수영장",
+      "properties": { "category": "체험", "duration_minutes": 45, "operating_hours": "11:00~20:00", "target_age": "전연령가족", "event_parent": "ent-evt-021" },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Shop",
+      "name": "너티차일드 프리미엄 키즈 테마파크 대전점",
+      "properties": {
+        "shop_type": "키즈카페",
+        "dong": "도룡동",
+        "address": "대전 유성구 엑스포로151번길",
+        "distance_from_anchor_m": 3500,
+        "open_hours": "매일 10:30~20:30",
+        "kid_friendly": true,
+        "is_new": false,
+        "naver_url": null,
+        "source_url": "https://www.naughtychild.co.kr/daejeon"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1,
+      "distance_estimation_basis": "엑스포로151번길은 도룡동 엑스포 권역. 용성로20(전민동/용산동 경계)에서 직선거리 약 3.5km. ring-car."
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-021",
+      "type": "Event",
+      "name": "2026 유성온천문화축제",
+      "properties": { "program_detail_released": true, "key_programs": ["캐치! 티니핑", "족욕 열차", "온천수 수영장", "물총 스플래쉬", "DJ파티", "7080 음악", "경연대회"] },
+      "source_ids": ["src-001", "src-003", "src-005"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-020",
+      "type": "Event",
+      "name": "유성 어린이 한마당",
+      "properties": {},
+      "source_ids": ["src-003", "src-004"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-001", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-002", "source_ids": ["src-001"], "confidence": 0.9 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-003", "source_ids": ["src-001"], "confidence": 0.9 },
+    { "subject": "temp-004", "predicate": "shopLocatedIn", "object": "dong-doryong", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "temp-004", "predicate": "shopWithinRing", "object": "ring-car", "source_ids": ["src-002"], "confidence": 0.85 }
+  ],
+  "stats": {
+    "total_entities": 6,
+    "new_entities": 4,
+    "matched_entities": 2,
+    "total_relations": 5
+  }
+}

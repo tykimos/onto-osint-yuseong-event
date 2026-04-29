@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-28",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -95,18 +95,17 @@
     { "id": "ent-venue-019", "type": "Venue", "name": "유성구종합사회복지관", "properties": { "dong": "봉명동", "venue_type": "복지관", "address": "대전 유성구 도안대로589번길 27 (봉명동)", "phone": "042-825-3183", "distance_from_anchor_m": 4500 }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
     { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "properties": { "org_type": "기타민간" }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
     { "id": "ent-org-017", "type": "Organization", "name": "유성구종합사회복지관", "properties": { "org_type": "복지관", "address": "대전 유성구 도안대로589번길 27 (봉명동)", "phone": "042-825-3183" }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
-    { "id": "ent-shop-004", "type": "Shop", "name": "레포레스트", "properties": { "shop_type": "카페", "dong": "덕명동", "address": "대전 유성구 덕명동 (한밭대학교 인근)", "distance_from_anchor_m": 4000, "kid_friendly": true, "is_new": true }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 }
+    { "id": "ent-shop-004", "type": "Shop", "name": "레포레스트", "properties": { "shop_type": "카페", "dong": "덕명동", "address": "대전 유성구 덕명동 (한밭대학교 인근)", "distance_from_anchor_m": 4000, "kid_friendly": true, "is_new": true }, "first_seen": "2026-04-27", "last_seen": "2026-04-27", "mention_count": 1 },
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연", "properties": { "category": "공연", "target_age": "유아·초등저학년", "kid_friendly_score": 0.95, "event_parent": "ent-evt-021" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
+    { "id": "ent-act-002", "type": "Activity", "name": "유성호 족욕 테마열차", "properties": { "category": "체험", "target_age": "전연령가족", "event_parent": "ent-evt-021" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
+    { "id": "ent-act-003", "type": "Activity", "name": "유성온천수 수영장", "properties": { "category": "체험", "duration_minutes": 45, "operating_hours": "11:00~20:00", "target_age": "전연령가족", "event_parent": "ent-evt-021" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
+    { "id": "ent-shop-005", "type": "Shop", "name": "너티차일드 프리미엄 키즈 테마파크 대전점", "properties": { "shop_type": "키즈카페", "dong": "도룡동", "address": "대전 유성구 엑스포로151번길", "distance_from_anchor_m": 3500, "open_hours": "매일 10:30~20:30", "kid_friendly": true, "is_new": false, "source_url": "https://www.naughtychild.co.kr/daejeon" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 }
   ],
-  "total_count": 81,
-  "new_entities_2026_04_27": [
-    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당" },
-    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제" },
-    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장" },
-    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관" },
-    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장" },
-    { "id": "ent-venue-019", "type": "Venue", "name": "유성구종합사회복지관" },
-    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회" },
-    { "id": "ent-org-017", "type": "Organization", "name": "유성구종합사회복지관" },
-    { "id": "ent-shop-004", "type": "Shop", "name": "레포레스트" }
+  "total_count": 86,
+  "new_entities_2026_04_28": [
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연" },
+    { "id": "ent-act-002", "type": "Activity", "name": "유성호 족욕 테마열차" },
+    { "id": "ent-act-003", "type": "Activity", "name": "유성온천수 수영장" },
+    { "id": "ent-shop-005", "type": "Shop", "name": "너티차일드 프리미엄 키즈 테마파크 대전점" }
   ]
 }
