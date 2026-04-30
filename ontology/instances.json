@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -99,13 +99,23 @@
     { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연", "properties": { "category": "공연", "target_age": "유아·초등저학년", "kid_friendly_score": 0.95, "event_parent": "ent-evt-021" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
     { "id": "ent-act-002", "type": "Activity", "name": "유성호 족욕 테마열차", "properties": { "category": "체험", "target_age": "전연령가족", "event_parent": "ent-evt-021" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
     { "id": "ent-act-003", "type": "Activity", "name": "유성온천수 수영장", "properties": { "category": "체험", "duration_minutes": 45, "operating_hours": "11:00~20:00", "target_age": "전연령가족", "event_parent": "ent-evt-021" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
-    { "id": "ent-shop-005", "type": "Shop", "name": "너티차일드 프리미엄 키즈 테마파크 대전점", "properties": { "shop_type": "키즈카페", "dong": "도룡동", "address": "대전 유성구 엑스포로151번길", "distance_from_anchor_m": 3500, "open_hours": "매일 10:30~20:30", "kid_friendly": true, "is_new": false, "source_url": "https://www.naughtychild.co.kr/daejeon" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 }
+    { "id": "ent-shop-005", "type": "Shop", "name": "너티차일드 프리미엄 키즈 테마파크 대전점", "properties": { "shop_type": "키즈카페", "dong": "도룡동", "address": "대전 유성구 엑스포로151번길", "distance_from_anchor_m": 3500, "open_hours": "매일 10:30~20:30", "kid_friendly": true, "is_new": false, "source_url": "https://www.naughtychild.co.kr/daejeon" }, "first_seen": "2026-04-28", "last_seen": "2026-04-28", "mention_count": 1 },
+    { "id": "ent-act-004", "type": "Activity", "name": "나무랑 놀꾸야 목공체험", "properties": { "category": "체험", "sub_programs": "샤프·나무도마·나무자동차·독서대 등 16종", "target_age": "유아·초등", "kid_friendly_score": 0.95, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 2 },
+    { "id": "ent-act-005", "type": "Activity", "name": "사이언스 매직쇼·버블쇼", "properties": { "category": "공연", "venue_detail": "사이언스홀+돔형중앙통로", "target_age": "전연령가족", "kid_friendly_score": 0.9, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 2 },
+    { "id": "ent-act-006", "type": "Activity", "name": "과학 원리 체험 6종", "properties": { "category": "체험", "sub_programs": "초코파이진공·밀가루배터리시계·무지개망원경·3D펜·모루인형", "target_age": "초등저학년·초등고학년", "kid_friendly_score": 0.95, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 1 },
+    { "id": "ent-act-007", "type": "Activity", "name": "아동 안전·권리 캠페인", "properties": { "category": "교육", "sub_programs": "아동권리캠페인·지문등록·감염병예방·손씻기체험", "target_age": "전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 1 }
   ],
-  "total_count": 86,
+  "total_count": 90,
   "new_entities_2026_04_28": [
     { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연" },
     { "id": "ent-act-002", "type": "Activity", "name": "유성호 족욕 테마열차" },
     { "id": "ent-act-003", "type": "Activity", "name": "유성온천수 수영장" },
     { "id": "ent-shop-005", "type": "Shop", "name": "너티차일드 프리미엄 키즈 테마파크 대전점" }
+  ],
+  "new_entities_2026_04_29": [
+    { "id": "ent-act-004", "type": "Activity", "name": "나무랑 놀꾸야 목공체험" },
+    { "id": "ent-act-005", "type": "Activity", "name": "사이언스 매직쇼·버블쇼" },
+    { "id": "ent-act-006", "type": "Activity", "name": "과학 원리 체험 6종" },
+    { "id": "ent-act-007", "type": "Activity", "name": "아동 안전·권리 캠페인" }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1231,6 +1231,86 @@
       "object": "+0.1",
       "confidence": 0.85,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-004",
+      "confidence": 0.95,
+      "type": "explicit",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-005",
+      "confidence": 0.95,
+      "type": "explicit",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-006",
+      "confidence": 0.95,
+      "type": "explicit",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-007",
+      "confidence": 0.9,
+      "type": "explicit",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-act-001",
+      "predicate": "ticketDistribution",
+      "object": "선착순 50명×2회, 12시/15시",
+      "confidence": 0.95,
+      "type": "explicit",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-act-004",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.85,
+      "type": "inferred",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-act-004",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.9,
+      "type": "inferred",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-act-006",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.95,
+      "type": "inferred",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-act-006",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.9,
+      "type": "inferred",
+      "date": "2026-04-29"
+    },
+    {
+      "subject": "ent-evt-023",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "confidence": 0.95,
+      "type": "explicit",
+      "date": "2026-04-29"
     }
   ],
   "nodes_added_2026_04_28": [
@@ -1239,9 +1319,15 @@
     { "id": "ent-act-003", "type": "Activity", "label": "유성온천수 수영장" },
     { "id": "ent-shop-005", "type": "Shop", "label": "너티차일드 키즈 테마파크" }
   ],
+  "nodes_added_2026_04_29": [
+    { "id": "ent-act-004", "type": "Activity", "label": "나무랑 놀꾸야 목공체험" },
+    { "id": "ent-act-005", "type": "Activity", "label": "사이언스 매직쇼·버블쇼" },
+    { "id": "ent-act-006", "type": "Activity", "label": "과학 원리 체험 6종" },
+    { "id": "ent-act-007", "type": "Activity", "label": "아동 안전·권리 캠페인" }
+  ],
   "stats": {
-    "total_nodes": 73,
+    "total_nodes": 77,
     "total_edges": 0,
-    "total_triples": 136
+    "total_triples": 147
   }
 }

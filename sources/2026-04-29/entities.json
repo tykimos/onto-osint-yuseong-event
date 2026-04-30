@@ -1,0 +1,162 @@
+{
+  "date": "2026-04-29",
+  "entities": [
+    {
+      "temp_id": "temp-act-004",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "나무랑 놀꾸야 목공체험",
+      "properties": {
+        "category": "체험",
+        "sub_programs": ["샤프 만들기", "나무도마", "나무자동차", "독서대", "목공 16종"],
+        "target_age": "유아·초등",
+        "kid_friendly_score": 0.95,
+        "event_parent": "ent-evt-020",
+        "indoor_outdoor": "야외+실내"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-act-005",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "사이언스 매직쇼·버블쇼",
+      "properties": {
+        "category": "공연",
+        "venue_detail": "사이언스홀 + 돔형 중앙통로",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.9,
+        "event_parent": "ent-evt-020"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-act-006",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "과학 원리 체험 6종",
+      "properties": {
+        "category": "체험",
+        "sub_programs": ["초코파이 진공실험", "밀가루 배터리 시계", "무지개 망원경", "3D펜", "모루 인형 만들기"],
+        "target_age": "초등저학년·초등고학년",
+        "kid_friendly_score": 0.95,
+        "event_parent": "ent-evt-020"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-act-007",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "아동 안전·권리 캠페인",
+      "properties": {
+        "category": "교육",
+        "sub_programs": ["아동 권리 캠페인", "아동 사전 지문등록", "감염병 예방 캠페인", "손 씻기 체험"],
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.7,
+        "event_parent": "ent-evt-020"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-person-001",
+      "matched_id": null,
+      "type": "Person",
+      "name": "김석영",
+      "properties": {
+        "role": "시인",
+        "program": "김석영 시인과 시작하는 오후"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-person-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "이보현",
+      "properties": {
+        "role": "작가",
+        "programs": ["일상에서 영감찾기", "글쓰기부터 출판까지"]
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-person-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "조예은",
+      "properties": {
+        "role": "작가 (독립서점)",
+        "program": "독립서점 지기와 함께 읽고 쓰며 내 삶의 우선순위 알아가기"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-021",
+      "type": "Event",
+      "name": "2026 유성온천문화축제",
+      "properties": {
+        "update": "티니핑 공연 참여권 선착순 배부 정보 추가 — 1회차 12시/2회차 15시, 50명, 메인무대 우측"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-act-001",
+      "type": "Activity",
+      "name": "캐치! 티니핑 공연",
+      "properties": {
+        "update": "참여권 배부 정보 확인 — 선착순 50명×2회, 1시간 전 배부"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-020",
+      "type": "Event",
+      "name": "유성 어린이 한마당",
+      "properties": {
+        "update": "프로그램 상세 확인 — 나무랑 놀꾸야 16종, 매직쇼, 과학체험 6종, 안전캠페인 3종"
+      },
+      "source_ids": ["src-002", "src-004"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-023",
+      "type": "Event",
+      "name": "지역작가 인(人) 도서관",
+      "properties": {
+        "update": "참여 작가 3명 및 개별 프로그램명 공개"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-004", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-005", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-006", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-007", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-002", "src-004"], "confidence": 0.99 },
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-003"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001", "source_ids": ["src-001"], "confidence": 0.99 },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018", "source_ids": ["src-001"], "confidence": 0.99 }
+  ],
+  "stats": {
+    "total_entities": 11,
+    "new_entities": 7,
+    "matched_entities": 4,
+    "total_relations": 8
+  }
+}

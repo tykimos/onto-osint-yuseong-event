@@ -1,0 +1,27 @@
+{
+  "id": "src-002",
+  "title": "유성 어린이 한마당 프로그램 상세 — 나무랑 놀꾸야 16종 목공체험·매직버블쇼 (D-6)",
+  "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+  "snippet": "5/5 국립중앙과학관 중앙광장. 나무랑 놀꾸야 목재친화 팝업놀이터 — 샤프·나무도마·나무자동차·독서대 등 16개 목공체험. 플레이존(보드게임·민속놀이). 사이언스홀 사이언스 매직쇼·버블쇼. 돔형 중앙통로 매직버블쇼. 체험: 초코파이 진공실험, 밀가루 배터리 시계, 무지개 망원경, 3D펜, 모루인형. 아동 권리 캠페인, 아동 사전 지문등록, 감염병 예방 캠페인·손씻기 체험.",
+  "source_name": "디트NEWS24",
+  "language": "ko",
+  "discovered_date": "2026-04-29",
+  "tag": "update",
+  "related_report": "2026-04-28",
+  "related_item": "src-004 (유성 어린이 한마당 5/5)",
+  "tag_reason": "이전에 행사 개최 사실만 보도되었으나, 금일 프로그램 상세가 새로 확인됨 — 나무랑 놀꾸야(16종 목공), 플레이존, 과학체험(6종), 안전캠페인(3종) 등 구체적 프로그램 목록이 유의미한 신규 정보",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "role": "주행사" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "장소" },
+    { "id": "temp-act-004", "type": "Activity", "name": "나무랑 놀꾸야 목공체험", "role": "체험프로그램" },
+    { "id": "temp-act-005", "type": "Activity", "name": "사이언스 매직쇼·버블쇼", "role": "공연프로그램" },
+    { "id": "temp-act-006", "type": "Activity", "name": "과학 원리 체험 6종", "role": "체험프로그램" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "장소제공" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-004" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-005" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "temp-act-006" }
+  ]
+}

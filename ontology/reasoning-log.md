@@ -222,3 +222,39 @@
 - **신뢰도:** 0.85
 - **상태:** 확정
 - **비고:** 캐치! 티니핑(유아 IP) + 물총 스플래쉬(초등) 프로그램 확정으로 축제 전체의 어린이 친화도를 0.7→0.8으로 상향 조정할 근거 확보. DJ파티·7080 등 성인 프로그램도 혼재하여 0.8이 적정.
+
+## 2026-04-29 추론 결과
+
+### 추론 #1: age_group_overlap (나무랑 놀꾸야 → 유아·초등저학년 타겟)
+- **입력:** (ent-evt-020 featuresActivity ent-act-004), (ent-act-004 sub_programs "16종 목공체험")
+- **추론:** (ent-act-004 targetsAgeGroup age-toddler), (ent-act-004 targetsAgeGroup age-elem-low)
+- **신뢰도:** 0.85 / 0.90
+- **상태:** 확정
+- **비고:** 나무 도마·자동차·독서대 등은 유아~초등저학년에 적합. 초등저학년이 가장 높은 적합도.
+
+### 추론 #2: age_group_overlap (과학체험 6종 → 초등저학년·고학년)
+- **입력:** (ent-evt-020 featuresActivity ent-act-006), (ent-act-006 sub_programs "진공실험·배터리시계·망원경·3D펜·모루인형")
+- **추론:** (ent-act-006 targetsAgeGroup age-elem-low), (ent-act-006 targetsAgeGroup age-elem-high)
+- **신뢰도:** 0.95 / 0.90
+- **상태:** 확정
+- **비고:** 밀가루 배터리 시계·진공 실험 = 초등 과학 교과와 연계. 3D펜은 초등고학년에도 적합.
+
+### 추론 #3: ticket_scarcity_alert (티니핑 참여권 조기 소진 예상)
+- **입력:** (ent-act-001 ticketDistribution "선착순 50명×2회"), (ent-act-001 kid_friendly_score 0.95), (ent-evt-021 visitor_estimate "대규모 축제")
+- **추론:** (ent-act-001 scarcityAlert true)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 인기 유아 IP(티니핑) + 선착순 50명 = 참여권 조기 소진 높음. 1회차 12시 배부 → 11시 현장 도착 권장.
+
+### 추론 #4: program_detail_confidence_boost (어린이 한마당 프로그램 확정)
+- **입력:** (ent-evt-020 featuresActivity ent-act-004~007), (4개 카테고리: 목공·공연·과학·안전)
+- **추론:** (ent-evt-020 kidFriendlyScore 확정 0.95)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 프로그램 구성이 4개 카테고리로 구체화됨에 따라 기존 kid_friendly_score 0.95를 확정 유지. 안전 캠페인(지문등록·감염병) 포함으로 공공 신뢰도 가산.
+
+### 추론 #5: temporal_sequence (D-3 → D-6 골든위크 카운트다운)
+- **입력:** (ent-evt-021 D-3), (ent-evt-020 D-6), (ent-evt-021 end_date 5/4), (ent-evt-020 start_date 5/5)
+- **추론:** 골든위크 5일 연속 가족 행사 루트 확정 — 5/2~4 온천축제 → 5/5 어린이 한마당
+- **신뢰도:** 0.85
+- **상태:** 확정

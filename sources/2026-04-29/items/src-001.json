@@ -1,0 +1,33 @@
+{
+  "id": "src-001",
+  "title": "유성온천문화축제 캐치! 티니핑 공연 선착순 참여권 배부 안내 (D-3)",
+  "url": "http://ysfesta.com/bbs/spafest.php?page_id=program3",
+  "snippet": "캐치! 티니핑 공연 참여권 선착순 배부. 1회차 12시, 2회차 15시. 선착순 50명, 계룡스파텔 메인무대 우측에서 1시간 전 배부.",
+  "source_name": "유성온천문화축제 공식",
+  "language": "ko",
+  "discovered_date": "2026-04-29",
+  "tag": "update",
+  "related_report": "2026-04-28",
+  "related_item": "src-001 (유성온천문화축제 세부 프로그램 공개)",
+  "tag_reason": "기존 프로그램 공개(4/28)에서 티니핑 공연의 참여권 배부 시간·장소·인원 등 구체적 운영 정보가 추가됨 — 유아·초등 가족의 행동 계획에 직접 영향",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "상위행사" },
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연", "role": "공연프로그램" },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장", "role": "장소" },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001" },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018" }
+  ],
+  "new_facts": {
+    "ticket_distribution": {
+      "method": "선착순 참여권 배부",
+      "session_1": { "distribution_time": "12:00", "performance_time": "13:00 추정" },
+      "session_2": { "distribution_time": "15:00", "performance_time": "16:00 추정" },
+      "capacity_per_session": 50,
+      "location": "계룡스파텔 메인무대 우측",
+      "advance_time": "공연 1시간 전 배부"
+    }
+  }
+}

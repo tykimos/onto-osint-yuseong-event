@@ -1,0 +1,26 @@
+{
+  "id": "src-003",
+  "title": "지역작가 인(人) 도서관 — 5월 프로그램 상세 (김석영·이보현·조예은 작가)",
+  "url": "https://pedien.com/html/view.php?idx=1014924",
+  "snippet": "유성구 6개 공공도서관에서 5월부터 '지역작가 인(人) 도서관' 운영. 강연·북토크·창작·북큐레이션. 김석영 시인 '김석영 시인과 시작하는 오후', 이보현 작가 '일상에서 영감찾기'/'글쓰기부터 출판까지', 조예은 작가 '독립서점 지기와 함께 읽고 쓰며 내 삶의 우선순위 알아가기'.",
+  "source_name": "페디엔",
+  "language": "ko",
+  "discovered_date": "2026-04-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전에 지역작가 인 도서관 개요만 보도되었으나(4/27 src-005), 금일 처음으로 참여 작가 및 개별 프로그램명이 공개됨. URL이 다른 신규 기사이며 구체적 프로그램 내용이 유의미한 신규 정보",
+  "entities": [
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관", "role": "주행사" },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주최" },
+    { "id": "temp-person-001", "type": "Person", "name": "김석영", "role": "참여작가 (시인)" },
+    { "id": "temp-person-002", "type": "Person", "name": "이보현", "role": "참여작가" },
+    { "id": "temp-person-003", "type": "Person", "name": "조예은", "role": "참여작가 (독립서점)" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004" },
+    { "subject": "temp-person-001", "predicate": "participatesIn", "object": "ent-evt-023" },
+    { "subject": "temp-person-002", "predicate": "participatesIn", "object": "ent-evt-023" },
+    { "subject": "temp-person-003", "predicate": "participatesIn", "object": "ent-evt-023" }
+  ]
+}

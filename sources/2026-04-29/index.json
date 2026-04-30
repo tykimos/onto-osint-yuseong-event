@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-29",
+  "total": 14,
+  "new": 2,
+  "reported": 10,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "유성온천문화축제 캐치! 티니핑 공연 선착순 참여권 배부 안내 (D-3)",
+      "url": "http://ysfesta.com/bbs/spafest.php?page_id=program3",
+      "tag": "update",
+      "related_report": "2026-04-28",
+      "related_item": "src-001 (유성온천문화축제 세부 프로그램 공개)",
+      "entity_count": 4
+    },
+    {
+      "id": "src-002",
+      "title": "유성 어린이 한마당 프로그램 상세 — 나무랑 놀꾸야 16종 목공체험·매직버블쇼 (D-6)",
+      "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+      "tag": "update",
+      "related_report": "2026-04-28",
+      "related_item": "src-004 (유성 어린이 한마당 5/5)",
+      "entity_count": 6
+    },
+    {
+      "id": "src-003",
+      "title": "지역작가 인(人) 도서관 — 5월 프로그램 상세 (김석영·이보현·조예은 작가)",
+      "url": "https://pedien.com/html/view.php?idx=1014924",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-004",
+      "title": "대전 '어린이날 행사' 풍성 — 대전 전역 어린이날 종합",
+      "url": "https://www.dailycc.net/news/articleView.html?idxno=742937",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "유성온천문화축제 공식 — 대표 프로그램",
+      "url": "http://ysfesta.com/bbs/spafest.php?page_id=program1",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "유성온천문화축제 공식 — 행사 일정",
+      "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "유성구, 지역작가 인(人) 도서관 운영",
+      "url": "https://www.kspnews.com/2595126",
+      "tag": "reported",
+      "related_report": "2026-04-27",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "유성구 어린이 한마당 개최 — 충청매일",
+      "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1075693",
+      "tag": "reported",
+      "related_report": "2026-04-27",
+      "entity_count": 3
+    },
+    {
+      "id": "src-009",
+      "title": "국립중앙과학관 교육 프로그램 (상시 운영)",
+      "url": "https://www.science.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "국립어린이과학관 탐이꿈이·K-사이언스",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "대전시민천문대 상시 관측 프로그램",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "너티차일드 키즈 테마파크 대전점 (도룡동)",
+      "url": "https://www.naughtychild.co.kr/daejeon",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 1
+    },
+    {
+      "id": "src-013",
+      "title": "유성구 보건소 — 건강증진센터",
+      "url": "https://www.yuseong.go.kr/health/",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 1
+    },
+    {
+      "id": "src-014",
+      "title": "Cities Nationwide Transform Into Kids' Playgrounds This May",
+      "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may",
+      "tag": "reported",
+      "related_report": "2026-04-28",
+      "entity_count": 1
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "classes": [
     {
       "id": "Entity",
@@ -139,6 +139,13 @@
       "target": "Activity(캐치!티니핑공연, 유성호족욕테마열차, 유성온천수수영장), Shop(너티차일드키즈테마파크대전점)",
       "reason": "유성온천문화축제 세부 프로그램 공개(D-4)로 Activity 3건 추가. 도룡동 키즈카페 너티차일드 신규 발견.",
       "source_ids": ["src-001", "src-002"]
+    },
+    {
+      "date": "2026-04-29",
+      "action": "add_instances",
+      "target": "Activity(나무랑놀꾸야목공체험, 사이언스매직쇼버블쇼, 과학원리체험6종, 아동안전권리캠페인)",
+      "reason": "유성 어린이 한마당(D-6) 프로그램 상세 공개로 Activity 4건 추가. 유성온천문화축제 티니핑 참여권 운영 디테일(선착순 50명×2회) 확인.",
+      "source_ids": ["src-001", "src-002", "src-003"]
     }
   ]
 }

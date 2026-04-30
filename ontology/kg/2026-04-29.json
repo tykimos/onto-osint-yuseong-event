@@ -1,0 +1,114 @@
+{
+  "date": "2026-04-29",
+  "new_triples": [
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-004",
+      "source_id": "src-002",
+      "date": "2026-04-29",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-005",
+      "source_id": "src-002",
+      "date": "2026-04-29",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-006",
+      "source_id": "src-002",
+      "date": "2026-04-29",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "featuresActivity",
+      "object": "ent-act-007",
+      "source_id": "src-002",
+      "date": "2026-04-29",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-023",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "source_id": "src-003",
+      "date": "2026-04-29",
+      "confidence": 0.95,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-act-001",
+      "predicate": "ticketDistribution",
+      "object": "선착순 50명×2회, 12시/15시 배부",
+      "source_id": "src-001",
+      "date": "2026-04-29",
+      "confidence": 0.95,
+      "type": "explicit",
+      "note": "기존 티니핑 공연 정보에 참여권 배부 디테일 추가"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-020",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.05",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "program_detail_boost",
+      "note": "프로그램 상세 공개로 4개 카테고리(목공·공연·과학·안전) 확인 — 어린이 친화도 미세 상향 0.95→확정"
+    },
+    {
+      "subject": "ent-act-004",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "age_group_overlap",
+      "note": "목공체험 나무랑 놀꾸야 — 유아부터 초등까지 참여 가능"
+    },
+    {
+      "subject": "ent-act-004",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.9,
+      "type": "inferred",
+      "rule": "age_group_overlap",
+      "note": "16종 목공은 초등저학년에 가장 적합"
+    },
+    {
+      "subject": "ent-act-006",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.95,
+      "type": "inferred",
+      "rule": "age_group_overlap",
+      "note": "밀가루 배터리·진공실험·망원경 = 초등저학년 과학 호기심 매칭"
+    },
+    {
+      "subject": "ent-act-006",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.9,
+      "type": "inferred",
+      "rule": "age_group_overlap",
+      "note": "3D펜 등 초등고학년도 참여 가능"
+    }
+  ],
+  "stats": {
+    "new_nodes": 4,
+    "new_edges": 6,
+    "inferred_edges": 5
+  }
+}

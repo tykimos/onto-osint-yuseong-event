@@ -1,0 +1,21 @@
+{
+  "id": "src-004",
+  "title": "대전 '어린이날 행사' 풍성 — 대전 전역 어린이날 종합",
+  "url": "https://www.dailycc.net/news/articleView.html?idxno=742937",
+  "snippet": "대전 지역 어린이날 행사 종합 안내 — 유성구 어린이 한마당 포함 대전 전역 행사 정리",
+  "source_name": "충청투데이",
+  "language": "ko",
+  "discovered_date": "2026-04-29",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "충청투데이에서 대전 전역 어린이날 행사 종합 기사가 새로 게재됨. 유성구 어린이 한마당을 대전 전체 맥락에서 소개하는 신규 보도",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "role": "대전 행사 중 하나" },
+    { "id": "ent-org-001", "type": "Organization", "name": "대전광역시", "role": "주최" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "장소" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}
