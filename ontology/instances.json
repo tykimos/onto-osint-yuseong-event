@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -103,9 +103,14 @@
     { "id": "ent-act-004", "type": "Activity", "name": "나무랑 놀꾸야 목공체험", "properties": { "category": "체험", "sub_programs": "샤프·나무도마·나무자동차·독서대 등 16종", "target_age": "유아·초등", "kid_friendly_score": 0.95, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 2 },
     { "id": "ent-act-005", "type": "Activity", "name": "사이언스 매직쇼·버블쇼", "properties": { "category": "공연", "venue_detail": "사이언스홀+돔형중앙통로", "target_age": "전연령가족", "kid_friendly_score": 0.9, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 2 },
     { "id": "ent-act-006", "type": "Activity", "name": "과학 원리 체험 6종", "properties": { "category": "체험", "sub_programs": "초코파이진공·밀가루배터리시계·무지개망원경·3D펜·모루인형", "target_age": "초등저학년·초등고학년", "kid_friendly_score": 0.95, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 1 },
-    { "id": "ent-act-007", "type": "Activity", "name": "아동 안전·권리 캠페인", "properties": { "category": "교육", "sub_programs": "아동권리캠페인·지문등록·감염병예방·손씻기체험", "target_age": "전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 1 }
+    { "id": "ent-act-007", "type": "Activity", "name": "아동 안전·권리 캠페인", "properties": { "category": "교육", "sub_programs": "아동권리캠페인·지문등록·감염병예방·손씻기체험", "target_age": "전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-020" }, "first_seen": "2026-04-29", "last_seen": "2026-04-29", "mention_count": 1 },
+    { "id": "ent-evt-024", "type": "Event", "name": "갓생 일시정지, 동심 로그인", "properties": { "start_date": "2026-05-01", "end_date": "2026-05-03", "venue": "국립중앙과학관 천체관·세미나실·꿈이 광장", "fee": "미확인", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.9, "target_age_group": ["전연령가족"], "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-04-30", "last_seen": "2026-04-30", "mention_count": 1 },
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘", "properties": { "start_date": "2026-05-09", "end_date": "2026-05-10", "venue": "국립중앙과학관 사이언스홀", "fee": "미확인", "indoor_outdoor": "실내", "kid_friendly_score": 0.95, "target_age_group": ["유아", "초등저학년", "전연령가족"], "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-04-30", "last_seen": "2026-04-30", "mention_count": 1 },
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회", "properties": { "start_date": "2026-05-16", "end_date": "2026-05-17", "venue": "국립중앙과학관 사이언스터널", "fee": "미확인", "indoor_outdoor": "실내", "kid_friendly_score": 0.9, "target_age_group": ["초등저학년", "초등고학년"], "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-04-30", "last_seen": "2026-04-30", "mention_count": 1 },
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "properties": { "start_date": "2026-05-23", "end_date": "2026-05-31", "venue": "국립중앙과학관 한국과학기술사관 및 세미나실", "fee": "미확인", "indoor_outdoor": "실내", "kid_friendly_score": 0.9, "target_age_group": ["유아", "초등저학년", "초등고학년"], "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-04-30", "last_seen": "2026-04-30", "mention_count": 1 },
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회", "properties": { "start_date": "2026-05-30", "end_date": "2026-05-31", "venue": "국립중앙과학관 사이언스터널·꿈이광장 일대", "fee": "미확인", "indoor_outdoor": "실내+야외", "kid_friendly_score": 0.9, "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-04-30", "last_seen": "2026-04-30", "mention_count": 1 }
   ],
-  "total_count": 90,
+  "total_count": 95,
   "new_entities_2026_04_28": [
     { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연" },
     { "id": "ent-act-002", "type": "Activity", "name": "유성호 족욕 테마열차" },
@@ -117,5 +122,12 @@
     { "id": "ent-act-005", "type": "Activity", "name": "사이언스 매직쇼·버블쇼" },
     { "id": "ent-act-006", "type": "Activity", "name": "과학 원리 체험 6종" },
     { "id": "ent-act-007", "type": "Activity", "name": "아동 안전·권리 캠페인" }
+  ],
+  "new_entities_2026_04_30": [
+    { "id": "ent-evt-024", "type": "Event", "name": "갓생 일시정지, 동심 로그인" },
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘" },
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티" },
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" }
   ]
 }

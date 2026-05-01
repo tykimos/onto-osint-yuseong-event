@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1311,7 +1311,20 @@
       "confidence": 0.95,
       "type": "explicit",
       "date": "2026-04-29"
-    }
+    },
+    { "subject": "ent-evt-024", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-024", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-025", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-027", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-028", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.95, "type": "explicit", "date": "2026-04-30" },
+    { "subject": "ent-evt-024", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "confidence": 0.85, "type": "inferred", "date": "2026-04-30" },
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "confidence": 0.85, "type": "inferred", "date": "2026-04-30" },
+    { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-020", "confidence": 0.80, "type": "inferred", "date": "2026-04-30" }
   ],
   "nodes_added_2026_04_28": [
     { "id": "ent-act-001", "type": "Activity", "label": "캐치! 티니핑 공연" },
@@ -1325,9 +1338,16 @@
     { "id": "ent-act-006", "type": "Activity", "label": "과학 원리 체험 6종" },
     { "id": "ent-act-007", "type": "Activity", "label": "아동 안전·권리 캠페인" }
   ],
+  "nodes_added_2026_04_30": [
+    { "id": "ent-evt-024", "type": "Event", "label": "갓생 일시정지, 동심 로그인" },
+    { "id": "ent-evt-025", "type": "Event", "label": "가족뮤지컬 알라딘" },
+    { "id": "ent-evt-026", "type": "Event", "label": "초능력 히어로 박람회" },
+    { "id": "ent-evt-027", "type": "Event", "label": "사이언스 브릭파티" },
+    { "id": "ent-evt-028", "type": "Event", "label": "공룡덕후박람회" }
+  ],
   "stats": {
-    "total_nodes": 77,
+    "total_nodes": 82,
     "total_edges": 0,
-    "total_triples": 147
+    "total_triples": 160
   }
 }

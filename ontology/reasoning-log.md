@@ -258,3 +258,39 @@
 - **추론:** 골든위크 5일 연속 가족 행사 루트 확정 — 5/2~4 온천축제 → 5/5 어린이 한마당
 - **신뢰도:** 0.85
 - **상태:** 확정
+
+## 2026-04-30 추론 결과
+
+### 추론 #1: same_venue_series (국립중앙과학관 5월 가정의 달 시리즈)
+- **입력:** (ent-evt-024 hostsAt ent-venue-005), (ent-evt-025 hostsAt ent-venue-005), (ent-evt-026 hostsAt ent-venue-005), (ent-evt-027 hostsAt ent-venue-005), (ent-evt-028 hostsAt ent-venue-005), (ent-evt-024~028 organizedBy ent-org-006)
+- **추론:** (ent-evt-024 partOfSeries 과학관-가정의달), (ent-evt-025 partOfSeries 과학관-가정의달), (ent-evt-026 partOfSeries 과학관-가정의달), (ent-evt-027 partOfSeries 과학관-가정의달), (ent-evt-028 partOfSeries 과학관-가정의달)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 동일 장소(국립중앙과학관) + 동일 주최 + 5월 연속 배치 → 가정의 달 시리즈 확정. 매주 1~2건 행사가 5월 전체를 커버.
+
+### 추론 #2: same_dong_combo (동심 로그인 → 어린이 한마당 연계)
+- **입력:** (ent-evt-024 hostsAt ent-venue-005), (ent-evt-020 hostsAt ent-venue-005), (ent-venue-005 locatedIn dong-doryong), (ent-evt-024 end_date 5/3), (ent-evt-020 start_date 5/5)
+- **추론:** (ent-evt-024 visitCombo ent-evt-020)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 5/1~3 동심 로그인과 5/5 어린이 한마당이 동일 장소에서 2일 간격으로 이어짐 — 과학관 연속 방문 패턴.
+
+### 추론 #3: operator_kid_friendliness (과학관 운영 가산)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-024~028 hostsAt ent-venue-005)
+- **추론:** (ent-evt-024 kidFriendlyBoost +0.2), (ent-evt-025 kidFriendlyBoost +0.2), (ent-evt-026 kidFriendlyBoost +0.2), (ent-evt-027 kidFriendlyBoost +0.2), (ent-evt-028 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+
+### 추론 #4: temporal_sequence (골든위크 타임라인 확장 5/1~10)
+- **입력:** (ent-evt-024 start_date 5/1), (ent-evt-021 start_date 5/2), (ent-evt-020 start_date 5/5), (ent-evt-025 start_date 5/9)
+- **추론:** 골든위크 행사가 5/1부터 시작하여 5/10까지 이어지는 확장 타임라인 확인
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 이전 타임라인(5/2~5) → 확장 타임라인(5/1~10). 과학관 동심 로그인(5/1~3)이 온천축제(5/2~4)와 겹쳐 선택지 다양화.
+
+### 추론 #5: public_institution_kid_event (과학관 = 공공기관 가산)
+- **입력:** (ent-org-006 orgType 과학관), (ent-evt-024~028 organizedBy ent-org-006), 과학관 ∈ operator_kid_friendliness 대상
+- **추론:** (ent-evt-024~028 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관은 국립기관으로 공공 신뢰도 최고 수준. 5건 모두 publicTrustBoost 적용.

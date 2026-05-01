@@ -1,0 +1,17 @@
+{
+  "id": "src-002",
+  "title": "유성온천문화축제 D-2 — 대중교통 안내 확인 (월평역 도보15분, 버스 9개 노선)",
+  "url": "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7",
+  "snippet": "유성온천문화축제(5/2~4) D-2. 유성구청 문화관광 페이지에서 교통 안내 확인: 지하철 월평역(도보 15분), 시내버스 102/104/106/108/113/121/706/특구1/마을5. 축제장은 온천로·계룡스파텔 잔디광장·갑천변·유림공원 일원. 문의 042-611-2080.",
+  "source_name": "유성구청",
+  "language": "ko",
+  "discovered_date": "2026-04-30",
+  "tag": "update",
+  "related_report": "2026-04-29",
+  "related_item": "src-001 (유성온천문화축제 티니핑 참여권 선착순 배부 안내)",
+  "tag_reason": "유성온천문화축제 D-2 카운트다운. 교통 안내 정보(월평역·버스노선)는 이전 보고서에서 미보고 — 가족 방문 계획에 실용적 정보 추가.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "properties": { "transit_subway": "월평역 (도보 15분)", "transit_bus": "102, 104, 106, 108, 113, 121, 706, 특구1, 마을5", "contact": "042-611-2080" } }
+  ],
+  "relations": []
+}

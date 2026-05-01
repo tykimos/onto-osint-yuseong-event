@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-30",
+  "new_triples": [
+    { "subject": "ent-evt-024", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-024", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-025", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-027", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-028", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-001", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-021", "predicate": "hasTransitInfo", "object": "월평역 도보15분 + 버스 102/104/106/108/113/121/706/특구1/마을5", "source_id": "src-002", "date": "2026-04-30", "confidence": 0.95, "type": "explicit" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-024", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "rule": "same_venue_series", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "rule": "same_venue_series", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "rule": "same_venue_series", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-evt-027", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "rule": "same_venue_series", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-evt-028", "predicate": "partOfSeries", "object": "과학관 가정의 달 시리즈", "rule": "same_venue_series", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-020", "rule": "same_dong_combo", "confidence": 0.80, "type": "inferred" },
+    { "subject": "ent-evt-024", "predicate": "kidFriendlyBoost", "object": "+0.2", "rule": "operator_kid_friendliness", "confidence": 0.90, "type": "inferred" },
+    { "subject": "ent-evt-025", "predicate": "kidFriendlyBoost", "object": "+0.2", "rule": "operator_kid_friendliness", "confidence": 0.90, "type": "inferred" }
+  ],
+  "stats": {
+    "new_nodes": 5,
+    "new_edges": 11,
+    "inferred_edges": 8
+  }
+}

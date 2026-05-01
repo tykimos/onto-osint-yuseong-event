@@ -1,0 +1,133 @@
+{
+  "date": "2026-04-30",
+  "entities": [
+    {
+      "temp_id": "ent-evt-024",
+      "matched_id": null,
+      "type": "Event",
+      "name": "갓생 일시정지, 동심 로그인",
+      "properties": {
+        "start_date": "2026-05-01",
+        "end_date": "2026-05-03",
+        "venue": "국립중앙과학관 천체관·세미나실·꿈이 광장",
+        "host": "국립중앙과학관",
+        "fee": "미확인 (상세페이지 미공개)",
+        "indoor_outdoor": "실내+야외",
+        "kid_friendly_score": 0.9,
+        "kid_friendly_reason": "어린이날·가정의달 연계 특별행사명(동심 로그인)에서 가족/어린이 대상 확인",
+        "target_age_group": ["전연령가족"],
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "ent-evt-025",
+      "matched_id": null,
+      "type": "Event",
+      "name": "가족뮤지컬 알라딘",
+      "properties": {
+        "start_date": "2026-05-09",
+        "end_date": "2026-05-10",
+        "venue": "국립중앙과학관 사이언스홀",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.95,
+        "kid_friendly_reason": "'가족뮤지컬' 명칭에서 가족 대상 확인. 알라딘은 전연령 IP.",
+        "target_age_group": ["유아", "초등저학년", "전연령가족"],
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "ent-evt-026",
+      "matched_id": null,
+      "type": "Event",
+      "name": "초능력 히어로 박람회",
+      "properties": {
+        "start_date": "2026-05-16",
+        "end_date": "2026-05-17",
+        "venue": "국립중앙과학관 사이언스터널",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.9,
+        "kid_friendly_reason": "히어로 콘텐츠 + 과학관 운영 = 초등 어린이 대상 박람회로 추정",
+        "target_age_group": ["초등저학년", "초등고학년"],
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "ent-evt-027",
+      "matched_id": null,
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "properties": {
+        "start_date": "2026-05-23",
+        "end_date": "2026-05-31",
+        "venue": "국립중앙과학관 한국과학기술사관 및 세미나실",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.9,
+        "kid_friendly_reason": "브릭(레고) 기반 과학체험 — 초등 전연령 적합",
+        "target_age_group": ["유아", "초등저학년", "초등고학년"],
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "ent-evt-028",
+      "matched_id": null,
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "start_date": "2026-05-30",
+        "end_date": "2026-05-31",
+        "venue": "국립중앙과학관 사이언스터널·꿈이광장 일대",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내+야외",
+        "kid_friendly_score": 0.9,
+        "kid_friendly_reason": "공룡 콘텐츠는 유아~초등 전 연령에 고인기 IP",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-024", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-024", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-025", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-027", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-028", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95, "type": "explicit" }
+  ],
+  "stats": {
+    "total_entities": 5,
+    "new_entities": 5,
+    "matched_entities": 0,
+    "total_relations": 10
+  }
+}
