@@ -1,0 +1,24 @@
+{
+  "id": "src-002",
+  "title": "유성온천문화축제 D-1 (5/2~4 내일 개막)",
+  "url": "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7",
+  "snippet": "유성온천문화축제 내일(5/2) 개막. 3일간 온천로 일원에서 100여 프로그램 운영. 티니핑 공연 선��순 50명×2회(12시/15시). 월평역 도보 15분, 버스 9노선.",
+  "source_name": "유성구청",
+  "language": "ko",
+  "discovered_date": "2026-05-01",
+  "tag": "update",
+  "related_report": "2026-04-30",
+  "related_item": "ent-evt-021",
+  "tag_reason": "어제 D-2에서 금일 D-1로 카운트다운 진입. 축제 전날 최종 리마인드 — 티니핑 참여권 선착순·교통 안내 재확인.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "D-1 카운트다운" },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장", "role": "개최장소" },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "role": "주최" },
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연", "role": "핵심 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-016" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001" }
+  ]
+}

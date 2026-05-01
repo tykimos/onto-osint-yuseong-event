@@ -1,0 +1,21 @@
+{
+  "id": "src-003",
+  "title": "유성 어린이 한마당 D-4 (5/5)",
+  "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+  "snippet": "유성구는 5월 5일 국립중앙과학관 중앙광장 일원에서 제104회 어린이날 기념 '유성 어린이 ��마당' ���최. 나무랑 놀꾸야 목공 + 사이언스 매직쇼 + 과학 원리 체험 6종.",
+  "source_name": "디트NEWS24",
+  "language": "ko",
+  "discovered_date": "2026-05-01",
+  "tag": "reported",
+  "related_report": "2026-04-30",
+  "related_item": "ent-evt-020",
+  "tag_reason": "이미 4/27부터 보고된 행사. D-5→D-4 외 새 정보 없음.",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "role": "D-4" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "���최장소" },
+    { "id": "ent-org-001", "type": "Organization", "name": "대전광역시", "role": "후원" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

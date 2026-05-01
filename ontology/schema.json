@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-01",
   "classes": [
     {
       "id": "Entity",
@@ -152,6 +152,13 @@
       "action": "add_instances",
       "target": "Event(갓생일시정지동심로그인, 가족뮤지컬알라딘, 초능력히어로박람회, 사이언스브릭파티, 공룡덕후박람회)",
       "reason": "국립중앙과학관 5월 행사 일정 공개로 Event 5건 추가. 가정의 달 시리즈로 5월 매주 가족 행사 운영 확인. 유성온천문화축제 교통 안내(월평역·버스노선) 속성 업데이트.",
+      "source_ids": ["src-001", "src-002"]
+    },
+    {
+      "date": "2026-05-01",
+      "action": "update_instances",
+      "target": "Event(ent-evt-024 status→D-day, ent-evt-021 status→D-1, ent-evt-022 status→운영개시, ent-evt-023 status→운영개시)",
+      "reason": "골든위크 D-day: 동심 로그인 개막, 온천축제 D-1, 가정의 달 프로그램(소방서·도서관) 5월 운영 시작. 신규 엔티티 없음 — 상태 업데이트만.",
       "source_ids": ["src-001", "src-002"]
     }
   ]

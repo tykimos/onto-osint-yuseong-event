@@ -1,0 +1,20 @@
+{
+  "id": "src-006",
+  "title": "대전시민천문대 5월 상시 관측 프로그램 (가정의 달)",
+  "url": "https://djstar.kr/",
+  "snippet": "대전시민천문대 상시 관��� 프로그램 운영 중. 오후 2시~저녁 10시, 매주 월·공휴일 다음날 휴관. 3층 관측실 천체망원경으로 태양·행성·성운 관측, 1층 천체투영관 별자리 설명.",
+  "source_name": "대전시민천문대",
+  "language": "ko",
+  "discovered_date": "2026-05-01",
+  "tag": "reported",
+  "related_report": "2026-04-25",
+  "related_item": "ent-evt-006",
+  "tag_reason": "최초 보고(4/25)부터 추적 중인 상시 프로그램. 5월 특별 프로그램 공지 없음.",
+  "entities": [
+    { "id": "ent-evt-006", "type": "Event", "name": "대전시민천문대 상시 관측 프로그램", "role": "상시 운영" },
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대", "role": "운영장소" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-006", "predicate": "hostsAt", "object": "ent-venue-006" }
+  ]
+}

@@ -1345,9 +1345,14 @@
     { "id": "ent-evt-027", "type": "Event", "label": "사이언스 브릭파티" },
     { "id": "ent-evt-028", "type": "Event", "label": "공룡덕후박람회" }
   ],
+  "nodes_added_2026_05_01": [],
+  "edges_added_2026_05_01": [
+    { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.75, "added": "2026-05-01" },
+    { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-020", "type": "inferred", "confidence": 0.85, "added": "2026-05-01" }
+  ],
   "stats": {
     "total_nodes": 82,
-    "total_edges": 0,
-    "total_triples": 160
+    "total_edges": 2,
+    "total_triples": 163
   }
 }

@@ -1,0 +1,40 @@
+{
+  "date": "2026-05-01",
+  "description": "골든위크 D-day — 국립중앙과학관 '동심 로그인' 개막, 유성온천문화축제 D-1, 가정의 달 5월 시작",
+  "nodes": [
+    { "id": "ent-evt-024", "type": "Event", "label": "갓생 일시정지, 동심 로그인", "status": "D-day 개막" },
+    { "id": "ent-evt-021", "type": "Event", "label": "2026 유성온천문화축제", "status": "D-1" },
+    { "id": "ent-evt-020", "type": "Event", "label": "유성 어린이 한마당", "status": "D-4" },
+    { "id": "ent-evt-025", "type": "Event", "label": "가족뮤지컬 알라딘", "status": "D-8" },
+    { "id": "ent-evt-022", "type": "Event", "label": "가정의 달 소방안전체험의 장", "status": "5월 개시" },
+    { "id": "ent-evt-023", "type": "Event", "label": "지역작가 인 도서관", "status": "5월 개시" },
+    { "id": "ent-venue-005", "type": "Venue", "label": "국립중앙과학관 (도룡동)" },
+    { "id": "ent-venue-018", "type": "Venue", "label": "온천로 일원 (봉명동)" },
+    { "id": "ent-org-006", "type": "Organization", "label": "국립중앙과학관" },
+    { "id": "ent-org-016", "type": "Organization", "label": "유성온천문화축제추진위" },
+    { "id": "ent-org-015", "type": "Organization", "label": "대전유성소방서" },
+    { "id": "ent-org-004", "type": "Organization", "label": "유성구통합도서관" },
+    { "id": "ent-act-001", "type": "Activity", "label": "캐치! 티니핑 공연" },
+    { "id": "dong-doryong", "type": "Dong", "label": "도룡동" },
+    { "id": "ring-car", "type": "GeoRing", "label": "차량 10분 내 (5km)" }
+  ],
+  "edges": [
+    { "subject": "ent-evt-024", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit" },
+    { "subject": "ent-evt-024", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit" },
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit" },
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit" },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018", "type": "explicit" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-016", "type": "explicit" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001", "type": "explicit" },
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015", "type": "explicit" },
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004", "type": "explicit" },
+    { "subject": "ent-venue-005", "predicate": "locatedIn", "object": "dong-doryong", "type": "explicit" },
+    { "subject": "ent-venue-005", "predicate": "withinRing", "object": "ring-car", "type": "explicit" },
+    { "subject": "ent-evt-024", "predicate": "partOfSeries", "object": "ent-evt-025", "type": "inferred", "confidence": 0.85, "rule": "same_venue_series" },
+    { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.75, "rule": "golden_week_overlap" },
+    { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-020", "type": "inferred", "confidence": 0.80, "rule": "same_venue_series" }
+  ],
+  "new_triples": 2,
+  "inferred_triples": 3,
+  "total_triples": 14
+}

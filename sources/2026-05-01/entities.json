@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-01",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-024",
+      "type": "Event",
+      "name": "갓생 일시정지, 동심 로그인",
+      "properties": {
+        "start_date": "2026-05-01",
+        "end_date": "2026-05-03",
+        "venue": "국립중앙과학관 천체관·세미나실·꿈이 광장",
+        "fee": "미확인",
+        "indoor_outdoor": "실내+야외",
+        "kid_friendly_score": 0.9,
+        "target_age_group": ["전연령가족"],
+        "status": "D-day 개막",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-021",
+      "type": "Event",
+      "name": "2026 유성온천문화축제",
+      "properties": {
+        "start_date": "2026-05-02",
+        "end_date": "2026-05-04",
+        "venue": "온천로 일원·계룡스파텔 광장",
+        "fee": "무료 (일부 유료)",
+        "indoor_outdoor": "야외+실내",
+        "kid_friendly_score": 0.7,
+        "target_age_group": ["전연령가족"],
+        "status": "D-1 내일 개막",
+        "transit": "월평역 도보15분, 버스 9노선(102/104/106/108/113/121/706/특구1/마을5)",
+        "distance_from_anchor_m": 5000,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-020",
+      "type": "Event",
+      "name": "유성 어린이 한마당",
+      "properties": {
+        "start_date": "2026-05-05",
+        "end_date": "2026-05-05",
+        "venue": "국립중앙과학관 중앙광장",
+        "fee": "무료",
+        "indoor_outdoor": "야외+실내",
+        "kid_friendly_score": 0.95,
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "status": "D-4",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-022",
+      "type": "Event",
+      "name": "가정의 달 소방안전체험의 장",
+      "properties": {
+        "start_date": "2026-05-01",
+        "end_date": "2026-05-31",
+        "fee": "무료",
+        "indoor_outdoor": "야외+실내",
+        "kid_friendly_score": 0.85,
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "status": "5월 운영 개시 (D-day)",
+        "programs": "소방 포토존·심폐소생술 1:1·소화기 체험·소방홍보물품",
+        "publicTrustBoost": 0.15
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-023",
+      "type": "Event",
+      "name": "지역작가 인(人) 도서관",
+      "properties": {
+        "start_date": "2026-05-01",
+        "fee": "무료",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.6,
+        "target_age_group": ["전연령가족"],
+        "status": "5월 운영 개시 (D-day)",
+        "authors": ["김석영", "이보현", "조예은"],
+        "venues_count": 6
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-005",
+      "type": "Venue",
+      "name": "국립중앙과학관",
+      "properties": {
+        "dong": "도룡동",
+        "venue_type": "과학관",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car"
+      },
+      "source_ids": ["src-001", "src-003"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-org-006",
+      "type": "Organization",
+      "name": "국립중앙과학관",
+      "properties": { "org_type": "과학관" },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-org-015",
+      "type": "Organization",
+      "name": "대전유성소방서",
+      "properties": { "org_type": "소방서", "phone": "042-270-1688" },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-org-004",
+      "type": "Organization",
+      "name": "유성구통합도서관",
+      "properties": { "org_type": "도서관" },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-024", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-024", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-016", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001", "source_ids": ["src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-003"], "confidence": 0.95 },
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015", "source_ids": ["src-004"], "confidence": 0.95 },
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-005"], "confidence": 0.95 }
+  ],
+  "stats": {
+    "total_entities": 9,
+    "new_entities": 0,
+    "matched_entities": 9,
+    "total_relations": 8
+  }
+}

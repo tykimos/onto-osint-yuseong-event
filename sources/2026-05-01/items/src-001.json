@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "국립중앙과학관 '갓생 일시정지, 동심 로그인' D-day 개막 (5/1~3)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 5월 가정의 달 첫 행사 '갓생 일시정지, 동심 로그인'이 5/1(목) 개막. 천체관·세미나실·꿈이 광장에서 3일간 진행. 골든위크 첫 가족 행사.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-01",
+  "tag": "update",
+  "related_report": "2026-04-30",
+  "related_item": "ent-evt-024",
+  "tag_reason": "어제(4/30) D-1으로 보고된 '갓생 일시정지, 동심 로그인'이 금일(5/1) D-day로 개막. 상태 변경(D-1→D-day)이 유의미한 새 정보.",
+  "entities": [
+    { "id": "ent-evt-024", "type": "Event", "name": "갓생 일시정지, 동심 로그인", "role": "D-day 개막" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "개최장소" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-024", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-024", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

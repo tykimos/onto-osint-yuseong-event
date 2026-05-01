@@ -1,0 +1,22 @@
+{
+  "id": "src-005",
+  "title": "유성구 '지역작가 인 도서관' 5월 운영 개시",
+  "url": "https://pedien.com/html/view.php?idx=1014924",
+  "snippet": "유성구통합도서관이 5월부터 6개 도서관에서 '지역작가 인(人) 도서관' 프로그램 운��. 김석영·이보현·조예은 작가 참여. 강연·북토크·글쓰기·큐레이션 등.",
+  "source_name": "페디엔",
+  "language": "ko",
+  "discovered_date": "2026-05-01",
+  "tag": "reported",
+  "related_report": "2026-04-27",
+  "related_item": "ent-evt-023",
+  "tag_reason": "4/27 보고된 지역작�� 인 도서관(5월~)의 운영 시작일 도래. 프로그램 상세 변동 없음.",
+  "entities": [
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관", "role": "5월 운�� 개시" },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주최" },
+    { "id": "ent-venue-007", "type": "Venue", "name": "관평도서관", "role": "운영 장소(6개 중 1개)" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004" },
+    { "subject": "ent-evt-023", "predicate": "hostsAt", "object": "ent-venue-007" }
+  ]
+}
