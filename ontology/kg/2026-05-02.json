@@ -1,0 +1,111 @@
+{
+  "date": "2026-05-02",
+  "new_triples": [
+    {
+      "subject": "ent-evt-029",
+      "predicate": "hostsAt",
+      "object": "ent-venue-007",
+      "source_id": "src-006",
+      "date": "2026-05-02",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-029",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "source_id": "src-006",
+      "date": "2026-05-02",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-029",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "source_id": "src-006",
+      "date": "2026-05-02",
+      "confidence": 0.7,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-029",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "source_id": "src-006",
+      "date": "2026-05-02",
+      "confidence": 0.7,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "status",
+      "object": "D-day 개막 (5/2~4)",
+      "source_id": "src-001",
+      "date": "2026-05-02",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous_value": "D-1"
+    },
+    {
+      "subject": "ent-evt-024",
+      "predicate": "status",
+      "object": "Day 2 진행 중 (5/1~3)",
+      "source_id": "src-002",
+      "date": "2026-05-02",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous_value": "D-day"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "status",
+      "object": "D-3 마감임박 (5/5)",
+      "source_id": "src-003",
+      "date": "2026-05-02",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous_value": "D-4"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "visitCombo",
+      "object": "ent-evt-024",
+      "rule": "same_dong_combo (확장: 동시 진행)",
+      "date": "2026-05-02",
+      "confidence": 0.85,
+      "type": "inferred",
+      "reason": "유성온천문화축제(봉명동)와 동심 로그인(도룡동)이 5/2~3 양일 동시 진행. 오전/오후 분할 방문 가능."
+    },
+    {
+      "subject": "ent-evt-029",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "date": "2026-05-02",
+      "confidence": 0.85,
+      "type": "inferred",
+      "reason": "도서관(ent-org-004)이 운영하는 어린이 프로그램 — 기본 kid_friendly_score 0.85 + 가산 0.2 = 1.0 cap"
+    },
+    {
+      "subject": "ent-evt-029",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-003",
+      "rule": "same_venue_series (확장: 같은 도서관 시스템)",
+      "date": "2026-05-02",
+      "confidence": 0.6,
+      "type": "inferred",
+      "reason": "유성구통합도서관이 운영하는 어린이 독서 프로그램. 북스타트와 유사한 시리즈 가능성."
+    }
+  ],
+  "stats": {
+    "new_nodes": 1,
+    "new_edges": 4,
+    "updated_edges": 3,
+    "inferred_edges": 3
+  }
+}

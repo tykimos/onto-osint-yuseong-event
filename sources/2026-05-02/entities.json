@@ -1,0 +1,129 @@
+{
+  "date": "2026-05-02",
+  "entities": [
+    {
+      "temp_id": "temp-evt-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "그���책, 나만의 보물을 담다",
+      "properties": {
+        "venue": "���평도서관",
+        "dong": "관평동",
+        "distance_from_anchor_m": 1800,
+        "ring": "ring-bike",
+        "host": "유성구통합도서관",
+        "fee": "무료 (추정)",
+        "registration_required": true,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년"],
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reason": "그림책 창작·감상 프로그램. 어린이 대상 도서관 정규 프로그램으로 어린이 친화도 높음.",
+        "status": "추가모집 중",
+        "source_url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956"
+      },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-021",
+      "type": "Event",
+      "name": "2026 유성온천문화축제",
+      "properties": {
+        "status_update": "D-1 → D-day 개막",
+        "start_date": "2026-05-02",
+        "end_date": "2026-05-04",
+        "today_programs": "개막식(드론라이트·불꽃쇼), 온천수 DJ파티, 티니핑 12시/15시(선착순50명), 족욕열차, 온천수수영장, 힙합, 뷰티플라워쇼",
+        "transport_reminder": "월평역 도보15분, 버스 102·104·106·108·113·121·706·특구1·마을5"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-020",
+      "type": "Event",
+      "name": "유성 어린이 한���당",
+      "properties": {
+        "status_update": "D-4 → D-3 (마감임박 섹션 진입)",
+        "start_date": "2026-05-05",
+        "note": "D-3 이내 마감임박 기준 충족. 사전신청 불필요 — 현장 참여."
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-024",
+      "type": "Event",
+      "name": "갓생 일시정지, 동심 로그인",
+      "properties": {
+        "status_update": "D-day → Day 2 (진행 중)",
+        "note": "내일(5/3) 마지막 날. 오늘 방문 가능."
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-022",
+      "type": "Event",
+      "name": "가정의 ��� 소방안전체험의 장",
+      "properties": {
+        "status": "운영 중 (5/1~31)"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-023",
+      "type": "Event",
+      "name": "지역작가 인(人) 도서관",
+      "properties": {
+        "status": "��영 중 (5월~)"
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-003",
+      "type": "Event",
+      "name": "북스타트 책놀이",
+      "properties": {
+        "may_schedule": "5/1~5/22, 매주 목 10:30~11:30",
+        "venue_detail": "노은도서관 1층 유아실",
+        "target": "36개월~미취학아동+보호자"
+      },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-006",
+      "type": "Event",
+      "name": "대전시민천문대 상시 관측 프로그���",
+      "properties": {
+        "status": "상시 운영"
+      },
+      "source_ids": ["src-008"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "temp-evt-001", "predicate": "hostsAt", "object": "ent-venue-007", "source_ids": ["src-006"], "confidence": 0.9 },
+    { "subject": "temp-evt-001", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-006"], "confidence": 0.9 },
+    { "subject": "temp-evt-001", "predicate": "targetsAgeGroup", "object": "age-toddler", "source_ids": ["src-006"], "confidence": 0.7 },
+    { "subject": "temp-evt-001", "predicate": "targetsAgeGroup", "object": "age-elem-low", "source_ids": ["src-006"], "confidence": 0.7 },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-003"], "confidence": 0.95 }
+  ],
+  "stats": {
+    "total_entities": 8,
+    "new_entities": 1,
+    "matched_entities": 7,
+    "total_relations": 7
+  }
+}

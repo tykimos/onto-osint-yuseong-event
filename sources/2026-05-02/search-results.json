@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-02",
+  "collected_at": "2026-05-02T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 48,
+  "expanded_keywords": [
+    "유성온천문화축제 개막",
+    "갓생 일시정지 동심 로그인",
+    "유성 어린이 한마당",
+    "노은도서관 북스타트",
+    "관평도서관 그림책",
+    "키즈다쿵 대전유성점",
+    "너티차일드 대전점"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성온천문화축제 2026 5월 개막 프로그램",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:01:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성온천문화축제", "url": "http://ysfesta.com/index.php", "snippet": "유성온천문화축제 공식 홈페이지", "source_name": "유성온천문화축제" },
+        { "title": "행사 개요 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=overview", "snippet": "5월 2~4일, 온천로·계룡스파텔 잔디광장, 8개 분야 100여 개 프로그램", "source_name": "유성온천문화축제" },
+        { "title": "유성온천문화축제 > 축제·공연 > 유성구 문화관광", "url": "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7", "snippet": "유성구 봄축제. 계절별 테마축제 개최", "source_name": "유성구청" },
+        { "title": "행사 일정 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule", "snippet": "3일간 일정표 — 개막식, 공연, 체험, 경연", "source_name": "유성온천문화축제" },
+        { "title": "공연 프로그램 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=program3", "snippet": "티니핑 신나는 놀이&포토타임, 매직쇼, 7080 낭만콘서트, 드론라이트쇼", "source_name": "유성온천문화축제" },
+        { "title": "대표 프로그램 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=program1", "snippet": "온천수 DJ파티, 온천수신제, 개막 퍼포먼스, 불꽃쇼, 힙합공연, 뷰티플라워 헤어아트쇼", "source_name": "유성온천문화축제" },
+        { "title": "유성온천문화축제 페이스북", "url": "https://www.facebook.com/happyyuseong/posts/2025-유성온천문화축제-개막", "snippet": "5월 2일(금) 오늘 유성온천문화축제가 개막합니다! 유성에서 3일간 달려보겠습니다", "source_name": "유성구 페이스북" },
+        { "title": "2025 유성온천문화축제 30주년", "url": "https://prt.ccdailynews.com/news/articleView.html?idxno=2339780", "snippet": "30주년 맞아 새롭게 변신. 온천가요제 예선 5/7, 본선 5/8", "source_name": "충청일보" },
+        { "title": "대전관광 유성온천문화축제", "url": "https://www.daejeontour.co.kr/ko/festival/festivalView.do?festv_id=58", "snippet": "대전관광공사 축제 소개. 갑천변·유림공원 일원", "source_name": "대전관광공사" },
+        { "title": "유성온천문화축제 방문코리아", "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=2fcee4ea-7f88-4485-a67b-d4a88ee78320", "snippet": "유성온천문화축제 지역축제 정보", "source_name": "한국관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:02:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "유성온천문화축제", "url": "http://ysfesta.com/index.php", "snippet": "유성구 대표 봄축제", "source_name": "유성온천문화축제" },
+        { "title": "유성온천문화축제 > 축제·공연 > 유성구 문화관광", "url": "https://www.yuseong.go.kr/prog/trrsrt/TRSE_01/tour/sub04_01/view.do?trrsrtNo=7", "snippet": "유성구 봄·여름·가을·겨울 축제", "source_name": "유성구청" },
+        { "title": "유성구청 페이스북 happyyuseong", "url": "https://www.facebook.com/happyyuseong/?locale=ko_KR", "snippet": "유성구 공식 SNS", "source_name": "페이스북" },
+        { "title": "행사 일정 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule", "snippet": "3일간 행사 일정", "source_name": "유성온천문화축제" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 2026년 5월 가정의달 행사",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:03:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "국립중앙과학관 공식 홈페이지", "source_name": "국립중앙과학관" },
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내 게시판", "source_name": "국립중앙과학관" },
+        { "title": "교육 | 전체교육프로그램", "url": "https://www.science.go.kr/mps/1092/allEduPrograms.do", "snippet": "교육 프로그램 안내", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:04:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전 유성구 카페 레포레스트", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "고요한 숲 뷰 카페", "source_name": "웰페어헬로" },
+        { "title": "유성구 감성 브런치 카페 프레시오네", "url": "https://kr.trip.com/moments/detail/yuseong-gu-2141923-135671678/", "snippet": "세련된 분위기 카페", "source_name": "트립닷컴" },
+        { "title": "대전유성 분위기좋은 카페 Top100", "url": "https://www.diningcode.com/list.dc?query=대전유성+분위기좋은카페", "snippet": "다이닝코드 추천 카페 목록", "source_name": "다이닝코드" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 주민자치 프로그램 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:05:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/?page_id=13949", "snippet": "유성구 보건소 안내", "source_name": "유성구청" },
+        { "title": "유성구청", "url": "https://www.yuseong.go.kr/", "snippet": "다함께 더좋은 유성 대전광역시 유성구", "source_name": "유성구청" },
+        { "title": "건강도시 주요사업", "url": "https://www.yuseong.go.kr/health/sub03_12_03.do", "snippet": "건강도시 유성 보건사업 안내", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 어린이날 행사 2026 5월 5일",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:06:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전 유성구, 어린이날 '어린이 한마당' 개최…과학·체험 축제", "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1075693", "snippet": "목재 체험 '나무랑 놀꾸야' + 공연 + 과학체험 복합 축제", "source_name": "충청매일" },
+        { "title": "대전 유성구 어린이날 '유성 어린이 한마당' 개최", "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991", "snippet": "5월 5일 국립중앙과학관 중앙광장", "source_name": "디트NEWS24" },
+        { "title": "대전유성구소식 어린이날 기념 '유성 어린이 한마당' 개최 외", "url": "https://news.nate.com/view/20260427n22757", "snippet": "유성구 어린이날 행사 종합", "source_name": "네이트뉴스" },
+        { "title": "대전 어린이날 가볼만한 행사 축제", "url": "https://solbomwind.com/entry/대전-어린이날-가볼만한-행사-축제", "snippet": "대전 지역 어린이날 종합 안내", "source_name": "솔솔부는봄바람" },
+        { "title": "2026 어린이날 아이와 가볼만한 곳 BEST 5", "url": "https://www.lovelyday7.com/2026/04/2026-childrens-day-trips-korea.html", "snippet": "전국 무료 입장 축제 및 행사 총정리", "source_name": "러블리데이" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 5월 프로그램 2026 어린이",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:07:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/index.do", "snippet": "유성구 통합도서관 메인", "source_name": "유성구통합도서관" },
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "노은도서관 북스타트 책놀이 5/1~5/22 10:30~11:30", "source_name": "유성구통합도서관" },
+        { "title": "관평도서관", "url": "https://www.gplib.or.kr/", "snippet": "그림책 나만의 보물을 담다 1기 추가모집", "source_name": "관평도서관" },
+        { "title": "문화행사신청/조회 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "문화행사 목록", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 관평동 용산동 전민동 팝업 오픈 이벤트 2026",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:08:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전 신세계백화점 팝업스토어 OPEN", "url": "https://www.facebook.com/61550732111850/posts/대전-신세계백화점-팝업스토어-open", "snippet": "4월 18일~30일 구름식빵 팝업 (종료)", "source_name": "페이스북" },
+        { "title": "행사안내 - 대전광역시", "url": "https://www.daejeon.go.kr/fvu/index.do", "snippet": "대전광역시 행사안내 게시판", "source_name": "대전광역시" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성온천문화축제 2026 개막 프로그램 일정 티니핑",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:09:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "유성온천문화축제", "url": "http://ysfesta.com/index.php", "snippet": "공식 홈페이지", "source_name": "유성온천문화축제" },
+        { "title": "행사 일정 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule", "snippet": "3일간 시간별 상세 일정", "source_name": "유성온천문화축제" },
+        { "title": "공연 프로그램 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=program3", "snippet": "티니핑 1회차 12시/2회차 15시, 선착순 50명 참여권 배부", "source_name": "유성온천문화축제" },
+        { "title": "대표 프로그램 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=program1", "snippet": "온천수 DJ파티, 드론라이트·불꽃쇼, 힙합 공연", "source_name": "유성온천문화축제" },
+        { "title": "대전관광 유성온천문화축제", "url": "https://www.daejeontour.co.kr/ko/festival/festivalView.do?festv_id=58", "snippet": "축제문의 042-611-2080", "source_name": "대전관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성소방서 어린이 안전체험 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:10:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "유성소방서, 이동안전체험차량 신규 도입으로 체험교육 강화", "url": "https://m.anewsa.com/article_sub3.php?number=2358601", "snippet": "화재·지진·교통안전 등 9개 프로그램 구성. 사전 신청으로 현장 방문", "source_name": "아시아뉴스통신" },
+        { "title": "유성소방서, 가정의 달 소방안전체험의 장 운영", "url": "https://www.gocj.net/news/articleView.html?idxno=133782", "snippet": "5월 가정의 달 맞이 확대 운영. 심폐소생술, 소화기, 포토존", "source_name": "대전시티저널" },
+        { "title": "119시민체험센터 소개", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4461", "snippet": "119시민체험센터 안내", "source_name": "대전 소방본부" },
+        { "title": "소방체험 및 교육신청", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092", "snippet": "소방체험교육 사전 신청", "source_name": "대전 소방본부" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 키즈카페 원데이클래스 신규 2026",
+      "language": "ko",
+      "timestamp": "2026-05-02T07:11:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "키즈다쿵 대전유성점", "url": "https://mom-mom.net/travel/places/65b3732a66391ae58a373aa2", "snippet": "유성구 지족로 298 세영빌딩 2층. 매일 10:00~20:00", "source_name": "맘맘" },
+        { "title": "너티차일드 프리미엄 키즈 테마파크 대전점", "url": "https://www.naughtychild.co.kr/daejeon", "snippet": "유성구 엑스포로151번길 19 A동 2층. 매일 10:30~20:30", "source_name": "너티차일드" },
+        { "title": "키즈카페 노리킹", "url": "https://mom-mom.net/travel/places/65bc565d1ccc08980de2f7d9", "snippet": "대전 유성구 소재 키즈카페", "source_name": "맘맘" },
+        { "title": "대전광역시어린이회관", "url": "https://www.djkids.or.kr/", "snippet": "어린이회관 체험 프로그램", "source_name": "대전어린이회관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon May 2026",
+      "language": "en",
+      "timestamp": "2026-05-02T07:12:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "Cities Nationwide Transform Into Kids' Playgrounds This May", "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may", "snippet": "Korean cities launch major Children's Day festivities this May", "source_name": "Seoul Economic Daily" },
+        { "title": "Yuseong-gu: The Heartbeat of Daejeon's Culture and Wellness", "url": "https://evendo.com/locations/south-korea/daejeon/yuseong-gu", "snippet": "National Science Museum, Daejeon Expo Park for families", "source_name": "Evendo" },
+        { "title": "Yuseong Special Tourist Zone", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=74174", "snippet": "Yuseong hot spring special tourist zone info", "source_name": "Visit Korea" }
+      ]
+    }
+  ]
+}

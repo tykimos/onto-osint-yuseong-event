@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -129,5 +129,9 @@
     { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
     { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티" },
     { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" }
-  ]
+  ],
+  "new_entities_2026_05_02": [
+    { "id": "ent-evt-029", "type": "Event", "name": "그림책, 나만의 보물을 담다", "properties": { "venue": "관평도서관", "dong": "관평동", "distance_from_anchor_m": 1800, "ring": "ring-bike", "host": "유성구통합도서관", "fee": "무료 (추정)", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년"], "kid_friendly_score": 0.85, "source_url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956" }, "first_seen": "2026-05-02", "last_seen": "2026-05-02", "mention_count": 1 }
+  ],
+  "total_count": 96
 }

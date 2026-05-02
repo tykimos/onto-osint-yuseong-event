@@ -1,0 +1,20 @@
+{
+  "id": "src-005",
+  "title": "유성구 '지역작가 인 도서관' 운영 중",
+  "url": "https://pedien.com/html/view.php?idx=1014924",
+  "snippet": "유성구 '지역작가 인(人) 도서관' 5월부터 운영 중. 김석영·이보현·조예은 작가 참여, 6개 도서관.",
+  "source_name": "페디엔",
+  "language": "ko",
+  "discovered_date": "2026-05-02",
+  "tag": "reported",
+  "related_report": "2026-05-01",
+  "related_item": "sources/2026-05-01/items/src-005.json",
+  "tag_reason": "5/1 보고된 내용과 동일. 유의미한 새 정보 없음.",
+  "entities": [
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관", "role": "프로그램" },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004" }
+  ]
+}

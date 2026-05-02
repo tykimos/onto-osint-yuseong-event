@@ -1,0 +1,20 @@
+{
+  "id": "src-008",
+  "title": "대전시민천문대 상시 관측 프로그램 (5월 운영 중)",
+  "url": "https://djstar.kr/",
+  "snippet": "대전시민천문대 도룡동 상시 운영. 매일 14:00~22:00. 단체관람 20~80인 사전예약.",
+  "source_name": "대전시민천문대",
+  "language": "ko",
+  "discovered_date": "2026-05-02",
+  "tag": "reported",
+  "related_report": "2026-05-01",
+  "related_item": "sources/2026-05-01/items/src-006.json",
+  "tag_reason": "기존 보고와 동일. 유의미한 새 정보 없음.",
+  "entities": [
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대", "role": "장소" },
+    { "id": "ent-evt-006", "type": "Event", "name": "대전시민천문대 상시 관측 프로그램", "role": "프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-006", "predicate": "hostsAt", "object": "ent-venue-006" }
+  ]
+}

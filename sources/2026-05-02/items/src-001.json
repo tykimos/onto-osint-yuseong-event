@@ -1,0 +1,25 @@
+{
+  "id": "src-001",
+  "title": "2026 유성온천문화축제 D-day 개막 (5/2~4, 오늘 시작)",
+  "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule",
+  "snippet": "5월 2일(금) 유성온천문화축제 개막. 온천로·계룡스파텔 잔디광장·갑천변·유림공원 일원. 8개 분야 100여 개 프로그램. 개막식(식전공연+개막퍼포먼스+드론라이트·불꽃쇼), 온천수 DJ파티, 티니핑 선착순 50명×2회(12시/15시), 족욕 테마열차, 온천수 수영장, 7080 낭만콘서트, 힙합 공연, 뷰티플라워 헤어아트쇼, 공예·VR·건강 체험부스.",
+  "source_name": "유성온천문화축제 공식",
+  "language": "ko",
+  "discovered_date": "2026-05-02",
+  "tag": "update",
+  "related_report": "2026-05-01",
+  "related_item": "sources/2026-05-01/items/src-002.json",
+  "tag_reason": "어제 D-1이었던 유성온천문화축제가 오늘 D-day로 전환. 개막 확정.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "주요 이벤트" },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장", "role": "축제 장소" },
+    { "id": "ent-org-016", "type": "Organization", "name": "유성온천문화축제추진위원회", "role": "주최" },
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연", "role": "핵심 프로그램" },
+    { "id": "ent-act-002", "type": "Activity", "name": "유성호 족욕 테마열차", "role": "체험 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-016" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-001" }
+  ]
+}

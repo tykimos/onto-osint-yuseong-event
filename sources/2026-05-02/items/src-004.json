@@ -1,0 +1,20 @@
+{
+  "id": "src-004",
+  "title": "유성소방서 가정의 달 소방안전체험의 장 운영 중",
+  "url": "https://www.gocj.net/news/articleView.html?idxno=133782",
+  "snippet": "유성소방서 가정의 달 맞이 소방안전체험의 장 운영 중. 심폐소생술 1:1코칭, 소화기 사용법, 소방홍보물품 증정, 포토존. 이동안전체험차량 9개 프로그램 사전 신청 운영.",
+  "source_name": "대전시티저널",
+  "language": "ko",
+  "discovered_date": "2026-05-02",
+  "tag": "reported",
+  "related_report": "2026-05-01",
+  "related_item": "sources/2026-05-01/items/src-004.json",
+  "tag_reason": "5/1 보고된 내용과 동일. 유의미한 새 정보 없음.",
+  "entities": [
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서", "role": "주최" },
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장", "role": "프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015" }
+  ]
+}

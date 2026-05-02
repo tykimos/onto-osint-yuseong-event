@@ -1,0 +1,20 @@
+{
+  "id": "src-007",
+  "title": "노은도서관 북스타트 책놀이 (5/1~5/22 운영 확인)",
+  "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956",
+  "snippet": "노은도서관 1층 유아실(어린이실 내)에서 북스타트 책놀이 5월 1일~22일, 10:30~11:30 진행. 36개월~미취학아동+보호자 대상.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-02",
+  "tag": "reported",
+  "related_report": "2026-04-25",
+  "related_item": null,
+  "tag_reason": "이전에 북스타트 프로그램으로 보고된 바 있음(4/25). 5월 구체 일정 확인은 유의미하나 핵심 내용 동일.",
+  "entities": [
+    { "id": "ent-venue-008", "type": "Venue", "name": "노은도서관", "role": "장소" },
+    { "id": "ent-evt-003", "type": "Event", "name": "북스타트 책놀이", "role": "프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-003", "predicate": "hostsAt", "object": "ent-venue-008" }
+  ]
+}

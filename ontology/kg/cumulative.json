@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-02",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1350,9 +1350,21 @@
     { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.75, "added": "2026-05-01" },
     { "subject": "ent-evt-024", "predicate": "visitCombo", "object": "ent-evt-020", "type": "inferred", "confidence": 0.85, "added": "2026-05-01" }
   ],
+  "nodes_added_2026_05_02": [
+    { "id": "ent-evt-029", "type": "Event", "label": "그림책, 나만의 보물을 담다" }
+  ],
+  "edges_added_2026_05_02": [
+    { "subject": "ent-evt-029", "predicate": "hostsAt", "object": "ent-venue-007", "type": "explicit", "confidence": 0.9, "added": "2026-05-02" },
+    { "subject": "ent-evt-029", "predicate": "organizedBy", "object": "ent-org-004", "type": "explicit", "confidence": 0.9, "added": "2026-05-02" },
+    { "subject": "ent-evt-029", "predicate": "targetsAgeGroup", "object": "age-toddler", "type": "explicit", "confidence": 0.7, "added": "2026-05-02" },
+    { "subject": "ent-evt-029", "predicate": "targetsAgeGroup", "object": "age-elem-low", "type": "explicit", "confidence": 0.7, "added": "2026-05-02" },
+    { "subject": "ent-evt-021", "predicate": "visitCombo", "object": "ent-evt-024", "type": "inferred", "confidence": 0.85, "added": "2026-05-02" },
+    { "subject": "ent-evt-029", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-02" },
+    { "subject": "ent-evt-029", "predicate": "partOfSeries", "object": "ent-evt-003", "type": "inferred", "confidence": 0.6, "added": "2026-05-02" }
+  ],
   "stats": {
-    "total_nodes": 82,
-    "total_edges": 2,
-    "total_triples": 163
+    "total_nodes": 83,
+    "total_edges": 9,
+    "total_triples": 170
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "classes": [
     {
       "id": "Entity",
@@ -160,6 +160,13 @@
       "target": "Event(ent-evt-024 status→D-day, ent-evt-021 status→D-1, ent-evt-022 status→운영개시, ent-evt-023 status→운영개시)",
       "reason": "골든위크 D-day: 동심 로그인 개막, 온천축제 D-1, 가정의 달 프로그램(소방서·도서관) 5월 운영 시작. 신규 엔티티 없음 — 상태 업데이트만.",
       "source_ids": ["src-001", "src-002"]
+    },
+    {
+      "date": "2026-05-02",
+      "action": "add_instances",
+      "target": "Event(ent-evt-029 그림책나만의보물을담다)",
+      "reason": "관평도서관 신규 어린이 프로그램 '그림책, 나만의 보물을 담다' 1기 추가모집 발견. 유성온천문화축제 D-day 개막(ent-evt-021), 어린이 한마당 D-3 진입(ent-evt-020) 상태 업데이트.",
+      "source_ids": ["src-001", "src-003", "src-006"]
     }
   ]
 }
