@@ -1,0 +1,20 @@
+{
+  "id": "src-007",
+  "title": "노은도서관 북스타트 책놀이 운영 중 (5/1~5/22)",
+  "url": "https://lib.yuseong.go.kr/",
+  "snippet": "36개월~미취학 아동 대상 책놀이 프로그램. 유성도서관 1층 어린이자료실 유아실. 무료.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "reported",
+  "related_report": "2026-04-25",
+  "related_item": "src-007 (2026-05-02)",
+  "tag_reason": "초기 보고(4/25) 이후 지속 운영 확인. 상태 변동 없음.",
+  "entities": [
+    { "id": "ent-evt-003", "type": "Event", "name": "북스타트 책놀이" },
+    { "id": "ent-venue-008", "type": "Venue", "name": "노은도서관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-003", "predicate": "hostsAt", "object": "ent-venue-008" }
+  ]
+}

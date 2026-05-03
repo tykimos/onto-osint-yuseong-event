@@ -1,0 +1,24 @@
+{
+  "id": "src-003",
+  "title": "유성 어린이 한마당 D-2 (5/5 어린이날)",
+  "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+  "snippet": "5/5(월, 어린이날) 국립중앙과학관 중앙광장. 나무랑놀꾸야 목공체험 16종 + 사이언스매직쇼 + 과학원리체험6종 + 아동안전권리캠페인. 사전신청 불필요(현장 참여).",
+  "source_name": "디트NEWS24",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "reported",
+  "related_report": "2026-05-02",
+  "related_item": "src-003 (2026-05-02)",
+  "tag_reason": "D-3→D-2 변경 외 신규 정보 없음. 마감임박 상태 유지.",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-act-004", "type": "Activity", "name": "나무랑 놀꾸야 목공체험" },
+    { "id": "ent-act-005", "type": "Activity", "name": "사이언스 매직쇼·버블쇼" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-020", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "ent-act-004" },
+    { "subject": "ent-evt-020", "predicate": "featuresActivity", "object": "ent-act-005" }
+  ]
+}

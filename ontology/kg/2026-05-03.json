@@ -1,0 +1,129 @@
+{
+  "date": "2026-05-03",
+  "new_triples": [
+    {
+      "subject": "ent-evt-030",
+      "predicate": "hostsAt",
+      "object": "ent-venue-006",
+      "source_id": "src-004",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-030",
+      "predicate": "organizedBy",
+      "object": "ent-org-007",
+      "source_id": "src-004",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-030",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "source_id": "src-004",
+      "date": "2026-05-03",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-008",
+      "source_id": "src-001",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-009",
+      "source_id": "src-001",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-010",
+      "source_id": "src-001",
+      "date": "2026-05-03",
+      "confidence": 0.9,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-024",
+      "predicate": "status",
+      "object": "최종일(Day3)",
+      "source_id": "src-002",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous_value": "Day2"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "status",
+      "object": "Day2",
+      "source_id": "src-001",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous_value": "D-day(Day1)"
+    },
+    {
+      "subject": "ent-evt-020",
+      "predicate": "status",
+      "object": "D-2",
+      "source_id": "src-003",
+      "date": "2026-05-03",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous_value": "D-3"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-030",
+      "predicate": "visitCombo",
+      "object": "ent-evt-020",
+      "rule": "temporal_sequence",
+      "date": "2026-05-03",
+      "confidence": 0.80,
+      "type": "inferred",
+      "reason": "별축제(5/4~5) + 어린이 한마당(5/5) 도룡동 동일 권역 연속 방문 가능"
+    },
+    {
+      "subject": "ent-evt-030",
+      "predicate": "visitCombo",
+      "object": "ent-evt-006",
+      "rule": "same_dong_combo",
+      "date": "2026-05-03",
+      "confidence": 0.85,
+      "type": "inferred",
+      "reason": "별축제와 상시 관측 프로그램 모두 대전시민천문대 — 사실상 동일 장소"
+    },
+    {
+      "subject": "ent-evt-030",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "date": "2026-05-03",
+      "confidence": 0.90,
+      "type": "inferred",
+      "reason": "천문대(orgType=천문대) 운영 행사 → 어린이 친화도 가산"
+    }
+  ],
+  "stats": {
+    "new_nodes": 4,
+    "new_edges": 6,
+    "updated_edges": 3,
+    "inferred_edges": 3
+  }
+}

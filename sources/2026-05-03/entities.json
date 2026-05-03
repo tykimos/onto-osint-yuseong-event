@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-03",
+  "entities": [
+    {
+      "temp_id": "temp-evt-030",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026 대전시민천문대 별축제",
+      "properties": {
+        "start_date": "2026-05-04",
+        "end_date": "2026-05-05",
+        "venue": "대전시민천문대 (도룡동)",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3000,
+        "ring": "ring-car",
+        "host": "대전시민천문대",
+        "fee": "무료",
+        "registration_required": false,
+        "indoor_outdoor": "야외+실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reason": "과학체험부스 수십 개 + 태양관측 + 별음악회 — 과학관·천문대 운영 가산(+0.2). 단, 야간 관측은 영유아 부적합으로 감점(-0.1).",
+        "programs": ["과학체험부스(수십 개)", "태양관측", "별음악회", "야간천체관측"],
+        "parking": "5/4 야외주차장 행사 — 주차불가, 대중교통 권고",
+        "source_url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-act-008",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "거리퍼레이드",
+      "properties": {
+        "category": "공연·퍼레이드",
+        "description": "유성온천문화축제 30주년 주제, 대형 학·마리오네트·플래시몹 댄스팀, 주민+전문공연팀 참여",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.8,
+        "event_parent": "ent-evt-021",
+        "day": "5/3(토) — Day 2 메인 이벤트"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-act-009",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "온천수 물총 스플래쉬",
+      "properties": {
+        "category": "체험·놀이",
+        "description": "매일 15시 온천로에서 온천수로 물총 싸움. 축제 대표 프로그램.",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.9,
+        "event_parent": "ent-evt-021",
+        "time": "매일 15:00"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-act-010",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "온천수DJ파티 (스탠딩)",
+      "properties": {
+        "category": "공연·파티",
+        "description": "온천수를 맞으며 DJ파티. 스탠딩석 150명 선착순(11시 팔찌 배부, 계룡스파텔 정문 옆).",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.5,
+        "kid_friendly_reason": "스탠딩·음악 중심 — 영유아 부적합. 초등고학년 이상 가능.",
+        "event_parent": "ent-evt-021",
+        "capacity": 150,
+        "time": "11시 팔찌배부"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-evt-030",
+      "predicate": "hostsAt",
+      "object": "ent-venue-006",
+      "source_ids": ["src-004"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-evt-030",
+      "predicate": "organizedBy",
+      "object": "ent-org-007",
+      "source_ids": ["src-004"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "temp-act-008",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "temp-act-009",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "temp-act-010",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-evt-030",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "source_ids": ["src-004"],
+      "confidence": 0.85
+    }
+  ],
+  "stats": {
+    "total_entities": 4,
+    "new_entities": 4,
+    "matched_entities": 0,
+    "total_relations": 6
+  }
+}

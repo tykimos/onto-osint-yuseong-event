@@ -1,0 +1,20 @@
+{
+  "id": "src-005",
+  "title": "유성소방서 가정의 달 소방안전체험의 장 운영 중 (5월 내내)",
+  "url": "https://www.gocj.net/news/articleView.html?idxno=133782",
+  "snippet": "유성소방서 가정의 달 소방안전체험의 장 5/1~5/31 운영 중. 119시민체험센터 화~토 09:30~11:30/13:30~15:30.",
+  "source_name": "충청방송",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "reported",
+  "related_report": "2026-05-02",
+  "related_item": "src-004 (2026-05-02)",
+  "tag_reason": "5/2 보고서에 이미 운영 중으로 기재. 신규 정보 없음.",
+  "entities": [
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장" },
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015" }
+  ]
+}

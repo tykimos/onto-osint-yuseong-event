@@ -1,0 +1,27 @@
+{
+  "id": "src-001",
+  "title": "유성온천문화축제 Day 2 — 거리퍼레이드·티니핑·물총 스플래쉬 (5/3, 오늘)",
+  "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule",
+  "snippet": "5/3(토) 거리퍼레이드가 30주년 주제로 온천로 일대에서 펼쳐지고, 15시 온천수 물총 스플래쉬, 캐치! 티니핑 공연(선착순 50명×2회), 온천수DJ파티(150명 선착순 팔찌 11시 배부). 체험부스 100여 개 + 숲속 힐링존.",
+  "source_name": "유성온천문화축제 공식",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "update",
+  "related_report": "2026-05-02",
+  "related_item": "src-001 (2026-05-02)",
+  "tag_reason": "어제 D-day 개막 보고 이후, Day 2 고유 프로그램(거리퍼레이드 + DJ파티 상세) 정보 추가.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제" },
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연" },
+    { "id": "ent-venue-018", "type": "Venue", "name": "온천로 일원·계룡스파텔 광장" },
+    { "id": "temp-act-008", "type": "Activity", "name": "거리퍼레이드" },
+    { "id": "temp-act-009", "type": "Activity", "name": "온천수 물총 스플래쉬" },
+    { "id": "temp-act-010", "type": "Activity", "name": "온천수DJ파티 (스탠딩)" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-act-008" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-act-009" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-act-010" },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-018" }
+  ]
+}

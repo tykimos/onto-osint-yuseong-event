@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-02",
+  "last_updated": "2026-05-03",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1362,9 +1362,26 @@
     { "subject": "ent-evt-029", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-02" },
     { "subject": "ent-evt-029", "predicate": "partOfSeries", "object": "ent-evt-003", "type": "inferred", "confidence": 0.6, "added": "2026-05-02" }
   ],
+  "nodes_added_2026_05_03": [
+    { "id": "ent-evt-030", "type": "Event", "label": "2026 대전시민천문대 별축제" },
+    { "id": "ent-act-008", "type": "Activity", "label": "거리퍼레이드" },
+    { "id": "ent-act-009", "type": "Activity", "label": "온천수 물총 스플래쉬" },
+    { "id": "ent-act-010", "type": "Activity", "label": "온천수DJ파티 (스탠딩)" }
+  ],
+  "edges_added_2026_05_03": [
+    { "subject": "ent-evt-030", "predicate": "hostsAt", "object": "ent-venue-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-03" },
+    { "subject": "ent-evt-030", "predicate": "organizedBy", "object": "ent-org-007", "type": "explicit", "confidence": 0.95, "added": "2026-05-03" },
+    { "subject": "ent-evt-030", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.85, "added": "2026-05-03" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-008", "type": "explicit", "confidence": 0.95, "added": "2026-05-03" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-009", "type": "explicit", "confidence": 0.95, "added": "2026-05-03" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-010", "type": "explicit", "confidence": 0.9, "added": "2026-05-03" },
+    { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-020", "type": "inferred", "confidence": 0.80, "added": "2026-05-03" },
+    { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-006", "type": "inferred", "confidence": 0.85, "added": "2026-05-03" },
+    { "subject": "ent-evt-030", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-03" }
+  ],
   "stats": {
-    "total_nodes": 83,
+    "total_nodes": 87,
     "total_edges": 9,
-    "total_triples": 170
+    "total_triples": 179
   }
 }

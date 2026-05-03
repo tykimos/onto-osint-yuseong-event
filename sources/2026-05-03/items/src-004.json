@@ -1,0 +1,24 @@
+{
+  "id": "src-004",
+  "title": "대전시민천문대 별축제 (5/4~5) — 내일 개막, 과학체험부스·태양관측·별음악회",
+  "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44&festv_nm=%EB%8C%80%EC%A0%84%EC%8B%9C%EB%AF%BC%EC%B2%9C%EB%AC%B8%EB%8C%80+%EB%B3%84%EC%B6%95%EC%A0%9C&menuIdx=147",
+  "snippet": "대전시민천문대 별축제 5/4(일)~5/5(월). 천문관련기관·출연연·학교·과학동아리 수십 개 과학체험부스, 태양관측, 별음악회, 야간천체관측. 5/4 야외주차장 행사 — 주차불가, 대중교통 권고. 도룡동 소재(대전시민천문대).",
+  "source_name": "대전관광공사",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 별축제 관련 항목 없음. 대전시민천문대 '상시 관측 프로그램'은 기존 보고됐지만, '별축제'는 독립 이벤트로 신규.",
+  "entities": [
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대" },
+    { "id": "ent-org-007", "type": "Organization", "name": "대전시민천문대" },
+    { "id": "temp-evt-030", "type": "Event", "name": "2026 대전시민천문대 별축제" },
+    { "id": "dong-doryong", "type": "Dong", "name": "도룡동" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-030", "predicate": "hostsAt", "object": "ent-venue-006" },
+    { "subject": "temp-evt-030", "predicate": "organizedBy", "object": "ent-org-007" },
+    { "subject": "ent-venue-006", "predicate": "locatedIn", "object": "dong-doryong" }
+  ]
+}

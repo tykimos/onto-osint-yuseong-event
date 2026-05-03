@@ -1,0 +1,20 @@
+{
+  "id": "src-006",
+  "title": "관평도서관 '그림책, 나만의 보물을 담다' 추가모집 진행 중",
+  "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956",
+  "snippet": "유아~초등저학년 대상 그림책 프로그램. 추가모집 진행 중. 관평도서관(관평동, ~1.8km).",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "reported",
+  "related_report": "2026-05-02",
+  "related_item": "src-006 (2026-05-02)",
+  "tag_reason": "어제 신규로 보고됨. 추가모집 상태 유지, 신규 정보 없음.",
+  "entities": [
+    { "id": "ent-evt-029", "type": "Event", "name": "그림책, 나만의 보물을 담다" },
+    { "id": "ent-venue-007", "type": "Venue", "name": "관평도서관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-029", "predicate": "hostsAt", "object": "ent-venue-007" }
+  ]
+}

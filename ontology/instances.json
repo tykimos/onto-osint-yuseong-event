@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-02",
+  "last_updated": "2026-05-03",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -133,5 +133,11 @@
   "new_entities_2026_05_02": [
     { "id": "ent-evt-029", "type": "Event", "name": "그림책, 나만의 보물을 담다", "properties": { "venue": "관평도서관", "dong": "관평동", "distance_from_anchor_m": 1800, "ring": "ring-bike", "host": "유성구통합도서관", "fee": "무료 (추정)", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년"], "kid_friendly_score": 0.85, "source_url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956" }, "first_seen": "2026-05-02", "last_seen": "2026-05-02", "mention_count": 1 }
   ],
-  "total_count": 96
+  "new_entities_2026_05_03": [
+    { "id": "ent-evt-030", "type": "Event", "name": "2026 대전시민천문대 별축제", "properties": { "start_date": "2026-05-04", "end_date": "2026-05-05", "venue": "대전시민천문대", "dong": "도룡동", "distance_from_anchor_m": 3000, "ring": "ring-car", "host": "대전시민천문대", "fee": "무료", "registration_required": false, "indoor_outdoor": "야외+실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.85, "programs": ["과학체험부스(수십 개)", "태양관측", "별음악회", "야간천체관측"], "parking_note": "5/4 야외주차장 행사 — 주차불가, 대중교통 권고", "source_url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44" }, "first_seen": "2026-05-03", "last_seen": "2026-05-03", "mention_count": 3 },
+    { "id": "ent-act-008", "type": "Activity", "name": "거리퍼레이드", "properties": { "category": "공연·퍼레이드", "description": "30주년 주제, 대형학·마리오네트·플래시몹", "target_age": "전연령가족", "event_parent": "ent-evt-021" }, "first_seen": "2026-05-03", "last_seen": "2026-05-03", "mention_count": 2 },
+    { "id": "ent-act-009", "type": "Activity", "name": "온천수 물총 스플래쉬", "properties": { "category": "체험·놀이", "description": "매일 15시 온천로, 온천수 물총싸움", "target_age": "전연령가족", "kid_friendly_score": 0.9, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-03", "last_seen": "2026-05-03", "mention_count": 2 },
+    { "id": "ent-act-010", "type": "Activity", "name": "온천수DJ파티 (스탠딩)", "properties": { "category": "공연·파티", "description": "온천수 DJ파티, 스탠딩 150명 선착순(11시 팔찌배부)", "target_age": "초등고학년이상", "kid_friendly_score": 0.5, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-03", "last_seen": "2026-05-03", "mention_count": 1 }
+  ],
+  "total_count": 100
 }

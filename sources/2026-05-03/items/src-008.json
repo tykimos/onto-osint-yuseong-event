@@ -1,0 +1,20 @@
+{
+  "id": "src-008",
+  "title": "대전시민천문대 상시 관측 프로그램 (5월 운영 중)",
+  "url": "https://djstar.kr/",
+  "snippet": "주간 태양 홍염·흑점 관측, 야간 행성·성운·성단 관측. 1층 천체투영관 사계절 별자리 설명, 영상물 상영. 도룡동 소재.",
+  "source_name": "대전시민천문대",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "reported",
+  "related_report": "2026-05-02",
+  "related_item": "src-008 (2026-05-02)",
+  "tag_reason": "상시 운영 프로그램. 이전 보고서에서 계속 reported.",
+  "entities": [
+    { "id": "ent-evt-006", "type": "Event", "name": "대전시민천문대 상시 관측 프로그램" },
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-006", "predicate": "hostsAt", "object": "ent-venue-006" }
+  ]
+}
