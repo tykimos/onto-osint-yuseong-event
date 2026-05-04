@@ -1,0 +1,24 @@
+{
+  "id": "src-001",
+  "title": "유성온천문화축제 Day 3 (마지막 날) — 폐막공연·뮤직댄스경연 결선·마지막 물총 스플래쉬",
+  "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule",
+  "snippet": "유성온천문화축제 마지막 날(5/4). 폐막공연: VR 퍼포먼스 + 팝페라(테너 류정필 & 코아모러스). 유성온천 뮤직&댄스 경연대회 결선. 캐치! 티니핑 마지막 회차(선착순 50명×2회). 온천수 물총 스플래쉬 15시 마지막. 족욕열차·온천수수영장 마지막 운영.",
+  "source_name": "유성온천문화축제 공식",
+  "language": "ko",
+  "discovered_date": "2026-05-04",
+  "tag": "update",
+  "related_report": "2026-05-03",
+  "related_item": "2026-05-03/src-001",
+  "tag_reason": "어제(Day 2) 보고 이후 → 오늘 Day 3(최종일)로 전환. 폐막 공연 및 경연대회 결선이 Day 3 고유 프로그램.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "Day 3 마지막날" },
+    { "id": "ent-act-001", "type": "Activity", "name": "캐치! 티니핑 공연", "role": "마지막 회차" },
+    { "id": "ent-act-009", "type": "Activity", "name": "온천수 물총 스플래쉬", "role": "마지막 운영" },
+    { "id": "ent-act-011", "type": "Activity", "name": "뮤직&댄스 경연대회 결선", "role": "Day 3 고유" },
+    { "id": "ent-act-012", "type": "Activity", "name": "폐막공연 (VR퍼포먼스+팝페라)", "role": "Day 3 고유" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-011" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-012" }
+  ]
+}

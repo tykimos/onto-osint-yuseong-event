@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "유성 어린이 한마당 D-1 (내일 5/5 어린이날, 국립중앙과학관)",
+  "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991",
+  "snippet": "제104회 어린이날 기념 '유성 어린이 한마당' 내일(5/5) 국립중앙과학관 중앙광장 일원. 사이언스매직쇼·버블쇼(사이언스홀), 과학체험6종(진공실험·배터리시계·망원경·3D펜·모루인형), 목공체험 16종(나무랑 놀꾸야), 아동안전·권리캠페인, 보드게임·민속놀이. 무료.",
+  "source_name": "디트NEWS24",
+  "language": "ko",
+  "discovered_date": "2026-05-04",
+  "tag": "reported",
+  "related_report": "2026-05-03",
+  "related_item": "2026-05-03/src-003",
+  "tag_reason": "어제 D-2에서 D-1 전환. 신규 정보 없음, 상태 업데이트만.",
+  "entities": [
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "role": "D-1" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "개최장소" },
+    { "id": "ent-org-001", "type": "Organization", "name": "대전광역시", "role": "주최(유성구)" }
+  ],
+  "relations": []
+}

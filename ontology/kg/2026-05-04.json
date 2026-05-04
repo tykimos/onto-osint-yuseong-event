@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-04",
+  "new_triples": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-011",
+      "confidence": 0.9,
+      "type": "explicit",
+      "date": "2026-05-04"
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-012",
+      "confidence": 0.9,
+      "type": "explicit",
+      "date": "2026-05-04"
+    }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-030",
+      "predicate": "visitCombo",
+      "object": "ent-evt-021",
+      "confidence": 0.7,
+      "type": "inferred",
+      "rule": "temporal_overlap",
+      "date": "2026-05-04",
+      "note": "별축제(도룡동) + 온천축제 마지막날(봉명동) 동시 진행 — 차량 15분 이동"
+    },
+    {
+      "subject": "ent-evt-030",
+      "predicate": "visitCombo",
+      "object": "ent-evt-020",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "date": "2026-05-04",
+      "note": "내일(5/5) 어린이 한마당(과학관) + 별축제 Day 2(천문대) = 도룡동 풀코스. 신뢰도 상향(0.80→0.85, D-1 확정)"
+    }
+  ],
+  "stats": {
+    "new_nodes": 2,
+    "new_edges": 2,
+    "inferred_edges": 2
+  }
+}

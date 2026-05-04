@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-04",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-act-011",
+      "type": "Activity",
+      "name": "뮤직&댄스 경연대회 결선",
+      "properties": {
+        "category": "경연",
+        "description": "유성온천 뮤직&댄스 경연대회 전국 결선 — Day 3 고유 프로그램",
+        "target_age": "전연령",
+        "kid_friendly_score": 0.6,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-act-012",
+      "type": "Activity",
+      "name": "폐막공연 (VR퍼포먼스+팝페라)",
+      "properties": {
+        "category": "공연",
+        "description": "메타버스 드로잉 VR퍼포먼스 + 테너 류정필 & 코아모러스 합동 팝페라 공연",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.5,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-011",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-evt-021",
+      "predicate": "featuresActivity",
+      "object": "ent-act-012",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "total_entities": 2,
+    "new_entities": 2,
+    "matched_entities": 0,
+    "total_relations": 2
+  }
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-05-04",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1379,9 +1379,19 @@
     { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-006", "type": "inferred", "confidence": 0.85, "added": "2026-05-03" },
     { "subject": "ent-evt-030", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-03" }
   ],
+  "nodes_added_2026_05_04": [
+    { "id": "ent-act-011", "type": "Activity", "label": "뮤직&댄스 경연대회 결선" },
+    { "id": "ent-act-012", "type": "Activity", "label": "폐막공연 (VR퍼포먼스+팝페라)" }
+  ],
+  "edges_added_2026_05_04": [
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-011", "type": "explicit", "confidence": 0.9, "added": "2026-05-04" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-012", "type": "explicit", "confidence": 0.9, "added": "2026-05-04" },
+    { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.7, "added": "2026-05-04" },
+    { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-020", "type": "inferred", "confidence": 0.85, "added": "2026-05-04", "note": "D-1 확정으로 신뢰도 상향 0.80→0.85" }
+  ],
   "stats": {
-    "total_nodes": 87,
+    "total_nodes": 89,
     "total_edges": 9,
-    "total_triples": 179
+    "total_triples": 183
   }
 }

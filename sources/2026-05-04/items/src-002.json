@@ -1,0 +1,22 @@
+{
+  "id": "src-002",
+  "title": "대전시민천문대 별축제 Day 1 (오늘 개막) — 과학체험부스·태양관측·별음악회·야간관측",
+  "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44",
+  "snippet": "대전시민천문대 별축제 오늘(5/4) 개막. 천문기관·출연연·학교·과학동아리 등 수십 개 과학체험부스. 태양관측(천체망원경), 돔영상관, 태양계 행성 모형 포토존. 별음악회(천체투영관). 야간천체관측(행성·성운·성단). 주의: 야외주차장 행사장 전환 → 주차불가, 대중교통 이용 권고.",
+  "source_name": "대전관광공사",
+  "language": "ko",
+  "discovered_date": "2026-05-04",
+  "tag": "update",
+  "related_report": "2026-05-03",
+  "related_item": "2026-05-03/src-004",
+  "tag_reason": "어제 '내일 개막' 보고 → 오늘 D-day 개막 전환. 실제 운영 시작.",
+  "entities": [
+    { "id": "ent-evt-030", "type": "Event", "name": "2026 대전시민천문대 별축제", "role": "Day 1 개막" },
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대", "role": "개최장소" },
+    { "id": "ent-org-007", "type": "Organization", "name": "대전시민천문대", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-030", "predicate": "hostsAt", "object": "ent-venue-006" },
+    { "subject": "ent-evt-030", "predicate": "organizedBy", "object": "ent-org-007" }
+  ]
+}

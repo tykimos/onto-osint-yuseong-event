@@ -1,0 +1,197 @@
+{
+  "date": "2026-05-04",
+  "collected_at": "2026-05-04T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 16,
+  "total_results": 52,
+  "expanded_keywords": [
+    "유성온천문화축제 폐막",
+    "대전시민천문대 별축제 개막",
+    "유성 어린이 한마당 D-1",
+    "국립중앙과학관 가정의달"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성온천문화축제 2026 5월 4일 마지막날 프로그램",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:01:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성온천문화축제 | 지역축제 | 대한민국 구석구석 축제", "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=2fcee4ea-7f88-4485-a67b-d4a88ee78320", "snippet": "유성온천문화축제 종합 정보 — 개막식/폐막식, 드론불꽃쇼, DJ파티, 뮤직댄스경연, 문화목욕탕 체험, 어린이 과학 체험존", "source_name": "대한민국 구석구석" },
+        { "title": "행사 일정 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=schedule", "snippet": "유성온천문화축제 행사 일정표 — 일별 프로그램 시간표", "source_name": "유성온천문화축제 공식" },
+        { "title": "행사 개요 | 유성온천문화축제", "url": "http://ysfesta.com/bbs/spafest.php?page_id=overview", "snippet": "축제 개요 — 유성온천과 과학도시 유성 가치를 현대적 감각으로 계승", "source_name": "유성온천문화축제 공식" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 별축제 2026 5월 개막",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:02:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대 별축제", "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44", "snippet": "천문관련기관·출연연·학교·과학동아리 등 수십 개 과학체험부스 + 태양관측 + 별음악회 + 야간천체관측", "source_name": "대전관광공사" },
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "대전시민천문대 공식 사이트 — 별축제 안내", "source_name": "대전시민천문대" },
+        { "title": "제14회 대전시민천문대 별축제 개최", "url": "https://www.daejeon.go.kr/drh/board/boardNormalView.do?ntatcSeq=1480568937&menuSeq=6825&boardId=normal_0189", "snippet": "대전시민천문대 별축제 개최 안내 — 대전광역시청", "source_name": "대전광역시청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이날 행사 2026 5월 5일",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:03:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "2026 어린이날 아이와 가볼 만한 곳 BEST 5", "url": "https://www.lovelyday7.com/2026/04/2026-childrens-day-trips-korea.html", "snippet": "전국 어린이날 무료 행사 총정리 — 국립과학관 무료입장 포함", "source_name": "러블리데이" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 어린이날 2026 가정의달 행사",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:04:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "국립중앙과학관 공식 — 전시, 교육, 행사 안내", "source_name": "국립중앙과학관" },
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사 안내 목록", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:05:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔할 수 있는 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "레포레스트 — 한밭대학교 근처 덕명동 대형카페, 1~4층 다양한 분위기", "source_name": "복지헬로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 5월 2026 어린이",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:06:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구통합도서관 공식 — 프로그램 안내", "source_name": "유성구통합도서관" },
+        { "title": "행사신청 — 관평도서관 그림책 프로그램", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "그림책, 나만의 보물을 담다 1기 추가모집", "source_name": "유성구통합도서관" },
+        { "title": "유성구, 지역작가와 함께하는 특별한 만남 '지역작가 인 도서관' 운영", "url": "https://pedien.com/html/view.php?idx=1014924", "snippet": "유성구 6개 공공도서관 지역작가 인 도서관 5월 운영", "source_name": "페디앙" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 키즈카페 팝업스토어 원데이클래스 2026",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:07:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "너티차일드 프리미엄 키즈 테마파크 대전점", "url": "https://www.naughtychild.co.kr/daejeon", "snippet": "대전 유성구 엑스포로151번길 19 A동 2층, 매일 10:30~20:30", "source_name": "너티차일드" },
+        { "title": "키즈다쿵 대전유성점", "url": "https://mom-mom.net/travel/places/65b3732a66391ae58a373aa2", "snippet": "대전 유성구 지족로 298 세영빌딩 2층, 매일 10:00~20:00", "source_name": "맘맘" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 보건소 복지관 행정복지센터 어린이 프로그램 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:08:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/health/", "snippet": "유성구 보건소 공식 — 진료, 민원, 보건사업", "source_name": "유성구" },
+        { "title": "유성구종합사회복지관", "url": "http://yuseongswc.or.kr", "snippet": "유성구종합사회복지관 — 생활체육, 노인복지, 수영장 등", "source_name": "유성구종합사회복지관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성 용산동 전민동 관평동 가게 이벤트 오픈 2026",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:09:00+09:00",
+      "result_count": 10,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 소방서 경찰서 우체국 어린이 체험 2026 가정의달",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:10:00+09:00",
+      "result_count": 10,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon May 2026",
+      "language": "en",
+      "timestamp": "2026-05-04T07:11:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "Cities Nationwide Transform Into Kids' Playgrounds This May", "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may", "snippet": "Yuseong Hot Spring Culture Festival — water gun fights, street performances, character parades. National Science Museum family events.", "source_name": "Seoul Economic Daily" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 엑스포 과학공원 어린이날 2026 행사 축제",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:12:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "2026 대한민국 과학축제", "url": "https://www.scienceall.com/sciencefestival2026", "snippet": "대한민국 과학축제 — 과학 체험, 공연, 전시 정보", "source_name": "사이언스올" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성온천문화축제 2026 Day3 폐막 마지막 공연 일정",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:13:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성온천문화축제 | 대한민국 구석구석", "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=2fcee4ea-7f88-4485-a67b-d4a88ee78320", "snippet": "폐막공연: VR퍼포먼스 + 팝페라, 뮤직댄스경연 결선", "source_name": "대한민국 구석구석" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 별축제 프로그램 과학체험부스 태양관측 2026",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:14:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대 별축제 | 대한민국 구석구석", "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=306fb919-36d3-48d9-85cf-7d2247ad580c", "snippet": "과학체험부스 수십 개, 태양관측, 별음악회, 야간천체관측, 돔영상관, 태양계 행성 모형 포토존", "source_name": "대한민국 구석구석" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성 어린이 한마당 2026 국립중앙과학관 5월5일 프로그램",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:15:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전 유성구 어린이날 '유성 어린이 한마당' 개최", "url": "https://www.dtnews24.com/news/articleView.html?idxno=810991", "snippet": "제104회 어린이날 기념 — 사이언스매직쇼, 버블쇼, 과학체험6종, 목공16종, 아동권리캠페인, 보드게임, 민속놀이", "source_name": "디트NEWS24" },
+        { "title": "[대전유성구소식] 어린이날 기념 '유성 어린이 한마당' 개최 외", "url": "https://news.nate.com/view/20260427n22757", "snippet": "유성구 어린이 한마당 개최 소식", "source_name": "네이트뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 가정의달 어린이날 무료 행사 체험 2026",
+      "language": "ko",
+      "timestamp": "2026-05-04T07:16:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전오월드 축제 및 이벤트", "url": "https://www.oworld.kr/newkfsweb/kfi/kfs/event/selectDccoEventList.do?mn=KFS_34_02_03_01", "snippet": "대전오월드 가정의달 이벤트", "source_name": "대전오월드" }
+      ]
+    }
+  ]
+}

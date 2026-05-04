@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-05-04",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -139,5 +139,9 @@
     { "id": "ent-act-009", "type": "Activity", "name": "온천수 물총 스플래쉬", "properties": { "category": "체험·놀이", "description": "매일 15시 온천로, 온천수 물총싸움", "target_age": "전연령가족", "kid_friendly_score": 0.9, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-03", "last_seen": "2026-05-03", "mention_count": 2 },
     { "id": "ent-act-010", "type": "Activity", "name": "온천수DJ파티 (스탠딩)", "properties": { "category": "공연·파티", "description": "온천수 DJ파티, 스탠딩 150명 선착순(11시 팔찌배부)", "target_age": "초등고학년이상", "kid_friendly_score": 0.5, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-03", "last_seen": "2026-05-03", "mention_count": 1 }
   ],
-  "total_count": 100
+  "new_entities_2026_05_04": [
+    { "id": "ent-act-011", "type": "Activity", "name": "뮤직&댄스 경연대회 결선", "properties": { "category": "경연", "description": "유성온천 뮤직&댄스 경연대회 전국 결선 — Day 3 고유 프로그램", "target_age": "전연령", "kid_friendly_score": 0.6, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-04", "last_seen": "2026-05-04", "mention_count": 1 },
+    { "id": "ent-act-012", "type": "Activity", "name": "폐막공연 (VR퍼포먼스+팝페라)", "properties": { "category": "공연", "description": "메타버스 드로잉 VR퍼포먼스 + 테너 류정필 & 코아모러스 합동 팝페라", "target_age": "전연령가족", "kid_friendly_score": 0.5, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-04", "last_seen": "2026-05-04", "mention_count": 1 }
+  ],
+  "total_count": 102
 }
