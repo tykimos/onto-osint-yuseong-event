@@ -3,20 +3,24 @@
 
 매일 GHA 파이프라인이 끝난 뒤 실행되어 다음 두 TTL을 생성한다:
   ontology/kg/<date>.ttl       — 해당 날짜 스냅샷 (new/updated/inferred triples)
-  ontology/kg/cumulative.ttl   — 누적 스냅샷 (모든 노드 + 모든 트리플)
+  ontology/kg/cumulative.ttl   — 유효한(현재 의미 있는) 엔티티/트리플만 누적
 
 설계 원칙:
   - 외부 의존성 없음 (rdflib 미사용) — CI 부팅 시간 단축
   - 한국어 라벨/리터럴은 @ko 언어 태그를 부여
   - 추론 트리플(type=inferred)은 prov:wasDerivedFrom 으로 별도 표기
   - confidence/source_id/note 등 메타데이터는 RDF reification 으로 부착
+  - **유효성 필터**: cumulative.ttl에는 종료된 Event를 제외 (인프라 엔티티는 유지)
+  - **자동 정리**: --prune-days N 또는 --lookback N → 그보다 오래된 일별 TTL 파일 삭제
 
 호출:
-  python3 scripts/kg_to_ttl.py <YYYY-MM-DD>            # 일별 + cumulative 둘 다 생성
-  python3 scripts/kg_to_ttl.py <YYYY-MM-DD> --cumulative-only
+  python3 scripts/kg_to_ttl.py <YYYY-MM-DD>                   # 일별 + cumulative
+  python3 scripts/kg_to_ttl.py <YYYY-MM-DD> --cumulative-only # cumulative만
+  python3 scripts/kg_to_ttl.py <YYYY-MM-DD> --prune-days 14   # 14일 초과 일별 TTL 삭제
 """
 from __future__ import annotations
 
+import datetime as dt
 import json
 import re
 import sys
@@ -265,38 +269,102 @@ def build_daily_ttl(date_str: str, schema: dict, instances: dict, kg_day: dict) 
     return "\n".join(out) + "\n"
 
 
-def build_cumulative_ttl(schema: dict, instances: dict, kg_cum: dict) -> str:
+def _parse_date(s: str | None) -> dt.date | None:
+    if not isinstance(s, str):
+        return None
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})", s)
+    if not m:
+        return None
+    try:
+        return dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    except ValueError:
+        return None
+
+
+def is_event_valid(ent: dict, today: dt.date) -> bool:
+    """Event 인스턴스의 유효성 판정.
+
+    규칙:
+      - end_date가 today 이상 → 유효
+      - end_date가 today 미만 → 만료
+      - end_date 없고 start_date가 today 이상 → 유효 (예정)
+      - end_date 없고 start_date가 today 미만 → 만료 (이미 지난 단일 행사)
+      - 둘 다 없음 → 유효 (상시·정기 프로그램)
+    """
+    if (ent.get("type") or "").lower() != "event":
+        return True
+    props = ent.get("properties") or {}
+    end_d = _parse_date(props.get("end_date"))
+    start_d = _parse_date(props.get("start_date"))
+    if end_d is not None:
+        return end_d >= today
+    if start_d is not None:
+        return start_d >= today
+    return True
+
+
+def build_cumulative_ttl(schema: dict, instances: dict, kg_cum: dict, today: dt.date) -> str:
     out: list[str] = []
     write_prefixes(out)
-    out.append("# Onto-OSINT-Yuseong-Event — cumulative KG")
+    out.append("# Onto-OSINT-Yuseong-Event — cumulative KG (유효 엔티티만)")
+    out.append(f"# validity_today: {today.isoformat()} — 종료된 Event 인스턴스/관련 트리플 제외")
     last_updated = kg_cum.get("last_updated") or instances.get("last_updated")
+    out.append("<#cumulative> a prov:Entity ;")
+    out.append(f"  dct:date {fmt_literal('start_date', today.isoformat())} ;")
     if last_updated:
-        out.append(f"<#cumulative> a prov:Entity ;")
-        out.append(f"  dct:modified {fmt_literal('start_date', last_updated)} .")
-        out.append("")
+        out.append(f"  dct:modified {fmt_literal('start_date', last_updated)} ;")
+    out[-1] = out[-1].rstrip(" ;") + " ."
+    out.append("")
 
     emit_class_block(out, schema)
     emit_relation_block(out, schema)
 
-    nodes = kg_cum.get("nodes") or []
     by_id = {e["id"]: e for e in instances.get("entities", []) if e.get("id")}
-    out.append(f"# === Entities ({len(by_id)}) ===")
-    for ent in instances.get("entities", []):
+    expired_event_ids = {
+        eid for eid, ent in by_id.items()
+        if (ent.get("type") or "").lower() == "event" and not is_event_valid(ent, today)
+    }
+    valid_entities = [e for e in instances.get("entities", []) if e.get("id") not in expired_event_ids]
+
+    nodes = kg_cum.get("nodes") or []
+    out.append(
+        f"# === Entities (kept {len(valid_entities)} / dropped {len(expired_event_ids)} expired events) ==="
+    )
+    for ent in valid_entities:
         emit_entity(out, ent)
     for n in nodes:
         nid = n.get("id")
-        if nid and nid not in by_id:
+        if nid and nid not in by_id and nid not in expired_event_ids:
             stub = {"id": nid, "type": n.get("type"), "name": n.get("label")}
             emit_entity(out, stub)
     out.append("")
 
-    triples = kg_cum.get("triples") or []
-    out.append(f"# === Triples ({len(triples)}) ===")
-    for i, t in enumerate(triples, start=1):
+    triples_raw = kg_cum.get("triples") or []
+    valid_triples = [
+        t for t in triples_raw
+        if t.get("subject") not in expired_event_ids and t.get("object") not in expired_event_ids
+    ]
+    dropped = len(triples_raw) - len(valid_triples)
+    out.append(f"# === Triples (kept {len(valid_triples)} / dropped {dropped} referencing expired events) ===")
+    for i, t in enumerate(valid_triples, start=1):
         emit_triple(out, t, i, None)
     out.append("")
 
     return "\n".join(out) + "\n"
+
+
+def prune_old_daily_ttl(today: dt.date, lookback_days: int) -> list[Path]:
+    """today - lookback_days 보다 오래된 ontology/kg/<YYYY-MM-DD>.ttl 파일을 삭제."""
+    threshold = today - dt.timedelta(days=lookback_days)
+    removed: list[Path] = []
+    for p in KG_DIR.glob("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].ttl"):
+        d = _parse_date(p.stem)
+        if d is None:
+            continue
+        if d < threshold:
+            p.unlink()
+            removed.append(p)
+    return removed
 
 
 def load_json(path: Path) -> dict:
@@ -309,12 +377,33 @@ def load_json(path: Path) -> dict:
         return {}
 
 
+def _parse_int_flag(argv: list[str], name: str) -> int | None:
+    for i, a in enumerate(argv):
+        if a == name and i + 1 < len(argv):
+            try:
+                return int(argv[i + 1])
+            except ValueError:
+                return None
+        if a.startswith(name + "="):
+            try:
+                return int(a.split("=", 1)[1])
+            except ValueError:
+                return None
+    return None
+
+
 def main(argv: list[str]) -> int:
     if len(argv) < 2:
-        print("Usage: kg_to_ttl.py <YYYY-MM-DD> [--cumulative-only]", file=sys.stderr)
+        print(
+            "Usage: kg_to_ttl.py <YYYY-MM-DD> [--cumulative-only] [--prune-days N]",
+            file=sys.stderr,
+        )
         return 1
     date_str = argv[1]
     cumulative_only = "--cumulative-only" in argv
+    prune_days = _parse_int_flag(argv, "--prune-days") or _parse_int_flag(argv, "--lookback")
+
+    today = _parse_date(date_str) or dt.date.today()
 
     schema = load_json(ONTO_DIR / "schema.json")
     instances = load_json(ONTO_DIR / "instances.json")
@@ -331,9 +420,18 @@ def main(argv: list[str]) -> int:
             (KG_DIR / f"{date_str}.ttl").write_text(ttl_day, encoding="utf-8")
             print(f"[kg_to_ttl] wrote {KG_DIR / f'{date_str}.ttl'}")
 
-    ttl_cum = build_cumulative_ttl(schema, instances, kg_cum)
+    ttl_cum = build_cumulative_ttl(schema, instances, kg_cum, today)
     (KG_DIR / "cumulative.ttl").write_text(ttl_cum, encoding="utf-8")
-    print(f"[kg_to_ttl] wrote {KG_DIR / 'cumulative.ttl'}")
+    print(f"[kg_to_ttl] wrote {KG_DIR / 'cumulative.ttl'} (validity_today={today.isoformat()})")
+
+    if prune_days and prune_days > 0:
+        removed = prune_old_daily_ttl(today, prune_days)
+        if removed:
+            print(f"[kg_to_ttl] pruned {len(removed)} daily TTL files older than {prune_days} days:")
+            for p in sorted(removed):
+                print(f"  - {p.name}")
+        else:
+            print(f"[kg_to_ttl] no daily TTL older than {prune_days} days to prune")
     return 0
 
 

@@ -129,24 +129,30 @@ jobs:
 
             **Do not** publish to Wiki and **do not** generate TTL — those are handled by deterministic post-steps after this job step. Just produce the JSON/Markdown artifacts.
 
-      - name: Generate TTL from KG
+      - name: Generate TTL from KG (with prune + validity filter)
         run: |
-          python3 scripts/kg_to_ttl.py "${{ steps.date.outputs.target }}"
+          # config의 lookback_days를 prune 기준으로 사용 (없으면 14)
+          LOOKBACK=$(python3 -c "import json; print(json.load(open('config/osint-config.json')).get('project', {}).get('lookback_days', 14))" 2>/dev/null || echo 14)
+          python3 scripts/kg_to_ttl.py "${{ steps.date.outputs.target }}" --prune-days "$LOOKBACK"
 
       - name: Commit TTL artifacts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase || true
-          git add ontology/kg/*.ttl
+          # claude-code-action 단계에서 commit 후 unstaged 잔여 변경이 남는 경우가 있어 명시적으로 stage
+          git add -A ontology/
           if git diff --cached --quiet; then
-            echo "No TTL changes to commit"
+            echo "No TTL/ontology changes to commit"
           else
             git commit -m "ontology: TTL snapshot (${{ steps.date.outputs.target }})"
-            git push
+            # claude-code-action이 remote 자격증명을 변경할 수 있어 명시적 토큰 URL 사용
+            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:master
           fi
 
       - name: Publish to GitHub Wiki
+        if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

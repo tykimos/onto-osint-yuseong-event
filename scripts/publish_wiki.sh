@@ -37,8 +37,6 @@ fi
 
 WIKI_DIR="/tmp/wiki"
 REPORT_SRC="reports/${YEAR}/${MONTH}/${DATE}.md"
-DAILY_TTL_SRC="ontology/kg/${DATE}.ttl"
-CUM_TTL_SRC="ontology/kg/cumulative.ttl"
 
 if [[ ! -f "$REPORT_SRC" ]]; then
   echo "[publish_wiki] report not found: $REPORT_SRC — skipping" >&2
@@ -63,13 +61,25 @@ mkdir -p kg
 awk 'BEGIN{f=0} NR==1 && /^---$/ {f=1; next} f==1 && /^---$/ {f=0; next} f==0 {print}' \
   "$OLDPWD/$REPORT_SRC" > "${DATE}.md"
 
-# 2. TTL files
-if [[ -f "$OLDPWD/$DAILY_TTL_SRC" ]]; then
-  cp "$OLDPWD/$DAILY_TTL_SRC" "kg/${DATE}.ttl"
-fi
-if [[ -f "$OLDPWD/$CUM_TTL_SRC" ]]; then
-  cp "$OLDPWD/$CUM_TTL_SRC" "kg/cumulative.ttl"
-fi
+# 2. TTL sync — repo의 ontology/kg/*.ttl 와 wiki/kg/*.ttl 를 정확히 일치시킨다
+#    (정리(prune) 결과가 wiki에도 반영되도록 wiki에만 있는 옛 TTL 삭제)
+#    (bash 3.2 호환을 위해 associative array 대신 라인-매칭 방식)
+WANT_LIST="$(mktemp)"
+trap 'rm -f "$WANT_LIST"' EXIT
+for src in "$OLDPWD/ontology/kg"/*.ttl; do
+  [[ -f "$src" ]] || continue
+  name="$(basename "$src")"
+  cp "$src" "kg/$name"
+  echo "$name" >> "$WANT_LIST"
+done
+for f in kg/*.ttl; do
+  [[ -f "$f" ]] || continue
+  name="$(basename "$f")"
+  if ! grep -Fxq "$name" "$WANT_LIST"; then
+    rm -f "$f"
+    echo "[publish_wiki] removed stale wiki/kg/${name}"
+  fi
+done
 
 # 3. Home.md (최신 14일 링크 + KG 인덱스 링크)
 cat > Home.md <<EOF

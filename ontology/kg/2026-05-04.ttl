@@ -58,5 +58,5 @@ yseinf:stmt-2026-05-04-0004 a rdf:Statement ;
   dct:date "2026-05-04"^^xsd:date ;
   rdfs:comment "내일(5/5) 어린이 한마당(과학관) + 별축제 Day 2(천문대) = 도룡동 풀코스. 신뢰도 상향(0.80→0.85, D-1 확정)"@ko .
 
-# --- referenced entities (0) ---
+# --- referenced entities ---
 

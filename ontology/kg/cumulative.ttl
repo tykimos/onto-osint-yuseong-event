@@ -11,8 +11,10 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 
-# Onto-OSINT-Yuseong-Event — cumulative KG
+# Onto-OSINT-Yuseong-Event — cumulative KG (유효 엔티티만)
+# validity_today: 2026-05-04 — 종료된 Event 인스턴스/관련 트리플 제외
 <#cumulative> a prov:Entity ;
+  dct:date "2026-05-04"^^xsd:date ;
   dct:modified "2026-05-04"^^xsd:date .
 
 # === Schema: classes ===
@@ -106,7 +108,7 @@ yser:shopWithinRing a owl:ObjectProperty ;
   rdfs:domain yseo:Shop ;
   rdfs:range yseo:GeoRing .
 
-# === Entities (59) ===
+# === Entities (kept 55 / dropped 4 expired events) ===
 yseent:dong-yongsan a yseo:Dong ;
   rdfs:label "용산동"@ko ;
   yse:name "용산동"@ko ;
@@ -413,31 +415,6 @@ yseent:ent-org-011 a yseo:Organization ;
   yse:last_seen "2026-04-25"^^xsd:date ;
   yse:mention_count "1"^^xsd:integer ;
   yse:org_type "재단"@ko .
-yseent:ent-evt-001 a yseo:Event ;
-  rdfs:label "2026 대전사이언스페스티벌"@ko ;
-  yse:name "2026 대전사이언스페스티벌"@ko ;
-  yse:first_seen "2026-04-25"^^xsd:date ;
-  yse:last_seen "2026-04-25"^^xsd:date ;
-  yse:mention_count "10"^^xsd:integer ;
-  yse:start_date "2026-04-17"^^xsd:date ;
-  yse:end_date "2026-04-19"^^xsd:date ;
-  yse:fee "무료"@ko ;
-  yse:indoor_outdoor "야외+실내"@ko ;
-  yse:kid_friendly_score "0.9"^^xsd:decimal ;
-  yse:visitor_count "370000"^^xsd:decimal ;
-  yse:participating_orgs "287"^^xsd:decimal ;
-  yse:program_count "420"^^xsd:decimal .
-yseent:ent-evt-002 a yseo:Event ;
-  rdfs:label "BMW 모바일 주니어 캠퍼스"@ko ;
-  yse:name "BMW 모바일 주니어 캠퍼스"@ko ;
-  yse:first_seen "2026-04-25"^^xsd:date ;
-  yse:last_seen "2026-04-25"^^xsd:date ;
-  yse:mention_count "3"^^xsd:integer ;
-  yse:start_date "2026-04-17"^^xsd:date ;
-  yse:end_date "2026-04-19"^^xsd:date ;
-  yse:fee "무료"@ko ;
-  yse:indoor_outdoor "실내"@ko ;
-  yse:kid_friendly_score "0.95"^^xsd:decimal .
 yseent:ent-evt-003 a yseo:Event ;
   rdfs:label "북스타��� 책놀이"@ko ;
   yse:name "북스타��� 책놀이"@ko ;
@@ -457,16 +434,6 @@ yseent:ent-evt-004 a yseo:Event ;
   yse:registration_required true ;
   yse:indoor_outdoor "실내"@ko ;
   yse:kid_friendly_score "0.95"^^xsd:decimal .
-yseent:ent-evt-005 a yseo:Event ;
-  rdfs:label "사이언�� 패스 출시"@ko ;
-  yse:name "사이언�� 패스 출시"@ko ;
-  yse:first_seen "2026-04-25"^^xsd:date ;
-  yse:last_seen "2026-04-25"^^xsd:date ;
-  yse:mention_count "1"^^xsd:integer ;
-  yse:start_date "2026-04-21"^^xsd:date ;
-  yse:fee "무료"@ko ;
-  yse:indoor_outdoor "실내"@ko ;
-  yse:kid_friendly_score "0.7"^^xsd:decimal .
 yseent:ent-evt-006 a yseo:Event ;
   rdfs:label "대전시민천문대 상시 관측 프로그램"@ko ;
   yse:name "대전시민천문대 상시 관측 프로그램"@ko ;
@@ -533,18 +500,6 @@ yseent:ent-evt-015 a yseo:Event ;
   yse:mention_count "1"^^xsd:integer ;
   yse:start_date "2026-04-01"^^xsd:date ;
   yse:end_date "2026-06-30"^^xsd:date ;
-  yse:fee "유료"@ko ;
-  yse:indoor_outdoor "실내"@ko ;
-  yse:kid_friendly_score "0.95"^^xsd:decimal ;
-  yse:registration_required true .
-yseent:ent-evt-016 a yseo:Event ;
-  rdfs:label "4월 주말과학교실"@ko ;
-  yse:name "4월 주말과학교실"@ko ;
-  yse:first_seen "2026-04-26"^^xsd:date ;
-  yse:last_seen "2026-04-26"^^xsd:date ;
-  yse:mention_count "1"^^xsd:integer ;
-  yse:start_date "2026-04-05"^^xsd:date ;
-  yse:end_date "2026-04-26"^^xsd:date ;
   yse:fee "유료"@ko ;
   yse:indoor_outdoor "실내"@ko ;
   yse:kid_friendly_score "0.95"^^xsd:decimal ;
@@ -656,940 +611,849 @@ yseent:ent-evt-013 a yseo:Event ;
   rdfs:label "유성구청소년���련관 프로그램"@ko ;
   yse:name "유성구청소년���련관 프로그램"@ko .
 
-# === Triples (156) ===
-yseent:ent-evt-001 yser:hostsAt yseent:ent-venue-001 .
-yseinf:stmt-cum-0001 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-001 ;
-  rdf:predicate yser:hostsAt ;
-  rdf:object yseent:ent-venue-001 ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-001 yser:hostsAt yseent:ent-venue-002 .
-yseinf:stmt-cum-0002 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-001 ;
-  rdf:predicate yser:hostsAt ;
-  rdf:object yseent:ent-venue-002 ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-001 yser:organizedBy yseent:ent-org-001 .
-yseinf:stmt-cum-0003 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-001 ;
-  rdf:predicate yser:organizedBy ;
-  rdf:object yseent:ent-org-001 ;
-  yse:confidence "0.9"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-001 yser:organizedBy yseent:ent-org-009 .
-yseinf:stmt-cum-0004 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-001 ;
-  rdf:predicate yser:organizedBy ;
-  rdf:object yseent:ent-org-009 ;
-  yse:confidence "0.85"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-002 yser:hostsAt yseent:ent-venue-001 .
-yseinf:stmt-cum-0005 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-002 ;
-  rdf:predicate yser:hostsAt ;
-  rdf:object yseent:ent-venue-001 ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-002 yser:organizedBy yseent:ent-org-003 .
-yseinf:stmt-cum-0006 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-002 ;
-  rdf:predicate yser:organizedBy ;
-  rdf:object yseent:ent-org-003 ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-002 yser:partOfSeries yseent:ent-evt-001 .
-yseinf:stmt-cum-0007 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-002 ;
-  rdf:predicate yser:partOfSeries ;
-  rdf:object yseent:ent-evt-001 ;
-  yse:confidence "0.9"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-002 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0008 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-002 ;
-  rdf:predicate yser:targetsAgeGroup ;
-  rdf:object yseent:age-elem-low ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
-yseent:ent-evt-002 yser:targetsAgeGroup yseent:age-elem-high .
-yseinf:stmt-cum-0009 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-002 ;
-  rdf:predicate yser:targetsAgeGroup ;
-  rdf:object yseent:age-elem-high ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
+# === Triples (kept 143 / dropped 13 referencing expired events) ===
 yseent:ent-evt-003 yser:hostsAt yseent:ent-venue-003 .
-yseinf:stmt-cum-0010 a rdf:Statement ;
+yseinf:stmt-cum-0001 a rdf:Statement ;
   rdf:subject yseent:ent-evt-003 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-003 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-003 yser:organizedBy yseent:ent-org-004 .
-yseinf:stmt-cum-0011 a rdf:Statement ;
+yseinf:stmt-cum-0002 a rdf:Statement ;
   rdf:subject yseent:ent-evt-003 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-004 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-003 yser:targetsAgeGroup yseent:age-infant .
-yseinf:stmt-cum-0012 a rdf:Statement ;
+yseinf:stmt-cum-0003 a rdf:Statement ;
   rdf:subject yseent:ent-evt-003 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-infant ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-003 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0013 a rdf:Statement ;
+yseinf:stmt-cum-0004 a rdf:Statement ;
   rdf:subject yseent:ent-evt-003 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-004 yser:hostsAt yseent:ent-venue-004 .
-yseinf:stmt-cum-0014 a rdf:Statement ;
+yseinf:stmt-cum-0005 a rdf:Statement ;
   rdf:subject yseent:ent-evt-004 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-004 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-004 yser:organizedBy yseent:ent-org-005 .
-yseinf:stmt-cum-0015 a rdf:Statement ;
+yseinf:stmt-cum-0006 a rdf:Statement ;
   rdf:subject yseent:ent-evt-004 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-005 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-004 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0016 a rdf:Statement ;
+yseinf:stmt-cum-0007 a rdf:Statement ;
   rdf:subject yseent:ent-evt-004 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-low ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-004 yser:targetsAgeGroup yseent:age-elem-high .
-yseinf:stmt-cum-0017 a rdf:Statement ;
+yseinf:stmt-cum-0008 a rdf:Statement ;
   rdf:subject yseent:ent-evt-004 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-high ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
-yseent:ent-evt-005 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0018 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-005 ;
-  rdf:predicate yser:organizedBy ;
-  rdf:object yseent:ent-org-006 ;
-  yse:confidence "0.9"^^xsd:decimal ;
-  yse:assertionType "explicit" .
 yseent:ent-evt-006 yser:hostsAt yseent:ent-venue-006 .
-yseinf:stmt-cum-0019 a rdf:Statement ;
+yseinf:stmt-cum-0009 a rdf:Statement ;
   rdf:subject yseent:ent-evt-006 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-006 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-006 yser:organizedBy yseent:ent-org-007 .
-yseinf:stmt-cum-0020 a rdf:Statement ;
+yseinf:stmt-cum-0010 a rdf:Statement ;
   rdf:subject yseent:ent-evt-006 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-007 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-006 yser:targetsAgeGroup yseent:age-family .
-yseinf:stmt-cum-0021 a rdf:Statement ;
+yseinf:stmt-cum-0011 a rdf:Statement ;
   rdf:subject yseent:ent-evt-006 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-family ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-007 yser:organizedBy yseent:ent-org-004 .
-yseinf:stmt-cum-0022 a rdf:Statement ;
+yseinf:stmt-cum-0012 a rdf:Statement ;
   rdf:subject yseent:ent-evt-007 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-004 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-008 yser:hostsAt yseent:ent-venue-007 .
-yseinf:stmt-cum-0023 a rdf:Statement ;
+yseinf:stmt-cum-0013 a rdf:Statement ;
   rdf:subject yseent:ent-evt-008 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-007 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-008 yser:hostsAt yseent:ent-venue-010 .
-yseinf:stmt-cum-0024 a rdf:Statement ;
+yseinf:stmt-cum-0014 a rdf:Statement ;
   rdf:subject yseent:ent-evt-008 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-010 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-008 yser:organizedBy yseent:ent-org-008 .
-yseinf:stmt-cum-0025 a rdf:Statement ;
+yseinf:stmt-cum-0015 a rdf:Statement ;
   rdf:subject yseent:ent-evt-008 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-008 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-009 yser:hostsAt yseent:ent-venue-011 .
-yseinf:stmt-cum-0026 a rdf:Statement ;
+yseinf:stmt-cum-0016 a rdf:Statement ;
   rdf:subject yseent:ent-evt-009 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-011 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-009 yser:organizedBy yseent:ent-org-010 .
-yseinf:stmt-cum-0027 a rdf:Statement ;
+yseinf:stmt-cum-0017 a rdf:Statement ;
   rdf:subject yseent:ent-evt-009 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-010 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-009 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0028 a rdf:Statement ;
+yseinf:stmt-cum-0018 a rdf:Statement ;
   rdf:subject yseent:ent-evt-009 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-009 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0029 a rdf:Statement ;
+yseinf:stmt-cum-0019 a rdf:Statement ;
   rdf:subject yseent:ent-evt-009 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-low ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-010 yser:organizedBy yseent:ent-org-011 .
-yseinf:stmt-cum-0030 a rdf:Statement ;
+yseinf:stmt-cum-0020 a rdf:Statement ;
   rdf:subject yseent:ent-evt-010 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-011 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-010 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0031 a rdf:Statement ;
+yseinf:stmt-cum-0021 a rdf:Statement ;
   rdf:subject yseent:ent-evt-010 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-001 yser:locatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0032 a rdf:Statement ;
+yseinf:stmt-cum-0022 a rdf:Statement ;
   rdf:subject yseent:ent-venue-001 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-002 yser:locatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0033 a rdf:Statement ;
+yseinf:stmt-cum-0023 a rdf:Statement ;
   rdf:subject yseent:ent-venue-002 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-004 yser:locatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0034 a rdf:Statement ;
+yseinf:stmt-cum-0024 a rdf:Statement ;
   rdf:subject yseent:ent-venue-004 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-005 yser:locatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0035 a rdf:Statement ;
+yseinf:stmt-cum-0025 a rdf:Statement ;
   rdf:subject yseent:ent-venue-005 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-006 yser:locatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0036 a rdf:Statement ;
+yseinf:stmt-cum-0026 a rdf:Statement ;
   rdf:subject yseent:ent-venue-006 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-007 yser:locatedIn yseent:dong-gwanpyeong .
-yseinf:stmt-cum-0037 a rdf:Statement ;
+yseinf:stmt-cum-0027 a rdf:Statement ;
   rdf:subject yseent:ent-venue-007 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-gwanpyeong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-008 yser:locatedIn yseent:dong-noeun .
-yseinf:stmt-cum-0038 a rdf:Statement ;
+yseinf:stmt-cum-0028 a rdf:Statement ;
   rdf:subject yseent:ent-venue-008 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-noeun ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-009 yser:locatedIn yseent:dong-munji .
-yseinf:stmt-cum-0039 a rdf:Statement ;
+yseinf:stmt-cum-0029 a rdf:Statement ;
   rdf:subject yseent:ent-venue-009 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-munji ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-010 yser:locatedIn yseent:dong-jeonmin .
-yseinf:stmt-cum-0040 a rdf:Statement ;
+yseinf:stmt-cum-0030 a rdf:Statement ;
   rdf:subject yseent:ent-venue-010 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-jeonmin ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-011 yser:locatedIn yseent:dong-noeun .
-yseinf:stmt-cum-0041 a rdf:Statement ;
+yseinf:stmt-cum-0031 a rdf:Statement ;
   rdf:subject yseent:ent-venue-011 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-noeun ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-004 yser:operates yseent:ent-venue-003 .
-yseinf:stmt-cum-0042 a rdf:Statement ;
+yseinf:stmt-cum-0032 a rdf:Statement ;
   rdf:subject yseent:ent-org-004 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-003 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-005 yser:operates yseent:ent-venue-004 .
-yseinf:stmt-cum-0043 a rdf:Statement ;
+yseinf:stmt-cum-0033 a rdf:Statement ;
   rdf:subject yseent:ent-org-005 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-004 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-006 yser:operates yseent:ent-venue-005 .
-yseinf:stmt-cum-0044 a rdf:Statement ;
+yseinf:stmt-cum-0034 a rdf:Statement ;
   rdf:subject yseent:ent-org-006 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-005 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-007 yser:operates yseent:ent-venue-006 .
-yseinf:stmt-cum-0045 a rdf:Statement ;
+yseinf:stmt-cum-0035 a rdf:Statement ;
   rdf:subject yseent:ent-org-007 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-006 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-010 yser:operates yseent:ent-venue-011 .
-yseinf:stmt-cum-0046 a rdf:Statement ;
+yseinf:stmt-cum-0036 a rdf:Statement ;
   rdf:subject yseent:ent-org-010 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-011 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
-yseent:ent-evt-001 yser:visitCombo yseent:ent-evt-006 .
-yseinf:stmt-cum-0047 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-001 ;
-  rdf:predicate yser:visitCombo ;
-  rdf:object yseent:ent-evt-006 ;
-  yse:confidence "0.85"^^xsd:decimal ;
-  yse:assertionType "inferred" .
 yseent:ent-evt-004 yser:visitCombo yseent:ent-evt-006 .
-yseinf:stmt-cum-0048 a rdf:Statement ;
+yseinf:stmt-cum-0037 a rdf:Statement ;
   rdf:subject yseent:ent-evt-004 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-006 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-venue-001 yser:nearby yseent:ent-venue-004 .
-yseinf:stmt-cum-0049 a rdf:Statement ;
+yseinf:stmt-cum-0038 a rdf:Statement ;
   rdf:subject yseent:ent-venue-001 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-004 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-venue-001 yser:nearby yseent:ent-venue-006 .
-yseinf:stmt-cum-0050 a rdf:Statement ;
+yseinf:stmt-cum-0039 a rdf:Statement ;
   rdf:subject yseent:ent-venue-001 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-006 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-venue-004 yser:nearby yseent:ent-venue-005 .
-yseinf:stmt-cum-0051 a rdf:Statement ;
+yseinf:stmt-cum-0040 a rdf:Statement ;
   rdf:subject yseent:ent-venue-004 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-005 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "inferred" .
-yseent:ent-evt-006 yser:rainyFallbackFor yseent:ent-evt-001 .
-yseinf:stmt-cum-0052 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-006 ;
-  rdf:predicate yser:rainyFallbackFor ;
-  rdf:object yseent:ent-evt-001 ;
-  yse:confidence "0.75"^^xsd:decimal ;
-  yse:assertionType "inferred" .
 yseent:ent-evt-009 yser:visitCombo yseent:ent-evt-007 .
-yseinf:stmt-cum-0053 a rdf:Statement ;
+yseinf:stmt-cum-0041 a rdf:Statement ;
   rdf:subject yseent:ent-evt-009 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-007 ;
   yse:confidence "0.7"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-011 yser:hostsAt yseent:ent-venue-012 .
-yseinf:stmt-cum-0054 a rdf:Statement ;
+yseinf:stmt-cum-0042 a rdf:Statement ;
   rdf:subject yseent:ent-evt-011 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-012 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-011 yser:organizedBy yseent:ent-org-012 .
-yseinf:stmt-cum-0055 a rdf:Statement ;
+yseinf:stmt-cum-0043 a rdf:Statement ;
   rdf:subject yseent:ent-evt-011 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-012 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-011 yser:targetsAgeGroup yseent:age-family .
-yseinf:stmt-cum-0056 a rdf:Statement ;
+yseinf:stmt-cum-0044 a rdf:Statement ;
   rdf:subject yseent:ent-evt-011 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-family ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-012 yser:locatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0057 a rdf:Statement ;
+yseinf:stmt-cum-0045 a rdf:Statement ;
   rdf:subject yseent:ent-venue-012 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-012 yser:operates yseent:ent-venue-012 .
-yseinf:stmt-cum-0058 a rdf:Statement ;
+yseinf:stmt-cum-0046 a rdf:Statement ;
   rdf:subject yseent:ent-org-012 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-012 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-012 yser:withinRing yseent:ring-car .
-yseinf:stmt-cum-0059 a rdf:Statement ;
+yseinf:stmt-cum-0047 a rdf:Statement ;
   rdf:subject yseent:ent-venue-012 ;
   rdf:predicate yser:withinRing ;
   rdf:object yseent:ring-car ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-012 yser:hostsAt yseent:ent-venue-013 .
-yseinf:stmt-cum-0060 a rdf:Statement ;
+yseinf:stmt-cum-0048 a rdf:Statement ;
   rdf:subject yseent:ent-evt-012 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-013 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-012 yser:hostsAt yseent:ent-venue-014 .
-yseinf:stmt-cum-0061 a rdf:Statement ;
+yseinf:stmt-cum-0049 a rdf:Statement ;
   rdf:subject yseent:ent-evt-012 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-014 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-012 yser:organizedBy yseent:ent-org-013 .
-yseinf:stmt-cum-0062 a rdf:Statement ;
+yseinf:stmt-cum-0050 a rdf:Statement ;
   rdf:subject yseent:ent-evt-012 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-013 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-013 yser:operates yseent:ent-venue-013 .
-yseinf:stmt-cum-0063 a rdf:Statement ;
+yseinf:stmt-cum-0051 a rdf:Statement ;
   rdf:subject yseent:ent-org-013 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-013 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-013 yser:operates yseent:ent-venue-014 .
-yseinf:stmt-cum-0064 a rdf:Statement ;
+yseinf:stmt-cum-0052 a rdf:Statement ;
   rdf:subject yseent:ent-org-013 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-014 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-013 yser:locatedIn yseent:dong-guam .
-yseinf:stmt-cum-0065 a rdf:Statement ;
+yseinf:stmt-cum-0053 a rdf:Statement ;
   rdf:subject yseent:ent-venue-013 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-guam ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-014 yser:locatedIn yseent:dong-jeonmin .
-yseinf:stmt-cum-0066 a rdf:Statement ;
+yseinf:stmt-cum-0054 a rdf:Statement ;
   rdf:subject yseent:ent-venue-014 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-jeonmin ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-014 yser:withinRing yseent:ring-stroll .
-yseinf:stmt-cum-0067 a rdf:Statement ;
+yseinf:stmt-cum-0055 a rdf:Statement ;
   rdf:subject yseent:ent-venue-014 ;
   rdf:predicate yser:withinRing ;
   rdf:object yseent:ring-stroll ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-002 yser:shopLocatedIn yseent:dong-gwanpyeong .
-yseinf:stmt-cum-0068 a rdf:Statement ;
+yseinf:stmt-cum-0056 a rdf:Statement ;
   rdf:subject yseent:ent-shop-002 ;
   rdf:predicate yser:shopLocatedIn ;
   rdf:object yseent:dong-gwanpyeong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-002 yser:shopWithinRing yseent:ring-bike .
-yseinf:stmt-cum-0069 a rdf:Statement ;
+yseinf:stmt-cum-0057 a rdf:Statement ;
   rdf:subject yseent:ent-shop-002 ;
   rdf:predicate yser:shopWithinRing ;
   rdf:object yseent:ring-bike ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-001 yser:shopLocatedIn yseent:dong-gwanpyeong .
-yseinf:stmt-cum-0070 a rdf:Statement ;
+yseinf:stmt-cum-0058 a rdf:Statement ;
   rdf:subject yseent:ent-shop-001 ;
   rdf:predicate yser:shopLocatedIn ;
   rdf:object yseent:dong-gwanpyeong ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-013 yser:hostsAt yseent:ent-venue-015 .
-yseinf:stmt-cum-0071 a rdf:Statement ;
+yseinf:stmt-cum-0059 a rdf:Statement ;
   rdf:subject yseent:ent-evt-013 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-015 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-013 yser:organizedBy yseent:ent-org-014 .
-yseinf:stmt-cum-0072 a rdf:Statement ;
+yseinf:stmt-cum-0060 a rdf:Statement ;
   rdf:subject yseent:ent-evt-013 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-014 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-014 yser:operates yseent:ent-venue-015 .
-yseinf:stmt-cum-0073 a rdf:Statement ;
+yseinf:stmt-cum-0061 a rdf:Statement ;
   rdf:subject yseent:ent-org-014 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-015 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-015 yser:locatedIn yseent:dong-guam .
-yseinf:stmt-cum-0074 a rdf:Statement ;
+yseinf:stmt-cum-0062 a rdf:Statement ;
   rdf:subject yseent:ent-venue-015 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-guam ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-012 yser:nearby yseent:ent-venue-001 .
-yseinf:stmt-cum-0075 a rdf:Statement ;
+yseinf:stmt-cum-0063 a rdf:Statement ;
   rdf:subject yseent:ent-venue-012 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-001 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-venue-012 yser:nearby yseent:ent-venue-004 .
-yseinf:stmt-cum-0076 a rdf:Statement ;
+yseinf:stmt-cum-0064 a rdf:Statement ;
   rdf:subject yseent:ent-venue-012 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-004 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-011 yser:visitCombo yseent:ent-evt-004 .
-yseinf:stmt-cum-0077 a rdf:Statement ;
+yseinf:stmt-cum-0065 a rdf:Statement ;
   rdf:subject yseent:ent-evt-011 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-004 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-011 yser:visitCombo yseent:ent-evt-006 .
-yseinf:stmt-cum-0078 a rdf:Statement ;
+yseinf:stmt-cum-0066 a rdf:Statement ;
   rdf:subject yseent:ent-evt-011 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-006 ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-venue-013 yser:nearby yseent:ent-venue-015 .
-yseinf:stmt-cum-0079 a rdf:Statement ;
+yseinf:stmt-cum-0067 a rdf:Statement ;
   rdf:subject yseent:ent-venue-013 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-015 ;
   yse:confidence "0.75"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-014 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0080 a rdf:Statement ;
+yseinf:stmt-cum-0068 a rdf:Statement ;
   rdf:subject yseent:ent-evt-014 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-014 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0081 a rdf:Statement ;
+yseinf:stmt-cum-0069 a rdf:Statement ;
   rdf:subject yseent:ent-evt-014 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-006 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-014 yser:targetsAgeGroup yseent:age-family .
-yseinf:stmt-cum-0082 a rdf:Statement ;
+yseinf:stmt-cum-0070 a rdf:Statement ;
   rdf:subject yseent:ent-evt-014 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-family ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-015 yser:hostsAt yseent:ent-venue-004 .
-yseinf:stmt-cum-0083 a rdf:Statement ;
+yseinf:stmt-cum-0071 a rdf:Statement ;
   rdf:subject yseent:ent-evt-015 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-004 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-015 yser:organizedBy yseent:ent-org-005 .
-yseinf:stmt-cum-0084 a rdf:Statement ;
+yseinf:stmt-cum-0072 a rdf:Statement ;
   rdf:subject yseent:ent-evt-015 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-005 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-015 yser:partOfSeries yseent:ent-evt-004 .
-yseinf:stmt-cum-0085 a rdf:Statement ;
+yseinf:stmt-cum-0073 a rdf:Statement ;
   rdf:subject yseent:ent-evt-015 ;
   rdf:predicate yser:partOfSeries ;
   rdf:object yseent:ent-evt-004 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
-yseent:ent-evt-016 yser:hostsAt yseent:ent-venue-004 .
-yseinf:stmt-cum-0086 a rdf:Statement ;
-  rdf:subject yseent:ent-evt-016 ;
-  rdf:predicate yser:hostsAt ;
-  rdf:object yseent:ent-venue-004 ;
-  yse:confidence "0.95"^^xsd:decimal ;
-  yse:assertionType "explicit" .
 yseent:ent-evt-017 yser:hostsAt yseent:ent-venue-016 .
-yseinf:stmt-cum-0087 a rdf:Statement ;
+yseinf:stmt-cum-0074 a rdf:Statement ;
   rdf:subject yseent:ent-evt-017 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-016 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-017 yser:organizedBy yseent:ent-org-004 .
-yseinf:stmt-cum-0088 a rdf:Statement ;
+yseinf:stmt-cum-0075 a rdf:Statement ;
   rdf:subject yseent:ent-evt-017 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-004 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-017 yser:targetsAgeGroup yseent:age-infant .
-yseinf:stmt-cum-0089 a rdf:Statement ;
+yseinf:stmt-cum-0076 a rdf:Statement ;
   rdf:subject yseent:ent-evt-017 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-infant ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-016 yser:locatedIn yseent:dong-jeonmin .
-yseinf:stmt-cum-0090 a rdf:Statement ;
+yseinf:stmt-cum-0077 a rdf:Statement ;
   rdf:subject yseent:ent-venue-016 ;
   rdf:predicate yser:locatedIn ;
   rdf:object yseent:dong-jeonmin ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-venue-016 yser:withinRing yseent:ring-stroll .
-yseinf:stmt-cum-0091 a rdf:Statement ;
+yseinf:stmt-cum-0078 a rdf:Statement ;
   rdf:subject yseent:ent-venue-016 ;
   rdf:predicate yser:withinRing ;
   rdf:object yseent:ring-stroll ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-018 yser:organizedBy yseent:ent-org-015 .
-yseinf:stmt-cum-0092 a rdf:Statement ;
+yseinf:stmt-cum-0079 a rdf:Statement ;
   rdf:subject yseent:ent-evt-018 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-015 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-019 yser:hostsAt yseent:ent-venue-017 .
-yseinf:stmt-cum-0093 a rdf:Statement ;
+yseinf:stmt-cum-0080 a rdf:Statement ;
   rdf:subject yseent:ent-evt-019 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-017 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-019 yser:organizedBy yseent:ent-org-015 .
-yseinf:stmt-cum-0094 a rdf:Statement ;
+yseinf:stmt-cum-0081 a rdf:Statement ;
   rdf:subject yseent:ent-evt-019 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-015 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-015 yser:operates yseent:ent-venue-017 .
-yseinf:stmt-cum-0095 a rdf:Statement ;
+yseinf:stmt-cum-0082 a rdf:Statement ;
   rdf:subject yseent:ent-org-015 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-017 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-003 yser:shopLocatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0096 a rdf:Statement ;
+yseinf:stmt-cum-0083 a rdf:Statement ;
   rdf:subject yseent:ent-shop-003 ;
   rdf:predicate yser:shopLocatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-014 yser:visitCombo yseent:ent-evt-011 .
-yseinf:stmt-cum-0097 a rdf:Statement ;
+yseinf:stmt-cum-0084 a rdf:Statement ;
   rdf:subject yseent:ent-evt-014 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-011 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-015 yser:kidFriendlyBoost "+0.2" .
-yseinf:stmt-cum-0098 a rdf:Statement ;
+yseinf:stmt-cum-0085 a rdf:Statement ;
   rdf:subject yseent:ent-evt-015 ;
   rdf:predicate yser:kidFriendlyBoost ;
   rdf:object "+0.2" ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-017 yser:kidFriendlyBoost "+0.2" .
-yseinf:stmt-cum-0099 a rdf:Statement ;
+yseinf:stmt-cum-0086 a rdf:Statement ;
   rdf:subject yseent:ent-evt-017 ;
   rdf:predicate yser:kidFriendlyBoost ;
   rdf:object "+0.2" ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-018 yser:publicTrustBoost "+0.15" .
-yseinf:stmt-cum-0100 a rdf:Statement ;
+yseinf:stmt-cum-0087 a rdf:Statement ;
   rdf:subject yseent:ent-evt-018 ;
   rdf:predicate yser:publicTrustBoost ;
   rdf:object "+0.15" ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-019 yser:publicTrustBoost "+0.15" .
-yseinf:stmt-cum-0101 a rdf:Statement ;
+yseinf:stmt-cum-0088 a rdf:Statement ;
   rdf:subject yseent:ent-evt-019 ;
   rdf:predicate yser:publicTrustBoost ;
   rdf:object "+0.15" ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-venue-016 yser:nearby yseent:ent-venue-014 .
-yseinf:stmt-cum-0102 a rdf:Statement ;
+yseinf:stmt-cum-0089 a rdf:Statement ;
   rdf:subject yseent:ent-venue-016 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-014 ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-020 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0103 a rdf:Statement ;
+yseinf:stmt-cum-0090 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-020 yser:organizedBy yseent:ent-org-001 .
-yseinf:stmt-cum-0104 a rdf:Statement ;
+yseinf:stmt-cum-0091 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-001 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-020 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0105 a rdf:Statement ;
+yseinf:stmt-cum-0092 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-020 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0106 a rdf:Statement ;
+yseinf:stmt-cum-0093 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-low ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-020 yser:targetsAgeGroup yseent:age-elem-high .
-yseinf:stmt-cum-0107 a rdf:Statement ;
+yseinf:stmt-cum-0094 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-high ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-020 yser:targetsAgeGroup yseent:age-family .
-yseinf:stmt-cum-0108 a rdf:Statement ;
+yseinf:stmt-cum-0095 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-family ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:hostsAt yseent:ent-venue-018 .
-yseinf:stmt-cum-0109 a rdf:Statement ;
+yseinf:stmt-cum-0096 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-018 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:organizedBy yseent:ent-org-016 .
-yseinf:stmt-cum-0110 a rdf:Statement ;
+yseinf:stmt-cum-0097 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-016 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:targetsAgeGroup yseent:age-family .
-yseinf:stmt-cum-0111 a rdf:Statement ;
+yseinf:stmt-cum-0098 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-family ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-022 yser:organizedBy yseent:ent-org-015 .
-yseinf:stmt-cum-0112 a rdf:Statement ;
+yseinf:stmt-cum-0099 a rdf:Statement ;
   rdf:subject yseent:ent-evt-022 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-015 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-022 yser:followsEvent yseent:ent-evt-018 .
-yseinf:stmt-cum-0113 a rdf:Statement ;
+yseinf:stmt-cum-0100 a rdf:Statement ;
   rdf:subject yseent:ent-evt-022 ;
   rdf:predicate yser:followsEvent ;
   rdf:object yseent:ent-evt-018 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-023 yser:organizedBy yseent:ent-org-004 .
-yseinf:stmt-cum-0114 a rdf:Statement ;
+yseinf:stmt-cum-0101 a rdf:Statement ;
   rdf:subject yseent:ent-evt-023 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-004 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-org-017 yser:operates yseent:ent-venue-019 .
-yseinf:stmt-cum-0115 a rdf:Statement ;
+yseinf:stmt-cum-0102 a rdf:Statement ;
   rdf:subject yseent:ent-org-017 ;
   rdf:predicate yser:operates ;
   rdf:object yseent:ent-venue-019 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-004 yser:shopLocatedIn yseent:dong-deokmyeong .
-yseinf:stmt-cum-0116 a rdf:Statement ;
+yseinf:stmt-cum-0103 a rdf:Statement ;
   rdf:subject yseent:ent-shop-004 ;
   rdf:predicate yser:shopLocatedIn ;
   rdf:object yseent:dong-deokmyeong ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-020 yser:publicTrustBoost "+0.15" .
-yseinf:stmt-cum-0117 a rdf:Statement ;
+yseinf:stmt-cum-0104 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:publicTrustBoost ;
   rdf:object "+0.15" ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-020 yser:visitCombo yseent:ent-evt-014 .
-yseinf:stmt-cum-0118 a rdf:Statement ;
+yseinf:stmt-cum-0105 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-014 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-020 yser:visitCombo yseent:ent-evt-011 .
-yseinf:stmt-cum-0119 a rdf:Statement ;
+yseinf:stmt-cum-0106 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-011 ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-022 yser:publicTrustBoost "+0.15" .
-yseinf:stmt-cum-0120 a rdf:Statement ;
+yseinf:stmt-cum-0107 a rdf:Statement ;
   rdf:subject yseent:ent-evt-022 ;
   rdf:predicate yser:publicTrustBoost ;
   rdf:object "+0.15" ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-021 yser:visitCombo yseent:ent-evt-020 .
-yseinf:stmt-cum-0121 a rdf:Statement ;
+yseinf:stmt-cum-0108 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-020 ;
   yse:confidence "0.75"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-020 yser:kidFriendlyBoost "+0.2" .
-yseinf:stmt-cum-0122 a rdf:Statement ;
+yseinf:stmt-cum-0109 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:kidFriendlyBoost ;
   rdf:object "+0.2" ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-021 yser:featuresActivity yseent:ent-act-001 .
-yseinf:stmt-cum-0123 a rdf:Statement ;
+yseinf:stmt-cum-0110 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-001 ;
   yse:confidence "0.95"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:featuresActivity yseent:ent-act-002 .
-yseinf:stmt-cum-0124 a rdf:Statement ;
+yseinf:stmt-cum-0111 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-002 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:featuresActivity yseent:ent-act-003 .
-yseinf:stmt-cum-0125 a rdf:Statement ;
+yseinf:stmt-cum-0112 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-003 ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-005 yser:shopLocatedIn yseent:dong-doryong .
-yseinf:stmt-cum-0126 a rdf:Statement ;
+yseinf:stmt-cum-0113 a rdf:Statement ;
   rdf:subject yseent:ent-shop-005 ;
   rdf:predicate yser:shopLocatedIn ;
   rdf:object yseent:dong-doryong ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-shop-005 yser:shopWithinRing yseent:ring-car .
-yseinf:stmt-cum-0127 a rdf:Statement ;
+yseinf:stmt-cum-0114 a rdf:Statement ;
   rdf:subject yseent:ent-shop-005 ;
   rdf:predicate yser:shopWithinRing ;
   rdf:object yseent:ring-car ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0128 a rdf:Statement ;
+yseinf:stmt-cum-0115 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-evt-021 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0129 a rdf:Statement ;
+yseinf:stmt-cum-0116 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-low ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "explicit" .
 yseent:ent-act-001 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0130 a rdf:Statement ;
+yseinf:stmt-cum-0117 a rdf:Statement ;
   rdf:subject yseent:ent-act-001 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
   yse:confidence "0.9"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-shop-005 yser:nearby yseent:ent-venue-012 .
-yseinf:stmt-cum-0131 a rdf:Statement ;
+yseinf:stmt-cum-0118 a rdf:Statement ;
   rdf:subject yseent:ent-shop-005 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-012 ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-shop-005 yser:nearby yseent:ent-venue-005 .
-yseinf:stmt-cum-0132 a rdf:Statement ;
+yseinf:stmt-cum-0119 a rdf:Statement ;
   rdf:subject yseent:ent-shop-005 ;
   rdf:predicate yser:nearby ;
   rdf:object yseent:ent-venue-005 ;
   yse:confidence "0.8"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-021 yser:kidFriendlyBoost "+0.1" .
-yseinf:stmt-cum-0133 a rdf:Statement ;
+yseinf:stmt-cum-0120 a rdf:Statement ;
   rdf:subject yseent:ent-evt-021 ;
   rdf:predicate yser:kidFriendlyBoost ;
   rdf:object "+0.1" ;
   yse:confidence "0.85"^^xsd:decimal ;
   yse:assertionType "inferred" .
 yseent:ent-evt-020 yser:featuresActivity yseent:ent-act-004 .
-yseinf:stmt-cum-0134 a rdf:Statement ;
+yseinf:stmt-cum-0121 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-004 ;
@@ -1597,7 +1461,7 @@ yseinf:stmt-cum-0134 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-evt-020 yser:featuresActivity yseent:ent-act-005 .
-yseinf:stmt-cum-0135 a rdf:Statement ;
+yseinf:stmt-cum-0122 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-005 ;
@@ -1605,7 +1469,7 @@ yseinf:stmt-cum-0135 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-evt-020 yser:featuresActivity yseent:ent-act-006 .
-yseinf:stmt-cum-0136 a rdf:Statement ;
+yseinf:stmt-cum-0123 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-006 ;
@@ -1613,7 +1477,7 @@ yseinf:stmt-cum-0136 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-evt-020 yser:featuresActivity yseent:ent-act-007 .
-yseinf:stmt-cum-0137 a rdf:Statement ;
+yseinf:stmt-cum-0124 a rdf:Statement ;
   rdf:subject yseent:ent-evt-020 ;
   rdf:predicate yser:featuresActivity ;
   rdf:object yseent:ent-act-007 ;
@@ -1621,7 +1485,7 @@ yseinf:stmt-cum-0137 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-act-001 yser:ticketDistribution yseent:____50__2___12__15_ .
-yseinf:stmt-cum-0138 a rdf:Statement ;
+yseinf:stmt-cum-0125 a rdf:Statement ;
   rdf:subject yseent:ent-act-001 ;
   rdf:predicate yser:ticketDistribution ;
   rdf:object yseent:____50__2___12__15_ ;
@@ -1629,7 +1493,7 @@ yseinf:stmt-cum-0138 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-act-004 yser:targetsAgeGroup yseent:age-toddler .
-yseinf:stmt-cum-0139 a rdf:Statement ;
+yseinf:stmt-cum-0126 a rdf:Statement ;
   rdf:subject yseent:ent-act-004 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-toddler ;
@@ -1637,7 +1501,7 @@ yseinf:stmt-cum-0139 a rdf:Statement ;
   yse:assertionType "inferred" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-act-004 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0140 a rdf:Statement ;
+yseinf:stmt-cum-0127 a rdf:Statement ;
   rdf:subject yseent:ent-act-004 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-low ;
@@ -1645,7 +1509,7 @@ yseinf:stmt-cum-0140 a rdf:Statement ;
   yse:assertionType "inferred" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-act-006 yser:targetsAgeGroup yseent:age-elem-low .
-yseinf:stmt-cum-0141 a rdf:Statement ;
+yseinf:stmt-cum-0128 a rdf:Statement ;
   rdf:subject yseent:ent-act-006 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-low ;
@@ -1653,7 +1517,7 @@ yseinf:stmt-cum-0141 a rdf:Statement ;
   yse:assertionType "inferred" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-act-006 yser:targetsAgeGroup yseent:age-elem-high .
-yseinf:stmt-cum-0142 a rdf:Statement ;
+yseinf:stmt-cum-0129 a rdf:Statement ;
   rdf:subject yseent:ent-act-006 ;
   rdf:predicate yser:targetsAgeGroup ;
   rdf:object yseent:age-elem-high ;
@@ -1661,7 +1525,7 @@ yseinf:stmt-cum-0142 a rdf:Statement ;
   yse:assertionType "inferred" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-evt-023 yser:organizedBy yseent:ent-org-004 .
-yseinf:stmt-cum-0143 a rdf:Statement ;
+yseinf:stmt-cum-0130 a rdf:Statement ;
   rdf:subject yseent:ent-evt-023 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-004 ;
@@ -1669,7 +1533,7 @@ yseinf:stmt-cum-0143 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-29"^^xsd:date .
 yseent:ent-evt-024 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0144 a rdf:Statement ;
+yseinf:stmt-cum-0131 a rdf:Statement ;
   rdf:subject yseent:ent-evt-024 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
@@ -1677,7 +1541,7 @@ yseinf:stmt-cum-0144 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-025 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0145 a rdf:Statement ;
+yseinf:stmt-cum-0132 a rdf:Statement ;
   rdf:subject yseent:ent-evt-025 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
@@ -1685,7 +1549,7 @@ yseinf:stmt-cum-0145 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-026 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0146 a rdf:Statement ;
+yseinf:stmt-cum-0133 a rdf:Statement ;
   rdf:subject yseent:ent-evt-026 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
@@ -1693,7 +1557,7 @@ yseinf:stmt-cum-0146 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-027 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0147 a rdf:Statement ;
+yseinf:stmt-cum-0134 a rdf:Statement ;
   rdf:subject yseent:ent-evt-027 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
@@ -1701,7 +1565,7 @@ yseinf:stmt-cum-0147 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-028 yser:hostsAt yseent:ent-venue-005 .
-yseinf:stmt-cum-0148 a rdf:Statement ;
+yseinf:stmt-cum-0135 a rdf:Statement ;
   rdf:subject yseent:ent-evt-028 ;
   rdf:predicate yser:hostsAt ;
   rdf:object yseent:ent-venue-005 ;
@@ -1709,7 +1573,7 @@ yseinf:stmt-cum-0148 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-024 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0149 a rdf:Statement ;
+yseinf:stmt-cum-0136 a rdf:Statement ;
   rdf:subject yseent:ent-evt-024 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-006 ;
@@ -1717,7 +1581,7 @@ yseinf:stmt-cum-0149 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-025 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0150 a rdf:Statement ;
+yseinf:stmt-cum-0137 a rdf:Statement ;
   rdf:subject yseent:ent-evt-025 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-006 ;
@@ -1725,7 +1589,7 @@ yseinf:stmt-cum-0150 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-026 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0151 a rdf:Statement ;
+yseinf:stmt-cum-0138 a rdf:Statement ;
   rdf:subject yseent:ent-evt-026 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-006 ;
@@ -1733,7 +1597,7 @@ yseinf:stmt-cum-0151 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-027 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0152 a rdf:Statement ;
+yseinf:stmt-cum-0139 a rdf:Statement ;
   rdf:subject yseent:ent-evt-027 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-006 ;
@@ -1741,7 +1605,7 @@ yseinf:stmt-cum-0152 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-028 yser:organizedBy yseent:ent-org-006 .
-yseinf:stmt-cum-0153 a rdf:Statement ;
+yseinf:stmt-cum-0140 a rdf:Statement ;
   rdf:subject yseent:ent-evt-028 ;
   rdf:predicate yser:organizedBy ;
   rdf:object yseent:ent-org-006 ;
@@ -1749,7 +1613,7 @@ yseinf:stmt-cum-0153 a rdf:Statement ;
   yse:assertionType "explicit" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-024 yser:partOfSeries yseent:_____________ .
-yseinf:stmt-cum-0154 a rdf:Statement ;
+yseinf:stmt-cum-0141 a rdf:Statement ;
   rdf:subject yseent:ent-evt-024 ;
   rdf:predicate yser:partOfSeries ;
   rdf:object yseent:_____________ ;
@@ -1757,7 +1621,7 @@ yseinf:stmt-cum-0154 a rdf:Statement ;
   yse:assertionType "inferred" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-025 yser:partOfSeries yseent:_____________ .
-yseinf:stmt-cum-0155 a rdf:Statement ;
+yseinf:stmt-cum-0142 a rdf:Statement ;
   rdf:subject yseent:ent-evt-025 ;
   rdf:predicate yser:partOfSeries ;
   rdf:object yseent:_____________ ;
@@ -1765,7 +1629,7 @@ yseinf:stmt-cum-0155 a rdf:Statement ;
   yse:assertionType "inferred" ;
   dct:date "2026-04-30"^^xsd:date .
 yseent:ent-evt-024 yser:visitCombo yseent:ent-evt-020 .
-yseinf:stmt-cum-0156 a rdf:Statement ;
+yseinf:stmt-cum-0143 a rdf:Statement ;
   rdf:subject yseent:ent-evt-024 ;
   rdf:predicate yser:visitCombo ;
   rdf:object yseent:ent-evt-020 ;
