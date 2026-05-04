@@ -40,9 +40,15 @@ ontology/
 ├── schema.json                # 클래스(Event/Venue/Organization/Activity/AgeGroup/Dong) + 관계
 ├── instances.json             # 알려진 장소·기관·동 인스턴스 누적
 ├── kg/
-│   ├── YYYY-MM-DD.json        # 일별 KG 스냅샷
-│   └── cumulative.json        # 누적 KG
+│   ├── YYYY-MM-DD.json        # 일별 KG 스냅샷 (LLM 산출)
+│   ├── YYYY-MM-DD.ttl         # 일별 KG RDF Turtle (post-step 자동 생성)
+│   ├── cumulative.json        # 누적 KG
+│   └── cumulative.ttl         # 누적 KG RDF Turtle (post-step 자동 생성)
 └── reasoning-log.md           # 추론 로그
+
+scripts/
+├── kg_to_ttl.py               # KG JSON → RDF Turtle 변환 (의존성 없음)
+└── publish_wiki.sh            # 보고서 + TTL을 GitHub Wiki에 동기화
 
 sources/YYYY-MM-DD/
 ├── search-results.json        # Phase 1
@@ -85,6 +91,8 @@ reports/YYYY/MM/
 ## Commit Convention
 - 보고서 커밋: `report: daily yuseong event update (YYYY-MM-DD)`
 - 온톨로지 변경: `ontology: expand schema/instances (YYYY-MM-DD)`
+- TTL 스냅샷 (post-step 자동): `ontology: TTL snapshot (YYYY-MM-DD)`
+- Wiki 발행 (post-step 자동, wiki repo): `report+kg: YYYY-MM-DD`
 - 구조/설정 변경: `chore: 설명`
 - `git add sources/ reports/ ontology/`
 
@@ -95,3 +103,5 @@ reports/YYYY/MM/
 - 파이프라인 중간 산출물은 항상 생성한다
 - 온톨로지 변경은 반드시 근거(reasoning-log)를 남긴다
 - 지식그래프 시각화는 Mermaid 다이어그램으로 보고서에 포함한다
+- 매일 GHA 실행 시 KG의 TTL(RDF Turtle) 직렬화를 자동 생성한다 — 일별(`ontology/kg/YYYY-MM-DD.ttl`) + 누적(`ontology/kg/cumulative.ttl`)
+- Wiki 발행은 `scripts/publish_wiki.sh`가 결정적으로 수행한다 — Home/Sidebar/Monthly/KG-Index 페이지를 멱등 갱신하고 TTL도 함께 게시

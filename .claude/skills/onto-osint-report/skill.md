@@ -59,14 +59,23 @@ description: "온톨로지 기반 OSINT 일일 보고서를 자동 생성하는 
 **산출물:** `reports/YYYY/MM/YYYY-MM-DD.md`
 
 ### Phase 5: 커밋 & 발행
+LLM 단계는 JSON/Markdown 산출물 생성과 메인 리포 커밋까지만 담당한다.
+TTL 변환과 Wiki 동기화는 GHA 워크플로우의 **결정적 post-step**이 처리한다 (LLM 변동성 차단).
+
 ```bash
 git add sources/ reports/ ontology/
 git commit -m "report: daily OSINT update (YYYY-MM-DD)"
 git push
 ```
 
-Wiki 발행 (config의 `report.wiki_publish`가 true일 때):
-- wiki.git clone → 보고서 복사 (frontmatter 제거) → Home.md, _Sidebar.md 업데이트 → push
+**TTL 생성 (post-step):** `scripts/kg_to_ttl.py <YYYY-MM-DD>` 실행 →
+- `ontology/kg/YYYY-MM-DD.ttl` (일별 스냅샷: new/updated/inferred triples + 참조 엔티티)
+- `ontology/kg/cumulative.ttl` (누적: 스키마 + 모든 인스턴스 + 모든 트리플)
+
+**Wiki 발행 (post-step, config의 `report.wiki_publish`가 true일 때):**
+`scripts/publish_wiki.sh <YYYY-MM-DD>` 실행 →
+- `<repo>.wiki.git` clone → 보고서 복사 (frontmatter 제거) → TTL 복사 (`kg/`) →
+  Home.md (최근 14일) / _Sidebar.md / Monthly-YYYY-MM.md / KG-Index.md 갱신 → push
 
 ## 데이터 전달
 
@@ -77,7 +86,9 @@ Wiki 발행 (config의 `report.wiki_publish`가 true일 때):
 | 2 | search-results, prev index, instances | index + items + entities | 태깅 + 추출 |
 | 3 | entities, schema, instances, cumulative, prev reports | schema, instances, KG, analysis, report-basis | 핵심 |
 | 4 | report-basis, analysis, items, KG | report.md | 최종 |
-| 5 | all files | git commit | 발행 |
+| 5 | all files | git commit | 메인 리포 발행 |
+| 5b (post) | KG JSON | KG TTL (일별 + cumulative) | `scripts/kg_to_ttl.py` |
+| 5c (post) | report.md + TTL | Wiki 페이지 + kg/*.ttl | `scripts/publish_wiki.sh` |
 
 ## 에러 핸들링
 
@@ -90,6 +101,8 @@ Wiki 발행 (config의 `report.wiki_publish`가 true일 때):
 | 3 | entities.json 비어있음 | 추론 건너뛰고 빈 KG 스냅샷 |
 | 4 | 포함 항목 0건 | "특이사항 없음" 보고서 |
 | 5 | Wiki clone 실패 | 메인 리포 커밋 유지, Wiki 스킵 |
+| 5b | KG JSON 없음 | TTL 일별 스킵, cumulative만 생성 |
+| 5c | wiki repo 미존재 | publish_wiki.sh가 init 후 push 시도 |
 
 ## 테스트 시나리오
 
