@@ -538,7 +538,7 @@ yseinf:stmt-2026-04-25-0057 a rdf:Statement ;
   prov:wasDerivedFrom "operator_kid_friendliness" ;
   rdfs:comment "어린이 전용 시설"@ko .
 
-# --- referenced entities (41) ---
+# --- referenced entities ---
 yseent:age-elem-high a yseo:AgeGroup ;
   rdfs:label "초등고학년"@ko ;
   yse:name "초등고학년"@ko ;

@@ -430,7 +430,7 @@ yseinf:stmt-2026-04-26-0051 a rdf:Statement ;
   yse:assertionType "inferred" ;
   prov:wasDerivedFrom "proximity" .
 
-# --- referenced entities (24) ---
+# --- referenced entities ---
 yseent:age-family a yseo:AgeGroup ;
   rdfs:label "전연령가족"@ko ;
   yse:name "전연령가족"@ko ;

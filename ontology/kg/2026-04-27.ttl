@@ -182,7 +182,7 @@ yseinf:stmt-2026-04-27-0020 a rdf:Statement ;
   yse:assertionType "inferred" ;
   prov:wasDerivedFrom "operator_kid_friendliness" .
 
-# --- referenced entities (10) ---
+# --- referenced entities ---
 yseent:age-elem-high a yseo:AgeGroup ;
   rdfs:label "초등고학년"@ko ;
   yse:name "초등고학년"@ko ;

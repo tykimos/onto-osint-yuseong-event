@@ -121,7 +121,7 @@ yseinf:stmt-2026-04-28-0011 a rdf:Statement ;
   prov:wasDerivedFrom "kid_program_boost" ;
   rdfs:comment "캐치! 티니핑 + 물총 스플래쉬 확정으로 어린이 친화도 0.7→0.8 상향"@ko .
 
-# --- referenced entities (4) ---
+# --- referenced entities ---
 yseent:age-elem-low a yseo:AgeGroup ;
   rdfs:label "초등저학년"@ko ;
   yse:name "초등저학년"@ko ;
