@@ -1,0 +1,62 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-04)
+<#snapshot-2026-05-04> a prov:Entity ;
+  dct:date "2026-05-04"^^xsd:date ;
+  yse:new_nodes "2"^^xsd:integer ;
+  yse:new_edges "2"^^xsd:integer ;
+  yse:inferred_edges "2"^^xsd:integer .
+
+# --- new_triples (2) ---
+yseent:ent-evt-021 yser:featuresActivity yseent:ent-act-011 .
+yseinf:stmt-2026-05-04-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-021 ;
+  rdf:predicate yser:featuresActivity ;
+  rdf:object yseent:ent-act-011 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:date "2026-05-04"^^xsd:date .
+yseent:ent-evt-021 yser:featuresActivity yseent:ent-act-012 .
+yseinf:stmt-2026-05-04-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-021 ;
+  rdf:predicate yser:featuresActivity ;
+  rdf:object yseent:ent-act-012 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:date "2026-05-04"^^xsd:date .
+
+# --- inferred_triples (2) ---
+yseent:ent-evt-030 yser:visitCombo yseent:ent-evt-021 .
+yseinf:stmt-2026-05-04-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-030 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-021 ;
+  yse:confidence "0.7"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "temporal_overlap" ;
+  dct:date "2026-05-04"^^xsd:date ;
+  rdfs:comment "별축제(도룡동) + 온천축제 마지막날(봉명동) 동시 진행 — 차량 15분 이동"@ko .
+yseent:ent-evt-030 yser:visitCombo yseent:ent-evt-020 .
+yseinf:stmt-2026-05-04-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-030 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-020 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-04"^^xsd:date ;
+  rdfs:comment "내일(5/5) 어린이 한마당(과학관) + 별축제 Day 2(천문대) = 도룡동 풀코스. 신뢰도 상향(0.80→0.85, D-1 확정)"@ko .
+
+# --- referenced entities (0) ---
+

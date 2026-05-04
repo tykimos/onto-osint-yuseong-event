@@ -1,0 +1,163 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-02)
+<#snapshot-2026-05-02> a prov:Entity ;
+  dct:date "2026-05-02"^^xsd:date ;
+  yse:new_nodes "1"^^xsd:integer ;
+  yse:new_edges "4"^^xsd:integer ;
+  yse:inferred_edges "3"^^xsd:integer .
+
+# --- new_triples (4) ---
+yseent:ent-evt-029 yser:hostsAt yseent:ent-venue-007 .
+yseinf:stmt-2026-05-02-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-029 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-007 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-006" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-029 yser:organizedBy yseent:ent-org-004 .
+yseinf:stmt-2026-05-02-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-029 ;
+  rdf:predicate yser:organizedBy ;
+  rdf:object yseent:ent-org-004 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-006" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-029 yser:targetsAgeGroup yseent:age-toddler .
+yseinf:stmt-2026-05-02-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-029 ;
+  rdf:predicate yser:targetsAgeGroup ;
+  rdf:object yseent:age-toddler ;
+  yse:confidence "0.7"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-006" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-029 yser:targetsAgeGroup yseent:age-elem-low .
+yseinf:stmt-2026-05-02-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-029 ;
+  rdf:predicate yser:targetsAgeGroup ;
+  rdf:object yseent:age-elem-low ;
+  yse:confidence "0.7"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-006" ;
+  dct:date "2026-05-02"^^xsd:date .
+
+# --- updated_triples (3) ---
+yseent:ent-evt-021 yser:status yseent:D-day_____5_2_4_ .
+yseinf:stmt-2026-05-02-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-021 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:D-day_____5_2_4_ ;
+  yse:confidence "0.99"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-001" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-024 yser:status yseent:Day_2_______5_1_3_ .
+yseinf:stmt-2026-05-02-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-024 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:Day_2_______5_1_3_ ;
+  yse:confidence "0.99"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-002" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-020 yser:status yseent:D-3_______5_5_ .
+yseinf:stmt-2026-05-02-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-020 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:D-3_______5_5_ ;
+  yse:confidence "0.99"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" ;
+  dct:date "2026-05-02"^^xsd:date .
+
+# --- inferred_triples (3) ---
+yseent:ent-evt-021 yser:visitCombo yseent:ent-evt-024 .
+yseinf:stmt-2026-05-02-0008 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-021 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-024 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo (확장: 동시 진행)" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-029 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-05-02-0009 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-029 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  dct:date "2026-05-02"^^xsd:date .
+yseent:ent-evt-029 yser:partOfSeries yseent:ent-evt-003 .
+yseinf:stmt-2026-05-02-0010 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-029 ;
+  rdf:predicate yser:partOfSeries ;
+  rdf:object yseent:ent-evt-003 ;
+  yse:confidence "0.6"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_venue_series (확장: 같은 도서관 시스템)" ;
+  dct:date "2026-05-02"^^xsd:date .
+
+# --- referenced entities (5) ---
+yseent:age-elem-low a yseo:AgeGroup ;
+  rdfs:label "초등저학년"@ko ;
+  yse:name "초등저학년"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "4"^^xsd:integer ;
+  yse:label "초���저학년"@ko ;
+  yse:min_age "7"^^xsd:integer ;
+  yse:max_age "9"^^xsd:integer .
+yseent:age-toddler a yseo:AgeGroup ;
+  rdfs:label "유아"@ko ;
+  yse:name "유아"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "4"^^xsd:integer ;
+  yse:label "유아"@ko ;
+  yse:min_age "4"^^xsd:integer ;
+  yse:max_age "6"^^xsd:integer .
+yseent:ent-evt-003 a yseo:Event ;
+  rdfs:label "북스타��� 책놀이"@ko ;
+  yse:name "북스타��� 책놀이"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:fee "무료"@ko ;
+  yse:registration_required true ;
+  yse:indoor_outdoor "실내"@ko ;
+  yse:kid_friendly_score "0.95"^^xsd:decimal .
+yseent:ent-org-004 a yseo:Organization ;
+  rdfs:label "유성구통합도서관"@ko ;
+  yse:name "유성구통합도서관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "4"^^xsd:integer ;
+  yse:org_type "도서관"@ko .
+yseent:ent-venue-007 a yseo:Venue ;
+  rdfs:label "관평도서관"@ko ;
+  yse:name "관평도서관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:dong "관평동"@ko ;
+  yse:venue_type "도서관"@ko ;
+  yse:address "테크노4로 131 (관평동)"@ko ;
+  yse:phone "042-716-0350"@ko .
+

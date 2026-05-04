@@ -200,14 +200,19 @@ def emit_triple(out: list[str], t: dict, idx: int, source_date: str | None) -> N
     out[-1] = out[-1].rstrip(" ;") + " ."
 
 
+def _coerce_triple_list(value) -> list:
+    """LLM이 카운트(int)/None/list 어느 형태로든 채울 수 있어 list만 통과시킨다."""
+    return value if isinstance(value, list) else []
+
+
 def build_daily_ttl(date_str: str, schema: dict, instances: dict, kg_day: dict) -> str:
     out: list[str] = []
     write_prefixes(out)
     out.append(f"# Onto-OSINT-Yuseong-Event — daily KG snapshot ({date_str})")
     out.append(f"<#snapshot-{date_str}> a prov:Entity ;")
     out.append(f"  dct:date {fmt_literal('start_date', date_str)} ;")
-    stats = kg_day.get("stats", {})
-    if stats:
+    stats = kg_day.get("stats") or {}
+    if isinstance(stats, dict) and stats:
         out.append(f"  yse:new_nodes \"{stats.get('new_nodes', 0)}\"^^xsd:integer ;")
         out.append(f"  yse:new_edges \"{stats.get('new_edges', 0)}\"^^xsd:integer ;")
         out.append(f"  yse:inferred_edges \"{stats.get('inferred_edges', 0)}\"^^xsd:integer ;")
@@ -216,10 +221,18 @@ def build_daily_ttl(date_str: str, schema: dict, instances: dict, kg_day: dict) 
 
     referenced: set[str] = set()
     triple_groups = [
-        ("new_triples", kg_day.get("new_triples", [])),
-        ("updated_triples", kg_day.get("updated_triples", [])),
-        ("inferred_triples", kg_day.get("inferred_triples", [])),
+        ("new_triples", _coerce_triple_list(kg_day.get("new_triples"))),
+        ("updated_triples", _coerce_triple_list(kg_day.get("updated_triples"))),
+        ("inferred_triples", _coerce_triple_list(kg_day.get("inferred_triples"))),
     ]
+    # 대체 스키마: triples 그룹이 비어있고 edges만 채워진 경우
+    if not any(g for _, g in triple_groups):
+        edges = _coerce_triple_list(kg_day.get("edges"))
+        if edges:
+            inferred = [e for e in edges if e.get("type") == "inferred"]
+            explicit = [e for e in edges if e.get("type") != "inferred"]
+            triple_groups = [("new_triples", explicit), ("inferred_triples", inferred)]
+
     counter = 0
     for group_name, triples in triple_groups:
         if not triples:
@@ -235,12 +248,18 @@ def build_daily_ttl(date_str: str, schema: dict, instances: dict, kg_day: dict) 
         out.append("")
 
     by_id = {e["id"]: e for e in instances.get("entities", []) if e.get("id")}
-    if referenced:
-        out.append(f"# --- referenced entities ({len(referenced & by_id.keys())}) ---")
-        for eid in sorted(referenced):
+    daily_nodes = {n["id"]: n for n in (kg_day.get("nodes") or []) if isinstance(n, dict) and n.get("id")}
+
+    if referenced or daily_nodes:
+        out.append(f"# --- referenced entities ---")
+        for eid in sorted(referenced | daily_nodes.keys()):
             ent = by_id.get(eid)
             if ent:
                 emit_entity(out, ent)
+            elif eid in daily_nodes:
+                n = daily_nodes[eid]
+                stub = {"id": eid, "type": n.get("type"), "name": n.get("label") or n.get("name")}
+                emit_entity(out, stub)
         out.append("")
 
     return "\n".join(out) + "\n"
