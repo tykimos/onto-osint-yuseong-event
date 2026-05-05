@@ -1,0 +1,147 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-05)
+<#snapshot-2026-05-05> a prov:Entity ;
+  dct:date "2026-05-05"^^xsd:date ;
+  yse:new_nodes "4"^^xsd:integer ;
+  yse:new_edges "7"^^xsd:integer ;
+  yse:inferred_edges "3"^^xsd:integer .
+
+# --- new_triples (7) ---
+yseent:ent-evt-031 yser:hostsAt yseent:ent-venue-020 .
+yseinf:stmt-2026-05-05-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-031 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-020 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+yseent:ent-evt-031 yser:organizedBy yseent:ent-org-018 .
+yseinf:stmt-2026-05-05-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-031 ;
+  rdf:predicate yser:organizedBy ;
+  rdf:object yseent:ent-org-018 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+yseent:ent-evt-031 yser:featuresActivity yseent:ent-act-013 .
+yseinf:stmt-2026-05-05-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-031 ;
+  rdf:predicate yser:featuresActivity ;
+  rdf:object yseent:ent-act-013 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+yseent:ent-evt-031 yser:targetsAgeGroup yseent:age-family .
+yseinf:stmt-2026-05-05-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-031 ;
+  rdf:predicate yser:targetsAgeGroup ;
+  rdf:object yseent:age-family ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+yseent:ent-venue-020 yser:locatedIn yseent:dong-noeun .
+yseinf:stmt-2026-05-05-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-venue-020 ;
+  rdf:predicate yser:locatedIn ;
+  rdf:object yseent:dong-noeun ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+yseent:ent-venue-020 yser:withinRing yseent:ring-car .
+yseinf:stmt-2026-05-05-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-venue-020 ;
+  rdf:predicate yser:withinRing ;
+  rdf:object yseent:ring-car ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+yseent:ent-org-018 yser:operates yseent:ent-venue-020 .
+yseinf:stmt-2026-05-05-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-org-018 ;
+  rdf:predicate yser:operates ;
+  rdf:object yseent:ent-venue-020 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" .
+
+# --- updated_triples (1) ---
+yseent:ent-evt-030 yser:visitCombo yseent:ent-evt-020 .
+yseinf:stmt-2026-05-05-0008 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-030 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-020 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  rdfs:comment "D-day 동시 진행 확정 → 0.85→0.90"@ko .
+
+# --- inferred_triples (3) ---
+yseent:ent-evt-031 yser:visitCombo yseent:ent-evt-020 .
+yseinf:stmt-2026-05-05-0009 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-031 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-020 ;
+  yse:confidence "0.65"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_date_different_dong" ;
+  rdfs:comment "동일 날짜(5/5) 다른 동(노은동↔도룡동, 차량 15분). 0.65 잠정"@ko .
+yseent:ent-venue-020 yser:nearby yseent:ent-venue-011 .
+yseinf:stmt-2026-05-05-0010 a rdf:Statement ;
+  rdf:subject yseent:ent-venue-020 ;
+  rdf:predicate yser:nearby ;
+  rdf:object yseent:ent-venue-011 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "proximity" ;
+  rdfs:comment "대전월드컵경기장과 어린이회관은 같은 건물 단지(동관 1층)"@ko .
+yseent:ent-evt-020 yser:visitCombo yseent:ent-evt-030 .
+yseinf:stmt-2026-05-05-0011 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-020 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-030 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "D-day 확정. 어린이 한마당(오전) → 별축제(오후) 동일 동 연계"@ko .
+
+# --- referenced entities ---
+yseent:age-family a yseo:AgeGroup ;
+  rdfs:label "전연령가족"@ko ;
+  yse:name "전연령가족"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "2"^^xsd:integer ;
+  yse:label "전연령가족"@ko ;
+  yse:min_age "0"^^xsd:integer ;
+  yse:max_age "99"^^xsd:integer .
+yseent:dong-noeun a yseo:Dong ;
+  rdfs:label "노은동"@ko ;
+  yse:name "노은동"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:is_primary_target false .
+yseent:ent-venue-011 a yseo:Venue ;
+  rdfs:label "대전광역시어린이회관"@ko ;
+  yse:name "대전광역시어린이회관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "2"^^xsd:integer ;
+  yse:dong "���은동"@ko ;
+  yse:venue_type "어린이회관"@ko ;
+  yse:address "대�� 유성구 월드컵대로 32 대전월드컵경기장 동관 1층"@ko ;
+  yse:kids_zone true ;
+  yse:stroller_accessible true ;
+  yse:phone "042-824-5500"@ko .
+
