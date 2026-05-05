@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-06",
+  "new_triples": [
+    { "subject": "ent-venue-021", "predicate": "locatedIn", "object": "dong-eoeun", "type": "explicit", "confidence": 0.99, "source_id": "src-001" },
+    { "subject": "ent-venue-021", "predicate": "withinRing", "object": "ring-car", "type": "explicit", "confidence": 0.9, "source_id": "src-001" },
+    { "subject": "ent-org-019", "predicate": "operates", "object": "ent-venue-021", "type": "explicit", "confidence": 0.95, "source_id": "src-001" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-025", "predicate": "status", "object": "D-3", "type": "explicit", "confidence": 0.95, "source_id": "src-002", "note": "가족뮤지컬 알라딘 5/9~10 공연 D-3 진입" },
+    { "subject": "ent-evt-006", "predicate": "status", "object": "정상운영재개", "type": "explicit", "confidence": 0.95, "source_id": "src-003", "note": "별축제 종료(5/5) 후 화요일 정상 오픈" },
+    { "subject": "ent-evt-020", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 0.99, "source_id": "src-001", "note": "어린이 한마당 5/5 종료" },
+    { "subject": "ent-evt-030", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 0.99, "source_id": "src-003", "note": "별축제 5/5 종료" },
+    { "subject": "ent-evt-031", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 0.99, "source_id": "src-001", "note": "KIDS DAY 5/5 종료" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "ent-evt-024", "type": "inferred", "confidence": 0.85, "rule": "same_venue_series", "note": "국립중앙과학관 가정의달 시리즈 — 동심로그인(5/1~3) → 알라딘(5/9~10)" },
+    { "subject": "ent-evt-025", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "rule": "operator_kid_friendliness", "note": "과학관이 운영하는 가족 공연" },
+    { "subject": "ent-venue-021", "predicate": "kidFriendlyScore", "object": "0.9", "type": "inferred", "confidence": 0.85, "rule": "venue_type_inference", "note": "테마파크·동물원은 어린이 친화도 높음" }
+  ],
+  "stats": {
+    "new_nodes": 3,
+    "new_edges": 3,
+    "updated_edges": 5,
+    "inferred_edges": 3
+  }
+}

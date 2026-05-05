@@ -1,0 +1,20 @@
+{
+  "id": "src-006",
+  "title": "아가·맘 행복교실 운영 중 (아가랑도서관, 전민동)",
+  "url": "https://lib.yuseong.go.kr/",
+  "snippet": "아가랑도서관(전민동, 0.9km) 아가·맘 행복교실 4/4~6/27 운영 중. 영유아+보호자 대상, 무료, 사전신청.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-06",
+  "tag": "reported",
+  "related_report": "2026-05-05",
+  "related_item": "src-006 (2026-05-05)",
+  "tag_reason": "기존 추적 이벤트(ent-evt-017) 상태 변동 없음.",
+  "entities": [
+    { "id": "ent-venue-016", "type": "Venue", "name": "아가랑도서관" },
+    { "id": "ent-evt-017", "type": "Event", "name": "아가·맘 행복교실" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-017", "predicate": "hostsAt", "object": "ent-venue-016" }
+  ]
+}

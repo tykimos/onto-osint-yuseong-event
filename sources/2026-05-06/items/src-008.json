@@ -1,0 +1,20 @@
+{
+  "id": "src-008",
+  "title": "국립어린이과학관 탐이꿈이의 비밀실험실 운영 중 (~6/30)",
+  "url": "https://www.csc.go.kr/",
+  "snippet": "국립어린이과학관 탐이꿈이의 비밀실험실 4/1~6/30 운영 중. 유료, 사전예약 필요. 도룡동 소재.",
+  "source_name": "국립어린이과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-06",
+  "tag": "reported",
+  "related_report": "2026-05-05",
+  "related_item": null,
+  "tag_reason": "기존 추적 이벤트(ent-evt-015) 상태 변동 없음.",
+  "entities": [
+    { "id": "ent-venue-004", "type": "Venue", "name": "국립어린이과학관" },
+    { "id": "ent-evt-015", "type": "Event", "name": "탐이 꿈이의 비밀 실험실" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-015", "predicate": "hostsAt", "object": "ent-venue-004" }
+  ]
+}

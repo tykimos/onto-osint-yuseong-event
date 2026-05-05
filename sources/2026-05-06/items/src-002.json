@@ -1,0 +1,23 @@
+{
+  "id": "src-002",
+  "title": "국립중앙과학관 가정의달 시리즈 — 5/9~10 가족뮤지컬 알라딘 D-3 진입",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 가정의달 시리즈 5월 첫 주간 행사(어린이 한마당, 동심로그인) 종료. 다음 행사는 5/9(금)~10(토) 사이언스홀에서 가족뮤지컬 알라딘. 오늘 기준 D-3. 2026 라이브 가족뮤지컬 알라딘은 전국 투어 중이며 대전 공연은 국립중앙과학관 사이언스홀에서 진행.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-06",
+  "tag": "update",
+  "related_report": "2026-05-05",
+  "related_item": "src-007 (2026-05-05)",
+  "tag_reason": "기존 추적 이벤트(ent-evt-025 가족뮤지컬 알라딘)가 D-3에 진입 — 마감 임박 카테고리 해당.",
+  "entities": [
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘", "properties": { "start_date": "2026-05-09", "end_date": "2026-05-10", "d_day_from_today": "D-3", "venue": "국립중앙과학관 사이언스홀", "fee": "유료 (추정)", "registration_required": true, "indoor_outdoor": "실내", "kid_friendly_score": 0.95 } },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-025", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "ent-evt-024" }
+  ]
+}

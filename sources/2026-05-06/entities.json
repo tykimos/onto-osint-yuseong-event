@@ -1,0 +1,78 @@
+{
+  "date": "2026-05-06",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "대전 오월드",
+      "properties": {
+        "dong": "어은동",
+        "venue_type": "테마파크·동물원",
+        "address": "대전 유성구 도안대로 100 (어은동)",
+        "distance_from_anchor_m": 4500,
+        "ring": "ring-car",
+        "status": "임시휴장 — 5월 재개장 검토 중",
+        "kid_friendly": true,
+        "stroller_accessible": true,
+        "parking": true,
+        "indoor_outdoor": "야외+실내",
+        "distance_rationale": "어은동 도안대로 100 소재. 용성로20에서 직선 약 4.5km (차량 12~15분)."
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전도시공사",
+      "properties": {
+        "org_type": "기타민간",
+        "role": "대전 오월드 운영사"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "대전 오월드 재개장 검토",
+      "properties": {
+        "status": "검토 중 (불확실)",
+        "reason": "늑대 '늑구' 탈출 사고 후 시설 보수·보강",
+        "target_period": "5월 가정의달 (정확한 일자 미정)",
+        "kid_friendly_score": 0.9,
+        "indoor_outdoor": "야외+실내",
+        "fee": "유료 (입장권 — 재개장 시 할인 가능성)",
+        "note": "머니투데이 보도(4/27)에서는 '5월 말까지 재개장 불가' 통보, 대전일보 후속 보도에서는 '5월 재개장 검토'로 상충. 현재 불확실.",
+        "source_url": "https://www.daejonilbo.com/news/articleView.html?idxno=2270280"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-002",
+      "predicate": "operates",
+      "object": "temp-001",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "locatedIn",
+      "object": "dong-eoeun",
+      "source_ids": ["src-001"],
+      "confidence": 0.99
+    }
+  ],
+  "stats": {
+    "total_entities": 3,
+    "new_entities": 3,
+    "matched_entities": 0,
+    "total_relations": 2
+  }
+}

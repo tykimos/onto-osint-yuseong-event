@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "대전 오월드 5월 재개장 검토 — 늑대 탈출 사고 후 시설 보수 중, 가정의달 맞아 부분 개장 가능성",
+  "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2270280",
+  "snippet": "늑대 '늑구' 탈출로 임시 휴장 중인 대전 오월드가 5월 가정의 달에 맞춰 재개장을 검토 중이다. 늑구가 9일 만에 포획된 뒤 회복·안정에 집중하는 한편, 동물원 시설 보수·보강 작업을 마치고 정확한 재개장 시점을 결정한다는 방침이다. 다만 대전도시공사는 입점 업소 11개에 5월 말까지 재개장 불가 통보를 한 상태로, 조기 재개장은 불확실하다.",
+  "source_name": "대전일보",
+  "language": "ko",
+  "discovered_date": "2026-05-06",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 대전 오월드 재개장 관련 항목 없음. 유성구 어은동 소재 대형 가족 시설의 운영 상태 변화.",
+  "entities": [
+    { "id": "temp-001", "type": "Venue", "name": "대전 오월드", "properties": { "dong": "어은동", "venue_type": "테마파크·동물원", "address": "대전 유성구 도안대로 100 (어은동)", "distance_from_anchor_m": 4500, "ring": "ring-car", "status": "임시휴장 — 5월 재개장 검토 중" } },
+    { "id": "temp-002", "type": "Organization", "name": "대전도시공사", "properties": { "org_type": "기타민간", "role": "대전 오월드 운영사" } },
+    { "id": "temp-003", "type": "Event", "name": "대전 오월드 재개장 검토", "properties": { "status": "검토 중 (불확실)", "reason": "늑대 탈출 사고 후 시설 보수·보강", "target_period": "5월 가정의달", "kid_friendly_score": 0.9, "indoor_outdoor": "야외+실내" } }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "operates", "object": "temp-001" },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "dong-eoeun" }
+  ]
+}

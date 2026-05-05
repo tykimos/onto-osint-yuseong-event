@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-06",
   "classes": [
     {
       "id": "Entity",
@@ -188,6 +188,13 @@
       "target": "Event(ent-evt-031 대전하나시티즌KIDSDAY), Venue(ent-venue-020 대전월드컵경기장), Organization(ent-org-018 대전하나시티즌), Activity(ent-act-013 KIDSDAY체험존)",
       "reason": "어린이날 대전하나시티즌 KIDS DAY 신규 발견. 노은동 대전월드컵경기장에서 K리그1 홈경기 + 어린이 1,000원 + 체험 이벤트. 유성 어린이 한마당(D-day)·별축제(Day2 마지막) 상태 업데이트.",
       "source_ids": ["src-003"]
+    },
+    {
+      "date": "2026-05-06",
+      "action": "add_instances",
+      "target": "Venue(ent-venue-021 대전오월드), Organization(ent-org-019 대전도시공사)",
+      "reason": "대전 오월드(유성구 어은동) 재개장 검토 뉴스 발견. 늑대 탈출 사고 후 시설 보수 중이던 대형 가족 시설. 황금연휴 종료(5/5) 후 어린이한마당·별축제·KIDS DAY 일괄 종료, 알라딘 D-3 진입 상태 업데이트.",
+      "source_ids": ["src-001"]
     }
   ]
 }

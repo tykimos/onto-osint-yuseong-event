@@ -1,0 +1,20 @@
+{
+  "id": "src-003",
+  "title": "대전시민천문대 별축제 종료 → 정상 운영 재개 (화~일 14:00~22:00)",
+  "url": "https://djstar.kr/",
+  "snippet": "대전시민천문대 별축제(5/4~5) 종료. 5/6(화)부터 정상 운영 재개. 운영시간 14:00~22:00, 월요일 휴관. 무료 입장. 상시 관측 프로그램(태양관측·야간천체관측) 운영. 가정의달 5월 특별 프로그램은 별축제로 대체되었으며, 5/6 이후 상시 프로그램 중심 운영.",
+  "source_name": "대전시민천문대",
+  "language": "ko",
+  "discovered_date": "2026-05-06",
+  "tag": "update",
+  "related_report": "2026-05-05",
+  "related_item": "src-002 (2026-05-05)",
+  "tag_reason": "별축제(5/4~5) 종료 후 정상 운영 재개 — 상태 전환(축제→상시).",
+  "entities": [
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대" },
+    { "id": "ent-org-007", "type": "Organization", "name": "대전시민천문대" }
+  ],
+  "relations": [
+    { "subject": "ent-org-007", "predicate": "operates", "object": "ent-venue-006" }
+  ]
+}

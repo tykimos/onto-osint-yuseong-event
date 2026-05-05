@@ -1,0 +1,20 @@
+{
+  "id": "src-007",
+  "title": "유성구 지역작가 인(人) 도서관 5월 운영 중",
+  "url": "https://pedien.com/html/view.php?idx=1014924",
+  "snippet": "유성구 6개 공공도서관 순회 '지역작가 인 도서관' 5월 운영 중. 강연·북토크·창작·북큐레이션.",
+  "source_name": "페디앙",
+  "language": "ko",
+  "discovered_date": "2026-05-06",
+  "tag": "reported",
+  "related_report": "2026-05-05",
+  "related_item": "src-008 (2026-05-05)",
+  "tag_reason": "기존 추적 이벤트(ent-evt-023) 상태 변동 없음.",
+  "entities": [
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관" },
+    { "id": "ent-evt-023", "type": "Event", "name": "지역작가 인(人) 도서관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-023", "predicate": "organizedBy", "object": "ent-org-004" }
+  ]
+}

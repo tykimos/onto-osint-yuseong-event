@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-05",
+  "last_updated": "2026-05-06",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -149,5 +149,9 @@
     { "id": "ent-org-018", "type": "Organization", "name": "대전하나시티즌", "properties": { "org_type": "기타민간", "website": "https://www.dhcfc.kr/" }, "first_seen": "2026-05-05", "last_seen": "2026-05-05", "mention_count": 1 },
     { "id": "ent-act-013", "type": "Activity", "name": "KIDS DAY 체험존", "properties": { "category": "체험", "sub_programs": "페이스페인팅, 슈팅 에어바운스, 무한의계단 K리그 협업 부스", "target_age": "유아·초등", "kid_friendly_score": 0.85, "event_parent": "ent-evt-031" }, "first_seen": "2026-05-05", "last_seen": "2026-05-05", "mention_count": 1 }
   ],
-  "total_count": 106
+  "new_entities_2026_05_06": [
+    { "id": "ent-venue-021", "type": "Venue", "name": "대전 오월드", "properties": { "dong": "어은동", "address": "대전 유성구 도안대로 100 (어은동)", "venue_type": "테마파크·동물원", "distance_from_anchor_m": 4500, "ring": "ring-car", "parking": true, "stroller_accessible": true, "kid_friendly": true, "indoor_outdoor": "야외+실내", "status": "임시휴장 — 5월 재개장 검토 중", "source_url": "https://www.daejonilbo.com/news/articleView.html?idxno=2270280" }, "first_seen": "2026-05-06", "last_seen": "2026-05-06", "mention_count": 1 },
+    { "id": "ent-org-019", "type": "Organization", "name": "대전도시공사", "properties": { "org_type": "기타민간", "role": "대전 오월드 운영사" }, "first_seen": "2026-05-06", "last_seen": "2026-05-06", "mention_count": 1 }
+  ],
+  "total_count": 108
 }

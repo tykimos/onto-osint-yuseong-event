@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-04",
+  "last_updated": "2026-05-06",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1407,9 +1407,22 @@
     { "subject": "ent-venue-020", "predicate": "nearby", "object": "ent-venue-011", "type": "inferred", "confidence": 0.95, "added": "2026-05-05", "note": "같은 건물 단지(월드컵경기장 동관)" },
     { "subject": "ent-evt-020", "predicate": "visitCombo", "object": "ent-evt-030", "type": "inferred", "confidence": 0.90, "added": "2026-05-05", "note": "D-day 확정 동일 동 연계 0.85→0.90" }
   ],
+  "nodes_added_2026_05_06": [
+    { "id": "ent-venue-021", "type": "Venue", "label": "대전 오월드" },
+    { "id": "ent-org-019", "type": "Organization", "label": "대전도시공사" },
+    { "id": "dong-eoeun", "type": "Dong", "label": "어은동" }
+  ],
+  "edges_added_2026_05_06": [
+    { "subject": "ent-venue-021", "predicate": "locatedIn", "object": "dong-eoeun", "type": "explicit", "confidence": 0.99, "added": "2026-05-06" },
+    { "subject": "ent-venue-021", "predicate": "withinRing", "object": "ring-car", "type": "explicit", "confidence": 0.9, "added": "2026-05-06" },
+    { "subject": "ent-org-019", "predicate": "operates", "object": "ent-venue-021", "type": "explicit", "confidence": 0.95, "added": "2026-05-06" },
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "ent-evt-024", "type": "inferred", "confidence": 0.85, "added": "2026-05-06", "note": "가정의달 시리즈 — 동심로그인 → 알라딘" },
+    { "subject": "ent-evt-025", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-06" },
+    { "subject": "ent-venue-021", "predicate": "kidFriendlyScore", "object": "0.9", "type": "inferred", "confidence": 0.85, "added": "2026-05-06" }
+  ],
   "stats": {
-    "total_nodes": 93,
+    "total_nodes": 96,
     "total_edges": 10,
-    "total_triples": 193
+    "total_triples": 199
   }
 }
