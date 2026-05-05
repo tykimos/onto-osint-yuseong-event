@@ -1,0 +1,23 @@
+{
+  "id": "src-002",
+  "title": "대전시민천문대 별축제 Day 2 (오늘 마지막 날) — 과학체험부스·태양관측·별음악회",
+  "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44",
+  "snippet": "5/4~5 개최 별축제 마지막 날. 수십 개 과학체험부스(천문기관·출연연·학교·동아리 참여), 태양관측, 돔영상관, 태양계 행성 포토존, 별음악회(대전시민오케스트라·뮤지컬팀 미리내·어린이합창단·써니힐 콜라보), 소원별추첨, 야간천체관측. 5/5는 주차 가능(어제 5/4 야외주차장 행사 종료).",
+  "source_name": "대전관광공사",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "update",
+  "related_report": "2026-05-04",
+  "related_item": "sources/2026-05-04/items/src-002.json",
+  "tag_reason": "Day 1→Day 2 전환. 어제 개막한 별축제 마지막 날. 어린이 한마당과 동시 진행(도룡동 과학벨트 풀코스 확정).",
+  "entities": [
+    { "id": "ent-evt-030", "type": "Event", "name": "2026 대전시민천문대 별축제", "role": "Day 2 마지막날" },
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대", "role": "개최장소" },
+    { "id": "ent-org-007", "type": "Organization", "name": "대전시민천문대", "role": "주최" },
+    { "id": "ent-evt-020", "type": "Event", "name": "유성 어린이 한마당", "role": "동시 진행 (방문콤보)" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-030", "predicate": "hostsAt", "object": "ent-venue-006" },
+    { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-020" }
+  ]
+}

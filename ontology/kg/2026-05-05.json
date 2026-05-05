@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-05",
+  "new_triples": [
+    { "subject": "ent-evt-031", "predicate": "hostsAt", "object": "ent-venue-020", "confidence": 0.95, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-evt-031", "predicate": "organizedBy", "object": "ent-org-018", "confidence": 0.95, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-evt-031", "predicate": "featuresActivity", "object": "ent-act-013", "confidence": 0.9, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-evt-031", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-venue-020", "predicate": "locatedIn", "object": "dong-noeun", "confidence": 0.95, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-venue-020", "predicate": "withinRing", "object": "ring-car", "confidence": 0.9, "type": "explicit", "source_id": "src-003" },
+    { "subject": "ent-org-018", "predicate": "operates", "object": "ent-venue-020", "confidence": 0.8, "type": "explicit", "source_id": "src-003" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-030", "predicate": "visitCombo", "object": "ent-evt-020", "confidence": 0.90, "type": "inferred", "note": "D-day 동시 진행 확정 → 0.85→0.90" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-031", "predicate": "visitCombo", "object": "ent-evt-020", "confidence": 0.65, "type": "inferred", "rule": "same_date_different_dong", "note": "동일 날짜(5/5) 다른 동(노은동↔도룡동, 차량 15분). 0.65 잠정" },
+    { "subject": "ent-venue-020", "predicate": "nearby", "object": "ent-venue-011", "confidence": 0.95, "type": "inferred", "rule": "proximity", "note": "대전월드컵경기장과 어린이회관은 같은 건물 단지(동관 1층)" },
+    { "subject": "ent-evt-020", "predicate": "visitCombo", "object": "ent-evt-030", "confidence": 0.90, "type": "inferred", "rule": "same_dong_combo", "note": "D-day 확정. 어린이 한마당(오전) → 별축제(오후) 동일 동 연계" }
+  ],
+  "stats": {
+    "new_nodes": 4,
+    "new_edges": 7,
+    "inferred_edges": 3
+  }
+}
