@@ -1,0 +1,23 @@
+{
+  "id": "src-004",
+  "title": "유성구 보건소 '유성이의 튼튼스쿨' 어린이 건강체험 프로그램 (5~7세)",
+  "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774",
+  "snippet": "유성구 보건소 내 어린이 건강체험관에서 5~7세 대상 '유성이의 튼튼스쿨' 운영. 탄생·감염·위생·구강·흡연음주예방·안전·신체활동·영양 8개 테마 체험형 교육. 신생아 모형 체험, 손 씻기 체험, 음주 고글 체험, 신체활동 등. 상반기 모집 마감, 하반기는 8/19~11/27 운영 예정(7/20부터 유성구청 홈페이지 선착순 신청).",
+  "source_name": "시사저널",
+  "language": "ko",
+  "discovered_date": "2026-05-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유성구 보건소 주최 어린이 건강체험 프로그램 신규 발견. 이전 14일간 보고서에 해당 프로그램 기록 없음. 공공기관(보건소) 주최 어린이 프로그램으로 추적 대상 3종(공공기관 행사)에 해당.",
+  "entities": [
+    { "temp_id": "temp-002", "type": "Event", "name": "유성이의 튼튼스쿨", "properties": { "start_date": "2026-상반기", "venue": "유성구 보건소 어린이 건강체험관", "fee": "무료 (추정)", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["유아"], "kid_friendly_score": 0.85, "distance_from_anchor_m": 5000, "ring": "ring-car" } },
+    { "temp_id": "temp-003", "type": "Venue", "name": "유성구 보건소 어린이 건강체험관", "properties": { "dong": "원신흥동", "venue_type": "보건소" } },
+    { "temp_id": "temp-004", "type": "Organization", "name": "유성구 보건소", "properties": { "org_type": "보건소" } }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "hostsAt", "object": "temp-003" },
+    { "subject": "temp-002", "predicate": "organizedBy", "object": "temp-004" },
+    { "subject": "temp-002", "predicate": "targetsAgeGroup", "object": "age-toddler" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "대전 오월드 5월 말까지 재개장 불가 확정 — 금강환경청 사용 중지 + 입점업소 공식 통보",
+  "url": "https://www.news1.kr/local/daejeon-chungnam/6149846",
+  "snippet": "대전도시공사가 오월드 입점 11개 업소에 5월 말까지 재개장 불가를 공식 통보했다. 금강유역환경청의 동물원 시설(주랜드) 사용 중지 명령이 근거. 기후에너지환경부 실사와 개장 승인을 거쳐야 재개장 가능. 재개장 판단 시점은 5월 하순으로 예정.",
+  "source_name": "뉴스1",
+  "language": "ko",
+  "discovered_date": "2026-05-07",
+  "tag": "update",
+  "related_report": "2026-05-06",
+  "related_item": "src-001 (2026-05-06)",
+  "tag_reason": "어제 '재개장 검토 중(불확실)'이었던 대전 오월드가 오늘 복수 매체(뉴스1·인사이트·금강일보·대전MBC·문화일보)를 통해 '5월 말까지 재개장 불가'로 확정. 어제의 대전일보 '5월 재개장 검토' 보도와 상충되던 부분이 '불가' 쪽으로 정리됨.",
+  "entities": [
+    { "id": "ent-venue-021", "type": "Venue", "name": "대전 오월드", "role": "휴장 시설" },
+    { "id": "ent-org-019", "type": "Organization", "name": "대전도시공사", "role": "운영사" },
+    { "temp_id": "temp-001", "type": "Organization", "name": "금강유역환경청", "role": "사용 중지 명령 발령 기관" }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "regulates", "object": "ent-venue-021" },
+    { "subject": "ent-org-019", "predicate": "operates", "object": "ent-venue-021" }
+  ]
+}

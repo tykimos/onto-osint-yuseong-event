@@ -1,0 +1,162 @@
+{
+  "date": "2026-05-07",
+  "collected_at": "2026-05-07T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": [
+    "대전 오월드 재개장",
+    "국립중앙과학관 알라딘",
+    "초능력 히어로 박람회",
+    "유성구 보건소 어린이",
+    "관평도서관 프로그램"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:01+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "서울 중심 결과만 반환, 유성구 특정 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 가족뮤지컬 알라딘 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:02+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "뮤지컬 〈알라딘〉 한국 초연 (ALADDIN The Musical) | NOL 티켓", "url": "https://tickets.interpark.com/goods/24012498", "snippet": "알라딘 뮤지컬 전국 순회 공연 정보", "source_name": "인터파크 티켓" },
+        { "title": "국립중앙과학관 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사 안내 페이지", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:03+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔할 수 있는 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "한밭대학교 근처 덕명동 대형카페 레포레스트", "source_name": "웰페어헬로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 도서관 프로그램 어린이 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:04+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 도서관 통합 포털", "source_name": "유성구통합도서관" },
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "도서관 행사 프로그램 신청 페이지", "source_name": "유성구통합도서관" },
+        { "title": "유성구, 지역작가와 함께하는 특별한 만남 '지역작가 인 도서관' 운영", "url": "https://pedien.com/html/view.php?idx=1014924", "snippet": "유성구 6개 도서관 순회 지역작가 프로그램", "source_name": "페디앙" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 오월드 재개장 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:05+09:00",
+      "result_count": 6,
+      "results": [
+        { "title": "'늑구 탈출 후폭풍' 대전 오월드, 5월 말까지 휴장 연장한다", "url": "https://www.insight.co.kr/news/551937", "snippet": "대전도시공사가 오월드 입점업소에 5월 말까지 재개장 불가 통보", "source_name": "인사이트" },
+        { "title": "'늑구' 탈출 대전 오월드, 5월 한 달간 문 닫는다", "url": "https://news.nate.com/view/20260427n29559", "snippet": "5월 황금연휴 포함 한 달간 휴장 연장", "source_name": "네이트뉴스" },
+        { "title": "늑구 탈출 여파 길어진다…대전 오월드, '5월 재개장' 어려울 듯", "url": "https://www.mt.co.kr/society/2026/04/27/2026042714451851213", "snippet": "5월 말까지 재개장 불가 상황", "source_name": "머니투데이" },
+        { "title": "'늑구' 탈출 대전 오월드 5월 재개장 불가…입점업소 특수 기대 난망", "url": "https://www.news1.kr/local/daejeon-chungnam/6149846", "snippet": "금강유역환경청 사용 중지 명령 + 재개장 5월 하순 판단", "source_name": "뉴스1" },
+        { "title": "오월드, 입점 업체에 5월 말까지 재개장 불가 통보", "url": "https://tjmbc.co.kr/NewsArticle/837502", "snippet": "대전MBC 보도 — 입점 업체 공식 통보", "source_name": "대전MBC" },
+        { "title": "'임시 휴장' 대전 오월드 재개장 일정은?", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1155607", "snippet": "금강일보 — 재개장 판단 시점 5월 하순 예정", "source_name": "금강일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 복지관 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:06+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/?page_id=13027", "snippet": "유성구 보건소 홈페이지", "source_name": "유성구청" },
+        { "title": "다함께 더좋은 유성 대전광역시 유성구", "url": "https://www.yuseong.go.kr/", "snippet": "유성구청 메인 포털", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 5월 행사 가정의달 2026",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:07+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립중앙과학관 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사 공지 목록", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "국립중앙과학관 메인 페이지", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 2026년 5월 프로그램",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:08+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대 별축제", "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44", "snippet": "별축제 정보 (종료)", "source_name": "대전관광공사" },
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "대전시민천문대 공식 사이트 — 정상 운영 중", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 키즈카페 팝업 원데이클래스 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:09+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "유성구 특정 신규 팝업/키즈카페 정보 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "\"유성구\" \"5월\" 어린이 체험 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:10+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "유성구, 어린이 건강체험 프로그램 '유성이의 튼튼스쿨' 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "유성구 보건소 내 어린이 건강체험관, 5~7세 대상, 8개 테마 체험형 교육", "source_name": "시사저널" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 오월드 재개장 일정 2026년 5월 최신",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:11+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "금강환경청 한달간 사용중지 명령…'늑구 탈출' 대전오월드 5월 황금특수 못누린다", "url": "https://www.munhwa.com/article/11585405", "snippet": "기후에너지환경부 실사·개장 승인 이후 재개장", "source_name": "문화일보" },
+        { "title": "대전 오월드 늑대 탈출 사건", "url": "https://namu.wiki/w/%EB%8C%80%EC%A0%84%20%EC%98%A4%EC%9B%94%EB%93%9C%20%EB%8A%91%EB%8C%80%20%ED%83%88%EC%B6%9C%20%EC%82%AC%EA%B1%B4", "snippet": "나무위키 — 늑대 탈출 사건 종합 정리", "source_name": "나무위키" },
+        { "title": "대전 오월드", "url": "https://www.oworld.kr/", "snippet": "오월드 공식 사이트 — 임시 휴장 안내", "source_name": "오월드" },
+        { "title": "'임시 휴장' 대전 오월드 재개장 일정은?", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1155607", "snippet": "재개장 판단 시점 5월 하순", "source_name": "금강일보" },
+        { "title": "오월드, 입점 업체에 5월 말까지 재개장 불가 통보", "url": "https://tjmbc.co.kr/NewsArticle/837502", "snippet": "재개장 불가 공식 통보", "source_name": "대전MBC" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성 초능력 히어로 박람회 과학관 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-07T07:00:12+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립중앙과학관, 『잠든 영웅(히어로)을 깨워라』 대국민 초능력 품목(아이템) 수집 전 시작", "url": "https://idsn.co.kr/news/view/1065593651704268", "snippet": "국립중앙과학관 히어로 페스타 사전 캠페인 — 아이템 수집, 5월 특별 초청권 제공", "source_name": "IDSN" },
+        { "title": "2026 대한민국 과학축제 | 일정, 프로그램, 대전 행사 정보", "url": "https://www.scienceall.com/sciencefestival2026", "snippet": "2026 대한민국 과학축제 정보", "source_name": "사이언스올" }
+      ]
+    }
+  ]
+}

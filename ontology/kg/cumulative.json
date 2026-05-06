@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-07",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1420,9 +1420,26 @@
     { "subject": "ent-evt-025", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-06" },
     { "subject": "ent-venue-021", "predicate": "kidFriendlyScore", "object": "0.9", "type": "inferred", "confidence": 0.85, "added": "2026-05-06" }
   ],
+  "nodes_added_2026_05_07": [
+    { "id": "ent-evt-032", "type": "Event", "label": "유성이의 튼튼스쿨" },
+    { "id": "ent-venue-022", "type": "Venue", "label": "유성구 보건소 어린이 건강체험관" },
+    { "id": "ent-org-020", "type": "Organization", "label": "유성구 보건소" },
+    { "id": "ent-org-021", "type": "Organization", "label": "금강유역환경청" }
+  ],
+  "edges_added_2026_05_07": [
+    { "subject": "ent-evt-032", "predicate": "hostsAt", "object": "ent-venue-022", "type": "explicit", "confidence": 0.85, "added": "2026-05-07" },
+    { "subject": "ent-evt-032", "predicate": "organizedBy", "object": "ent-org-020", "type": "explicit", "confidence": 0.90, "added": "2026-05-07" },
+    { "subject": "ent-evt-032", "predicate": "targetsAgeGroup", "object": "age-toddler", "type": "explicit", "confidence": 0.85, "added": "2026-05-07" },
+    { "subject": "ent-venue-022", "predicate": "withinRing", "object": "ring-car", "type": "explicit", "confidence": 0.85, "added": "2026-05-07" },
+    { "subject": "ent-org-020", "predicate": "operates", "object": "ent-venue-022", "type": "explicit", "confidence": 0.90, "added": "2026-05-07" },
+    { "subject": "ent-org-021", "predicate": "regulates", "object": "ent-venue-021", "type": "explicit", "confidence": 0.90, "added": "2026-05-07" },
+    { "subject": "ent-evt-032", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.85, "added": "2026-05-07", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "ent-evt-025", "type": "inferred", "confidence": 0.85, "added": "2026-05-07", "rule": "same_venue_series" },
+    { "subject": "ent-venue-021", "predicate": "reopeningBlocked", "object": "금강유역환경청-사용중지명령", "type": "inferred", "confidence": 0.90, "added": "2026-05-07" }
+  ],
   "stats": {
-    "total_nodes": 96,
+    "total_nodes": 100,
     "total_edges": 10,
-    "total_triples": 199
+    "total_triples": 209
   }
 }

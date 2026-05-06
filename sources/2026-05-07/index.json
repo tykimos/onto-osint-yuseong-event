@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-07",
+  "total": 10,
+  "new": 1,
+  "reported": 6,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "대전 오월드 5월 말까지 재개장 불가 확정 — 금강환경청 사용 중지 + 입점업소 공식 통보",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6149846",
+      "tag": "update",
+      "related_report": "2026-05-06",
+      "entity_count": 3
+    },
+    {
+      "id": "src-002",
+      "title": "국립중앙과학관 가정의달 시리즈 — 5/9~10 가족뮤지컬 알라딘 D-2",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_report": "2026-05-06",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "국립중앙과학관 '잠든 영웅을 깨워라' 초능력 아이템 수집 캠페인 — 5/16~17 히어로 페스타 사전 행사",
+      "url": "https://idsn.co.kr/news/view/1065593651704268",
+      "tag": "update",
+      "related_report": "2026-04-30",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "유성구 보건소 '유성이의 튼튼스쿨' 어린이 건강체험 프로그램 (5~7세)",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "유성소방서 가정의 달 소방안전체험의 장 운영 중 (5월 내내)",
+      "url": "https://daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4462",
+      "tag": "reported",
+      "related_report": "2026-05-06",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "관평도서관 '그림책, 나만의 보물을 담다' 운영 중",
+      "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956",
+      "tag": "reported",
+      "related_report": "2026-05-06",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "아가·맘 행복교실 운영 중 (아가랑도서관, 전민동)",
+      "url": "https://lib.yuseong.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-06",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "유성구 지역작가 인(人) 도서관 5월 운영 중",
+      "url": "https://pedien.com/html/view.php?idx=1014924",
+      "tag": "reported",
+      "related_report": "2026-05-06",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "국립어린이과학관 탐이꿈이의 비밀실험실 운영 중 (~6/30)",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-06",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "대전시민천문대 상시 관측 프로그램 정상 운영 중 (화~일 14:00~22:00)",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-06",
+      "entity_count": 2
+    }
+  ]
+}

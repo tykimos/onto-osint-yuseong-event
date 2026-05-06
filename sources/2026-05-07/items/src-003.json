@@ -1,0 +1,20 @@
+{
+  "id": "src-003",
+  "title": "국립중앙과학관 '잠든 영웅을 깨워라' 초능력 아이템 수집 캠페인 — 5/16~17 히어로 페스타 사전 행사",
+  "url": "https://idsn.co.kr/news/view/1065593651704268",
+  "snippet": "국립중앙과학관이 5/16~17 '초능력 히어로 박람회(히어로 페스타)' 앞두고 '잠든 영웅을 깨워라' 대국민 초능력 아이템 수집 캠페인을 시작했다. 기증자에게 과학관 기념품과 히어로 페스타 특별 초청권 제공. 영화 속 히어로 초능력과 실제 첨단 기술의 연결을 보여주는 전시.",
+  "source_name": "IDSN",
+  "language": "ko",
+  "discovered_date": "2026-05-07",
+  "tag": "update",
+  "related_report": "2026-04-30",
+  "related_item": "ent-evt-026 (초능력 히어로 박람회)",
+  "tag_reason": "기존 추적 중인 히어로 박람회(5/16~17)의 사전 캠페인 발견. 아이템 수집 + 특별 초청권이라는 새 정보 포함.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-07",
+  "new_triples": [
+    { "subject": "ent-evt-032", "predicate": "hostsAt", "object": "ent-venue-022", "confidence": 0.85, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-evt-032", "predicate": "organizedBy", "object": "ent-org-020", "confidence": 0.90, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-evt-032", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.85, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-venue-022", "predicate": "locatedIn", "object": "dong-wonsinheung", "confidence": 0.80, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-venue-022", "predicate": "withinRing", "object": "ring-car", "confidence": 0.85, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-org-020", "predicate": "operates", "object": "ent-venue-022", "confidence": 0.90, "type": "explicit", "source_id": "src-004" },
+    { "subject": "ent-org-021", "predicate": "regulates", "object": "ent-venue-021", "confidence": 0.90, "type": "explicit", "source_id": "src-001" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-venue-021", "predicate": "status", "object": "5월말까지재개장불가확정", "confidence": 0.95, "type": "explicit", "source_id": "src-001", "previous_value": "임시휴장-재개장검토중" },
+    { "subject": "ent-evt-025", "predicate": "status", "object": "D-2", "confidence": 0.99, "type": "explicit", "source_id": "src-002", "previous_value": "D-3" },
+    { "subject": "ent-evt-026", "predicate": "preCampaign", "object": "잠든영웅을깨워라-아이템수집", "confidence": 0.85, "type": "explicit", "source_id": "src-003" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-032", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "note": "보건소 주최 어린이 대상 프로그램" },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "ent-evt-025", "confidence": 0.85, "type": "inferred", "rule": "same_venue_series", "note": "동일 venue(국립중앙과학관) + 동일 주최 + 가정의달 시리즈" },
+    { "subject": "ent-venue-021", "predicate": "reopeningBlocked", "object": "금강유역환경청-사용중지명령", "confidence": 0.90, "type": "inferred", "note": "환경청 사용 중지 명령이 재개장의 법적 장애물" }
+  ],
+  "stats": {
+    "new_nodes": 4,
+    "new_edges": 7,
+    "inferred_edges": 3
+  }
+}

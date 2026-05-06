@@ -1,0 +1,21 @@
+{
+  "id": "src-002",
+  "title": "국립중앙과학관 가정의달 시리즈 — 5/9~10 가족뮤지컬 알라딘 D-2",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "가족뮤지컬 알라딘이 5/9(금)~10(토) 국립중앙과학관 사이언스홀에서 공연 예정. D-2 진입. 가정의달 시리즈 3번째 행사 (동심로그인 5/1~3 → 어린이한마당 5/5 → 알라딘 5/9~10).",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-07",
+  "tag": "update",
+  "related_report": "2026-05-06",
+  "related_item": "src-002 (2026-05-06)",
+  "tag_reason": "D-3에서 D-2로 상태 전환. 실질적 새 정보는 없으나 마감 임박 카운트다운 업데이트.",
+  "entities": [
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

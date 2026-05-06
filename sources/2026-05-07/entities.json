@@ -1,0 +1,95 @@
+{
+  "date": "2026-05-07",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "금강유역환경청",
+      "properties": { "org_type": "중앙행정기관", "role": "대전 오월드 동물원 사용 중지 명령 발령" },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "유성이의 튼튼스쿨",
+      "properties": {
+        "venue": "유성구 보건소 어린이 건강체험관",
+        "dong": "원신흥동",
+        "distance_from_anchor_m": 5000,
+        "ring": "ring-car",
+        "host": "유성구 보건소",
+        "fee": "무료 (추정)",
+        "registration_required": true,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아"],
+        "kid_friendly_score": 0.85,
+        "themes": "탄생·감염·위생·구강·흡연음주예방·안전·신체활동·영양 8테마",
+        "status": "상반기 모집 마감, 하반기 8/19~11/27",
+        "source_url": "https://www.sisajournal.com/news/articleView.html?idxno=371774"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1,
+      "distance_estimation_basis": "유성구 보건소 — 유성구청 인근(원신흥동), 용성로20에서 차량 약 10분"
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "유성구 보건소 어린이 건강체험관",
+      "properties": { "dong": "원신흥동", "venue_type": "보건소", "distance_from_anchor_m": 5000, "ring": "ring-car" },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "유성구 보건소",
+      "properties": { "org_type": "보건소" },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-021",
+      "type": "Venue",
+      "name": "대전 오월드",
+      "properties": { "status": "5월 말까지 재개장 불가 확정" },
+      "source_ids": ["src-001"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-025",
+      "type": "Event",
+      "name": "가족뮤지컬 알라딘",
+      "properties": { "status": "D-2" },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-026",
+      "type": "Event",
+      "name": "초능력 히어로 박람회",
+      "properties": { "pre_campaign": "잠든 영웅을 깨워라 아이템 수집", "special_ticket": true },
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "regulates", "object": "ent-venue-021", "source_ids": ["src-001"], "confidence": 0.90 },
+    { "subject": "temp-002", "predicate": "hostsAt", "object": "temp-003", "source_ids": ["src-004"], "confidence": 0.85 },
+    { "subject": "temp-002", "predicate": "organizedBy", "object": "temp-004", "source_ids": ["src-004"], "confidence": 0.90 },
+    { "subject": "temp-002", "predicate": "targetsAgeGroup", "object": "age-toddler", "source_ids": ["src-004"], "confidence": 0.85 }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 4,
+    "matched_entities": 3,
+    "total_relations": 4
+  }
+}
