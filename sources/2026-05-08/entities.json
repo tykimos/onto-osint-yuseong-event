@@ -1,0 +1,98 @@
+{
+  "date": "2026-05-08",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "제5회 유성봄꽃전시회",
+      "properties": {
+        "start_date": "2026-05-08",
+        "end_date": "2026-05-31",
+        "venue": "유림공원 일원",
+        "dong": "어은동",
+        "address": "대전 유성구 어은동 유림공원",
+        "distance_from_anchor_m": 3800,
+        "distance_estimation_basis": "유림공원은 어은동 소재, 용성로20(전민동)에서 남서쪽 약 3.8km. 자동차 10분 거리.",
+        "ring": "ring-car",
+        "host": "유성구(유성구청)",
+        "fee": "무료",
+        "registration_required": false,
+        "indoor_outdoor": "야외",
+        "target_age_group": ["전연령가족"],
+        "kid_friendly_score": 0.7,
+        "kid_friendly_basis": "꽃 전시·포토존은 전연령 대상이나 어린이 특화 프로그램은 미확인. 카네이션 포토존은 가정의 달 가족 대상. 공원 산책은 영유아~가족 모두 가능.",
+        "weather_dependency": "야외 전시 — 우천 시 관람 불편",
+        "programs": ["풍차 꽃 조형물+수국", "라벤더 포토존", "수변 델피늄", "어은교 꽃다리", "카네이션 포토존"],
+        "scale": "50여 종, 8만여 본 봄꽃",
+        "source_url": "https://news.nate.com/view/20260430n25212",
+        "additional_sources": ["https://v.daum.net/v/20260503151008346"]
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "유림공원",
+      "properties": {
+        "dong": "어은동",
+        "address": "대전 유성구 어은동 유림공원",
+        "venue_type": "공원",
+        "distance_from_anchor_m": 3800,
+        "ring": "ring-car",
+        "parking": true,
+        "stroller_accessible": true,
+        "kids_zone": false,
+        "indoor_outdoor": "야외"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "카네이션 포토존",
+      "properties": {
+        "category": "체험·포토",
+        "description": "가정의 달을 맞아 부모와 자녀가 함께 추억을 남길 수 있는 포토존",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.75,
+        "event_parent": "temp-001"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-001",
+      "predicate": "hostsAt",
+      "object": "temp-002",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "organizedBy",
+      "object": "ent-org-001",
+      "source_ids": ["src-001"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "featuresActivity",
+      "object": "temp-003",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "total_entities": 3,
+    "new_entities": 3,
+    "matched_entities": 0,
+    "total_relations": 3
+  }
+}

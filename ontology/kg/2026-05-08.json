@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-08",
+  "new_nodes": [
+    { "id": "ent-evt-033", "type": "Event", "label": "제5회 유성봄꽃전시회" },
+    { "id": "ent-venue-023", "type": "Venue", "label": "유림공원" },
+    { "id": "ent-act-014", "type": "Activity", "label": "카네이션 포토존" }
+  ],
+  "new_triples": [
+    { "subject": "ent-evt-033", "predicate": "hostsAt", "object": "ent-venue-023", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-033", "predicate": "organizedBy", "object": "ent-org-001", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-evt-033", "predicate": "featuresActivity", "object": "ent-act-014", "confidence": 0.9, "type": "explicit" },
+    { "subject": "ent-evt-033", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-venue-023", "predicate": "locatedIn", "object": "dong-eoeun", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-venue-023", "predicate": "withinRing", "object": "ring-car", "confidence": 0.9, "type": "explicit" }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    { "subject": "ent-evt-033", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "note": "유성구청(지자체) 주최 가족 대상 행사" },
+    { "subject": "ent-venue-023", "predicate": "nearby", "object": "ent-venue-021", "confidence": 0.8, "type": "inferred", "rule": "proximity", "note": "유림공원(어은동)과 오월드(어은동) 동일 동 소재, ~1km 추정" },
+    { "subject": "ent-evt-033", "predicate": "rainyFallbackFor", "object": "ent-evt-025", "confidence": 0.3, "type": "inferred", "rule": "indoor_rainy_fallback", "note": "봄꽃전시회는 야외 → 우천 시 대체 불가. 알라딘은 실내. 역방향만 성립." },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "ent-evt-025", "confidence": 0.90, "type": "inferred", "rule": "same_venue_series", "note": "신뢰도 상향 0.85→0.90 — 정부 보도자료로 시리즈 확정" }
+  ],
+  "stats": {
+    "new_nodes": 3,
+    "new_edges": 6,
+    "inferred_edges": 4
+  }
+}

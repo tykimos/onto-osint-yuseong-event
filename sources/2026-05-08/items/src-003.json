@@ -1,0 +1,18 @@
+{
+  "id": "src-003",
+  "title": "초능력 히어로 박람회 사전 캠페인 — 기증자 보상 상세 확인",
+  "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115",
+  "snippet": "국립중앙과학관 '잠든 영웅을 깨워라' 대국민 초능력 아이템 수집 캠페인 진행 중. 기증자에게 과학관 기념품 + 5월 '초능력 영웅 축제(히어로 페스타)' 특별 초청권 + 7월 '초능력 비밀 교실(비밀 아카데미)' 사전 체험 특권 제공.",
+  "source_name": "대한민국 정책브리핑",
+  "language": "ko",
+  "discovered_date": "2026-05-08",
+  "tag": "update",
+  "related_report": "2026-05-07",
+  "related_item": "ent-evt-026",
+  "tag_reason": "어제 발견된 사전 캠페인의 보상 상세 내용(정부 공식 보도자료)이 추가 확인됨. 7월 비밀 아카데미 사전 체험 특권은 신규 정보.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

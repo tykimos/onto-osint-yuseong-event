@@ -1,0 +1,24 @@
+{
+  "id": "src-001",
+  "title": "제5회 유성봄꽃전시회 개막 (5/8~5/31, 유림공원)",
+  "url": "https://news.nate.com/view/20260430n25212",
+  "snippet": "대전 유성구가 8~31일 유림공원 일원에서 '제5회 유성봄꽃전시회'를 개최한다. 봄꽃·빛·정원을 주제로 50여 종, 8만여 본의 봄꽃을 활용해 도심 속 정원으로 조성했다. 유림공원 메인광장에는 이국적인 풍차 꽃 조형물과 수국, 화훼원에는 라벤더 포토존, 반도지에는 수변 델피늄, 어은교를 꽃다리로 장식했다. 전시장 한편에는 가정의 달을 맞아 부모와 자녀가 함께 추억을 남길 수 있는 '카네이션 포토존'도 마련했다.",
+  "source_name": "네이트뉴스(연합뉴스)",
+  "language": "ko",
+  "discovered_date": "2026-05-08",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 동일/유사 항목 없음. 유성봄꽃전시회는 오늘(5/8) 개막하는 신규 행사.",
+  "entities": [
+    { "id": "temp-001", "type": "Event", "name": "제5회 유성봄꽃전시회", "role": "행사" },
+    { "id": "temp-002", "type": "Venue", "name": "유림공원", "role": "개최장소" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구(유성구청)", "role": "주최" },
+    { "id": "temp-003", "type": "Activity", "name": "카네이션 포토존", "role": "프로그램" }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "hostsAt", "object": "temp-002" },
+    { "subject": "temp-001", "predicate": "organizedBy", "object": "ent-org-001" },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "temp-003" }
+  ]
+}

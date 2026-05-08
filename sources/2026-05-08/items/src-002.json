@@ -1,0 +1,18 @@
+{
+  "id": "src-002",
+  "title": "가족뮤지컬 알라딘 D-1 — 내일(5/9) 개막",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 가정의 달 시리즈 3번째 행사인 가족뮤지컬 알라딘이 내일(5/9) 개막한다. 5/9(금)~10(토) 사이언스홀에서 공연. 오늘이 사실상 온라인 예매 마지막 기회.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-08",
+  "tag": "update",
+  "related_report": "2026-05-07",
+  "related_item": "ent-evt-025",
+  "tag_reason": "어제 D-2 → 오늘 D-1 진입. 예매 마감 최종일.",
+  "entities": [
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

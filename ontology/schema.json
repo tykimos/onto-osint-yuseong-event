@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-08",
   "classes": [
     {
       "id": "Entity",
@@ -202,6 +202,13 @@
       "target": "Event(ent-evt-032 유성이의튼튼스쿨), Venue(ent-venue-022 유성구보건소어린이건강체험관), Organization(ent-org-020 유성구보건소, ent-org-021 금강유역환경청)",
       "reason": "유성구 보건소 어린이 건강체험 프로그램 '유성이의 튼튼스쿨' 신규 발견. 오월드 재개장 불가 확정으로 금강유역환경청(사용 중지 명령 발령 기관) 추가. 알라딘 D-2 진입, 히어로 박람회 사전 캠페인 속성 업데이트.",
       "source_ids": ["src-001", "src-003", "src-004"]
+    },
+    {
+      "date": "2026-05-08",
+      "action": "add_instances",
+      "target": "Event(ent-evt-033 유성봄꽃전시회), Venue(ent-venue-023 유림공원), Activity(ent-act-014 카네이션포토존)",
+      "reason": "제5회 유성봄꽃전시회(5/8~5/31) 오늘 개막. 유림공원(어은동)에서 50여 종 8만여 본 봄꽃 전시. 카네이션 포토존 가정의달 가족 프로그램. 알라딘 D-1 진입, 히어로 캠페인 보상 상세(정부 보도자료) 확인.",
+      "source_ids": ["src-001", "src-002", "src-003"]
     }
   ]
 }

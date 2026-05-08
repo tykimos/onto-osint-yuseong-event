@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -159,5 +159,10 @@
     { "id": "ent-org-020", "type": "Organization", "name": "유성구 보건소", "properties": { "org_type": "보건소" }, "first_seen": "2026-05-07", "last_seen": "2026-05-07", "mention_count": 1 },
     { "id": "ent-org-021", "type": "Organization", "name": "금강유역환경청", "properties": { "org_type": "중앙행정기관", "role": "대전 오월드 동물원 사용 중지 명령 발령" }, "first_seen": "2026-05-07", "last_seen": "2026-05-07", "mention_count": 3 }
   ],
-  "total_count": 112
+  "new_entities_2026_05_08": [
+    { "id": "ent-evt-033", "type": "Event", "name": "제5회 유성봄꽃전시회", "properties": { "start_date": "2026-05-08", "end_date": "2026-05-31", "venue": "유림공원 일원", "dong": "어은동", "distance_from_anchor_m": 3800, "ring": "ring-car", "host": "유성구(유성구청)", "fee": "무료", "registration_required": false, "indoor_outdoor": "야외", "target_age_group": ["전연령가족"], "kid_friendly_score": 0.7, "programs": ["풍차 꽃 조형물+수국", "라벤더 포토존", "수변 델피늄", "어은교 꽃다리", "카네이션 포토존"], "scale": "50여 종, 8만여 본", "source_url": "https://news.nate.com/view/20260430n25212" }, "first_seen": "2026-05-08", "last_seen": "2026-05-08", "mention_count": 2 },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "properties": { "dong": "어은동", "address": "대전 유성구 어은동 유림공원", "venue_type": "공원", "distance_from_anchor_m": 3800, "ring": "ring-car", "parking": true, "stroller_accessible": true, "indoor_outdoor": "야외" }, "first_seen": "2026-05-08", "last_seen": "2026-05-08", "mention_count": 2 },
+    { "id": "ent-act-014", "type": "Activity", "name": "카네이션 포토존", "properties": { "category": "체험·포토", "description": "가정의 달 부모·자녀 추억 포토존", "target_age": "전연령가족", "kid_friendly_score": 0.75, "event_parent": "ent-evt-033" }, "first_seen": "2026-05-08", "last_seen": "2026-05-08", "mention_count": 1 }
+  ],
+  "total_count": 115
 }

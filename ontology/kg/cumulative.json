@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1437,9 +1437,25 @@
     { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "ent-evt-025", "type": "inferred", "confidence": 0.85, "added": "2026-05-07", "rule": "same_venue_series" },
     { "subject": "ent-venue-021", "predicate": "reopeningBlocked", "object": "금강유역환경청-사용중지명령", "type": "inferred", "confidence": 0.90, "added": "2026-05-07" }
   ],
+  "nodes_added_2026_05_08": [
+    { "id": "ent-evt-033", "type": "Event", "label": "제5회 유성봄꽃전시회" },
+    { "id": "ent-venue-023", "type": "Venue", "label": "유림공원" },
+    { "id": "ent-act-014", "type": "Activity", "label": "카네이션 포토존" }
+  ],
+  "edges_added_2026_05_08": [
+    { "subject": "ent-evt-033", "predicate": "hostsAt", "object": "ent-venue-023", "type": "explicit", "confidence": 0.95, "added": "2026-05-08" },
+    { "subject": "ent-evt-033", "predicate": "organizedBy", "object": "ent-org-001", "type": "explicit", "confidence": 0.85, "added": "2026-05-08" },
+    { "subject": "ent-evt-033", "predicate": "featuresActivity", "object": "ent-act-014", "type": "explicit", "confidence": 0.9, "added": "2026-05-08" },
+    { "subject": "ent-evt-033", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.85, "added": "2026-05-08" },
+    { "subject": "ent-venue-023", "predicate": "locatedIn", "object": "dong-eoeun", "type": "explicit", "confidence": 0.95, "added": "2026-05-08" },
+    { "subject": "ent-venue-023", "predicate": "withinRing", "object": "ring-car", "type": "explicit", "confidence": 0.9, "added": "2026-05-08" },
+    { "subject": "ent-evt-033", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.85, "added": "2026-05-08", "rule": "public_institution_kid_event" },
+    { "subject": "ent-venue-023", "predicate": "nearby", "object": "ent-venue-021", "type": "inferred", "confidence": 0.8, "added": "2026-05-08", "rule": "proximity", "note": "유림공원(어은동)↔오월드(어은동) 동일 동 소재" },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "ent-evt-025", "type": "inferred", "confidence": 0.90, "added": "2026-05-08", "note": "정부 보도자료로 시리즈 확정, 0.85→0.90 상향" }
+  ],
   "stats": {
-    "total_nodes": 100,
+    "total_nodes": 103,
     "total_edges": 10,
-    "total_triples": 209
+    "total_triples": 219
   }
 }
