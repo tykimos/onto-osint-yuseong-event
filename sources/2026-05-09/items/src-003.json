@@ -1,0 +1,22 @@
+{
+  "id": "src-003",
+  "title": "유성소방서 가정의 달 소방안전체험 — 솔로몬파크 체험부스 운영 확인",
+  "url": "https://www.gocj.net/news/articleView.html?idxno=133782",
+  "snippet": "유성소방서가 5월 가정의 달을 맞아 원촌동 솔로몬파크에서 학생·청소년 대상 소방안전체험부스를 운영. 이동안전체험차량도 함께 운영하여 화재·지진·교통안전 대피 체험 제공.",
+  "source_name": "대전시티저널",
+  "language": "ko",
+  "discovered_date": "2026-05-09",
+  "tag": "update",
+  "related_report": "2026-05-08",
+  "related_item": "src-005 (2026-05-08)",
+  "tag_reason": "이전에는 '가정의 달 소방안전체험의 장 운영 중'으로만 보도. 오늘 대전시티저널에서 솔로몬파크(원촌동) 체험부스 운영과 이동안전체험차량 동시 투입이라는 구체적 장소·장비 정보 추가.",
+  "entities": [
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장", "role": "솔로몬파크 체험부스" },
+    { "id": "ent-org-015", "type": "Organization", "name": "대전유성소방서", "role": "주최" },
+    { "id": "temp-venue-024", "type": "Venue", "name": "솔로몬파크 (원촌동)", "role": "체험부스 운영 장소" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-022", "predicate": "hostsAt", "object": "temp-venue-024" },
+    { "subject": "ent-evt-022", "predicate": "organizedBy", "object": "ent-org-015" }
+  ]
+}

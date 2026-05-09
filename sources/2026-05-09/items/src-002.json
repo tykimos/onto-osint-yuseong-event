@@ -1,0 +1,24 @@
+{
+  "id": "src-002",
+  "title": "초능력 히어로 박람회 (5/16~17) 상세 프로그램 공개 — 입학테스트·AI로봇AR훈련·코스프레퍼레이드",
+  "url": "https://www.hellodd.com/news/articleView.html?idxno=111696",
+  "snippet": "국립중앙과학관이 5월 16~17일 사이언스터널에서 '초능력 히어로 박람회: 비밀 아카데미 신입 요원 모집'을 개최한다. 입학 테스트, AI·로봇·AR 체험 '초능력 훈련', 히어로 코스프레 기념촬영 '아카데미 멘토단 방문', O/X 퀴즈쇼, 창의나래관 퍼레이드가 상설 운영된다.",
+  "source_name": "헬로디디",
+  "language": "ko",
+  "discovered_date": "2026-05-09",
+  "tag": "update",
+  "related_report": "2026-05-08",
+  "related_item": "src-003 (2026-05-08)",
+  "tag_reason": "이전에는 사전 캠페인(잠든 영웅을 깨워라)과 기증자 보상만 확인. 오늘 헬로디디 보도로 본 행사의 상세 프로그램(체험 내용, 퍼레이드, 퀴즈쇼 등)이 최초 공개됨.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회", "role": "상세 프로그램 공개" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관 사이언스터널", "role": "개최장소" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "temp-act-015", "type": "Activity", "name": "히어로 박람회 체험 프로그램", "role": "입학테스트·초능력훈련·코스프레·퀴즈쇼·퍼레이드" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "ent-evt-026", "predicate": "featuresActivity", "object": "temp-act-015" }
+  ]
+}

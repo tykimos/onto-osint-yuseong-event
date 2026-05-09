@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-09",
+  "new_triples": [
+    { "subject": "ent-evt-026", "predicate": "featuresActivity", "object": "ent-act-015", "confidence": 0.9, "type": "explicit", "source_id": "src-002" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-025", "predicate": "status", "object": "D-day 개막", "confidence": 0.99, "type": "explicit", "source_id": "src-001", "previous": "D-1 예매 마감" },
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-7 프로그램 상세 공개", "confidence": 0.95, "type": "explicit", "source_id": "src-002", "previous": "사전 캠페인 중" },
+    { "subject": "ent-evt-022", "predicate": "venue_detail", "object": "원촌동 솔로몬파크 체험부스 + 이동안전체험차량", "confidence": 0.85, "type": "explicit", "source_id": "src-003", "previous": "5월 운영 중" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-025", "predicate": "visitCombo", "object": "ent-evt-033", "confidence": 0.7, "type": "inferred", "rule": "same_dong_combo", "note": "알라딘(도룡동) + 봄꽃전시회(어은동)는 다른 동이지만 양쪽 모두 ring-car 내, 같은 날 방문 가능" },
+    { "subject": "ent-act-015", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-act-015", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-026", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.9, "type": "inferred", "rule": "operator_kid_friendliness", "note": "과학관 운영 체험 행사, 프로그램 상세 확인으로 확정" }
+  ],
+  "stats": {
+    "new_nodes": 1,
+    "new_edges": 1,
+    "inferred_edges": 4
+  }
+}

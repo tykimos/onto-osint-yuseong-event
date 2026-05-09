@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "가족뮤지컬 알라딘 D-day — 오늘 개막 (5/9~10, 국립중앙과학관 사이언스홀)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 가정의 달 시리즈 3번째 행사인 가족뮤지컬 알라딘이 5월 9일(금) 개막. 10일(토)까지 2일간 사이언스홀에서 공연.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-09",
+  "tag": "update",
+  "related_report": "2026-05-08",
+  "related_item": "src-002 (2026-05-08)",
+  "tag_reason": "어제 D-1이었던 알라딘이 오늘 D-day로 진입. 개막일 상태 전환.",
+  "entities": [
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘", "role": "D-day 개막" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "개최장소" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-025", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

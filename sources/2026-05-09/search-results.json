@@ -1,0 +1,144 @@
+{
+  "date": "2026-05-09",
+  "collected_at": "2026-05-09T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 48,
+  "expanded_keywords": ["국립중앙과학관 가정의달", "초능력 히어로 박람회", "유성봄꽃전시회", "가족뮤지컬 알라딘", "대전 오월드"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:01+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "2026 어린이날 행사 총정리", "url": "https://kokorang.com/2026-childrens-day-seoul-events-guide/", "snippet": "서울 중심 어린이날 행사 총정리", "source_name": "코코랑" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 가족뮤지컬 알라딘 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:02+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "행사안내 | 국립중앙과학관", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내 목록", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:03+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전 유성구 카페 레포레스트", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "한밭대학교 인근 덕명동 대형카페", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 어린이 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:04+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구통합도서관 프로그램 안내", "source_name": "유성구통합도서관" },
+        { "title": "관평도서관 그림책 프로그램", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "그림책, 나만의 보물을 담다", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 5월 행사 2026 가정의달",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:05+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "국립중앙과학관 공식 사이트", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 봄꽃전시회 유림공원 2026",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:06+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전 유성구 명소 여행, 다시 찾아온 유성의 유림공원 봄꽃나들이", "url": "https://www.welfarehello.com/community/hometownNews/faf70a22-9d1b-4b94-a6f2-72fa4d6d4654", "snippet": "유림공원 봄꽃 전시회 안내", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "초능력 히어로 박람회 국립중앙과학관 잠든 영웅을 깨워라 2026",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:07+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "슈퍼파워 히어로 변신!···중앙과학관, '초능력 히어로 박람회' 개최", "url": "https://www.hellodd.com/news/articleView.html?idxno=111696", "snippet": "국립중앙과학관이 5월 16~17일 초능력 히어로 박람회를 개최한다. 입학 테스트, 초능력 훈련(AI·로봇·AR), 코스프레 퍼레이드 등.", "source_name": "헬로디디" },
+        { "title": "국립중앙과학관 잠든 영웅을 깨워라", "url": "https://idsn.co.kr/news/view/1065593651704268", "snippet": "대국민 초능력 아이템 수집 전", "source_name": "IDSN" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 오월드 재개장 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:08+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "'늑구 탈출 대전 오월드 5월 재개장 불가…입점업소 특수 기대 난망", "url": "https://www.news1.kr/local/daejeon-chungnam/6149846", "snippet": "5월 말까지 재개장 불가 통보", "source_name": "뉴스1" },
+        { "title": "오월드, 입점 업체에 5월 말까지 재개장 불가 통보", "url": "https://tjmbc.co.kr/NewsArticle/837502", "snippet": "대전 MBC 보도", "source_name": "대전MBC" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 소방서 체험 어린이 2026",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:09+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성소방서, 가정의 달 소방안전체험의 장 운영", "url": "https://www.gocj.net/news/articleView.html?idxno=133782", "snippet": "유성소방서 5월 가정의 달 소방안전체험부스 솔로몬파크 운영", "source_name": "대전시티저널" },
+        { "title": "소방체험안내 | 대전광역시 소방본부", "url": "https://daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4462", "snippet": "119시민체험센터 안내", "source_name": "대전광역시 소방본부" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 프로그램 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:10+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "대전시민천문대 공식 사이트", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 보건소 복지관 행사 어린이 2026",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:11+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구, 어린이 건강체험 프로그램 '유성이의 튼튼스쿨' 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "어린이 건강체험 프로그램", "source_name": "시사저널" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "용산동 전민동 관평동 가게 오픈 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-09T07:00:12+09:00",
+      "result_count": 10,
+      "results": []
+    }
+  ]
+}

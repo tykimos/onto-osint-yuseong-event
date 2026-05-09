@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-09",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-025",
+      "type": "Event",
+      "name": "가족뮤지컬 알라딘",
+      "properties": { "status": "D-day 개막", "start_date": "2026-05-09", "end_date": "2026-05-10", "venue": "국립중앙과학관 사이언스홀", "dong": "도룡동", "distance_from_anchor_m": 3000, "ring": "ring-car", "kid_friendly_score": 0.95, "indoor_outdoor": "실내" },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-026",
+      "type": "Event",
+      "name": "초능력 히어로 박람회",
+      "properties": { "status": "D-7 — 상세 프로그램 공개", "start_date": "2026-05-16", "end_date": "2026-05-17", "venue": "국립중앙과학관 사이언스터널", "dong": "도룡동", "distance_from_anchor_m": 3000, "ring": "ring-car", "kid_friendly_score": 0.9, "indoor_outdoor": "실내", "programs": ["입학 테스트", "초능력 훈련 (AI·로봇·AR)", "아카데미 멘토단 방문 (코스프레 기념촬영)", "O/X 퀴즈쇼", "아카데미 멘토단 퍼레이드 (창의나래관)"] },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-act-015",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "히어로 박람회 체험 프로그램",
+      "properties": { "category": "체험·교육·퍼레이드", "sub_programs": "입학테스트, AI·로봇·AR 초능력훈련, 코스프레 기념촬영, O/X 퀴즈쇼, 창의나래관 퍼레이드", "target_age": "초등저학년·초등고학년·전연령가족", "kid_friendly_score": 0.9, "event_parent": "ent-evt-026" },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-022",
+      "type": "Event",
+      "name": "가정의 달 소방안전체험의 장",
+      "properties": { "status": "운영 중 — 솔로몬파크 체험부스 운영 확인", "venue_detail": "원촌동 솔로몬파크", "programs": ["소방안전체험부스", "이동안전체험차량 (화재·지진·교통안전 대피)"] },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-venue-024",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "솔로몬파크",
+      "properties": { "dong": "원촌동", "venue_type": "공원·체험시설", "distance_from_anchor_m": 6000, "ring": "ring-car", "note": "유성구 외곽이나 소방체험 출장 장소로 활용" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-025", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-026", "predicate": "featuresActivity", "object": "temp-act-015", "source_ids": ["src-002"], "confidence": 0.9 },
+    { "subject": "ent-evt-022", "predicate": "hostsAt", "object": "temp-venue-024", "source_ids": ["src-003"], "confidence": 0.8 }
+  ],
+  "stats": {
+    "total_entities": 5,
+    "new_entities": 2,
+    "matched_entities": 3,
+    "total_relations": 4
+  }
+}

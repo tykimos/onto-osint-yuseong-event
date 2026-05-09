@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-08",
+  "last_updated": "2026-05-09",
   "classes": [
     {
       "id": "Entity",
@@ -208,6 +208,13 @@
       "action": "add_instances",
       "target": "Event(ent-evt-033 유성봄꽃전시회), Venue(ent-venue-023 유림공원), Activity(ent-act-014 카네이션포토존)",
       "reason": "제5회 유성봄꽃전시회(5/8~5/31) 오늘 개막. 유림공원(어은동)에서 50여 종 8만여 본 봄꽃 전시. 카네이션 포토존 가정의달 가족 프로그램. 알라딘 D-1 진입, 히어로 캠페인 보상 상세(정부 보도자료) 확인.",
+      "source_ids": ["src-001", "src-002", "src-003"]
+    },
+    {
+      "date": "2026-05-09",
+      "action": "add_instances",
+      "target": "Activity(ent-act-015 히어로박람회체험프로그램)",
+      "reason": "헬로디디 보도로 초능력 히어로 박람회(5/16~17) 상세 프로그램 최초 공개. 입학테스트·AI로봇AR훈련·코스프레·퀴즈쇼·퍼레이드 5개 프로그램 확인. 알라딘 D-day 개막, 소방서 솔로몬파크 체험부스 장소 구체화.",
       "source_ids": ["src-001", "src-002", "src-003"]
     }
   ]
