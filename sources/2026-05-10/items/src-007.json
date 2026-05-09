@@ -1,0 +1,20 @@
+{
+  "id": "src-007",
+  "title": "국립중앙과학관 행사안내 — 가족뮤지컬 알라딘",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "가족뮤지컬 알라딘 5/9~10 사이언스홀 공연. 오늘(5/10)이 마지막 공연일.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "reported",
+  "related_report": "2026-05-09",
+  "related_item": "ent-evt-025",
+  "tag_reason": "알라딘 D-day 정보는 어제(5/9) 이미 보고됨. 오늘은 마지막날 상태 전환만.",
+  "entities": [
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘", "role": "주 이벤트" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "개최장소" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-025", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

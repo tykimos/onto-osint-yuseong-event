@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-10",
+  "total": 8,
+  "new": 1,
+  "reported": 4,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'",
+      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779",
+      "tag": "update",
+      "related_report": "2026-05-04",
+      "entity_count": 8
+    },
+    {
+      "id": "src-002",
+      "title": "유성구, 유림공원서 펼쳐지는 힐링 축제 '유성온천문화축제'",
+      "url": "https://www.koreatimenews.com/news/article.html?no=1144920",
+      "tag": "update",
+      "related_report": "2026-05-04",
+      "entity_count": 6
+    },
+    {
+      "id": "src-003",
+      "title": "\"대전 유림공원 봄꽃 전시회로 놀러오세요\"",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2272873",
+      "tag": "update",
+      "related_report": "2026-05-08",
+      "entity_count": 4
+    },
+    {
+      "id": "src-004",
+      "title": "과기정통부 초능력 배우러 과학관으로 출동 『초능력 히어로 박람회』 개최",
+      "url": "https://newsseoul.co.kr/news/view/1065584409950991",
+      "tag": "reported",
+      "related_report": "2026-05-09",
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "대전 유성구, '생활밀착형 독서문화' 확산...도서관-지역 인프라 연계",
+      "url": "https://www.dailyan.com/news/article.html?no=765866",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-006",
+      "title": "2026 유성온천문화축제 > 축제.행사 | 대전관광",
+      "url": "https://daejeontour.co.kr/festival_djt/32",
+      "tag": "reported",
+      "related_report": "2026-05-04",
+      "entity_count": 3
+    },
+    {
+      "id": "src-007",
+      "title": "국립중앙과학관 행사안내 — 가족뮤지컬 알라딘",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_report": "2026-05-09",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "대전시민천문대 토요 별 음악회",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-09",
+      "entity_count": 2
+    }
+  ]
+}

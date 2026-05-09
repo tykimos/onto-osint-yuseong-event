@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-10",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -164,8 +164,14 @@
     { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "properties": { "dong": "어은동", "address": "대전 유성구 어은동 유림공원", "venue_type": "공원", "distance_from_anchor_m": 3800, "ring": "ring-car", "parking": true, "stroller_accessible": true, "indoor_outdoor": "야외" }, "first_seen": "2026-05-08", "last_seen": "2026-05-08", "mention_count": 2 },
     { "id": "ent-act-014", "type": "Activity", "name": "카네이션 포토존", "properties": { "category": "체험·포토", "description": "가정의 달 부모·자녀 추억 포토존", "target_age": "전연령가족", "kid_friendly_score": 0.75, "event_parent": "ent-evt-033" }, "first_seen": "2026-05-08", "last_seen": "2026-05-08", "mention_count": 1 }
   ],
-  "total_count": 116,
+  "total_count": 120,
   "new_entities_2026_05_09": [
     { "id": "ent-act-015", "type": "Activity", "name": "히어로 박람회 체험 프로그램", "properties": { "category": "체험·교육·퍼레이드", "sub_programs": "입학테스트, AI·로봇·AR 초능력훈련, 코스프레 기념촬영, O/X 퀴즈쇼, 창의나래관 퍼레이드", "target_age": "초등저학년·초등고학년·전연령가족", "kid_friendly_score": 0.9, "event_parent": "ent-evt-026" }, "first_seen": "2026-05-09", "last_seen": "2026-05-09", "mention_count": 1 }
+  ],
+  "new_entities_2026_05_10": [
+    { "id": "ent-act-016", "type": "Activity", "name": "드론·로봇 과학체험", "properties": { "category": "체험·과학", "description": "유성 과학도시 이미지, 유림공원 전역 운영", "target_age": "초등저학년·초등고학년", "kid_friendly_score": 0.9, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-10", "last_seen": "2026-05-10", "mention_count": 2 },
+    { "id": "ent-act-017", "type": "Activity", "name": "유성온천 문화목욕탕·족욕·향기체험", "properties": { "category": "힐링·체험", "description": "유림공원 서편, 테마형 온천수 족욕+온천향기 치유 미니돔+온천 향낭 만들기", "target_age": "전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-10", "last_seen": "2026-05-10", "mention_count": 2 },
+    { "id": "ent-act-018", "type": "Activity", "name": "뷰티플라워 헤어아트쇼", "properties": { "category": "공연·뷰티", "description": "유성구 미용협회 주관, 유림공원 동편광장 19시", "target_age": "전연령", "kid_friendly_score": 0.5, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-10", "last_seen": "2026-05-10", "mention_count": 1 },
+    { "id": "ent-act-019", "type": "Activity", "name": "에이플러스+퓨전국악 풍류 폐막공연", "properties": { "category": "공연", "description": "유림공원 동편 메인무대 20시, 축제 마무리 공연", "target_age": "전연령가족", "kid_friendly_score": 0.6, "event_parent": "ent-evt-021" }, "first_seen": "2026-05-10", "last_seen": "2026-05-10", "mention_count": 1 }
   ]
 }

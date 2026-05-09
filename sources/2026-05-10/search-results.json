@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-10",
+  "collected_at": "2026-05-10T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": ["유성온천문화축제", "유림공원", "가족뮤지컬 알라딘", "초능력 히어로 박람회", "유성봄꽃전시회", "대전시민천문대"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월 10일",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:00:01+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "2026 유성온천문화축제 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/32", "snippet": "유성구는 5월 8일부터 10일까지 3일간 유림공원 일원에서 2026 유성온천문화축제를 개최", "source_name": "대전관광공사" },
+        { "title": "유성구, 유림공원서 펼쳐지는 힐링 축제 '유성온천문화축제'", "url": "https://www.koreatimenews.com/news/article.html?no=1144920", "snippet": "공원형 축제로 재구성, 마음 치유 주제 힐링형 콘텐츠, 어린이 체험 프로그램 확대", "source_name": "코리아타임뉴스" },
+        { "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "마지막 날 10일에는 청소년 오케스트라·뮤직댄스 경연대회 결선·폐막 공연, 산책퍼레이드·버스킹", "source_name": "굿모닝충청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 가족뮤지컬 알라딘 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:00:10+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립중앙과학관 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "가족뮤지컬 알라딘 5/9~10 사이언스홀 공연", "source_name": "국립중앙과학관" },
+        { "title": "2026 라이브 가족뮤지컬 알라딘 전국 투어", "url": "https://tickets.interpark.com/goods/24012498", "snippet": "수원·포항·대구·남양주 순회 공연 일정", "source_name": "인터파크" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:00:20+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "한밭대학교 근처 덕명동 대형카페 레포레스트", "source_name": "웰로" },
+        { "title": "커피와유 유성구 카페", "url": "https://www.diningcode.com/profile.php?rid=SGfrx6IQCcbL", "snippet": "엑스포로625번길 46 위치 카페", "source_name": "다이닝코드" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 도서관 프로그램 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:00:30+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 도서관 프로그램 안내", "source_name": "유성구통합도서관" },
+        { "title": "대전 유성구, '생활밀착형 독서문화' 확산...도서관-지역 인프라 연계", "url": "https://www.dailyan.com/news/article.html?no=765866", "snippet": "전문 인재 활용 북큐레이션, 1도서관 1작가 북토크, 역사 산책 프로그램 운영 중", "source_name": "데일리연합" },
+        { "title": "유성구 '생활밀착형 독서문화' 확산", "url": "https://www.dominilbo.com/news/articleView.html?idxno=262086", "snippet": "도서관-지역 인프라 연계 프로그램 확대", "source_name": "충청도민일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 주말 축제 행사 2026년 5월 10일",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:00:40+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "2026 유성온천문화축제 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/32", "snippet": "5월 8~10일 유림공원 일원, 공원형 축제 재구성", "source_name": "대전관광공사" },
+        { "title": "2026 유성온천문화축제 공식사이트", "url": "http://ysfesta.com/", "snippet": "유림공원서 힐링 축제", "source_name": "유성온천문화축제" },
+        { "title": "행사안내 - 대전광역시", "url": "https://www.daejeon.go.kr/fvu/index.do", "snippet": "대전시 5월 행사 안내", "source_name": "대전광역시" },
+        { "title": "2026년 5월 전국 축제 일정 총정리", "url": "https://e.worldbigissue.com/entry/2026%EB%85%84-5%EC%9B%94-%EC%A0%84%EA%B5%AD-%EC%B6%95%EC%A0%9C-%EC%9D%BC%EC%A0%95-%EC%B4%9D%EC%A0%95%EB%A6%AC", "snippet": "유성온천문화축제 5/8~10 대전 유성구 유림공원", "source_name": "생활정보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:00:50+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "\"대전 유림공원 봄꽃 전시회로 놀러오세요\"", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2272873", "snippet": "5/8~5/31 유림공원 일원 50여종 8만여본 봄꽃, 유성온천문화축제와 연계", "source_name": "대전일보" },
+        { "title": "\"대전 유림공원 봄꽃 전시회로 놀러오세요\"", "url": "https://v.daum.net/v/20260503151008346", "snippet": "풍차 꽃 조형물+수국, 라벤더 포토존, 수변 델피늄, 어은교 꽃다리, 카네이션 포토존", "source_name": "다음뉴스" },
+        { "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "봄꽃전시회와 축제 동시 개최, 유림공원 올인원 나들이", "source_name": "굿모닝충청" },
+        { "title": "2026 유림공원 | 대전 관광명소", "url": "https://kr.trip.com/moments/poi-yurim-park-62012708/", "snippet": "유림공원 관광 정보", "source_name": "트립닷컴" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 초능력 히어로 박람회 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:01:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "과기정통부 초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://newsseoul.co.kr/news/view/1065584409950991", "snippet": "5/16~17 사이언스터널, 비밀아카데미 신입요원 모집, 히어로파티 사전등록", "source_name": "뉴스서울" },
+        { "title": "국립중앙과학관, 개관 80주년 기념 '사이언스 브릭파티' 개최", "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1682547", "snippet": "사이언스 브릭파티 개최 보도", "source_name": "EBN" },
+        { "title": "잠든 영웅을 깨워라 대국민 초능력 품목 수집", "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115", "snippet": "히어로 박람회 사전 캠페인, 기증자 보상, 히어로파티 초대", "source_name": "정책브리핑" },
+        { "title": "국립중앙과학관 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "5월 과학관 행사 일정", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 키즈카페 원데이클래스 팝업 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:01:10+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "월드킹 대전점 키즈카페", "url": "https://www.instagram.com/worldking_daejeon/", "snippet": "대전 최대 규모 멀티키즈카페, 10시 오픈~19시 입장마감~20시 폐장", "source_name": "인스타그램" },
+        { "title": "대전광역시어린이회관", "url": "https://www.djkids.or.kr/", "snippet": "어린이회관 체험 프로그램 안내", "source_name": "대전어린이회관" },
+        { "title": "현대프리미엄아울렛 대전점 팝업", "url": "https://dayforyou.com/getScheduleList", "snippet": "관평동 팝업 일정", "source_name": "데이포유" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "2026 유성온천문화축제 유림공원 프로그램 일정 5월 8 9 10",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:01:20+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "2026 유성온천문화축제 공식", "url": "http://ysfesta.com/", "snippet": "유림공원 일원 공원형 축제", "source_name": "유성온천문화축제" },
+        { "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "마지막날 10일: 청소년 오케스트라, 뮤직댄스 경연 결선, 폐막 공연. 19시 뷰티플라워 헤어아트쇼(미용협회), 20시 에이플러스+퓨전국악 풍류 폐막공연", "source_name": "굿모닝충청" },
+        { "title": "유성온천문화축제 행사 개요", "url": "http://ysfesta.com/bbs/spafest.php?page_id=overview", "snippet": "마음 치유 주제, 힐링형 콘텐츠, 문화목욕탕, 족욕체험, 향기미니돔, 향낭만들기, 드론로봇 과학체험", "source_name": "유성온천문화축제" },
+        { "title": "유성온천문화축제 | 대한민국 구석구석", "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=2fcee4ea-7f88-4485-a67b-d4a88ee78320", "snippet": "유성온천문화축제 축제 정보", "source_name": "한국관광공사" },
+        { "title": "[이슈에디코] 풍덩풍덩 몸을 던지자 유성온천문화축제", "url": "https://www.issueedico.co.kr/news/article.html?no=37739", "snippet": "7080감성 온천거리, 실버페스티벌, 어린이 체험 프로그램 확대, 산책퍼레이드", "source_name": "이슈에디코" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 복지관 5월 행사 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:01:30+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/health/", "snippet": "유성구 보건소 프로그램 안내", "source_name": "유성구 보건소" },
+        { "title": "유성이의 튼튼스쿨 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "5~7세 어린이 건강체험 프로그램, 8개 테마(탄생·감염·위생·구강·흡연음주예방·안전·신체활동·영양)", "source_name": "시사저널" },
+        { "title": "다함께 더좋은 유성 대전광역시 유성구", "url": "https://www.yuseong.go.kr/", "snippet": "유성구 행정 안내", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 5월 관측 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-05-10T07:01:40+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "주간 태양관측, 야간 행성·성운·성단 관측, 토요 별 음악회, 금요 별 음악회", "source_name": "대전시민천문대" },
+        { "title": "대전시민천문대 | 열린 관광 모두의 여행", "url": "https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=17ea55be-3db6-4f10-bca5-83a4577004c0", "snippet": "천체투영관 사계절 별자리 설명, 천문우주과학+공연예술 프로그램", "source_name": "한국관광공사" },
+        { "title": "대전시민천문대 페이스북", "url": "https://www.facebook.com/daejeonobservatory/", "snippet": "천문대 행사 공지", "source_name": "페이스북" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon May 2026",
+      "language": "en",
+      "timestamp": "2026-05-10T07:01:50+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "Cities Nationwide Transform Into Kids' Playgrounds This May", "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may", "snippet": "Korean cities launch major Children's Day festivities, Daejeon family events", "source_name": "Seoul Economic Daily" },
+        { "title": "Korea May 2026 Family Month — Best Travel Guide", "url": "https://onboardkorea.com/korea-may-2026-family-month-guide/", "snippet": "National palaces free entry Children's Day, family month promotions nationwide", "source_name": "On Board Korea" }
+      ]
+    }
+  ]
+}

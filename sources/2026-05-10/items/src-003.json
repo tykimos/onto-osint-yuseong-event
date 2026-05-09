@@ -1,0 +1,24 @@
+{
+  "id": "src-003",
+  "title": "\"대전 유림공원 봄꽃 전시회로 놀러오세요\"",
+  "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2272873",
+  "snippet": "대전 유성구는 5/8~5/31 유림공원 일원에서 '제5회 유성봄꽃전시회' 개최. 50여종 8만여본 봄꽃 활용. 유성온천문화축제(5/8~10)와 연계하여 휴식·여가 동시 제공. 풍차 꽃 조형물+수국, 라벤더 포토존, 수변 델피늄, 어은교 꽃다리, 카네이션 포토존.",
+  "source_name": "대전일보",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "update",
+  "related_report": "2026-05-08",
+  "related_item": "ent-evt-033",
+  "tag_reason": "봄꽃전시회와 온천문화축제의 '동시 개최·연계' 관계가 금일 보도로 명확히 확인됨. 같은 장소(유림공원)에서 축제+전시 올인원 나들이 가능.",
+  "entities": [
+    { "id": "ent-evt-033", "type": "Event", "name": "제5회 유성봄꽃전시회", "role": "연계 이벤트" },
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "연계 이벤트" },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "role": "공동 개최장소" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-033", "predicate": "hostsAt", "object": "ent-venue-023" },
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023" },
+    { "subject": "ent-evt-033", "predicate": "nearby", "object": "ent-evt-021" }
+  ]
+}

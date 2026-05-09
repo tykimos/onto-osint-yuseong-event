@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-09",
+  "last_updated": "2026-05-10",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1463,9 +1463,25 @@
     { "subject": "ent-evt-026", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.9, "added": "2026-05-09", "rule": "operator_kid_friendliness", "note": "프로그램 상세 확인으로 확정" },
     { "subject": "ent-evt-025", "predicate": "visitCombo", "object": "ent-evt-033", "type": "inferred", "confidence": 0.7, "added": "2026-05-09", "note": "알라딘(도룡동)+봄꽃전시회(어은동), ring-car 내 방문 조합, 잠정" }
   ],
+  "nodes_added_2026_05_10": [
+    { "id": "ent-act-016", "type": "Activity", "label": "드론·로봇 과학체험" },
+    { "id": "ent-act-017", "type": "Activity", "label": "유성온천 문화목욕탕·족욕·향기체험" },
+    { "id": "ent-act-018", "type": "Activity", "label": "뷰티플라워 헤어아트쇼" },
+    { "id": "ent-act-019", "type": "Activity", "label": "에이플러스+퓨전국악 풍류 폐막공연" }
+  ],
+  "edges_added_2026_05_10": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023", "type": "explicit", "confidence": 0.98, "added": "2026-05-10", "note": "축제장소 유림공원 확정(4개 매체 교차확인)" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-016", "type": "explicit", "confidence": 0.9, "added": "2026-05-10" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-017", "type": "explicit", "confidence": 0.9, "added": "2026-05-10" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-018", "type": "explicit", "confidence": 0.9, "added": "2026-05-10" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-019", "type": "explicit", "confidence": 0.9, "added": "2026-05-10" },
+    { "subject": "ent-evt-033", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.95, "added": "2026-05-10", "rule": "same_dong_combo", "note": "동일장소(유림공원) 동시개최 확정 — 0.70→0.95 격상" },
+    { "subject": "ent-act-016", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-10", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "ent-evt-026", "type": "inferred", "confidence": 0.95, "added": "2026-05-10", "rule": "same_venue_series", "note": "알라딘종료(5/10)→히어로(5/16) 시리즈 전환 확정" }
+  ],
   "stats": {
-    "total_nodes": 104,
-    "total_edges": 10,
-    "total_triples": 224
+    "total_nodes": 108,
+    "total_edges": 18,
+    "total_triples": 232
   }
 }

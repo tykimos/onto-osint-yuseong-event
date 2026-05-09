@@ -599,3 +599,33 @@
 - **신뢰도:** 0.70
 - **상태:** 잠정 (다른 동이므로 신뢰도 하향)
 - **비고:** 도룡동↔어은동은 차량 5~10분 거리. 알라딘 관람 후 유림공원 산책 연계 가능하나, 이동 동선이 길어 확정적 추천은 아님.
+
+## 2026-05-10 추론 결과
+
+### 추론 #1: same_dong_combo — 봄꽃전시회+온천축제 방문 조합 (확정)
+- **입력:** (ent-evt-033 hostsAt ent-venue-023 유림공원), (ent-evt-021 hostsAt ent-venue-023 유림공원), (ent-venue-023 locatedIn dong-eoeun), (ent-evt-033 sameDate ent-evt-021 2026-05-10)
+- **추론:** (ent-evt-033 visitCombo ent-evt-021)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 동일 장소(유림공원)에서 동시 개최 확인 — 대전일보 보도로 연계 관계 명시. 이전 잠정(0.70)에서 확정(0.95)으로 격상. 가족 올인원 나들이 확정.
+
+### 추론 #2: operator_kid_friendliness — 드론·로봇 과학체험 가산
+- **입력:** (ent-org-001 organizedBy ent-evt-021), (ent-evt-021 featuresActivity ent-act-016 드론·로봇 과학체험), (과학도시 주제 체험)
+- **추론:** (ent-act-016 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 유성구 주최 과학체험 프로그램 — 어린이 타겟 확대 보도 근거로 가산 적용.
+
+### 추론 #3: anchor_distance_priority — 유림공원 ring-car 확인
+- **입력:** (ent-venue-023 distance_from_anchor_m 3800), (ring-car radius_km 5.0)
+- **추론:** (ent-venue-023 withinRing ring-car)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 유림공원(어은동)은 용성로20으로부터 약 3.8km — ring-car(5km 이내) 해당. 축제+봄꽃전시 모두 ring-car.
+
+### 추론 #4: same_venue_series — 알라딘→히어로 시리즈 전환 확정
+- **입력:** (ent-evt-025 hostsAt ent-venue-005), (ent-evt-026 hostsAt ent-venue-005), (ent-evt-025 organizedBy ent-org-006), (ent-evt-026 organizedBy ent-org-006), (ent-evt-025 end_date 2026-05-10), (ent-evt-026 start_date 2026-05-16)
+- **추론:** (ent-evt-025 partOfSeries ent-evt-026)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 알라딘 종료(5/10) 직후 히어로 박람회(5/16) 시작 — 가정의달 시리즈 3→4번째 행사 전환 확정. 동일 주최(국립중앙과학관)·동일 장소 패턴.

@@ -1,0 +1,21 @@
+{
+  "id": "src-006",
+  "title": "2026 유성온천문화축제 > 축제.행사 | 대전관광",
+  "url": "https://daejeontour.co.kr/festival_djt/32",
+  "snippet": "5월 8~10일 유림공원 일원, 공원형 축제 재구성. 대전관광공사 축제 공식 등재.",
+  "source_name": "대전관광공사",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "reported",
+  "related_report": "2026-05-04",
+  "related_item": "ent-evt-021",
+  "tag_reason": "대전관광공사 공식 페이지로 축제 일정(5/8~10) 확인. 기존 온톨로지 일정(5/2~4)과 상이하므로 교차검증 자료로 활용.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "주 이벤트" },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "role": "개최장소" },
+    { "id": "ent-org-002", "type": "Organization", "name": "대전관광공사", "role": "홍보" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023" }
+  ]
+}

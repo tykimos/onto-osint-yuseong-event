@@ -1,0 +1,26 @@
+{
+  "id": "src-002",
+  "title": "유성구, 유림공원서 펼쳐지는 힐링 축제 '유성온천문화축제'",
+  "url": "https://www.koreatimenews.com/news/article.html?no=1144920",
+  "snippet": "공원을 활용한 체험·공연 중심으로 프로그램을 재구성해 자연과 어우러진 공간에서 여유롭게 축제를 즐길 수 있다. '마음 치유' 주제 힐링형 콘텐츠. 유림공원 서편에 '유성온천 문화목욕탕' 조성 — 테마형 온천수 족욕 체험, 온천향기 치유 미니돔, 온천 향낭 만들기. 어린이를 위한 체험 프로그램을 확대하고 7080 감성 온천거리와 유성 실버페스티벌 마련.",
+  "source_name": "코리아타임뉴스",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "update",
+  "related_report": "2026-05-04",
+  "related_item": "ent-evt-021",
+  "tag_reason": "축제 콘텐츠 상세(문화목욕탕·힐링 미니돔·향낭 만들기·7080거리·실버페스티벌) 신규 확인. 공원형 재구성이라는 2026년 차별점 명확화.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "주 이벤트" },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "role": "개최장소" },
+    { "id": "temp-006", "type": "Activity", "name": "유성온천 문화목욕탕", "role": "힐링 체험존" },
+    { "id": "temp-007", "type": "Activity", "name": "7080 감성 온천거리", "role": "테마존" },
+    { "id": "temp-008", "type": "Activity", "name": "어린이 확대 체험 프로그램", "role": "키즈 프로그램" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-001" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-006" }
+  ]
+}

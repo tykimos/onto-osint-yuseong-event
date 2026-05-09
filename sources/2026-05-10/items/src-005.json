@@ -1,0 +1,25 @@
+{
+  "id": "src-005",
+  "title": "대전 유성구, '생활밀착형 독서문화' 확산...도서관-지역 인프라 연계",
+  "url": "https://www.dailyan.com/news/article.html?no=765866",
+  "snippet": "유성구통합도서관이 생활밀착형 독서문화 확산을 위해 도서관-지역 인프라 연계 프로그램을 확대. 전문 인재 활용 북큐레이션, 1도서관 1작가 북토크, 책으로 여는 대전 역사 산책 등 운영 중. 시니어 강좌, 북스타트 책놀이 상반기 진행.",
+  "source_name": "데일리연합",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유성구 도서관의 '생활밀착형 독서문화' 확산 보도는 이전 14일 보고에 없는 신규 보도. 기존에 개별 프로그램(북스타트·그림책·작가)은 추적했으나, 통합 정책 차원의 보도는 최초.",
+  "entities": [
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주체" },
+    { "id": "temp-009", "type": "Activity", "name": "전문 인재 활용 북큐레이션", "role": "프로그램" },
+    { "id": "temp-010", "type": "Activity", "name": "1도서관 1작가 북토크", "role": "프로그램" },
+    { "id": "temp-011", "type": "Activity", "name": "책으로 여는 대전 역사 산책", "role": "프로그램" },
+    { "id": "ent-evt-003", "type": "Event", "name": "북스타트 책놀이", "role": "연계 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-org-004", "predicate": "operates", "object": "temp-009" },
+    { "subject": "ent-org-004", "predicate": "operates", "object": "temp-010" },
+    { "subject": "ent-org-004", "predicate": "operates", "object": "temp-011" }
+  ]
+}

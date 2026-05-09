@@ -1,0 +1,22 @@
+{
+  "id": "src-004",
+  "title": "과기정통부 초능력 배우러 과학관으로 출동 『초능력 히어로 박람회』 개최",
+  "url": "https://newsseoul.co.kr/news/view/1065584409950991",
+  "snippet": "5/16~17 사이언스터널, 비밀아카데미 신입요원 모집. 히어로파티 사전등록자 초능력훈련 입학시험 면제 + 멘토퍼레이드 참여 가능. 소품 미준비자용 현장 제공.",
+  "source_name": "뉴스서울",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "reported",
+  "related_report": "2026-05-09",
+  "related_item": "ent-evt-026",
+  "tag_reason": "히어로 박람회 정보는 5/9 보고서에서 상세 프로그램 이미 보고됨. 동일 내용의 추가 매체 보도.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회", "role": "주 이벤트" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "개최장소" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-009" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "src-001",
+  "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'",
+  "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779",
+  "snippet": "대전 유성구는 오는 8일부터 10일까지 3일간 유림공원 일원에서 '2026 유성온천문화축제'를 개최한다. 마지막 날인 10일에는 청소년 오케스트라 공연과 뮤직·댄스 경연대회 결선, 폐막 공연 등이 진행된다. 19시 뷰티플라워 헤어아트쇼(유성구 미용협회), 20시 에이플러스+퓨전국악 그룹 풍류 폐막공연. 축제 기간 유림공원 전역에서 산책 퍼레이드와 각종 버스킹 공연이 이어지며, 온천수 마사지 체험과 드론·로봇 등 과학 체험 프로그램 제공.",
+  "source_name": "굿모닝충청",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "update",
+  "related_report": "2026-05-04",
+  "related_item": "ent-evt-021",
+  "tag_reason": "유성온천문화축제의 확정 일정(5/8~10)·장소(유림공원)·마지막날 프로그램 상세가 새로 확인됨. 이전 보고(5/2~4, 온천로)와 일정·장소 상이 — 공원형 축제로 재구성된 것으로 판단.",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "주 이벤트" },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "role": "개최장소" },
+    { "id": "temp-001", "type": "Activity", "name": "뷰티플라워 헤어아트쇼", "role": "Day3 프로그램" },
+    { "id": "temp-002", "type": "Activity", "name": "에이플러스+풍류 폐막공연", "role": "Day3 폐막" },
+    { "id": "temp-003", "type": "Activity", "name": "청소년 오케스트라 공연", "role": "Day3 프로그램" },
+    { "id": "temp-004", "type": "Activity", "name": "드론·로봇 과학체험", "role": "어린이 프로그램" },
+    { "id": "temp-005", "type": "Activity", "name": "온천수 족욕·향기 미니돔 체험", "role": "힐링 프로그램" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-001" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-001" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-002" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-003" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-004" }
+  ]
+}

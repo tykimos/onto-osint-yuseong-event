@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-10",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "뷰티플라워 헤어아트쇼",
+      "properties": {
+        "category": "공연·뷰티",
+        "description": "유성구 미용협회 주관, 유림공원 동편 광장 19시",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.5,
+        "event_parent": "ent-evt-021",
+        "distance_from_anchor_m": 3800,
+        "ring": "ring-car",
+        "distance_estimation_basis": "유림공원 어은동 소재, 용성로20으로부터 약 3.8km"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "에이플러스+퓨전국악 풍류 폐막공연",
+      "properties": {
+        "category": "공연",
+        "description": "축제 마지막 공연, 유림공원 동편 메인무대 20시. 퓨전국악 그룹 풍류 협연.",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.6,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "청소년 오케스트라 공연",
+      "properties": {
+        "category": "공연",
+        "description": "유림공원 축제 Day 3 프로그램",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.7,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "드론·로봇 과학체험",
+      "properties": {
+        "category": "체험·과학",
+        "description": "유성 과학도시 이미지 체험, 축제 기간 유림공원 전역",
+        "target_age": "초등저학년·초등고학년",
+        "kid_friendly_score": 0.9,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001", "src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "유성온천 문화목욕탕·족욕·향기체험",
+      "properties": {
+        "category": "힐링·체험",
+        "description": "유림공원 서편. 테마형 온천수 족욕, 온천향기 치유 미니돔, 온천 향낭 만들기",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.7,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001", "src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "산책 퍼레이드·버스킹",
+      "properties": {
+        "category": "공연·퍼레이드",
+        "description": "축제 기간 유림공원 전역 순회",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.75,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "7080 감성 온천거리·실버페스티벌",
+      "properties": {
+        "category": "문화·체험",
+        "description": "7080 향수 테마, 유성 실버페스티벌 병행",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.4,
+        "event_parent": "ent-evt-021"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "전문 인재 활용 북큐레이션",
+      "properties": {
+        "category": "교육·독서",
+        "description": "유성구통합도서관 생활밀착형 독서문화 프로그램",
+        "target_age": "전연령",
+        "kid_friendly_score": 0.6
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "1도서관 1작가 북토크",
+      "properties": {
+        "category": "교육·독서",
+        "description": "각 도서관별 지역 작가 초청 북토크",
+        "target_age": "전연령",
+        "kid_friendly_score": 0.6
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "책으로 여는 대전 역사 산책",
+      "properties": {
+        "category": "교육·인문",
+        "description": "역사 인문학 프로그램",
+        "target_age": "초등고학년·중학생이상",
+        "kid_friendly_score": 0.5
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023", "source_ids": ["src-001", "src-002", "src-003", "src-006"], "confidence": 0.98 },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-001", "source_ids": ["src-001", "src-002"], "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-001", "source_ids": ["src-001"], "confidence": 0.90 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-002", "source_ids": ["src-001"], "confidence": 0.90 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-003", "source_ids": ["src-001"], "confidence": 0.85 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-004", "source_ids": ["src-001", "src-002"], "confidence": 0.90 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-005", "source_ids": ["src-001", "src-002"], "confidence": 0.90 },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "temp-006", "source_ids": ["src-001"], "confidence": 0.85 },
+    { "subject": "ent-evt-033", "predicate": "hostsAt", "object": "ent-venue-023", "source_ids": ["src-003"], "confidence": 0.98 },
+    { "subject": "ent-evt-033", "predicate": "visitCombo", "object": "ent-evt-021", "source_ids": ["src-003"], "confidence": 0.95 },
+    { "subject": "ent-org-004", "predicate": "operates", "object": "temp-009", "source_ids": ["src-005"], "confidence": 0.85 },
+    { "subject": "ent-org-004", "predicate": "operates", "object": "temp-010", "source_ids": ["src-005"], "confidence": 0.85 }
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 10,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-10",
+  "new_triples": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.98, "type": "explicit", "note": "축제장소 유림공원 확정 — 기존 온천로 대신" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-016", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-017", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-018", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-021", "predicate": "featuresActivity", "object": "ent-act-019", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-033", "predicate": "visitCombo", "object": "ent-evt-021", "source_id": "src-003", "date": "2026-05-10", "confidence": 0.95, "type": "explicit", "note": "동일장소(유림공원) 봄꽃전시+축제 동시개최 확인" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-021", "predicate": "start_date", "old_value": "2026-05-02", "new_value": "2026-05-08", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.95, "note": "복수 매체 교차확인으로 일정 수정" },
+    { "subject": "ent-evt-021", "predicate": "end_date", "old_value": "2026-05-04", "new_value": "2026-05-10", "source_id": "src-001", "date": "2026-05-10", "confidence": 0.95 },
+    { "subject": "ent-evt-021", "predicate": "venue", "old_value": "온천로 일원·계룡스파텔 광장", "new_value": "유림공원 일원", "source_id": "src-006", "date": "2026-05-10", "confidence": 0.98 },
+    { "subject": "ent-evt-025", "predicate": "status", "old_value": "D-day", "new_value": "마지막날", "source_id": "src-007", "date": "2026-05-10", "confidence": 0.99 }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-021", "predicate": "visitCombo", "object": "ent-evt-033", "rule": "same_dong_combo", "confidence": 0.95, "note": "동일 장소(유림공원, 어은동) 동일 날짜 — 방문 조합 확정" },
+    { "subject": "ent-act-018", "predicate": "kidFriendlyBoost", "object": "+0.2", "rule": "operator_kid_friendliness", "confidence": 0.85, "note": "드론·로봇 과학체험 — 과학도시 프로그램으로 가산" },
+    { "subject": "ent-evt-021", "predicate": "withinRing", "object": "ring-car", "rule": "anchor_distance_priority", "confidence": 0.95, "note": "유림공원 어은동 ~3.8km = ring-car" },
+    { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "ent-evt-026", "rule": "same_venue_series", "confidence": 0.95, "note": "국립중앙과학관 가정의달 시리즈: 알라딘→히어로 확정 전환" }
+  ],
+  "stats": {
+    "new_nodes": 4,
+    "new_edges": 6,
+    "updated_edges": 4,
+    "inferred_edges": 4
+  }
+}

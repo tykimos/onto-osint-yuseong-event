@@ -1,0 +1,20 @@
+{
+  "id": "src-008",
+  "title": "대전시민천문대 토요 별 음악회",
+  "url": "https://djstar.kr/",
+  "snippet": "대전시민천문대 토요 별 음악회 정기 운영. 주간 태양관측, 야간 행성·성운·성단 관측. 천체투영관 사계절 별자리 설명.",
+  "source_name": "대전시민천문대",
+  "language": "ko",
+  "discovered_date": "2026-05-10",
+  "tag": "reported",
+  "related_report": "2026-05-09",
+  "related_item": "ent-evt-006",
+  "tag_reason": "천문대 상시 운영 프로그램 기존 보고됨. 단 토요일이므로 '토요 별 음악회' 운영일에 해당.",
+  "entities": [
+    { "id": "ent-evt-006", "type": "Event", "name": "대전시민천문대 상시 관측 프로그램", "role": "주 이벤트" },
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대", "role": "장소" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-006", "predicate": "hostsAt", "object": "ent-venue-006" }
+  ]
+}
