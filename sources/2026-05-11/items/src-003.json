@@ -1,0 +1,21 @@
+{
+  "id": "src-003",
+  "title": "국립중앙과학관 가족뮤지컬 알라딘 종료 확정 — 가정의달 시리즈 히어로 박람회로 전환",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "가족뮤지컬 알라딘(5/9~10)이 어제 마지막 공연을 끝으로 종료. 가정의달 시리즈 3번째 행사가 마무리되며, 4번째 행사인 초능력 히어로 박람회(5/16~17, D-5)로 본격 전환.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-11",
+  "tag": "update",
+  "related_report": "2026-05-10",
+  "related_item": "src-007 (2026-05-10)",
+  "tag_reason": "어제 마지막 공연으로 보고한 알라딘이 공연 완료 → 종료 확정, 시리즈 전환점",
+  "entities": [
+    { "id": "ent-evt-025", "type": "Event", "name": "가족뮤지컬 알라딘", "role": "종료 확정" },
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회", "role": "D-5, 다음 시리즈" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-026", "predicate": "followsEvent", "object": "ent-evt-025" }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-11",
+  "total": 12,
+  "new": 1,
+  "reported": 8,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "[르포] 불꽃 터지고 함성도 터지고…초여름 밤공기 달군 '2026 유성온천문화축제'",
+      "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887523",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-002",
+      "title": "유성온천문화축제 폐막 확정 — 3일간 성황리 종료",
+      "url": "http://ysfesta.com/",
+      "tag": "update",
+      "related_report": "2026-05-10",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "국립중앙과학관 가족뮤지컬 알라딘 종료 확정 — 가정의달 시리즈 히어로 박람회로 전환",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_report": "2026-05-10",
+      "entity_count": 3
+    },
+    {
+      "id": "src-004",
+      "title": "세계 공룡의 날 공룡덕후박람회 참가안내 공식 오픈 + '공통령 선거' 프로그램 공개",
+      "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+      "tag": "update",
+      "related_report": "2026-04-30",
+      "entity_count": 4
+    },
+    {
+      "id": "src-005",
+      "title": "제5회 유성봄꽃전시회 운영 중 (D+3, 유림공원 5/8~5/31, 축제 종료 후 단독 운영)",
+      "url": "https://www.welfarehello.com/community/hometownNews/faf70a22-9d1b-4b94-a6f2-72fa4d6d4654",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "초능력 히어로 박람회 D-5 (5/16~17, 국립중앙과학관 사이언스터널)",
+      "url": "https://dazabi.com/insurance_magazine/article.php?id=20334",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "대전 오월드 5월 말까지 재개장 불가 — 변동 없음",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6149846",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "대전시민천문대 일요일 정상 운영 (14:00~22:00)",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "관평도서관 '그림책, 나만의 보물을 담다' 운영 중",
+      "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "아가·맘 행복교실 운영 중 (아가랑도서관, 전민동)",
+      "url": "https://lib.yuseong.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "유성구 지역작가 인(人) 도서관 5월 운영 중",
+      "url": "https://pedien.com/html/view.php?idx=1014924",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "국립어린이과학관 탐이꿈이의 비밀실험실 운영 중 (~6/30)",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-10",
+      "entity_count": 2
+    }
+  ]
+}

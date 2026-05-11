@@ -629,3 +629,33 @@
 - **신뢰도:** 0.95
 - **상태:** 확정
 - **비고:** 알라딘 종료(5/10) 직후 히어로 박람회(5/16) 시작 — 가정의달 시리즈 3→4번째 행사 전환 확정. 동일 주최(국립중앙과학관)·동일 장소 패턴.
+
+## 2026-05-11 추론 결과
+
+### 추론 #1: same_venue_series (알라딘→히어로 시리즈 순서 확정)
+- **입력:** (ent-evt-025 status 종료), (ent-evt-026 status D-5), (ent-evt-025 organizedBy ent-org-006), (ent-evt-026 organizedBy ent-org-006)
+- **추론:** (ent-evt-026 followsEvent ent-evt-025)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 알라딘 종료 확정(5/10)으로 시리즈 순서 관계가 잠정→확정 전환. 히어로 박람회가 시리즈 4번째 행사로 D-5 진입.
+
+### 추론 #2: same_venue_series (브릭파티→공룡덕후 일정 겹침)
+- **입력:** (ent-evt-027 start_date 2026-05-23), (ent-evt-028 start_date 2026-05-30), (ent-evt-027 organizedBy ent-org-006), (ent-evt-028 organizedBy ent-org-006)
+- **추론:** (ent-evt-028 partOfSeries ent-evt-027)
+- **신뢰도:** 0.80
+- **상태:** 잠정
+- **비고:** 브릭파티(5/23~31)와 공룡덕후(5/30~31) 일정이 5/30~31에 겹침. 동일 주최이므로 시리즈 관계 잠정 추론. 별도 행사인지 동시 개최인지 추가 확인 필요.
+
+### 추론 #3: operator_kid_friendliness (공통령 선거 가산)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-028 hostsAt ent-venue-005), (ent-act-020 event_parent ent-evt-028)
+- **추론:** (ent-act-020 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 과학관 운영 참여형 프로그램(공통령 선거) — 어린이 투표 체험으로 교육적 가치 높음.
+
+### 추론 #4: 축제 종료로 방문조합 무효화
+- **입력:** (ent-evt-021 status 종료), (ent-evt-033 visitCombo ent-evt-021 이전 신뢰도 0.95)
+- **추론:** (ent-evt-033 visitCombo ent-evt-021) 무효화 → 신뢰도 0
+- **신뢰도:** 0.0
+- **상태:** 무효
+- **비고:** 축제 종료로 봄꽃전시회+축제 동시 방문 조합이 더 이상 유효하지 않음. 봄꽃전시회는 단독 운영 중.

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-05-11",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1467,7 +1467,8 @@
     { "id": "ent-act-016", "type": "Activity", "label": "드론·로봇 과학체험" },
     { "id": "ent-act-017", "type": "Activity", "label": "유성온천 문화목욕탕·족욕·향기체험" },
     { "id": "ent-act-018", "type": "Activity", "label": "뷰티플라워 헤어아트쇼" },
-    { "id": "ent-act-019", "type": "Activity", "label": "에이플러스+퓨전국악 풍류 폐막공연" }
+    { "id": "ent-act-019", "type": "Activity", "label": "에이플러스+퓨전국악 풍류 폐막공연" },
+    { "id": "ent-act-020", "type": "Activity", "label": "제1대 공통령(恐統領) 선거" }
   ],
   "edges_added_2026_05_10": [
     { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023", "type": "explicit", "confidence": 0.98, "added": "2026-05-10", "note": "축제장소 유림공원 확정(4개 매체 교차확인)" },
@@ -1479,9 +1480,19 @@
     { "subject": "ent-act-016", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-10", "rule": "operator_kid_friendliness" },
     { "subject": "ent-evt-025", "predicate": "partOfSeries", "object": "ent-evt-026", "type": "inferred", "confidence": 0.95, "added": "2026-05-10", "rule": "same_venue_series", "note": "알라딘종료(5/10)→히어로(5/16) 시리즈 전환 확정" }
   ],
+  "edges_added_2026_05_11": [
+    { "subject": "ent-evt-028", "predicate": "featuresActivity", "object": "ent-act-020", "type": "explicit", "confidence": 0.85, "added": "2026-05-11", "note": "공룡덕후박람회 참가안내 공개로 신규 프로그램 확인" },
+    { "subject": "ent-evt-021", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 0.95, "added": "2026-05-11", "note": "충남일보 르포로 폐막 확인" },
+    { "subject": "ent-evt-025", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 0.95, "added": "2026-05-11", "note": "5/10 마지막 공연 완료" },
+    { "subject": "ent-evt-028", "predicate": "registration_open", "object": "true", "type": "explicit", "confidence": 0.90, "added": "2026-05-11" },
+    { "subject": "ent-evt-026", "predicate": "followsEvent", "object": "ent-evt-025", "type": "inferred", "confidence": 0.95, "added": "2026-05-11", "rule": "same_venue_series", "note": "알라딘 종료 확정으로 시리즈 순서 확정" },
+    { "subject": "ent-evt-028", "predicate": "partOfSeries", "object": "ent-evt-027", "type": "inferred", "confidence": 0.80, "added": "2026-05-11", "rule": "same_venue_series", "note": "브릭파티·공룡덕후 일정 겹침 잠정" },
+    { "subject": "ent-act-020", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-11", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-033", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.0, "added": "2026-05-11", "note": "축제 종료로 무효화" }
+  ],
   "stats": {
-    "total_nodes": 108,
-    "total_edges": 18,
-    "total_triples": 232
+    "total_nodes": 109,
+    "total_edges": 26,
+    "total_triples": 240
   }
 }

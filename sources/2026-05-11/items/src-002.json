@@ -1,0 +1,19 @@
+{
+  "id": "src-002",
+  "title": "유성온천문화축제 폐막 확정 — 3일간 성황리 종료",
+  "url": "http://ysfesta.com/",
+  "snippet": "2026 유성온천문화축제가 5/8~10 유림공원에서 3일간 개최 후 폐막. 공원형 축제 재구성, 마음 치유 주제 힐링 콘텐츠로 전환한 첫 해.",
+  "source_name": "유성온천문화축제 공식",
+  "language": "ko",
+  "discovered_date": "2026-05-11",
+  "tag": "update",
+  "related_report": "2026-05-10",
+  "related_item": "src-001 (2026-05-10)",
+  "tag_reason": "어제(5/10) 마지막날로 보고했던 축제가 공식 폐막 → 상태를 '종료'로 전환",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "폐막 확정" },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "role": "개최지" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구", "role": "주최" }
+  ],
+  "relations": []
+}

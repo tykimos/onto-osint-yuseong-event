@@ -1,0 +1,198 @@
+{
+  "date": "2026-05-11",
+  "collected_at": "2026-05-11T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 16,
+  "total_results": 38,
+  "expanded_keywords": [
+    "유성온천문화축제 폐막",
+    "봄꽃전시회 유림공원",
+    "초능력 히어로 박람회",
+    "공룡덕후박람회 참가",
+    "사이언스 브릭파티",
+    "대전시민천문대 일요일",
+    "대전 오월드 재개장"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월 11일",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:00:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 봄꽃전시회 유림공원 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:01:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "대전 유성구 명소 여행, 다시 찾아온 유성의 '유림공원' 봄꽃나들이", "url": "https://www.welfarehello.com/community/hometownNews/faf70a22-9d1b-4b94-a6f2-72fa4d6d4654", "snippet": "유림공원은 봄 가을에 꽃 축제가 유명하며, 한반도를 닮은 반도지가 있어서 물레방아와 연꽃 그리고 연못 주변 정자의 모습도 볼 수 있는 정원형 공원", "source_name": "웰로" },
+        { "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "5월 8~10일 유림공원 일원에서 유성온천문화축제 개최", "source_name": "굿모닝충청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 초능력 히어로 박람회 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:02:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://dazabi.com/insurance_magazine/article.php?id=20334", "snippet": "과학의 원리를 재미있는 초능력 체험으로 풀어내 일반 시민, 특히 청소년과 어린이들이 과학에 자연스럽게 다가갈 수 있도록 설계", "source_name": "다자비" },
+        { "title": "국립중앙과학관, 『잠든 영웅(히어로)을 깨워라』 대국민 초능력 품목(아이템) 수집 전 시작", "url": "https://idsn.co.kr/news/view/1065593651704268", "snippet": "사전 캠페인 진행 중", "source_name": "IDSN" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 팝업 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:03:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 5월 2026 프로그램 일요일",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:04:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "운영시간 14:00~22:00, 휴관 매주 월요일, 이용요금 무료", "source_name": "대전시민천문대 공식" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:05:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 공공도서관 통합 포털", "source_name": "유성구통합도서관 공식" },
+        { "title": "유성구, 지역작가와 함께하는 특별한 만남 '지역작가 인 도서관' 운영", "url": "https://pedien.com/html/view.php?idx=1014924", "snippet": "5월부터 6개 공공도서관에서 지역 작가와 주민 직접 소통 프로그램", "source_name": "페디앤" },
+        { "title": "유성구 '생활밀착형 독서문화' 확산", "url": "https://www.dominilbo.com/news/articleView.html?idxno=262086", "snippet": "유성구통합도서관 생활밀착형 독서문화 확산 정책 보도", "source_name": "충청도민일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 주민자치 행정복지센터 행사 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:06:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 사이언스 브릭파티 공룡덕후 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:07:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "snippet": "공룡덕후박람회 행사 상세 안내", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "공룡덕후박람회 참가 신청 안내 — 단체/개인 참가 안내", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성온천문화축제 2026 폐막 종료 결과",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:08:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "[르포] 불꽃 터지고 함성도 터지고…초여름 밤공기 달군 '2026 유성온천문화축제'", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887523", "snippet": "지난 8~10일까지 유림공원 일대에서 개최된 '2026 유성온천문화축제' 현장은 초여름 밤공기를 가득 채운 사람들의 열기로 들썩였다. 공연장부터 체험부스, 플리마켓, 야간 포토존까지 행사장 곳곳마다 시민들의 발길이 이어지며 도심 전체가 거대한 축제장으로 변했다. 도미노보이즈, 래원, 한요한이 참여하는 DJ파티, 양옆에서 불꽃이 치솟자 수천 명의 함성이 터져 나왔다.", "source_name": "충남일보" },
+        { "title": "2026 유성온천문화축제", "url": "http://ysfesta.com/", "snippet": "유성온천문화축제 공식 홈페이지", "source_name": "유성온천문화축제 공식" },
+        { "title": "2026 유성온천문화축제 > 축제.행사", "url": "https://daejeontour.co.kr/festival_djt/32", "snippet": "유성온천문화축제 대전관광 페이지", "source_name": "대전관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 이번주 행사 축제 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:09:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "2026 유성온천문화축제 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/32", "snippet": "5월 8~10일 유림공원 일원", "source_name": "대전관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 공룡덕후박람회 참가 신청 2026",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:10:00+09:00",
+      "result_count": 6,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/1111/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "공룡덕후박람회 참가 신청 — 단체/개인 참가 세부 안내", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "snippet": "행사 상세", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최", "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017", "snippet": "국립중앙과학관이 세계 공룡의 날을 맞아 공룡덕후 박람회를 개최한다", "source_name": "YTN 사이언스" },
+        { "title": "국립중앙과학관 공룡덕후박람회 제1대 공통령 선거", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381", "snippet": "공룡덕후박람회 제1대 공통령 선거 — 참여형 투표 이벤트", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 세계 공룡의 날맞아 '공룡덕후 박람회' 연다", "url": "https://www.kidshankook.kr/news/articleView.html?idxno=13845", "snippet": "어린이 대상 공룡 체험 박람회 상세 안내", "source_name": "소년한국일보" },
+        { "title": "공룡의 날에는 공룡이 되자!", "url": "https://www.publicportal.co.kr/news/articleView.html?idxno=2042", "snippet": "가족 단위 공룡 체험 프로그램", "source_name": "공공포털" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 용산동 전민동 관평동 맛집 오픈 이벤트 2026",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:11:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "\"유성온천문화축제\" 폐막 후기 2026년 5월 충남일보",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:12:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "[르포] 불꽃 터지고 함성도 터지고…초여름 밤공기 달군 '2026 유성온천문화축제'", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887523", "snippet": "공연장부터 체험부스, 플리마켓, 야간 포토존까지 행사장 곳곳마다 시민들의 발길이 이어지며 도심 전체가 거대한 축제장으로 변했다. 풍차 조형물 구역이 특히 인기, 컬러풀 조명이 비추는 풍차와 꽃밭 앞에서 기념사진 촬영 행렬.", "source_name": "충남일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 사이언스 브릭파티 2026 일정 참가",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:13:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립중앙과학관, 미래세대 과학기술문화 확산을 위한 2026년 주요프로그램 공개", "url": "https://www.lecturernews.com/news/articleView.html?idxno=194423", "snippet": "봄과 여름에는 사이언스데이, 어린이날 과학축제, 스포츠과학 행사, AI 해커톤 캠프, 공룡덕후박람회 등 온 가족이 함께 참여할 수 있는 대형 과학문화 행사가 이어진다", "source_name": "한국강사신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 소방서 안전체험 솔로몬파크 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:14:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 오월드 재개장 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-11T07:15:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "'늑구 탈출 후폭풍' 대전 오월드, 5월 말까지 휴장 연장한다", "url": "https://www.insight.co.kr/news/551937", "snippet": "대전 오월드 5월 말까지 휴장 연장", "source_name": "인사이트" },
+        { "title": "'늑구' 탈출 대전 오월드 5월 재개장 불가…입점업소 특수 기대 난망", "url": "https://www.news1.kr/local/daejeon-chungnam/6149846", "snippet": "5월 재개장 불가 확정, 입점업소에 공식 통보", "source_name": "뉴스1" },
+        { "title": "금강환경청 한달간 사용중지 명령…'늑구 탈출' 대전오월드 5월 황금특수 못누린다", "url": "https://www.munhwa.com/article/11585405", "snippet": "금강유역환경청 사용 중지 명령 발령", "source_name": "문화일보" }
+      ]
+    }
+  ]
+}

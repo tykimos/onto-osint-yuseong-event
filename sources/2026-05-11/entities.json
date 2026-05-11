@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-11",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-021",
+      "type": "Event",
+      "name": "2026 유성온천문화축제",
+      "properties": {
+        "status": "종료",
+        "end_date": "2026-05-10",
+        "closure_report": "충남일보 르포 확인 — 3일간 성황리 종료, 불꽃·DJ파티·플리마켓·야간포토존 운영"
+      },
+      "source_ids": ["src-001", "src-002"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-025",
+      "type": "Event",
+      "name": "가족뮤지컬 알라딘",
+      "properties": {
+        "status": "종료",
+        "end_date": "2026-05-10",
+        "series_next": "ent-evt-026 초능력 히어로 박람회"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "status": "참가안내 오픈, D-19",
+        "registration_open": true,
+        "new_program": "제1대 공통령 선거"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "제1대 공통령(恐統領) 선거",
+      "properties": {
+        "category": "참여형 투표 이벤트",
+        "description": "공룡덕후박람회 참여형 투표 이벤트 — 관람객이 좋아하는 공룡에 투표하는 선거 컨셉 프로그램",
+        "target_age": "유아·초등·전연령가족",
+        "kid_friendly_score": 0.85,
+        "event_parent": "ent-evt-028"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-023",
+      "type": "Venue",
+      "name": "유림공원",
+      "properties": {
+        "current_events": "봄꽃전시회 단독 (~5/31)",
+        "note": "축제 종료, 봄꽃전시회만 계속"
+      },
+      "source_ids": ["src-001", "src-002", "src-005"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-033",
+      "type": "Event",
+      "name": "제5회 유성봄꽃전시회",
+      "properties": {
+        "status": "D+3 운영 중 (축제 종료 후 단독)",
+        "note": "유림공원에서 축제 없이 봄꽃전시회만 단독 운영 시작"
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-026",
+      "type": "Event",
+      "name": "초능력 히어로 박람회",
+      "properties": {
+        "status": "D-5",
+        "note": "알라딘 종료로 시리즈 전환 완료, 다음 주 개최"
+      },
+      "source_ids": ["src-003", "src-006"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-026",
+      "predicate": "followsEvent",
+      "object": "ent-evt-025",
+      "source_ids": ["src-003"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "featuresActivity",
+      "object": "temp-004",
+      "source_ids": ["src-004"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-026",
+      "source_ids": ["src-004"],
+      "confidence": 0.80
+    }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 1,
+    "matched_entities": 6,
+    "total_relations": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-004",
+  "title": "세계 공룡의 날 공룡덕후박람회 참가안내 공식 오픈 + '공통령 선거' 프로그램 공개",
+  "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+  "snippet": "국립중앙과학관이 공룡덕후박람회(5/30~31) 참가 신청 안내를 공식 오픈. 단체/개인 참가 신청 가능. 신규 프로그램으로 '제1대 공통령(恐統領) 선거' 참여형 투표 이벤트 공개. 소년한국일보·YTN사이언스·공공포털 등 다수 매체 보도로 사전 홍보 본격화.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-11",
+  "tag": "update",
+  "related_report": "2026-04-30",
+  "related_item": null,
+  "tag_reason": "기존에 일정만 확인했던 공룡덕후박람회의 참가 신청 안내 및 신규 프로그램(공통령 선거) 정보가 추가됨",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회", "role": "참가안내 오픈" },
+    { "id": "temp-004", "type": "Activity", "name": "제1대 공통령(恐統領) 선거", "role": "신규 프로그램" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "개최지" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-028", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "ent-evt-028", "predicate": "featuresActivity", "object": "temp-004" }
+  ]
+}

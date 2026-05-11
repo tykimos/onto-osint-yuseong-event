@@ -1,0 +1,25 @@
+{
+  "id": "src-001",
+  "title": "[르포] 불꽃 터지고 함성도 터지고…초여름 밤공기 달군 '2026 유성온천문화축제'",
+  "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887523",
+  "snippet": "지난 8~10일까지 유림공원 일대에서 개최된 '2026 유성온천문화축제' 현장은 초여름 밤공기를 가득 채운 사람들의 열기로 들썩였다. 공연장부터 체험부스, 플리마켓, 야간 포토존까지 행사장 곳곳마다 시민들의 발길이 이어지며 도심 전체가 거대한 축제장으로 변했다. 풍차 조형물 구역이 특히 인기였으며, 도미노보이즈·래원·한요한이 참여하는 DJ파티에서 양옆 불꽃이 치솟자 수천 명의 함성이 터져 나왔다. 폐막공연으로 레베로프 메타버스 VR 드로잉 퍼포먼스, 염동균 작가, 테너 류정필&코아모러스가 출연했다.",
+  "source_name": "충남일보",
+  "language": "ko",
+  "discovered_date": "2026-05-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유성온천문화축제 폐막 후 현장 르포 기사 — 이전 보고서에서 축제 관련 보도는 있었으나 폐막 후 현장 르포/성과 기록은 최초",
+  "entities": [
+    { "id": "ent-evt-021", "type": "Event", "name": "2026 유성온천문화축제", "role": "폐막 르포 대상" },
+    { "id": "ent-venue-023", "type": "Venue", "name": "유림공원", "role": "축제 장소" },
+    { "id": "ent-org-001", "type": "Organization", "name": "유성구", "role": "주최" },
+    { "id": "temp-001", "type": "Activity", "name": "DJ파티 (도미노보이즈·래원·한요한)", "role": "폐막전야 프로그램" },
+    { "id": "temp-002", "type": "Activity", "name": "불꽃 퍼포먼스", "role": "폐막 이벤트" },
+    { "id": "temp-003", "type": "Activity", "name": "플리마켓·야간 포토존", "role": "상시 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023" },
+    { "subject": "ent-evt-021", "predicate": "organizedBy", "object": "ent-org-001" }
+  ]
+}

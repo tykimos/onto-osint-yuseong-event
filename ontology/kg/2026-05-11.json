@@ -1,0 +1,90 @@
+{
+  "date": "2026-05-11",
+  "new_triples": [
+    {
+      "subject": "ent-evt-028",
+      "predicate": "featuresActivity",
+      "object": "ent-act-020",
+      "source_id": "src-004",
+      "date": "2026-05-11",
+      "confidence": 0.85,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-021",
+      "predicate": "status",
+      "object": "종료",
+      "source_id": "src-001",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous_value": "마지막날"
+    },
+    {
+      "subject": "ent-evt-025",
+      "predicate": "status",
+      "object": "종료",
+      "source_id": "src-003",
+      "date": "2026-05-11",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous_value": "마지막 공연"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "registration_open",
+      "object": "true",
+      "source_id": "src-004",
+      "date": "2026-05-11",
+      "confidence": 0.90,
+      "type": "explicit",
+      "previous_value": "미공개"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-026",
+      "predicate": "followsEvent",
+      "object": "ent-evt-025",
+      "rule": "same_venue_series",
+      "confidence": 0.95,
+      "type": "inferred",
+      "note": "알라딘 종료 확정으로 시리즈 순서 확정: 알라딘(종료) → 히어로(D-5)"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-027",
+      "rule": "same_venue_series",
+      "confidence": 0.80,
+      "type": "inferred",
+      "note": "브릭파티(5/23~31) → 공룡덕후(5/30~31) 일정 겹침으로 시리즈 관계 잠정"
+    },
+    {
+      "subject": "ent-act-020",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.85,
+      "type": "inferred",
+      "note": "과학관 운영 참여형 프로그램 — 어린이 친화도 가산"
+    },
+    {
+      "subject": "ent-evt-033",
+      "predicate": "rainyFallbackFor",
+      "object": "ent-evt-021",
+      "rule": "indoor_rainy_fallback",
+      "confidence": 0.0,
+      "type": "inferred",
+      "note": "축제 종료로 해당 추론 무효화 — 신뢰도 0으로 전환"
+    }
+  ],
+  "stats": {
+    "new_nodes": 1,
+    "new_edges": 1,
+    "inferred_edges": 4,
+    "updated_edges": 3
+  }
+}
