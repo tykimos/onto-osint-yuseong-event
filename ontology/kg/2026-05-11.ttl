@@ -1,0 +1,100 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-11)
+<#snapshot-2026-05-11> a prov:Entity ;
+  dct:date "2026-05-11"^^xsd:date ;
+  yse:new_nodes "1"^^xsd:integer ;
+  yse:new_edges "1"^^xsd:integer ;
+  yse:inferred_edges "4"^^xsd:integer .
+
+# --- new_triples (1) ---
+yseent:ent-evt-028 yser:featuresActivity yseent:ent-act-020 .
+yseinf:stmt-2026-05-11-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-028 ;
+  rdf:predicate yser:featuresActivity ;
+  rdf:object yseent:ent-act-020 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-004" ;
+  dct:date "2026-05-11"^^xsd:date .
+
+# --- updated_triples (3) ---
+yseent:ent-evt-021 yser:status yseent:__ .
+yseinf:stmt-2026-05-11-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-021 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:__ ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-001" ;
+  dct:date "2026-05-11"^^xsd:date .
+yseent:ent-evt-025 yser:status yseent:__ .
+yseinf:stmt-2026-05-11-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-025 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:__ ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" ;
+  dct:date "2026-05-11"^^xsd:date .
+yseent:ent-evt-028 yser:registration_open yseent:true .
+yseinf:stmt-2026-05-11-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-028 ;
+  rdf:predicate yser:registration_open ;
+  rdf:object yseent:true ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-004" ;
+  dct:date "2026-05-11"^^xsd:date .
+
+# --- inferred_triples (4) ---
+yseent:ent-evt-026 yser:followsEvent yseent:ent-evt-025 .
+yseinf:stmt-2026-05-11-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-026 ;
+  rdf:predicate yser:followsEvent ;
+  rdf:object yseent:ent-evt-025 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_venue_series" ;
+  rdfs:comment "알라딘 종료 확정으로 시리즈 순서 확정: 알라딘(종료) → 히어로(D-5)"@ko .
+yseent:ent-evt-028 yser:partOfSeries yseent:ent-evt-027 .
+yseinf:stmt-2026-05-11-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-028 ;
+  rdf:predicate yser:partOfSeries ;
+  rdf:object yseent:ent-evt-027 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_venue_series" ;
+  rdfs:comment "브릭파티(5/23~31) → 공룡덕후(5/30~31) 일정 겹침으로 시리즈 관계 잠정"@ko .
+yseent:ent-act-020 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-05-11-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-act-020 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 운영 참여형 프로그램 — 어린이 친화도 가산"@ko .
+yseent:ent-evt-033 yser:rainyFallbackFor yseent:ent-evt-021 .
+yseinf:stmt-2026-05-11-0008 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-033 ;
+  rdf:predicate yser:rainyFallbackFor ;
+  rdf:object yseent:ent-evt-021 ;
+  yse:confidence "0.0"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "indoor_rainy_fallback" ;
+  rdfs:comment "축제 종료로 해당 추론 무효화 — 신뢰도 0으로 전환"@ko .
+
+# --- referenced entities ---
+
