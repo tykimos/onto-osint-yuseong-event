@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-12",
+  "total": 10,
+  "new": 2,
+  "reported": 6,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "한밭수목원 '2026 봄꽃 전시회' 개최 (5/8~25, '오월의 꽃마중', 무료)",
+      "url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-002",
+      "title": "국립중앙과학관 '잠든 히어로를 깨워라' 아이템 수집 전 — 창의나래관 7월 개관 연계 캠페인",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115&call_from=rsslink",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-003",
+      "title": "초능력 히어로 박람회 D-4 (5/16~17, 국립중앙과학관 사이언스터널)",
+      "url": "https://dazabi.com/insurance_magazine/article.php?id=20334",
+      "tag": "update",
+      "related_report": "2026-05-11",
+      "entity_count": 3
+    },
+    {
+      "id": "src-004",
+      "title": "공룡덕후박람회 참가안내 지속 오픈 + D-18 (5/30~31)",
+      "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+      "tag": "update",
+      "related_report": "2026-05-11",
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "제5회 유성봄꽃전시회 D+4 단독 운영 (유림공원, ~5/31)",
+      "url": "https://daejeontour.co.kr/festival_djt/33",
+      "tag": "reported",
+      "related_report": "2026-05-11",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "대전 오월드 5월 말까지 재개장 불가 — 변동 없음",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6149846",
+      "tag": "reported",
+      "related_report": "2026-05-11",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "대전시민천문대 월요일 휴관 (매주 월요일 정기휴관)",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-11",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "유성구 도서관 프로그램 운영 중 (지역작가 인 도서관·그림책·아가맘)",
+      "url": "https://lib.yuseong.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-11",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "유성구 보건소 유성이의 튼튼스쿨 하반기 예정 — 변동 없음",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774",
+      "tag": "reported",
+      "related_report": "2026-05-11",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "국립어린이과학관 탐이꿈이의 비밀실험실 운영 중 (~6/30)",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-11",
+      "entity_count": 2
+    }
+  ]
+}

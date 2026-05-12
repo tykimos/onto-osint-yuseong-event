@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-12",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026 한밭수목원 봄꽃 전시회",
+      "properties": {
+        "start_date": "2026-05-08",
+        "end_date": "2026-05-25",
+        "venue": "한밭수목원 동원·서원 일원",
+        "dong": "둔산동 (유성구 인접)",
+        "distance_from_anchor_m": 6000,
+        "ring": "ring-car 초과 (6km)",
+        "host": "대전광역시",
+        "fee": "무료 (주차 1시간 무료, 이후 30분 500원)",
+        "registration_required": false,
+        "indoor_outdoor": "야외",
+        "target_age_group": ["전연령가족"],
+        "kid_friendly_score": 0.65,
+        "kid_friendly_reason": "꽃 전시 위주로 어린이 전용 프로그램은 없으나, 스탬프 투어가 가족 참여 유도. 유아가 즐기기에는 산책 위주.",
+        "programs": ["작약 정원", "으아리(클레마티스) 수직정원", "장미·해당화 전역", "스탬프 투어"],
+        "operating_hours": "05:00~21:00",
+        "source_url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "한밭수목원",
+      "properties": {
+        "dong": "둔산동",
+        "address": "대전광역시 서구 둔산대로 169",
+        "venue_type": "수목원",
+        "distance_from_anchor_m": 6000,
+        "parking": true,
+        "stroller_accessible": true,
+        "kid_friendly": true,
+        "indoor_outdoor": "야외"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "잠든 히어로를 깨워라 아이템 수집 전",
+      "properties": {
+        "start_date": "2026-03-10",
+        "end_date": "미확인",
+        "venue": "국립중앙과학관 (온라인+현장)",
+        "host": "국립중앙과학관·과학기술정보통신부",
+        "fee": "무료 (참여형)",
+        "registration_required": false,
+        "indoor_outdoor": "온라인+오프라인",
+        "target_age_group": ["전연령가족"],
+        "kid_friendly_score": 0.75,
+        "kid_friendly_reason": "대국민 참여 캠페인으로 연령 제한 없음. 선정자에게 히어로 페스타 초대+창의나래관 사전체험 특전.",
+        "linked_events": ["ent-evt-026 (히어로 박람회)", "창의나래관 개관 (7월)"],
+        "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115&call_from=rsslink"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "창의나래관 '초능력 비밀 아카데미' 개관",
+      "properties": {
+        "start_date": "2026-07 (예정)",
+        "venue": "국립중앙과학관 창의나래관",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.9,
+        "kid_friendly_reason": "어린이 과학 체험 전시관 리뉴얼, 초능력 테마",
+        "source_url": "https://idsn.co.kr/news/view/1065593651704268"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "스탬프 투어 (한밭수목원)",
+      "properties": {
+        "category": "체험·미션",
+        "description": "한밭수목원 봄꽃 전시회 연계 스탬프 투어",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.7,
+        "event_parent": "temp-001"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-001",
+      "predicate": "hostsAt",
+      "object": "temp-002",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "organizedBy",
+      "object": "ent-org-001",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-006",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-026",
+      "source_ids": ["src-002"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-evt-026",
+      "predicate": "partOfSeries",
+      "object": "temp-007",
+      "source_ids": ["src-002"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "featuresActivity",
+      "object": "temp-004",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "total_entities": 5,
+    "new_entities": 5,
+    "matched_entities": 0,
+    "total_relations": 5
+  }
+}

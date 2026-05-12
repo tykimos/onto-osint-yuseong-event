@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "초능력 히어로 박람회 D-4 (5/16~17, 국립중앙과학관 사이언스터널)",
+  "url": "https://dazabi.com/insurance_magazine/article.php?id=20334",
+  "snippet": "국립중앙과학관은 창의나래관 신규 전시관 개관을 앞두고 5월 16~17일 사이언스터널에서 초능력 히어로 박람회를 개최한다. 입학테스트, AI·로봇·AR 초능력훈련, 코스프레, O/X 퀴즈쇼, 창의나래관 퍼레이드 등 다양한 프로그램 운영.",
+  "source_name": "다자비",
+  "language": "ko",
+  "discovered_date": "2026-05-12",
+  "tag": "update",
+  "related_report": "2026-05-11",
+  "related_item": "src-006",
+  "tag_reason": "D-5→D-4 날짜 전환. 창의나래관 개관 연계 캠페인 발견으로 히어로 박람회의 상위 맥락이 추가됨. 본질적으로 새 정보(창의나래관 전초행사 확인)가 있어 update.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

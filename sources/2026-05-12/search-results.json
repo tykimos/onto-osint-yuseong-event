@@ -1,0 +1,181 @@
+{
+  "date": "2026-05-12",
+  "collected_at": "2026-05-12T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 14,
+  "total_results": 38,
+  "expanded_keywords": [
+    "초능력 히어로 박람회",
+    "공룡덕후박람회 참가 신청",
+    "유성봄꽃전시회",
+    "창의나래관",
+    "한밭수목원 봄꽃"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:01+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "서울 지역 어린이날 행사만 반환 — 유성구 특정 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 초능력 히어로 박람회 2026",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:02+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://dazabi.com/insurance_magazine/article.php?id=20334", "snippet": "국립중앙과학관은 5월 16~17일 양일간 사이언스터널에서 초능력 히어로 박람회를 개최", "source_name": "다자비" },
+        { "title": "과기정통부 초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://newsseoul.co.kr/news/view/1065584409950991", "snippet": "입학테스트, AI·로봇·AR 초능력훈련, 코스프레 기념촬영 등 다양한 프로그램", "source_name": "뉴스서울" },
+        { "title": "『잠든 영웅(히어로)을 깨워라』 대국민 초능력 아이템 수집 전 시작", "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115&call_from=rsslink", "snippet": "3/10부터 창의나래관 신규 전시관 개관 준비. 선정자에게 히어로 페스타 초대 및 7월 개관 사전체험 특전", "source_name": "정책브리핑" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:03+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔할 수 있는 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "덕명동 레포레스트 대형카페", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 복지관 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:04+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/health/", "snippet": "유성구보건소 안내, 진료, 민원, 보건사업", "source_name": "유성구청" },
+        { "title": "[대전 24시] 유성구, 어린이 건강체험 프로그램 '유성이의 튼튼스쿨' 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "5~7세 대상 건강 체험 프로그램", "source_name": "시사저널" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:05+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "[주말 여기 어때] 유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "유림공원 일원 축제+봄꽃전시회 동시 운영", "source_name": "굿모닝충청" },
+        { "title": "제5회 유성봄꽃전시회 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/33", "snippet": "유림공원, 봄꽃·빛·정원 테마, 50여 종 8만여 본", "source_name": "대전관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 5월 2026",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:06+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구, 지역작가와 함께하는 특별한 만남 '지역작가 인 도서관' 운영", "url": "https://pedien.com/html/view.php?idx=1014924", "snippet": "5월부터 6개 공공도서관에서 강연·북토크·창작·북큐레이션", "source_name": "페디언" },
+        { "title": "유성구통합도서관 행사신청 — 그림책, 나만의 보물을 담다", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "관평도서관 유아~초등저학년 프로그램", "source_name": "유성구통합도서관" },
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 통합도서관 프로그램 안내", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 5월 행사 2026 사이언스 브릭파티",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:07+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "국립중앙과학관, 미래세대 과학기술문화 확산을 위한 2026년 주요프로그램 공개", "url": "https://www.lecturernews.com/news/articleView.html?idxno=194423", "snippet": "2026년 주요 프로그램: 가정의달 시리즈, 창의나래관 개관, 전국과학전람회 등", "source_name": "한국강사신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성 키즈카페 팝업스토어 원데이클래스 2026",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:08+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "유성구 특정 신규 팝업/키즈카페 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 5월 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:09+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "운영시간 14:00~22:00, 매주 월요일 휴관, 무료", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 소방서 경찰서 우체국 어린이 체험 2026",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:10+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "유성소방서, 119안전체험교실 체험 어린이 감사의 글", "url": "https://www.fpn119.co.kr/168164", "snippet": "유성소방서 119안전체험교실 운영", "source_name": "FPN" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 오월드 재개장 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:11+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "'늑구 탈출 후폭풍' 대전 오월드, 5월 말까지 휴장 연장한다", "url": "https://www.insight.co.kr/news/551937", "snippet": "5월 말까지 휴장 연장 결정", "source_name": "인사이트" },
+        { "title": "'늑구' 탈출 대전 오월드 5월 재개장 불가…입점업소 특수 기대 난망", "url": "https://www.news1.kr/local/daejeon-chungnam/6149846", "snippet": "5월 재개장 불가 확정, 입점업소 통보", "source_name": "뉴스1" },
+        { "title": "오월드, 입점 업체에 5월 말까지 재개장 불가 통보", "url": "https://tjmbc.co.kr/NewsArticle/837502", "snippet": "5월 말까지 재개장 불가 통보", "source_name": "TJB" },
+        { "title": "'임시 휴장' 대전 오월드 재개장 일정은?", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1155607", "snippet": "금강환경청 사용중지 명령, 재개장 일정 미정", "source_name": "금강일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "용산동 전민동 관평동 행사 이벤트 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:12+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "동 단위 특정 행사 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "한밭수목원 2026 봄꽃전시회 5월 가족",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:13+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전시 '5월에 꽃마중 오세요~' 한밭수목원, '2026 봄꽃 전시회' 개최", "url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/", "snippet": "5/8~25, 동원·서원 일원, '오월의 꽃마중' 주제, 작약·으아리·장미·해당화, 스탬프투어", "source_name": "더SNS타임" },
+        { "title": "대전 한밭수목원, '2026 봄꽃 전시회' 팡파르", "url": "https://biz.heraldcorp.com/article/10733502", "snippet": "5/8~25, 무료, 오전5시~오후9시", "source_name": "헤럴드경제" },
+        { "title": "'봄의 향연' 한밭수목원, '2026 봄꽃 전시회' 개최", "url": "https://www.jbnews.com/news/articleView.html?idxno=1503723", "snippet": "작약·클레마티스·장미·해당화 전시, 스탬프 투어", "source_name": "중부매일" },
+        { "title": "한밭수목원 봄꽃 전시회 개최", "url": "https://www.dpi1004.com/14129", "snippet": "대전시 주최, 5/8~25", "source_name": "장애인인식개선신문" },
+        { "title": "5월 꽃의 여왕 장미로 물들은 대전 봄꽃 여행지, 한밭수목원", "url": "https://www.welfarehello.com/community/hometownNews/351e179e-fa31-46fb-85a0-abc63fac1782", "snippet": "한밭수목원 장미원·허브원·열대식물원 안내", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 2026 창의나래관 히어로 사전예약",
+      "language": "ko",
+      "timestamp": "2026-05-12T07:00:14+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립중앙과학관, '잠든 영웅(히어로)를 깨워라' 대국민 초능력 아이템 수집 전 시작", "url": "https://idsn.co.kr/news/view/1065593651704268", "snippet": "3/10~ 창의나래관 신규 전시관(7월 개관) 준비, 히어로 페스타 초대 및 사전체험 특전", "source_name": "IDSN" },
+        { "title": "국립중앙과학관 통합예약 누리집", "url": "https://rsvn.science.go.kr/", "snippet": "전시관람·과학교육 예약 서비스", "source_name": "국립중앙과학관" }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-05-12",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1468,7 +1468,12 @@
     { "id": "ent-act-017", "type": "Activity", "label": "유성온천 문화목욕탕·족욕·향기체험" },
     { "id": "ent-act-018", "type": "Activity", "label": "뷰티플라워 헤어아트쇼" },
     { "id": "ent-act-019", "type": "Activity", "label": "에이플러스+퓨전국악 풍류 폐막공연" },
-    { "id": "ent-act-020", "type": "Activity", "label": "제1대 공통령(恐統領) 선거" }
+    { "id": "ent-act-020", "type": "Activity", "label": "제1대 공통령(恐統領) 선거" },
+    { "id": "ent-evt-034", "type": "Event", "label": "2026 한밭수목원 봄꽃 전시회" },
+    { "id": "ent-venue-024", "type": "Venue", "label": "한밭수목원" },
+    { "id": "ent-evt-035", "type": "Event", "label": "잠든 히어로를 깨워라 아이템 수집 전" },
+    { "id": "ent-evt-036", "type": "Event", "label": "창의나래관 초능력 비밀 아카데미 개관" },
+    { "id": "ent-act-021", "type": "Activity", "label": "스탬프 투어 (한밭수목원)" }
   ],
   "edges_added_2026_05_10": [
     { "subject": "ent-evt-021", "predicate": "hostsAt", "object": "ent-venue-023", "type": "explicit", "confidence": 0.98, "added": "2026-05-10", "note": "축제장소 유림공원 확정(4개 매체 교차확인)" },
@@ -1490,9 +1495,22 @@
     { "subject": "ent-act-020", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-11", "rule": "operator_kid_friendliness" },
     { "subject": "ent-evt-033", "predicate": "visitCombo", "object": "ent-evt-021", "type": "inferred", "confidence": 0.0, "added": "2026-05-11", "note": "축제 종료로 무효화" }
   ],
+  "edges_added_2026_05_12": [
+    { "subject": "ent-evt-034", "predicate": "hostsAt", "object": "ent-venue-024", "type": "explicit", "confidence": 0.95, "added": "2026-05-12" },
+    { "subject": "ent-evt-034", "predicate": "organizedBy", "object": "ent-org-001", "type": "explicit", "confidence": 0.95, "added": "2026-05-12" },
+    { "subject": "ent-evt-034", "predicate": "featuresActivity", "object": "ent-act-021", "type": "explicit", "confidence": 0.9, "added": "2026-05-12" },
+    { "subject": "ent-evt-034", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.9, "added": "2026-05-12" },
+    { "subject": "ent-evt-035", "predicate": "partOfSeries", "object": "ent-evt-026", "type": "explicit", "confidence": 0.9, "added": "2026-05-12", "note": "캠페인→히어로 연계 확인" },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "ent-evt-036", "type": "explicit", "confidence": 0.85, "added": "2026-05-12", "note": "히어로→창의나래관 개관 연계 확인" },
+    { "subject": "ent-evt-035", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-12" },
+    { "subject": "ent-evt-036", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-12" },
+    { "subject": "ent-evt-034", "predicate": "visitCombo", "object": "ent-evt-033", "type": "inferred", "confidence": 0.7, "added": "2026-05-12", "rule": "nearby_flower_exhibitions", "note": "봄꽃 더블 전시 코스 가능 (차량 이동 필요)" },
+    { "subject": "ent-evt-035", "predicate": "partOfSeries", "object": "ent-evt-036", "type": "inferred", "confidence": 0.85, "added": "2026-05-12", "rule": "same_venue_series", "note": "캠페인→히어로→창의나래관 3단계 시리즈" },
+    { "subject": "ent-evt-036", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.9, "added": "2026-05-12", "rule": "operator_kid_friendliness" }
+  ],
   "stats": {
-    "total_nodes": 109,
-    "total_edges": 26,
-    "total_triples": 240
+    "total_nodes": 114,
+    "total_edges": 37,
+    "total_triples": 251
   }
 }

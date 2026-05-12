@@ -1,0 +1,24 @@
+{
+  "id": "src-002",
+  "title": "국립중앙과학관 '잠든 히어로를 깨워라' 아이템 수집 전 — 창의나래관 7월 개관 연계 캠페인",
+  "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115&call_from=rsslink",
+  "snippet": "국립중앙과학관은 3/10부터 창의나래관 신규 전시관 '초능력 비밀 아카데미' 개관(7월 예정)을 준비하기 위해 대국민 초능력 아이템 수집 캠페인을 운영 중이다. 선정자에게는 5월 히어로 페스타(히어로 박람회) 초대권과 7월 개관 사전체험 특전이 제공된다. 이로써 히어로 박람회(5/16~17)가 단순 행사가 아니라 창의나래관 리뉴얼의 전초 행사임이 확인되었다.",
+  "source_name": "정책브리핑 (대한민국 정부)",
+  "language": "ko",
+  "discovered_date": "2026-05-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "'잠든 히어로를 깨워라' 캠페인과 창의나래관 7월 개관 정보는 이전 보고서에서 다루지 않은 신규 정보. 히어로 박람회(D-4)의 상위 맥락(시리즈-캠페인-개관)을 제공하므로 보고서에 반드시 포함.",
+  "entities": [
+    { "id": "temp-006", "type": "Event", "name": "잠든 히어로를 깨워라 아이템 수집 전", "role": "캠페인" },
+    { "id": "temp-007", "type": "Venue", "name": "창의나래관 (리뉴얼)", "role": "개관 예정 시설" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부", "role": "주관" }
+  ],
+  "relations": [
+    { "subject": "temp-006", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "temp-006", "predicate": "partOfSeries", "object": "ent-evt-026" },
+    { "subject": "ent-evt-026", "predicate": "partOfSeries", "object": "temp-007" }
+  ]
+}

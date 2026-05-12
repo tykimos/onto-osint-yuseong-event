@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-12",
+  "new_triples": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "hostsAt",
+      "object": "ent-venue-024",
+      "source_id": "src-001",
+      "date": "2026-05-12",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "organizedBy",
+      "object": "ent-org-001",
+      "source_id": "src-001",
+      "date": "2026-05-12",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "featuresActivity",
+      "object": "ent-act-021",
+      "source_id": "src-001",
+      "date": "2026-05-12",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "source_id": "src-001",
+      "date": "2026-05-12",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-035",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-026",
+      "source_id": "src-002",
+      "date": "2026-05-12",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-026",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-036",
+      "source_id": "src-002",
+      "date": "2026-05-12",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-035",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_id": "src-002",
+      "date": "2026-05-12",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-036",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_id": "src-002",
+      "date": "2026-05-12",
+      "confidence": 0.95,
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "visitCombo",
+      "object": "ent-evt-033",
+      "rule": "nearby_flower_exhibitions",
+      "confidence": 0.7,
+      "reasoning": "한밭수목원 봄꽃전시(5/8~25)와 유림공원 유성봄꽃전시(5/8~31)가 동시 운영 중 — 봄꽃 코스 동선 가능. 단, 거리가 약 4km 떨어져 있어 차량 이동 필요."
+    },
+    {
+      "subject": "ent-evt-035",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-036",
+      "rule": "same_venue_series",
+      "confidence": 0.85,
+      "reasoning": "캠페인(3/10~)→히어로 박람회(5/16~17)→창의나래관 개관(7월)이 동일 주최(국립중앙과학관)·동일 테마(초능력)의 3단계 시리즈임을 확인."
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.0",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.6,
+      "reasoning": "주최가 대전광역시(지자체)이고 수목원은 과학관·도서관 등 어린이 특화 시설이 아니므로 가산점 없음. kid_friendly_score 0.65 유지."
+    },
+    {
+      "subject": "ent-evt-036",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "reasoning": "국립중앙과학관이 운영하는 어린이 대상 전시관(창의나래관) — 과학관 kidFriendlyBoost 적용."
+    }
+  ],
+  "stats": {
+    "new_nodes": 5,
+    "new_edges": 8,
+    "inferred_edges": 4
+  }
+}

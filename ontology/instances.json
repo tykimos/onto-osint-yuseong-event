@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-11",
+  "last_updated": "2026-05-12",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -177,5 +177,12 @@
   "new_entities_2026_05_11": [
     { "id": "ent-act-020", "type": "Activity", "name": "제1대 공통령(恐統領) 선거", "properties": { "category": "참여형 투표 이벤트", "description": "공룡덕후박람회에서 관람객이 좋아하는 공룡에 투표하는 선거 컨셉 프로그램", "target_age": "유아·초등·전연령가족", "kid_friendly_score": 0.85, "event_parent": "ent-evt-028" }, "first_seen": "2026-05-11", "last_seen": "2026-05-11", "mention_count": 1 }
   ],
-  "total_count": 121
+  "new_entities_2026_05_12": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회", "properties": { "start_date": "2026-05-08", "end_date": "2026-05-25", "venue": "한밭수목원 동원·서원 일원", "dong": "둔산동 (유성구 인접)", "distance_from_anchor_m": 6000, "host": "대전광역시", "fee": "무료", "registration_required": false, "indoor_outdoor": "야외", "target_age_group": ["전연령가족"], "kid_friendly_score": 0.65, "programs": ["작약 정원", "으아리 수직정원", "장미·해당화", "스탬프 투어"], "operating_hours": "05:00~21:00", "source_url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 5 },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원", "properties": { "dong": "둔산동", "address": "대전광역시 서구 둔산대로 169", "venue_type": "수목원", "distance_from_anchor_m": 6000, "parking": true, "stroller_accessible": true, "kid_friendly": true, "indoor_outdoor": "야외" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 5 },
+    { "id": "ent-evt-035", "type": "Event", "name": "잠든 히어로를 깨워라 아이템 수집 전", "properties": { "start_date": "2026-03-10", "venue": "국립중앙과학관 (온라인+현장)", "host": "국립중앙과학관·과학기술정보통신부", "fee": "무료", "registration_required": false, "indoor_outdoor": "온라인+오프라인", "target_age_group": ["전연령가족"], "kid_friendly_score": 0.75, "linked_events": ["ent-evt-026", "ent-evt-036"], "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115&call_from=rsslink" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 2 },
+    { "id": "ent-evt-036", "type": "Event", "name": "창의나래관 '초능력 비밀 아카데미' 개관", "properties": { "start_date": "2026-07 (예정)", "venue": "국립중앙과학관 창의나래관", "host": "국립중앙과학관", "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.9, "source_url": "https://idsn.co.kr/news/view/1065593651704268" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 2 },
+    { "id": "ent-act-021", "type": "Activity", "name": "스탬프 투어 (한밭수목원)", "properties": { "category": "체험·미션", "description": "봄꽃 전시회 연계 스탬프 투어, 가족 참여 미션", "target_age": "전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-034" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 3 }
+  ],
+  "total_count": 126
 }
