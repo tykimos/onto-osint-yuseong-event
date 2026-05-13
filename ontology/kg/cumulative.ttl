@@ -12,10 +12,10 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 
 # Onto-OSINT-Yuseong-Event — cumulative KG (유효 엔티티만)
-# validity_today: 2026-05-12 — 종료된 Event 인스턴스/관련 트리플 제외
+# validity_today: 2026-05-13 — 종료된 Event 인스턴스/관련 트리플 제외
 <#cumulative> a prov:Entity ;
-  dct:date "2026-05-12"^^xsd:date ;
-  dct:modified "2026-05-12"^^xsd:date .
+  dct:date "2026-05-13"^^xsd:date ;
+  dct:modified "2026-05-13"^^xsd:date .
 
 # === Schema: classes ===
 yseo:Entity a owl:Class ;
