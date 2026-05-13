@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "공룡덕후박람회 D-17 참가안내 지속 운영 (5/30~31)",
+  "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+  "snippet": "공룡덕후박람회 참가안내 페이지 정상 운영 중. D-18→D-17 전환.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-13",
+  "tag": "update",
+  "related_report": "2026-05-12",
+  "related_item": "2026-05-12/src-004",
+  "tag_reason": "D-day 카운트다운 업데이트 (D-18→D-17). 참가안내 페이지 정상 운영 확인.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

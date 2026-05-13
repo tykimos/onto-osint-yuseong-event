@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-05-13",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1508,9 +1508,31 @@
     { "subject": "ent-evt-035", "predicate": "partOfSeries", "object": "ent-evt-036", "type": "inferred", "confidence": 0.85, "added": "2026-05-12", "rule": "same_venue_series", "note": "캠페인→히어로→창의나래관 3단계 시리즈" },
     { "subject": "ent-evt-036", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.9, "added": "2026-05-12", "rule": "operator_kid_friendliness" }
   ],
+  "nodes_added_2026_05_13": [
+    { "id": "ent-evt-037", "type": "Event", "label": "대전시민천문대 운석전시" },
+    { "id": "ent-evt-038", "type": "Event", "label": "대전시민천문대 기상기후사진전" },
+    { "id": "ent-org-022", "type": "Organization", "label": "기상청" }
+  ],
+  "edges_added_2026_05_13": [
+    { "subject": "ent-evt-037", "predicate": "hostsAt", "object": "ent-venue-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-13" },
+    { "subject": "ent-evt-038", "predicate": "hostsAt", "object": "ent-venue-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-13" },
+    { "subject": "ent-evt-037", "predicate": "organizedBy", "object": "ent-org-007", "type": "explicit", "confidence": 0.9, "added": "2026-05-13" },
+    { "subject": "ent-evt-038", "predicate": "organizedBy", "object": "ent-org-022", "type": "explicit", "confidence": 0.85, "added": "2026-05-13" },
+    { "subject": "ent-evt-037", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.85, "added": "2026-05-13" },
+    { "subject": "ent-evt-038", "predicate": "targetsAgeGroup", "object": "age-elem-low", "type": "explicit", "confidence": 0.7, "added": "2026-05-13" },
+    { "subject": "ent-evt-038", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "explicit", "confidence": 0.75, "added": "2026-05-13" },
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-3", "type": "explicit", "confidence": 0.95, "added": "2026-05-13" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-17", "type": "explicit", "confidence": 0.95, "added": "2026-05-13" },
+    { "subject": "ent-evt-037", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.9, "added": "2026-05-13", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-037", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.85, "added": "2026-05-13", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-038", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.85, "added": "2026-05-13", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-006", "type": "inferred", "confidence": 0.9, "added": "2026-05-13", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-038", "type": "inferred", "confidence": 0.95, "added": "2026-05-13", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-015", "type": "inferred", "confidence": 0.75, "added": "2026-05-13", "rule": "same_dong_combo" }
+  ],
   "stats": {
-    "total_nodes": 114,
-    "total_edges": 37,
-    "total_triples": 251
+    "total_nodes": 117,
+    "total_edges": 52,
+    "total_triples": 264
   }
 }

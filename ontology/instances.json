@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-05-13",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -184,5 +184,10 @@
     { "id": "ent-evt-036", "type": "Event", "name": "창의나래관 '초능력 비밀 아카데미' 개관", "properties": { "start_date": "2026-07 (예정)", "venue": "국립중앙과학관 창의나래관", "host": "국립중앙과학관", "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.9, "source_url": "https://idsn.co.kr/news/view/1065593651704268" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 2 },
     { "id": "ent-act-021", "type": "Activity", "name": "스탬프 투어 (한밭수목원)", "properties": { "category": "체험·미션", "description": "봄꽃 전시회 연계 스탬프 투어, 가족 참여 미션", "target_age": "전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-034" }, "first_seen": "2026-05-12", "last_seen": "2026-05-12", "mention_count": 3 }
   ],
-  "total_count": 126
+  "total_count": 129,
+  "new_entities_2026_05_13": [
+    { "id": "ent-evt-037", "type": "Event", "name": "대전시민천문대 운석전시", "properties": { "end_date": "2026-05-31", "venue": "대전시민천문대", "dong": "도룡동", "distance_from_anchor_m": 3000, "ring": "ring-car", "host": "대전시민천문대", "fee": "무료", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.75, "content": "세계운석박물관 이현장 회장 소장 실제 운석 표본 공개. 운석 생성 과정·종류·태양계 역사 해설.", "source_url": "https://www.sedaily.com/article/20042838" }, "first_seen": "2026-05-13", "last_seen": "2026-05-13", "mention_count": 1 },
+    { "id": "ent-evt-038", "type": "Event", "name": "대전시민천문대 기상기후사진전", "properties": { "end_date": "2026-05-31", "venue": "대전시민천문대", "dong": "도룡동", "distance_from_anchor_m": 3000, "ring": "ring-car", "host": "기상청 주관, 대전시민천문대 전시", "fee": "무료", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.6, "content": "기상청 주관 날씨·기후 사진공모전 수상작 전시.", "source_url": "https://www.sedaily.com/article/20042838" }, "first_seen": "2026-05-13", "last_seen": "2026-05-13", "mention_count": 1 },
+    { "id": "ent-org-022", "type": "Organization", "name": "기상청", "properties": { "org_type": "중앙행정기관", "role": "기상기후사진전 주관" }, "first_seen": "2026-05-13", "last_seen": "2026-05-13", "mention_count": 1 }
+  ]
 }

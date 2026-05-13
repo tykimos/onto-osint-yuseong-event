@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-05-13",
   "classes": [
     {
       "id": "Entity",
@@ -237,6 +237,13 @@
       "target": "Event(ent-evt-034 한밭수목원봄꽃전시회, ent-evt-035 잠든히어로를깨워라캠페인, ent-evt-036 창의나래관개관), Venue(ent-venue-024 한밭수목원), Activity(ent-act-021 스탬프투어)",
       "reason": "한밭수목원 봄꽃 전시회(5/8~25) 신규 발견 — config custom_sites에 포함된 유성구 인접 가족 방문지. 정책브리핑 보도자료로 '잠든 히어로를 깨워라' 캠페인 및 창의나래관 7월 개관 계획 확인 — 히어로 박람회(D-4)가 창의나래관 리뉴얼의 전초 행사임이 밝혀짐.",
       "source_ids": ["src-001", "src-002"]
+    },
+    {
+      "date": "2026-05-13",
+      "action": "add_instances",
+      "target": "Event(ent-evt-037 대전시민천문대운석전시, ent-evt-038 대전시민천문대기상기후사진전), Organization(ent-org-022 기상청)",
+      "reason": "서울경제 보도로 대전시민천문대 가정의 달 특별전시 2건 신규 발견 (운석전시 + 기상기후사진전, ~5/31 무료). 기상청(사진전 주관) 기관 추가. 히어로 D-3 진입, 공룡덕후 D-17 카운트다운.",
+      "source_ids": ["src-001"]
     }
   ]
 }

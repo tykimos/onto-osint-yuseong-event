@@ -1,0 +1,141 @@
+{
+  "date": "2026-05-13",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "대전시민천문대 운석전시",
+      "properties": {
+        "start_date": "2026-05 (정확한 시작일 미확인)",
+        "end_date": "2026-05-31",
+        "venue": "대전시민천문대",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3000,
+        "ring": "ring-car",
+        "host": "대전시민천문대",
+        "fee": "무료",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.75,
+        "kid_friendly_reason": "실제 운석 관찰은 어린이 과학 호기심 자극, 태양계 역사 교육. 전시 관람형이라 유아에게도 무리 없음.",
+        "content": "세계운석박물관 이현장 회장 소장 실제 운석 표본 공개. 운석 생성 과정·종류·태양계 역사 해설.",
+        "source_url": "https://www.sedaily.com/article/20042838"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "대전시민천문대 기상기후사진전",
+      "properties": {
+        "start_date": "2026-05 (정확한 시작일 미확인)",
+        "end_date": "2026-05-31",
+        "venue": "대전시민천문대",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3000,
+        "ring": "ring-car",
+        "host": "기상청 주관, 대전시민천문대 전시",
+        "fee": "무료",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.6,
+        "kid_friendly_reason": "사진 전시 위주로 영유아에게 흥미 유발이 다소 낮으나, 기상·기후 교육 콘텐츠로 초등학생에게 적합.",
+        "content": "기상청 주관 날씨·기후 사진공모전 수상작 전시. 지구환경 변화 중요성을 사진 작품으로 되새김.",
+        "source_url": "https://www.sedaily.com/article/20042838"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "기상청",
+      "properties": {
+        "org_type": "중앙행정기관",
+        "role": "기상기후사진전 주관"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-026",
+      "type": "Event",
+      "name": "초능력 히어로 박람회",
+      "properties": {
+        "status_update": "D-4→D-3",
+        "additional_media": "전파신문 추가 보도 확인"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "status_update": "D-18→D-17",
+        "registration": "참가안내 페이지 정상 운영"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-001",
+      "predicate": "hostsAt",
+      "object": "ent-venue-006",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-002",
+      "predicate": "hostsAt",
+      "object": "ent-venue-006",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "organizedBy",
+      "object": "ent-org-007",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-002",
+      "predicate": "organizedBy",
+      "object": "temp-003",
+      "source_ids": ["src-001"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "source_ids": ["src-001"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "temp-002",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "source_ids": ["src-001"],
+      "confidence": 0.7
+    }
+  ],
+  "stats": {
+    "total_entities": 5,
+    "new_entities": 3,
+    "matched_entities": 2,
+    "total_relations": 6
+  }
+}

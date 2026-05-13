@@ -1,0 +1,19 @@
+{
+  "id": "src-002",
+  "title": "초능력 히어로 박람회 D-3 (5/16~17, 국립중앙과학관 사이언스터널) — 전파신문 추가 보도",
+  "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393",
+  "snippet": "국립중앙과학관이 5월 16~17일 사이언스터널에서 초능력 히어로 박람회를 개최한다. 전파신문 보도로 추가 매체 확인.",
+  "source_name": "전파신문",
+  "language": "ko",
+  "discovered_date": "2026-05-13",
+  "tag": "update",
+  "related_report": "2026-05-12",
+  "related_item": "2026-05-12/src-003",
+  "tag_reason": "히어로 박람회 D-4→D-3 전환. 전파신문 추가 보도로 매체 범위 확장. 새로운 실질 정보 변경은 D-day 카운트다운뿐.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

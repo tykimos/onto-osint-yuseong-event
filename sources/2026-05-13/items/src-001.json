@@ -1,0 +1,26 @@
+{
+  "id": "src-001",
+  "title": "대전시민천문대, 가정의 달 맞아 '운석전시'·'기상기후사진전' 특별전시 (~5/31, 무료)",
+  "url": "https://www.sedaily.com/article/20042838",
+  "snippet": "대전시민천문대는 가정의 달을 맞아 '운석전시'와 '기상기후사진전' 등 특별전시를 5월 31일까지 개최한다. 세계운석박물관 이현장 회장 소장 실제 운석 표본 전시, 기상청 주관 날씨·기후 사진공모전 수상작 전시. 무료 관람.",
+  "source_name": "서울경제",
+  "language": "ko",
+  "discovered_date": "2026-05-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "대전시민천문대 운석전시·기상기후사진전은 이전 14일 소스에 등장하지 않은 신규 특별전시. 별축제(5/4~5)와 상시 관측 프로그램은 기존에 추적되었으나, 이 특별전시 2건은 최초 발견.",
+  "entities": [
+    { "id": "ent-venue-006", "type": "Venue", "name": "대전시민천문대", "role": "전시 장소" },
+    { "id": "ent-org-007", "type": "Organization", "name": "대전시민천문대", "role": "주최" },
+    { "id": "temp-001", "type": "Event", "name": "대전시민천문대 운석전시", "role": "신규 이벤트" },
+    { "id": "temp-002", "type": "Event", "name": "대전시민천문대 기상기후사진전", "role": "신규 이벤트" },
+    { "id": "temp-003", "type": "Organization", "name": "기상청", "role": "사진전 주관" }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "hostsAt", "object": "ent-venue-006" },
+    { "subject": "temp-002", "predicate": "hostsAt", "object": "ent-venue-006" },
+    { "subject": "temp-001", "predicate": "organizedBy", "object": "ent-org-007" },
+    { "subject": "temp-002", "predicate": "organizedBy", "object": "temp-003" }
+  ]
+}

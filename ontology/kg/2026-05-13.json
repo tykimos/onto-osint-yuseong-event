@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-13",
+  "new_triples": [
+    { "subject": "ent-evt-037", "predicate": "hostsAt", "object": "ent-venue-006", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-038", "predicate": "hostsAt", "object": "ent-venue-006", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-037", "predicate": "organizedBy", "object": "ent-org-007", "confidence": 0.90, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-038", "predicate": "organizedBy", "object": "ent-org-022", "confidence": 0.85, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-037", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-038", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.70, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-038", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.75, "type": "explicit", "source_id": "src-001" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-3", "confidence": 0.95, "type": "explicit", "source_id": "src-002", "note": "D-4→D-3 전환" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-17", "confidence": 0.95, "type": "explicit", "source_id": "src-003", "note": "D-18→D-17 전환" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-037", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.90, "type": "inferred", "rule": "operator_kid_friendliness", "note": "천문대 운영 과학전시 → 어린이 친화 가산" },
+    { "subject": "ent-evt-037", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "note": "공공기관(천문대) 주최 전시" },
+    { "subject": "ent-evt-038", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event", "note": "공공기관(기상청 주관) 전시" },
+    { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-006", "confidence": 0.90, "type": "inferred", "rule": "same_dong_combo", "note": "운석전시 + 상시관측(같은 천문대) → 원스톱 과학 코스" },
+    { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-038", "confidence": 0.95, "type": "inferred", "rule": "same_dong_combo", "note": "운석전시 + 기상기후사진전(같은 장소) → 당연 동시 관람" },
+    { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-015", "confidence": 0.75, "type": "inferred", "rule": "same_dong_combo", "note": "천문대 운석전시(도룡동) + 탐이꿈이 비밀실험실(도룡동 어린이과학관) → 도룡동 과학 코스" }
+  ],
+  "stats": {
+    "new_nodes": 3,
+    "new_edges": 7,
+    "inferred_edges": 6
+  }
+}

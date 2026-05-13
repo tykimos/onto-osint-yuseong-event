@@ -689,3 +689,33 @@
 - **신뢰도:** 0.80
 - **상태:** 잠정 (7월 개관 확정 시 확정 전환)
 - **비고:** 추론 체인 3단계(캠페인→히어로→개관). 3단계 이상이므로 0.5배 감쇠 적용하면 0.80×0.5=0.40이지만, 정부 공식 보도자료 출처이므로 감쇠를 완화하여 0.80 유지.
+
+## 2026-05-13 추론 결과
+
+### 추론 #1: operator_kid_friendliness (천문대 운석전시)
+- **입력:** (ent-org-007 operates ent-venue-006), (ent-org-007 orgType 천문대), (ent-evt-037 hostsAt ent-venue-006)
+- **추론:** (ent-evt-037 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 천문대 운영 과학전시 → 어린이 친화도 가산. 실제 운석 관찰은 과학교육에 매우 적합.
+
+### 추론 #2: public_institution_kid_event (천문대 특별전시 2건)
+- **입력:** (ent-org-007 orgType 천문대), (ent-evt-037 organizedBy ent-org-007), (ent-evt-037 targetsAgeGroup age-family)
+- **추론:** (ent-evt-037 publicTrustBoost +0.15), (ent-evt-038 publicTrustBoost +0.15)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 공공기관(천문대·기상청) 주최/주관 전시. 무료 관람.
+
+### 추론 #3: same_dong_combo (도룡동 천문대 원스톱 코스)
+- **입력:** (ent-evt-037 hostsAt ent-venue-006), (ent-evt-038 hostsAt ent-venue-006), (ent-evt-006 hostsAt ent-venue-006)
+- **추론:** (ent-evt-037 visitCombo ent-evt-006), (ent-evt-037 visitCombo ent-evt-038)
+- **신뢰도:** 0.90 / 0.95
+- **상태:** 확정
+- **비고:** 같은 천문대에서 운석전시(신규) + 기상기후사진전(신규) + 상시관측(14:00~) = 원스톱 과학 코스. 특히 화요일 재개관일과 맞물려 오늘부터 방문 가능.
+
+### 추론 #4: same_dong_combo (도룡동 과학 코스 확장)
+- **입력:** (ent-evt-037 hostsAt ent-venue-006), (ent-evt-015 hostsAt ent-venue-004), (ent-venue-006 locatedIn dong-doryong), (ent-venue-004 locatedIn dong-doryong)
+- **추론:** (ent-evt-037 visitCombo ent-evt-015)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 천문대 운석전시(도룡동) + 국립어린이과학관 탐이꿈이(도룡동) → 도룡동 내 과학 코스. 차량 5~10분 이동.
