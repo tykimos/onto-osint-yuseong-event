@@ -244,6 +244,13 @@
       "target": "Event(ent-evt-037 대전시민천문대운석전시, ent-evt-038 대전시민천문대기상기후사진전), Organization(ent-org-022 기상청)",
       "reason": "서울경제 보도로 대전시민천문대 가정의 달 특별전시 2건 신규 발견 (운석전시 + 기상기후사진전, ~5/31 무료). 기상청(사진전 주관) 기관 추가. 히어로 D-3 진입, 공룡덕후 D-17 카운트다운.",
       "source_ids": ["src-001"]
+    },
+    {
+      "date": "2026-05-14",
+      "action": "add_instances",
+      "target": "Event(ent-evt-039 어린이미술기획전 열한번째 트윙클), Venue(ent-venue-025 대전시립미술관), Organization(ent-org-023 대전시립미술관), Activity(ent-act-022 Playground놀이터, ent-act-023 섬유촉각체험, ent-act-024 공룡탐사특별강연)",
+      "reason": "대전시립미술관 어린이미술기획전 '열한번째 트윙클'(3/18~6/21) 신규 발견 — config custom_sites에 포함된 한밭수목원·대전시립미술관 일원 권역. 체험형 미술전시(미끄럼틀·섬유 만지기). 공룡덕후박람회 이융남 교수 강연 프로그램 확인. 히어로 D-2 진입, 공룡덕후 D-16.",
+      "source_ids": ["src-001", "src-003"]
     }
   ]
 }

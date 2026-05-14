@@ -719,3 +719,47 @@
 - **신뢰도:** 0.75
 - **상태:** 확정
 - **비고:** 천문대 운석전시(도룡동) + 국립어린이과학관 탐이꿈이(도룡동) → 도룡동 내 과학 코스. 차량 5~10분 이동.
+
+## 2026-05-14 추론 결과
+
+### 추론 #1: proximity (대전시립미술관 ↔ 한밭수목원)
+- **입력:** (ent-venue-025 locatedIn dong-dunsan), (ent-venue-024 locatedIn dong-dunsan)
+- **추론:** (ent-venue-025 nearby ent-venue-024)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 대전시립미술관과 한밭수목원은 둔산동 동일 권역 내 인접 시설. 도보 5분 이내 연계 가능.
+
+### 추론 #2: same_dong_combo (둔산동 가족 트리플 코스)
+- **입력:** (ent-evt-039 hostsAt ent-venue-025), (ent-evt-034 hostsAt ent-venue-024), (ent-venue-025 nearby ent-venue-024)
+- **추론:** (ent-evt-039 visitCombo ent-evt-034)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 한밭수목원 봄꽃전시회(~5/25) + 대전시립미술관 트윙클(~6/21) = 둔산동 가족 트리플 코스. 실외(수목원 봄꽃) → 실내(미술관 체험) 자연 동선. 수목원 봄꽃전시회 잔여 11일 동안 시너지 극대화.
+
+### 추론 #3: operator_kid_friendliness (미술관 어린이 기획전 가산)
+- **입력:** (ent-org-023 operates ent-venue-025), (ent-evt-039 hostsAt ent-venue-025), (ent-evt-039 title contains "어린이미술기획전")
+- **추론:** (ent-evt-039 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 미술관 운영 어린이 전용 기획전. 미끄럼틀 구조물·섬유 만지기 등 전신 참여형 체험 — 일반 전시 대비 어린이 친화도 매우 높음.
+
+### 추론 #4: age_group_overlap (미끄럼틀 구조물 → 유아·초등저학년)
+- **입력:** (ent-act-022 description "미끄럼틀 구조물로 오르고 미끄러지며")
+- **추론:** (ent-act-022 targetsAgeGroup age-toddler), (ent-act-022 targetsAgeGroup age-elem-low)
+- **신뢰도:** 0.85 / 0.90
+- **상태:** 확정
+- **비고:** 미끄럼틀 구조물은 유아(4~6세) 및 초등저학년(7~9세)에 최적. 영유아(0~3)는 보호자 동반 시 가능.
+
+### 추론 #5: age_group_overlap (공룡탐사 강연 → 초등고학년)
+- **입력:** (ent-act-024 description "이융남 전 서울대 교수 공룡탐사 강연")
+- **추론:** (ent-act-024 targetsAgeGroup age-elem-high)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 학술적 강연 성격 — 초등고학년(10~12세) 이상 적합. 유아·초등저학년에는 어려울 수 있음.
+
+### 추론 #6: indoor_rainy_fallback (미술관 = 봄꽃전시 우천 대체)
+- **입력:** (ent-evt-034 indoor_outdoor 야외), (ent-evt-039 indoor_outdoor 실내), (ent-venue-024 nearby ent-venue-025)
+- **추론:** (ent-evt-039 rainyFallbackFor ent-evt-034)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 한밭수목원 봄꽃전시(야외)가 우천 시 대전시립미술관 트윙클(실내)로 대체 가능. 동일 권역 도보 이동.

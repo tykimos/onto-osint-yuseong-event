@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-14",
+  "new_triples": [
+    { "subject": "ent-evt-039", "predicate": "hostsAt", "object": "ent-venue-025", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "organizedBy", "object": "ent-org-023", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "featuresActivity", "object": "ent-act-022", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "featuresActivity", "object": "ent-act-023", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.85, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.9, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.85, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-venue-025", "predicate": "locatedIn", "object": "dong-dunsan", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-org-023", "predicate": "operates", "object": "ent-venue-025", "confidence": 0.95, "type": "explicit", "source_id": "src-001" },
+    { "subject": "ent-evt-028", "predicate": "featuresActivity", "object": "ent-act-024", "confidence": 0.85, "type": "explicit", "source_id": "src-003" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-2", "confidence": 0.95, "type": "explicit", "note": "D-3→D-2" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-16", "confidence": 0.95, "type": "explicit", "note": "D-17→D-16" },
+    { "subject": "ent-evt-037", "predicate": "sourceCount", "object": "2", "confidence": 0.90, "type": "explicit", "note": "서울경제+thesnstime 교차검증 완료" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-venue-025", "predicate": "nearby", "object": "ent-venue-024", "confidence": 0.90, "type": "inferred", "rule": "proximity", "note": "대전시립미술관↔한밭수목원 동일 둔산동 인접 시설" },
+    { "subject": "ent-evt-039", "predicate": "visitCombo", "object": "ent-evt-034", "confidence": 0.85, "type": "inferred", "rule": "same_dong_combo", "note": "한밭수목원 봄꽃전시회+미술관 트윙클 = 둔산동 가족 트리플 코스" },
+    { "subject": "ent-evt-039", "predicate": "kidFriendlyBoost", "object": "+0.2", "confidence": 0.85, "type": "inferred", "rule": "operator_kid_friendliness", "note": "미술관 운영 어린이 전용 기획전" },
+    { "subject": "ent-act-022", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.85, "type": "inferred", "note": "미끄럼틀 구조물 — 유아 적합" },
+    { "subject": "ent-act-022", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.9, "type": "inferred", "note": "미끄럼틀 구조물 — 초등저학년 적합" },
+    { "subject": "ent-act-024", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.8, "type": "inferred", "note": "이융남 교수 공룡탐사 강연 — 초등고학년 이상 적합" }
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 11,
+    "inferred_edges": 6
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-14",
+  "total": 12,
+  "new": 1,
+  "reported": 8,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "대전시립미술관 2026 어린이미술기획전 '열한번째 트윙클' (3/18~6/21, 체험형 미술전시)",
+      "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-002",
+      "title": "초능력 히어로 박람회 D-2 (5/16~17, 국립중앙과학관 사이언스터널)",
+      "url": "https://dazabi.com/insurance_magazine/article.php?id=20334",
+      "tag": "update",
+      "related_report": "2026-05-13",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "공룡덕후박람회 D-16 — 공통령 선거 별도 참가안내 페이지 개설 + YTN 사이언스 보도",
+      "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381",
+      "tag": "update",
+      "related_report": "2026-05-13",
+      "entity_count": 4
+    },
+    {
+      "id": "src-004",
+      "title": "대전시민천문대 특별전시 (운석전시+기상기후사진전) — thesnstime 추가 매체 확인",
+      "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/",
+      "tag": "update",
+      "related_report": "2026-05-13",
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "제5회 유성봄꽃전시회 D+6 단독 운영 (유림공원, ~5/31)",
+      "url": "https://daejeontour.co.kr/festival_djt/33",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "한밭수목원 봄꽃 전시회 D+6 (~5/25, 무료) — 헤럴드·뉴스핌 추가 매체",
+      "url": "https://biz.heraldcorp.com/article/10733502",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "유성구 도서관 프로그램 운영 중 (지역작가·그림책·아가맘)",
+      "url": "https://lib.yuseong.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "국립어린이과학관 탐이꿈이의 비밀실험실 운영 중 (~6/30)",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "유성구 보건소 유성이의 튼튼스쿨 하반기 예정 — 변동 없음",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "대전 오월드 5월 말까지 재개장 불가 — 변동 없음",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6149846",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "대전시민천문대 수·목 정상 운영 (14:00~22:00)",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "사이언스 브릭파티 사전 안내 (5/23~31, 국립중앙과학관)",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1682547",
+      "tag": "reported",
+      "related_report": "2026-05-13",
+      "entity_count": 2
+    }
+  ]
+}

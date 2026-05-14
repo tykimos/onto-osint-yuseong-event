@@ -1,0 +1,27 @@
+{
+  "id": "src-003",
+  "title": "공룡덕후박람회 D-16 — 공통령 선거 별도 참가안내 페이지 개설 + YTN 사이언스 보도",
+  "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381",
+  "snippet": "공룡덕후박람회(5/30~31) D-17→D-16. 공통령 선거 별도 참가안내 페이지가 국립중앙과학관에 개설됨(nttSn=47381). YTN 사이언스 보도 추가. 공룡 13종 대표 투표 + 이융남 전 서울대 교수 '오지에서의 공룡탐사' 강연 확인.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-14",
+  "tag": "update",
+  "related_report": "2026-05-13",
+  "related_item": "src-003 (2026-05-13)",
+  "tag_reason": "D-17→D-16 카운트다운 + 공통령 선거 별도 참가안내 페이지 개설(신규 URL) + YTN 사이언스 보도로 매체 범위 확대. 유의미한 새 정보 포함.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회", "properties": { "status": "D-16" } },
+    { "id": "ent-act-020", "type": "Activity", "name": "제1대 공통령(恐統領) 선거", "properties": { "registration_page": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381" } },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "temp-006", "type": "Activity", "name": "공룡탐사 특별강연 (이융남 교수)", "properties": { "category": "강연", "description": "이융남 전 서울대 교수 '오지에서의 공룡탐사' 주제 강연", "target_age": "초등고학년·전연령가족" } }
+  ],
+  "relations": [
+    { "subject": "ent-evt-028", "predicate": "featuresActivity", "object": "temp-006" }
+  ],
+  "additional_sources": [
+    { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최", "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017", "source_name": "YTN 사이언스" },
+    { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "source_name": "국립중앙과학관" },
+    { "title": "\"당신의 '공통령'에 투표하세요\"", "url": "https://www.twig24.com/news/lifestyle/trip/2025/05/22/20250522500095", "source_name": "트위그24" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "src-002",
+  "title": "초능력 히어로 박람회 D-2 (5/16~17, 국립중앙과학관 사이언스터널)",
+  "url": "https://dazabi.com/insurance_magazine/article.php?id=20334",
+  "snippet": "초능력 히어로 박람회 D-3→D-2. 마감 임박 구간 지속. 자석 비행능력·빛 투명화·공기압력 체험 등 과학 원리 기반 초능력 체험. 온라인 예약 시스템 도입.",
+  "source_name": "다자비",
+  "language": "ko",
+  "discovered_date": "2026-05-14",
+  "tag": "update",
+  "related_report": "2026-05-13",
+  "related_item": "src-002 (2026-05-13)",
+  "tag_reason": "D-3→D-2 카운트다운 진행. 마감 임박 구간 지속. 내용 변동 없으나 D-day 접근으로 상태 업데이트.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회", "properties": { "status": "D-2" } },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부" }
+  ],
+  "relations": []
+}

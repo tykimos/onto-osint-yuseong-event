@@ -1530,9 +1530,36 @@
     { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-038", "type": "inferred", "confidence": 0.95, "added": "2026-05-13", "rule": "same_dong_combo" },
     { "subject": "ent-evt-037", "predicate": "visitCombo", "object": "ent-evt-015", "type": "inferred", "confidence": 0.75, "added": "2026-05-13", "rule": "same_dong_combo" }
   ],
+  "nodes_added_2026_05_14": [
+    { "id": "ent-evt-039", "type": "Event", "label": "2026 어린이미술기획전 '열한번째 트윙클'" },
+    { "id": "ent-venue-025", "type": "Venue", "label": "대전시립미술관" },
+    { "id": "ent-org-023", "type": "Organization", "label": "대전시립미술관" },
+    { "id": "ent-act-022", "type": "Activity", "label": "Playground 놀이터 (미끄럼틀 구조물)" },
+    { "id": "ent-act-023", "type": "Activity", "label": "섬유 촉각 체험" },
+    { "id": "ent-act-024", "type": "Activity", "label": "공룡탐사 특별강연 (이융남 교수)" }
+  ],
+  "edges_added_2026_05_14": [
+    { "subject": "ent-evt-039", "predicate": "hostsAt", "object": "ent-venue-025", "type": "explicit", "confidence": 0.95, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "organizedBy", "object": "ent-org-023", "type": "explicit", "confidence": 0.95, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "featuresActivity", "object": "ent-act-022", "type": "explicit", "confidence": 0.9, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "featuresActivity", "object": "ent-act-023", "type": "explicit", "confidence": 0.9, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-toddler", "type": "explicit", "confidence": 0.85, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-elem-low", "type": "explicit", "confidence": 0.9, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "explicit", "confidence": 0.85, "added": "2026-05-14" },
+    { "subject": "ent-evt-039", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.85, "added": "2026-05-14" },
+    { "subject": "ent-venue-025", "predicate": "locatedIn", "object": "dong-dunsan", "type": "explicit", "confidence": 0.95, "added": "2026-05-14" },
+    { "subject": "ent-org-023", "predicate": "operates", "object": "ent-venue-025", "type": "explicit", "confidence": 0.95, "added": "2026-05-14" },
+    { "subject": "ent-evt-028", "predicate": "featuresActivity", "object": "ent-act-024", "type": "explicit", "confidence": 0.85, "added": "2026-05-14" },
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-2", "type": "explicit", "confidence": 0.95, "added": "2026-05-14" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-16", "type": "explicit", "confidence": 0.95, "added": "2026-05-14" },
+    { "subject": "ent-venue-025", "predicate": "nearby", "object": "ent-venue-024", "type": "inferred", "confidence": 0.90, "added": "2026-05-14", "rule": "proximity" },
+    { "subject": "ent-evt-039", "predicate": "visitCombo", "object": "ent-evt-034", "type": "inferred", "confidence": 0.85, "added": "2026-05-14", "rule": "same_dong_combo", "note": "한밭수목원 봄꽃+미술관 트윙클 둔산동 가족 코스" },
+    { "subject": "ent-evt-039", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-14", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-act-024", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "inferred", "confidence": 0.8, "added": "2026-05-14" }
+  ],
   "stats": {
-    "total_nodes": 117,
-    "total_edges": 52,
-    "total_triples": 264
+    "total_nodes": 123,
+    "total_edges": 69,
+    "total_triples": 281
   }
 }

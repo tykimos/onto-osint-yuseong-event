@@ -1,0 +1,32 @@
+{
+  "id": "src-001",
+  "title": "대전시립미술관 2026 어린이미술기획전 '열한번째 트윙클' (3/18~6/21, 체험형 미술전시)",
+  "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+  "snippet": "대전시립미술관이 어린이를 독립된 존재로 바라보는 관점에서 출발한 체험형 미술전시 '열한번째 트윙클'을 3/18~6/21 개최 중. 미끄럼틀 구조물(정승원), 섬유 만지기(백인교) 등 몸으로 부딪치며 경험하는 작품.",
+  "source_name": "더에스엔에스타임",
+  "language": "ko",
+  "discovered_date": "2026-05-14",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 동일/유사 항목 없음. 대전시립미술관 어린이미술기획전은 이번 사이클에서 최초 발견.",
+  "entities": [
+    { "id": "temp-001", "type": "Event", "name": "2026 어린이미술기획전 '열한번째 트윙클'", "properties": { "start_date": "2026-03-18", "end_date": "2026-06-21", "venue": "대전시립미술관", "host": "대전시립미술관", "fee": "미확인", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.90, "kid_friendly_reason": "미끄럼틀·만지기·움직이기 등 전신 참여형 체험 전시. 어린이 전용 기획전.", "distance_from_anchor_m": 6000, "ring": "ring 초과 (한밭수목원 인접)" } },
+    { "id": "temp-002", "type": "Venue", "name": "대전시립미술관", "properties": { "dong": "둔산동", "address": "대전광역시 서구 둔산대로 155", "venue_type": "미술관", "distance_from_anchor_m": 6000 } },
+    { "id": "temp-003", "type": "Organization", "name": "대전시립미술관", "properties": { "org_type": "미술관" } },
+    { "id": "temp-004", "type": "Activity", "name": "Playground 놀이터 (미끄럼틀 구조물)", "properties": { "category": "체험·미술", "description": "정승원 작가 — 회화 작품을 미끄럼틀 구조물로 만들어 오르고 미끄러지며 체험", "target_age": "유아·초등" } },
+    { "id": "temp-005", "type": "Activity", "name": "섬유 촉각 체험", "properties": { "category": "체험·미술", "description": "백인교 작가 — 실과 섬유 재료를 직접 만지고 형태를 바꾸며 참여", "target_age": "유아·초등" } }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "hostsAt", "object": "temp-002" },
+    { "subject": "temp-001", "predicate": "organizedBy", "object": "temp-003" },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "temp-004" },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "temp-005" }
+  ],
+  "additional_sources": [
+    { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://incheon.thesegye.com/news/view/1065599512998244", "source_name": "세계일보" },
+    { "title": "대전시립미술관, 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://www.ttlnews.com/news/articleView.html?idxno=3081852", "source_name": "퍼블릭뉴스통신" },
+    { "title": "대전시립미술관, 어린이미술전 '열한번째 트윙클' 열어", "url": "https://www.tjb.co.kr/news11/category/view/id/95553/version/1", "source_name": "TJB 대전방송" },
+    { "title": "대전시립미술관, 2026 어린이미술기획전 개최", "url": "https://www.newsro.kr/article243/1626322/", "source_name": "뉴스로" }
+  ]
+}

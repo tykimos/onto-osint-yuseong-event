@@ -1,0 +1,116 @@
+{
+  "date": "2026-05-14",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026 어린이미술기획전 '열한번째 트윙클'",
+      "properties": {
+        "start_date": "2026-03-18",
+        "end_date": "2026-06-21",
+        "venue": "대전시립미술관",
+        "dong": "둔산동 (유성구 인접)",
+        "distance_from_anchor_m": 6000,
+        "host": "대전시립미술관",
+        "fee": "미확인",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.90,
+        "kid_friendly_reason": "미끄럼틀·만지기·움직이기 등 전신 참여형 체험 전시. 어린이 전용 기획전.",
+        "participating_artists": ["정승원 (Playground 놀이터 — 미끄럼틀 구조물)", "백인교 (섬유 촉각 체험)"],
+        "source_url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "대전시립미술관",
+      "properties": {
+        "dong": "둔산동",
+        "address": "대전광역시 서구 둔산대로 155",
+        "venue_type": "미술관",
+        "distance_from_anchor_m": 6000,
+        "parking": true,
+        "stroller_accessible": true,
+        "kid_friendly": true,
+        "indoor_outdoor": "실내"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "대전시립미술관",
+      "properties": {
+        "org_type": "미술관",
+        "website": "https://daejeon.go.kr/dma/index.do"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "Playground 놀이터 (미끄럼틀 구조물)",
+      "properties": {
+        "category": "체험·미술",
+        "description": "정승원 작가 — 회화 작품을 미끄럼틀 구조물로 만들어 오르고 미끄러지며 체험",
+        "target_age": "유아·초등",
+        "kid_friendly_score": 0.95
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "섬유 촉각 체험",
+      "properties": {
+        "category": "체험·미술",
+        "description": "백인교 작가 — 실과 섬유 재료를 직접 만지고 형태를 바꾸며 참여",
+        "target_age": "유아·초등",
+        "kid_friendly_score": 0.90
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "공룡탐사 특별강연 (이융남 교수)",
+      "properties": {
+        "category": "강연",
+        "description": "이융남 전 서울대 교수 '오지에서의 공룡탐사' 주제 강연",
+        "target_age": "초등고학년·전연령가족",
+        "kid_friendly_score": 0.7,
+        "event_parent": "ent-evt-028"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "hostsAt", "object": "temp-002", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-001", "predicate": "organizedBy", "object": "temp-003", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "temp-004", "source_ids": ["src-001"], "confidence": 0.9 },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "temp-005", "source_ids": ["src-001"], "confidence": 0.9 },
+    { "subject": "ent-evt-028", "predicate": "featuresActivity", "object": "temp-006", "source_ids": ["src-003"], "confidence": 0.85 },
+    { "subject": "temp-002", "predicate": "nearby", "object": "ent-venue-024", "source_ids": ["src-001"], "confidence": 0.90 }
+  ],
+  "stats": {
+    "total_entities": 6,
+    "new_entities": 6,
+    "matched_entities": 0,
+    "total_relations": 6
+  }
+}

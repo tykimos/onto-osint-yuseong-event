@@ -1,0 +1,207 @@
+{
+  "date": "2026-05-14",
+  "collected_at": "2026-05-14T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 16,
+  "total_results": 52,
+  "expanded_keywords": [
+    "초능력 히어로 박람회",
+    "공룡덕후박람회",
+    "대전시민천문대 운석전시",
+    "유성봄꽃전시회",
+    "한밭수목원 봄꽃 전시회",
+    "사이언스 브릭파티",
+    "공통령 선거"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:01:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "'과학과 놀이의 만남'… 유성구, 어린이날 맞아 가족형 축제 '어린이 한마당' 개최", "url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=537479", "snippet": "유성구 어린이 한마당 5/5 개최 — 사이언스 매직쇼, 목공체험, 과학 체험 6종", "source_name": "한국시민기자협회" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 초능력 히어로 박람회 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:02:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://dazabi.com/insurance_magazine/article.php?id=20334", "snippet": "과학기술정보통신부 히어로 박람회 5/16~17 개최", "source_name": "다자비" },
+        { "title": "중앙과학관, 16~17일 초능력 히어로 박람회", "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393", "snippet": "전파신문 보도", "source_name": "전파신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 운석전시 기상기후사진전 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:03:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대, '운석전시' 등 특별전시 연다", "url": "https://www.sedaily.com/article/20042838", "snippet": "가정의 달 특별전시 운석전시+기상기후사진전 ~5/31 무료", "source_name": "서울경제" },
+        { "title": "대전시민천문대, 가정의 달 5월 특별전시 개최", "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/", "snippet": "가정의 달 특별전시 상세 — thesnstime 추가 매체", "source_name": "더에스엔에스타임" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:04:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔할 수 있는 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "레포레스트 덕명동 카페 소개 (기보고)", "source_name": "복지로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 어린이 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:05:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "유성구 도서관 프로그램 운영 중", "source_name": "유성구통합도서관" },
+        { "title": "행사신청 - 유성구통합도서관 그림책 나만의 보물을 담다", "url": "https://lib.yuseong.go.kr/web/program/lectureDetail.do?lectureIdx=11956", "snippet": "관평도서관 어린이 프로그램", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:06:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "유성온천문화축제 5/8~10 유림공원 (기종료)", "source_name": "굿모닝충청" },
+        { "title": "유성구, 유림공원서 펼쳐지는 힐링 축제 '유성온천문화축제'", "url": "https://www.koreatimenews.com/news/article.html?no=1144920", "snippet": "유성온천문화축제 유림공원 (기종료)", "source_name": "코리아타임뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "용산동 전민동 관평동 행정복지센터 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:07:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "사이언스 브릭파티 국립중앙과학관 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:08:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "국립중앙과학관, 개관 80주년 기념 '사이언스 브릭파티' 개최", "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1682547", "snippet": "사이언스 브릭파티 5/23~31 예정", "source_name": "이비엔뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "공룡덕후박람회 국립중앙과학관 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:09:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "snippet": "공룡덕후박람회 5/30~31 국립중앙과학관", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/1111/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "참가안내 지속 오픈", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최", "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017", "snippet": "YTN 사이언스 보도", "source_name": "YTN 사이언스" },
+        { "title": "국립중앙과학관 세계 공룡의 날 공룡덕후박람회 한눈에 보기", "url": "https://www.youtube.com/watch?v=9gP975mQS1Q", "snippet": "YouTube 소개 영상", "source_name": "국립중앙과학관 YouTube" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 키즈카페 팝업스토어 원데이클래스 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:10:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "원데이클래스 — 유성구 평생학습센터", "url": "https://lifelong.yuseong.go.kr/lly/prog/lctr/lly/sub02_06/LIFELONG_016/classDetail.do?lctrNo=7845", "snippet": "유성구 평생학습센터 원데이클래스 운영 중", "source_name": "유성구 평생학습센터" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "한밭수목원 봄꽃 전시회 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:11:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시 \"5월에 꽃마중 오세요~\" 한밭수목원, '2026 봄꽃 전시회' 개최", "url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/", "snippet": "5/8~25 봄꽃 전시회 — 작약, 장미, 해당화, 스탬프 투어", "source_name": "더에스엔에스타임" },
+        { "title": "대전 한밭수목원, '2026 봄꽃 전시회' 팡파르", "url": "https://biz.heraldcorp.com/article/10733502", "snippet": "헤럴드경제 보도", "source_name": "헤럴드경제" },
+        { "title": "\"장미꽃밭서 인생셀카\"...대전 한밭수목원, 봄꽃 전시회 개최", "url": "https://www.newspim.com/news/view/20260508000456", "snippet": "뉴스핌 보도", "source_name": "뉴스핌" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 보건소 복지관 어린이 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:12:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구, 어린이 건강체험 프로그램 '유성이의 튼튼스쿨' 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "하반기 8/19~11/27 운영 예정, 7/20 신청", "source_name": "시사저널" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon May 2026",
+      "language": "en",
+      "timestamp": "2026-05-14T07:13:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "Cities Nationwide Transform Into Kids' Playgrounds This May", "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may", "snippet": "전국 어린이의 달 행사 총정리 (영문)", "source_name": "Seoul Economic Daily (EN)" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 5월 특별전시 thesnstime 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:14:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대, 가정의 달 5월 특별전시 개최", "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/", "snippet": "천문대 특별전시 상세 보도", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "어린이미술기획전 '열한번째 트윙클' 3/18~6/21", "source_name": "더에스엔에스타임" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 공룡덕후박람회 공통령선거 참가안내 2026",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:15:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "국립중앙과학관 공룡덕후박람회 제1대 공통령 선거", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381", "snippet": "공통령 선거 별도 참가 안내 페이지 개설", "source_name": "국립중앙과학관" },
+        { "title": "\"당신의 '공통령'에 투표하세요\"…대전서 열리는 '덕후들의 박람회'", "url": "https://www.twig24.com/news/lifestyle/trip/2025/05/22/20250522500095", "snippet": "Twig24 공통령 선거 소개 기사", "source_name": "트위그24" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 2026 어린이미술기획전 열한번째 트윙클",
+      "language": "ko",
+      "timestamp": "2026-05-14T07:16:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "3/18~6/21 어린이 체험형 미술전시", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://incheon.thesegye.com/news/view/1065599512998244", "snippet": "체험형 미술전시", "source_name": "세계일보 인천" },
+        { "title": "대전시립미술관, 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://www.ttlnews.com/news/articleView.html?idxno=3081852", "snippet": "참여 작가: 정승원(미끄럼틀 구조물), 백인교(섬유 만지기)", "source_name": "퍼블릭뉴스통신" },
+        { "title": "대전시립미술관, 어린이미술전 '열한번째 트윙클' 열어", "url": "https://www.tjb.co.kr/news11/category/view/id/95553/version/1", "snippet": "TJB 대전방송 보도", "source_name": "TJB" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 개최", "url": "https://www.newsro.kr/article243/1626322/", "snippet": "뉴스로 보도", "source_name": "뉴스로" }
+      ]
+    }
+  ]
+}
