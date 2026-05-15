@@ -763,3 +763,40 @@
 - **신뢰도:** 0.80
 - **상태:** 확정
 - **비고:** 한밭수목원 봄꽃전시(야외)가 우천 시 대전시립미술관 트윙클(실내)로 대체 가능. 동일 권역 도보 이동.
+
+## 2026-05-15 추론 결과
+
+### 추론 #1: same_venue_series (안전체험 데이 → 가정의 달 소방안전)
+- **입력:** (ent-evt-040 hostsAt ent-venue-017), (ent-evt-022 organizedBy ent-org-015), (ent-evt-040 organizedBy ent-org-024)
+- **추론:** (ent-evt-040 partOfSeries ent-evt-022)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** '가족ON! 안전ON! 안전체험 데이'는 '가정의 달 소방안전체험의 장'(ent-evt-022)의 특별 회차. 동일 119시민체험센터에서 소방 기관이 주최하는 동일 계열 프로그램.
+
+### 추론 #2: public_institution_kid_event (안전체험 데이 공공기관 가산)
+- **입력:** (ent-org-024 orgType 소방서), (ent-evt-040 organizedBy ent-org-024), (ent-evt-040 targetsAgeGroup age-toddler|age-elem-low|age-elem-high)
+- **추론:** (ent-evt-040 publicTrustBoost +0.15)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 소방서(공공기관) 주최 어린이 대상 이벤트 — 무료, 높은 신뢰도, 교육적 가치.
+
+### 추론 #3: same_dong_combo (안전체험 데이 + 상시 소방체험 연계)
+- **입력:** (ent-evt-040 hostsAt ent-venue-017), (ent-evt-019 hostsAt ent-venue-017)
+- **추론:** (ent-evt-040 visitCombo ent-evt-019)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 동일 장소(119시민체험센터)에서 상시 소방안전체험(ent-evt-019) + 특별 데이 이벤트(ent-evt-040) 연계 방문 가능.
+
+### 추론 #4: indoor_rainy_fallback (트윙클 → 봄꽃 우천 대체 신뢰도 상향)
+- **입력:** 기존 (ent-evt-039 rainyFallbackFor ent-evt-034) 신뢰도 0.80
+- **추론:** 신뢰도 0.80→0.85 상향
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 트윙클 전시가 9개 매체 교차검증 완료. 전시 신뢰도 상승에 따라 우천 대체 관계 신뢰도도 상향.
+
+### 추론 #5: same_venue_series (히어로 → 알라딘 후속 확정도 상향)
+- **입력:** 기존 (ent-evt-026 followsEvent ent-evt-025) 신뢰도 0.95
+- **추론:** 신뢰도 0.95→0.98 상향
+- **신뢰도:** 0.98
+- **상태:** 확정
+- **비고:** 히어로 D-1 진입으로 내일 D-day 확정. 알라딘(종료) → 히어로(D-1) 시리즈 순서 최종 확정.

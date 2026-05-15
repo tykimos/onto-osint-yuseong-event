@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "공룡덕후박람회 D-15 — 유튜브 공식 안내 영상 공개",
+  "url": "https://www.youtube.com/watch?v=9gP975mQS1Q",
+  "snippet": "국립중앙과학관 공식 유튜브 채널에 '세계 공룡의 날 공룡덕후박람회 한눈에 보기' 영상이 공개됨. D-16→D-15 진입. 참가안내 페이지 + 공통령 선거 + 이융남 강연은 기존 확인 내용과 동일.",
+  "source_name": "YouTube 국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-15",
+  "tag": "update",
+  "related_report": "2026-05-14",
+  "related_item": "src-003",
+  "tag_reason": "D-16→D-15. 유튜브 공식 안내 영상 신규 공개 — 시각적 홍보 채널 확대. 기존 텍스트 매체(YTN 사이언스·Twig24·국립중앙과학관 공지) 외 영상 매체 추가.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

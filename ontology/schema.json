@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-13",
+  "last_updated": "2026-05-15",
   "classes": [
     {
       "id": "Entity",
@@ -251,6 +251,13 @@
       "target": "Event(ent-evt-039 어린이미술기획전 열한번째 트윙클), Venue(ent-venue-025 대전시립미술관), Organization(ent-org-023 대전시립미술관), Activity(ent-act-022 Playground놀이터, ent-act-023 섬유촉각체험, ent-act-024 공룡탐사특별강연)",
       "reason": "대전시립미술관 어린이미술기획전 '열한번째 트윙클'(3/18~6/21) 신규 발견 — config custom_sites에 포함된 한밭수목원·대전시립미술관 일원 권역. 체험형 미술전시(미끄럼틀·섬유 만지기). 공룡덕후박람회 이융남 교수 강연 프로그램 확인. 히어로 D-2 진입, 공룡덕후 D-16.",
       "source_ids": ["src-001", "src-003"]
+    },
+    {
+      "date": "2026-05-15",
+      "action": "add_instances",
+      "target": "Event(ent-evt-040 가족ON!안전ON!안전체험데이), Organization(ent-org-024 대전소방본부119시민체험센터)",
+      "reason": "119시민체험센터 '가족ON! 안전ON! 안전체험 데이' 5개 매체 동시 보도로 신규 발견. 가정의 달 소방안전체험(ent-evt-022)의 하위 이벤트. 히어로 D-1 진입(내일 D-day), 공룡덕후 D-15, 트윙클 전시 9개 매체 교차검증.",
+      "source_ids": ["src-001"]
     }
   ]
 }

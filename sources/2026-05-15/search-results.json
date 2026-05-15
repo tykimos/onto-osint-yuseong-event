@@ -1,0 +1,201 @@
+{
+  "date": "2026-05-15",
+  "collected_at": "2026-05-15T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 14,
+  "total_results": 52,
+  "expanded_keywords": [
+    "초능력 히어로 박람회 D-1",
+    "공룡덕후박람회 공통령 선거",
+    "대전시립미술관 열한번째 트윙클",
+    "대전시민천문대 운석전시",
+    "유성봄꽃전시회 유림공원",
+    "한밭수목원 봄꽃 전시회",
+    "119시민체험센터 안전체험"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:00:10+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "유성구, 어린이날 맞아 가족형 축제 '어린이 한마당' 개최", "url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=537479", "snippet": "유성 어린이 한마당 5/5 국립중앙과학관 개최", "source_name": "한국시민기자협회" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 초능력 히어로 박람회 2026",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:00:20+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://dazabi.com/insurance_magazine/article.php?id=20334", "snippet": "5/16~17 사이언스터널 개최", "source_name": "다자비" },
+        { "title": "중앙과학관, 16~17일 초능력 히어로 박람회", "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393", "snippet": "국립중앙과학관 16~17일 히어로 박람회 개최", "source_name": "전파신문" },
+        { "title": "과기정통부 초능력 배우러 과학관으로 출동", "url": "https://newsseoul.co.kr/news/view/1065584409950991", "snippet": "과기정통부 보도자료", "source_name": "뉴스서울" },
+        { "title": "잠든 영웅을 깨워라 대국민 초능력 아이템 수집 전 시작", "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156748115&call_from=rsslink", "snippet": "잠든 히어로 캠페인 정부 보도자료", "source_name": "정책브리핑" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:00:30+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전 유성구 카페 레포레스트", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "덕명동 대형카페 레포레스트", "source_name": "웰페어헬로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 도서관 프로그램 어린이 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:00:40+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/", "snippet": "도서관 프로그램 운영", "source_name": "유성구통합도서관" },
+        { "title": "유성구 생활밀착형 독서문화 확산", "url": "https://www.dominilbo.com/news/articleView.html?idxno=262086", "snippet": "세대별 독서문화 프로그램", "source_name": "충청도민일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 운석전시 기상기후사진전 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:00:50+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전시민천문대, '운석전시' 등 특별전시 연다", "url": "https://www.sedaily.com/article/20042838", "snippet": "5/31까지 운석전시+기상기후사진전", "source_name": "서울경제" },
+        { "title": "대전시민천문대, 가정의 달 5월 특별전시 개최", "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/", "snippet": "특별전시 2건", "source_name": "더에스엔에스타임" },
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "정상 운영 14:00~22:00", "source_name": "대전시민천문대 공식" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 복지관 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:01:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/?page_id=13072", "snippet": "보건소 안내", "source_name": "유성구청" },
+        { "title": "유성구청", "url": "https://www.yuseong.go.kr/", "snippet": "유성구 공식", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 사이언스 브릭파티 공룡덕후박람회 2026",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:01:10+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "국립중앙과학관 세계 공룡의 날 공룡덕후박람회 한눈에 보기", "url": "https://www.youtube.com/watch?v=9gP975mQS1Q", "snippet": "공룡덕후박람회 유튜브 안내", "source_name": "YouTube 국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "snippet": "공룡덕후박람회 행사 안내", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "참가안내 페이지", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, '공룡덕후박람회' 행사 개최", "url": "https://v.daum.net/v/20250520183617959", "snippet": "사이언스게시판 보도", "source_name": "Daum" },
+        { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최", "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017", "snippet": "YTN 사이언스 보도", "source_name": "YTN 사이언스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 팝업스토어 원데이클래스 키즈카페 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:01:20+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "키즈다쿵 대전유성점", "url": "https://mom-mom.net/travel/places/65b3732a66391ae58a373aa2", "snippet": "유성구 키즈카페", "source_name": "맘맘넷" },
+        { "title": "키즈카페 노리킹", "url": "https://mom-mom.net/travel/places/65bc565d1ccc08980de2f7d9", "snippet": "유성구 키즈카페", "source_name": "맘맘넷" },
+        { "title": "월드킹 대전점", "url": "https://www.instagram.com/worldking_daejeon/", "snippet": "대전 최대 키즈카페", "source_name": "Instagram" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:01:30+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유림공원서 즐기는 '유성온천문화축제'", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=445779", "snippet": "유성온천문화축제 종료", "source_name": "굿모닝충청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 열한번째 트윙클 어린이미술기획전 2026",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:01:40+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "3/18~6/21 체험형 전시", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.koreaunionnews.com/2046689", "snippet": "한국연합신문 보도", "source_name": "한국연합신문" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.jeongpil.com/2424799", "snippet": "正筆 보도", "source_name": "正筆" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1142790", "snippet": "금강일보 보도", "source_name": "금강일보" },
+        { "title": "대전시립미술관, 어린이미술기획전 '열한번째 트윙클' 마련", "url": "https://www.tournews21.com/news/articleView.html?idxno=130126", "snippet": "투어코리아 보도", "source_name": "투어코리아" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "한밭수목원 봄꽃 전시회 스탬프투어 2026",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:01:50+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전 한밭수목원, '2026 봄꽃 전시회' 팡파르", "url": "https://biz.heraldcorp.com/article/10733502", "snippet": "5/8~25 봄꽃 전시회", "source_name": "헤럴드경제" },
+        { "title": "2026 한밭수목원 봄꽃 전시회 > 축제.행사", "url": "https://daejeontour.co.kr/festival_djt/35", "snippet": "대전관광 공식", "source_name": "대전관광" },
+        { "title": "대전시 5월에 꽃마중 오세요 한밭수목원 2026 봄꽃 전시회 개최", "url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/", "snippet": "5/8~25 무료", "source_name": "더에스엔에스타임" },
+        { "title": "봄의 향연 한밭수목원 2026 봄꽃 전시회 개최", "url": "https://www.jbnews.com/news/articleView.html?idxno=1503723", "snippet": "중부매일 보도", "source_name": "중부매일" },
+        { "title": "대전 한밭수목원, 25일까지 봄꽃 전시회", "url": "https://www.news1.kr/local/daejeon-chungnam/6161639", "snippet": "뉴스1 보도", "source_name": "뉴스1" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 소방서 안전체험 어린이 2026",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:02:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "유성소방서, 이동안전체험차량 신규 도입으로 체험교육 강화", "url": "https://m.anewsa.com/article_sub3.php?number=2358601", "snippet": "이동안전체험차량 도입", "source_name": "아시아뉴스통신" },
+        { "title": "대전119시민체험센터, 가정의 달 맞아 '가족ON! 안전ON! 안전체험 데이' 성황", "url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/", "snippet": "가정의 달 안전체험 데이", "source_name": "더에스엔에스타임" },
+        { "title": "유성소방서, 가정의 달 소방안전체험의 장 운영", "url": "https://www.gocj.net/news/articleView.html?idxno=133782", "snippet": "유성소방서 소방안전체험", "source_name": "대전시티저널" },
+        { "title": "대전유성소방서, 이동안전체험차량 신규 도입 체험교육 강화", "url": "https://www.widedaily.com/news/articleView.html?idxno=221215", "snippet": "유성소방서 이동체험차량", "source_name": "와이드경제" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 히어로 2026년 5월 16일",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:02:10+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "중앙과학관, 16~17일 초능력 히어로 박람회", "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393", "snippet": "16~17일 히어로 박람회 개최", "source_name": "전파신문" },
+        { "title": "초능력 배우러 과학관으로 출동", "url": "https://dazabi.com/insurance_magazine/article.php?id=20334", "snippet": "히어로 박람회 상세", "source_name": "다자비" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 119시민체험센터 가정의달 안전체험데이 2026",
+      "language": "ko",
+      "timestamp": "2026-05-15T07:02:20+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전119시민체험센터, 가정의 달 맞아 '가족ON! 안전ON! 안전체험 데이' 성황", "url": "https://kspnews.com/2653197", "snippet": "가족 안전체험 데이 성황", "source_name": "KSP뉴스" },
+        { "title": "대전119시민체험센터, 가정의 달 맞아 '가족ON! 안전ON! 안전체험 데이' 성황", "url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/", "snippet": "안전체험 데이 성황", "source_name": "더에스엔에스타임" },
+        { "title": "대전119시민체험센터, 가정의 달 맞아 '가족ON! 안전ON! 안전체험 데이' 성황", "url": "https://www.theuniontimes.co.kr/2051212", "snippet": "안전체험 데이 성황", "source_name": "더연합타임즈" },
+        { "title": "대전119시민체험센터, 가족과 함께하는 체험형 안전교육 시민 큰 호응", "url": "https://www.newscj.com/news/articleView.html?idxno=3399622", "snippet": "체험형 안전교육 호응", "source_name": "천지일보" },
+        { "title": "대전소방본부 119시민체험센터, '가족ON! 안전ON! 안전체험 데이' 행사 진행", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887490", "snippet": "안전체험 데이 행사 진행", "source_name": "충남일보" }
+      ]
+    }
+  ]
+}

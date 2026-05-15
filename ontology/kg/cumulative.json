@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-13",
+  "last_updated": "2026-05-15",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1557,9 +1557,27 @@
     { "subject": "ent-evt-039", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-14", "rule": "operator_kid_friendliness" },
     { "subject": "ent-act-024", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "inferred", "confidence": 0.8, "added": "2026-05-14" }
   ],
+  "nodes_added_2026_05_15": [
+    { "id": "ent-evt-040", "type": "Event", "label": "가족ON! 안전ON! 안전체험 데이" },
+    { "id": "ent-org-024", "type": "Organization", "label": "대전소방본부 119시민체험센터" }
+  ],
+  "edges_added_2026_05_15": [
+    { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017", "type": "explicit", "confidence": 0.90, "added": "2026-05-15" },
+    { "subject": "ent-evt-040", "predicate": "organizedBy", "object": "ent-org-024", "type": "explicit", "confidence": 0.90, "added": "2026-05-15" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-toddler", "type": "explicit", "confidence": 0.80, "added": "2026-05-15" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-elem-low", "type": "explicit", "confidence": 0.85, "added": "2026-05-15" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "explicit", "confidence": 0.80, "added": "2026-05-15" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.85, "added": "2026-05-15" },
+    { "subject": "ent-org-024", "predicate": "operates", "object": "ent-venue-017", "type": "explicit", "confidence": 0.85, "added": "2026-05-15" },
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-1", "type": "explicit", "confidence": 0.95, "added": "2026-05-15" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-15", "type": "explicit", "confidence": 0.95, "added": "2026-05-15" },
+    { "subject": "ent-evt-040", "predicate": "partOfSeries", "object": "ent-evt-022", "type": "inferred", "confidence": 0.85, "added": "2026-05-15", "rule": "same_venue_series" },
+    { "subject": "ent-evt-040", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.85, "added": "2026-05-15", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-040", "predicate": "visitCombo", "object": "ent-evt-019", "type": "inferred", "confidence": 0.90, "added": "2026-05-15", "rule": "same_dong_combo" }
+  ],
   "stats": {
-    "total_nodes": 123,
-    "total_edges": 69,
-    "total_triples": 281
+    "total_nodes": 125,
+    "total_edges": 81,
+    "total_triples": 293
   }
 }

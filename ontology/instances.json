@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-13",
+  "last_updated": "2026-05-15",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -197,5 +197,10 @@
     { "id": "ent-act-022", "type": "Activity", "name": "Playground 놀이터 (미끄럼틀 구조물)", "properties": { "category": "체험·미술", "description": "정승원 작가 — 회화 작품을 미끄럼틀 구조물로 만들어 오르고 미끄러지며 체험", "target_age": "유아·초등", "kid_friendly_score": 0.95, "event_parent": "ent-evt-039" }, "first_seen": "2026-05-14", "last_seen": "2026-05-14", "mention_count": 3 },
     { "id": "ent-act-023", "type": "Activity", "name": "섬유 촉각 체험", "properties": { "category": "체험·미술", "description": "백인교 작가 — 실과 섬유 재료를 직접 만지고 형태를 바꾸며 참여", "target_age": "유아·초등", "kid_friendly_score": 0.90, "event_parent": "ent-evt-039" }, "first_seen": "2026-05-14", "last_seen": "2026-05-14", "mention_count": 2 },
     { "id": "ent-act-024", "type": "Activity", "name": "공룡탐사 특별강연 (이융남 교수)", "properties": { "category": "강연", "description": "이융남 전 서울대 교수 '오지에서의 공룡탐사' 주제 강연", "target_age": "초등고학년·전연령가족", "kid_friendly_score": 0.7, "event_parent": "ent-evt-028" }, "first_seen": "2026-05-14", "last_seen": "2026-05-14", "mention_count": 2 }
-  ]
+  ],
+  "new_entities_2026_05_15": [
+    { "id": "ent-evt-040", "type": "Event", "name": "가족ON! 안전ON! 안전체험 데이", "properties": { "venue": "119시민체험센터", "host": "대전소방본부 119시민체험센터", "fee": "무료", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.85, "programs": ["소화기·옥내소화전 사용법", "노래방 화재 대피·탈출", "심폐소생술 응급처치", "위기 탈출 체험", "투척용 소화기 토너먼트", "소방안전 퀴즈", "지진 대피 체험"], "parent_event": "ent-evt-022", "distance_from_anchor_m": 5000, "ring": "ring-car", "source_url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/" }, "first_seen": "2026-05-15", "last_seen": "2026-05-15", "mention_count": 5 },
+    { "id": "ent-org-024", "type": "Organization", "name": "대전소방본부 119시민체험센터", "properties": { "org_type": "소방서", "role": "119시민체험센터 운영", "center_chief": "이도훈" }, "first_seen": "2026-05-15", "last_seen": "2026-05-15", "mention_count": 5 }
+  ],
+  "total_count": 137
 }

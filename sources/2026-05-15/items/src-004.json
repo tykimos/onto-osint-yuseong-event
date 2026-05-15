@@ -1,0 +1,24 @@
+{
+  "id": "src-004",
+  "title": "대전시립미술관 '열한번째 트윙클' — 한국연합신문·正筆·금강일보·투어코리아 추가 4개 매체",
+  "url": "https://www.koreaunionnews.com/2046689",
+  "snippet": "어린이미술기획전 '열한번째 트윙클' 보도 매체가 한국연합신문·正筆·금강일보·투어코리아 4개 추가. 누적 9개 매체 교차확인. 내용 변동 없음.",
+  "source_name": "한국연합신문",
+  "language": "ko",
+  "discovered_date": "2026-05-15",
+  "tag": "update",
+  "related_report": "2026-05-14",
+  "related_item": "src-001",
+  "tag_reason": "어제 신규 발견된 트윙클 전시가 추가 4개 매체에서 보도 확인 — 누적 9개 매체. 신뢰도 0.90→0.95 상향 근거. 내용은 동일.",
+  "entities": [
+    { "id": "ent-evt-039", "type": "Event", "name": "2026 어린이미술기획전 '열한번째 트윙클'" },
+    { "id": "ent-venue-025", "type": "Venue", "name": "대전시립미술관" },
+    { "id": "ent-org-023", "type": "Organization", "name": "대전시립미술관" }
+  ],
+  "relations": [],
+  "additional_sources": [
+    { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.jeongpil.com/2424799", "source_name": "正筆" },
+    { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1142790", "source_name": "금강일보" },
+    { "title": "대전시립미술관, 어린이미술기획전 '열한번째 트윙클' 마련", "url": "https://www.tournews21.com/news/articleView.html?idxno=130126", "source_name": "투어코리아" }
+  ]
+}

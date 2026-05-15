@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-15",
+  "new_triples": [
+    { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-040", "predicate": "organizedBy", "object": "ent-org-024", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-toddler", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-elem-low", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-elem-high", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-evt-040", "predicate": "targetsAgeGroup", "object": "age-family", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-org-024", "predicate": "operates", "object": "ent-venue-017", "confidence": 0.85, "type": "explicit" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-1", "confidence": 0.95, "type": "explicit", "previous": "D-2" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-15", "confidence": 0.95, "type": "explicit", "previous": "D-16" },
+    { "subject": "ent-evt-039", "predicate": "mediaCount", "object": "9", "confidence": 0.95, "type": "explicit", "previous": "5" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-040", "predicate": "partOfSeries", "object": "ent-evt-022", "confidence": 0.85, "type": "inferred", "rule": "same_venue_series" },
+    { "subject": "ent-evt-040", "predicate": "publicTrustBoost", "object": "+0.15", "confidence": 0.85, "type": "inferred", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-040", "predicate": "visitCombo", "object": "ent-evt-019", "confidence": 0.90, "type": "inferred", "rule": "same_dong_combo", "note": "동일 장소(119시민체험센터) 상시 체험과 데이 이벤트 연계" },
+    { "subject": "ent-evt-039", "predicate": "rainyFallbackFor", "object": "ent-evt-034", "confidence": 0.85, "type": "inferred", "rule": "indoor_rainy_fallback", "note": "둔산동 봄꽃(야외)→트윙클(실내) 우천 대체, 어제 0.80→0.85 상향(9개 매체 교차검증)" },
+    { "subject": "ent-evt-026", "predicate": "followsEvent", "object": "ent-evt-025", "confidence": 0.98, "type": "inferred", "rule": "same_venue_series", "note": "D-1 진입으로 시리즈 순서 확정도 0.95→0.98" }
+  ],
+  "stats": {
+    "new_nodes": 2,
+    "new_edges": 7,
+    "inferred_edges": 5
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "src-001",
+  "title": "대전119시민체험센터 '가족ON! 안전ON! 안전체험 데이' 성황 — 5개 매체 보도",
+  "url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/",
+  "snippet": "대전소방본부 119시민체험센터가 가정의 달 5월을 맞아 '가족ON! 안전ON! 안전체험 데이'를 운영하여 큰 호응을 얻었다. 소화기 사용법, 노래방 화재 대피·탈출 체험, 심폐소생술 등 생활응급처치, 위기 탈출 체험, 투척용 소화기 토너먼트, 소방안전 퀴즈, 지진 대피 체험 등 가족이 함께 참여하는 체험형 안전교육 프로그램.",
+  "source_name": "더에스엔에스타임",
+  "language": "ko",
+  "discovered_date": "2026-05-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "119시민체험센터의 '가족ON! 안전ON! 안전체험 데이'는 기존 '가정의 달 소방안전체험의 장'(ent-evt-022)의 하위 이벤트이지만, 별도 프로그램명으로 5개 매체에 동시 보도된 신규 발견. 이전 14일 소스에 동일 프로그램명 없음.",
+  "entities": [
+    { "id": "ent-org-024", "type": "Organization", "name": "대전소방본부 119시민체험센터", "role": "주최" },
+    { "id": "ent-evt-040", "type": "Event", "name": "가족ON! 안전ON! 안전체험 데이", "properties": { "host": "대전소방본부 119시민체험센터", "fee": "무료", "indoor_outdoor": "실내", "kid_friendly_score": 0.85, "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "programs": ["소화기·옥내소화전 사용법", "노래방 화재 대피·탈출", "심폐소생술 응급처치", "위기 탈출 체험", "투척용 소화기 토너먼트", "소방안전 퀴즈", "지진 대피 체험"], "distance_from_anchor_m": 5000, "ring": "ring-car" } },
+    { "id": "ent-venue-017", "type": "Venue", "name": "119시민체험센터" },
+    { "id": "ent-evt-022", "type": "Event", "name": "가정의 달 소방안전체험의 장", "role": "상위 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-040", "predicate": "partOfSeries", "object": "ent-evt-022" },
+    { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017" },
+    { "subject": "ent-evt-040", "predicate": "organizedBy", "object": "ent-org-024" }
+  ],
+  "additional_sources": [
+    { "title": "대전119시민체험센터, 가족ON! 안전ON! 안전체험 데이 성황", "url": "https://kspnews.com/2653197", "source_name": "KSP뉴스" },
+    { "title": "대전119시민체험센터, 가족ON! 안전ON! 안전체험 데이 성황", "url": "https://www.theuniontimes.co.kr/2051212", "source_name": "더연합타임즈" },
+    { "title": "대전119시민체험센터, 가족과 함께하는 체험형 안전교육 시민 큰 호응", "url": "https://www.newscj.com/news/articleView.html?idxno=3399622", "source_name": "천지일보" },
+    { "title": "대전소방본부 119시민체험센터, 가족ON! 안전ON! 안전체험 데이 행사 진행", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887490", "source_name": "충남일보" }
+  ]
+}

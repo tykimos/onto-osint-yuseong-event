@@ -1,0 +1,69 @@
+{
+  "date": "2026-05-15",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-evt-040",
+      "type": "Event",
+      "name": "가족ON! 안전ON! 안전체험 데이",
+      "properties": {
+        "host": "대전소방본부 119시민체험센터",
+        "venue": "119시민체험센터",
+        "fee": "무료",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reason": "가족 단위 참여 프로그램으로 설계. 소화기 사용, 탈출 체험 등 어린이가 직접 참여. 투척용 소화기 토너먼트·소방퀴즈 등 게임 요소.",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "programs": ["소화기·옥내소화전 사용법", "노래방 화재 대피·탈출", "심폐소생술 응급처치", "위기 탈출 체험", "투척용 소화기 토너먼트", "소방안전 퀴즈", "지진 대피 체험"],
+        "distance_from_anchor_m": 5000,
+        "distance_reason": "119시민체험센터는 유성구 관할이나 정확한 위치 미확인, ring-car로 보수 추정",
+        "ring": "ring-car",
+        "parent_event": "ent-evt-022"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-org-024",
+      "type": "Organization",
+      "name": "대전소방본부 119시민체험센터",
+      "properties": {
+        "org_type": "소방서",
+        "role": "119시민체험센터 운영",
+        "center_chief": "이도훈 센터장"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 5
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-040",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-022",
+      "source_ids": ["src-001"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-evt-040",
+      "predicate": "hostsAt",
+      "object": "ent-venue-017",
+      "source_ids": ["src-001"],
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-evt-040",
+      "predicate": "organizedBy",
+      "object": "ent-org-024",
+      "source_ids": ["src-001"],
+      "confidence": 0.90
+    }
+  ],
+  "stats": {
+    "total_entities": 2,
+    "new_entities": 2,
+    "matched_entities": 0,
+    "total_relations": 3
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-15",
+  "total": 12,
+  "new": 1,
+  "reported": 8,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "대전119시민체험센터 '가족ON! 안전ON! 안전체험 데이' 성황 — 5개 매체 보도",
+      "url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-002",
+      "title": "초능력 히어로 박람회 D-1 (5/16~17, 국립중앙과학관 사이언스터널) — 전파신문 신규 매체",
+      "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393",
+      "tag": "update",
+      "related_report": "2026-05-14",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "공룡덕후박람회 D-15 — 유튜브 공식 안내 영상 공개",
+      "url": "https://www.youtube.com/watch?v=9gP975mQS1Q",
+      "tag": "update",
+      "related_report": "2026-05-14",
+      "entity_count": 3
+    },
+    {
+      "id": "src-004",
+      "title": "대전시립미술관 '열한번째 트윙클' — 한국연합신문·正筆·금강일보·투어코리아 추가 4개 매체",
+      "url": "https://www.koreaunionnews.com/2046689",
+      "tag": "update",
+      "related_report": "2026-05-14",
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "한밭수목원 봄꽃 전시회 D+7 (~5/25, 무료) — 뉴스1 추가 보도, 잔여 10일",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6161639",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "제5회 유성봄꽃전시회 D+7 단독 운영 (유림공원, ~5/31)",
+      "url": "https://daejeontour.co.kr/festival_djt/33",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "유성구 도서관 프로그램 운영 중 (지역작가·그림책·아가맘)",
+      "url": "https://lib.yuseong.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "국립어린이과학관 탐이꿈이의 비밀실험실 운영 중 (~6/30)",
+      "url": "https://www.csc.go.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "대전시민천문대 특별전시 (운석전시+기상기후사진전) — 변동 없음",
+      "url": "https://www.sedaily.com/article/20042838",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "유성소방서 가정의 달 소방안전체험의 장 운영 — 변동 없음",
+      "url": "https://www.gocj.net/news/articleView.html?idxno=133782",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "대전시민천문대 정상 운영 (14:00~22:00)",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "사이언스 브릭파티 사전 안내 (5/23~31, 국립중앙과학관) — D-8",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1682547",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    }
+  ]
+}
