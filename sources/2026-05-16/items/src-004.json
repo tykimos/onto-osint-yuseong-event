@@ -1,0 +1,19 @@
+{
+  "id": "src-004",
+  "title": "대전시민천문대 가정의 달 특별전시 — 더에스엔에스타임 별도 기사",
+  "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/",
+  "snippet": "대전시민천문대 가정의 달 5월 특별전시 상세 안내. 운석전시+기상기후사진전 ~5/31 무료. 서울경제 기사와 별도의 더에스엔에스타임 독자 기사 — 추가 매체 확인.",
+  "source_name": "더에스엔에스타임",
+  "language": "ko",
+  "discovered_date": "2026-05-16",
+  "tag": "update",
+  "related_report": "2026-05-15",
+  "related_item": "src-009 (2026-05-15)",
+  "tag_reason": "서울경제 기사 외 더에스엔에스타임 별도 기사 확인. 천문대 특별전시 매체 수 2→3으로 확대. 신뢰도 미변동(이미 높음).",
+  "entities": [
+    { "id": "ent-evt-037", "type": "Event", "name": "대전시민천문대 운석전시" },
+    { "id": "ent-evt-038", "type": "Event", "name": "대전시민천문대 기상기후사진전" },
+    { "id": "ent-org-007", "type": "Organization", "name": "대전시민천문대" }
+  ],
+  "relations": []
+}

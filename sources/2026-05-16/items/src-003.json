@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "대전시립미술관 '열한번째 트윙클' — 누적 13개 매체 교차검증",
+  "url": "https://www.tjb.co.kr/news11/category/view/id/95553/version/1",
+  "snippet": "뉴스로·세계일보(인천)·퍼블릭뉴스통신·TJB 대전방송 4개 매체 추가 확인. 특히 TJB 대전방송은 지역 TV 방송으로, 텍스트 매체를 넘어 영상 미디어 진출. 누적 13개 매체 교차검증 — 신뢰도 0.98 수준.",
+  "source_name": "TJB 대전방송",
+  "language": "ko",
+  "discovered_date": "2026-05-16",
+  "tag": "update",
+  "related_report": "2026-05-15",
+  "related_item": "src-004 (2026-05-15)",
+  "tag_reason": "9개→13개 매체 확대. TJB 대전방송(지역 TV) 진출이 유의미한 새 정보. 신뢰도 0.95→0.98 상향.",
+  "entities": [
+    { "id": "ent-evt-039", "type": "Event", "name": "2026 어린이미술기획전 '열한번째 트윙클'" },
+    { "id": "ent-org-023", "type": "Organization", "name": "대전시립미술관" },
+    { "id": "ent-venue-025", "type": "Venue", "name": "대전시립미술관" }
+  ],
+  "relations": []
+}

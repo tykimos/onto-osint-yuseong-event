@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-15",
+  "last_updated": "2026-05-16",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1575,9 +1575,23 @@
     { "subject": "ent-evt-040", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.85, "added": "2026-05-15", "rule": "public_institution_kid_event" },
     { "subject": "ent-evt-040", "predicate": "visitCombo", "object": "ent-evt-019", "type": "inferred", "confidence": 0.90, "added": "2026-05-15", "rule": "same_dong_combo" }
   ],
+  "nodes_added_2026_05_16": [],
+  "edges_added_2026_05_16": [
+    { "subject": "ent-evt-026", "predicate": "status", "object": "D-day 개막", "type": "explicit", "confidence": 0.99, "added": "2026-05-16", "note": "과기정통부 보도자료로 D-day 확정" },
+    { "subject": "ent-evt-026", "predicate": "official_name", "object": "초능력 영웅(히어로) 박람회: 비밀 아카데미 신입 요원 모집", "type": "explicit", "confidence": 0.95, "added": "2026-05-16" },
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-009", "type": "explicit", "confidence": 0.95, "added": "2026-05-16", "note": "과기정통부 공동 주최 확인" },
+    { "subject": "ent-evt-039", "predicate": "media_count", "object": "13", "type": "explicit", "confidence": 0.98, "added": "2026-05-16", "note": "TJB TV 포함 4개 매체 추가" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-14", "type": "explicit", "confidence": 0.95, "added": "2026-05-16" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-7", "type": "explicit", "confidence": 0.95, "added": "2026-05-16" },
+    { "subject": "ent-evt-026", "predicate": "kidFriendlyScore", "object": "0.95", "type": "inferred", "confidence": 0.95, "added": "2026-05-16", "rule": "operator_kid_friendliness", "note": "체험 상세 확인 0.90→0.95" },
+    { "subject": "ent-evt-026", "predicate": "followsEvent", "object": "ent-evt-025", "type": "inferred", "confidence": 0.98, "added": "2026-05-16", "rule": "same_venue_series", "note": "D-day 확정 0.95→0.98" },
+    { "subject": "ent-evt-026", "predicate": "visitCombo", "object": "ent-evt-037", "type": "inferred", "confidence": 0.85, "added": "2026-05-16", "rule": "same_dong_combo", "note": "히어로+천문대 운석전시 도룡동 연계" },
+    { "subject": "ent-evt-039", "predicate": "rainyFallbackFor", "object": "ent-evt-034", "type": "inferred", "confidence": 0.90, "added": "2026-05-16", "rule": "indoor_rainy_fallback", "note": "0.85→0.90 트윙클 13개 매체 신뢰도" },
+    { "subject": "ent-evt-039", "predicate": "confidence", "object": "0.98", "type": "inferred", "confidence": 0.98, "added": "2026-05-16", "note": "13개 매체+TJB TV" }
+  ],
   "stats": {
     "total_nodes": 125,
-    "total_edges": 81,
-    "total_triples": 293
+    "total_edges": 92,
+    "total_triples": 304
   }
 }

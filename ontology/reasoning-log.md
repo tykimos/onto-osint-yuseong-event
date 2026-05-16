@@ -800,3 +800,40 @@
 - **신뢰도:** 0.98
 - **상태:** 확정
 - **비고:** 히어로 D-1 진입으로 내일 D-day 확정. 알라딘(종료) → 히어로(D-1) 시리즈 순서 최종 확정.
+
+## 2026-05-16 추론 결과
+
+### 추론 #1: same_venue_series (히어로 D-day 개막 → 시리즈 순서 최종 확정)
+- **입력:** (ent-evt-026 status D-day 개막), (ent-evt-026 followsEvent ent-evt-025) 기존 0.95
+- **추론:** (ent-evt-026 followsEvent ent-evt-025) 신뢰도 0.95→0.98 상향
+- **신뢰도:** 0.98
+- **상태:** 확정
+- **비고:** 과기정통부 보도자료로 D-day 개막 확정. 알라딘(종료)→히어로(D-day)→브릭파티(D-7)→공룡덕후(D-14) 시리즈 순서 최종 확정.
+
+### 추론 #2: operator_kid_friendliness (히어로 체험 상세 확인 → kid_friendly 상향)
+- **입력:** (ent-evt-026 체험상세 자석비행·투명화·VR), (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관)
+- **추론:** (ent-evt-026 kidFriendlyScore 0.95), 기존 0.90
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 과기정통부 보도자료에서 자석비행능력·투명화실험·VR체험존 등 놀이+과학 융합 체험 상세 확인. 초등학생 맞춤형 프로그램이 확인되어 0.90→0.95 상향.
+
+### 추론 #3: same_dong_combo (히어로 + 천문대 운석전시 도룡동 연계)
+- **입력:** (ent-evt-026 hostsAt ent-venue-005), (ent-evt-037 hostsAt ent-venue-006), (ent-venue-005 locatedIn dong-doryong), (ent-venue-006 locatedIn dong-doryong)
+- **추론:** (ent-evt-026 visitCombo ent-evt-037)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 히어로 D-day(사이언스터널, 도룡동) + 천문대 운석전시(도룡동 3km) 당일 연계 코스. 오후 히어로 → 야간 천문대 자연 연결.
+
+### 추론 #4: indoor_rainy_fallback (트윙클 = 한밭수목원 봄꽃 우천 대체 신뢰도 상향)
+- **입력:** (ent-evt-039 indoor_outdoor 실내), (ent-evt-034 indoor_outdoor 야외), (ent-evt-039 confidence 0.98), 기존 우천 대체 0.85
+- **추론:** (ent-evt-039 rainyFallbackFor ent-evt-034) 신뢰도 0.85→0.90 상향
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 트윙클 13개 매체(TJB TV 포함)로 전시 신뢰도 0.98에 도달. 실내 전시 확정으로 우천 대체 관계 신뢰도도 상향.
+
+### 추론 #5: media_convergence (트윙클 13개 매체 — 텍스트+영상 미디어 수렴)
+- **입력:** (ent-evt-039 media_count 13), TJB 대전방송(지역 TV) 포함
+- **추론:** (ent-evt-039 confidence 0.98), 기존 0.95
+- **신뢰도:** 0.98
+- **상태:** 확정
+- **비고:** 더에스엔에스타임·한국연합신문·正筆·금강일보·투어코리아·뉴스로·세계일보(인천)·퍼블릭뉴스통신·TJB 대전방송 등 13개 매체. 텍스트 매체를 넘어 지역 TV까지 진출하여 다중 미디어 수렴 달성.

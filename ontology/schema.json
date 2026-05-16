@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-15",
+  "last_updated": "2026-05-16",
   "classes": [
     {
       "id": "Entity",
@@ -258,6 +258,13 @@
       "target": "Event(ent-evt-040 가족ON!안전ON!안전체험데이), Organization(ent-org-024 대전소방본부119시민체험센터)",
       "reason": "119시민체험센터 '가족ON! 안전ON! 안전체험 데이' 5개 매체 동시 보도로 신규 발견. 가정의 달 소방안전체험(ent-evt-022)의 하위 이벤트. 히어로 D-1 진입(내일 D-day), 공룡덕후 D-15, 트윙클 전시 9개 매체 교차검증.",
       "source_ids": ["src-001"]
+    },
+    {
+      "date": "2026-05-16",
+      "action": "update_instances",
+      "target": "Event(ent-evt-026 히어로 D-day 개막, kid_friendly_score 0.90→0.95, 공식명칭+체험상세 추가), Event(ent-evt-039 트윙클 매체 9→13, 신뢰도 0.95→0.98), Event(ent-evt-037/038 천문대전시 매체 2→3)",
+      "reason": "히어로 박람회 D-day 개막. 과기정통부 보도자료로 체험 프로그램 상세(자석비행·투명화·VR) 최초 공개, 공식명칭 확인. 트윙클 전시 TJB 대전방송(지역TV) 포함 4개 매체 추가로 13개 매체 달성. 천문대 더에스엔에스타임 추가. 신규 엔티티 없음.",
+      "source_ids": ["src-001", "src-003", "src-004"]
     }
   ]
 }

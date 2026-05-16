@@ -1,0 +1,19 @@
+{
+  "id": "src-002",
+  "title": "초능력 히어로 박람회 D-day — 다자비 보도자료 전재",
+  "url": "https://dazabi.com/insurance_magazine/article.php?id=20334",
+  "snippet": "과기정통부 보도자료 전재. 자석 비행능력, 빛+색 투명화 실험, VR 초능력 체험존, 가족 단위 방문객 타깃, 온라인 예약 혼잡 최소화.",
+  "source_name": "다자비(보험AI뉴스)",
+  "language": "ko",
+  "discovered_date": "2026-05-16",
+  "tag": "update",
+  "related_report": "2026-05-15",
+  "related_item": "src-001 (2026-05-16)",
+  "tag_reason": "src-001과 동일 보도자료 전재. 추가 매체 확인 용도.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부" }
+  ],
+  "relations": []
+}

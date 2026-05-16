@@ -1,0 +1,23 @@
+{
+  "id": "src-001",
+  "title": "초능력 히어로 박람회 D-day 개막 — 과기정통부 보도자료로 체험 상세 최초 공개",
+  "url": "https://newsseoul.co.kr/news/view/1065584409950991",
+  "snippet": "과학기술정보통신부는 초능력 히어로를 주제로 한 특별 박람회 '초능력 영웅(히어로) 박람회: 비밀 아카데미 신입 요원 모집'을 5월 16~17일 국립중앙과학관 사이언스터널에서 개최. 올여름 개관 예정인 '초능력 비밀 아카데미' 사전 활성화 행사. 히어로파티 사전신청 QR 코드로 입학테스트 면제 + 멘토단 퍼레이드 참여. 자석의 힘 비행능력 체험, 빛과 색의 원리 투명화 실험, VR 초능력 체험존, 온라인 예약 시스템.",
+  "source_name": "뉴스서울",
+  "language": "ko",
+  "discovered_date": "2026-05-16",
+  "tag": "update",
+  "related_report": "2026-05-15",
+  "related_item": "src-002 (2026-05-15)",
+  "tag_reason": "D-1→D-day 전환. 과기정통부 보도자료로 체험 프로그램 상세(자석비행·투명화·VR)가 최초 공개됨. 히어로파티 QR 사전신청·입학테스트 면제 운영 방식 신규 정보.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-009" },
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

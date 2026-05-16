@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-16",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-026",
+      "type": "Event",
+      "name": "초능력 히어로 박람회",
+      "properties": {
+        "status": "D-day 개막",
+        "official_name": "초능력 영웅(히어로) 박람회: 비밀 아카데미 신입 요원 모집",
+        "new_details": "자석비행능력 체험, 빛+색 투명화 실험, VR 초능력 체험존, 히어로파티 QR 사전신청→입학테스트 면제+멘토단 퍼레이드",
+        "booking": "온라인 예약 시스템 도입",
+        "kid_friendly_score": 0.95,
+        "kid_friendly_reason": "과기정통부 보도자료로 체험 프로그램 상세 확인 — 놀이+과학 융합, 초등학생 맞춤"
+      },
+      "source_ids": ["src-001", "src-002"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-039",
+      "type": "Event",
+      "name": "2026 어린이미술기획전 '열한번째 트윙클'",
+      "properties": {
+        "media_count": 13,
+        "new_media": ["뉴스로", "세계일보(인천)", "퍼블릭뉴스통신", "TJB 대전방송"],
+        "confidence": 0.98,
+        "note": "TJB 대전방송 — 지역 TV 방송 진출로 텍스트 매체 넘어 영상 미디어 커버리지 확대"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-037",
+      "type": "Event",
+      "name": "대전시민천문대 운석전시",
+      "properties": {
+        "media_count": 3,
+        "new_media": ["더에스엔에스타임"]
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-038",
+      "type": "Event",
+      "name": "대전시민천문대 기상기후사진전",
+      "properties": {
+        "media_count": 3,
+        "new_media": ["더에스엔에스타임"]
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-026",
+      "predicate": "organizedBy",
+      "object": "ent-org-009",
+      "source_ids": ["src-001"],
+      "confidence": 0.95,
+      "note": "과기정통부 보도자료로 주최 확정 — 기존 국립중앙과학관 외 과기정통부 공동 주최 확인"
+    }
+  ],
+  "stats": {
+    "total_entities": 4,
+    "new_entities": 0,
+    "matched_entities": 4,
+    "total_relations": 1
+  }
+}

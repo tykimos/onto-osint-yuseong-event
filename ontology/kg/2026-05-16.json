@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-16",
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-026",
+      "predicate": "status",
+      "object": "D-day 개막",
+      "source_id": "src-001",
+      "date": "2026-05-16",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous": "D-1",
+      "note": "과기정통부 보도자료로 D-day 확정"
+    },
+    {
+      "subject": "ent-evt-026",
+      "predicate": "official_name",
+      "object": "초능력 영웅(히어로) 박람회: 비밀 아카데미 신입 요원 모집",
+      "source_id": "src-001",
+      "date": "2026-05-16",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-026",
+      "predicate": "organizedBy",
+      "object": "ent-org-009",
+      "source_id": "src-001",
+      "date": "2026-05-16",
+      "confidence": 0.95,
+      "type": "explicit",
+      "note": "과기정통부 공동 주최 확인 (기존 국립중앙과학관 외)"
+    },
+    {
+      "subject": "ent-evt-039",
+      "predicate": "media_count",
+      "object": "13",
+      "source_id": "src-003",
+      "date": "2026-05-16",
+      "confidence": 0.98,
+      "type": "explicit",
+      "previous": "9",
+      "note": "뉴스로·세계일보·퍼블릭뉴스통신·TJB 4개 추가"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "status",
+      "object": "D-14",
+      "source_id": "src-012",
+      "date": "2026-05-16",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous": "D-15"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "status",
+      "object": "D-7",
+      "source_id": "src-013",
+      "date": "2026-05-16",
+      "confidence": 0.95,
+      "type": "explicit",
+      "previous": "D-8"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-026",
+      "predicate": "kidFriendlyScore",
+      "object": "0.95",
+      "rule": "operator_kid_friendliness + 과기정통부 보도자료 체험 상세 확인",
+      "confidence": 0.95,
+      "type": "inferred",
+      "previous": "0.90",
+      "note": "자석비행·투명화·VR 등 놀이+과학 융합 체험 확인 — 초등 맞춤 0.90→0.95"
+    },
+    {
+      "subject": "ent-evt-039",
+      "predicate": "confidence",
+      "object": "0.98",
+      "rule": "13개 매체 교차검증 + TJB TV 진출",
+      "confidence": 0.98,
+      "type": "inferred",
+      "previous": "0.95",
+      "note": "지역 TV까지 진출하여 텍스트+영상 모두 커버"
+    },
+    {
+      "subject": "ent-evt-026",
+      "predicate": "followsEvent",
+      "object": "ent-evt-025",
+      "rule": "same_venue_series",
+      "confidence": 0.98,
+      "type": "inferred",
+      "previous_confidence": 0.95,
+      "note": "D-day 확정으로 시리즈 순서 최종 확정 0.95→0.98"
+    },
+    {
+      "subject": "ent-evt-026",
+      "predicate": "visitCombo",
+      "object": "ent-evt-037",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "type": "inferred",
+      "note": "히어로(도룡동) + 천문대 운석전시(도룡동) 당일 연계"
+    },
+    {
+      "subject": "ent-evt-039",
+      "predicate": "rainyFallbackFor",
+      "object": "ent-evt-034",
+      "rule": "indoor_rainy_fallback",
+      "confidence": 0.90,
+      "type": "inferred",
+      "previous_confidence": 0.85,
+      "note": "트윙클(실내) = 한밭수목원 봄꽃(야외) 우천 대체, 13개 매체로 신뢰도 상향"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 0,
+    "updated_edges": 6,
+    "inferred_edges": 5
+  }
+}
