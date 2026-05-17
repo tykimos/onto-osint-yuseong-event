@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-17",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1559,7 +1559,13 @@
   ],
   "nodes_added_2026_05_15": [
     { "id": "ent-evt-040", "type": "Event", "label": "가족ON! 안전ON! 안전체험 데이" },
-    { "id": "ent-org-024", "type": "Organization", "label": "대전소방본부 119시민체험센터" }
+    { "id": "ent-org-024", "type": "Organization", "label": "대전소방본부 119시민체험센터" },
+    { "id": "ent-venue-026", "type": "Venue", "label": "피직스랩(Physics Lab)" },
+    { "id": "ent-evt-041", "type": "Event", "label": "피직스랩 상시 체험" },
+    { "id": "ent-evt-042", "type": "Event", "label": "블록 코딩 전통과학기술 클래스" },
+    { "id": "ent-evt-043", "type": "Event", "label": "시리즈 1: 선넘는 높이 건축 특별강연" },
+    { "id": "ent-evt-044", "type": "Event", "label": "아이들은 놀기 위해 세상에 온다 (부모특강)" },
+    { "id": "ent-evt-045", "type": "Event", "label": "함께 만드는 우리의 세계 (숏폼 영상 제작)" }
   ],
   "edges_added_2026_05_15": [
     { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017", "type": "explicit", "confidence": 0.90, "added": "2026-05-15" },
@@ -1587,11 +1593,28 @@
     { "subject": "ent-evt-026", "predicate": "followsEvent", "object": "ent-evt-025", "type": "inferred", "confidence": 0.98, "added": "2026-05-16", "rule": "same_venue_series", "note": "D-day 확정 0.95→0.98" },
     { "subject": "ent-evt-026", "predicate": "visitCombo", "object": "ent-evt-037", "type": "inferred", "confidence": 0.85, "added": "2026-05-16", "rule": "same_dong_combo", "note": "히어로+천문대 운석전시 도룡동 연계" },
     { "subject": "ent-evt-039", "predicate": "rainyFallbackFor", "object": "ent-evt-034", "type": "inferred", "confidence": 0.90, "added": "2026-05-16", "rule": "indoor_rainy_fallback", "note": "0.85→0.90 트윙클 13개 매체 신뢰도" },
-    { "subject": "ent-evt-039", "predicate": "confidence", "object": "0.98", "type": "inferred", "confidence": 0.98, "added": "2026-05-16", "note": "13개 매체+TJB TV" }
+    { "subject": "ent-evt-039", "predicate": "confidence", "object": "0.98", "type": "inferred", "confidence": 0.98, "added": "2026-05-16", "note": "13개 매체+TJB TV" },
+    { "subject": "ent-venue-026", "predicate": "locatedIn", "object": "dong-doryong", "type": "explicit", "confidence": 1.0, "added": "2026-05-17", "note": "피직스랩 — 국립중앙과학관 과학기술관 1층" },
+    { "subject": "ent-evt-041", "predicate": "hostsAt", "object": "ent-venue-026", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-org-006", "predicate": "operates", "object": "ent-venue-026", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-evt-042", "predicate": "partOfSeries", "object": "ent-evt-027", "type": "explicit", "confidence": 0.9, "added": "2026-05-17", "note": "블록코딩→브릭파티 연계" },
+    { "subject": "ent-evt-042", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-evt-043", "predicate": "partOfSeries", "object": "ent-evt-027", "type": "explicit", "confidence": 0.9, "added": "2026-05-17", "note": "건축특강→브릭파티 연계" },
+    { "subject": "ent-evt-043", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-evt-044", "predicate": "hostsAt", "object": "ent-venue-016", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-evt-044", "predicate": "organizedBy", "object": "ent-org-004", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-evt-045", "predicate": "organizedBy", "object": "ent-org-004", "type": "explicit", "confidence": 1.0, "added": "2026-05-17" },
+    { "subject": "ent-evt-026", "predicate": "status", "object": "종료 (Day 2 마지막날)", "type": "explicit", "confidence": 0.99, "added": "2026-05-17" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-6", "type": "explicit", "confidence": 0.99, "added": "2026-05-17" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-13", "type": "explicit", "confidence": 0.99, "added": "2026-05-17" },
+    { "subject": "ent-evt-041", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-17", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.85, "added": "2026-05-17", "rule": "same_dong_combo", "note": "블록코딩+피직스랩 도룡동 연계" },
+    { "subject": "ent-evt-043", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.85, "added": "2026-05-17", "rule": "same_dong_combo", "note": "건축특강+공룡덕후 5/30 동일일" },
+    { "subject": "ent-evt-044", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-17", "rule": "operator_kid_friendliness" }
   ],
   "stats": {
-    "total_nodes": 125,
-    "total_edges": 92,
-    "total_triples": 304
+    "total_nodes": 131,
+    "total_edges": 110,
+    "total_triples": 322
   }
 }

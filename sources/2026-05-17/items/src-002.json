@@ -1,0 +1,24 @@
+{
+  "id": "src-002",
+  "title": "국립중앙과학관 '피직스랩' 상설 전시관 — 2026.1.23 개관, 33종 물리체험",
+  "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+  "snippet": "국립중앙과학관 과학기술관 1층에 약 750㎡ 규모 물리체험 전시관 '피직스랩(Physics Lab)' 상설 개관. 힘과에너지/열과에너지/전기와자기/빛과파동 4주제 33종 체험형 전시품. 레이저·공기압·자석 등 직접 실험. 초등~중등 교과서 물리 원리를 오감으로 체험.",
+  "source_name": "뉴스1",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "2026.1.23 개관한 상설 전시관이나 기존 파이프라인에서 누락. 히어로 박람회의 자석비행·레이저 체험과 연관성 높으며, 도룡동 과학관 방문 시 함께 체험 가능한 상시 시설로 신규 등록.",
+  "entities": [
+    { "id": "temp-001", "type": "Venue", "name": "피직스랩(Physics Lab)", "properties": { "dong": "도룡동", "venue_type": "체험전시관", "address": "국립중앙과학관 과학기술관 1층", "area_sqm": 750, "exhibit_count": 33, "themes": ["힘과에너지", "열과에너지", "전기와자기", "빛과파동"], "distance_from_anchor_m": 3200, "ring": "ring-car", "opened_date": "2026-01-23" } },
+    { "id": "temp-002", "type": "Event", "name": "피직스랩 상시 체험", "properties": { "venue": "국립중앙과학관 과학기술관 1층 피직스랩", "fee": "무료 (과학관 입장권 별도)", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.90, "kid_friendly_reason": "직접 만지고 실험하는 체험형 전시. 교과 연계." } },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "운영" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부", "role": "지원" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "hostsAt", "object": "temp-001" },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "ent-org-006", "predicate": "operates", "object": "temp-001" }
+  ]
+}

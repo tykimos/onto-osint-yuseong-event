@@ -837,3 +837,33 @@
 - **신뢰도:** 0.98
 - **상태:** 확정
 - **비고:** 더에스엔에스타임·한국연합신문·正筆·금강일보·투어코리아·뉴스로·세계일보(인천)·퍼블릭뉴스통신·TJB 대전방송 등 13개 매체. 텍스트 매체를 넘어 지역 TV까지 진출하여 다중 미디어 수렴 달성.
+
+## 2026-05-17 추론 결과
+
+### 추론 #1: operator_kid_friendliness (피직스랩 가산)
+- **입력:** (ent-org-006 operates ent-venue-026), (ent-org-006 orgType 과학관), (ent-evt-041 hostsAt ent-venue-026)
+- **추론:** (ent-evt-041 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관(과학관) 운영 상설 체험관. 33종 체험형 전시로 어린이 친화도 기본 가산.
+
+### 추론 #2: same_dong_combo (블록 코딩 + 피직스랩 도룡동 연계)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong), (ent-evt-042 start_date 2026-05-23)
+- **추론:** (ent-evt-042 visitCombo ent-evt-041)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 블록 코딩 클래스(5/23~24) + 피직스랩(상시) = 같은 날 국립중앙과학관 내 연계 방문. 세미나실→과학기술관 1층 도보 이동.
+
+### 추론 #3: same_dong_combo (건축 특강 + 공룡덕후 5/30 동일일 연계)
+- **입력:** (ent-evt-043 hostsAt ent-venue-005), (ent-evt-028 hostsAt ent-venue-005), (ent-evt-043 start_date 2026-05-30), (ent-evt-028 start_date 2026-05-30)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 5/30 국립중앙과학관에서 건축특강(내래홀) + 공룡덕후박람회(사이언스터널·꿈이광장) 동시 개최. 가족 단위 종일 방문 최적.
+
+### 추론 #4: operator_kid_friendliness (부모특강 가산)
+- **입력:** (ent-org-004 operates ent-venue-016), (ent-org-004 orgType 도서관), (ent-evt-044 hostsAt ent-venue-016)
+- **추론:** (ent-evt-044 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 유성구통합도서관(도서관) 운영 아가랑도서관에서 개최. 도서관 운영 프로그램 자동 가산.

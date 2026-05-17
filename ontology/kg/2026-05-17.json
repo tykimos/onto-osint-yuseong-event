@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-17",
+  "new_triples": [
+    {
+      "subject": "ent-venue-026",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "source_id": "src-002",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit",
+      "note": "피직스랩 — 국립중앙과학관 과학기술관 1층"
+    },
+    {
+      "subject": "ent-evt-041",
+      "predicate": "hostsAt",
+      "object": "ent-venue-026",
+      "source_id": "src-002",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-org-006",
+      "predicate": "operates",
+      "object": "ent-venue-026",
+      "source_id": "src-002",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-027",
+      "source_id": "src-003",
+      "date": "2026-05-17",
+      "confidence": 0.9,
+      "type": "explicit",
+      "note": "블록 코딩 클래스 → 브릭파티 연계"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_id": "src-003",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-027",
+      "source_id": "src-004",
+      "date": "2026-05-17",
+      "confidence": 0.9,
+      "type": "explicit",
+      "note": "건축 특강 → 브릭파티 연계"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_id": "src-004",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "hostsAt",
+      "object": "ent-venue-016",
+      "source_id": "src-005",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit",
+      "note": "부모특강 → 아가랑도서관(전민동)"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "source_id": "src-005",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "source_id": "src-006",
+      "date": "2026-05-17",
+      "confidence": 1.0,
+      "type": "explicit",
+      "note": "숏폼 클래스 → 유성구통합도서관"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-026",
+      "predicate": "status",
+      "object": "Day 2 마지막날 (종료)",
+      "source_id": "src-001",
+      "date": "2026-05-17",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous": "D-day 개막",
+      "note": "히어로 박람회 5/17 최종일"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "status",
+      "object": "D-6",
+      "source_id": "src-008",
+      "date": "2026-05-17",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous": "D-7"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "status",
+      "object": "D-13",
+      "source_id": "src-012",
+      "date": "2026-05-17",
+      "confidence": 0.99,
+      "type": "explicit",
+      "previous": "D-14"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-041",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.90,
+      "type": "inferred",
+      "note": "국립중앙과학관(과학관) 운영 → 어린이 친화도 가산"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "type": "inferred",
+      "note": "블록코딩(5/23~24) + 피직스랩(상시) = 도룡동 당일 연계"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "type": "inferred",
+      "note": "건축특강(5/30) + 공룡덕후(5/30~31) = 같은 날 국립중앙과학관"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.90,
+      "type": "inferred",
+      "note": "유성구통합도서관(도서관) 운영 → 어린이 친화도 가산"
+    }
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 10,
+    "inferred_edges": 4
+  }
+}

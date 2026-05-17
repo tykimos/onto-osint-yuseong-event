@@ -1,0 +1,20 @@
+{
+  "id": "src-006",
+  "title": "진잠도서관 숏폼 영상 제작 클래스 '함께 만드는 우리의 세계' (6/4~25, 초등4~6학년)",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "snippet": "진잠도서관 K-도서관 미디어 창작공간에서 6/4~25(4회) 초등 4~6학년 대상 공익 숏폼 영상 제작 클래스 운영. 접수 5/14~28, 현재 2/10명 모집중(잔여 8석).",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고서에 없는 신규 프로그램. 진잠도서관 K-도서관(미디어 창작공간) 활용. 접수 마감 5/28로 D-11.",
+  "entities": [
+    { "id": "temp-006", "type": "Event", "name": "함께 만드는 우리의 세계 (공익 숏폼 영상 제작)", "properties": { "start_date": "2026-06-04", "end_date": "2026-06-25", "venue": "진잠도서관 K-도서관", "dong": "진잠동", "host": "유성구통합도서관", "fee": "무료 (추정)", "capacity": 10, "current_registration": 2, "registration_required": true, "registration_deadline": "2026-05-28", "indoor_outdoor": "실내", "target_age_group": ["초등고학년"], "kid_friendly_score": 0.80, "kid_friendly_reason": "초등 4~6학년 미디어 리터러시 교육. K-도서관 장비 활용." } },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "temp-006", "predicate": "organizedBy", "object": "ent-org-004" }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-17",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "피직스랩(Physics Lab)",
+      "properties": {
+        "dong": "도룡동",
+        "venue_type": "체험전시관",
+        "address": "국립중앙과학관 과학기술관 1층",
+        "area_sqm": 750,
+        "exhibit_count": 33,
+        "themes": ["힘과에너지", "열과에너지", "전기와자기", "빛과파동"],
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "opened_date": "2026-01-23",
+        "kid_friendly": true,
+        "stroller_accessible": true
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 5,
+      "distance_estimation_basis": "국립중앙과학관(도룡동 대덕대로 481) 소재. 용성로20에서 차량 약 10분."
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "피직스랩 상시 체험",
+      "properties": {
+        "venue": "국립중앙과학관 과학기술관 1층 피직스랩",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "무료 (과학관 입장권 별도)",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.90,
+        "kid_friendly_reason": "직접 만지고 실험하는 체험형 전시 33종. 교과서 물리 원리 연계. 초등 이상 최적."
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "블록 코딩 전통과학기술 클래스",
+      "properties": {
+        "start_date": "2026-05-23",
+        "end_date": "2026-05-24",
+        "venue": "국립중앙과학관 세미나실",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "registration_required": true,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년"],
+        "kid_friendly_score": 0.90,
+        "kid_friendly_reason": "블록 코딩과 전통과학기술 융합. STEM 교육.",
+        "parent_event": "ent-evt-027"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "시리즈 1: 선넘는 높이 건축 특별강연",
+      "properties": {
+        "start_date": "2026-05-30",
+        "end_date": "2026-05-30",
+        "venue": "국립중앙과학관 내래홀",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "registration_required": true,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.70,
+        "kid_friendly_reason": "건축+과학 융합 강연. 초등고학년 이상 적합.",
+        "parent_event": "ent-evt-027"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "아이들은 놀기 위해 세상에 온다 (부모특강)",
+      "properties": {
+        "start_date": "2026-05-23",
+        "end_date": "2026-05-23",
+        "venue": "아가랑도서관",
+        "dong": "전민동",
+        "distance_from_anchor_m": 900,
+        "ring": "ring-stroll",
+        "host": "유성구통합도서관",
+        "fee": "무료",
+        "capacity": 35,
+        "current_registration": 16,
+        "registration_required": true,
+        "registration_deadline": "2026-05-22",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["영유아", "유아"],
+        "kid_friendly_score": 0.75,
+        "kid_friendly_reason": "양육자 대상 강연이나 놀이 주제. 영유아·유아 부모 타겟."
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "함께 만드는 우리의 세계 (공익 숏폼 영상 제작)",
+      "properties": {
+        "start_date": "2026-06-04",
+        "end_date": "2026-06-25",
+        "venue": "진잠도서관 K-도서관",
+        "dong": "진잠동",
+        "host": "유성구통합도서관",
+        "fee": "무료 (추정)",
+        "capacity": 10,
+        "current_registration": 2,
+        "registration_required": true,
+        "registration_deadline": "2026-05-28",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등고학년"],
+        "kid_friendly_score": 0.80,
+        "kid_friendly_reason": "초등 4~6학년 미디어 리터러시 교육. K-도서관 장비 활용."
+      },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "K-도서관 5월 이용자교육",
+      "properties": {
+        "start_date": "2026-05-30",
+        "end_date": "2026-05-30",
+        "venue": "진잠도서관 K-도서관",
+        "dong": "진잠동",
+        "host": "유성구통합도서관",
+        "fee": "무료",
+        "capacity": 8,
+        "current_registration": 2,
+        "registration_required": true,
+        "registration_deadline": "2026-05-27",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.70
+      },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "dong-doryong", "source_ids": ["src-002"], "confidence": 1.0 },
+    { "subject": "temp-002", "predicate": "hostsAt", "object": "temp-001", "source_ids": ["src-002"], "confidence": 1.0 },
+    { "subject": "ent-org-006", "predicate": "operates", "object": "temp-001", "source_ids": ["src-002"], "confidence": 1.0 },
+    { "subject": "temp-003", "predicate": "partOfSeries", "object": "ent-evt-027", "source_ids": ["src-003"], "confidence": 0.9 },
+    { "subject": "temp-004", "predicate": "partOfSeries", "object": "ent-evt-027", "source_ids": ["src-004"], "confidence": 0.9 },
+    { "subject": "temp-005", "predicate": "hostsAt", "object": "ent-venue-016", "source_ids": ["src-005"], "confidence": 1.0 },
+    { "subject": "temp-005", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-005"], "confidence": 1.0 },
+    { "subject": "temp-006", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-006"], "confidence": 1.0 },
+    { "subject": "temp-007", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-007"], "confidence": 1.0 }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 7,
+    "matched_entities": 0,
+    "total_relations": 9
+  }
+}

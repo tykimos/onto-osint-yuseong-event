@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-16",
+  "last_updated": "2026-05-17",
   "classes": [
     {
       "id": "Entity",
@@ -265,6 +265,13 @@
       "target": "Event(ent-evt-026 히어로 D-day 개막, kid_friendly_score 0.90→0.95, 공식명칭+체험상세 추가), Event(ent-evt-039 트윙클 매체 9→13, 신뢰도 0.95→0.98), Event(ent-evt-037/038 천문대전시 매체 2→3)",
       "reason": "히어로 박람회 D-day 개막. 과기정통부 보도자료로 체험 프로그램 상세(자석비행·투명화·VR) 최초 공개, 공식명칭 확인. 트윙클 전시 TJB 대전방송(지역TV) 포함 4개 매체 추가로 13개 매체 달성. 천문대 더에스엔에스타임 추가. 신규 엔티티 없음.",
       "source_ids": ["src-001", "src-003", "src-004"]
+    },
+    {
+      "date": "2026-05-17",
+      "action": "add_instances",
+      "target": "Venue(ent-venue-026 피직스랩), Event(ent-evt-041 피직스랩상시체험, ent-evt-042 블록코딩클래스, ent-evt-043 건축특강, ent-evt-044 부모특강, ent-evt-045 숏폼클래스)",
+      "reason": "피직스랩(2026.1.23 개관) 상설 전시관 누락 발견으로 추가. 브릭파티 연계 프로그램 2건(블록코딩 5/23~24, 건축특강 5/30) 신규 공개. 아가랑도서관 부모특강(5/23) 및 진잠도서관 숏폼 클래스(6/4~25) 신규 접수 확인. 히어로 박람회 Day 2 종료, 브릭파티 D-6, 공룡덕후 D-13 상태 업데이트.",
+      "source_ids": ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006"]
     }
   ]
 }

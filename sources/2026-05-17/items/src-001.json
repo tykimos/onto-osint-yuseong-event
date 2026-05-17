@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "초능력 히어로 박람회 Day 2 마지막날 — 전파신문·뉴스서울·다자비 3개 매체 추가 확인",
+  "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393",
+  "snippet": "국립중앙과학관이 5월 16~17일 양일간 사이언스터널에서 '초능력 영웅(히어로) 박람회: 비밀 아카데미 신입 요원 모집'을 개최. 전파신문 추가 보도 확인. Day 2 마지막날 정상 운영.",
+  "source_name": "전파신문",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "update",
+  "related_report": "2026-05-16",
+  "related_item": "src-001 (2026-05-16)",
+  "tag_reason": "5/16 보도된 히어로 박람회의 Day 2 마지막날. 전파신문 추가 매체 확인으로 update 태깅.",
+  "entities": [
+    { "id": "ent-evt-026", "type": "Event", "name": "초능력 히어로 박람회", "role": "Day 2 마지막날" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부", "role": "주관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-026", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "ent-evt-026", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

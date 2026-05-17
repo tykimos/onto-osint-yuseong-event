@@ -1,0 +1,23 @@
+{
+  "id": "src-003",
+  "title": "2026 사이언스 브릭파티 연계 '블록 코딩 전통과학기술 클래스' (5/23~24) 신규 공개",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "사이언스 브릭파티(5/23~31) 연계 프로그램으로 '블록 코딩 전통과학기술 클래스'가 5/23~24 이틀간 세미나실에서 운영됨을 국립중앙과학관 행사 안내 페이지에서 최초 확인.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "브릭파티 연계 하위 프로그램으로 신규 공개됨. 이전 보고서에서 브릭파티는 언급되었으나 블록 코딩 클래스는 미확인.",
+  "entities": [
+    { "id": "temp-003", "type": "Event", "name": "블록 코딩 전통과학기술 클래스", "properties": { "start_date": "2026-05-23", "end_date": "2026-05-24", "venue": "국립중앙과학관 세미나실", "fee": "미확인 (사전예약 예상)", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년"], "kid_friendly_score": 0.90, "kid_friendly_reason": "블록 코딩+전통과학기술 융합 교육. 초등 대상 STEM.", "parent_event": "ent-evt-027" } },
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "role": "모(母) 이벤트" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "temp-003", "predicate": "partOfSeries", "object": "ent-evt-027" },
+    { "subject": "temp-003", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "temp-003", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

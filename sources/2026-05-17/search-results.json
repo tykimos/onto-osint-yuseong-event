@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-17",
+  "collected_at": "2026-05-17T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": [
+    "초능력 히어로 박람회 마지막날",
+    "사이언스 브릭파티",
+    "공룡덕후박람회",
+    "유성봄꽃전시회",
+    "열한번째 트윙클",
+    "피직스랩",
+    "국립중앙과학관 5월 행사"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월 17일",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:01:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "모두 함께 떠나는 가정의 달 축제 모음.ZIP", "url": "https://korean.visitkorea.or.kr/kfes/detail/themaDetail.do?themaCntntsId=007c2d64-0ffe-4135-8fc2-3dff4585579d", "snippet": "가정의 달 전국 축제 모음", "source_name": "대한민국 구석구석" },
+        { "title": "2026년 5월 주요 시민안내사항 및 행사계획", "url": "https://news.seoul.go.kr/gov/archives/577504", "snippet": "5월 주요 행사 안내", "source_name": "서울시" },
+        { "title": "전국 축제 캘린더", "url": "https://korean.visitkorea.or.kr/kfes/list/festivalCalendar.do", "snippet": "전국 축제 일정 캘린더", "source_name": "한국관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 초능력 히어로 박람회 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:02:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://dazabi.com/insurance_magazine/article.php?id=20334", "snippet": "5월 16~17일 양일간 사이언스 터널에서 개최. 자석비행·투명화·VR체험존.", "source_name": "다자비(보험AI뉴스)" },
+        { "title": "과기정통부 초능력 배우러 과학관으로 출동 『초능력 영웅(히어로) 박람회』 개최", "url": "https://newsseoul.co.kr/news/view/1065584409950991", "snippet": "과학기술정보통신부 보도자료 전재. 국립중앙과학관 사이언스터널 5/16~17.", "source_name": "뉴스서울" },
+        { "title": "중앙과학관, 16~17일 초능력 히어로 박람회", "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393", "snippet": "국립중앙과학관 5월 16~17일 히어로 박람회 행사 안내", "source_name": "전파신문" },
+        { "title": "국립중앙과학관 공식 행사 안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "5월 행사: 히어로 박람회(16~17), 브릭파티(23~31), 공룡덕후(30~31)", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 미래세대 과학기술문화 확산을 위한 2026년 주요프로그램 공개", "url": "https://www.lecturernews.com/news/articleView.html?idxno=194423", "snippet": "2026년 연간 프로그램 공개. 가정의 달 집중 운영.", "source_name": "한국강사신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:03:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔할 수 있는 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "덕명동 레포레스트 카페 소개", "source_name": "웰로" },
+        { "title": "대전광역시 유성구 카페 정보", "url": "https://bigvalue.ai/cafe/%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C/%EC%9C%A0%EC%84%B1%EA%B5%AC", "snippet": "유성구 카페 통계 정보", "source_name": "BigValue" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 도서관 프로그램 어린이 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:04:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구 도서관 프로그램 신청 페이지", "source_name": "유성구통합도서관" },
+        { "title": "K-도서관 5월 이용자교육 (진잠)", "url": "https://lib.yuseong.go.kr/", "snippet": "5/30 초등생·가족 대상. 접수 5/15~5/29. 10/12명 모집중.", "source_name": "유성구통합도서관" },
+        { "title": "아가랑도서관 부모특강 '아이들은 놀기 위해 세상에 온다'", "url": "https://lib.yuseong.go.kr/", "snippet": "5/23 양육자 대상 특강. 접수 5/12~22. 16/35명 모집중.", "source_name": "유성구통합도서관" },
+        { "title": "진잠도서관 숏폼 영상 제작 클래스", "url": "https://lib.yuseong.go.kr/", "snippet": "6/4~25 초등 4~6학년. 접수 5/14~28. 2/10명 모집중.", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 보건소 복지관 행정복지센터 프로그램 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:05:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/health/", "snippet": "보건소 사업 안내", "source_name": "유성구청" },
+        { "title": "유성구종합사회복지관", "url": "http://yuseongswc.or.kr", "snippet": "복지관 프로그램 안내", "source_name": "유성구종합사회복지관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "사이언스 브릭파티 국립중앙과학관 2026",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:06:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "국립중앙과학관 공식 행사 안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "사이언스 브릭파티 5/23~31 한국과학기술사관·세미나실", "source_name": "국립중앙과학관" },
+        { "title": "블록 코딩 전통과학기술 클래��", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "5/23~24 브릭파티 연계 프로그램. 세미나실.", "source_name": "국립중앙과학관" },
+        { "title": "시리즈 1: 선넘는 높이 건축 특별강연", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "5/30 내래홀. 브릭파티 연계 건축 특강.", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 키즈카페 팝업 원데이클래스 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:07:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전점 | 너티차일드 프리미엄 키즈 테마파크", "url": "https://www.naughtychild.co.kr/daejeon", "snippet": "도룡동 키즈카페 상시 운영 (매일 10:30~20:30)", "source_name": "너티차일드" },
+        { "title": "대전광역시어린이회관", "url": "https://www.djkids.or.kr/", "snippet": "노은동 어린이회관 체험 프로그램 안내", "source_name": "대전어린이회관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:08:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "\"대전 유림공원 봄꽃 전시회로 놀러오세요\"", "url": "https://v.daum.net/v/20260503151008346", "snippet": "제5회 유성봄꽃전시회 5/8~31 유림공원. 50여 종 8만여 본 봄꽃.", "source_name": "다음뉴스" },
+        { "title": "유성구, 유림공원서 펼쳐지는 힐링 축제 '유성온천문화축제'", "url": "https://www.koreatimenews.com/news/article.html?no=1144920", "snippet": "유림공원 봄꽃전시+온천문화축제 연계", "source_name": "코리아타임뉴스" },
+        { "title": "2026 유림공원 | 대전 관광명소", "url": "https://kr.trip.com/moments/poi-yurim-park-62012708/", "snippet": "유림공원 방문 후기 및 관광정보", "source_name": "트립닷컴" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 운석전시 기상기후사진전 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:09:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전시민천문대, '운석전시' 등 특별전시 연다", "url": "https://www.sedaily.com/article/20042838", "snippet": "5월 말까지 운석전시+기상기후사진전 무료 관람", "source_name": "서울경제" },
+        { "title": "대전시민천문대, 가정의 달 5월 특별전시 개최", "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/", "snippet": "운석전시, 기상기후사진전 ~5/31 무료", "source_name": "더에스엔에스타임" },
+        { "title": "대전시민천문대 공식", "url": "https://djstar.kr/", "snippet": "천문대 운영시간 14:00~22:00", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 피직스랩 개관 2026",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:10:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "국립중앙과학관, 신규 물리체험 전시관 '피직스랩' 개관", "url": "https://www.news1.kr/local/daejeon-chungnam/6047996", "snippet": "2026년 1월 23일 개관. 750㎡, 33종 체험형 전시. 과학기술관 1층.", "source_name": "뉴스1" },
+        { "title": "물리로 세상을 체험하다, 국립중앙과학관 '피직스랩' 전격 개관", "url": "https://www.edu-focus.com/news/461944", "snippet": "힘과에너지/열과에너지/전기와자기/빛과파동 4주제 33종 체험전시", "source_name": "교육포커스" },
+        { "title": "온몸으로 느끼는 교과서 속 물리…국립중앙과학관 '피직스 랩' 개관", "url": "https://v.daum.net/v/20260123103125992", "snippet": "체험하는 과학놀이터. 초등~중등 교과서 물리 원리 체험.", "source_name": "다음뉴스" },
+        { "title": "중앙과학관 '피직스랩' 개관…'보는 전시에서 체험하는 과학놀이터 제공'", "url": "https://news.nate.com/view/20260123n10372", "snippet": "물리 원리를 오감으로 체험. 상시 개방.", "source_name": "네이트뉴스" },
+        { "title": "\"보고 만지고 느끼니 원리가 쏙쏙\"···중앙과학관, '피직스랩' 개관", "url": "https://www.hellodd.com/news/articleView.html?idxno=110628", "snippet": "체험형 전시관 개관. 레이저·공기압·자석 등 실험 가능.", "source_name": "헬로디디" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "공룡덕후박람회 국립중앙과학관 2026년 5월 30일",
+      "language": "ko",
+      "timestamp": "2026-05-17T07:11:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/1111/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "5/30~31 사이언스터널·꿈이광장. 사전예약 없이 무료.", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 세계 공룡의 날맞아 '공룡덕후 박람회' 연다", "url": "https://www.kidshankook.kr/news/articleView.html?idxno=13845", "snippet": "공룡덕후단 모집. 제1대 공통령 선거. 특별강연.", "source_name": "소년한국일보" },
+        { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최", "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017", "snippet": "YTN 사이언스 보도. 5/30~31 무료.", "source_name": "YTN사이언스" },
+        { "title": "공룡의 날에는 공룡이 되자!", "url": "https://www.publicportal.co.kr/news/articleView.html?idxno=2042", "snippet": "공룡덕후박람회 참여 안내", "source_name": "공공포털" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon May 2026",
+      "language": "en",
+      "timestamp": "2026-05-17T07:12:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "Cities Nationwide Transform Into Kids' Playgrounds This May", "url": "https://en.sedaily.com/society/2026/04/26/cities-nationwide-transform-into-kids-playgrounds-this-may", "snippet": "Korean cities major Children's Day festivities in May.", "source_name": "Seoul Economic Daily (EN)" },
+        { "title": "Daejeon Events & Festivals (2026) - What's On", "url": "https://thingstodoindaejeon.com/events/", "snippet": "Daejeon event calendar for 2026.", "source_name": "Things to do in Daejeon" }
+      ]
+    }
+  ]
+}

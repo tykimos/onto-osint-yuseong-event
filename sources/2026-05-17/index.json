@@ -1,0 +1,113 @@
+{
+  "date": "2026-05-17",
+  "total": 13,
+  "new": 5,
+  "reported": 5,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "초능력 히어로 박람회 Day 2 마지막날 — 전파신문·뉴스서울·다자비 3개 매체 추가 확인",
+      "url": "http://www.jeonpa.co.kr/news/articleView.html?idxno=218393",
+      "tag": "update",
+      "related_report": "2026-05-16",
+      "entity_count": 3
+    },
+    {
+      "id": "src-002",
+      "title": "국립중앙과학관 '피직스랩' 상설 전시관 — 2026.1.23 개관, 33종 물리체험 (금일 누락 발견으로 추가)",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-003",
+      "title": "2026 사이언스 브릭파티 D-6 (5/23~31) — 블록 코딩 전통과학기술 클래스 연계 프로그램 신규 공개",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-004",
+      "title": "브릭파티 연계 건축 특별강연 '시리즈 1: 선넘는 높이' (5/30 내래홀) — 신규 프로그램",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "아가랑도서관 부모특강 '아이들은 놀기 위해 세상에 온다' (5/23) — 접수 중 16/35명",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-006",
+      "title": "진잠도서관 숏폼 영상 제작 클래스 '함께 만드는 우리의 세계' (6/4~25, 초등4~6) — 접수 중 2/10명",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-007",
+      "title": "진잠도서관 K-도서관 5월 이용자교육 (5/30) — 접수 중 2/8명, 초등생·가족 대상",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "update",
+      "related_report": "2026-05-16",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "사이언스 브릭파티 D-6 (5/23~31) — 한국과학기술사관·세미나실, 변동 없음",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_report": "2026-05-16",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "유성봄꽃전시회 D+9 (~5/31) 유림공원 — 변동 없음",
+      "url": "https://v.daum.net/v/20260503151008346",
+      "tag": "reported",
+      "related_report": "2026-05-16",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "대전시립미술관 '열한번째 트윙클' (~6/21) — 변동 없음",
+      "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+      "tag": "reported",
+      "related_report": "2026-05-16",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "대전시민천문대 운석전시+기상기후사진전 (~5/31) — 변동 없음",
+      "url": "https://www.sedaily.com/article/20042838",
+      "tag": "reported",
+      "related_report": "2026-05-16",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "공룡덕후박람회 D-13 (5/30~31) — 소년한국·YTN사이언스·공공포털 매체 보도 확인",
+      "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+      "tag": "reported",
+      "related_report": "2026-05-16",
+      "entity_count": 2
+    },
+    {
+      "id": "src-013",
+      "title": "초능력 히어로 박람회 마지막날 운영 시간·프로그램 교차확인 (뉴스서울·전파신문·다자비)",
+      "url": "https://newsseoul.co.kr/news/view/1065584409950991",
+      "tag": "update",
+      "related_report": "2026-05-16",
+      "entity_count": 3
+    }
+  ]
+}

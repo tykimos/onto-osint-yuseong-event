@@ -1,0 +1,20 @@
+{
+  "id": "src-007",
+  "title": "진잠도서관 K-도서관 5월 이용자교육 (5/30) — 접수 중 2/8명",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "snippet": "진잠도서관 K-도서관 이용자교육 5/30 예정. 초등생·가족 대상. 접수 5/13~27, 현재 2/8명(잔여 6석). 연 4회(2/5/8/11월) 정기 프로그램.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "update",
+  "related_report": "2026-05-16",
+  "related_item": null,
+  "tag_reason": "진잠도서관 K-도서관 프로그램 존재는 이전에 알려졌으나, 5월 이용자교육(5/30) 구체 일정·접수현황은 금일 최초 확인. 접수 마감 5/27로 D-10.",
+  "entities": [
+    { "id": "temp-007", "type": "Event", "name": "K-도서관 5월 이용자교육", "properties": { "start_date": "2026-05-30", "end_date": "2026-05-30", "venue": "진잠도서관 K-도서관", "dong": "진잠동", "host": "유성구통합도서관", "fee": "무료", "capacity": 8, "current_registration": 2, "registration_required": true, "registration_deadline": "2026-05-27", "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.70 } },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "temp-007", "predicate": "organizedBy", "object": "ent-org-004" }
+  ]
+}

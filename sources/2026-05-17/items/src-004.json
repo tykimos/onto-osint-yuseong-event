@@ -1,0 +1,21 @@
+{
+  "id": "src-004",
+  "title": "브릭파티 연계 건축 특별강연 '시리즈 1: 선넘는 높이' (5/30 내래홀)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "사이언스 브릭파티 연계 건축 특별강연 '시리즈 1: 선넘는 높이'가 5/30 국립중앙과학관 내래홀에서 개최. 건축과 과학의 융합 주제.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "브릭파티 연계 건축 특강 신규 확인. 5/30은 공룡덕후박람회와 동일 날짜 — 같은 날 방문 콤보 후보.",
+  "entities": [
+    { "id": "temp-004", "type": "Event", "name": "시리즈 1: 선넘는 높이 건축 특별강연", "properties": { "start_date": "2026-05-30", "end_date": "2026-05-30", "venue": "국립중앙과학관 내래홀", "fee": "미확인", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["초등고학년", "전연령가족"], "kid_friendly_score": 0.70, "kid_friendly_reason": "건축+과학 융합 강연. 초등고학년 이상 적합 추정.", "parent_event": "ent-evt-027" } },
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "role": "모(母) 이벤트" }
+  ],
+  "relations": [
+    { "subject": "temp-004", "predicate": "partOfSeries", "object": "ent-evt-027" },
+    { "subject": "temp-004", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-005",
+  "title": "아가랑도서관 부모특강 '아이들은 놀기 위해 세상에 온다' (5/23)",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "snippet": "아가랑도서관(전민동)에서 5/23 양육자 대상 특강 '아이들은 놀기 위해 세상에 온다' 개최. 접수 5/12~22, 현재 16/35명 모집중(잔여 19석).",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 보고서에 없는 신규 프로그램. 아가랑도서관(전민동, ring-stroll)에서 5/23 개최. 접수 마감 5/22로 D-5.",
+  "entities": [
+    { "id": "temp-005", "type": "Event", "name": "아이들은 놀기 위해 세상에 온다 (부모특강)", "properties": { "start_date": "2026-05-23", "end_date": "2026-05-23", "venue": "아가랑도서관", "dong": "전민동", "distance_from_anchor_m": 900, "ring": "ring-stroll", "host": "유성구통합도서관", "fee": "무료", "capacity": 35, "current_registration": 16, "registration_required": true, "registration_deadline": "2026-05-22", "indoor_outdoor": "실내", "target_age_group": ["영유아", "유아"], "kid_friendly_score": 0.75, "kid_friendly_reason": "양육자 대상 강연. 자녀 동반 여부 미확인이나 놀이 주제로 영유아·유아 부모 대상." } },
+    { "id": "ent-venue-016", "type": "Venue", "name": "아가랑도서관", "role": "개최장소" },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관", "role": "주최" }
+  ],
+  "relations": [
+    { "subject": "temp-005", "predicate": "hostsAt", "object": "ent-venue-016" },
+    { "subject": "temp-005", "predicate": "organizedBy", "object": "ent-org-004" }
+  ]
+}
