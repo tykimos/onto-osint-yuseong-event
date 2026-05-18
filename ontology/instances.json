@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-18",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -202,7 +202,7 @@
     { "id": "ent-evt-040", "type": "Event", "name": "가족ON! 안전ON! 안전체험 데이", "properties": { "venue": "119시민체험센터", "host": "대전소방본부 119시민체험센터", "fee": "무료", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.85, "programs": ["소화기·옥내소화전 사용법", "노래방 화재 대피·탈출", "심폐소생술 응급처치", "위기 탈출 체험", "투척용 소화기 토너먼트", "소방안전 퀴즈", "지진 대피 체험"], "parent_event": "ent-evt-022", "distance_from_anchor_m": 5000, "ring": "ring-car", "source_url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/" }, "first_seen": "2026-05-15", "last_seen": "2026-05-15", "mention_count": 5 },
     { "id": "ent-org-024", "type": "Organization", "name": "대전소방본부 119시민체험센터", "properties": { "org_type": "소방서", "role": "119시민체험센터 운영", "center_chief": "이도훈" }, "first_seen": "2026-05-15", "last_seen": "2026-05-15", "mention_count": 5 }
   ],
-  "total_count": 143,
+  "total_count": 144,
   "new_entities_2026_05_17": [
     { "id": "ent-venue-026", "type": "Venue", "name": "피직스랩(Physics Lab)", "properties": { "dong": "도룡동", "venue_type": "체험전시관", "address": "국립중앙과학관 과학기술관 1층", "area_sqm": 750, "exhibit_count": 33, "themes": ["힘과에너지", "열과에너지", "전기와자기", "빛과파동"], "distance_from_anchor_m": 3200, "ring": "ring-car", "opened_date": "2026-01-23", "kid_friendly": true, "stroller_accessible": true, "indoor_outdoor": "실내" }, "first_seen": "2026-05-17", "last_seen": "2026-05-17", "mention_count": 5 },
     { "id": "ent-evt-041", "type": "Event", "name": "피직스랩 상시 체험", "properties": { "venue": "국립중앙과학관 과학기술관 1층 피직스랩", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "무료 (과학관 입장권 별도)", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.90, "source_url": "https://www.news1.kr/local/daejeon-chungnam/6047996" }, "first_seen": "2026-05-17", "last_seen": "2026-05-17", "mention_count": 5 },
@@ -210,5 +210,8 @@
     { "id": "ent-evt-043", "type": "Event", "name": "시리즈 1: 선넘는 높이 건축 특별강연", "properties": { "start_date": "2026-05-30", "end_date": "2026-05-30", "venue": "국립중앙과학관 내래홀", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "미확인", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["초등고학년", "전연령가족"], "kid_friendly_score": 0.70, "parent_event": "ent-evt-027", "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-05-17", "last_seen": "2026-05-17", "mention_count": 1 },
     { "id": "ent-evt-044", "type": "Event", "name": "아이들은 놀기 위해 세상에 온다 (부모특강)", "properties": { "start_date": "2026-05-23", "end_date": "2026-05-23", "venue": "아가랑도서관", "dong": "전민동", "distance_from_anchor_m": 900, "ring": "ring-stroll", "host": "유성구통합도서관", "fee": "무료", "capacity": 35, "registration_required": true, "registration_deadline": "2026-05-22", "indoor_outdoor": "실내", "target_age_group": ["영유아", "유아"], "kid_friendly_score": 0.75, "source_url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do" }, "first_seen": "2026-05-17", "last_seen": "2026-05-17", "mention_count": 1 },
     { "id": "ent-evt-045", "type": "Event", "name": "함께 만드는 우리의 세계 (공익 숏폼 영상 제작)", "properties": { "start_date": "2026-06-04", "end_date": "2026-06-25", "venue": "진잠도서관 K-도서관", "dong": "진잠동", "host": "유성구통합도서관", "fee": "무료 (추정)", "capacity": 10, "registration_required": true, "registration_deadline": "2026-05-28", "indoor_outdoor": "실내", "target_age_group": ["초등고학년"], "kid_friendly_score": 0.80, "source_url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do" }, "first_seen": "2026-05-17", "last_seen": "2026-05-17", "mention_count": 1 }
+  ],
+  "new_entities_2026_05_18": [
+    { "id": "ent-act-025", "type": "Activity", "name": "핀스크린 체험", "properties": { "category": "체험·인터랙티브", "description": "한밭수목원 봄꽃 전시회 내 체험형 핀스크린 설치. 관람객이 손으로 눌러 모양을 만드는 인터랙티브 조형물.", "target_age": "전연령가족", "kid_friendly_score": 0.75, "event_parent": "ent-evt-034" }, "first_seen": "2026-05-18", "last_seen": "2026-05-18", "mention_count": 1 }
   ]
 }

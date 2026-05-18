@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-18",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "핀스크린 체험",
+      "properties": {
+        "category": "체험·인터랙티브",
+        "description": "한밭수목원 봄꽃 전시회 내 체험형 핀스크린 설치. 관람객이 손으로 눌러 모양을 만드는 인터랙티브 조형물.",
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.75,
+        "event_parent": "ent-evt-034"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-034",
+      "type": "Event",
+      "name": "2026 한밭수목원 봄꽃 전시회",
+      "properties": {
+        "end_date": "2026-05-25",
+        "operating_hours": "05:00~21:00",
+        "night_lighting": true,
+        "programs_detail": ["작약 정원", "으아리(클레마티스) 수직정원", "장미·해당화", "항아리정원 야생화", "꽃담 조형물", "핀스크린 체험", "야간 조명"],
+        "additional_media": ["헤럴드경제", "신아일보"]
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-act-020",
+      "type": "Activity",
+      "name": "제1대 공통령(恐統領) 선거",
+      "properties": {
+        "registration_required": false,
+        "fee": "무료",
+        "participation_method": "현장 투표 (사전예약 불필요)",
+        "official_notice_url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381"
+      },
+      "source_ids": ["src-003", "src-011"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "media_count": 7,
+        "additional_media": ["YTN사이언스", "소년한국일보"],
+        "official_notice_count": 2
+      },
+      "source_ids": ["src-003", "src-011"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "hostsAt",
+      "object": "ent-venue-024",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-act-020",
+      "predicate": "featuresActivity",
+      "object": "ent-evt-028",
+      "source_ids": ["src-003", "src-011"],
+      "confidence": 0.95
+    }
+  ],
+  "stats": {
+    "total_entities": 4,
+    "new_entities": 1,
+    "matched_entities": 3,
+    "total_relations": 2
+  }
+}

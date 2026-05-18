@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "한밭수목원 봄꽃전시회 (D-7, 5/25 종료) — 핀스크린 체험·야간 조명 확인",
+  "url": "https://biz.heraldcorp.com/article/10733502",
+  "snippet": "대전시 한밭수목원 '2026 봄꽃 전시회' 5/8~25 개최. 작약·으아리·장미·해당화 중심, 체험형 핀스크린 설치, 야간 조명 연출. 주제 '오월의 꽃마중'. 운영시간 05:00~21:00.",
+  "source_name": "헤럴드경제",
+  "language": "ko",
+  "discovered_date": "2026-05-18",
+  "tag": "update",
+  "related_report": "2026-05-12",
+  "related_item": "src-001 (2026-05-12)",
+  "tag_reason": "기존 ent-evt-034 한밭수목원 봄꽃전시회 — 신규 매체(헤럴드경제·신아일보) 보도와 핀스크린 체험·야간조명 상세 추가. D-7(5/25 종료) 접근으로 보고서 잔여기간 강조 필요.",
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원" },
+    { "id": "temp-001", "type": "Activity", "name": "핀스크린 체험" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-034", "predicate": "hostsAt", "object": "ent-venue-024" },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "ent-evt-034" }
+  ]
+}

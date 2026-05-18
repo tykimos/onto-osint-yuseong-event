@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-18",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1610,11 +1610,17 @@
     { "subject": "ent-evt-041", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-17", "rule": "operator_kid_friendliness" },
     { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.85, "added": "2026-05-17", "rule": "same_dong_combo", "note": "블록코딩+피직스랩 도룡동 연계" },
     { "subject": "ent-evt-043", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.85, "added": "2026-05-17", "rule": "same_dong_combo", "note": "건축특강+공룡덕후 5/30 동일일" },
-    { "subject": "ent-evt-044", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-17", "rule": "operator_kid_friendliness" }
+    { "subject": "ent-evt-044", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-17", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-act-025", "predicate": "featuresActivity", "object": "ent-evt-034", "type": "explicit", "confidence": 0.85, "added": "2026-05-18", "note": "한밭수목원 핀스크린 체험" },
+    { "subject": "ent-evt-026", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-05-18", "note": "히어로 박람회 공식 종료 (5/17)" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-5", "type": "explicit", "confidence": 0.99, "added": "2026-05-18" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-12", "type": "explicit", "confidence": 0.99, "added": "2026-05-18" },
+    { "subject": "ent-act-020", "predicate": "registration_required", "object": "false", "type": "explicit", "confidence": 0.95, "added": "2026-05-18", "note": "공통령선거 참가안내 확정: 사전예약 불필요·무료" },
+    { "subject": "ent-evt-034", "predicate": "urgencyBoost", "object": "+0.1", "type": "inferred", "confidence": 0.80, "added": "2026-05-18", "rule": "anchor_distance_priority", "note": "한밭수목원 봄꽃전시회 D-7 종료 임박" }
   ],
   "stats": {
-    "total_nodes": 131,
-    "total_edges": 110,
-    "total_triples": 322
+    "total_nodes": 132,
+    "total_edges": 116,
+    "total_triples": 328
   }
 }

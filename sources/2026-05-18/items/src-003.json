@@ -1,0 +1,22 @@
+{
+  "id": "src-003",
+  "title": "공룡덕후박람회 D-12 (5/30~31) — 공통령선거 프로그램 참가안내 공식 게시",
+  "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381",
+  "snippet": "국립중앙과학관 공식 게시판에 '제1대 공통령 선거' 참가안내 별도 공지. 관람객 투표형 프로그램. 사전예약 불필요. 무료 참여.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-18",
+  "tag": "update",
+  "related_report": "2026-05-17",
+  "related_item": "src-012 (2026-05-17)",
+  "tag_reason": "기존 ent-evt-028 공룡덕후박람회의 하위 프로그램(제1대 공통령 선거)에 대한 공식 참가안내가 별도 게시물로 공개됨. 참가방법(사전예약 불필요, 무료) 확정.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-act-020", "type": "Activity", "name": "제1대 공통령 선거" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-act-020", "predicate": "featuresActivity", "object": "ent-evt-028" },
+    { "subject": "ent-evt-028", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

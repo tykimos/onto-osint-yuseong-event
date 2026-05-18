@@ -867,3 +867,26 @@
 - **신뢰도:** 0.90
 - **상태:** 확정
 - **비고:** 유성구통합도서관(도서관) 운영 아가랑도서관에서 개최. 도서관 운영 프로그램 자동 가산.
+
+## 2026-05-18 추론 결과
+
+### 추론 #1: same_dong_combo (건축특강 + 공룡덕후 방문 콤보 유지)
+- **입력:** (ent-evt-043 hostsAt ent-venue-005), (ent-evt-028 hostsAt ent-venue-005), (ent-evt-043 start_date 2026-05-30), (ent-evt-028 start_date 2026-05-30)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지)
+- **비고:** 공통령선거 참가안내 확정으로 5/30 방문 콤보 강화. 건축특강+공룡덕후+공통령투표 3개 프로그램 가능.
+
+### 추론 #2: same_dong_combo (블록코딩 + 피직스랩 방문 콤보 유지)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-042 visitCombo ent-evt-041)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지)
+- **비고:** 브릭파티 D-5. 5/23~24 블록코딩+피직스랩 종일 과학체험 방문 콤보 유지.
+
+### 추론 #3: anchor_distance_priority (한밭수목원 D-7 종료 임박 우선순위 반영)
+- **입력:** (ent-evt-034 end_date 2026-05-25), (today 2026-05-18), remaining_days=7
+- **추론:** (ent-evt-034 urgencyBoost +0.1)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 한밭수목원 봄꽃전시회 잔여 7일. ring-car 권역이지만 종료 임박으로 보고서 가시성 상향.

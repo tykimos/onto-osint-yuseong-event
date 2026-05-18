@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-18",
+  "total": 11,
+  "new": 1,
+  "reported": 8,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "한밭수목원 봄꽃전시회 (D-7, 5/25 종료) — 핀스크린 체험·야간 조명 확인, 헤럴드경제·신아일보 추가 보도",
+      "url": "https://biz.heraldcorp.com/article/10733502",
+      "tag": "update",
+      "related_report": "2026-05-12",
+      "entity_count": 3
+    },
+    {
+      "id": "src-002",
+      "title": "사이언스 브릭파티 D-5 (5/23~31) — 블록코딩·건축특강 연계, 변동 없음",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-003",
+      "title": "공룡덕후박람회 D-12 (5/30~31) — YTN사이언스·소년한국 매체 보도 지속, 공통령선거 프로그램 상세 공개",
+      "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381",
+      "tag": "update",
+      "related_report": "2026-05-17",
+      "entity_count": 3
+    },
+    {
+      "id": "src-004",
+      "title": "유성봄꽃전시회 D+10 (~5/31) 유림공원 — 변동 없음",
+      "url": "https://daejeontour.co.kr/festival_djt/33",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "대전시립미술관 '열한번째 트윙클' (~6/21) — 금강일보·TJB 추가 매체 확인, 변동 없음",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1142790",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "대전시민천문대 운석전시+기상기후사진전 (~5/31) — 변동 없음",
+      "url": "https://www.sedaily.com/article/20042838",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "아가랑도서관 부모특강 '아이들은 놀기 위해 세상에 온다' (5/23) — 접수 마감 D-4",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "진잠도서관 숏폼 클래스 (6/4~25) — 접수 마감 D-10",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "피직스랩 상시 체험 — 변동 없음",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "119시민체험센터 소방안전체험 — 상시 운영 (화~토), 변동 없음",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_report": "2026-05-15",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "국립중앙과학관 공룡덕후박람회 '제1대 공통령 선거' 프로그램 참가안내 공식 게시",
+      "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    }
+  ]
+}
