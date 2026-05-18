@@ -1,0 +1,78 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-18)
+<#snapshot-2026-05-18> a prov:Entity ;
+  dct:date "2026-05-18"^^xsd:date ;
+  yse:new_nodes "1"^^xsd:integer ;
+  yse:new_edges "1"^^xsd:integer ;
+  yse:inferred_edges "2"^^xsd:integer .
+
+# --- new_triples (1) ---
+yseent:ent-act-025 yser:featuresActivity yseent:ent-evt-034 .
+yseinf:stmt-2026-05-18-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-act-025 ;
+  rdf:predicate yser:featuresActivity ;
+  rdf:object yseent:ent-evt-034 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-001" ;
+  dct:date "2026-05-18"^^xsd:date ;
+  rdfs:comment "한밭수목원 봄꽃전시회 내 핀스크린 체험 (헤럴드경제 보도)"@ko .
+
+# --- updated_triples (2) ---
+yseent:ent-act-020 yser:featuresActivity yseent:ent-evt-028 .
+yseinf:stmt-2026-05-18-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-act-020 ;
+  rdf:predicate yser:featuresActivity ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-011" ;
+  dct:date "2026-05-18"^^xsd:date ;
+  rdfs:comment "공통령 선거 참가안내 공식 게시 — 사전예약 불필요·무료 확정"@ko .
+yseent:ent-evt-034 yser:hostsAt yseent:ent-venue-024 .
+yseinf:stmt-2026-05-18-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-034 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-024 ;
+  yse:confidence "1.0"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-001" ;
+  dct:date "2026-05-18"^^xsd:date ;
+  rdfs:comment "한밭수목원 봄꽃전시회 — 헤럴드경제·신아일보 매체 추가 (총 7매체)"@ko .
+
+# --- inferred_triples (2) ---
+yseent:ent-evt-043 yser:visitCombo yseent:ent-evt-028 .
+yseinf:stmt-2026-05-18-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-043 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-18"^^xsd:date ;
+  rdfs:comment "5/30 건축특강 + 공룡덕후박람회 동일일 동일장소 방문 콤보 (기존 추론 유지)"@ko .
+yseent:ent-evt-042 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-18-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-042 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-18"^^xsd:date ;
+  rdfs:comment "5/23~24 블록코딩 + 피직스랩 동일 기관 방문 콤보 (기존 추론 유지)"@ko .
+
+# --- referenced entities ---
+
