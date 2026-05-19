@@ -1,0 +1,104 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-19)
+<#snapshot-2026-05-19> a prov:Entity ;
+  dct:date "2026-05-19"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "0"^^xsd:integer ;
+  yse:inferred_edges "3"^^xsd:integer .
+
+# --- updated_triples (3) ---
+yseent:ent-evt-034 yser:hostsAt yseent:ent-venue-024 .
+yseinf:stmt-2026-05-19-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-034 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-024 ;
+  yse:confidence "1.0"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-001" ;
+  dct:date "2026-05-19"^^xsd:date ;
+  rdfs:comment "한밭수목원 봄꽃전시회 — 뉴스핌·뉴스1·중부매일 매체 추가 (총 10매체). D-6 마지막 주간 진입."@ko .
+yseent:ent-evt-028 yser:hostsAt yseent:ent-venue-005 .
+yseinf:stmt-2026-05-19-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-028 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-005 ;
+  yse:confidence "1.0"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-003" ;
+  dct:date "2026-05-19"^^xsd:date ;
+  rdfs:comment "공룡덕후박람회 — YTN사이언스·공공포털 매체 추가. 프로그램 구성(올림피아드·디노홀초대전) 상세 확인."@ko .
+yseent:ent-evt-044 yser:hostsAt yseent:ent-venue-016 .
+yseinf:stmt-2026-05-19-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-044 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-016 ;
+  yse:confidence "1.0"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-007" ;
+  dct:date "2026-05-19"^^xsd:date ;
+  rdfs:comment "아가랑도서관 부모특강 접수 마감 D-3 진입 (5/22 마감). 마감 임박 섹션 진입."@ko .
+
+# --- inferred_triples (3) ---
+yseent:ent-evt-043 yser:visitCombo yseent:ent-evt-028 .
+yseinf:stmt-2026-05-19-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-043 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-19"^^xsd:date ;
+  rdfs:comment "5/30 건축특강 + 공룡덕후박람회 동일일 동일장소 방문 콤보 (유지)"@ko .
+yseent:ent-evt-042 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-19-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-042 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-19"^^xsd:date ;
+  rdfs:comment "5/23~24 블록코딩 + 피직스랩 동일 기관 방문 콤보 (유지)"@ko .
+yseent:ent-evt-027 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-19-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-027 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-19"^^xsd:date ;
+  rdfs:comment "5/23~ 브릭파티 + 피직스랩 동일기관 방문 콤보 (유지)"@ko .
+
+# --- referenced entities ---
+yseent:ent-venue-005 a yseo:Venue ;
+  rdfs:label "국립중앙과학관"@ko ;
+  yse:name "국립중앙과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "6"^^xsd:integer ;
+  yse:dong "도룡동"@ko ;
+  yse:venue_type "과학관"@ko .
+yseent:ent-venue-016 a yseo:Venue ;
+  rdfs:label "아가랑도서관"@ko ;
+  yse:name "아가랑도서관"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "2"^^xsd:integer ;
+  yse:dong "전민동"@ko ;
+  yse:venue_type "도서관"@ko ;
+  yse:distance_from_anchor_m "900"^^xsd:integer ;
+  yse:ring "ring-stroll"@ko .
+
