@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-19",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-034",
+      "type": "Event",
+      "name": "2026 한밭수목원 봄꽃 전시회",
+      "properties": {
+        "status": "D-6 종료 임박",
+        "end_date": "2026-05-25",
+        "media_count": 10,
+        "media_new": ["뉴스핌", "뉴스1", "중부매일"]
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "status": "D-11",
+        "media_new": ["YTN사이언스", "공공포털"],
+        "programs_confirmed": ["공룡덕후박람회", "공룡덕후 올림피아드", "디노홀 초대전", "공통령선거"]
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-044",
+      "type": "Event",
+      "name": "아이들은 놀기 위해 세상에 온다 (부모특강)",
+      "properties": {
+        "status": "접수 마감 D-3",
+        "registration_deadline": "2026-05-22",
+        "event_date": "2026-05-23"
+      },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-024",
+      "type": "Venue",
+      "name": "한밭수목원",
+      "properties": {},
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-005",
+      "type": "Venue",
+      "name": "국립중앙과학관",
+      "properties": {},
+      "source_ids": ["src-003"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-016",
+      "type": "Venue",
+      "name": "아가랑도서관",
+      "properties": {},
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-act-025",
+      "type": "Activity",
+      "name": "핀스크린 체험",
+      "properties": {},
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-act-020",
+      "type": "Activity",
+      "name": "제1대 공통령 선거",
+      "properties": {},
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "hostsAt",
+      "object": "ent-venue-024",
+      "source_ids": ["src-001"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-003"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "hostsAt",
+      "object": "ent-venue-016",
+      "source_ids": ["src-007"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "source_ids": ["src-007"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-act-020",
+      "predicate": "featuresActivity",
+      "object": "ent-evt-028",
+      "source_ids": ["src-003"],
+      "confidence": 0.95
+    }
+  ],
+  "stats": {
+    "total_entities": 8,
+    "new_entities": 0,
+    "matched_entities": 8,
+    "total_relations": 5
+  }
+}

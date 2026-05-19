@@ -890,3 +890,33 @@
 - **신뢰도:** 0.80
 - **상태:** 확정
 - **비고:** 한밭수목원 봄꽃전시회 잔여 7일. ring-car 권역이지만 종료 임박으로 보고서 가시성 상향.
+
+## 2026-05-19 추론 결과
+
+### 추론 #1: same_dong_combo (건축특강 + 공룡덕후 방문 콤보 유지)
+- **입력:** (ent-evt-043 hostsAt ent-venue-005), (ent-evt-028 hostsAt ent-venue-005), (ent-evt-043 start_date 2026-05-30), (ent-evt-028 start_date 2026-05-30)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지)
+- **비고:** 5/30 건축특강+공룡덕후+공통령투표 3종 방문 콤보. YTN사이언스 영상 보도로 인지도 상승.
+
+### 추론 #2: same_dong_combo (블록코딩 + 피직스랩 방문 콤보 유지)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-042 visitCombo ent-evt-041)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지)
+- **비고:** 브릭파티 D-4. 5/23~24 블록코딩+피직스랩 종일 과학체험 콤보 유지.
+
+### 추론 #3: same_dong_combo (브릭파티 + 피직스랩 방문 콤보 유지)
+- **입력:** (ent-evt-027 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-027 visitCombo ent-evt-041)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지)
+- **비고:** 5/23~ 브릭파티 개막과 피직스랩 동일 권역 방문 콤보.
+
+### 추론 #4: anchor_distance_priority (한밭수목원 D-6 종료 임박 우선순위 강화)
+- **입력:** (ent-evt-034 end_date 2026-05-25), (today 2026-05-19), remaining_days=6
+- **추론:** (ent-evt-034 urgencyBoost +0.15)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 한밭수목원 봄꽃전시회 잔여 6일, 마지막 주간 진입. 매체 10개 달성으로 urgencyBoost 0.10→0.15 상향.

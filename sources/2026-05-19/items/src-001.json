@@ -1,0 +1,28 @@
+{
+  "id": "src-001",
+  "title": "한밭수목원 봄꽃전시회 D-6 (5/25 종료) — 뉴스핌·뉴스1·중부매일 추가 매체, 마지막 주간 진입",
+  "url": "https://www.newspim.com/news/view/20260508000456",
+  "snippet": "5월 8일부터 25일까지 한밭수목원 봄꽃 전시회 개최. 50여 종 8만여 본. 작약·장미·해당화·으아리(클레마티스)·델피늄 등. 핀스크린 체험, 야간 조명 연출. 운영시간 05:00~21:00.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "update",
+  "related_report": "2026-05-18",
+  "related_item": "2026-05-18/src-001",
+  "tag_reason": "D-7→D-6 진입(마지막 주간 시작). 뉴스핌·뉴스1·중부매일 3개 매체 추가 보도 확인 (총 10매체). 내용 변동 없음, 종료일 카운트다운 및 매체 확산.",
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원" },
+    { "id": "ent-act-025", "type": "Activity", "name": "핀스크린 체험" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-034", "predicate": "hostsAt", "object": "ent-venue-024" }
+  ],
+  "additional_urls": [
+    "https://www.news1.kr/local/daejeon-chungnam/6161639",
+    "https://www.jbnews.com/news/articleView.html?idxno=1503723",
+    "https://biz.heraldcorp.com/article/10733502",
+    "https://www.shinailbo.co.kr/news/articleView.html?idxno=5018662",
+    "https://daejeontour.co.kr/festival_djt/35"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "src-003",
+  "title": "공룡덕후박람회 D-11 (5/30~31) — YTN사이언스·공공포털 추가 매체 영상 보도",
+  "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017",
+  "snippet": "국립중앙과학관 세계 공룡의 날 박람회 개최. 공룡 관련 작가·기업·기관이 참여하는 공룡덕후박람회, 공룡덕후 올림피아드, 디노홀 초대전 등으로 구성. 사전예약 없이 무료 참여.",
+  "source_name": "YTN사이언스",
+  "language": "ko",
+  "discovered_date": "2026-05-19",
+  "tag": "update",
+  "related_report": "2026-05-18",
+  "related_item": "2026-05-18/src-003",
+  "tag_reason": "D-12→D-11 진입. YTN사이언스 영상 보도 및 공공포털 기사 추가로 매체 확산 확인. 행사 구성 상세(올림피아드, 디노홀 초대전) 최초 확인 가능. 기존 공통령선거 참가안내는 이미 반영됨.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-act-020", "type": "Activity", "name": "제1대 공통령 선거" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-act-020", "predicate": "featuresActivity", "object": "ent-evt-028" }
+  ],
+  "additional_urls": [
+    "https://www.publicportal.co.kr/news/articleView.html?idxno=2042",
+    "https://www.youtube.com/watch?v=SvW-IGTxvs4",
+    "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+    "https://www.kidshankook.kr/news/articleView.html?idxno=13845"
+  ]
+}
