@@ -1,0 +1,19 @@
+{
+  "id": "src-001",
+  "title": "한밭수목원 봄꽃전시회 D-5 (5/25 종료) — 신아일보·텔트립 추가 매체",
+  "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5018662",
+  "snippet": "한밭수목원 25일까지 봄꽃 전시회 개최. 11만 7천 평 장미 터널, 작약 군락까지 품은 전시회.",
+  "source_name": "신아일보",
+  "language": "ko",
+  "discovered_date": "2026-05-20",
+  "tag": "update",
+  "related_report": "2026-05-19",
+  "related_item": "2026-05-19/src-001",
+  "tag_reason": "이전 보고서 대비 신아일보·텔트립 2개 매체 추가 발견. D-6→D-5 카운트다운 진행. 내용 변경 없으나 마지막 주 관람 촉구 기사 증가.",
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원" },
+    { "id": "ent-org-001", "type": "Organization", "name": "대전광역시" }
+  ],
+  "relations": []
+}

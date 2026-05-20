@@ -1,0 +1,70 @@
+{
+  "date": "2026-05-20",
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "media_count",
+      "object": "12",
+      "previous_value": "10",
+      "source_id": "src-001",
+      "date": "2026-05-20",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "registration_status",
+      "object": "16/35 (잔여 19명)",
+      "previous_value": "미확인",
+      "source_id": "src-007",
+      "date": "2026-05-20",
+      "confidence": 0.95,
+      "type": "explicit"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "status": "유지"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "status": "유지"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "status": "유지"
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "urgencyBoost",
+      "object": "+0.2",
+      "confidence": 0.90,
+      "type": "inferred",
+      "rule": "anchor_distance_priority",
+      "status": "유지 — D-5 마지막 주"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 0,
+    "updated_edges": 2,
+    "inferred_edges": 4
+  }
+}

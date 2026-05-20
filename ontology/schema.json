@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-19",
+  "last_updated": "2026-05-20",
   "classes": [
     {
       "id": "Entity",
@@ -285,6 +285,13 @@
       "action": "update_instances",
       "target": "Event(ent-evt-034 한밭수목원 매체 7→10, D-6), Event(ent-evt-028 공룡덕후 YTN사이언스·공공포털 매체 추가, D-11), Event(ent-evt-044 부모특강 D-3 마감 임박 진입)",
       "reason": "한밭수목원 마지막 주간(D-6) 진입으로 종료 임박 긴급도 상승. 공룡덕후 YTN사이언스 영상 보도 추가(올림피아드·디노홀초대전 구성 확인). 부모특강 접수 마감 D-3 진입으로 마감 임박 섹션 배치. 신규 엔티티 없음.",
+      "source_ids": ["src-001", "src-003", "src-007"]
+    },
+    {
+      "date": "2026-05-20",
+      "action": "update_instances",
+      "target": "Event(ent-evt-034 한밭수목원 매체 10→12, D-5), Event(ent-evt-028 공룡덕후 소년한국일보 매체 추가, D-10), Event(ent-evt-044 부모특강 D-2 접수현황 16/35 확인)",
+      "reason": "한밭수목원 D-5 마지막 주 진행중(신아일보·텔트립 추가 매체). 공룡덕후 소년한국일보(어린이 전문 매체) 보도 추가. 부모특강 접수 현황 최초 확인(35명 중 16명/잔여 19명). 신규 엔티티 없음.",
       "source_ids": ["src-001", "src-003", "src-007"]
     }
   ]

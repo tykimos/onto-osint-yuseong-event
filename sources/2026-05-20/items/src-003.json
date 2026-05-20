@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "공룡덕후박람회 D-10 (5/30~31) — 소년한국일보 추가 매체",
+  "url": "https://www.kidshankook.kr/news/articleView.html?idxno=13845",
+  "snippet": "국립중앙과학관 세계 공룡의 날 맞아 공룡덕후 박람회 개최. 공룡덕후 올림피아드, 디노홀 초대전, 공통령 선거, 공룡 뮤지컬.",
+  "source_name": "소년한국일보",
+  "language": "ko",
+  "discovered_date": "2026-05-20",
+  "tag": "update",
+  "related_report": "2026-05-19",
+  "related_item": "2026-05-19/src-003",
+  "tag_reason": "소년한국일보(어린이 전문 매체) 추가 보도 — 어린이 타겟 매체의 보도는 실제 어린이 관객 유입 가능성이 높은 신호. D-11→D-10 카운트다운.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

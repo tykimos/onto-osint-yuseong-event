@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-19",
+  "last_updated": "2026-05-20",
   "nodes": [
     {
       "id": "ent-evt-001",

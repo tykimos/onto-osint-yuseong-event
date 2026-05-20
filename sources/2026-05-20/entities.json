@@ -1,0 +1,12 @@
+{
+  "date": "2026-05-20",
+  "entities": [],
+  "relations": [],
+  "stats": {
+    "total_entities": 0,
+    "new_entities": 0,
+    "matched_entities": 0,
+    "total_relations": 0
+  },
+  "notes": "금일 신규 엔티티 없음. 기존 엔티티 상태 업데이트만 수행: (1) ent-evt-034 한밭수목원 D-5 매체 추가, (2) ent-evt-028 공룡덕후 소년한국일보 매체 추가, (3) ent-evt-044 부모특강 D-2 접수현황 확인(35명 중 16명/잔여 19명)"
+}

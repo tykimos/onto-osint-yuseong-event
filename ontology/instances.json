@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-19",
+  "last_updated": "2026-05-20",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -218,5 +218,10 @@
     { "id": "ent-evt-034", "update": "media_count 7→10 (뉴스핌·뉴스1·중부매일 추가), D-6 마지막 주간 진입" },
     { "id": "ent-evt-028", "update": "YTN사이언스·공공포털 매체 추가, 올림피아드·디노홀초대전 구성 확인, D-11" },
     { "id": "ent-evt-044", "update": "접수 마감 D-3 진입 (5/22 마감), 마감 임박 섹션 배치" }
+  ],
+  "updates_2026_05_20": [
+    { "id": "ent-evt-034", "update": "media_count 10→12 (신아일보·텔트립 추가), D-5 마지막 주 진행중" },
+    { "id": "ent-evt-028", "update": "소년한국일보(어린이 전문 매체) 추가, D-10" },
+    { "id": "ent-evt-044", "update": "접수 마감 D-2, 접수현황 최초 확인: 35명 중 16명(잔여 19명)" }
   ]
 }

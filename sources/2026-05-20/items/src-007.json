@@ -1,0 +1,18 @@
+{
+  "id": "src-007",
+  "title": "아가랑도서관 부모특강 (5/23) — 접수 마감 D-2, 잔여 19명 확인",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "snippet": "부모특강 '아이들은 놀기 위해 세상에 온다' 5/23 개최. 정원 35명 중 16명 접수, 잔여 19명. 접수 마감 5/22.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-20",
+  "tag": "update",
+  "related_report": "2026-05-19",
+  "related_item": "2026-05-19/src-007",
+  "tag_reason": "D-3→D-2 카운트다운. 신규 정보: 접수 현황 최초 확인 — 35명 중 16명 접수(잔여 19명). 도서관 프로그램 특성상 마감 직전 몰림 가능성 있으나, 현재 여유 있는 상태.",
+  "entities": [
+    { "id": "ent-evt-044", "type": "Event", "name": "아이들은 놀기 위해 세상에 온다 (부모특강)" },
+    { "id": "ent-venue-016", "type": "Venue", "name": "아가랑도서관" }
+  ],
+  "relations": []
+}
