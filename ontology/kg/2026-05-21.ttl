@@ -1,0 +1,87 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-21)
+<#snapshot-2026-05-21> a prov:Entity ;
+  dct:date "2026-05-21"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "1"^^xsd:integer ;
+  yse:inferred_edges "5"^^xsd:integer .
+
+# --- new_triples (1) ---
+yseent:ent-org-006 yser:milestone yseent:cumulative_visitors_36000000 .
+yseinf:stmt-2026-05-21-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-org-006 ;
+  rdf:predicate yser:milestone ;
+  rdf:object yseent:cumulative_visitors_36000000 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "explicit" ;
+  dct:source "src-001" ;
+  dct:date "2026-05-21"^^xsd:date .
+
+# --- inferred_triples (5) ---
+yseent:ent-evt-042 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-21-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-042 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-21"^^xsd:date .
+yseent:ent-evt-043 yser:visitCombo yseent:ent-evt-028 .
+yseinf:stmt-2026-05-21-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-043 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-21"^^xsd:date .
+yseent:ent-evt-027 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-21-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-027 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  dct:date "2026-05-21"^^xsd:date .
+yseent:ent-evt-034 yser:urgencyBoost "+0.2" .
+yseinf:stmt-2026-05-21-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-034 ;
+  rdf:predicate yser:urgencyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "anchor_distance_priority" ;
+  dct:date "2026-05-21"^^xsd:date .
+yseent:ent-evt-044 yser:urgencyBoost "+0.3" .
+yseinf:stmt-2026-05-21-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-044 ;
+  rdf:predicate yser:urgencyBoost ;
+  rdf:object "+0.3" ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "registration_deadline_urgency" ;
+  dct:date "2026-05-21"^^xsd:date .
+
+# --- referenced entities ---
+yseent:ent-org-006 a yseo:Organization ;
+  rdfs:label "국립중앙과학관"@ko ;
+  yse:name "국립중앙과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "6"^^xsd:integer ;
+  yse:org_type "과학���"@ko .
+
