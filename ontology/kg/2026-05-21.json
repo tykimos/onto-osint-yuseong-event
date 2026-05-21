@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-21",
+  "new_triples": [
+    {
+      "subject": "ent-org-006",
+      "predicate": "milestone",
+      "object": "cumulative_visitors_36000000",
+      "confidence": 0.95,
+      "type": "explicit",
+      "source_id": "src-001",
+      "date": "2026-05-21",
+      "detail": "2026-05-17 달성, 이전 개관 35년만, 3500만→3600만 약 9개월, 전년 대비 +33.5%"
+    }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "date": "2026-05-21",
+      "detail": "블록코딩(5/23~24) ↔ 피직스랩(상시), 동일기관 방문 콤보 (유지)"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "date": "2026-05-21",
+      "detail": "건축특강(5/30) ↔ 공룡덕후(5/30~31), 동일일 동일장소 방문 콤보 (유지)"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "date": "2026-05-21",
+      "detail": "브릭파티(5/23~) ↔ 피직스랩(상시), 동일기관 방문 콤보 (유지)"
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "urgencyBoost",
+      "object": "+0.2",
+      "confidence": 0.90,
+      "type": "inferred",
+      "rule": "anchor_distance_priority",
+      "date": "2026-05-21",
+      "detail": "한밭수목원 D-4, 매체 12개, 종료 긴급도 가산 (유지)"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "urgencyBoost",
+      "object": "+0.3",
+      "confidence": 0.95,
+      "type": "inferred",
+      "rule": "registration_deadline_urgency",
+      "date": "2026-05-21",
+      "detail": "부모특강 접수 마감 D-1, 최긴급 가산 (D-2→D-1 상승)"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 1,
+    "inferred_edges": 5
+  }
+}

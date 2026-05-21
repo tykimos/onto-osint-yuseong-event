@@ -1618,9 +1618,17 @@
     { "subject": "ent-act-020", "predicate": "registration_required", "object": "false", "type": "explicit", "confidence": 0.95, "added": "2026-05-18", "note": "공통령선거 참가안내 확정: 사전예약 불필요·무료" },
     { "subject": "ent-evt-034", "predicate": "urgencyBoost", "object": "+0.1", "type": "inferred", "confidence": 0.80, "added": "2026-05-18", "rule": "anchor_distance_priority", "note": "한밭수목원 봄꽃전시회 D-7 종료 임박" }
   ],
+  "edges_added_2026_05_21": [
+    { "subject": "ent-org-006", "predicate": "milestone", "object": "cumulative_visitors_36000000", "type": "explicit", "confidence": 0.95, "added": "2026-05-21", "note": "2026-05-17 달성, 이전 개관 35년만. 3500만→3600만 9개월. 전년 대비 +33.5%. 7+ 매체 교차확인." },
+    { "subject": "ent-evt-034", "predicate": "status", "object": "D-4 마지막 주", "type": "explicit", "confidence": 0.99, "added": "2026-05-21" },
+    { "subject": "ent-evt-044", "predicate": "status", "object": "접수마감 D-1 최긴급", "type": "explicit", "confidence": 0.99, "added": "2026-05-21" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-2 개막 임박", "type": "explicit", "confidence": 0.99, "added": "2026-05-21" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-9", "type": "explicit", "confidence": 0.99, "added": "2026-05-21" },
+    { "subject": "ent-evt-044", "predicate": "urgencyBoost", "object": "+0.3", "type": "inferred", "confidence": 0.95, "added": "2026-05-21", "rule": "registration_deadline_urgency", "note": "접수 마감 D-1 최긴급, 잔여 19명" }
+  ],
   "stats": {
     "total_nodes": 132,
-    "total_edges": 116,
-    "total_triples": 328
+    "total_edges": 122,
+    "total_triples": 334
   }
 }

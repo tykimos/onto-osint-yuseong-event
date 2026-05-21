@@ -1,0 +1,30 @@
+{
+  "id": "src-001",
+  "title": "국립중앙과학관 누적 관람객 3600만명 돌파 — 이전 개관 35년만",
+  "url": "https://www.mt.co.kr/tech/2026/05/19/2026051909161071067",
+  "snippet": "1990년 대전 대덕연구단지로 이전·개관 이후 35년만에 누적 관람객 3600만명 돌파. 3500만→3600만 약 9개월, 전년 대비 33.5% 증가. 3600만번째 관람객은 원주 태장초 2학년 김모군. 공룡덕후박람회·피직스랩·사이언스데이 등 체험형 콘텐츠가 관람객 증가 주요인.",
+  "source_name": "머니투데이",
+  "language": "ko",
+  "discovered_date": "2026-05-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/19 보도이나 이전 보고서에서 미수집. 국립중앙과학관의 관람객 이정표로 도룡동 과학관 권역 전체 이벤트의 집객력을 입증하는 중요 맥락 정보.",
+  "additional_sources": [
+    { "title": "국립중앙과학관, 누적 관람객 3600만 돌파…이전 개관 35년만", "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=841171", "source_name": "뉴스웍스" },
+    { "title": "국립중앙과학관, 과학기술문화 플랫폼 변모… 누적 관람객 3600만명 돌파", "url": "https://v.daum.net/v/20260519124417840", "source_name": "다음(서울경제)" },
+    { "title": "국립중앙과학관, 개관 36년만에 누적 관람객 3,600만 명 돌파", "url": "https://zdnet.co.kr/view/?no=20260519110839", "source_name": "ZDNet korea" },
+    { "title": "국립중앙과학관 누적 관람객 3천600만명 돌파", "url": "https://www.tjb.co.kr/news06/category/view/id/98404", "source_name": "TJB대전방송" },
+    { "title": "연간 관람객 100만명 국립중앙과학관", "url": "https://v.daum.net/v/20260519174420924", "source_name": "다음(머니투데이)" }
+  ],
+  "entities": [
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "3600만 관람객 달성 기관" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "달성 장소" },
+    { "id": "ent-venue-026", "type": "Venue", "name": "피직스랩", "role": "관람객 증가 대표 시설로 언급" },
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회", "role": "관람객 증가 요인 행사로 언급" }
+  ],
+  "relations": [
+    { "subject": "ent-org-006", "predicate": "operates", "object": "ent-venue-005" },
+    { "subject": "ent-org-006", "predicate": "operates", "object": "ent-venue-026" }
+  ]
+}

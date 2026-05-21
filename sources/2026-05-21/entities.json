@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-21",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-org-006",
+      "type": "Organization",
+      "name": "국립중앙과학관",
+      "properties": { "org_type": "과학관", "cumulative_visitors": "3600만명 (2026-05-17 달성)", "yoy_growth": "+33.5%", "annual_visitors": "100만+" },
+      "source_ids": ["src-001"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-005",
+      "type": "Venue",
+      "name": "국립중앙과학관",
+      "properties": { "dong": "도룡동", "venue_type": "과학관", "distance_from_anchor_m": 3200, "ring": "ring-car" },
+      "source_ids": ["src-001", "src-004", "src-005"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-venue-026",
+      "type": "Venue",
+      "name": "피직스랩(Physics Lab)",
+      "properties": { "dong": "도룡동", "venue_type": "체험전시관", "distance_from_anchor_m": 3200, "ring": "ring-car" },
+      "source_ids": ["src-001", "src-009"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": { "start_date": "2026-05-30", "end_date": "2026-05-31", "d_day": "D-9" },
+      "source_ids": ["src-001", "src-005"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-034",
+      "type": "Event",
+      "name": "한밭수목원 봄꽃전시회",
+      "properties": { "end_date": "2026-05-25", "d_day": "D-4" },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-044",
+      "type": "Event",
+      "name": "부모특강 '아이들은 놀기 위해 세상에 온다'",
+      "properties": { "date": "2026-05-23", "registration_deadline": "2026-05-22", "d_day_deadline": "D-1" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "properties": { "start_date": "2026-05-23", "end_date": "2026-05-31", "d_day": "D-2" },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-org-006",
+      "predicate": "operates",
+      "object": "ent-venue-005",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-org-006",
+      "predicate": "operates",
+      "object": "ent-venue-026",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "contributedTo",
+      "object": "milestone-3600만",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 0,
+    "matched_entities": 7,
+    "total_relations": 3
+  }
+}
