@@ -991,3 +991,40 @@
 - **신뢰도:** 0.95
 - **상태:** 확정
 - **비고:** 아가랑도서관 부모특강 접수 마감 **내일(5/22)**. D-2→D-1 최긴급 진입. 잔여 19명(어제 기준). 오늘 중 신청 강력 권고.
+
+## 2026-05-22 추론 결과
+
+### 추론 #1: registration_deadline_urgency (부모특강 D-day)
+- **입력:** (ent-evt-044 registration_deadline 2026-05-22), (today 2026-05-22), remaining_days=0
+- **추론:** (ent-evt-044 urgencyBoost +0.4)
+- **신뢰도:** 0.98
+- **상태:** 확정
+- **비고:** 아가랑도서관 부모특강 접수 마감 **오늘(5/22 D-day)**. D-1→D-day 전환. 잔여 19명(어제 기준). 오늘이 마지막 신청 기회.
+
+### 추론 #2: anchor_distance_priority (한밭수목원 D-3 가산)
+- **입력:** (ent-evt-034 end_date 2026-05-25), (today 2026-05-22), remaining_days=3
+- **추론:** (ent-evt-034 urgencyBoost +0.2)
+- **신뢰도:** 0.92
+- **상태:** 확정
+- **비고:** 한밭수목원 봄꽃전시회 D-4→D-3. 이번 주말(토·일)이 마지막 관람 기회. 12+ 매체 보도 달성.
+
+### 추론 #3: operator_kid_friendliness (브릭파티 가산)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-027 hostsAt ent-venue-005)
+- **추론:** (ent-evt-027 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관(과학관) 주최 → 어린이 친화도 자동 가산. 과기정통부 보도자료로 체험형 프로그램 강화 확인.
+
+### 추론 #4: same_dong_combo (브릭파티+피직스랩 콤보)
+- **입력:** (ent-evt-027 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-027 visitCombo ent-evt-041)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 내일(5/23) 브릭파티 개막일 + 피직스랩 상시 → 도룡동 종일 과학체험 콤보. D-1 개막 임박으로 신뢰도 상향.
+
+### 추론 #5: same_dong_combo (블록코딩+피직스랩 콤보 유지)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-042 visitCombo ent-evt-041)
+- **신뢰도:** 0.90
+- **상태:** 확정 (유지)
+- **비고:** 블록코딩(5/23~24) + 피직스랩 → 도룡동 교육+체험 연계. D-1 개막 임박.

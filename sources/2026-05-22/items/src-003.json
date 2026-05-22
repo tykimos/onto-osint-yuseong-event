@@ -1,0 +1,18 @@
+{
+  "id": "src-003",
+  "title": "한밭수목원 봄꽃전시회 D-3 (5/25 종료) — 이번 주말 마지막 관람",
+  "url": "https://daejeontour.co.kr/festival_djt/35",
+  "snippet": "한밭수목원 봄꽃 전시회 5/25 종료(D-3). 이번 주말(토·일)이 마지막 관람 기회. 작약·장미·해당화 만개기. 총 12+ 매체 보도.",
+  "source_name": "대전관광공사",
+  "language": "ko",
+  "discovered_date": "2026-05-22",
+  "tag": "update",
+  "related_report": "2026-05-21",
+  "related_item": "2026-05-21/src-002",
+  "tag_reason": "D-4→D-3 카운트다운 전환. 이번 주말 마지막 관람 기회 강조.",
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회", "role": "대상행사" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원", "role": "장소" }
+  ],
+  "relations": []
+}

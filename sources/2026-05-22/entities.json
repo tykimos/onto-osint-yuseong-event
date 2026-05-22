@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-22",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Activity",
+      "name": "브릭작가 해설 프로그램",
+      "properties": {
+        "category": "해설·체험",
+        "description": "12명의 브릭 작가가 직접 관람객을 만나 작품 속 과학 원리와 제작 과정을 소개하는 해설 프로그램",
+        "participant_count": 12,
+        "target_age": "전연령가족",
+        "kid_friendly_score": 0.80,
+        "event_parent": "ent-evt-027"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "properties": {
+        "status_update": "D-1 (내일 5/23 개막)",
+        "theme": "Build Together! Build Science! Rebuild the Future!",
+        "new_programs": ["블록코딩 기반 과학원리 클래스", "브릭 업사이클링 클래스", "12명 브릭작가 해설"],
+        "exhibits": ["경복궁 경회루 브릭", "한양도성전도 브릭", "거북선 가습기 브릭"],
+        "media_count": "3+ (전자신문·정필·시사일보)"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-044",
+      "type": "Event",
+      "name": "아이들은 놀기 위해 세상에 온다 (부모특강)",
+      "properties": {
+        "status_update": "접수 마감 D-day (오늘 5/22 마감)",
+        "capacity": 35,
+        "registered": 16,
+        "remaining": 19,
+        "registration_deadline": "2026-05-22"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-034",
+      "type": "Event",
+      "name": "2026 한밭수목원 봄꽃 전시회",
+      "properties": {
+        "status_update": "D-3 (5/25 종료), 이번 주말 마지막 관람",
+        "media_count": "12+"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-045",
+      "type": "Event",
+      "name": "함께 만드는 우리의 세계 (공익 숏폼 영상 제작)",
+      "properties": {
+        "status_update": "접수 마감 D-6 (5/28)"
+      },
+      "source_ids": ["src-010"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-027",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "featuresActivity",
+      "object": "ent-evt-027",
+      "source_ids": ["src-001"],
+      "confidence": 0.90
+    }
+  ],
+  "stats": {
+    "total_entities": 5,
+    "new_entities": 1,
+    "matched_entities": 4,
+    "total_relations": 3
+  }
+}

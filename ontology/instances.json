@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-22",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -229,5 +229,15 @@
     { "id": "ent-evt-034", "update": "D-4 (5/25 종료), 마지막 주 진행중 — 이번 주말 마지막 관람" },
     { "id": "ent-evt-044", "update": "접수 마감 D-1 최긴급 (내일 5/22 마감), 잔여 19명(어제 기준)" },
     { "id": "ent-evt-027", "update": "D-2 (5/23 개막, 모레), 블록코딩·피직스랩 동일일 콤보" }
+  ],
+  "new_entities_2026_05_22": [
+    { "id": "ent-act-026", "type": "Activity", "name": "브릭작가 해설 프로그램", "properties": { "category": "해설·체험", "description": "12명의 브릭 작가가 직접 관람객을 만나 작품 속 과학 원리와 제작 과정을 소개", "participant_count": 12, "target_age": "전연령가족", "kid_friendly_score": 0.80, "event_parent": "ent-evt-027" }, "first_seen": "2026-05-22", "last_seen": "2026-05-22", "mention_count": 3 }
+  ],
+  "updates_2026_05_22": [
+    { "id": "ent-evt-027", "update": "D-1 내일 개막. 과기정통부 보도자료 3+ 매체(전자신문·정필·시사일보). 공식테마 'Build Together! Build Science! Rebuild the Future!' 확인. 블록코딩·업사이클링 클래스 신규 도입, 12명 브릭작가 해설, 전통과학 브릭(경복궁 경회루·한양도성전도·거북선 가습기) 전시 확인." },
+    { "id": "ent-evt-044", "update": "접수 마감 D-day (오늘 5/22 마감). 어제 기준 잔여 19명. 오늘 중 신청 마감." },
+    { "id": "ent-evt-034", "update": "D-3 (5/25 종료). 이번 주말(토·일)이 마지막 관람 기회." },
+    { "id": "ent-evt-045", "update": "접수 마감 D-6 (5/28)." },
+    { "id": "ent-evt-028", "update": "D-8 (5/30~31). 변동 없음." }
   ]
 }

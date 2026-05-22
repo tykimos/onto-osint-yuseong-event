@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-22",
+  "new_triples": [
+    { "subject": "ent-act-026", "predicate": "featuresActivity", "object": "ent-evt-027", "type": "explicit", "confidence": 0.90, "added": "2026-05-22", "note": "브릭작가 해설 프로그램: 12명 브릭작가가 관람객에게 작품 속 과학원리·제작과정 해설" },
+    { "subject": "ent-evt-027", "predicate": "theme", "object": "Build Together! Build Science! Rebuild the Future!", "type": "explicit", "confidence": 0.95, "added": "2026-05-22", "note": "과기정통부 보도자료(전자신문·정필·시사일보 3+ 매체)로 공식 테마 확인" },
+    { "subject": "ent-evt-027", "predicate": "exhibit_highlights", "object": "경복궁경회루·한양도성전도·거북선가습기 브릭작품", "type": "explicit", "confidence": 0.95, "added": "2026-05-22", "note": "전통 과학기술 브릭 재해석 작품" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-1 내일 개막", "type": "explicit", "confidence": 0.99, "added": "2026-05-22", "previous": "D-2 개막 임박" },
+    { "subject": "ent-evt-044", "predicate": "status", "object": "접수마감 D-day (오늘 마감)", "type": "explicit", "confidence": 0.99, "added": "2026-05-22", "previous": "접수마감 D-1 최긴급" },
+    { "subject": "ent-evt-034", "predicate": "status", "object": "D-3 마지막 주말", "type": "explicit", "confidence": 0.99, "added": "2026-05-22", "previous": "D-4 마지막 주" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-8", "type": "explicit", "confidence": 0.99, "added": "2026-05-22", "previous": "D-9" },
+    { "subject": "ent-evt-045", "predicate": "status", "object": "접수마감 D-6 (5/28)", "type": "explicit", "confidence": 0.99, "added": "2026-05-22", "previous": "접수마감 D-7" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.90, "rule": "same_dong_combo", "note": "내일(5/23) 브릭파티 개막 + 피직스랩 상시 → 도룡동 종일 콤보 확정" },
+    { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.90, "rule": "same_dong_combo", "note": "블록코딩(5/23~24) + 피직스랩 → 도룡동 교육+체험 콤보 유지" },
+    { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "rule": "operator_kid_friendliness", "note": "국립중앙과학관(과학관) 주최 → 어린이친화도 가산" },
+    { "subject": "ent-evt-044", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "rule": "registration_deadline_urgency", "note": "접수 마감 D-day, 최고 긴급도" },
+    { "subject": "ent-evt-034", "predicate": "urgencyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.92, "rule": "anchor_distance_priority", "note": "D-3 마지막 주말, 12+ 매체 관심" }
+  ],
+  "stats": {
+    "new_nodes": 1,
+    "new_edges": 3,
+    "inferred_edges": 5
+  }
+}

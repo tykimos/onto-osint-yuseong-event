@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-22",
   "classes": [
     {
       "id": "Entity",
@@ -300,6 +300,13 @@
       "target": "Organization(ent-org-006 국립중앙과학관 3600만 관람객 달성 속성 추가), Event(ent-evt-034 D-4), Event(ent-evt-044 D-1 최긴급), Event(ent-evt-027 D-2)",
       "reason": "국립중앙과학관 누적 관람객 3600만 돌파(5/17) 7개 매체 교차확인 — 신규 이벤트는 아니지만 과학관 권역 집객력 입증 맥락 뉴스로 속성 추가. 부모특강 접수 마감 D-1 최긴급 진입. 한밭수목원 D-4, 브릭파티 D-2 카운트다운.",
       "source_ids": ["src-001", "src-002", "src-003", "src-004"]
+    },
+    {
+      "date": "2026-05-22",
+      "action": "add_instances",
+      "target": "Activity(ent-act-026 브릭작가 해설 프로그램)",
+      "reason": "과기정통부 보도자료(전자신문·정필·시사일보 3+ 매체)로 브릭파티 D-1 프로그램 상세 최초 공개. 12명 브릭작가 해설 프로그램 신규 확인. 블록코딩·업사이클링 클래스 도입, 전통과학 브릭작품(경복궁 경회루·한양도성전도·거북선 가습기) 전시 확인. 부모특강 D-day 마감, 한밭수목원 D-3 마지막 주말, 숏폼 D-6 상태 업데이트.",
+      "source_ids": ["src-001", "src-002", "src-003", "src-010"]
     }
   ]
 }

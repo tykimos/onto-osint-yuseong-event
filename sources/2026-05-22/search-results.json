@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-22",
+  "collected_at": "2026-05-22T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": [
+    "사이언스 브릭파티",
+    "공룡덕후박람회",
+    "한밭수목원 봄꽃",
+    "열한번째 트윙클",
+    "피직스랩",
+    "아가랑도서관 부모특강",
+    "K-도서관 이용자교육"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:01:00+09:00",
+      "result_count": 9,
+      "results": [
+        { "title": "유성구, 어린이날 맞아 가족형 축제 '어린이 한마당' 개최", "url": "http://www.civilreporter.co.kr/news/articleView.html?idxno=537479", "snippet": "유성구 어린이 한마당 5/5 개최 보도", "source_name": "한국시민기자협회" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 브릭파티 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:02:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "과기정통부 국립중앙과학관, 브릭으로 과학을 만들고 미래를 상상하다! '2026 사이언스 브릭파티' 개최", "url": "https://www.jeongpil.com/2537104", "snippet": "국립중앙과학관 5/23~31 브릭파티 상세 프로그램 공개. Build Together! Build Science! Rebuild the Future! 블록코딩·업사이클링 클래스 신규 도입, 12명 브릭작가 해설.", "source_name": "정필" },
+        { "title": "과기정통부 국립중앙과학관, 브릭으로 과학을 만들고 미래를 상상하다! '2026 사이언스 브릭파티' 개최", "url": "http://www.koreasisailbo.com/2255066", "snippet": "브릭파티 과기정통부 보도자료 기반 보도", "source_name": "시사일보" },
+        { "title": "브릭으로 만나는 과학기술…국립중앙과학관 '사이언스 브릭파티' 개최", "url": "https://www.etnews.com/20260521000123", "snippet": "전자신문 보도. 경복궁 경회루·한양도성전도·거북선 가습기 등 전통과학 브릭작품. 블록코딩 기반 과학원리 및 브릭 업사이클링 클래스 신규 도입.", "source_name": "전자신문" },
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "5/30~31 공룡덕후박람회 참가안내 공식 게시물", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "snippet": "공룡덕후박람회 행사안내 공식 게시물", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 팝업 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:03:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 도서관 프로그램 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:04:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관 행사신청", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "K-도서관 5월 이용자교육(5/30 진잠분관), 부모특강(5/23), 숏폼클래스(6/4~) 등", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "한밭수목원 봄꽃 전시회 2026 마지막 주",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:05:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "2026 한밭수목원 봄꽃 전시회", "url": "https://daejeontour.co.kr/festival_djt/35", "snippet": "5/8~25 한밭수목원 봄꽃 전시회, 작약·으아리·장미·해당화", "source_name": "대전관광공사" },
+        { "title": "대전 한밭수목원, 25일까지 봄꽃 전시회", "url": "https://www.news1.kr/local/daejeon-chungnam/6161639", "snippet": "한밭수목원 봄꽃전시회 D-3", "source_name": "뉴스1" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "공룡덕후박람회 국립중앙과학관 2026 5월 30",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:06:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "국립중앙과학관 세계 공룡의 날맞아 '공룡덕후 박람회' 연다", "url": "https://www.kidshankook.kr/news/articleView.html?idxno=13845", "snippet": "5/30~31 공룡덕후박람회 무료, 사전예약 불필요", "source_name": "소년한국일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 원데이클래스 키즈카페 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:07:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전점 | 너티차일드 프리미엄 키즈 테마파크", "url": "https://www.naughtychild.co.kr/daejeon", "snippet": "유성구 도룡동 키즈 테마파크 상시 운영", "source_name": "너티차일드" },
+        { "title": "대전원데이클래스, 구암평생학습센터의 인기 수업 '클래스 124'", "url": "https://www.welfarehello.com/community/hometownNews/f0aae93d-453b-4c74-b0a3-30a97915036f", "snippet": "구암평생학습센터 클래스124 5~8월 16주 과정", "source_name": "복지로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 용산동 전민동 관평동 행사 축제 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:08:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "사이언스 브릭파티 2026 블록코딩 전통과학 프로그램 상세",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:09:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 운석전시 기상기후사진전 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:10:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대, '운석전시' 등 특별전시 연다", "url": "https://www.sedaily.com/article/20042838", "snippet": "운석전시+기상기후사진전 ~5/31 무료", "source_name": "서울경제" },
+        { "title": "대전시민천문대, 가정의 달 5월 특별전시 개최", "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/", "snippet": "천문대 가정의달 특별전시 2건 안내", "source_name": "더에스엔에스타임" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 열한번째 트윙클 어린이미술 2026",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:11:00+09:00",
+      "result_count": 8,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클'개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "3/18~6/21 체험형 어린이 미술전시", "source_name": "더에스엔에스타임" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 K-도서관 이용자교육 2026 5월",
+      "language": "ko",
+      "timestamp": "2026-05-22T07:12:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구통합도서관 행사신청", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "K-도서관 5월 이용자교육 5/30 진잠분관, 접수 2명(5/13~5/27)", "source_name": "유성구통합도서관" }
+      ]
+    }
+  ]
+}

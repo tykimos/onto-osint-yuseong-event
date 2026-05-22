@@ -1,0 +1,29 @@
+{
+  "id": "src-001",
+  "title": "사이언스 브릭파티 D-1 — 과기정통부 보도자료로 상세 프로그램 최초 공개",
+  "url": "https://www.etnews.com/20260521000123",
+  "snippet": "국립중앙과학관은 5월 23일부터 31일까지 한국과학기술사관 및 세미나실에서 '2026 사이언스 브릭파티'를 개최한다. 'Build Together! Build Science! Rebuild the Future!'를 주제로 전통 과학기술부터 현대에 이르기까지 다양한 과학문화 콘텐츠를 브릭으로 조명한다. 블록 코딩 기반 과학원리 및 브릭 업사이클링 클래스를 새롭게 도입해 체험 중심 프로그램을 강화했다. 12명의 브릭 작가가 직접 관람객을 만나 작품 속 과학 원리와 제작 과정을 소개하는 해설 프로그램도 운영된다. 경복궁 경회루, 한양도성전도, 거북선 가습기 등 우리나라 전통 과학기술을 브릭으로 재해석한 작품이 전시된다.",
+  "source_name": "전자신문",
+  "language": "ko",
+  "discovered_date": "2026-05-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "사이언스 브릭파티(ent-evt-027)는 기존 추적 항목이지만, 과기정통부 보도자료 기반으로 프로그램 상세가 최초 공개된 신규 보도. 블록코딩·업사이클링 클래스 신규 도입, 12명 브릭작가 해설, 전통과학 브릭작품(경복궁 경회루·한양도성전도·거북선 가습기) 등 기존에 없던 구체적 프로그램 정보 다수 포함.",
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "role": "대상행사" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부", "role": "보도자료 발행" },
+    { "id": "ent-evt-042", "type": "Event", "name": "블록 코딩 전통과학기술 클래스", "role": "연계프로그램" },
+    { "id": "temp-001", "type": "Activity", "name": "브릭작가 해설 프로그램", "role": "신규 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-027", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "ent-evt-042", "predicate": "partOfSeries", "object": "ent-evt-027" },
+    { "subject": "temp-001", "predicate": "featuresActivity", "object": "ent-evt-027" }
+  ],
+  "cross_references": [
+    { "url": "https://www.jeongpil.com/2537104", "source_name": "정필" },
+    { "url": "http://www.koreasisailbo.com/2255066", "source_name": "시사일보" }
+  ]
+}

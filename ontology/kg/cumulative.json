@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-22",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1626,9 +1626,22 @@
     { "subject": "ent-evt-028", "predicate": "status", "object": "D-9", "type": "explicit", "confidence": 0.99, "added": "2026-05-21" },
     { "subject": "ent-evt-044", "predicate": "urgencyBoost", "object": "+0.3", "type": "inferred", "confidence": 0.95, "added": "2026-05-21", "rule": "registration_deadline_urgency", "note": "접수 마감 D-1 최긴급, 잔여 19명" }
   ],
+  "edges_added_2026_05_22": [
+    { "subject": "ent-act-026", "predicate": "featuresActivity", "object": "ent-evt-027", "type": "explicit", "confidence": 0.90, "added": "2026-05-22", "note": "브릭작가 해설 프로그램: 12명 브릭작가 관람객 해설" },
+    { "subject": "ent-evt-027", "predicate": "theme", "object": "Build Together! Build Science! Rebuild the Future!", "type": "explicit", "confidence": 0.95, "added": "2026-05-22", "note": "과기정통부 보도자료 공식 테마" },
+    { "subject": "ent-evt-027", "predicate": "exhibit_highlights", "object": "경복궁경회루·한양도성전도·거북선가습기 브릭작품", "type": "explicit", "confidence": 0.95, "added": "2026-05-22" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-1 내일 개막", "type": "explicit", "confidence": 0.99, "added": "2026-05-22" },
+    { "subject": "ent-evt-044", "predicate": "status", "object": "접수마감 D-day (오늘 마감)", "type": "explicit", "confidence": 0.99, "added": "2026-05-22" },
+    { "subject": "ent-evt-034", "predicate": "status", "object": "D-3 마지막 주말", "type": "explicit", "confidence": 0.99, "added": "2026-05-22" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-8", "type": "explicit", "confidence": 0.99, "added": "2026-05-22" },
+    { "subject": "ent-evt-045", "predicate": "status", "object": "접수마감 D-6 (5/28)", "type": "explicit", "confidence": 0.99, "added": "2026-05-22" },
+    { "subject": "ent-evt-044", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "added": "2026-05-22", "rule": "registration_deadline_urgency", "note": "접수 마감 D-day 최고 긴급도" },
+    { "subject": "ent-evt-034", "predicate": "urgencyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.92, "added": "2026-05-22", "rule": "anchor_distance_priority", "note": "D-3 마지막 주말" },
+    { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-22", "rule": "operator_kid_friendliness" }
+  ],
   "stats": {
-    "total_nodes": 132,
-    "total_edges": 122,
-    "total_triples": 334
+    "total_nodes": 133,
+    "total_edges": 133,
+    "total_triples": 345
   }
 }
