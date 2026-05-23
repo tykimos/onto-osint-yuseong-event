@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-23",
+  "total": 12,
+  "new": 0,
+  "reported": 9,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "사이언스 브릭파티 D-day 개막 (5/23~31) — 블록코딩·업사이클링·12명 작가 해설",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_report": "2026-05-22",
+      "entity_count": 4
+    },
+    {
+      "id": "src-002",
+      "title": "블록 코딩 전통과학기술 클래스 D-day 시작 (5/23~24)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-003",
+      "title": "아가랑도서관 부모특강 '아이들은 놀기 위해 세상에 온다' D-day 개최 (5/23 10:00)",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "update",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "한밭수목원 봄꽃전시회 D-2 (5/25 종료) — 이번 주말 마지막",
+      "url": "https://daejeontour.co.kr/festival_djt/35",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "공룡덕후박람회 D-7 (5/30~31) — 변동 없음",
+      "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "유성봄꽃전시회 (~5/31) 유림공원 — 변동 없음",
+      "url": "https://v.daum.net/v/20260503151008346",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "대전시립미술관 '열한번째 트윙클' (~6/21) — 변동 없음",
+      "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "대전시민천문대 운석전시+기상기후사진전 (~5/31) — 변동 없음",
+      "url": "https://www.sedaily.com/article/20042838",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "피직스랩 상시 체험 — 변동 없음",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "119시민체험센터 소방안전체험 — 상시 운영 (화~토), 변동 없음",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "진잠도서관 숏폼 클래스 (6/4~25) — 접수 마감 D-5 (5/28)",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "건축특강 '선넘는 높이' (5/30) — D-7",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_report": "2026-05-22",
+      "entity_count": 2
+    }
+  ]
+}

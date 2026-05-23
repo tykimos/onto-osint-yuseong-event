@@ -1,0 +1,23 @@
+{
+  "id": "src-001",
+  "title": "사이언스 브릭파티 D-day 개막 (5/23~31) — 블록코딩·업사이클링·12명 작가 해설",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 '2026 사이언스 브릭파티' 오늘(5/23) 개막. 한국과학기술사관·세미나실에서 5/31까지 9일간 운영. 블록코딩 기반 과학원리 클래스, 브릭 업사이클링 클래스, 12명 브릭작가 해설, 전통과학 브릭작품(경복궁 경회루·한양도성전도·거북선 가습기) 전시. 테마 'Build Together! Build Science! Rebuild the Future!'",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-23",
+  "tag": "update",
+  "related_report": "2026-05-22",
+  "related_item": "src-001 (2026-05-22)",
+  "tag_reason": "어제 D-1에서 오늘 D-day로 상태 전환. 개막일 도달. 프로그램 구성은 어제 보도와 동일.",
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부" },
+    { "id": "ent-act-026", "type": "Activity", "name": "브릭작가 해설 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-027", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

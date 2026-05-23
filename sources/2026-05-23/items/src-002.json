@@ -1,0 +1,20 @@
+{
+  "id": "src-002",
+  "title": "블록 코딩 전통과학기술 클래스 D-day 시작 (5/23~24)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "브릭파티 연계 블록코딩 기반 전통과학기술 클래스 오늘(5/23) 시작. 이틀간(5/23~24) 국립중앙과학관 세미나실에서 운영. 초등저학년·초등고학년 대상 체험 프로그램.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-23",
+  "tag": "update",
+  "related_report": "2026-05-22",
+  "related_item": "src-001 (2026-05-22)",
+  "tag_reason": "어제 D-1에서 오늘 D-day로 상태 전환. 블록코딩 클래스 시작일 도달.",
+  "entities": [
+    { "id": "ent-evt-042", "type": "Event", "name": "블록 코딩 전통과학기술 클래스" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-042", "predicate": "partOfSeries", "object": "ent-evt-027" }
+  ]
+}

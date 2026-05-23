@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-23",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1639,9 +1639,23 @@
     { "subject": "ent-evt-034", "predicate": "urgencyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.92, "added": "2026-05-22", "rule": "anchor_distance_priority", "note": "D-3 마지막 주말" },
     { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-22", "rule": "operator_kid_friendliness" }
   ],
+  "edges_added_2026_05_23": [
+    { "subject": "ent-evt-027", "predicate": "status", "object": "D-day 개막 (5/23~31)", "type": "explicit", "confidence": 0.98, "added": "2026-05-23", "note": "브릭파티 오늘 개막" },
+    { "subject": "ent-evt-042", "predicate": "status", "object": "D-day 시작 (5/23~24)", "type": "explicit", "confidence": 0.98, "added": "2026-05-23", "note": "블록코딩 클래스 오늘 시작" },
+    { "subject": "ent-evt-044", "predicate": "status", "object": "D-day 행사 당일 (5/23 10:00)", "type": "explicit", "confidence": 0.98, "added": "2026-05-23", "note": "부모특강 오늘 행사" },
+    { "subject": "ent-evt-034", "predicate": "status", "object": "D-2 종료 임박 (5/25)", "type": "explicit", "confidence": 0.99, "added": "2026-05-23" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-7 (5/30~31)", "type": "explicit", "confidence": 0.99, "added": "2026-05-23" },
+    { "subject": "ent-evt-043", "predicate": "status", "object": "D-7 (5/30)", "type": "explicit", "confidence": 0.99, "added": "2026-05-23" },
+    { "subject": "ent-evt-045", "predicate": "status", "object": "접수마감 D-5 (5/28)", "type": "explicit", "confidence": 0.99, "added": "2026-05-23" },
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.92, "added": "2026-05-23", "rule": "same_dong_combo", "note": "D-day 확정 0.90→0.92" },
+    { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.92, "added": "2026-05-23", "rule": "same_dong_combo", "note": "D-day 확정 0.90→0.92" },
+    { "subject": "ent-evt-044", "predicate": "crossDongCombo", "object": "ent-evt-027", "type": "inferred", "confidence": 0.80, "added": "2026-05-23", "rule": "same_date_cross_dong", "note": "전민동 오전→도룡동 오후 동선" },
+    { "subject": "ent-evt-043", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.85, "added": "2026-05-23", "rule": "same_dong_combo", "note": "유지" },
+    { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-23", "rule": "operator_kid_friendliness", "note": "유지" }
+  ],
   "stats": {
     "total_nodes": 133,
-    "total_edges": 133,
-    "total_triples": 345
+    "total_edges": 145,
+    "total_triples": 357
   }
 }

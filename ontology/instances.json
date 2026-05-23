@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-22",
+  "last_updated": "2026-05-23",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -239,5 +239,14 @@
     { "id": "ent-evt-034", "update": "D-3 (5/25 종료). 이번 주말(토·일)이 마지막 관람 기회." },
     { "id": "ent-evt-045", "update": "접수 마감 D-6 (5/28)." },
     { "id": "ent-evt-028", "update": "D-8 (5/30~31). 변동 없음." }
+  ],
+  "updates_2026_05_23": [
+    { "id": "ent-evt-027", "update": "D-day 개막 (오늘 5/23~5/31). 9일간 운영 시작. 블록코딩·업사이클링·12명 브릭작가 해설 프로그램 동시 개시. 이번 주말(5/24~25) 첫 주말." },
+    { "id": "ent-evt-042", "update": "D-day 시작 (오늘 5/23~24). 브릭파티 연계 2일간 블록코딩 클래스 운영 개시." },
+    { "id": "ent-evt-044", "update": "D-day 행사 당일 (오늘 5/23 10:00 아가랑도서관). 접수는 어제(5/22) 마감 완료. 35명 정원." },
+    { "id": "ent-evt-034", "update": "D-2 (5/25 종료). 내일(토)·모레(일) 2일만 남음. 작약·장미·해당화 만개." },
+    { "id": "ent-evt-028", "update": "D-7 (5/30~31). 변동 없음." },
+    { "id": "ent-evt-043", "update": "D-7 (5/30). 변동 없음." },
+    { "id": "ent-evt-045", "update": "접수 마감 D-5 (5/28)." }
   ]
 }

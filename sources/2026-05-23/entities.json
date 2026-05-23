@@ -1,0 +1,137 @@
+{
+  "date": "2026-05-23",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "properties": {
+        "status": "D-day 개막",
+        "start_date": "2026-05-23",
+        "end_date": "2026-05-31",
+        "venue": "국립중앙과학관 한국과학기술사관·세미나실",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "kid_friendly_score": 0.90,
+        "indoor_outdoor": "실내",
+        "fee": "미확인"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-042",
+      "type": "Event",
+      "name": "블록 코딩 전통과학기술 클래스",
+      "properties": {
+        "status": "D-day 시작",
+        "start_date": "2026-05-23",
+        "end_date": "2026-05-24",
+        "venue": "국립중앙과학관 세미나실",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "kid_friendly_score": 0.90,
+        "indoor_outdoor": "실내"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-044",
+      "type": "Event",
+      "name": "아이들은 놀기 위해 세상에 온다 (부모특강)",
+      "properties": {
+        "status": "D-day 행사 당일",
+        "start_date": "2026-05-23",
+        "start_time": "10:00",
+        "venue": "아가랑도서관",
+        "dong": "전민동",
+        "distance_from_anchor_m": 900,
+        "ring": "ring-stroll",
+        "kid_friendly_score": 0.75,
+        "indoor_outdoor": "실내",
+        "fee": "무료",
+        "capacity": 35,
+        "registration_deadline": "2026-05-22 (마감완료)"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-034",
+      "type": "Event",
+      "name": "2026 한밭수목원 봄꽃 전시회",
+      "properties": {
+        "status": "D-2 종료 임박",
+        "end_date": "2026-05-25",
+        "dong": "둔산동",
+        "kid_friendly_score": 0.65,
+        "media_count": 12
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "status": "D-7",
+        "start_date": "2026-05-30",
+        "end_date": "2026-05-31",
+        "dong": "도룡동",
+        "kid_friendly_score": 0.90
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-045",
+      "type": "Event",
+      "name": "함께 만드는 우리의 세계 (숏폼 클래스)",
+      "properties": {
+        "status": "접수 마감 D-5 (5/28)",
+        "start_date": "2026-06-04",
+        "end_date": "2026-06-25",
+        "registration_deadline": "2026-05-28",
+        "dong": "진잠동"
+      },
+      "source_ids": ["src-011"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-043",
+      "type": "Event",
+      "name": "시리즈 1: 선넘는 높이 건축 특별강연",
+      "properties": {
+        "status": "D-7",
+        "start_date": "2026-05-30",
+        "dong": "도룡동"
+      },
+      "source_ids": ["src-012"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-027", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "ent-evt-042", "predicate": "partOfSeries", "object": "ent-evt-027", "source_ids": ["src-002"], "confidence": 0.90 },
+    { "subject": "ent-evt-044", "predicate": "hostsAt", "object": "ent-venue-016", "source_ids": ["src-003"], "confidence": 0.90 },
+    { "subject": "ent-evt-044", "predicate": "organizedBy", "object": "ent-org-004", "source_ids": ["src-003"], "confidence": 0.90 }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 0,
+    "matched_entities": 7,
+    "total_relations": 5
+  }
+}

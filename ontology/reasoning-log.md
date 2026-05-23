@@ -1028,3 +1028,39 @@
 - **신뢰도:** 0.90
 - **상태:** 확정 (유지)
 - **비고:** 블록코딩(5/23~24) + 피직스랩 → 도룡동 교육+체험 연계. D-1 개막 임박.
+
+## 2026-05-23 추론 결과
+
+### 추론 #1: same_dong_combo (브릭파티+피직스랩 D-day 확정)
+- **입력:** (ent-evt-027 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong), (ent-evt-027 status D-day)
+- **추론:** (ent-evt-027 visitCombo ent-evt-041)
+- **신뢰도:** 0.92
+- **상태:** 확정
+- **비고:** 브릭파티 D-day 개막 + 피직스랩 상시 → 도룡동 종일 과학체험 콤보 오늘부터 실제 동시 방문 가능. D-1→D-day 신뢰도 상향.
+
+### 추론 #2: same_dong_combo (블록코딩+피직스랩 D-day 확정)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong), (ent-evt-042 status D-day)
+- **추론:** (ent-evt-042 visitCombo ent-evt-041)
+- **신뢰도:** 0.92
+- **상태:** 확정
+- **비고:** 블록코딩 오늘~내일(5/23~24) + 피직스랩 → 세미나실에서 체험관으로 이동, 과학 체험 연계.
+
+### 추론 #3: same_date_cross_dong (부모특강+브릭파티 크로스동 콤보)
+- **입력:** (ent-evt-044 date 2026-05-23), (ent-evt-027 date 2026-05-23), (ent-venue-016 locatedIn dong-jeonmin), (ent-venue-005 locatedIn dong-doryong)
+- **추론:** (ent-evt-044 crossDongCombo ent-evt-027)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 부모특강(전민동 10:00 오전) → 브릭파티(도룡동 오후) 동일일 크로스동 동선. 전민동→도룡동 차량 15분. 오전 교육 후 오후 가족 체험으로 연계 가능.
+
+### 추론 #4: same_dong_combo (건축특강+공룡덕후 유지)
+- **입력:** (ent-evt-043 hostsAt ent-venue-005), (ent-evt-028 hostsAt ent-venue-005), (ent-venue-005 locatedIn dong-doryong), (ent-evt-043 date 2026-05-30), (ent-evt-028 date 2026-05-30)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지)
+- **비고:** 5/30 동일일 동일장소 연계. D-7.
+
+### 추론 #5: operator_kid_friendliness (브릭파티 가산 유지)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-027 hostsAt ent-venue-005)
+- **추론:** (ent-evt-027 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정 (유지)

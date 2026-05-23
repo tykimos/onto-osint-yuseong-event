@@ -1,0 +1,89 @@
+{
+  "date": "2026-05-23",
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "status",
+      "object": "D-day 개막 (5/23~31)",
+      "source_id": "src-001",
+      "date": "2026-05-23",
+      "confidence": 0.98,
+      "type": "explicit",
+      "previous_value": "D-1 내일 개막"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "status",
+      "object": "D-day 시작 (5/23~24)",
+      "source_id": "src-002",
+      "date": "2026-05-23",
+      "confidence": 0.98,
+      "type": "explicit",
+      "previous_value": "D-1"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "status",
+      "object": "D-day 행사 당일 (5/23 10:00)",
+      "source_id": "src-003",
+      "date": "2026-05-23",
+      "confidence": 0.98,
+      "type": "explicit",
+      "previous_value": "접수 마감 D-day"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.92,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "브릭파티 개막 + 피직스랩 상시 = 도룡동 종일 콤보 확정 (오늘부터 실제 동시 방문 가능)"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.92,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "블록코딩(오늘~내일) + 피직스랩 = 도룡동 세미나실→과학기술관 연계"
+    },
+    {
+      "subject": "ent-evt-044",
+      "predicate": "crossDongCombo",
+      "object": "ent-evt-027",
+      "confidence": 0.80,
+      "type": "inferred",
+      "rule": "same_date_cross_dong",
+      "note": "부모특강(전민동 10:00) → 브릭파티(도룡동 오후) 동일일 크로스동 콤보"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "건축특강(5/30) + 공룡덕후(5/30~31) = 도룡동 동일일 연계 (유지)"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.90,
+      "type": "inferred",
+      "rule": "operator_kid_friendliness",
+      "note": "과학관 운영 프로그램 어린이 친화도 가산 (유지)"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 0,
+    "updated_edges": 3,
+    "inferred_edges": 5
+  }
+}
