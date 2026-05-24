@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-24",
+  "diff_type": "incremental",
+  "changes": {
+    "added_to_active": [],
+    "moved_to_recent": [],
+    "moved_to_archived": [],
+    "manual_seeds_resolved": [
+      { "seed_name": "엉클부대찌개 테크노점 (관평동)", "new_status": "resolved_not_new" },
+      { "seed_name": "인터뷰커피라운지 (도룡동)", "new_status": "resolved_not_new" },
+      { "seed_name": "유성닭발 관평점 (관평동)", "new_status": "excluded" }
+    ],
+    "reconfirmed": [
+      { "shop_id": "shop-popup-movementlab-001", "last_verified": "2026-05-24" },
+      { "shop_id": "shop-popup-hunter-002", "last_verified": "2026-05-24" }
+    ]
+  },
+  "net_active_change": 0,
+  "notes": "active_shops 2건 유지 (무브먼트랩·헌터 팝업). manual_seeds 3건 처리 완료."
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-24",
+  "scout_ran_at": "2026-05-24T01:30:00+09:00",
+  "candidates": [],
+  "reconfirmed": [
+    {
+      "shop_id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "status": "active",
+      "last_verified": "2026-05-24",
+      "notes": "팝업 운영 확인 (~5/31)"
+    },
+    {
+      "shop_id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "status": "active",
+      "last_verified": "2026-05-24",
+      "notes": "팝업 운영 확인 (~5/31)"
+    }
+  ],
+  "manual_seeds_processed": [
+    {
+      "seed_name": "엉클부대찌개 테크노점 (관평동)",
+      "result": "resolved_not_new",
+      "opened_date_estimated": "2025-11-01",
+      "in_50_day_window": false
+    },
+    {
+      "seed_name": "인터뷰커피라운지 (도룡동)",
+      "result": "resolved_not_new",
+      "opened_date_estimated": "2024-07-01",
+      "in_50_day_window": false
+    },
+    {
+      "seed_name": "유성닭발 관평점 (관평동)",
+      "result": "excluded",
+      "exclusion_reason": "scope.exclude (주류 전문)"
+    }
+  ],
+  "discovery_queries_run": 18,
+  "new_shops_found": 0,
+  "notes": "50일 윈도우 내 신규 오픈 가게 미발견. 기존 팝업 2건 운영 확인."
+}

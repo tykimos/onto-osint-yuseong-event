@@ -1,0 +1,56 @@
+{
+  "audit_date": "2026-05-24",
+  "audited_at": "2026-05-24T07:15:00+09:00",
+  "report_path": "reports/2026/05/2026-05-24.md",
+  "roster_snapshot_date": "2026-05-24",
+  "summary": {
+    "critical": 2,
+    "warning": 1,
+    "info": 0,
+    "patches_applied": 3,
+    "active_shops_in_roster": 2,
+    "active_shops_mentioned_before_patch": 0,
+    "active_shops_mentioned_after_patch": 2,
+    "missing_active_shops": 0,
+    "category_coverage": {
+      "event": true,
+      "shop": true,
+      "public_institution": true
+    }
+  },
+  "findings": [
+    {
+      "severity": "CRITICAL",
+      "category": "missing_active_window",
+      "shop_id": "shop-popup-movementlab-001",
+      "shop_name": "무브먼트랩 팝업 IN 대전",
+      "detail": "active 가게 (윈도우 expires 2026-05-31)이 보고서에 0회 언급. 보고서가 '특이사항 없음'이라 선언했으나 active 가게 존재.",
+      "patched": true,
+      "patch_location": "신규 오픈 가게·팝업·프로모션 섹션 표 추가"
+    },
+    {
+      "severity": "CRITICAL",
+      "category": "missing_active_window",
+      "shop_id": "shop-popup-hunter-002",
+      "shop_name": "헌터 팝업 IN 대전",
+      "detail": "active 가게 (윈도우 expires 2026-05-31)이 보고서에 0회 언급.",
+      "patched": true,
+      "patch_location": "신규 오픈 가게·팝업·프로모션 섹션 표 추가"
+    },
+    {
+      "severity": "WARNING",
+      "category": "manual_seed_invisibility",
+      "detail": "manual_seeds 3건 (resolved_not_new 2건, excluded 1건)의 처리 결과가 보고서에 표시되지 않음. 사용자 제보 피드백 누락.",
+      "patched": true,
+      "patch_location": "사용자 제보 처리 현황 서브섹션 추가"
+    }
+  ],
+  "post_patch_recheck": {
+    "performed": true,
+    "remaining_critical": 0,
+    "remaining_warning": 0,
+    "all_active_shops_visible": true,
+    "manual_seeds_visible": true,
+    "three_category_coverage": true
+  }
+}

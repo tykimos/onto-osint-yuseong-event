@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-24",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1651,11 +1651,16 @@
     { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.92, "added": "2026-05-23", "rule": "same_dong_combo", "note": "D-day 확정 0.90→0.92" },
     { "subject": "ent-evt-044", "predicate": "crossDongCombo", "object": "ent-evt-027", "type": "inferred", "confidence": 0.80, "added": "2026-05-23", "rule": "same_date_cross_dong", "note": "전민동 오전→도룡동 오후 동선" },
     { "subject": "ent-evt-043", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.85, "added": "2026-05-23", "rule": "same_dong_combo", "note": "유지" },
-    { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-23", "rule": "operator_kid_friendliness", "note": "유지" }
+    { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-23", "rule": "operator_kid_friendliness", "note": "유지" },
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.95, "added": "2026-05-24", "rule": "same_dong_combo", "note": "브릭파티 첫 주말 + 피직스랩 — 토요일 가산 0.92→0.95" },
+    { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.95, "added": "2026-05-24", "rule": "same_dong_combo", "note": "블록코딩 마지막날 + 피직스랩 — 마지막 콤보 기회 0.92→0.95" },
+    { "subject": "ent-evt-042", "predicate": "visitCombo", "object": "ent-evt-027", "type": "inferred", "confidence": 0.95, "added": "2026-05-24", "rule": "same_dong_combo", "note": "블록코딩 마지막날 + 브릭파티 Day 2 — 마지막 동시 운영일" },
+    { "subject": "ent-evt-043", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.85, "added": "2026-05-24", "rule": "same_dong_combo", "note": "건축특강 + 공룡덕후 5/30 유지" },
+    { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-24", "rule": "operator_kid_friendliness", "note": "유지" }
   ],
   "stats": {
     "total_nodes": 133,
     "total_edges": 145,
-    "total_triples": 357
+    "total_triples": 362
   }
 }
