@@ -15,7 +15,7 @@
 # validity_today: 2026-05-24 — 종료된 Event 인스턴스/관련 트리플 제외
 <#cumulative> a prov:Entity ;
   dct:date "2026-05-24"^^xsd:date ;
-  dct:modified "2026-05-23"^^xsd:date .
+  dct:modified "2026-05-24"^^xsd:date .
 
 # === Schema: classes ===
 yseo:Entity a owl:Class ;
