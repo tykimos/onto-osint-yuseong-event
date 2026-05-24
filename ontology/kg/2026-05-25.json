@@ -1,0 +1,120 @@
+{
+  "date": "2026-05-25",
+  "version": "1.0.0",
+  "description": "2026-05-25 일별 KG 스냅샷 — 일요일 최종일/전환 3건",
+  "new_nodes": [],
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "status",
+      "object": "D-day 최종일 (5/25 종료)",
+      "previous": "D-1 마지막 토요일",
+      "confidence": 1.0,
+      "source_ids": ["src-001"]
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "status",
+      "object": "Day 3 첫 주말 일요일",
+      "previous": "Day 2 첫 주말",
+      "confidence": 1.0,
+      "source_ids": ["src-002"]
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "status",
+      "object": "종료 (5/24 완료)",
+      "previous": "마지막날",
+      "confidence": 1.0,
+      "source_ids": ["src-003"]
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "status",
+      "object": "D-5",
+      "previous": "D-6",
+      "confidence": 1.0,
+      "source_ids": ["src-004"]
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "status",
+      "object": "D-5",
+      "previous": "D-6",
+      "confidence": 1.0,
+      "source_ids": ["src-005"]
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "registration_deadline_countdown",
+      "object": "D-3 (5/28)",
+      "previous": "D-4",
+      "confidence": 1.0,
+      "source_ids": ["src-011"]
+    },
+    {
+      "subject": "ent-evt-008",
+      "predicate": "registration_deadline_countdown",
+      "object": "D-3 (5/28)",
+      "previous": "D-4",
+      "confidence": 1.0,
+      "source_ids": ["src-012"]
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "reason": "브릭파티+피직스랩 일요일 주말 2종 콤보 — 블록코딩 종료로 축소"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "reason": "5/30 동일일 동일장소 유지"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.90,
+      "reason": "과학관 운영 프로그램 유지"
+    },
+    {
+      "subject": "ent-evt-034",
+      "predicate": "urgencyBoost",
+      "object": "+0.3",
+      "rule": "deadline_urgency",
+      "confidence": 1.0,
+      "reason": "D-day 최종일 — 오늘 놓치면 종료"
+    }
+  ],
+  "removed_triples": [
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "reason": "블록코딩 종료로 콤보 해제"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-027",
+      "reason": "블록코딩 종료로 콤보 해제"
+    }
+  ],
+  "summary": {
+    "new_nodes": 0,
+    "new_triples": 0,
+    "updated_triples": 7,
+    "inferred_triples": 4,
+    "removed_triples": 2
+  }
+}

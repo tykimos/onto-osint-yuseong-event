@@ -1,0 +1,21 @@
+{
+  "id": "src-001",
+  "title": "한밭수목원 봄꽃전시회 D-day 최종일 (5/25 종료)",
+  "url": "https://daejeontour.co.kr/festival_djt/35",
+  "tag": "update",
+  "tag_reason": "5/24 보고서 D-1에서 D-day 최종일로 전환. 오늘(5/25 일요일)이 마지막 관람일. 내일부터 전시 종료.",
+  "source_name": "대전관광공사",
+  "cross_refs": [
+    "https://www.news1.kr/local/daejeon-chungnam/6161639",
+    "https://biz.heraldcorp.com/article/10733502",
+    "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/"
+  ],
+  "media_count": 12,
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회", "role": "주체" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원", "role": "장소" },
+    { "id": "ent-org-001", "type": "Organization", "name": "대전광역시", "role": "주최" }
+  ],
+  "status_change": "D-1 → D-day 최종일",
+  "key_facts": "5/25 일요일 최종일. 05:00~21:00 운영. 작약·장미·해당화 만개. 핀스크린 체험·스탬프 투어·야간 조명 마지막."
+}

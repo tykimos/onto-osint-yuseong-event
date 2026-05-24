@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-25",
+  "agent": "shop-coverage-auditor",
+  "audit_time": "2026-05-25T07:15:00+09:00",
+  "checks": {
+    "active_shops_in_report": {
+      "status": "PASS",
+      "expected": 2,
+      "found": 2,
+      "details": [
+        { "shop_id": "shop-popup-movementlab-001", "name": "무브먼트랩 팝업 IN 대전", "in_report": true },
+        { "shop_id": "shop-popup-hunter-002", "name": "헌터 팝업 IN 대전", "in_report": true }
+      ]
+    },
+    "three_category_coverage": {
+      "status": "PASS",
+      "event": { "present": true, "count": 3, "note": "업데이트 3건 (한밭수목원·브릭파티·블록코딩)" },
+      "shop": { "present": true, "count": 2, "note": "활성 팝업 2건 의무 노출" },
+      "public_institution": { "present": true, "count": 1, "note": "119시민체험센터 일요일 휴무 명시" }
+    },
+    "manual_seeds_visibility": {
+      "status": "PASS",
+      "section_present": true,
+      "seeds_shown": 3,
+      "details": "resolved_not_new 2건 + excluded 1건 모두 표시"
+    }
+  },
+  "patches_applied": 0,
+  "critical_issues": 0,
+  "warnings": 0,
+  "result": "ALL PASS — 보고서가 모든 검증 기준을 충족. 패치 불필요."
+}

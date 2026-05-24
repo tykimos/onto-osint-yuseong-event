@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-25",
   "window_days": 50,
   "recent_window_days": 50,
   "_policy": "strict 50일 cap — opened_date+50일 경과 시 즉시 archived. recent 단계 없음. 보고서에 노출되는 것은 active_shops뿐.",
@@ -219,8 +219,8 @@
     }
   ],
   "_last_prune": {
-    "ran_on": "2026-05-24T03:10:27.673964+00:00",
-    "target_date": "2026-05-24",
+    "ran_on": "2026-05-24T23:00:02.472919+00:00",
+    "target_date": "2026-05-25",
     "moved_to_recent": [],
     "moved_to_archived": []
   }

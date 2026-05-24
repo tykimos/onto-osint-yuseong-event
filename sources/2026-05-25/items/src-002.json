@@ -1,0 +1,21 @@
+{
+  "id": "src-002",
+  "title": "사이언스 브릭파티 Day 3 — 첫 주말 일요일 (5/23~31)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "tag": "update",
+  "tag_reason": "Day 2 첫 주말 토요일에서 Day 3 첫 주말 일요일로 전환. 블록코딩 종료(어제)로 브릭파티+피직스랩 2종 콤보만 가능.",
+  "source_name": "국립중앙과학관",
+  "cross_refs": [
+    "https://www.jeongpil.com/2537104",
+    "https://www.etnews.com/20260521000123"
+  ],
+  "media_count": 6,
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "role": "주체" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "장소" },
+    { "id": "ent-act-026", "type": "Activity", "name": "브릭작가 해설 프로그램", "role": "하위활동" }
+  ],
+  "status_change": "Day 2 → Day 3 첫 주말 일요일",
+  "key_facts": "블록코딩 종료로 3종→2종 콤보 전환. 12명 브릭작가 해설·업사이클링 클래스 계속 운영. ~5/31."
+}

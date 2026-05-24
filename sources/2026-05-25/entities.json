@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-25",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-034",
+      "type": "Event",
+      "name": "2026 한밭수목원 봄꽃 전시회",
+      "update": "D-1→D-day 최종일 (5/25 오늘 종료). 12+ 매체 보도 유지. 05:00~21:00 마지막 운영.",
+      "status": "D-day 최종일",
+      "source_ids": ["src-001"]
+    },
+    {
+      "id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "update": "Day 2→Day 3 첫 주말 일요일. 블록코딩 종료로 2종 콤보(브릭파티+피직스랩)만 가능.",
+      "status": "Day 3 첫 주말 일요일",
+      "source_ids": ["src-002"]
+    },
+    {
+      "id": "ent-evt-042",
+      "type": "Event",
+      "name": "블록 코딩 전통과학기술 클래스",
+      "update": "마지막날→종료. 5/24 종료 확정.",
+      "status": "종료",
+      "source_ids": ["src-003"]
+    },
+    {
+      "id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "update": "D-6→D-5 (5/30~31). 변동 없음.",
+      "status": "D-5",
+      "source_ids": ["src-004"]
+    },
+    {
+      "id": "ent-evt-043",
+      "type": "Event",
+      "name": "시리즈 1: 선넘는 높이 건축 특별강연",
+      "update": "D-6→D-5 (5/30). 변동 없음.",
+      "status": "D-5",
+      "source_ids": ["src-005"]
+    },
+    {
+      "id": "ent-evt-045",
+      "type": "Event",
+      "name": "함께 만드는 우리의 세계 (공익 숏폼 영상 제작)",
+      "update": "접수 마감 D-4→D-3 (5/28). 10명 정원.",
+      "status": "접수 마감 D-3",
+      "source_ids": ["src-011"]
+    },
+    {
+      "id": "ent-evt-008",
+      "type": "Event",
+      "name": "2026 미래산업 진로탐색 독서아카데미",
+      "update": "접수 마감 D-4→D-3 (5/28). 전회(5/24) 기준 41/50명.",
+      "status": "접수 마감 D-3",
+      "source_ids": ["src-012"]
+    }
+  ],
+  "distance_estimates": [],
+  "kid_friendly_scores": [],
+  "total_new": 0,
+  "total_updated": 7
+}

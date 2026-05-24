@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-25",
+  "agent": "shop-scout",
+  "roster_read_from": "ontology/shop-roster.json",
+  "roster_already_pruned": true,
+  "prune_note": "shop_roster_prune.py가 사전 실행 완료. 2026-05-25 기준 active 2건 유지(무브먼트랩·헌터 팝업, popup_close_date 5/31 기준).",
+  "manual_seeds_processed": [],
+  "manual_seeds_note": "pending 상태 manual_seeds 0건 — 3건 모두 이전 사이클(5/24)에서 처리 완료 (resolved_not_new 2건, excluded 1건).",
+  "reverification": {
+    "checked": 2,
+    "results": [
+      {
+        "shop_id": "shop-popup-movementlab-001",
+        "name": "무브먼트랩 팝업 IN 대전",
+        "last_verified": "2026-05-24",
+        "days_since_verified": 1,
+        "action": "skip — 1일 전 검증, 7일 미경과"
+      },
+      {
+        "shop_id": "shop-popup-hunter-002",
+        "name": "헌터 팝업 IN 대전",
+        "last_verified": "2026-05-24",
+        "days_since_verified": 1,
+        "action": "skip — 1일 전 검증, 7일 미경과"
+      }
+    ]
+  },
+  "new_candidates": [],
+  "new_candidates_note": "12회 검색에서 50일 윈도우(2026-04-05~) 이내 신규 오픈 확인된 가게 0건. 용산동·전민동·관평동·문지동 지역 신규 오픈 정보 미발견.",
+  "summary": {
+    "active_shops_count": 2,
+    "new_discoveries": 0,
+    "pending_seeds": 0,
+    "reverifications_needed": 0
+  }
+}

@@ -1099,3 +1099,35 @@
 - **추론:** (ent-evt-027 kidFriendlyBoost +0.2)
 - **신뢰도:** 0.90
 - **상태:** 확정 (유지)
+
+## 2026-05-25 추론 결과
+
+### 추론 #1: same_dong_combo (브릭파티+피직스랩 2종 콤보)
+- **입력:** (ent-evt-027 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-027 visitCombo ent-evt-041)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 블록코딩 종료로 3종→2종 콤보 축소. 일요일 주말 가산.
+
+### 추론 #2: same_dong_combo (건축특강+공룡덕후 유지)
+- **입력:** (ent-evt-043 date 2026-05-30), (ent-evt-028 date 2026-05-30), (same venue)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지, D-5)
+
+### 추론 #3: operator_kid_friendliness (브릭파티 가산 유지)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관)
+- **추론:** (ent-evt-027 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정 (유지)
+
+### 추론 #4: deadline_urgency (한밭수목원 최종일)
+- **입력:** (ent-evt-034 end_date 2026-05-25), (today 2026-05-25)
+- **추론:** (ent-evt-034 urgencyBoost +0.3)
+- **신뢰도:** 1.0
+- **상태:** 확정
+- **비고:** D-day 최종일. 오늘 놓치면 종료. 보고서 최상위 배치.
+
+### 콤보 해제
+- (ent-evt-042 visitCombo ent-evt-041) — **제거**: 블록코딩 5/24 종료
+- (ent-evt-042 visitCombo ent-evt-027) — **제거**: 블록코딩 5/24 종료
