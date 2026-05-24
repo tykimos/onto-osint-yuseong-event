@@ -1,0 +1,18 @@
+{
+  "id": "src-002",
+  "title": "블록 코딩 전통과학기술 클래스 마지막날 (5/24)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "블록 코딩 전통과학기술 클래스 2일 과정 중 마지막날. 오늘이 마지막 참여 기회. 브릭파티 연계 프로그램.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-24",
+  "tag": "update",
+  "related_report": "2026-05-23",
+  "related_item": "src-002 (2026-05-23)",
+  "tag_reason": "블록코딩 클래스 D-day(어제 시작)에서 마지막날로 상태 전환. 오늘(5/24) 종료.",
+  "entities": [
+    { "id": "ent-evt-042", "type": "Event", "name": "블록 코딩 전통과학기술 클래스", "role": "주체" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "relations": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "한밭수목원 봄꽃전시회 D-1 (5/25 종료) — 마지막 주말 토요일",
+  "url": "https://daejeontour.co.kr/festival_djt/35",
+  "snippet": "한밭수목원 봄꽃전시회 D-1. 내일(5/25 일요일)이 최종일이므로 오늘(토)이 마지막 주말 관람일. 작약·장미·해당화 만개, 핀스크린 체험, 야간 조명(~21시).",
+  "source_name": "대전관광공사",
+  "language": "ko",
+  "discovered_date": "2026-05-24",
+  "tag": "update",
+  "related_report": "2026-05-23",
+  "related_item": "src-004 (2026-05-23)",
+  "tag_reason": "한밭수목원 D-2(어제)에서 D-1로 진입. 오늘(토)이 사실상 마지막 주말 관람일 — 내일(일) 최종일이나 토요일이 가족 방문에 더 적합.",
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "2026 한밭수목원 봄꽃 전시회", "role": "주체" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원", "role": "장소" },
+    { "id": "ent-act-025", "type": "Activity", "name": "핀스크린 체험", "role": "프로그램" }
+  ],
+  "relations": []
+}

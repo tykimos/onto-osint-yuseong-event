@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-24",
+  "new_triples": [],
+  "updated_triples": [],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.95,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "브릭파티 첫 주말 + 피직스랩 — 도룡동 종일 콤보 (전날 대비 신뢰도 상승: 주말이므로 실제 방문 확률 증가)"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.95,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "블록코딩 마지막날 + 피직스랩 — 마지막 콤보 기회"
+    },
+    {
+      "subject": "ent-evt-042",
+      "predicate": "visitCombo",
+      "object": "ent-evt-027",
+      "confidence": 0.95,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "블록코딩 마지막날 + 브릭파티 Day 2 — 연계 프로그램 마지막 동시 운영일"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "same_dong_combo",
+      "note": "건축특강 + 공룡덕후 5/30 동일일 콤보 (유지)"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.90,
+      "type": "inferred",
+      "rule": "operator_kid_friendliness",
+      "note": "과학관 운영 프로그램 (유지)"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 0,
+    "inferred_edges": 5
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-001",
+  "title": "사이언스 브릭파티 Day 2 — 첫 주말 토요일 (5/23~31)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "사이언스 브릭파티 2일차, 첫 주말 토요일. 블록코딩·업사이클링 클래스, 12명 브릭작가 해설 프로그램 계속 운영. 내일(5/25 일요일)까지 첫 주말 방문 가능.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-24",
+  "tag": "update",
+  "related_report": "2026-05-23",
+  "related_item": "src-001 (2026-05-23)",
+  "tag_reason": "브릭파티 D-day(어제 개막)에서 Day 2 첫 주말 토요일로 상태 전환. 프로그램 내용 변동 없으나 주말이므로 가족 방문 최적일.",
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "role": "주체" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "장소" },
+    { "id": "ent-act-026", "type": "Activity", "name": "브릭작가 해설 프로그램", "role": "프로그램" }
+  ],
+  "relations": []
+}

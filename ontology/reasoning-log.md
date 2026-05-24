@@ -1064,3 +1064,38 @@
 - **추론:** (ent-evt-027 kidFriendlyBoost +0.2)
 - **신뢰도:** 0.90
 - **상태:** 확정 (유지)
+
+## 2026-05-24 추론 결과
+
+### 추론 #1: same_dong_combo (브릭파티+피직스랩 주말 신뢰도 상승)
+- **입력:** (ent-evt-027 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong), (today = 토요일)
+- **추론:** (ent-evt-027 visitCombo ent-evt-041)
+- **신뢰도:** 0.95 (↑0.92→0.95, 주말 가산)
+- **상태:** 확정
+- **비고:** 토요일 첫 주말 — 가족 단위 실제 방문 확률이 평일 대비 높아 신뢰도 상향. 과학기술사관(브릭파티) → 과학기술관 1층(피직스랩) 도보 이동.
+
+### 추론 #2: same_dong_combo (블록코딩+피직스랩 마지막 콤보)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-evt-042 end_date 2026-05-24)
+- **추론:** (ent-evt-042 visitCombo ent-evt-041)
+- **신뢰도:** 0.95 (↑0.92→0.95, 마지막날 긴급도 가산)
+- **상태:** 확정
+- **비고:** 블록코딩 마지막날 + 피직스랩 — 이 조합의 마지막 기회.
+
+### 추론 #3: same_dong_combo (블록코딩+브릭파티 마지막 동시 운영)
+- **입력:** (ent-evt-042 hostsAt ent-venue-005), (ent-evt-027 hostsAt ent-venue-005), (ent-evt-042 end_date 2026-05-24)
+- **추론:** (ent-evt-042 visitCombo ent-evt-027)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 블록코딩(마지막날) + 브릭파티(Day 2) — 연계 프로그램이 동시에 운영되는 마지막 날.
+
+### 추론 #4: same_dong_combo (건축특강+공룡덕후 유지)
+- **입력:** (ent-evt-043 date 2026-05-30), (ent-evt-028 date 2026-05-30), (same venue)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지, D-6)
+
+### 추론 #5: operator_kid_friendliness (브릭파티 가산 유지)
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관)
+- **추론:** (ent-evt-027 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정 (유지)

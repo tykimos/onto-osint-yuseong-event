@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-24",
+  "collected_at": "2026-05-24T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": [
+    "사이언스 브릭파티",
+    "블록코딩 클래스",
+    "한밭수목원 봄꽃",
+    "공룡덕후박람회",
+    "피직스랩",
+    "열한번째 트윙클",
+    "유성봄꽃전시회",
+    "119시민체험센터",
+    "진잠도서관 숏폼"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월 24일",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:01:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 사이언스 브릭파티 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:02:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "행사 | 행사안내 — 국립중앙과학관", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "2026 사이언스 브릭파티 5/23~31 개최", "source_name": "국립중앙과학관" },
+        { "title": "과기정통부 국립중앙과학관, '2026 사이언스 브릭파티' 개최", "url": "https://www.jeongpil.com/2537104", "snippet": "브릭으로 과학을 만들고 미래를 상상하다", "source_name": "정필" },
+        { "title": "어렵고 복잡한 물리를 체험으로 즐긴다!", "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202601261104376837", "snippet": "피직스랩 개관 — 33종 체험형 물리 전시", "source_name": "YTN사이언스" },
+        { "title": "국립중앙과학관, 신규 물리체험 전시관 '피직스랩' 개관", "url": "https://www.news1.kr/local/daejeon-chungnam/6047996", "snippet": "과학기술관 1층 약 750㎡ 규모, 4개 존 33종", "source_name": "뉴스1" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:03:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "한밭수목원 봄꽃 전시회 2026 마지막",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:04:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "2026 한밭수목원 봄꽃 전시회 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/35", "snippet": "2026.5.8~5.25 한밭수목원 동원·서원 일원", "source_name": "대전관광공사" },
+        { "title": "대전 한밭수목원, 25일까지 봄꽃 전시회", "url": "https://www.news1.kr/local/daejeon-chungnam/6161639", "snippet": "25일까지 봄꽃 전시회 진행, 작약·장미 만개", "source_name": "뉴스1" },
+        { "title": "\"11만 7천 평 장미 터널이 무료라니\"… 작약 군락까지 품은 봄꽃 전시회", "url": "https://www.telltrip.com/domestic-travel/daejeon-hanbat-arboretum-spring-flower-exhibition/", "snippet": "대전 한밭수목원 봄꽃 전시회 관람 후기", "source_name": "텔트립" },
+        { "title": "대전시 한밭수목원, '2026 봄꽃 전시회' 개최", "url": "https://www.thesnstime.com/daejeonsi-5weole-ggocmajung-oseyo-hanbatsumogweon-2026-bomggoc-jeonsihoe-gaecoe/", "snippet": "50여 종 8만여 본 봄꽃 전시", "source_name": "더에스엔에스타임" },
+        { "title": "대전시 한밭수목원 봄꽃 전시회", "url": "https://www.dpi1004.com/14129", "snippet": "오전 5시~오후 9시 운영, 무료", "source_name": "장애인인식개선신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 공룡덕후박람회 2026년 5월 30일",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:05:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "5/30~31 국립중앙과학관 공룡덕후박람회", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "snippet": "공룡덕후박람회 상세 안내", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최", "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202505211112442017", "snippet": "공룡덕후 올림피아드·디노홀초대전 구성", "source_name": "YTN사이언스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 2026년 5월 접수",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:06:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "행사신청 — 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구통합도서관 프로그램 접수 페이지", "source_name": "유성구통합도서관" },
+        { "title": "[진잠] K-도서관 5월 이용자교육 (5/30)", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "접수현황 10/12명, 접수기간 5/15~5/29", "source_name": "유성구통합도서관" },
+        { "title": "[유성] 미래산업 진로탐색 독서아카데미", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "접수현황 41/50명, 접수기간 ~5/28", "source_name": "유성구통합도서관" },
+        { "title": "유성구, 지역작가와의 만남 '지역작가 인 도서관'", "url": "https://www.kodominnews.com/news/articleView.html?idxno=51411", "snippet": "유성구통합도서관 지역작가 프로그램", "source_name": "전국도민뉴스" },
+        { "title": "유성구통합도서관 메인", "url": "https://lib.yuseong.go.kr/web/index.do", "snippet": "유성구통합도서관 포털", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 열한번째 트윙클 2026",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:07:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클'개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "3/18~6/21 어린이 체험형 미술전", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클'", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1142790", "snippet": "미끄럼틀·섬유 촉각 체험형 전시", "source_name": "금강일보" },
+        { "title": "대전시립미술관 열한번째 트윙클", "url": "http://seoul.thesegye.com/news/view/1065599512998244", "snippet": "정승원·백인교 작가 참여", "source_name": "세계일보" },
+        { "title": "대전시립미술관 열한번째 트윙클 개최", "url": "https://www.jeongpil.com/2424799", "snippet": "어린이를 독립된 존재로 바라보는 전시", "source_name": "정필" },
+        { "title": "대전시립미술관 열한번째 트윙클 개최", "url": "https://www.koreaunionnews.com/2046689", "snippet": "트윙클은 감정 발생과 변화의 과정을 몸으로 느끼도록 제안", "source_name": "한국연합신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 2026년 5월 행사 전시",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:08:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대 별축제", "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44", "snippet": "별축제 5/4~5 종료, 운석전시·기상기후사진전 ~5/31", "source_name": "대전관광공사" },
+        { "title": "대전시민천문대 공식 사이트", "url": "https://djstar.kr/", "snippet": "대전시민천문대 프로그램 안내", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 보건소 복지관 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:09:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 주민자치 행정복지센터 행사 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:10:00+09:00",
+      "result_count": 0,
+      "results": []
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:11:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "대전 유성 유림공원에 8만 본 봄꽃…대형 꽃정원 펼쳐진다", "url": "https://www.timenews.co.kr/article/1697818", "snippet": "5/8~31 유림공원 50여종 8만본", "source_name": "타임뉴스" },
+        { "title": "대전 유림공원 봄꽃 전시회로 놀러오세요", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2272873", "snippet": "풍차 꽃 조형물, 라벤더 포토존", "source_name": "대전일보" },
+        { "title": "제5회 유성봄꽃전시회 > 축제.행사 | 대전관광", "url": "https://daejeontour.co.kr/festival_djt/33", "snippet": "유성봄꽃전시회 축제 안내", "source_name": "대전관광공사" },
+        { "title": "대전 유성구 유림공원 봄꽃나들이", "url": "https://www.welfarehello.com/community/hometownNews/faf70a22-9d1b-4b94-a6f2-72fa4d6d4654", "snippet": "유림공원 가족 나들이 후기", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "진잠도서관 숏폼 영상 클래스 2026 접수",
+      "language": "ko",
+      "timestamp": "2026-05-24T07:12:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "행사신청 — 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "진잠 K-도서관 숏폼 제작 참여자 모집, 접수 5/13~5/27", "source_name": "유성구통합도서관" },
+        { "title": "대전공공도서관", "url": "https://www.u-library.kr/", "snippet": "대전공공도서관 포털", "source_name": "대전공공도서관" }
+      ]
+    }
+  ]
+}

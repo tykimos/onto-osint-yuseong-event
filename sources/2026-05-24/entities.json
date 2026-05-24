@@ -1,0 +1,12 @@
+{
+  "date": "2026-05-24",
+  "entities": [],
+  "relations": [],
+  "stats": {
+    "total_entities": 0,
+    "new_entities": 0,
+    "matched_entities": 0,
+    "total_relations": 0
+  },
+  "notes": "금일 신규 엔티티 발견 없음. 기존 추적 항목의 D-day/카운트다운 상태 전환만 발생. 브릭파티 Day 2(첫 주말), 블록코딩 마지막날, 한밭수목원 D-1 마지막 토요일."
+}
