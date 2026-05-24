@@ -1,3 +1,6 @@
 .DS_Store
 .omc/
 ref/
+
+# shop-watch transient backups (prune script auto-generates these)
+*.bak

@@ -2,9 +2,8 @@ name: Daily OSINT Report
 
 on:
   schedule:
-    # config/osint-config.json의 project.schedule_cron과 일치시킬 것
-    # 기본값: 한국시간 오전 8시 (UTC 23:00 전날)
-    - cron: '0 23 * * *'
+    # config/osint-config.json의 project.schedule_cron과 동기화 (현재 0 22 * * * = KST 07:00)
+    - cron: '0 22 * * *'
   workflow_dispatch:
     inputs:
       target_date:
@@ -56,12 +55,29 @@ jobs:
           if [ -n "${{ github.event.inputs.target_date }}" ]; then
             TARGET="${{ github.event.inputs.target_date }}"
           else
-            # cron이 UTC 23:00(=KST 08:00)에 실행되므로 KST 기준 날짜 사용
+            # cron이 UTC 22:00(=KST 07:00)에 실행되므로 KST 기준 날짜 사용
             TARGET=$(TZ=Asia/Seoul date +%Y-%m-%d)
           fi
           echo "target=$TARGET" >> $GITHUB_OUTPUT
           echo "year=$(echo $TARGET | cut -d- -f1)" >> $GITHUB_OUTPUT
           echo "month=$(echo $TARGET | cut -d- -f2)" >> $GITHUB_OUTPUT
+
+      - name: Shop Watch — deterministic prune (50-day strict cap)
+        id: shop_prune
+        run: |
+          if [ ! -f config/osint-config.json ]; then
+            echo "config not found, skip"
+            exit 0
+          fi
+          ENABLED=$(python3 -c "import json,sys; print(json.load(open('config/osint-config.json')).get('shop_watch', {}).get('enabled', False))")
+          if [ "$ENABLED" != "True" ]; then
+            echo "shop_watch disabled, skip"
+            exit 0
+          fi
+          # 결정적 50일 strict cap 적용 — LLM 변동성 차단
+          python3 scripts/shop_roster_prune.py "${{ steps.date.outputs.target }}"
+          # 백업 파일은 다음 step의 commit에서 제외 (.gitignore가 처리하지만 안전망)
+          rm -f ontology/shop-roster.json.bak
 
       - name: Generate report with Claude Code
         env:
@@ -99,14 +115,14 @@ jobs:
             Save results to `sources/${{ steps.date.outputs.target }}/search-results.json`.
 
             ## Phase 1.5: Shop Scout (parallel hook — only if config.shop_watch.enabled == true)
+            **Note:** Deterministic 50-day prune already ran in the previous step (shop_prune) before this Claude action. Do NOT run shop_roster_prune.py again.
             Check `config/osint-config.json`'s `shop_watch.enabled`. If true:
-              1. Run `python3 scripts/shop_roster_prune.py ${{ steps.date.outputs.target }}` to apply strict 50-day window pruning (active → archived immediately when expired).
-              2. Read `.claude/agents/shop-scout.md` for your role.
-              3. Read `.claude/skills/shop-watch/references/shop-discovery.md` for discovery channels and opened_date heuristics.
-              4. Read `ontology/shop-roster.json` — process `manual_seeds` (pending status) as priority, then re-verify `active_shops` whose `last_verified` is 7+ days old.
-              5. Use `cheliped-browser` ($CHELIPED_CLI) for Naver Place / Kakao Map / Instagram first-post-date / Naver Blog first-review-date verification.
-              6. **Strict 50-day cap**: any shop whose estimated `opened_date` is more than 50 days before ${{ steps.date.outputs.target }} must be classified as `active_but_old` (not registered as active).
-              7. Save results to `sources/${{ steps.date.outputs.target }}/shop-candidates.json`.
+              1. Read `.claude/agents/shop-scout.md` for your role.
+              2. Read `.claude/skills/shop-watch/references/shop-discovery.md` for discovery channels and opened_date heuristics.
+              3. Read `ontology/shop-roster.json` (already pruned) — process `manual_seeds` (pending status) as priority, then re-verify `active_shops` whose `last_verified` is 7+ days old.
+              4. Use `cheliped-browser` ($CHELIPED_CLI) for Naver Place / Kakao Map / Instagram first-post-date / Naver Blog first-review-date verification.
+              5. **Strict 50-day cap**: any shop whose estimated `opened_date` is more than 50 days before ${{ steps.date.outputs.target }} must be classified as `active_but_old` (not registered as active).
+              6. Save results to `sources/${{ steps.date.outputs.target }}/shop-candidates.json`.
 
             ## Phase 2: Extract
             Read `.claude/agents/osint-extractor.md` for your role.
@@ -157,6 +173,20 @@ jobs:
             ```
 
             **Do not** publish to Wiki and **do not** generate TTL — those are handled by deterministic post-steps after this job step. Just produce the JSON/Markdown artifacts.
+
+      - name: Shop Watch — post-step sanity check
+        if: always()
+        continue-on-error: true
+        env:
+          TARGET_DATE: ${{ steps.date.outputs.target }}
+        run: |
+          # 백업 파일 우선 제거 (commit에서 제외)
+          rm -f ontology/shop-roster.json.bak
+          if [ ! -f ontology/shop-roster.json ]; then
+            echo "::warning::shop-roster.json missing"
+            exit 0
+          fi
+          python3 scripts/shop_watch_sanity.py "$TARGET_DATE" "sources/$TARGET_DATE/coverage-audit.json" || true
 
       - name: Generate TTL from KG (with prune + validity filter)
         run: |
