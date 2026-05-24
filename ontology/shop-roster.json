@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-24",
+  "window_days": 50,
+  "recent_window_days": 50,
+  "_policy": "strict 50일 cap — opened_date+50일 경과 시 즉시 archived. recent 단계 없음. 보고서에 노출되는 것은 active_shops뿐.",
+  "active_shops": [
+    {
+      "id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "shop_type": "팝업스토어",
+      "dong": "관평동",
+      "address": "대전 유성구 테크노중앙로 123 현대프리미엄아울렛 대전점 2층 팝업스토어(휠라 옆)",
+      "distance_from_anchor_m": 2500,
+      "ring": "ring-bike",
+      "kid_friendly": true,
+      "opened_date": "2026-04-03",
+      "opened_date_estimated": false,
+      "is_popup": true,
+      "popup_close_date": "2026-05-31",
+      "window_status": "active",
+      "window_started_on": "2026-04-03",
+      "window_expires_on": "2026-05-31",
+      "window_extended_by_popup_close": true,
+      "promotions": [
+        { "text": "팝업스토어 운영", "valid_until": "2026-05-31" }
+      ],
+      "discovery_channels": ["dayforyou", "cheliped-verified"],
+      "source_urls": [
+        "https://www.dayforyou.com/getScheduleList?keyword=무브먼트랩"
+      ],
+      "confidence": 0.95,
+      "first_seen": "2026-05-24",
+      "last_verified": "2026-05-24",
+      "opened_date_history": [
+        { "value": "2026-04-03", "set_on": "2026-05-24", "set_by": "shop-scout-cheliped-verifier", "confidence": 0.95, "source": "dayforyou.com 상세 페이지" }
+      ],
+      "notes": "팝업은 운영 종료일(5/31)이 윈도우 만료일로 사용됨 — opened_date+50일이 아니라 popup_close_date 기준. 시작일 4/3은 50일 윈도우 기준일(4/4)보다 1일 이른데 운영 기간 전체가 윈도우 안에 걸쳐 있어 active 분류."
+    },
+    {
+      "id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "shop_type": "팝업스토어",
+      "dong": "관평동",
+      "address": "대전 유성구 테크노중앙로 123 현대프리미엄아울렛 대전점 2층 팝업스토어(다이나핏 옆)",
+      "distance_from_anchor_m": 2500,
+      "ring": "ring-bike",
+      "kid_friendly": false,
+      "opened_date": "2026-04-03",
+      "opened_date_estimated": false,
+      "is_popup": true,
+      "popup_close_date": "2026-05-31",
+      "window_status": "active",
+      "window_started_on": "2026-04-03",
+      "window_expires_on": "2026-05-31",
+      "window_extended_by_popup_close": true,
+      "promotions": [
+        { "text": "팝업스토어 운영", "valid_until": "2026-05-31" }
+      ],
+      "discovery_channels": ["dayforyou", "cheliped-verified"],
+      "source_urls": [
+        "https://www.dayforyou.com/getScheduleList?keyword=헌터"
+      ],
+      "confidence": 0.95,
+      "first_seen": "2026-05-24",
+      "last_verified": "2026-05-24",
+      "opened_date_history": [
+        { "value": "2026-04-03", "set_on": "2026-05-24", "set_by": "shop-scout-cheliped-verifier", "confidence": 0.95, "source": "dayforyou.com 상세 페이지" }
+      ],
+      "notes": "헌터(HUNTER)는 프리미엄 부츠·아웃도어 성인 브랜드 — kid_friendly false. 가족 동반 아울렛 방문 시 노출은 가능. 윈도우 로직은 무브먼트랩과 동일."
+    }
+  ],
+  "recent_shops": [],
+  "archived_shops": [],
+  "suspected_closed_shops": [],
+  "manual_seeds": [
+    {
+      "seed_name": "엉클부대찌개 테크노점 (관평동)",
+      "dong_hint": "관평동",
+      "shop_type_hint": "식당",
+      "added_on": "2026-05-24",
+      "added_by": "user",
+      "note": "사용자 제보 처리 완료 — 가게 존재 확인 + 오픈 시점은 50일 윈도우 이전. 신규 윈도우 미해당.",
+      "address_hint": "대전 유성구 관들3길 77-32",
+      "phone_hint": "042-936-6111 (본점) / 042-933-9900 (대덕테크노점 — Naver '새로오픈' 배지 별개 매장)",
+      "status": "resolved_not_new",
+      "search_attempts": 2,
+      "channels_tried": ["websearch", "naver-blog", "naver-place", "naver-view", "diningcode", "siksin", "instagram"],
+      "resolved_to": null,
+      "resolved_on": "2026-05-24",
+      "verification_result": {
+        "verifier": "shop-scout-cheliped",
+        "verified_on": "2026-05-24",
+        "opened_date_estimated": "2025-11-01",
+        "opened_date_min": "2025-10-15",
+        "opened_date_max": "2025-11-29",
+        "confidence": 0.7,
+        "evidence": "Naver Place '대덕테크노점'에 '새로오픈' 배지(2025년 가을 기준). 첫 블로그 후기 2025-10-21, 매장 후기 클러스터 2025-11-14~29. 50일 윈도우(2026-04-04~) 한참 이전 개점.",
+        "shop_existed": true,
+        "in_50_day_window": false,
+        "user_note": "사용자가 '최근 오픈'으로 인지한 가게는 약 6~7개월 전(2025년 10~11월) 오픈한 매장입니다. 50일 윈도우로는 active 분류 불가. 단, 가게 자체는 instances.json에 등록할 가치 있음 (관평동 식당 클러스터).",
+        "source_urls": [
+          "https://search.naver.com/search.naver?where=view&query=엉클부대찌개+관평동",
+          "https://search.naver.com/search.naver?ssc=tab.blog.all&query=엉클부대찌개+대덕테크노점"
+        ]
+      }
+    },
+    {
+      "seed_name": "인터뷰커피라운지 (도룡동)",
+      "dong_hint": "도룡동",
+      "shop_type_hint": "카페",
+      "added_on": "2026-05-24",
+      "added_by": "shop-scout-research-agent",
+      "status": "resolved_not_new",
+      "search_attempts": 2,
+      "channels_tried": ["websearch", "trip-com", "naver-place", "naver-blog"],
+      "resolved_to": null,
+      "resolved_on": "2026-05-24",
+      "verification_result": {
+        "verifier": "shop-scout-cheliped",
+        "verified_on": "2026-05-24",
+        "opened_date_estimated": "2024-07-01",
+        "opened_date_min": "2024-06-01",
+        "opened_date_max": "2024-07-14",
+        "confidence": 0.85,
+        "evidence": "Naver 블로그 첫 후기 2024-07-14, 이후 정기적 후기 누적(2024-09, 10, 12 등). 최소 2년 운영 중인 기존 카페.",
+        "shop_existed": true,
+        "in_50_day_window": false,
+        "kid_friendly": false,
+        "user_note": "트립닷컴 '신상카페' 표기는 게시 시점 기준일 뿐 — 실제로는 2024년 7월 오픈. 50일 윈도우 미해당. 영업 11:00~24:00(심야)이라 어린이 친화도 낮음."
+      }
+    },
+    {
+      "seed_name": "유성닭발 관평점 (관평동)",
+      "dong_hint": "관평동",
+      "shop_type_hint": "식당",
+      "added_on": "2026-05-24",
+      "added_by": "shop-scout-research-agent",
+      "status": "excluded",
+      "search_attempts": 2,
+      "channels_tried": ["websearch", "instagram-reel", "diningcode", "official-site", "naver-blog", "naver-view"],
+      "resolved_to": null,
+      "resolved_on": "2026-05-24",
+      "verification_result": {
+        "verifier": "shop-scout-cheliped",
+        "verified_on": "2026-05-24",
+        "shop_existed": true,
+        "in_50_day_window": false,
+        "kid_friendly": false,
+        "exclusion_reason": "scope.exclude (주류 전문 — Naver '술집' 카테고리, 맥주·매운닭발 안주 전문)",
+        "first_blog_review": "2022-04-25 (4년 이상 운영)",
+        "user_note": "성인 타겟 술집으로 CLAUDE.md scope.exclude(주류) 규칙 적용. 신규 윈도우·기존 모니터링 대상 모두 미해당."
+      }
+    }
+  ],
+  "_research_log": [
+    {
+      "ran_on": "2026-05-24T01:30:00+09:00",
+      "agent": "shop-scout-research-agent (50-day backfill, surface OSINT)",
+      "lookback_days": 50,
+      "queries_run": 18,
+      "shops_confirmed": 0,
+      "shops_unconfirmed": 4
+    },
+    {
+      "ran_on": "2026-05-24T01:40:00+09:00",
+      "agent": "shop-scout-cheliped-verifier (5 candidate deep verification)",
+      "candidates_total": 5,
+      "confirmed": 2,
+      "active_but_old": 2,
+      "still_unconfirmed": 0,
+      "excluded": 1,
+      "cheliped_calls": 10,
+      "outcome": "무브먼트랩·헌터 팝업 2건 active 등록. 엉클부대찌개·인터뷰커피 2건은 resolved_not_new. 유성닭발 excluded."
+    }
+  ]
+}

@@ -33,6 +33,14 @@ description: "온톨로지 기반 OSINT 일일 보고서를 자동 생성하는 
 **입력:** `config/osint-config.json`, `ontology/instances.json` (엔티티명 기반 확장 검색)
 **산출물:** `sources/YYYY-MM-DD/search-results.json`
 
+### Phase 1.5: 가게 집중 탐색 (Shop Scout — 병렬 hook)
+**조건:** `config.shop_watch.enabled == true` 일 때 활성
+**에이전트:** `.claude/agents/shop-scout.md` (Phase 1과 병렬 실행 가능)
+**참조 스킬:** `.claude/skills/shop-watch/references/shop-discovery.md`
+**전처리:** `scripts/shop_roster_prune.py <YYYY-MM-DD>` 결정적 실행 → 윈도우 만료 처리
+**입력:** `config/osint-config.json` (shop_watch 섹션), `ontology/shop-roster.json` (manual_seeds + active_shops 재검증)
+**산출물:** `sources/YYYY-MM-DD/shop-candidates.json`
+
 ### Phase 2: 추출 (Extract)
 **에이전트:** `.claude/agents/osint-extractor.md`를 읽고 역할을 따른다
 **참조 스킬:** `references/extraction-rules.md`를 읽고 추출 규칙·태깅 기준·스키마를 따른다
@@ -52,11 +60,31 @@ description: "온톨로지 기반 OSINT 일일 보고서를 자동 생성하는 
 - `sources/YYYY-MM-DD/analysis.md`
 - `sources/YYYY-MM-DD/report-basis.md`
 
+### Phase 3.5: 가게 윈도우 lifecycle 관리 (Shop Curator — 직렬 hook)
+**조건:** `config.shop_watch.enabled == true` 일 때 활성
+**에이전트:** `.claude/agents/shop-curator.md` (reasoner 종료 후 실행 — instances.json race 방지)
+**참조 스킬:** `.claude/skills/shop-watch/references/shop-roster-mgmt.md`
+**입력:** `sources/YYYY-MM-DD/shop-candidates.json`, `ontology/shop-roster.json`, `ontology/instances.json`
+**산출물:**
+- `ontology/shop-roster.json` (갱신, `.bak` 자동 생성)
+- `ontology/instances.json` (Shop 인스턴스에 `window_status`, `window_expires_on` 동기화)
+- `sources/YYYY-MM-DD/shop-roster-diff.json`
+
 ### Phase 4: 보고서 (Report)
 **에이전트:** `.claude/agents/osint-reporter.md`를 읽고 역할을 따른다
 **참조 스킬:** `references/report-format.md`를 읽고 보고서 구조·KG 시각화·Wiki 규칙을 따른다
+**추가 입력 (shop_watch 활성 시):** `ontology/shop-roster.json` (active_shops + recent_shops + manual_seeds), `sources/YYYY-MM-DD/shop-roster-diff.json`
 **입력:** `report-basis.md`, `analysis.md`, 포함 결정된 `items/`, `ontology/kg/YYYY-MM-DD.json`
 **산출물:** `reports/YYYY/MM/YYYY-MM-DD.md`
+
+### Phase 4.5: 보고서 커버리지 검증 (Shop Coverage Auditor — 직렬 hook)
+**조건:** `config.shop_watch.enabled == true` 일 때 활성
+**에이전트:** `.claude/agents/shop-coverage-auditor.md` (reporter 종료 후, commit 이전 실행)
+**참조 스킬:** `.claude/skills/shop-watch/references/shop-coverage-rules.md`
+**입력:** `reports/YYYY/MM/YYYY-MM-DD.md`, `ontology/shop-roster.json`, `sources/YYYY-MM-DD/shop-roster-diff.json`
+**산출물:**
+- `sources/YYYY-MM-DD/coverage-audit.json`
+- (`config.shop_watch.audit_mode == "patch"` 시) `reports/YYYY/MM/YYYY-MM-DD.md`에 누락 가게 추가 + "검증 로그" 섹션
 
 ### Phase 5: 커밋 & 발행
 LLM 단계는 JSON/Markdown 산출물 생성과 메인 리포 커밋까지만 담당한다.

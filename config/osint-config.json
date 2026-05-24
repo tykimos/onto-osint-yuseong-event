@@ -481,5 +481,76 @@
       "지식그래프 시각화",
       "출처 목록"
     ]
+  },
+  "shop_watch": {
+    "enabled": true,
+    "window_days": 50,
+    "recent_window_days": 50,
+    "policy": "strict_50day_cap",
+    "policy_note": "opened_date 기준 50일 이내 가게만 active로 등록·노출. 50일 초과 시 즉시 archived. recent grace period 없음. 50일 이전 오픈 가게는 manual_seed로 등록되어도 resolved_not_new로 분류.",
+    "audit_mode": "patch",
+    "report_section_title": "신규 오픈 가게·팝업·프로모션",
+    "recent_section_title": "최근 오픈 (참고)",
+    "manual_seed_section_title": "사용자 제보 처리 현황",
+    "discovery_sources": [
+      {
+        "id": "naver-place",
+        "name": "Naver Place / Naver Map",
+        "url_template": "https://map.naver.com/p/search/{query}",
+        "confidence_base": 0.7,
+        "enabled": true
+      },
+      {
+        "id": "kakao-map",
+        "name": "Kakao Map",
+        "url_template": "https://map.kakao.com/?q={query}",
+        "confidence_base": 0.6,
+        "enabled": true
+      },
+      {
+        "id": "instagram-hashtag",
+        "name": "Instagram 지역 해시태그",
+        "url_template": "https://www.instagram.com/explore/tags/{tag}/",
+        "confidence_base": 0.5,
+        "max_confidence": 0.6,
+        "enabled": true
+      },
+      {
+        "id": "naver-blog",
+        "name": "Naver 블로그 첫 후기",
+        "search_query_template": "\"{shop_name}\" \"{dong}\" 오픈 site:blog.naver.com",
+        "confidence_base": 0.5,
+        "enabled": true
+      },
+      {
+        "id": "websearch-fallback",
+        "name": "일반 WebSearch (백업)",
+        "confidence_base": 0.4,
+        "enabled": true
+      }
+    ],
+    "discovery_query_combos": [
+      "{dong} 신규 오픈",
+      "{dong} 새로 생긴",
+      "{dong} 그랜드 오픈",
+      "{dong} 카페 신규",
+      "{dong} 식당 오픈",
+      "{dong} 키즈카페",
+      "용성로 오픈",
+      "용성로 카페",
+      "용성로 새로"
+    ],
+    "instagram_hashtags": [
+      "용성로", "용성로카페", "용성로맛집",
+      "용산동맛집", "전민동카페", "관평동키즈카페", "관평동맛집",
+      "유성구신규", "유성구가볼만한곳"
+    ],
+    "manual_seeds_max_attempts": 3,
+    "coverage_audit": {
+      "require_three_category_coverage": true,
+      "patch_missing_active": true,
+      "patch_manual_seeds_visibility": true,
+      "patch_log_section_title": "검증 로그 (shop-coverage-auditor)"
+    }
   }
 }

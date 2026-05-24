@@ -98,6 +98,16 @@ jobs:
             Also read `ontology/instances.json` for entity-based keyword expansion.
             Save results to `sources/${{ steps.date.outputs.target }}/search-results.json`.
 
+            ## Phase 1.5: Shop Scout (parallel hook — only if config.shop_watch.enabled == true)
+            Check `config/osint-config.json`'s `shop_watch.enabled`. If true:
+              1. Run `python3 scripts/shop_roster_prune.py ${{ steps.date.outputs.target }}` to apply strict 50-day window pruning (active → archived immediately when expired).
+              2. Read `.claude/agents/shop-scout.md` for your role.
+              3. Read `.claude/skills/shop-watch/references/shop-discovery.md` for discovery channels and opened_date heuristics.
+              4. Read `ontology/shop-roster.json` — process `manual_seeds` (pending status) as priority, then re-verify `active_shops` whose `last_verified` is 7+ days old.
+              5. Use `cheliped-browser` ($CHELIPED_CLI) for Naver Place / Kakao Map / Instagram first-post-date / Naver Blog first-review-date verification.
+              6. **Strict 50-day cap**: any shop whose estimated `opened_date` is more than 50 days before ${{ steps.date.outputs.target }} must be classified as `active_but_old` (not registered as active).
+              7. Save results to `sources/${{ steps.date.outputs.target }}/shop-candidates.json`.
+
             ## Phase 2: Extract
             Read `.claude/agents/osint-extractor.md` for your role.
             Read `.claude/skills/onto-osint-report/references/extraction-rules.md` for extraction rules, tag definitions, dedup rules, and output schemas.
@@ -112,11 +122,30 @@ jobs:
             Append to `ontology/reasoning-log.md`.
             Save `sources/${{ steps.date.outputs.target }}/analysis.md` and `sources/${{ steps.date.outputs.target }}/report-basis.md`.
 
+            ## Phase 3.5: Shop Curator (serial hook — only if config.shop_watch.enabled == true)
+            If `config.shop_watch.enabled == true`:
+              1. Read `.claude/agents/shop-curator.md` for your role.
+              2. Read `.claude/skills/shop-watch/references/shop-roster-mgmt.md` for roster schema and dedupe rules.
+              3. Read `sources/${{ steps.date.outputs.target }}/shop-candidates.json`, `ontology/shop-roster.json`, and `ontology/instances.json`.
+              4. **Strict 50-day cap enforcement**: only register candidates whose `opened_date` is within 50 days of ${{ steps.date.outputs.target }}. Older candidates → `resolved_not_new` in manual_seeds; never add to `active_shops`.
+              5. Update `ontology/shop-roster.json` (auto-backup `.bak`).
+              6. Sync `ontology/instances.json` Shop instances with `window_status`, `window_expires_on`.
+              7. Save `sources/${{ steps.date.outputs.target }}/shop-roster-diff.json`.
+
             ## Phase 5: Report
             Read `.claude/agents/osint-reporter.md` for your role.
             Read `.claude/skills/onto-osint-report/references/report-format.md` for report structure, KG visualization rules, and Wiki publishing rules.
+            **Shop section requirement (if shop_watch enabled)**: read `ontology/shop-roster.json` `active_shops` and include EVERY active shop in the "신규 오픈 가게·팝업·프로모션" section as a table row. If 0 active shops, write the empty message. Also include "사용자 제보 처리 현황" subsection with `manual_seeds` status table (pending/resolved/resolved_not_new/excluded/gave_up).
             Save `reports/${{ steps.date.outputs.year }}/${{ steps.date.outputs.month }}/${{ steps.date.outputs.target }}.md`.
             Include Mermaid knowledge graph visualization in the report.
+
+            ## Phase 5.5: Shop Coverage Auditor (serial hook — only if config.shop_watch.enabled == true)
+            If `config.shop_watch.enabled == true`:
+              1. Read `.claude/agents/shop-coverage-auditor.md` for your role.
+              2. Read `.claude/skills/shop-watch/references/shop-coverage-rules.md` for verification rules.
+              3. Verify the generated report contains every `active_shops` entry. If `config.shop_watch.audit_mode == "patch"`, patch missing entries into the "신규 오픈 가게·팝업·프로모션" section.
+              4. Verify 3-category coverage (event/shop/public_institution).
+              5. Save `sources/${{ steps.date.outputs.target }}/coverage-audit.json` and append "검증 로그" section to the report if patches were applied.
 
             ## Phase 6: Commit
             ```bash

@@ -64,6 +64,8 @@ reports/YYYY/MM/
 
 ## Agents & Skills
 
+### Main pipeline (onto-osint-report)
+
 | 에이전트 | 참조 스킬 | Phase |
 |----------|----------|-------|
 | `.claude/agents/osint-collector.md` | `references/search-strategy.md` | 1 |
@@ -73,11 +75,24 @@ reports/YYYY/MM/
 
 오케스트레이터: `.claude/skills/onto-osint-report/skill.md`
 
+### Shop Watch 보조 하네스 (30일 윈도우 유지 + 누락 보강)
+
+| 에이전트 | 참조 스킬 | Hook Phase |
+|----------|----------|-----------|
+| `.claude/agents/shop-scout.md` | `shop-watch/references/shop-discovery.md` | 1.5 (병렬) |
+| `.claude/agents/shop-curator.md` | `shop-watch/references/shop-roster-mgmt.md` | 3.5 (reasoner 직후) |
+| `.claude/agents/shop-coverage-auditor.md` | `shop-watch/references/shop-coverage-rules.md` | 4.5 (reporter 직후) |
+
+오케스트레이터: `.claude/skills/shop-watch/skill.md` (main pipeline이 hook으로 호출)
+결정적 스크립트: `scripts/shop_roster_prune.py`, `scripts/shop_roster_backfill.py`
+Source of truth: `ontology/shop-roster.json`
+
 ## Domain Rules (이 프로젝트 특수 규칙)
 
 - **용성로20 동심원 우선순위 (최상위 규칙)**: 모든 Venue/Shop은 `config.project.geo_focus.center_address`(대전광역시 유성구 용성로 20)로부터의 직선거리를 추정하여 ring(walk/stroll/bike/car) 중 하나로 분류한다. 보고서 첫 섹션은 `ring-walk`(0.5km 이내)에서 시작한다. 거리 추정 근거(주소·동·랜드마크)를 `entities.json`에 기록한다.
-- **추적 대상 3종 의무 커버**: 매 사이클마다 (a) 어린이·가족 이벤트, (b) 가게(Shop) — 신규 오픈/프로모션/팝업/원데이클래스, (c) 공공기관(Organization with org_type ∈ {행정복지센터·보건소·복지관·도서관·우체국·경찰서·소방서·주민자치회}) 주최 행사 — 세 카테고리 모두 검색·수집한다. 한 카테고리라도 0건이면 보고서에 "금일 신규 없음" 명시.
-- **Shop 인스턴스 필수 필드**: 가게는 `name, shop_type, dong, address, distance_from_anchor_m, open_hours, kid_friendly, source_url`을 최소 채운다. `is_new=true`(개점 30일 이내) 가게는 별도 섹션에 노출.
+- **추적 대상 3종 의무 커버**: 매 사이클마다 (a) 어린이·가족 이벤트, (b) 가게(Shop) — 신규 오픈/프로모션/팝업/원데이클래스, (c) 공공기관(Organization with org_type ∈ {행정복지센터·보건소·복지관·도서관·우체국·경찰서·소방서·주민자치회}) 주최 행사 — 세 카테고리 모두 검색·수집한다. 한 카테고리라도 0건이면 보고서에 "금일 신규 없음" 명시. **shop-coverage-auditor가 매일 검증**한다.
+- **신규 오픈 50일 strict cap (Shop Watch 규칙)**: opened_date 기준 50일 이내 가게만 `window_status: active`로 분류되며 매일 보고서의 "신규 오픈 가게·팝업·프로모션" 본문 표에 **의무 노출된다**. **50일 초과 시 즉시 `archived` — recent grace 없음, 보고서 노출 종료.** 팝업의 경우 `popup_close_date`가 윈도우 만료일을 대체한다. 50일 이전 오픈 가게는 manual_seed로 제보되어도 `resolved_not_new`로 분류되고 active_shops에 등록되지 않는다. lifecycle은 `ontology/shop-roster.json`이 source of truth이며 `scripts/shop_roster_prune.py`가 결정적으로 윈도우 전이를 처리한다. 누락된 가게는 `scripts/shop_roster_backfill.py add "<가게명>" --dong <동> --note <사유>` 또는 사용자 대화 제보로 manual_seeds에 등록 → 다음 사이클에서 shop-scout가 우선 조사.
+- **Shop 인스턴스 필수 필드**: 가게는 `name, shop_type, dong, address, distance_from_anchor_m, open_hours, kid_friendly, source_url`을 최소 채운다. `is_new=true`(개점 50일 이내) 가게만 보고서 "신규 오픈" 섹션에 노출. shop-curator가 `window_status`, `window_expires_on`, `promotions` 필드를 추가로 동기화한다.
 - **공공기관 행사 가산점**: 공공기관(특히 어린이 대상)은 `publicTrustBoost +0.15` 자동 적용 — 신뢰도가 높고 무료/저비용일 가능성이 크기 때문.
 - **kid_friendly_score 의무 산출**: 모든 Event 인스턴스는 어린이 친화도 점수(0~1)를 추정해 기록한다. 산정 근거를 `entities.json`에 함께 남긴다.
 - **타겟 동 우선**: 1차 타겟 동(용산/전민/관평/문지/신성/도룡)에 위치한 이벤트는 보고서 상단에 우선 배치한다 — 단, ring-walk가 다른 동에 있다면 ring 우선순위가 동 우선순위를 이긴다.
@@ -93,6 +108,7 @@ reports/YYYY/MM/
 - 온톨로지 변경: `ontology: expand schema/instances (YYYY-MM-DD)`
 - TTL 스냅샷 (post-step 자동): `ontology: TTL snapshot (YYYY-MM-DD)`
 - Wiki 발행 (post-step 자동, wiki repo): `report+kg: YYYY-MM-DD`
+- Shop roster 갱신: `shop-watch: roster update (YYYY-MM-DD)` — `ontology/shop-roster.json` 변경 시
 - 구조/설정 변경: `chore: 설명`
 - `git add sources/ reports/ ontology/`
 
