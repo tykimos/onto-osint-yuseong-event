@@ -1,0 +1,69 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-05-24)
+<#snapshot-2026-05-24> a prov:Entity ;
+  dct:date "2026-05-24"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "0"^^xsd:integer ;
+  yse:inferred_edges "5"^^xsd:integer .
+
+# --- inferred_triples (5) ---
+yseent:ent-evt-027 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-24-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-027 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "브릭파티 첫 주말 + 피직스랩 — 도룡동 종일 콤보 (전날 대비 신뢰도 상승: 주말이므로 실제 방문 확률 증가)"@ko .
+yseent:ent-evt-042 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-05-24-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-042 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "블록코딩 마지막날 + 피직스랩 — 마지막 콤보 기회"@ko .
+yseent:ent-evt-042 yser:visitCombo yseent:ent-evt-027 .
+yseinf:stmt-2026-05-24-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-042 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-027 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "블록코딩 마지막날 + 브릭파티 Day 2 — 연계 프로그램 마지막 동시 운영일"@ko .
+yseent:ent-evt-043 yser:visitCombo yseent:ent-evt-028 .
+yseinf:stmt-2026-05-24-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-043 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "건축특강 + 공룡덕후 5/30 동일일 콤보 (유지)"@ko .
+yseent:ent-evt-027 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-05-24-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-027 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  yse:assertionType "inferred" ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 운영 프로그램 (유지)"@ko .
+
+# --- referenced entities ---
+
