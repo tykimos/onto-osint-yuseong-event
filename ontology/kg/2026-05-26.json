@@ -1,0 +1,101 @@
+{
+  "date": "2026-05-26",
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-034",
+      "predicate": "status",
+      "object": "종료",
+      "previous_value": "D-day 최종일",
+      "source_id": "src-001",
+      "date": "2026-05-26",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "status",
+      "object": "Day 4 첫 평일",
+      "previous_value": "Day 3 첫 주말 일요일",
+      "source_id": "src-002",
+      "date": "2026-05-26",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "countdown",
+      "object": "D-4",
+      "previous_value": "D-5",
+      "source_id": "src-003",
+      "date": "2026-05-26",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "countdown",
+      "object": "D-4",
+      "previous_value": "D-5",
+      "source_id": "src-004",
+      "date": "2026-05-26",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "registration_countdown",
+      "object": "D-2",
+      "previous_value": "D-3",
+      "source_id": "src-010",
+      "date": "2026-05-26",
+      "confidence": 1.0,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-008",
+      "predicate": "registration_countdown",
+      "object": "D-2",
+      "previous_value": "D-3",
+      "source_id": "src-011",
+      "date": "2026-05-26",
+      "confidence": 1.0,
+      "type": "explicit"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "type": "inferred",
+      "note": "브릭파티+피직스랩 2종 콤보 유지 (도룡동 동일 장소)"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "type": "inferred",
+      "note": "건축특강+공룡덕후 5/30 동일일 콤보 유지"
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "weeklyPeak",
+      "object": "도룡동",
+      "rule": "anchor_distance_priority",
+      "confidence": 0.90,
+      "type": "inferred",
+      "note": "이번 주(5/26~31) 도룡동 집중 방문 최적: 브릭파티+공룡덕후+건축특강+피직스랩+천문대 5종 동시"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 0,
+    "updated_edges": 6,
+    "inferred_edges": 3
+  }
+}

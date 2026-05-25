@@ -1,0 +1,18 @@
+{
+  "id": "src-001",
+  "title": "한밭수목원 봄꽃전시회 종료 확인 (5/25 종료)",
+  "url": "https://www.news1.kr/local/daejeon-chungnam/6161639",
+  "snippet": "대전 한밭수목원, 25일까지 봄꽃 전시회 — 5/25 최종일로 종료",
+  "source_name": "뉴스1",
+  "language": "ko",
+  "discovered_date": "2026-05-26",
+  "tag": "update",
+  "related_report": "2026-05-25",
+  "related_item": "src-001",
+  "tag_reason": "어제(5/25) D-day였던 한밭수목원 봄꽃전시회가 오늘부터 종료로 전환. 더 이상 활성 이벤트가 아님.",
+  "entities": [
+    { "id": "ent-evt-034", "type": "Event", "name": "한밭수목원 봄꽃전시회", "role": "종료 확인" },
+    { "id": "ent-venue-024", "type": "Venue", "name": "한밭수목원", "role": "행사 장소" }
+  ],
+  "relations": []
+}

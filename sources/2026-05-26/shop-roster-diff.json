@@ -1,0 +1,15 @@
+{
+  "date": "2026-05-26",
+  "agent": "shop-curator",
+  "changes": [],
+  "summary": {
+    "new_active": 0,
+    "new_recent": 0,
+    "moved_to_archived": 0,
+    "re_discovered": 0,
+    "manual_seeds_resolved": 0,
+    "total_active": 2,
+    "total_recent": 0,
+    "notes": "변동 없음. 결정적 prune(shop_roster_prune.py)에서도 만료 건 없음. active_shops 2건(무브먼트랩·헌터 팝업) 유지. manual_seeds 3건 모두 전날 처리 완료 상태."
+  }
+}

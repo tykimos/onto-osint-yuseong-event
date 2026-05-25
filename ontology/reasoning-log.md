@@ -1131,3 +1131,28 @@
 ### 콤보 해제
 - (ent-evt-042 visitCombo ent-evt-041) — **제거**: 블록코딩 5/24 종료
 - (ent-evt-042 visitCombo ent-evt-027) — **제거**: 블록코딩 5/24 종료
+
+## 2026-05-26 추론 결과
+
+### 추론 #1: same_dong_combo (브릭파티+피직스랩 2종 콤보)
+- **입력:** (ent-evt-027 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-027 visitCombo ent-evt-041)
+- **신뢰도:** 0.95
+- **상태:** 확정 (유지)
+- **비고:** Day 4 첫 평일. 평일에도 2종 콤보 가능.
+
+### 추론 #2: same_dong_combo (건축특강+공룡덕후 유지)
+- **입력:** (ent-evt-043 date 2026-05-30), (ent-evt-028 date 2026-05-30), (same venue)
+- **추론:** (ent-evt-043 visitCombo ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정 (유지, D-4)
+
+### 추론 #3: weekly_peak (이번 주 도룡동 5종 집중)
+- **입력:** (ent-evt-027 ~5/31), (ent-evt-028 5/30~31), (ent-evt-043 5/30), (ent-evt-041 상시), (ent-evt-037/038 ~5/31) — 모두 도룡동
+- **추론:** (도룡동 weeklyPeak 2026-W22)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 이번 주(5/26~31)가 도룡동 방문 최적 주간. 5종 이벤트 동시 진행. 다음 주(6월)부터 브릭파티·천문대전시 종료로 축소.
+
+### 이벤트 종료 처리
+- (ent-evt-034 status 종료) — 한밭수목원 봄꽃전시회 5/25 종료 확정. 추적 목록에서 완료 처리.

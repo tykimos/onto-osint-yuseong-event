@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-26",
+  "agent": "shop-scout",
+  "lookback_days": 50,
+  "cutoff_date": "2026-04-06",
+  "queries_run": 6,
+  "candidates": [],
+  "manual_seeds_processed": [],
+  "re_verified": [
+    {
+      "id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "status": "active",
+      "last_verified": "2026-05-24",
+      "days_since_verification": 2,
+      "verification_needed": false,
+      "notes": "마지막 검증 2일 전 (7일 미만). 팝업 운영 종료일 5/31 — 잔여 5일."
+    },
+    {
+      "id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "status": "active",
+      "last_verified": "2026-05-24",
+      "days_since_verification": 2,
+      "verification_needed": false,
+      "notes": "마지막 검증 2일 전 (7일 미만). 팝업 운영 종료일 5/31 — 잔여 5일."
+    }
+  ],
+  "discovery_summary": {
+    "new_shops_found": 0,
+    "manual_seeds_resolved": 0,
+    "manual_seeds_pending": 0,
+    "re_verification_skipped": 2,
+    "notes": "금일 월요일. 신규 오픈 정보 없음. 기존 active_shops 2건 모두 검증 7일 미만으로 재검증 스킵. manual_seeds 3건 모두 전날(5/24) 처리 완료 상태(resolved_not_new 2건, excluded 1건)."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-002",
+  "title": "사이언스 브릭파티 Day 4 — 첫 평일 (5/23~31)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "사이언스 브릭파티 Day 4. 주말 집중 방문 후 첫 평일. 브릭작가 해설·업사이클링 계속. 피직스랩 콤보 유지.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-26",
+  "tag": "update",
+  "related_report": "2026-05-25",
+  "related_item": "src-002",
+  "tag_reason": "Day 3(일요일) → Day 4(첫 평일) 전환. 첫 주말 3일 종료 후 평일 운영으로 진입. 프로그램 내용 변동 없음.",
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티", "role": "상태 전환" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "행사 장소" },
+    { "id": "ent-evt-041", "type": "Event", "name": "피직스랩 상시 체험", "role": "콤보 유지" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-002"], "confidence": 0.95 }
+  ]
+}
