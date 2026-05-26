@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-27",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "properties": { "status": "Day 5 두 번째 평일", "remaining_days": 4 },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": { "status": "D-3", "start_date": "2026-05-30" },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-043",
+      "type": "Event",
+      "name": "건축특강 선넘는 높이",
+      "properties": { "status": "D-3", "start_date": "2026-05-30" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-033",
+      "type": "Event",
+      "name": "제5회 유성봄꽃전시회",
+      "properties": { "status": "진행중", "end_date": "2026-05-31" },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "properties": { "status": "진행중", "end_date": "2026-06-21" },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-037",
+      "type": "Event",
+      "name": "대전시민천문대 운석전시",
+      "properties": { "status": "진행중", "end_date": "2026-05-31" },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-038",
+      "type": "Event",
+      "name": "대전시민천문대 기상기후사진전",
+      "properties": { "status": "진행중", "end_date": "2026-05-31" },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-041",
+      "type": "Event",
+      "name": "피직스랩 상시 체험",
+      "properties": { "status": "운영중" },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-040",
+      "type": "Event",
+      "name": "가족ON! 안전ON! 안전체험 데이",
+      "properties": { "status": "화요일 운영", "operating_hours": "화~토 09:30~11:30/13:30~15:30" },
+      "source_ids": ["src-008"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-045",
+      "type": "Event",
+      "name": "숏폼 영상 제작 클래스",
+      "properties": { "status": "접수 마감 D-1", "registration_deadline": "2026-05-28" },
+      "source_ids": ["src-009"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-008",
+      "type": "Event",
+      "name": "미래산업 진로탐색 독서아카데미",
+      "properties": { "status": "접수 마감 D-1", "registration_deadline": "2026-05-28", "registered": "41/50" },
+      "source_ids": ["src-010"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-org-006",
+      "type": "Organization",
+      "name": "국립중앙과학관",
+      "properties": {},
+      "source_ids": ["src-001", "src-002", "src-003", "src-007"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-org-004",
+      "type": "Organization",
+      "name": "유성구통합도서관",
+      "properties": {},
+      "source_ids": ["src-009", "src-010", "src-011"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-027",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "source_ids": ["src-001", "src-007"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-002"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "source_ids": ["src-003"],
+      "confidence": 0.85
+    }
+  ],
+  "stats": {
+    "total_entities": 13,
+    "new_entities": 0,
+    "matched_entities": 13,
+    "total_relations": 4
+  }
+}

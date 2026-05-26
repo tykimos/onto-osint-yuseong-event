@@ -1,0 +1,18 @@
+{
+  "date": "2026-05-27",
+  "curator_run_at": "2026-05-27T07:00:00+09:00",
+  "changes": {
+    "new_active": [],
+    "moved_to_recent": [],
+    "moved_to_archived": [],
+    "re_discovered": [],
+    "manual_seeds_resolved": [],
+    "dedupe_conflicts": []
+  },
+  "active_shops_count": 2,
+  "remaining_days": {
+    "shop-popup-movementlab-001": 4,
+    "shop-popup-hunter-002": 4
+  },
+  "summary": "변동 없음. 활성 가게 2건(무브먼트랩·헌터 팝업) 유지 — 잔여 4일(5/31 종료). 신규 후보 없음. manual_seeds 3건 모두 기처리 완료."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-008",
+  "title": "119시민체험센터 소방안전체험 — 화요일 운영 (화~토)",
+  "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+  "snippet": "119시민체험센터 화~토 운영. 어제(월요일) 휴무에서 오늘(화요일) 운영 재개. 체험 예약 2일 전까지.",
+  "source_name": "대전소방본부",
+  "language": "ko",
+  "discovered_date": "2026-05-27",
+  "tag": "update",
+  "related_report": "2026-05-26",
+  "related_item": "src-009 (2026-05-26)",
+  "tag_reason": "어제(월요일) 휴무에서 오늘(화요일) 운영 재개. 가정의 달 안전체험 데이 상시 체험 가능.",
+  "entities": [
+    { "id": "ent-evt-040", "type": "Event", "name": "가족ON! 안전ON! 안전체험 데이" },
+    { "id": "ent-venue-017", "type": "Venue", "name": "119시민체험센터" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017" }
+  ]
+}

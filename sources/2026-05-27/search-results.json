@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-27",
+  "collected_at": "2026-05-27T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": [
+    "사이언스 브릭파티",
+    "공룡덕후박람회",
+    "피직스랩",
+    "열한번째 트윙클",
+    "유성봄꽃전시회",
+    "대전시민천문대 운석전시",
+    "119시민체험센터",
+    "무브먼트랩 팝업",
+    "진잠도서관 K-도서관"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 5월 27일",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:01+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "유성구 특정 결과 없음 — 서울 어린이날 행사 위주 검색됨"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 사이언스 브릭파티 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:02+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "국립중앙과학관 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "사이언스 브릭파티 5/23~31 운영", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 공지사항", "url": "https://www.science.go.kr/mps/1111/bbs/208/moveBbsNttDetail.do?nttSn=48958", "snippet": "사이언스 브릭파티 관련 공지", "source_name": "국립중앙과학관" },
+        { "title": "사이언스올 과학문화프로그램", "url": "https://www.scienceall.com/brd/board/407/L/menu/293?brdType=R&bbsSn=415731", "snippet": "국립중앙과학관 브릭파티 프로그램 안내", "source_name": "사이언스올" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 공룡덕후박람회 2026",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:03+09:00",
+      "result_count": 6,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "5/30~31 공룡덕후박람회 참가안내", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 세계 공룡의 날맞아 '공룡덕후 박람회' 연다", "url": "https://www.kidshankook.kr/news/articleView.html?idxno=13845", "snippet": "공룡 아빠 이융남 교수 강연, 제1대 공통령 선거", "source_name": "소년한국일보" },
+        { "title": "국립중앙과학관, 세계 공룡의 날 박람회 개최 / YTN 사이언스", "url": "https://www.youtube.com/watch?v=SvW-IGTxvs4", "snippet": "공룡덕후박람회 영상 보도", "source_name": "YTN사이언스" },
+        { "title": "국립중앙과학관 공룡덕후박람회 제1대 공통령 선거", "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381", "snippet": "공통령 선거 참가안내 별도 게시", "source_name": "국립중앙과학관" },
+        { "title": "공룡덕후 박람회 참가안내 — 교육모닝", "url": "https://edumorning.com/articles/601", "snippet": "공룡덕후 박람회 참가 상세", "source_name": "교육모닝" },
+        { "title": "세계 공룡의 날 공룡덕후박람회 — 전국과학관길라잡이", "url": "https://smart.science.go.kr/exhibitions/view.action?menuCd=DOM_000000101003001000&contentsSid=47&event_id=EV0000008636", "snippet": "전국과학관길라잡이 등재", "source_name": "전국과학관길라잡이" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:04+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "신규 오픈 정보 없음 — 기존 카페/맛집 정보만 검색됨"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 2026년 5월 접수",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:05+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "유성구통합도서관 행사신청", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "K-도서관 이용자교육 5/30, 독서아카데미 접수 ~5/28, 숏폼 접수 ~5/28", "source_name": "유성구통합도서관" },
+        { "title": "진잠 K-도서관 5월 이용자교육", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "5/30, 접수 5/15~29, 10/12명 신청", "source_name": "유성구통합도서관" },
+        { "title": "진잠 오늘을 다르게 살게 하는 힘 읽기와 쓰기", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "6/9~23, 접수 ~5/30, 성인 대상", "source_name": "유성구통합도서관" },
+        { "title": "독서아카데미 2026년 초등 1,2학년", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "접수 마감 5/28, 초등 1~2학년", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성봄꽃전시회 유림공원 2026",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:06+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "유성구, 유림공원서 펼쳐지는 힐링 축제", "url": "https://www.koreatimenews.com/news/article.html?no=1144920", "snippet": "유림공원 봄꽃전시 ~5/31 진행 중", "source_name": "코리아타임뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 열한번째 트윙클 2026",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:07+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "3/18~6/21 진행 중", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클'", "url": "https://www.ggilbo.com/news/articleView.html?idxno=1142790", "snippet": "체험형 미술전시", "source_name": "금강일보" },
+        { "title": "대전시립미술관 공식 사이트", "url": "https://www.daejeon.go.kr/dma/index.do", "snippet": "대전시립미술관 전시 안내", "source_name": "대전시립미술관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 운석전시 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:08+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대, 가정의 달 5월 특별전시 개최", "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/", "snippet": "운석전시+기상기후사진전 ~5/31 무료", "source_name": "더에스엔에스타임" },
+        { "title": "대전시민천문대, '운석전시' 등 특별전시 연다", "url": "https://www.sedaily.com/article/20042838", "snippet": "운석 표본 공개, 태양계 역사 해설", "source_name": "서울경제" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "119시민체험센터 대전 소방안전체험 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:09+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "119시민체험센터 소개", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4461", "snippet": "화~토 운영, 일·월 휴무", "source_name": "대전소방본부" },
+        { "title": "소방체험안내", "url": "https://daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4462", "snippet": "체험 예약 2일 전까지", "source_name": "대전소방본부" },
+        { "title": "가족ON! 안전ON! 안전체험 데이", "url": "https://www.thesnstime.com/daejeon119siminceheomsenteo-gajeongyi-dal-maja-gajogon-anjeonon-anjeonceheom-dei-seonghwang/", "snippet": "가정의 달 안전체험 데이 성황", "source_name": "더에스엔에스타임" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 주민자치 프로그램 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:10+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "주민자치 프로그램 구체 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 피직스랩 2026",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:11+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "국립중앙과학관, 신규 물리체험 전시관 '피직스랩' 개관", "url": "https://www.news1.kr/local/daejeon-chungnam/6047996", "snippet": "1/23 개관, 33종 물리 체험", "source_name": "뉴스1" },
+        { "title": "온몸으로 느끼는 교과서 속 물리…'피직스 랩' 개관", "url": "https://v.daum.net/v/20260123103125992", "snippet": "체험형 물리 전시관", "source_name": "Daum뉴스" },
+        { "title": "물리로 세상을 체험하다, '피직스랩' 전격 개관", "url": "https://www.edu-focus.com/news/461944", "snippet": "과학기술관 1층 750㎡", "source_name": "교육포커스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "현대프리미엄아울렛 대전 팝업 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-27T07:00:12+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "팝업스토어 검색 - 데이포유", "url": "https://dayforyou.com/getScheduleList", "snippet": "현대프리미엄아울렛 대전 팝업 일정", "source_name": "데이포유" }
+      ]
+    }
+  ]
+}

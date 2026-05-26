@@ -1,0 +1,20 @@
+{
+  "id": "src-002",
+  "title": "공룡덕후박람회 D-3 (5/30~31) — 이번 주 토요일 개막",
+  "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47305",
+  "snippet": "세계 공룡의 날 공룡덕후박람회 5/30~31. D-3. 이융남 교수 강연, 제1대 공통령 선거, 올림피아드, 디노홀 초대전.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-27",
+  "tag": "update",
+  "related_report": "2026-05-26",
+  "related_item": "src-003 (2026-05-26)",
+  "tag_reason": "공룡덕후박람회 D-4→D-3 카운트다운 진행. 이번 주 토요일(5/30) 개막 3일 전.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

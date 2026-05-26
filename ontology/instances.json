@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-27",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -267,5 +267,21 @@
     { "id": "ent-evt-043", "update": "D-5 (5/30). 변동 없음. 다음 주 토요일." },
     { "id": "ent-evt-045", "update": "접수 마감 D-3 (5/28). 10명 정원." },
     { "id": "ent-evt-008", "update": "접수 마감 D-3 (5/28). 전회 기준 41/50명 (잔여 9명)." }
+  ],
+  "updates_2026_05_26": [
+    { "id": "ent-evt-034", "update": "종료 확정 (5/25 완료). 14일 추적 완료." },
+    { "id": "ent-evt-027", "update": "Day 4 첫 평일 진입. 주말 종료, 평일 운영. 12명 브릭작가 해설·업사이클링 계속." },
+    { "id": "ent-evt-028", "update": "D-4 (5/30~31). 이번 주 토요일." },
+    { "id": "ent-evt-043", "update": "D-4 (5/30). 이번 주 토요일." },
+    { "id": "ent-evt-045", "update": "접수 마감 D-2 (5/28 수)." },
+    { "id": "ent-evt-008", "update": "접수 마감 D-2 (5/28 수). 전회 기준 41/50명 (잔여 9명)." }
+  ],
+  "updates_2026_05_27": [
+    { "id": "ent-evt-027", "update": "Day 5 두 번째 평일. 주말 대비 한산. 12명 브릭작가 해설·업사이클링 계속. 잔여 4일(5/31 종료)." },
+    { "id": "ent-evt-028", "update": "D-3 (5/30~31). 이번 주 토요일 개막까지 3일." },
+    { "id": "ent-evt-043", "update": "D-3 (5/30). 이번 주 토요일. 공룡덕후와 동일일 4종 콤보." },
+    { "id": "ent-evt-045", "update": "접수 마감 D-1 최긴급 (내일 5/28 마감). 10명 정원." },
+    { "id": "ent-evt-008", "update": "접수 마감 D-1 최긴급 (내일 5/28 마감). 전회 기준 41/50명 (잔여 9명)." },
+    { "id": "ent-evt-040", "update": "119시민체험센터 화요일 운영 재개 (어제 월요일 휴무). 화~토 09:30~11:30/13:30~15:30." }
   ]
 }

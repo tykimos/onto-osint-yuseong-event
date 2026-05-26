@@ -1,0 +1,21 @@
+{
+  "id": "src-001",
+  "title": "사이언스 브릭파티 Day 5 — 두 번째 평일 (5/23~31)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "사이언스 브릭파티 5/23~31 운영. Day 5 두 번째 평일. 브릭작가 해설, 업사이클링 클래스, 전통과학 브릭작품 전시 계속.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-27",
+  "tag": "update",
+  "related_report": "2026-05-26",
+  "related_item": "src-002 (2026-05-26)",
+  "tag_reason": "브릭파티 Day 4→Day 5 상태 전환. 내용 변동 없으나 D-day 카운트 변경.",
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

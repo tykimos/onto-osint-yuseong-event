@@ -1,0 +1,18 @@
+{
+  "id": "src-009",
+  "title": "진잠도서관 숏폼 클래스 (6/4~25) — 접수 마감 D-1 (5/28)",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "snippet": "진잠도서관 K-도서관 공익 숏폼 영상 제작 클래스. 접수 마감 내일(5/28). 초등 4~6학년 대상, 정원 10명. 6/4~25 매주 수요일.",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "discovered_date": "2026-05-27",
+  "tag": "update",
+  "related_report": "2026-05-26",
+  "related_item": "src-010 (2026-05-26)",
+  "tag_reason": "접수 마감 D-2→D-1 카운트다운 진행. 내일(5/28) 마감 최긴급.",
+  "entities": [
+    { "id": "ent-evt-045", "type": "Event", "name": "숏폼 영상 제작 클래스" },
+    { "id": "ent-org-004", "type": "Organization", "name": "유성구통합도서관" }
+  ],
+  "relations": []
+}

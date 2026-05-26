@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-27",
+  "auditor_run_at": "2026-05-27T07:00:00+09:00",
+  "three_category_coverage": {
+    "events": { "covered": true, "count": 4, "note": "브릭파티 Day 5, 공룡덕후 D-3, 건축특강 D-3, 접수마감 D-1 2건" },
+    "shops": { "covered": true, "count": 2, "note": "무브먼트랩·헌터 팝업 2건 활성 (잔여 4일)" },
+    "public_institutions": { "covered": true, "count": 1, "note": "119시민체험센터 화요일 운영 재개" }
+  },
+  "active_shops_in_report": {
+    "total_active": 2,
+    "in_report": 2,
+    "missing": [],
+    "status": "PASS"
+  },
+  "manual_seeds_visibility": {
+    "total_seeds": 3,
+    "visible_in_report": 3,
+    "status": "PASS"
+  },
+  "patches_applied": [],
+  "overall_status": "PASS",
+  "notes": "3종 의무 커버 충족. 활성 가게 2건 보고서 노출 확인. manual_seeds 3건 처리 현황 표시 확인."
+}
