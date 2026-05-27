@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1658,9 +1658,23 @@
     { "subject": "ent-evt-043", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.85, "added": "2026-05-24", "rule": "same_dong_combo", "note": "건축특강 + 공룡덕후 5/30 유지" },
     { "subject": "ent-evt-027", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-24", "rule": "operator_kid_friendliness", "note": "유지" }
   ],
+  "edges_added_2026_05_28": [
+    { "subject": "ent-evt-027", "predicate": "status", "object": "Day 6 세 번째 평일 수요일", "type": "explicit", "confidence": 0.99, "added": "2026-05-28" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-2 (5/30~31 모레)", "type": "explicit", "confidence": 0.99, "added": "2026-05-28" },
+    { "subject": "ent-evt-028", "predicate": "media_source", "object": "한눈에 보기 YouTube (14번째 매체)", "type": "explicit", "confidence": 0.90, "added": "2026-05-28", "note": "https://www.youtube.com/watch?v=9gP975mQS1Q" },
+    { "subject": "ent-evt-043", "predicate": "status", "object": "D-2 (5/30 모레)", "type": "explicit", "confidence": 0.99, "added": "2026-05-28" },
+    { "subject": "ent-evt-045", "predicate": "status", "object": "접수마감 D-day (오늘 5/28 마감)", "type": "explicit", "confidence": 0.99, "added": "2026-05-28" },
+    { "subject": "ent-evt-008", "predicate": "status", "object": "접수마감 D-day (오늘 5/28 마감)", "type": "explicit", "confidence": 0.99, "added": "2026-05-28" },
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.95, "added": "2026-05-28", "rule": "same_dong_combo", "note": "수요일 평일 3종 콤보 유지" },
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-037", "type": "inferred", "confidence": 0.85, "added": "2026-05-28", "rule": "same_dong_combo", "note": "브릭파티+천문대 전시 도룡동 콤보" },
+    { "subject": "ent-evt-028", "predicate": "saturdayPeak", "object": "5/30(토) 4종 동시 최대 밀집일", "type": "inferred", "confidence": 0.90, "added": "2026-05-28", "rule": "temporal_concentration" },
+    { "subject": "ent-evt-043", "predicate": "saturdayPeak", "object": "5/30(토) 4종 동시 최대 밀집일", "type": "inferred", "confidence": 0.90, "added": "2026-05-28", "rule": "temporal_concentration" },
+    { "subject": "ent-evt-045", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "added": "2026-05-28", "rule": "registration_deadline_urgency", "note": "D-day 최고 긴급도" },
+    { "subject": "ent-evt-008", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "added": "2026-05-28", "rule": "registration_deadline_urgency", "note": "D-day 최고 긴급도" }
+  ],
   "stats": {
     "total_nodes": 133,
-    "total_edges": 145,
-    "total_triples": 362
+    "total_edges": 157,
+    "total_triples": 374
   }
 }

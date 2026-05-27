@@ -1,0 +1,17 @@
+{
+  "id": "src-004",
+  "date": "2026-05-28",
+  "title": "숏폼 클래스 접수 D-day 마감 — 오늘 5/28 마감",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "tag": "update",
+  "tag_reason": "접수 마감 D-1에서 D-day로 전환. 오늘(5/28 수)이 마지막 접수일.",
+  "entities": ["ent-evt-045", "ent-org-004"],
+  "key_facts": [
+    "함께 만드는 우리의 세계 (공익 숏폼 영상 제작)",
+    "접수 마감: 2026-05-28 D-day",
+    "정원 10명, 초등 4~6학년 대상",
+    "프로그램: 6/4~25, 진잠도서관 K-도서관"
+  ]
+}

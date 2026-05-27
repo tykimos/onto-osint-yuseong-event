@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -283,5 +283,12 @@
     { "id": "ent-evt-045", "update": "접수 마감 D-1 최긴급 (내일 5/28 마감). 10명 정원." },
     { "id": "ent-evt-008", "update": "접수 마감 D-1 최긴급 (내일 5/28 마감). 전회 기준 41/50명 (잔여 9명)." },
     { "id": "ent-evt-040", "update": "119시민체험센터 화요일 운영 재개 (어제 월요일 휴무). 화~토 09:30~11:30/13:30~15:30." }
+  ],
+  "updates_2026_05_28": [
+    { "id": "ent-evt-027", "update": "Day 6 세 번째 평일 수요일. 잔여 3일(5/31 종료). 주말(5/30~31) 전 마지막 한산 관람 기회. 브릭파티+피직스랩+천문대 전시 3종 콤보 가능." },
+    { "id": "ent-evt-028", "update": "D-2 (5/30~31). 모레 토요일 개막. 한눈에 보기 YouTube 영상 신규 매체 추가(14번째). 5/30(토) 4종 동시 운영 최대 밀집일 D-2." },
+    { "id": "ent-evt-043", "update": "D-2 (5/30). 모레 토요일. 공룡덕후와 동일일 동일장소." },
+    { "id": "ent-evt-045", "update": "접수 마감 D-day (오늘 5/28 수 마감). 10명 정원. 오늘 중 신청 완료 필요." },
+    { "id": "ent-evt-008", "update": "접수 마감 D-day (오늘 5/28 수 마감). 전회 기준 41/50명 (잔여 9명). 오늘 중 추가모집 신청 완료 필요." }
   ]
 }

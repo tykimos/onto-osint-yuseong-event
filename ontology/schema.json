@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-27",
+  "last_updated": "2026-05-28",
   "classes": [
     {
       "id": "Entity",
@@ -342,6 +342,13 @@
       "target": "Event(ent-evt-027 브릭파티 Day 5 두 번째 평일, ent-evt-028 공룡덕후 D-3, ent-evt-043 건축특강 D-3, ent-evt-045 숏폼 접수 D-1, ent-evt-008 독서아카데미 접수 D-1, ent-evt-040 119시민체험센터 화요일 운영 재개)",
       "reason": "화요일. 브릭파티 Day 5 두 번째 평일. 공룡덕후·건축특강 D-3(이번 주 토요일 5/30). 숏폼·독서아카데미 접수 마감 D-1 최긴급(내일 5/28 마감). 119시민체험센터 어제(월) 휴무에서 오늘(화) 운영 재개. K-도서관 이용자교육 접수 현황 10/12명 최초 확인. 신규 엔티티 없음.",
       "source_ids": ["src-001", "src-002", "src-008", "src-009"]
+    },
+    {
+      "date": "2026-05-28",
+      "action": "update_instances",
+      "target": "Event(ent-evt-027 브릭파티 Day 6 세 번째 평일, ent-evt-028 공룡덕후 D-2 한눈에보기 영상 매체 추가, ent-evt-043 건축특강 D-2, ent-evt-045 숏폼 접수 D-day 마감, ent-evt-008 독서아카데미 접수 D-day 마감)",
+      "reason": "수요일. 브릭파티 Day 6 세 번째 평일. 공룡덕후·건축특강 D-2(모레 토요일). 숏폼·독서아카데미 접수 마감 D-day(오늘 마감). K-도서관 이용자교육 D-1 진입(내일 5/29 마감, 잔여 2명). 공룡덕후 공식 한눈에 보기 YouTube 영상 신규 매체. 신규 엔티티 없음.",
+      "source_ids": ["src-001", "src-002", "src-003", "src-004", "src-005"]
     }
   ]
 }

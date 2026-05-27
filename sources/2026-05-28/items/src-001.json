@@ -1,0 +1,16 @@
+{
+  "id": "src-001",
+  "date": "2026-05-28",
+  "title": "사이언스 브릭파티 Day 6 — 세 번째 평일 수요일 (5/23~31)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "tag": "update",
+  "tag_reason": "전일(Day 5 두 번째 평일)에서 Day 6 세 번째 평일 수요일로 진행일 전환. 콘텐츠 변동 없음.",
+  "entities": ["ent-evt-027", "ent-venue-005", "ent-org-006"],
+  "key_facts": [
+    "브릭파티 5/23~31 운영중 Day 6",
+    "12명 브릭작가 해설, 업사이클링 클래스, 전통과학 브릭작품 전시",
+    "평일 수요일 한산 — 피직스랩·천문대 전시와 3종 콤보 가능"
+  ]
+}

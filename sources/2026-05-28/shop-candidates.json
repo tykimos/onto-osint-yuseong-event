@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-28",
+  "agent": "shop-scout",
+  "config_window_days": 50,
+  "target_date": "2026-05-28",
+  "window_start": "2026-04-08",
+  "manual_seeds_processed": [],
+  "manual_seeds_pending": [],
+  "active_shops_reverified": [
+    {
+      "id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "last_verified": "2026-05-24",
+      "days_since_verified": 4,
+      "reverification_needed": false,
+      "note": "7일 미도달 — 재검증 불필요. 팝업 종료일 5/31 확정, 잔여 3일."
+    },
+    {
+      "id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "last_verified": "2026-05-24",
+      "days_since_verified": 4,
+      "reverification_needed": false,
+      "note": "7일 미도달 — 재검증 불필요. 팝업 종료일 5/31 확정, 잔여 3일."
+    }
+  ],
+  "new_candidates": [],
+  "discovery_queries_run": [
+    "용산동 신규 오픈",
+    "전민동 새로 생긴",
+    "관평동 카페 신규",
+    "관평동 식당 오픈",
+    "문지동 가게",
+    "용성로 오픈",
+    "용성로 카페",
+    "유성구 신규 오픈 카페 식당 2026년 5월"
+  ],
+  "discovery_result": "금일 신규 오픈 가게 후보 발견 없음. 검색된 결과는 모두 기존 매장이거나 50일 윈도우 외 가게.",
+  "summary": {
+    "new_candidates_count": 0,
+    "reverified_count": 0,
+    "manual_seeds_resolved": 0,
+    "manual_seeds_still_pending": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "src-003",
+  "date": "2026-05-28",
+  "title": "건축특강 '선넘는 높이' D-2 (5/30) — 모레 토요일",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "tag": "update",
+  "tag_reason": "D-3에서 D-2로 카운트다운. 5/30 공룡덕후박람회와 동일일.",
+  "entities": ["ent-evt-043", "ent-venue-005"],
+  "key_facts": [
+    "시리즈 1: 선넘는 높이 건축 특별강연 5/30, D-2",
+    "국립중앙과학관 내래홀, 사전접수 필요",
+    "공룡덕후박람회·브릭파티·피직스랩과 4종 동시 운영"
+  ]
+}

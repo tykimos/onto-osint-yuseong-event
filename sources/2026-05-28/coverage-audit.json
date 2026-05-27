@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-28",
+  "agent": "shop-coverage-auditor",
+  "audit_result": "PASS",
+  "checks": {
+    "active_shops_in_report": {
+      "status": "PASS",
+      "expected": 2,
+      "found": 2,
+      "details": [
+        { "id": "shop-popup-movementlab-001", "name": "무브먼트랩 팝업 IN 대전", "in_report": true },
+        { "id": "shop-popup-hunter-002", "name": "헌터 팝업 IN 대전", "in_report": true }
+      ]
+    },
+    "three_category_coverage": {
+      "status": "PASS",
+      "categories": {
+        "event": { "count": 5, "items": ["브릭파티 Day 6", "공룡덕후 D-2", "건축특강 D-2", "숏폼 D-day", "독서아카데미 D-day"] },
+        "shop": { "count": 2, "items": ["무브먼트랩 팝업", "헌터 팝업"] },
+        "public_institution": { "count": 3, "items": ["119시민체험센터 수요일 운영", "도서관 접수 D-day/D-1", "보건소 튼튼스쿨(하반기)"] }
+      }
+    },
+    "manual_seeds_visibility": {
+      "status": "PASS",
+      "seeds_total": 3,
+      "seeds_in_report": 3,
+      "details": [
+        { "name": "엉클부대찌개 테크노점", "status": "resolved_not_new", "visible": true },
+        { "name": "인터뷰커피라운지", "status": "resolved_not_new", "visible": true },
+        { "name": "유성닭발 관평점", "status": "excluded", "visible": true }
+      ]
+    }
+  },
+  "patches_applied": 0,
+  "note": "모든 검증 통과. active_shops 2건 보고서 의무 노출 확인, 3종 의무 커버 충족, manual_seeds 처리 현황 가시화 확인."
+}

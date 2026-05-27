@@ -1,0 +1,21 @@
+{
+  "id": "src-002",
+  "date": "2026-05-28",
+  "title": "공룡덕후박람회 D-2 (5/30~31) — 모레 토요일 개막",
+  "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "tag": "update",
+  "tag_reason": "D-3에서 D-2로 카운트다운 진행. 한눈에 보기 YouTube 영상(14번째 매체) 신규 발견.",
+  "entities": ["ent-evt-028", "ent-venue-005", "ent-org-006"],
+  "key_facts": [
+    "공룡덕후박람회 5/30~31, D-2",
+    "공식 한눈에 보기 YouTube 영상 공개 (https://www.youtube.com/watch?v=9gP975mQS1Q)",
+    "공통령 선거 상세 안내 별도 게시 (nttSn=47381)",
+    "5/30(토) = 공룡덕후+건축특강+브릭파티+피직스랩 4종 동시 운영 최대 밀집일 D-2"
+  ],
+  "additional_sources": [
+    { "url": "https://www.youtube.com/watch?v=9gP975mQS1Q", "source_name": "국립중앙과학관 YouTube", "title": "공룡덕후박람회 한눈에 보기" },
+    { "url": "https://www.science.go.kr/mps/0/bbs/208/moveBbsNttDetail.do?nttSn=47381", "source_name": "국립중앙과학관", "title": "공통령 선거 상세 안내" }
+  ]
+}

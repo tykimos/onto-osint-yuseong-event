@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-28",
+  "nodes": [
+    { "id": "ent-evt-027", "type": "Event", "label": "브릭파티 Day 6" },
+    { "id": "ent-evt-028", "type": "Event", "label": "공룡덕후 D-2" },
+    { "id": "ent-evt-041", "type": "Event", "label": "피직스랩 상시" },
+    { "id": "ent-evt-043", "type": "Event", "label": "건축특강 D-2" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 접수 D-day" },
+    { "id": "ent-evt-008", "type": "Event", "label": "독서아카데미 접수 D-day" },
+    { "id": "ent-evt-033", "type": "Event", "label": "유성봄꽃전시회 D-3" },
+    { "id": "ent-evt-039", "type": "Event", "label": "트윙클 ~6/21" },
+    { "id": "ent-evt-037", "type": "Event", "label": "천문대 전시 D-3" },
+    { "id": "ent-evt-040", "type": "Event", "label": "119시민체험센터" },
+    { "id": "ent-venue-005", "type": "Venue", "label": "국립중앙과학관" },
+    { "id": "ent-venue-026", "type": "Venue", "label": "피직스랩" },
+    { "id": "ent-venue-017", "type": "Venue", "label": "119시민체험센터" },
+    { "id": "ent-venue-006", "type": "Venue", "label": "대전시민천문대" },
+    { "id": "ent-venue-023", "type": "Venue", "label": "유림공원" },
+    { "id": "ent-org-006", "type": "Organization", "label": "국립중앙과학관" },
+    { "id": "ent-org-004", "type": "Organization", "label": "유성구통합도서관" },
+    { "id": "dong-doryong", "type": "Dong", "label": "도룡동" },
+    { "id": "sat-0530", "type": "TemporalAnchor", "label": "5/30 토요일 최대 밀집일" },
+    { "id": "deadline-today", "type": "TemporalAnchor", "label": "5/28 접수 마감 D-day" }
+  ],
+  "triples": [
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-041", "predicate": "hostsAt", "object": "ent-venue-026" },
+    { "subject": "ent-evt-043", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017" },
+    { "subject": "ent-evt-033", "predicate": "hostsAt", "object": "ent-venue-023" },
+    { "subject": "ent-evt-037", "predicate": "hostsAt", "object": "ent-venue-006" },
+    { "subject": "ent-org-006", "predicate": "operates", "object": "ent-venue-005" },
+    { "subject": "ent-org-006", "predicate": "operates", "object": "ent-venue-026" },
+    { "subject": "ent-venue-005", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "ent-venue-026", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "ent-venue-006", "predicate": "locatedIn", "object": "dong-doryong" },
+    { "subject": "ent-evt-045", "predicate": "organizedBy", "object": "ent-org-004" },
+    { "subject": "ent-evt-008", "predicate": "organizedBy", "object": "ent-org-004" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-041", "rule": "same_dong_combo", "confidence": 0.95 },
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-037", "rule": "same_dong_combo", "confidence": 0.85 },
+    { "subject": "ent-evt-028", "predicate": "saturdayPeak", "object": "sat-0530", "rule": "temporal_concentration", "confidence": 0.90 },
+    { "subject": "ent-evt-043", "predicate": "saturdayPeak", "object": "sat-0530", "rule": "temporal_concentration", "confidence": 0.90 },
+    { "subject": "ent-evt-027", "predicate": "saturdayPeak", "object": "sat-0530", "rule": "temporal_concentration", "confidence": 0.90 },
+    { "subject": "ent-evt-041", "predicate": "saturdayPeak", "object": "sat-0530", "rule": "temporal_concentration", "confidence": 0.90 },
+    { "subject": "ent-evt-045", "predicate": "deadlineToday", "object": "deadline-today", "rule": "deadline_urgency", "confidence": 0.95 },
+    { "subject": "ent-evt-008", "predicate": "deadlineToday", "object": "deadline-today", "rule": "deadline_urgency", "confidence": 0.95 }
+  ],
+  "new_triples_count": 0,
+  "inferred_triples_count": 8
+}

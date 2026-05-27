@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-28",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "update": "Day 5 두 번째 평일 → Day 6 세 번째 평일 수요일",
+      "source_ids": ["src-001"]
+    },
+    {
+      "id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "update": "D-3 → D-2. 한눈에 보기 YouTube 영상 신규 매체(science.go.kr YouTube, 14번째 매체)",
+      "source_ids": ["src-002"]
+    },
+    {
+      "id": "ent-evt-043",
+      "type": "Event",
+      "name": "건축특강 '선넘는 높이'",
+      "update": "D-3 → D-2",
+      "source_ids": ["src-003"]
+    },
+    {
+      "id": "ent-evt-045",
+      "type": "Event",
+      "name": "숏폼 클래스",
+      "update": "접수 마감 D-1 → D-day 마감 (오늘 5/28)",
+      "source_ids": ["src-004"]
+    },
+    {
+      "id": "ent-evt-008",
+      "type": "Event",
+      "name": "미래산업 독서아카데미",
+      "update": "접수 마감 D-1 → D-day 마감 (오늘 5/28)",
+      "source_ids": ["src-005"]
+    }
+  ],
+  "unchanged_entities": [
+    { "id": "ent-evt-033", "name": "유성봄꽃전시회", "note": "진행중 ~5/31, D-3" },
+    { "id": "ent-evt-039", "name": "열한번째 트윙클", "note": "진행중 ~6/21" },
+    { "id": "ent-evt-037", "name": "천문대 운석전시", "note": "진행중 ~5/31, D-3" },
+    { "id": "ent-evt-038", "name": "천문대 기상기후사진전", "note": "진행중 ~5/31, D-3" },
+    { "id": "ent-evt-041", "name": "피직스랩 상시 체험", "note": "운영중" },
+    { "id": "ent-evt-040", "name": "119시민체험센터 안전체험", "note": "수요일 운영 (화~토)" }
+  ],
+  "relations": [],
+  "distance_estimates": [],
+  "kid_friendly_scores": [],
+  "total_new": 0,
+  "total_updated": 5,
+  "total_unchanged": 6
+}
