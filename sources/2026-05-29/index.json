@@ -1,0 +1,85 @@
+{
+  "date": "2026-05-29",
+  "total_sources": 12,
+  "new_items": 1,
+  "updated_items": 6,
+  "items": [
+    {
+      "id": "src-001",
+      "file": "items/src-001.json",
+      "title": "국립중앙과학관 행사안내",
+      "type": "official_website",
+      "relevance": "high"
+    },
+    {
+      "id": "src-002",
+      "file": "items/src-002.json",
+      "title": "월간 미래 5월호 가디언즈: 빛의 수호자들 예약",
+      "type": "official_website",
+      "relevance": "high",
+      "is_new": true
+    },
+    {
+      "id": "src-003",
+      "file": "items/src-003.json",
+      "title": "공룡덕후박람회 상세 안내",
+      "type": "official_website",
+      "relevance": "high"
+    },
+    {
+      "id": "src-004",
+      "file": "items/src-004.json",
+      "title": "유성구통합도서관 행사신청",
+      "type": "official_website",
+      "relevance": "high"
+    },
+    {
+      "id": "src-005",
+      "title": "대전시민천문대 운석전시 등 특별전시",
+      "type": "news",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-006",
+      "title": "대전시립미술관 열한번째 트윙클",
+      "type": "news",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-007",
+      "title": "대전소방본부 소방체험 교육신청",
+      "type": "official_website",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-008",
+      "title": "유성봄꽃전시회",
+      "type": "official_website",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-009",
+      "title": "공룡덕후박람회 한눈에 보기 YouTube",
+      "type": "video",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-010",
+      "title": "데이포유 팝업스토어 일정",
+      "type": "aggregator",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-011",
+      "title": "에듀모닝 공룡덕후 박람회 상세",
+      "type": "news",
+      "relevance": "medium"
+    },
+    {
+      "id": "src-012",
+      "title": "국립중앙과학관 웹진 월간미래",
+      "type": "official_website",
+      "relevance": "medium"
+    }
+  ]
+}

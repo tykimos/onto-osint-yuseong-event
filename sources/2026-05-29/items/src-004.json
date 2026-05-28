@@ -1,0 +1,61 @@
+{
+  "id": "src-004",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "title": "유성구통합도서관 행사신청",
+  "source_type": "official_website",
+  "language": "ko",
+  "fetched_at": "2026-05-29T07:00:00+09:00",
+  "events_mentioned": [
+    {
+      "name": "[진잠] K-도서관 5월 이용자교육",
+      "dates": "2026-05-30",
+      "registration_deadline": "2026-05-29",
+      "capacity": "12명",
+      "registered": 10,
+      "remaining": 2,
+      "status": "접수 D-day 마감 (오늘)"
+    },
+    {
+      "name": "[유성] 작가와의 만남",
+      "dates": "2026-06-20",
+      "registration_period": "2026-05-27 ~ 2026-06-19",
+      "capacity": "35명",
+      "registered": 20,
+      "remaining": 15,
+      "status": "접수중 (신규 발견)",
+      "target": "성인"
+    },
+    {
+      "name": "[관평] 도서관의 날 북 콘서트",
+      "dates": "2026-06-13",
+      "registration_period": "2026-05-26 ~ 2026-06-11",
+      "capacity": "100명",
+      "registered": 59,
+      "remaining": 41,
+      "status": "접수중 (신규 발견)",
+      "target": "청소년·성인"
+    },
+    {
+      "name": "[유성] 봄 문화교실: 클래식 음악",
+      "dates": "2026-06-10 ~ 2026-07-01",
+      "registration_period": "2026-05-19 ~ 2026-06-19",
+      "capacity": "50명",
+      "registered": 49,
+      "remaining": 1,
+      "status": "접수중 (마감 임박, 잔여 1명)",
+      "target": "성인"
+    },
+    {
+      "name": "[유성] 숏폼 클래스 (공익 영상 제작)",
+      "registration_deadline": "2026-05-28",
+      "status": "접수 마감 완료 (어제)"
+    },
+    {
+      "name": "[유성] 미래산업 독서아카데미",
+      "registration_deadline": "2026-05-28",
+      "status": "접수 마감 완료 (어제)"
+    }
+  ],
+  "confidence": 0.90,
+  "notes": "K-도서관 이용자교육 D-day 마감 (잔여 2명). 도서관의 날 북 콘서트·작가와의 만남은 성인 대상으로 어린이 친화도 낮음 — 보고서 참고 정보로만 반영."
+}

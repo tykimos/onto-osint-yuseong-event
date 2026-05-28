@@ -1,0 +1,26 @@
+{
+  "id": "src-002",
+  "url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401",
+  "title": "월간 미래 5월호 「가디언즈: 빛의 수호자들」 예약 페이지",
+  "source_type": "official_website",
+  "language": "ko",
+  "fetched_at": "2026-05-29T07:00:00+09:00",
+  "events_mentioned": [
+    {
+      "name": "월간 미래 5월호 「가디언즈: 빛의 수호자들」",
+      "dates": "2026-05-31",
+      "time": "11:00~17:00",
+      "venue": "국립중앙과학관 미래기술관 2층",
+      "fee": "무료",
+      "capacity": "회차당 20명, 일 9회차 (총 180명)",
+      "format": "교육 10분 + 체험 20분, 10명 vs 10명 팀전",
+      "age_restriction": "키 120cm 이상 (현장 확인)",
+      "reservation": "사전예약 필수 (현장접수 불가), 1인당 최대 2명",
+      "reservation_period": "2026-05-25 11:00 ~ 2026-05-31 17:00",
+      "notes": "시작 10분 전 도착 필수, 미도착 시 예약 취소"
+    }
+  ],
+  "confidence": 0.95,
+  "is_new": true,
+  "notes": "국립중앙과학관 통합예약 누리집에서 발견. 5/31 당일만 운영. 공룡덕후 Day 2와 동일일 콤보 가능."
+}

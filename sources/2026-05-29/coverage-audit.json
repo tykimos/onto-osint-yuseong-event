@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-29",
+  "auditor": "shop-coverage-auditor",
+  "report_file": "reports/2026/05/2026-05-29.md",
+  "checks": {
+    "active_shops_in_report": {
+      "status": "pass",
+      "active_shops_count": 2,
+      "shops_in_report": 2,
+      "missing": [],
+      "details": [
+        { "id": "shop-popup-movementlab-001", "name": "무브먼트랩 팝업 IN 대전", "found_in_report": true },
+        { "id": "shop-popup-hunter-002", "name": "헌터 팝업 IN 대전", "found_in_report": true }
+      ]
+    },
+    "three_category_coverage": {
+      "status": "pass",
+      "categories": {
+        "children_family_events": {
+          "covered": true,
+          "count": 7,
+          "examples": ["가디언즈(신규)", "공룡덕후 D-1", "브릭파티 Day 7", "피직스랩", "119시민체험센터", "유성봄꽃전시회", "트윙클"]
+        },
+        "shops_promotions": {
+          "covered": true,
+          "count": 2,
+          "examples": ["무브먼트랩 팝업", "헌터 팝업"]
+        },
+        "public_institution_events": {
+          "covered": true,
+          "count": 2,
+          "examples": ["119시민체험센터 소방안전체험", "K-도서관 이용자교육"]
+        }
+      }
+    },
+    "manual_seeds_visibility": {
+      "status": "pass",
+      "seeds_count": 3,
+      "seeds_in_report": 3,
+      "details": [
+        { "name": "엉클부대찌개 테크노점", "status": "resolved_not_new", "visible": true },
+        { "name": "인터뷰커피라운지", "status": "resolved_not_new", "visible": true },
+        { "name": "유성닭발 관평점", "status": "excluded", "visible": true }
+      ]
+    }
+  },
+  "patches_applied": [],
+  "overall_status": "pass",
+  "notes": "모든 검증 통과. 활성 가게 2건 모두 보고서에 포함. 3종 의무 커버(이벤트/가게/공공기관) 충족. manual_seeds 3건 모두 가시화."
+}

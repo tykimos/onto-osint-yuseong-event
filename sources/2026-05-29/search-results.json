@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-29",
+  "search_count": 12,
+  "engines_used": ["google", "naver", "daum"],
+  "queries": [
+    { "q": "유성구 어린이 가족 행사 2026년 5월 29일", "engine": "google", "results": 9, "relevant": 0 },
+    { "q": "국립중앙과학관 공룡덕후박람회 2026년 5월", "engine": "google", "results": 10, "relevant": 5 },
+    { "q": "유성구 신규 오픈 가게 카페 2026년 5월", "engine": "google", "results": 9, "relevant": 0 },
+    { "q": "유성구 도서관 프로그램 접수 2026년 5월", "engine": "google", "results": 10, "relevant": 4 },
+    { "q": "국립중앙과학관 사이언스 브릭파티 2026년 5월", "engine": "google", "results": 10, "relevant": 3 },
+    { "q": "유성구 보건소 복지관 행정복지센터 행사 2026년 5월", "engine": "google", "results": 10, "relevant": 1 },
+    { "q": "대전 유성구 팝업스토어 원데이클래스 2026년 5월", "engine": "google", "results": 9, "relevant": 2 },
+    { "q": "유성봄꽃전시회 2026 유림공원", "engine": "google", "results": 9, "relevant": 1 },
+    { "q": "국립중앙과학관 행사 2026년 5월 30일 31일", "engine": "google", "results": 10, "relevant": 4 },
+    { "q": "119시민체험센터 대전 소방안전체험 2026", "engine": "google", "results": 8, "relevant": 3 },
+    { "q": "대전시민천문대 운석전시 기상기후사진전 2026", "engine": "google", "results": 10, "relevant": 2 },
+    { "q": "국립중앙과학관 월간 미래 가디언즈 빛의 수호자 2026", "engine": "google", "results": 10, "relevant": 2 }
+  ],
+  "sources_fetched": [
+    { "id": "src-001", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "title": "국립중앙과학관 행사안내", "fetched": true },
+    { "id": "src-002", "url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401", "title": "월간 미래 5월호 가디언즈: 빛의 수호자들 예약", "fetched": true },
+    { "id": "src-003", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354", "title": "공룡덕후박람회 상세", "fetched": true },
+    { "id": "src-004", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "title": "유성구통합도서관 행사신청", "fetched": true },
+    { "id": "src-005", "url": "https://www.sedaily.com/article/20042838", "title": "대전시민천문대 운석전시 등 특별전시", "fetched": true },
+    { "id": "src-006", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "title": "대전시립미술관 열한번째 트윙클", "fetched": true },
+    { "id": "src-007", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092", "title": "대전소방본부 소방체험 교육신청", "fetched": true },
+    { "id": "src-008", "url": "https://daejeontour.co.kr/festival_djt/33", "title": "유성봄꽃전시회", "fetched": true },
+    { "id": "src-009", "url": "https://www.youtube.com/watch?v=9gP975mQS1Q", "title": "공룡덕후박람회 한눈에 보기 YouTube", "fetched": false },
+    { "id": "src-010", "url": "https://www.dayforyou.com/getScheduleList", "title": "데이포유 팝업스토어", "fetched": true },
+    { "id": "src-011", "url": "https://edumorning.com/articles/601", "title": "에듀모닝 공룡덕후 박람회 상세", "fetched": true },
+    { "id": "src-012", "url": "https://www.science.go.kr/webzine/793/exhi.html", "title": "국립중앙과학관 웹진 월간미래", "fetched": true }
+  ],
+  "categories_covered": {
+    "children_family_events": true,
+    "shops_promotions": true,
+    "public_institution_events": true
+  },
+  "new_items_found": 1,
+  "updated_items": 6,
+  "notes": "신규 발견 1건: 월간 미래 5월호 '가디언즈: 빛의 수호자들' (5/31, 미래기술관 2층, 무료, 키 120cm 이상). 기존 추적 항목 6건 상태 업데이트. 가게(Shop) 신규 발견 없음."
+}

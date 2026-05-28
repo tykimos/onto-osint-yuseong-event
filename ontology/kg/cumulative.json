@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1565,7 +1565,8 @@
     { "id": "ent-evt-042", "type": "Event", "label": "블록 코딩 전통과학기술 클래스" },
     { "id": "ent-evt-043", "type": "Event", "label": "시리즈 1: 선넘는 높이 건축 특별강연" },
     { "id": "ent-evt-044", "type": "Event", "label": "아이들은 놀기 위해 세상에 온다 (부모특강)" },
-    { "id": "ent-evt-045", "type": "Event", "label": "함께 만드는 우리의 세계 (숏폼 영상 제작)" }
+    { "id": "ent-evt-045", "type": "Event", "label": "함께 만드는 우리의 세계 (숏폼 영상 제작)" },
+    { "id": "ent-evt-046", "type": "Event", "label": "월간 미래 5월호 「가디언즈: 빛의 수호자들」" }
   ],
   "edges_added_2026_05_15": [
     { "subject": "ent-evt-040", "predicate": "hostsAt", "object": "ent-venue-017", "type": "explicit", "confidence": 0.90, "added": "2026-05-15" },
@@ -1670,11 +1671,21 @@
     { "subject": "ent-evt-028", "predicate": "saturdayPeak", "object": "5/30(토) 4종 동시 최대 밀집일", "type": "inferred", "confidence": 0.90, "added": "2026-05-28", "rule": "temporal_concentration" },
     { "subject": "ent-evt-043", "predicate": "saturdayPeak", "object": "5/30(토) 4종 동시 최대 밀집일", "type": "inferred", "confidence": 0.90, "added": "2026-05-28", "rule": "temporal_concentration" },
     { "subject": "ent-evt-045", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "added": "2026-05-28", "rule": "registration_deadline_urgency", "note": "D-day 최고 긴급도" },
-    { "subject": "ent-evt-008", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "added": "2026-05-28", "rule": "registration_deadline_urgency", "note": "D-day 최고 긴급도" }
+    { "subject": "ent-evt-008", "predicate": "urgencyBoost", "object": "+0.4", "type": "inferred", "confidence": 0.98, "added": "2026-05-28", "rule": "registration_deadline_urgency", "note": "D-day 최고 긴급도" },
+    { "subject": "ent-evt-046", "predicate": "hostsAt", "object": "ent-venue-005", "type": "direct", "confidence": 0.95, "added": "2026-05-29", "source": "src-002" },
+    { "subject": "ent-evt-046", "predicate": "organizedBy", "object": "ent-org-006", "type": "direct", "confidence": 0.95, "added": "2026-05-29", "source": "src-002" },
+    { "subject": "ent-evt-046", "predicate": "targetsAgeGroup", "object": "age-elem-low", "type": "direct", "confidence": 0.80, "added": "2026-05-29", "source": "src-002" },
+    { "subject": "ent-evt-046", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "direct", "confidence": 0.90, "added": "2026-05-29", "source": "src-002" },
+    { "subject": "ent-evt-046", "predicate": "targetsAgeGroup", "object": "age-family", "type": "direct", "confidence": 0.85, "added": "2026-05-29", "source": "src-002" },
+    { "subject": "ent-evt-046", "predicate": "withinRing", "object": "ring-car", "type": "direct", "confidence": 0.95, "added": "2026-05-29", "source": "src-002" },
+    { "subject": "ent-evt-046", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.90, "added": "2026-05-29", "rule": "same_dong_combo", "note": "5/31 공룡덕후 Day 2 + 가디언즈 콤보" },
+    { "subject": "ent-evt-046", "predicate": "visitCombo", "object": "ent-evt-027", "type": "inferred", "confidence": 0.90, "added": "2026-05-29", "rule": "same_dong_combo", "note": "5/31 브릭파티 마지막날 + 가디언즈 콤보" },
+    { "subject": "ent-evt-046", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-29", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-046", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.90, "added": "2026-05-29", "rule": "public_institution_kid_event" }
   ],
   "stats": {
-    "total_nodes": 133,
-    "total_edges": 157,
-    "total_triples": 374
+    "total_nodes": 134,
+    "total_edges": 168,
+    "total_triples": 385
   }
 }

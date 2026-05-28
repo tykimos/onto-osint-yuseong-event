@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -290,5 +290,16 @@
     { "id": "ent-evt-043", "update": "D-2 (5/30). 모레 토요일. 공룡덕후와 동일일 동일장소." },
     { "id": "ent-evt-045", "update": "접수 마감 D-day (오늘 5/28 수 마감). 10명 정원. 오늘 중 신청 완료 필요." },
     { "id": "ent-evt-008", "update": "접수 마감 D-day (오늘 5/28 수 마감). 전회 기준 41/50명 (잔여 9명). 오늘 중 추가모집 신청 완료 필요." }
+  ],
+  "new_entities_2026_05_29": [
+    { "id": "ent-evt-046", "type": "Event", "name": "월간 미래 5월호 「가디언즈: 빛의 수호자들」", "properties": { "start_date": "2026-05-31", "end_date": "2026-05-31", "start_time": "11:00", "end_time": "17:00", "venue": "국립중앙과학관 미래기술관 2층", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "무료", "capacity": "회차당 20명, 일 9회차 (총 180명)", "registration_required": true, "registration_url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401", "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "age_restriction": "키 120cm 이상", "kid_friendly_score": 0.80, "format": "교육 10분 + 체험 20분, 10명vs10명 팀전", "source_url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401" }, "first_seen": "2026-05-29", "last_seen": "2026-05-29", "mention_count": 2 }
+  ],
+  "updates_2026_05_29": [
+    { "id": "ent-evt-027", "update": "Day 7 네 번째 평일 목요일. 잔여 2일(5/31 종료). 5/30 주말 전 마지막 평일 관람 기회. 브릭파티+피직스랩+천문대 전시 3종 콤보 유지." },
+    { "id": "ent-evt-028", "update": "D-1 (5/30~31). 내일 금요일 개막! 에듀모닝 매체 추가(15번째). 5/30(토) 4종 동시 운영 최대 밀집일 D-1." },
+    { "id": "ent-evt-043", "update": "D-1 (5/30). 내일. 공룡덕후와 동일일 동일장소." },
+    { "id": "ent-evt-045", "update": "접수 마감 완료 (어제 5/28 마감)." },
+    { "id": "ent-evt-008", "update": "접수 마감 완료 (어제 5/28 마감). 최종 41/50명(5/24 기준)." },
+    { "id": "K-lib-edu", "update": "접수 마감 D-day (오늘 5/29 목 마감). 10/12명 (잔여 2명). 행사 내일(5/30 토)." }
   ]
 }

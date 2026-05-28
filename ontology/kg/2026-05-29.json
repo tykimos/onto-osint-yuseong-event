@@ -1,0 +1,125 @@
+{
+  "date": "2026-05-29",
+  "description": "일별 지식그래프 스냅샷",
+  "new_nodes": [
+    {
+      "id": "ent-evt-046",
+      "type": "Event",
+      "label": "월간 미래 5월호 「가디언즈: 빛의 수호자들」"
+    }
+  ],
+  "new_triples": [
+    {
+      "subject": "ent-evt-046",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "confidence": 0.95,
+      "source": "src-002"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "confidence": 0.95,
+      "source": "src-002"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.80,
+      "source": "src-002",
+      "notes": "키 120cm 제한 — 대략 초등 2~3학년 이상"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.90,
+      "source": "src-002"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.85,
+      "source": "src-002"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "withinRing",
+      "object": "ring-car",
+      "confidence": 0.95,
+      "source": "src-002"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-046",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "rule": "same_dong_combo",
+      "confidence": 0.90,
+      "notes": "5/31 공룡덕후 Day 2 + 가디언즈 동시 운영 콤보"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "visitCombo",
+      "object": "ent-evt-027",
+      "rule": "same_dong_combo",
+      "confidence": 0.90,
+      "notes": "5/31 브릭파티 마지막날 + 가디언즈 콤보"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.90,
+      "notes": "국립중앙과학관(과학관) 운영 — 어린이 친화도 가산"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "rule": "public_institution_kid_event",
+      "confidence": 0.90,
+      "notes": "국가 과학관 주최 어린이 대상 무료 프로그램"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "saturdayPeak",
+      "object": "2026-05-30",
+      "rule": "temporal_concentration",
+      "confidence": 0.90,
+      "notes": "D-1 진입. 내일 개막"
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "saturdayPeak",
+      "object": "2026-05-30",
+      "rule": "temporal_concentration",
+      "confidence": 0.90,
+      "notes": "D-1 진입. 내일"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "sundayCombo",
+      "object": "2026-05-31",
+      "rule": "temporal_concentration",
+      "confidence": 0.85,
+      "notes": "5/31(일) 5종+ 동시 운영: 가디언즈+공룡덕후D2+브릭파티마지막+피직스랩+업사이클링"
+    },
+    {
+      "subject": "K-lib-edu",
+      "predicate": "deadlineToday",
+      "object": "2026-05-29",
+      "rule": "deadline_urgency",
+      "confidence": 0.95,
+      "notes": "K-도서관 이용자교육 D-day 마감, 잔여 2명"
+    }
+  ],
+  "total_new_nodes": 1,
+  "total_new_triples": 6,
+  "total_inferred_triples": 8
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2026-05-29",
+  "new_entities": [
+    {
+      "id": "ent-evt-046",
+      "type": "Event",
+      "name": "월간 미래 5월호 「가디언즈: 빛의 수호자들」",
+      "properties": {
+        "start_date": "2026-05-31",
+        "end_date": "2026-05-31",
+        "start_time": "11:00",
+        "end_time": "17:00",
+        "venue": "국립중앙과학관 미래기술관 2층",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "무료",
+        "capacity": "회차당 20명, 일 9회차 (총 180명)",
+        "registration_required": true,
+        "registration_deadline": "2026-05-31T17:00:00",
+        "registration_url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "age_restriction": "키 120cm 이상 (약 초등 2~3학년+)",
+        "kid_friendly_score": 0.80,
+        "kid_friendly_reason": "10vs10 팀전 체험형 과학 프로그램. 키 120cm 제한으로 영유아·유아 참여 불가. 초등 이상 가족에 적합.",
+        "format": "교육 10분 + 체험 20분, 10명 vs 10명 팀전",
+        "source_url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401"
+      },
+      "source_ids": ["src-002", "src-012"],
+      "confidence": 0.95,
+      "distance_estimation_basis": "국립중앙과학관 미래기술관 — 도룡동 소재, 용성로20에서 직선 약 3.2km"
+    }
+  ],
+  "updated_entities": [
+    {
+      "id": "ent-evt-027",
+      "update": "Day 6→Day 7 네 번째 평일 목요일. 잔여 2일(내일 금요일 Day 8 → 5/31 토요일 마지막날). 5/30 주말 전 마지막 평일 관람 기회."
+    },
+    {
+      "id": "ent-evt-028",
+      "update": "D-2→D-1. 내일(5/30 금요일) 개막. 에듀모닝 매체 추가(15번째). 사전예약 불필요·무료."
+    },
+    {
+      "id": "ent-evt-043",
+      "update": "D-2→D-1. 내일(5/30) 건축특강. 사전접수 필요."
+    },
+    {
+      "id": "ent-evt-045",
+      "update": "접수 D-day→마감 완료. 어제(5/28) 접수 종료."
+    },
+    {
+      "id": "ent-evt-008",
+      "update": "접수 D-day→마감 완료. 어제(5/28) 접수 종료. 최종 41/50명(5/24 기준)."
+    },
+    {
+      "id": "ent-evt-K-lib",
+      "name": "K-도서관 5월 이용자교육",
+      "update": "D-1→D-day 마감. 오늘(5/29) 접수 마감. 10/12명 (잔여 2명). 행사 내일(5/30 토)."
+    }
+  ],
+  "total_new": 1,
+  "total_updated": 6
+}

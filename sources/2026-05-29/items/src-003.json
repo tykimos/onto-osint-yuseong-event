@@ -1,0 +1,20 @@
+{
+  "id": "src-003",
+  "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+  "title": "세계 공룡의 날 공룡덕후박람회 상세 안내",
+  "source_type": "official_website",
+  "language": "ko",
+  "fetched_at": "2026-05-29T07:00:00+09:00",
+  "events_mentioned": [
+    {
+      "name": "공룡덕후박람회",
+      "dates": "2026-05-30 ~ 2026-05-31",
+      "status": "D-1",
+      "venue": "국립중앙과학관 사이언스터널·꿈이광장 일대",
+      "fee": "무료",
+      "registration": "사전예약 불필요",
+      "programs": ["공룡덕후박람회", "공룡덕후 올림피아드", "디노홀 초대전", "제1대 공통령 선거", "공룡 뮤지컬", "이융남 교수 강연"]
+    }
+  ],
+  "confidence": 0.95
+}

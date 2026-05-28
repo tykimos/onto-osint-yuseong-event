@@ -1,0 +1,14 @@
+{
+  "date": "2026-05-29",
+  "curator_agent": "shop-curator",
+  "changes": {
+    "new_active": [],
+    "status_transitions": [],
+    "removed_from_active": [],
+    "manual_seeds_processed": [],
+    "notes": "변경 없음. 활성 2건(무브먼트랩·헌터 팝업) 유지. 잔여 2일(5/31 종료). 신규 후보 0건. manual_seeds 변동 없음."
+  },
+  "active_shops_count": 2,
+  "roster_backed_up": false,
+  "roster_modified": false
+}
