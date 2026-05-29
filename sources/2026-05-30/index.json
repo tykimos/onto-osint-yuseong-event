@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-30",
+  "total": 12,
+  "new": 0,
+  "reported": 10,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "세계 공룡의 날 공룡덕후박람회 D-day 개막",
+      "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+      "tag": "update",
+      "related_item": "2026-05-29/src-001",
+      "entity_count": 4
+    },
+    {
+      "id": "src-002",
+      "title": "사이언스 브릭파티 Day 8 두 번째 주말 토요일",
+      "url": "https://www.etnews.com/20260521000123",
+      "tag": "update",
+      "related_item": "2026-05-29/src-002",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "건축특강 '선넘는 높이' D-day",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-004",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "가디언즈: 빛의 수호자들 예약 D-1",
+      "url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-012",
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "유성봄꽃전시회 D-1",
+      "url": "https://daejeontour.co.kr/festival_djt/33",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-008",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "대전시민천문대 운석전시·기상기후사진전 D-1",
+      "url": "https://www.sedaily.com/article/20042838",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-005",
+      "entity_count": 3
+    },
+    {
+      "id": "src-007",
+      "title": "119시민체험센터 토요일 운영",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-007",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "열한번째 트윙클 진행중",
+      "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-006",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "피직스랩 상시 체험",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-002",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "유성구통합도서관 프로그램 현황",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-003",
+      "entity_count": 3
+    },
+    {
+      "id": "src-011",
+      "title": "데이포유 팝업스토어 일정",
+      "url": "https://www.dayforyou.com/getScheduleList?keyword=대전",
+      "tag": "reported",
+      "related_item": "2026-05-29/src-010",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "유성이의 튼튼스쿨 하반기 예정",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774",
+      "tag": "reported",
+      "related_item": "2026-05-07/src-004",
+      "entity_count": 1
+    }
+  ]
+}

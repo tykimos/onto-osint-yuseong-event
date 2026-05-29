@@ -1,0 +1,20 @@
+{
+  "id": "src-002",
+  "title": "사이언스 브릭파티 Day 8 두 번째 주말 토요일",
+  "url": "https://www.etnews.com/20260521000123",
+  "snippet": "국립중앙과학관 '2026 사이언스 브릭파티' 5/23~31 운영 중. Day 8 두 번째 주말 토요일. 12명 브릭작가 해설·업사이클링·전통과학 브릭 전시. 내일(5/31) 마지막날.",
+  "source_name": "전자신문",
+  "language": "ko",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_item": "2026-05-29/src-002",
+  "tag_reason": "Day 7→Day 8 전환. 두 번째 주말 토요일. 내일 마지막날.",
+  "entities": [
+    { "id": "ent-evt-027", "type": "Event", "name": "사이언스 브릭파티" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-act-026", "type": "Activity", "name": "브릭작가 해설 프로그램" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-027", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

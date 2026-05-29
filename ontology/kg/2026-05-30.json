@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-30",
+  "description": "2026-05-30 일별 KG 스냅샷 — D-day 최대 밀집일",
+  "new_triples": [
+    {
+      "subject": "ent-evt-028",
+      "predicate": "status",
+      "object": "D-day 개막",
+      "confidence": 1.0,
+      "source_ids": ["src-001"]
+    },
+    {
+      "subject": "ent-evt-043",
+      "predicate": "status",
+      "object": "D-day",
+      "confidence": 1.0,
+      "source_ids": ["src-003"]
+    },
+    {
+      "subject": "ent-evt-027",
+      "predicate": "status",
+      "object": "Day 8 두 번째 주말 토요일",
+      "confidence": 1.0,
+      "source_ids": ["src-002"]
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "status",
+      "object": "D-1 (내일 5/31)",
+      "confidence": 1.0,
+      "source_ids": ["src-004"]
+    },
+    {
+      "subject": "ent-evt-033",
+      "predicate": "status",
+      "object": "D-1 (내일 5/31 마지막날)",
+      "confidence": 1.0,
+      "source_ids": ["src-005"]
+    },
+    {
+      "subject": "ent-evt-037",
+      "predicate": "status",
+      "object": "D-1 (내일 5/31 마지막날)",
+      "confidence": 0.95,
+      "source_ids": ["src-006"]
+    },
+    {
+      "subject": "ent-evt-038",
+      "predicate": "status",
+      "object": "D-1 (내일 5/31 마지막날)",
+      "confidence": 0.95,
+      "source_ids": ["src-006"]
+    },
+    {
+      "subject": "K-lib-edu",
+      "predicate": "status",
+      "object": "행사 당일 (오늘 5/30 토)",
+      "confidence": 1.0,
+      "source_ids": ["src-010"]
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-028",
+      "predicate": "visitCombo",
+      "object": "ent-evt-027",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "reason": "도룡동 동일일(5/30) 방문 콤보"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "visitCombo",
+      "object": "ent-evt-043",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "reason": "도룡동 동일일(5/30) 방문 콤보 — 건축특강"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "rule": "same_dong_combo",
+      "confidence": 0.90,
+      "reason": "도룡동 동일일(5/30) 방문 콤보 — 피직스랩 상시"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "rule": "public_institution_kid_event",
+      "confidence": 0.90,
+      "reason": "국립중앙과학관(공공기관) 주최 어린이 대상"
+    },
+    {
+      "subject": "temporal-2026-05-30",
+      "predicate": "maxConcentration",
+      "object": "5종 동시 운영",
+      "rule": "temporal_concentration",
+      "confidence": 0.95,
+      "reason": "공룡덕후+건축특강+브릭파티+피직스랩+업사이클링 5종 동시 — 이번 시즌 최대 밀집일"
+    },
+    {
+      "subject": "temporal-2026-05-31",
+      "predicate": "subConcentration",
+      "object": "6종 동시 운영",
+      "rule": "temporal_concentration",
+      "confidence": 0.90,
+      "reason": "공룡덕후Day2+가디언즈+브릭파티마지막+피직스랩+업사이클링+천문대전시 6종"
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "rule": "same_dong_combo",
+      "confidence": 0.90,
+      "reason": "도룡동 5/31 동일일 방문 콤보"
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.90,
+      "reason": "과학관 운영 이벤트 기본 가산"
+    }
+  ],
+  "stats": {
+    "new_triples": 8,
+    "inferred_triples": 8,
+    "total_triples": 16
+  }
+}

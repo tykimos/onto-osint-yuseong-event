@@ -1683,9 +1683,27 @@
     { "subject": "ent-evt-046", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-29", "rule": "operator_kid_friendliness" },
     { "subject": "ent-evt-046", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.90, "added": "2026-05-29", "rule": "public_institution_kid_event" }
   ],
+  "edges_added_2026_05_30": [
+    { "subject": "ent-evt-028", "predicate": "status", "object": "D-day 개막", "type": "explicit", "confidence": 1.0, "added": "2026-05-30" },
+    { "subject": "ent-evt-043", "predicate": "status", "object": "D-day", "type": "explicit", "confidence": 1.0, "added": "2026-05-30" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "Day 8 두 번째 주말 토요일", "type": "explicit", "confidence": 1.0, "added": "2026-05-30" },
+    { "subject": "ent-evt-046", "predicate": "status", "object": "D-1 (내일 5/31)", "type": "explicit", "confidence": 1.0, "added": "2026-05-30" },
+    { "subject": "ent-evt-033", "predicate": "status", "object": "D-1 (내일 5/31 마지막날)", "type": "explicit", "confidence": 1.0, "added": "2026-05-30" },
+    { "subject": "ent-evt-037", "predicate": "status", "object": "D-1 (내일 5/31 마지막날)", "type": "explicit", "confidence": 0.95, "added": "2026-05-30" },
+    { "subject": "ent-evt-038", "predicate": "status", "object": "D-1 (내일 5/31 마지막날)", "type": "explicit", "confidence": 0.95, "added": "2026-05-30" },
+    { "subject": "K-lib-edu", "predicate": "status", "object": "행사 당일 (오늘 5/30 토)", "type": "explicit", "confidence": 1.0, "added": "2026-05-30" },
+    { "subject": "ent-evt-028", "predicate": "visitCombo", "object": "ent-evt-027", "type": "inferred", "confidence": 0.95, "added": "2026-05-30", "rule": "same_dong_combo", "note": "도룡동 5/30 방문 콤보" },
+    { "subject": "ent-evt-028", "predicate": "visitCombo", "object": "ent-evt-043", "type": "inferred", "confidence": 0.95, "added": "2026-05-30", "rule": "same_dong_combo", "note": "도룡동 5/30 건축특강 콤보" },
+    { "subject": "ent-evt-028", "predicate": "visitCombo", "object": "ent-evt-041", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "same_dong_combo", "note": "도룡동 5/30 피직스랩 콤보" },
+    { "subject": "ent-evt-028", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "public_institution_kid_event" },
+    { "subject": "temporal-2026-05-30", "predicate": "maxConcentration", "object": "5종 동시 운영", "type": "inferred", "confidence": 0.95, "added": "2026-05-30", "rule": "temporal_concentration" },
+    { "subject": "temporal-2026-05-31", "predicate": "subConcentration", "object": "6종 동시 운영", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "temporal_concentration" },
+    { "subject": "ent-evt-046", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "same_dong_combo", "note": "도룡동 5/31 가디언즈+공룡덕후 콤보" },
+    { "subject": "ent-evt-028", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "operator_kid_friendliness" }
+  ],
   "stats": {
     "total_nodes": 134,
-    "total_edges": 168,
-    "total_triples": 385
+    "total_edges": 184,
+    "total_triples": 401
   }
 }

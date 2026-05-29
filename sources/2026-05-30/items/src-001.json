@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "세계 공룡의 날 공룡덕후박람회 D-day 개막",
+  "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+  "snippet": "국립중앙과학관이 세계 공룡의 날(6/1)을 맞아 5/30~31 이틀간 공룡덕후박람회를 개최한다. 공룡 관련 작가·기업·기관 참여 박람회, 올림피아드, 제1대 공통령 선거, 이융남 교수 강연, 코스프레, 레진아트·테라리움 만들기, 오픈마이크 등 다채로운 프로그램 운영. 사전예약 없이 무료 참여.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-30",
+  "tag": "update",
+  "related_item": "2026-05-29/src-001",
+  "tag_reason": "D-1에서 D-day 전환. 상태 업데이트만, 신규 정보 없음.",
+  "entities": [
+    { "id": "ent-evt-028", "type": "Event", "name": "공룡덕후박람회" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-act-020", "type": "Activity", "name": "제1대 공통령 선거" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-028", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-028", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

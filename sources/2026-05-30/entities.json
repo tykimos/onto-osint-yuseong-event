@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-30",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "properties": {
+        "status": "D-day 개막",
+        "start_date": "2026-05-30",
+        "end_date": "2026-05-31",
+        "programs": "공룡덕후박람회·올림피아드·디노홀초대전·제1대 공통령선거·이융남교수강연·코스프레·레진아트·테라리움·오픈마이크",
+        "fee": "무료",
+        "registration_required": false
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 9
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "properties": {
+        "status": "Day 8 두 번째 주말 토요일",
+        "remaining_days": 1
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-043",
+      "type": "Event",
+      "name": "건축특강 '선넘는 높이'",
+      "properties": {
+        "status": "D-day"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-046",
+      "type": "Event",
+      "name": "가디언즈: 빛의 수호자들",
+      "properties": {
+        "status": "D-1 (내일 5/31)"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-033",
+      "type": "Event",
+      "name": "유성봄꽃전시회",
+      "properties": {
+        "status": "D-1 (내일 5/31 마지막날)"
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-037",
+      "type": "Event",
+      "name": "대전시민천문대 운석전시",
+      "properties": {
+        "status": "D-1 (내일 5/31 마지막날)"
+      },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-038",
+      "type": "Event",
+      "name": "대전시민천문대 기상기후사진전",
+      "properties": {
+        "status": "D-1 (내일 5/31 마지막날)"
+      },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-028",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-001"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "visitCombo",
+      "object": "ent-evt-027",
+      "source_ids": ["src-001", "src-002"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-028",
+      "predicate": "visitCombo",
+      "object": "ent-evt-043",
+      "source_ids": ["src-001", "src-003"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "visitCombo",
+      "object": "ent-evt-028",
+      "source_ids": ["src-001", "src-004"],
+      "confidence": 0.90
+    },
+    {
+      "subject": "ent-evt-046",
+      "predicate": "visitCombo",
+      "object": "ent-evt-027",
+      "source_ids": ["src-002", "src-004"],
+      "confidence": 0.90
+    }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 0,
+    "matched_entities": 7,
+    "total_relations": 5
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-30",
+  "phase": "5.5-coverage-audit",
+  "report_file": "reports/2026/05/2026-05-30.md",
+  "pass": true,
+  "checks": {
+    "three_category_coverage": {
+      "pass": true,
+      "details": {
+        "events": {
+          "count": 7,
+          "items": [
+            "공룡덕후박람회 (D-day)",
+            "브릭파티 (Day 8)",
+            "건축특강 (D-day)",
+            "가디언즈 (D-1)",
+            "봄꽃전시회 (D-1)",
+            "트윙클 (D-1)",
+            "천문대전시 (D-1)"
+          ]
+        },
+        "shops": {
+          "count": 2,
+          "items": [
+            "무브먼트랩 팝업 IN 대전 (active, ~5/31)",
+            "헌터 팝업 IN 대전 (active, ~5/31)"
+          ]
+        },
+        "public_institutions": {
+          "count": 2,
+          "items": [
+            "119시민체험센터 (토요일 운영)",
+            "K-도서관 이용자교육 (행사 당일)"
+          ]
+        }
+      }
+    },
+    "active_shops_in_report": {
+      "pass": true,
+      "total_active": 2,
+      "found_in_report": 2,
+      "missing": []
+    },
+    "manual_seeds_visibility": {
+      "pass": true,
+      "total_seeds": 3,
+      "all_resolved_or_excluded": true,
+      "displayed_in_report": true,
+      "details": [
+        { "name": "엉클부대찌개 테크노점", "status": "resolved_not_new", "in_report": true },
+        { "name": "인터뷰커피라운지", "status": "resolved_not_new", "in_report": true },
+        { "name": "유성닭발 관평점", "status": "excluded", "in_report": false, "reason": "excluded(주류) — 보고서 비노출 정당" }
+      ]
+    },
+    "30day_window_shops_covered": {
+      "pass": true,
+      "note": "활성 2건 모두 보고서 '신규 오픈 가게·팝업·프로모션' 테이블에 의무 노출됨"
+    }
+  },
+  "patches_applied": [],
+  "recommendations": [
+    "내일(5/31) 사이클에서 팝업 2건 archived 전환 예상 — prune 스크립트가 자동 처리"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-30",
+  "collected_at": "2026-05-30T07:15:00+09:00",
+  "manual_seeds_processed": [],
+  "reverification": [
+    {
+      "shop_id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "last_verified": "2026-05-24",
+      "days_since_verified": 6,
+      "reverification_due": false,
+      "status": "active — 팝업 종료일 5/31, 잔여 1일. 재검증 주기(7일) 미도래이나 내일 종료 예정.",
+      "window_expires_on": "2026-05-31"
+    },
+    {
+      "shop_id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "last_verified": "2026-05-24",
+      "days_since_verified": 6,
+      "reverification_due": false,
+      "status": "active — 팝업 종료일 5/31, 잔여 1일. 재검증 주기(7일) 미도래이나 내일 종료 예정.",
+      "window_expires_on": "2026-05-31"
+    }
+  ],
+  "candidates": [],
+  "stats": {
+    "total_candidates": 0,
+    "found": 0,
+    "not_found": 0,
+    "manual_seeds_resolved": 0,
+    "manual_seeds_unresolved": 0,
+    "active_shops_reverified": 0,
+    "note": "금일 신규 가게 후보 발견 없음. 활성 팝업 2건 모두 내일(5/31) 종료 예정. 다음 사이클(5/31)에서 archive 전환 필요."
+  }
+}

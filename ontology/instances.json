@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-05-30",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -301,5 +301,15 @@
     { "id": "ent-evt-045", "update": "접수 마감 완료 (어제 5/28 마감)." },
     { "id": "ent-evt-008", "update": "접수 마감 완료 (어제 5/28 마감). 최종 41/50명(5/24 기준)." },
     { "id": "K-lib-edu", "update": "접수 마감 D-day (오늘 5/29 목 마감). 10/12명 (잔여 2명). 행사 내일(5/30 토)." }
+  ],
+  "updates_2026_05_30": [
+    { "id": "ent-evt-028", "update": "D-day 개막 (오늘 5/30 토~5/31). 무료·사전예약 불필요. 올림피아드·공통령선거·코스프레·레진아트·오픈마이크. 15+ 매체 보도. 도룡동 5종 동시 운영 최대 밀집일." },
+    { "id": "ent-evt-043", "update": "D-day (오늘 5/30 토). 나래홀 건축특강. 공룡덕후박람회와 동일일 동일장소." },
+    { "id": "ent-evt-027", "update": "Day 8 두 번째 주말 토요일. 9일 중 8일째. 12명 브릭작가 해설·업사이클링 계속. 내일(5/31) 마지막날." },
+    { "id": "ent-evt-046", "update": "D-1 (내일 5/31 행사). 사전예약 가능. 회차당 20명, 일 9회차." },
+    { "id": "ent-evt-033", "update": "D-1 (내일 5/31 마지막날). 유림공원 봄꽃전시회 마지막 관람일." },
+    { "id": "ent-evt-037", "update": "D-1 (내일 5/31 마지막날). 운석전시 마지막 관람일." },
+    { "id": "ent-evt-038", "update": "D-1 (내일 5/31 마지막날). 기상기후사진전 마지막 관람일." },
+    { "id": "K-lib-edu", "update": "행사 당일 (오늘 5/30 토). 진잠도서관 이용자교육 실시." }
   ]
 }
