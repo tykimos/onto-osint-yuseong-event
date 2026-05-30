@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-31",
+  "total": 12,
+  "new": 2,
+  "reported": 8,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "공룡덕후박람회 Day 2 마지막날",
+      "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+      "tag": "update",
+      "related_item": "2026-05-30/src-001",
+      "entity_count": 4
+    },
+    {
+      "id": "src-002",
+      "title": "사이언스 브릭파티 Day 9 마지막날",
+      "url": "https://www.etnews.com/20260521000123",
+      "tag": "update",
+      "related_item": "2026-05-30/src-002",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "가디언즈: 빛의 수호자들 D-day",
+      "url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=401",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-004",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "유성봄꽃전시회 마지막날",
+      "url": "https://daejeontour.co.kr/festival_djt/33",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-005",
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "대전시민천문대 운석전시·기상기후사진전 마지막날",
+      "url": "https://www.thesnstime.com/daejeonsiminceonmundae-gajeongyi-dal-5weol-teugbyeoljeonsi-gaecoe/",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-006",
+      "entity_count": 3
+    },
+    {
+      "id": "src-006",
+      "title": "열한번째 트윙클 진행중 (~6/21)",
+      "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-008",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "피직스랩 상시 체험",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-009",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "119시민체험센터 일요일 휴무",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-007",
+      "entity_count": 1
+    },
+    {
+      "id": "src-009",
+      "title": "유성구통합도서관 6월 프로그램 접수 현황",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-010",
+      "entity_count": 3
+    },
+    {
+      "id": "src-010",
+      "title": "데이포유 팝업스토어 일정 — 무브먼트랩·헌터 마지막날",
+      "url": "https://www.dayforyou.com/getScheduleList?keyword=대전",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-011",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "공룡매직쇼 (6/6~7) — 차기 행사 예고",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "new",
+      "entity_count": 3
+    },
+    {
+      "id": "src-012",
+      "title": "물리로 물리쳐라! 아날로그 감성 물리놀이터 (6/3~7) — 차기 행사 예고",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "new",
+      "entity_count": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "src-001",
+  "title": "공룡덕후박람회 Day 2 마지막날",
+  "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=47354",
+  "source_name": "국립중앙과학관",
+  "collected_at": "2026-05-31T07:02:00+09:00",
+  "tag": "update",
+  "tag_reason": "어제(5/30) Day 1 개막에서 오늘 Day 2 마지막날로 상태 전환. 내용 동일, D-day 카운트다운 업데이트.",
+  "related_item": "2026-05-30/src-001",
+  "entities": ["ent-evt-028", "ent-venue-005", "ent-org-006", "ent-act-020"],
+  "summary": "공룡덕후박람회 5/31 마지막날. 올림피아드·공통령선거·코스프레·레진아트·오픈마이크 등 모든 프로그램 최종일. 무료·사전예약 불필요."
+}

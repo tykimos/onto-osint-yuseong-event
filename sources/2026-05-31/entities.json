@@ -1,0 +1,81 @@
+{
+  "date": "2026-05-31",
+  "extracted_at": "2026-05-31T07:20:00+09:00",
+  "total_entities": 4,
+  "new_entities": 2,
+  "updated_entities": 2,
+  "entities": [
+    {
+      "id": "ent-evt-047",
+      "type": "Event",
+      "name": "공룡매직쇼",
+      "status": "new",
+      "confidence": 0.85,
+      "properties": {
+        "start_date": "2026-06-06",
+        "end_date": "2026-06-07",
+        "venue": "국립중앙과학관 사이언스홀",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년"],
+        "kid_friendly_score": 0.9,
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do"
+      },
+      "source_ids": ["src-011"],
+      "distance_estimation_basis": "국립중앙과학관 소재 도룡동, 용성로20에서 약 3.2km"
+    },
+    {
+      "id": "ent-evt-048",
+      "type": "Event",
+      "name": "물리로 물리쳐라! (아날로그 감성 물리놀이터)",
+      "status": "new",
+      "confidence": 0.85,
+      "properties": {
+        "start_date": "2026-06-03",
+        "end_date": "2026-06-07",
+        "venue": "국립중앙과학관 사이언스터널 및 미래기술관 3층",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.9,
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do"
+      },
+      "source_ids": ["src-012"],
+      "distance_estimation_basis": "국립중앙과학관 소재 도룡동, 용성로20에서 약 3.2km"
+    },
+    {
+      "id": "ent-evt-028",
+      "type": "Event",
+      "name": "공룡덕후박람회",
+      "status": "updated",
+      "confidence": 0.98,
+      "update_detail": "Day 2 마지막날 전환. 오늘 종료 확정.",
+      "source_ids": ["src-001"]
+    },
+    {
+      "id": "ent-evt-027",
+      "type": "Event",
+      "name": "사이언스 브릭파티",
+      "status": "updated",
+      "confidence": 0.98,
+      "update_detail": "Day 9 마지막날 전환. 오늘 종료 확정.",
+      "source_ids": ["src-002"]
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-047", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.85, "source": "src-011" },
+    { "subject": "ent-evt-047", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.85, "source": "src-011" },
+    { "subject": "ent-evt-048", "predicate": "hostsAt", "object": "ent-venue-005", "confidence": 0.85, "source": "src-012" },
+    { "subject": "ent-evt-048", "predicate": "organizedBy", "object": "ent-org-006", "confidence": 0.85, "source": "src-012" },
+    { "subject": "ent-evt-047", "predicate": "followsEvent", "object": "ent-evt-028", "confidence": 0.7, "source": "src-011", "note": "공룡 테마 후속 행사" },
+    { "subject": "ent-evt-048", "predicate": "followsEvent", "object": "ent-evt-027", "confidence": 0.6, "source": "src-012", "note": "물리·과학 테마 후속 행사, 동일 장소(사이언스터널)" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "src-011",
+  "title": "공룡매직쇼 (6/6~7) — 차기 행사 예고",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "collected_at": "2026-05-31T07:09:00+09:00",
+  "tag": "new",
+  "tag_reason": "국립중앙과학관 행사안내 페이지에서 차기 행사 '공룡매직쇼' (6/6~7) 최초 확인. 공룡덕후박람회의 테마 후속 행사.",
+  "entities": ["ent-evt-047", "ent-venue-005", "ent-org-006"],
+  "summary": "국립중앙과학관 사이언스홀에서 6/6~7 공룡매직쇼 개최 예정. 공룡 테마 후속 행사로 어린이 대상 매직쇼 형식."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "src-002",
+  "title": "사이언스 브릭파티 Day 9 마지막날",
+  "url": "https://www.etnews.com/20260521000123",
+  "source_name": "전자신문",
+  "collected_at": "2026-05-31T07:03:00+09:00",
+  "tag": "update",
+  "tag_reason": "어제(5/30) Day 8 두 번째 주말 토요일에서 오늘 Day 9 마지막날로 상태 전환.",
+  "related_item": "2026-05-30/src-002",
+  "entities": ["ent-evt-027", "ent-venue-005", "ent-org-006"],
+  "summary": "사이언스 브릭파티 5/31 마지막날. 12명 브릭작가 해설, 업사이클링 클래스, 전통과학 브릭작품 전시 최종일."
+}

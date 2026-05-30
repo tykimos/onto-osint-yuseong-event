@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-31",
+  "collected_at": "2026-05-31T07:15:00+09:00",
+  "agent": "shop-scout",
+  "manual_seeds_processed": 0,
+  "manual_seeds_pending": 0,
+  "active_shops_reverified": 2,
+  "new_candidates": 0,
+  "candidates": [],
+  "reverification_results": [
+    {
+      "shop_id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "status": "active_final_day",
+      "popup_close_date": "2026-05-31",
+      "notes": "오늘(5/31) 팝업 마지막날. 내일(6/1)부터 윈도우 만료 → archived.",
+      "last_verified": "2026-05-31",
+      "source_checked": "dayforyou.com"
+    },
+    {
+      "shop_id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "status": "active_final_day",
+      "popup_close_date": "2026-05-31",
+      "notes": "오늘(5/31) 팝업 마지막날. 내일(6/1)부터 윈도우 만료 → archived.",
+      "last_verified": "2026-05-31",
+      "source_checked": "dayforyou.com"
+    }
+  ],
+  "_notes": "금일 신규 오픈 가게·팝업 후보 발견 없음. 기존 active 팝업 2건 마지막날 확인."
+}

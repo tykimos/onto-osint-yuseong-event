@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "window_days": 50,
   "recent_window_days": 50,
   "_policy": "strict 50일 cap — opened_date+50일 경과 시 즉시 archived. recent 단계 없음. 보고서에 노출되는 것은 active_shops뿐.",
@@ -37,7 +37,7 @@
       ],
       "confidence": 0.95,
       "first_seen": "2026-05-24",
-      "last_verified": "2026-05-24",
+      "last_verified": "2026-05-31",
       "opened_date_history": [
         {
           "value": "2026-04-03",
@@ -47,7 +47,7 @@
           "source": "dayforyou.com 상세 페이지"
         }
       ],
-      "notes": "팝업은 운영 종료일(5/31)이 윈도우 만료일로 사용됨 — opened_date+50일이 아니라 popup_close_date 기준. 시작일 4/3은 50일 윈도우 기준일(4/4)보다 1일 이른데 운영 기간 전체가 윈도우 안에 걸쳐 있어 active 분류."
+      "notes": "팝업은 운영 종료일(5/31)이 윈도우 만료일로 사용됨 — opened_date+50일이 아니라 popup_close_date 기준. 시작일 4/3은 50일 윈도우 기준일(4/4)보다 1일 이른데 운영 기간 전체가 윈도우 안에 걸쳐 있어 active 분류. 5/31 마지막 운영일 확인."
     },
     {
       "id": "shop-popup-hunter-002",
@@ -81,7 +81,7 @@
       ],
       "confidence": 0.95,
       "first_seen": "2026-05-24",
-      "last_verified": "2026-05-24",
+      "last_verified": "2026-05-31",
       "opened_date_history": [
         {
           "value": "2026-04-03",
@@ -91,7 +91,7 @@
           "source": "dayforyou.com 상세 페이지"
         }
       ],
-      "notes": "헌터(HUNTER)는 프리미엄 부츠·아웃도어 성인 브랜드 — kid_friendly false. 가족 동반 아울렛 방문 시 노출은 가능. 윈도우 로직은 무브먼트랩과 동일."
+      "notes": "헌터(HUNTER)는 프리미엄 부츠·아웃도어 성인 브랜드 — kid_friendly false. 가족 동반 아울렛 방문 시 노출은 가능. 윈도우 로직은 무브먼트랩과 동일. 5/31 마지막 운영일 확인."
     }
   ],
   "recent_shops": [],
@@ -219,8 +219,8 @@
     }
   ],
   "_last_prune": {
-    "ran_on": "2026-05-29T23:16:46.052785+00:00",
-    "target_date": "2026-05-30",
+    "ran_on": "2026-05-30T23:00:41.596006+00:00",
+    "target_date": "2026-05-31",
     "moved_to_recent": [],
     "moved_to_archived": []
   }

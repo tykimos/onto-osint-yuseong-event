@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -311,5 +311,17 @@
     { "id": "ent-evt-037", "update": "D-1 (내일 5/31 마지막날). 운석전시 마지막 관람일." },
     { "id": "ent-evt-038", "update": "D-1 (내일 5/31 마지막날). 기상기후사진전 마지막 관람일." },
     { "id": "K-lib-edu", "update": "행사 당일 (오늘 5/30 토). 진잠도서관 이용자교육 실시." }
+  ],
+  "new_entities_2026_05_31": [
+    { "id": "ent-evt-047", "type": "Event", "name": "공룡매직쇼", "properties": { "start_date": "2026-06-06", "end_date": "2026-06-07", "venue": "국립중앙과학관 사이언스홀", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "미확인", "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년"], "kid_friendly_score": 0.9, "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-05-31", "last_seen": "2026-05-31", "mention_count": 1 },
+    { "id": "ent-evt-048", "type": "Event", "name": "물리로 물리쳐라! (아날로그 감성 물리놀이터)", "properties": { "start_date": "2026-06-03", "end_date": "2026-06-07", "venue": "국립중앙과학관 사이언스터널 및 미래기술관 3층", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "미확인", "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.9, "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-05-31", "last_seen": "2026-05-31", "mention_count": 1 }
+  ],
+  "updates_2026_05_31": [
+    { "id": "ent-evt-028", "update": "Day 2 마지막날 (오늘 5/31 종료). 공룡덕후박람회 최종일. 차기 행사 공룡매직쇼(6/6~7) 확인." },
+    { "id": "ent-evt-027", "update": "Day 9 마지막날 (오늘 5/31 종료). 브릭파티 최종일. 차기 행사 물리로 물리쳐라!(6/3~7) 확인." },
+    { "id": "ent-evt-046", "update": "D-day (오늘 5/31). 가디언즈: 빛의 수호자들 행사 당일. 11:00~17:00, 9회차." },
+    { "id": "ent-evt-033", "update": "마지막날 (오늘 5/31 종료). 유성봄꽃전시회 전시 종료." },
+    { "id": "ent-evt-037", "update": "마지막날 (오늘 5/31 종료). 천문대 운석전시 종료." },
+    { "id": "ent-evt-038", "update": "마지막날 (오늘 5/31 종료). 천문대 기상기후사진전 종료." }
   ]
 }

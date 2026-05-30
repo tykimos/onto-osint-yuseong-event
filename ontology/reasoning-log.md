@@ -1326,3 +1326,45 @@
 - **신뢰도:** 0.90
 - **상태:** 확정
 - **비고:** 가디언즈 체험(미래기술관) + 공룡덕후(사이언스터널) 동일 과학관 내 콤보.
+
+## 2026-05-31 추론 결과
+
+### 추론 #1: followsEvent (공룡매직쇼 → 공룡덕후박람회)
+- **규칙:** new_discovery + thematic_succession
+- **입력:** ent-evt-047(공룡매직쇼 6/6~7) — 국립중앙과학관 사이언스홀. ent-evt-028(공룡덕후박람회 5/30~31) — 동일 기관 주최, 공룡 테마 연속.
+- **추론:** (ent-evt-047 followsEvent ent-evt-028)
+- **신뢰도:** 0.70
+- **상태:** 잠정
+- **비고:** 공룡 테마 후속 행사로 추정. 박람회 종료(5/31) 후 6일 뒤(6/6) 매직쇼 개최. 동일 기관 주최이나 행사 형식(박람회 vs 매직쇼)이 다르므로 partOfSeries가 아닌 followsEvent.
+
+### 추론 #2: followsEvent (물리로 물리쳐라! → 브릭파티)
+- **규칙:** new_discovery + venue_succession
+- **입력:** ent-evt-048(물리로 물리쳐라! 6/3~7) — 사이언스터널+미래기술관 3층. ent-evt-027(브릭파티 5/23~31) — 동일 장소(사이언스터널) 사용.
+- **추론:** (ent-evt-048 followsEvent ent-evt-027)
+- **신뢰도:** 0.60
+- **상태:** 잠정
+- **비고:** 동일 장소(사이언스터널) 후속 사용 행사. 테마는 다르지만(브릭 vs 물리) 장소 연속성과 시간 근접성(3일 간격)으로 후속 관계 추정.
+
+### 추론 #3: same_dong_combo (5/31 도룡동 4종 마지막날 콤보)
+- **규칙:** same_dong_combo
+- **입력:** ent-evt-028(공룡덕후) + ent-evt-027(브릭파티) + ent-evt-046(가디언즈) + ent-evt-041(피직스랩) — 도룡동 5/31 동일일
+- **추론:** 4종 visitCombo 관계 (6쌍)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 이번 시즌 마지막 밀집일. 4종 동시 운영 마지막 기회.
+
+### 추론 #4: operator_kid_friendliness (공룡매직쇼 과학관 가산)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-047 hostsAt ent-venue-005)
+- **추론:** (ent-evt-047 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 국립중앙과학관 운영 어린이 대상 매직쇼.
+
+### 추론 #5: operator_kid_friendliness (물리놀이터 과학관 가산)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-048 hostsAt ent-venue-005)
+- **추론:** (ent-evt-048 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 국립중앙과학관 운영 어린이·가족 대상 물리 체험.
