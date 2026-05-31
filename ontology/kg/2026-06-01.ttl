@@ -1,0 +1,107 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-01)
+<#snapshot-2026-06-01> a prov:Entity ;
+  dct:date "2026-06-01"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "0"^^xsd:integer ;
+  yse:inferred_edges "0"^^xsd:integer .
+
+# --- new_triples (4) ---
+yseent:ent-evt-049 yser:organizedBy yseent:ent-org-005 .
+yseinf:stmt-2026-06-01-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-049 ;
+  rdf:predicate yser:organizedBy ;
+  rdf:object yseent:ent-org-005 ;
+  yse:confidence "0.85"^^xsd:decimal .
+yseent:ent-evt-049 yser:hostsAt yseent:ent-venue-004 .
+yseinf:stmt-2026-06-01-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-049 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-004 ;
+  yse:confidence "0.85"^^xsd:decimal .
+yseent:ent-evt-048 yser:followsEvent yseent:ent-evt-027 .
+yseinf:stmt-2026-06-01-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:followsEvent ;
+  rdf:object yseent:ent-evt-027 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  rdfs:comment "브릭파티 종료 → 물리로 물리쳐라 교체 (사이언스터널)"@ko .
+yseent:ent-evt-047 yser:followsEvent yseent:ent-evt-028 .
+yseinf:stmt-2026-06-01-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:followsEvent ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  rdfs:comment "공룡덕후 종료 → 공룡매직쇼 후속 (공룡 테마)"@ko .
+
+# --- inferred_triples (5) ---
+yseent:ent-evt-048 yser:visitCombo yseent:ent-evt-047 .
+yseinf:stmt-2026-06-01-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-047 ;
+  yse:confidence "0.75"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "물리로 물리쳐라(6/3~7) + 공룡매직쇼(6/6~7) 도룡동 동시 개최 (6/6~7 겹침)"@ko .
+yseent:ent-evt-048 yser:visitCombo yseent:ent-evt-039 .
+yseinf:stmt-2026-06-01-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-039 ;
+  yse:confidence "0.7"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "물리로 물리쳐라 + 열한번째 트윙클 — 둘 다 실내, 도룡동/서구 인접"@ko .
+yseent:ent-evt-048 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-01-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "국립중앙과학관(과학관) 운영 → 어린이 친화도 가산"@ko .
+yseent:ent-evt-047 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-01-0008 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "국립중앙과학관(과학관) 운영 → 어린이 친화도 가산"@ko .
+yseent:ent-evt-041 yser:rainyFallbackFor yseent:outdoor-events .
+yseinf:stmt-2026-06-01-0009 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-041 ;
+  rdf:predicate yser:rainyFallbackFor ;
+  rdf:object yseent:outdoor-events ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  prov:wasDerivedFrom "indoor_rainy_fallback" ;
+  rdfs:comment "피직스랩(실내) — 우천 시 도룡동 대안"@ko .
+
+# --- referenced entities ---
+yseent:ent-org-005 a yseo:Organization ;
+  rdfs:label "국립어린이과학관"@ko ;
+  yse:name "국립어린이과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:org_type "과학관"@ko .
+yseent:ent-venue-004 a yseo:Venue ;
+  rdfs:label "국립어린이과학관"@ko ;
+  yse:name "국립어린이과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:dong "도룡동"@ko ;
+  yse:venue_type "과학관"@ko .
+
