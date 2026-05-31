@@ -1,10 +1,12 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-01",
   "window_days": 50,
   "recent_window_days": 50,
   "_policy": "strict 50일 cap — opened_date+50일 경과 시 즉시 archived. recent 단계 없음. 보고서에 노출되는 것은 active_shops뿐.",
-  "active_shops": [
+  "active_shops": [],
+  "recent_shops": [],
+  "archived_shops": [
     {
       "id": "shop-popup-movementlab-001",
       "name": "무브먼트랩 팝업 IN 대전",
@@ -18,7 +20,7 @@
       "opened_date_estimated": false,
       "is_popup": true,
       "popup_close_date": "2026-05-31",
-      "window_status": "active",
+      "window_status": "archived",
       "window_started_on": "2026-04-03",
       "window_expires_on": "2026-05-31",
       "window_extended_by_popup_close": true,
@@ -47,7 +49,9 @@
           "source": "dayforyou.com 상세 페이지"
         }
       ],
-      "notes": "팝업은 운영 종료일(5/31)이 윈도우 만료일로 사용됨 — opened_date+50일이 아니라 popup_close_date 기준. 시작일 4/3은 50일 윈도우 기준일(4/4)보다 1일 이른데 운영 기간 전체가 윈도우 안에 걸쳐 있어 active 분류. 5/31 마지막 운영일 확인."
+      "notes": "팝업은 운영 종료일(5/31)이 윈도우 만료일로 사용됨 — opened_date+50일이 아니라 popup_close_date 기준. 시작일 4/3은 50일 윈도우 기준일(4/4)보다 1일 이른데 운영 기간 전체가 윈도우 안에 걸쳐 있어 active 분류. 5/31 마지막 운영일 확인.",
+      "archived_on": "2026-06-01",
+      "archive_reason": "strict_50day_cap_expired"
     },
     {
       "id": "shop-popup-hunter-002",
@@ -62,7 +66,7 @@
       "opened_date_estimated": false,
       "is_popup": true,
       "popup_close_date": "2026-05-31",
-      "window_status": "active",
+      "window_status": "archived",
       "window_started_on": "2026-04-03",
       "window_expires_on": "2026-05-31",
       "window_extended_by_popup_close": true,
@@ -91,11 +95,11 @@
           "source": "dayforyou.com 상세 페이지"
         }
       ],
-      "notes": "헌터(HUNTER)는 프리미엄 부츠·아웃도어 성인 브랜드 — kid_friendly false. 가족 동반 아울렛 방문 시 노출은 가능. 윈도우 로직은 무브먼트랩과 동일. 5/31 마지막 운영일 확인."
+      "notes": "헌터(HUNTER)는 프리미엄 부츠·아웃도어 성인 브랜드 — kid_friendly false. 가족 동반 아울렛 방문 시 노출은 가능. 윈도우 로직은 무브먼트랩과 동일. 5/31 마지막 운영일 확인.",
+      "archived_on": "2026-06-01",
+      "archive_reason": "strict_50day_cap_expired"
     }
   ],
-  "recent_shops": [],
-  "archived_shops": [],
   "suspected_closed_shops": [],
   "manual_seeds": [
     {
@@ -219,9 +223,12 @@
     }
   ],
   "_last_prune": {
-    "ran_on": "2026-05-30T23:00:41.596006+00:00",
-    "target_date": "2026-05-31",
+    "ran_on": "2026-05-31T23:02:35.482201+00:00",
+    "target_date": "2026-06-01",
     "moved_to_recent": [],
-    "moved_to_archived": []
+    "moved_to_archived": [
+      "shop-popup-movementlab-001",
+      "shop-popup-hunter-002"
+    ]
   }
 }

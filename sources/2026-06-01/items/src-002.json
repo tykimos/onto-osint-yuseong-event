@@ -1,0 +1,22 @@
+{
+  "id": "src-002",
+  "title": "공룡매직쇼 D-5 (6/6~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 사이언스홀에서 6/6~7 개최. 공룡덕후박람회(5/31 종료) 후속 공룡 테마 행사.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-31",
+  "tag": "update",
+  "related_report": "2026-05-31",
+  "related_item": "2026-05-31/src-011",
+  "tag_reason": "5/31 차기 행사로 최초 발견됨. 6/1 기준 D-5 카운트다운.",
+  "entities": [
+    { "id": "ent-evt-047", "type": "Event", "name": "공룡매직쇼" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-047", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-047", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

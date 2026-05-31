@@ -1,0 +1,20 @@
+{
+  "id": "src-010",
+  "title": "국립어린이과학관 미디어체험관 이름 짓기 이벤트 (~9/14)",
+  "url": "https://www.facebook.com/scijoy2017/posts/",
+  "snippet": "2026년 국립어린이과학관에 새로운 미디어체험관(몰입형 실감미디어아트)이 생길 예정. 이름 짓기 온라인 이벤트 진행중(~9/14). 2025~2026 전시개선사업의 일환.",
+  "source_name": "국립어린이과학관 페이스북",
+  "language": "ko",
+  "discovered_date": "2026-06-01",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 동일/유사 항목 없음. 국립어린이과학관 페이스북에서 미디어체험관 이름 공모 이벤트 최초 발견.",
+  "entities": [
+    { "id": "temp-004", "type": "Event", "name": "국립어린이과학관 미디어체험관 이름 짓기 이벤트" },
+    { "id": "ent-org-005", "type": "Organization", "name": "국립어린이과학관" }
+  ],
+  "relations": [
+    { "subject": "temp-004", "predicate": "organizedBy", "object": "ent-org-005" }
+  ]
+}

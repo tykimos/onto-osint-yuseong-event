@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-01",
+  "new_active": [],
+  "new_recent": [],
+  "moved_to_archived": [
+    {
+      "id": "shop-popup-movementlab-001",
+      "name": "무브먼트랩 팝업 IN 대전",
+      "reason": "popup_close_date 2026-05-31 경과 — strict_50day_cap_expired",
+      "moved_by": "shop_roster_prune.py (pre-step)"
+    },
+    {
+      "id": "shop-popup-hunter-002",
+      "name": "헌터 팝업 IN 대전",
+      "reason": "popup_close_date 2026-05-31 경과 — strict_50day_cap_expired",
+      "moved_by": "shop_roster_prune.py (pre-step)"
+    }
+  ],
+  "manual_seeds_resolved": [],
+  "manual_seeds_pending": [],
+  "summary": "active_shops 0건 (어제 2건 → 오늘 0건). 무브먼트랩·헌터 팝업 2건 운영 종료(5/31)로 archived. 신규 후보 0건. manual_seeds 변동 없음(3건 모두 기존 해결)."
+}

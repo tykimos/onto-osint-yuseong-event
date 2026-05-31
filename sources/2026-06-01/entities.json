@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-01",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-evt-048",
+      "type": "Event",
+      "name": "물리로 물리쳐라!",
+      "properties": {
+        "start_date": "2026-06-03",
+        "end_date": "2026-06-07",
+        "venue": "국립중앙과학관 사이언스터널 및 미래기술관 3층",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.9,
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+        "status": "D-2"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-evt-047",
+      "type": "Event",
+      "name": "공룡매직쇼",
+      "properties": {
+        "start_date": "2026-06-06",
+        "end_date": "2026-06-07",
+        "venue": "국립중앙과학관 사이언스홀",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년"],
+        "kid_friendly_score": 0.9,
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+        "status": "D-5"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "properties": {
+        "start_date": "2026-03-18",
+        "end_date": "2026-06-21",
+        "venue": "대전시립미술관",
+        "status": "진행중 (D-20 종료)",
+        "kid_friendly_score": 0.95
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "국립어린이과학관 미디어체험관 이름 짓기 이벤트",
+      "properties": {
+        "end_date": "2026-09-14",
+        "venue": "국립어린이과학관",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립어린이과학관",
+        "fee": "무료",
+        "indoor_outdoor": "온라인",
+        "target_age_group": ["전연령가족"],
+        "kid_friendly_score": 0.6,
+        "source_url": "https://www.facebook.com/scijoy2017/posts/",
+        "registration_required": true,
+        "note": "2026년 신규 미디어체험관(몰입형 실감미디어아트) 이름 공모 — 온라인 참여"
+      },
+      "source_ids": ["src-010"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-evt-041",
+      "type": "Event",
+      "name": "피직스랩 상시 체험",
+      "properties": {
+        "venue": "국립중앙과학관 과학기술관 1층",
+        "status": "상시 운영"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-evt-015",
+      "type": "Event",
+      "name": "탐이 꿈이의 비밀 실험실",
+      "properties": {
+        "start_date": "2026-04-01",
+        "end_date": "2026-06-30",
+        "venue": "국립어린이과학관",
+        "status": "진행중 (D-29 종료)"
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-evt-048",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-002"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_ids": ["src-001"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_ids": ["src-002"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "followsEvent",
+      "object": "ent-evt-027",
+      "source_ids": ["src-001"],
+      "confidence": 0.8,
+      "note": "브릭파티(5/23~31) 종료 → 물리로 물리쳐라(6/3~7) 교체"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "followsEvent",
+      "object": "ent-evt-028",
+      "source_ids": ["src-002"],
+      "confidence": 0.8,
+      "note": "공룡덕후(5/30~31) 종료 → 공룡매직쇼(6/6~7) 후속 공룡 테마"
+    }
+  ],
+  "stats": {
+    "total_entities": 6,
+    "new_entities": 1,
+    "matched_entities": 5,
+    "total_relations": 6
+  }
+}

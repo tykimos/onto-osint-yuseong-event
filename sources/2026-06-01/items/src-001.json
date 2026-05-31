@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "물리로 물리쳐라! D-2 (6/3~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 사이언스터널 및 미래기술관 3층에서 6/3~7 개최. 아날로그 감성 물리놀이터. 브릭파티(5/31 종료) 후 사이언스터널 콘텐츠 교체.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-31",
+  "tag": "update",
+  "related_report": "2026-05-31",
+  "related_item": "2026-05-31/src-012",
+  "tag_reason": "5/31 차기 행사로 최초 발견됨. 6/1 기준 D-2 카운트다운 진입으로 상태 업데이트.",
+  "entities": [
+    { "id": "ent-evt-048", "type": "Event", "name": "물리로 물리쳐라!" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-048", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-048", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

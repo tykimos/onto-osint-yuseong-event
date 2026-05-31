@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-01",
+  "new_triples": [
+    {
+      "subject": "ent-evt-049",
+      "predicate": "organizedBy",
+      "object": "ent-org-005",
+      "confidence": 0.85,
+      "source": "src-010"
+    },
+    {
+      "subject": "ent-evt-049",
+      "predicate": "hostsAt",
+      "object": "ent-venue-004",
+      "confidence": 0.85,
+      "source": "src-010"
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "followsEvent",
+      "object": "ent-evt-027",
+      "confidence": 0.8,
+      "source": "src-001",
+      "note": "브릭파티 종료 → 물리로 물리쳐라 교체 (사이언스터널)"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "followsEvent",
+      "object": "ent-evt-028",
+      "confidence": 0.8,
+      "source": "src-002",
+      "note": "공룡덕후 종료 → 공룡매직쇼 후속 (공룡 테마)"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-048",
+      "predicate": "visitCombo",
+      "object": "ent-evt-047",
+      "confidence": 0.75,
+      "rule": "same_dong_combo",
+      "note": "물리로 물리쳐라(6/3~7) + 공룡매직쇼(6/6~7) 도룡동 동시 개최 (6/6~7 겹침)"
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "visitCombo",
+      "object": "ent-evt-039",
+      "confidence": 0.7,
+      "rule": "same_dong_combo",
+      "note": "물리로 물리쳐라 + 열한번째 트윙클 — 둘 다 실내, 도룡동/서구 인접"
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "rule": "operator_kid_friendliness",
+      "note": "국립중앙과학관(과학관) 운영 → 어린이 친화도 가산"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "rule": "operator_kid_friendliness",
+      "note": "국립중앙과학관(과학관) 운영 → 어린이 친화도 가산"
+    },
+    {
+      "subject": "ent-evt-041",
+      "predicate": "rainyFallbackFor",
+      "object": "outdoor-events",
+      "confidence": 0.8,
+      "rule": "indoor_rainy_fallback",
+      "note": "피직스랩(실내) — 우천 시 도룡동 대안"
+    }
+  ],
+  "status_updates": [
+    { "id": "ent-evt-028", "field": "status", "old": "Day 2 마지막날", "new": "종료" },
+    { "id": "ent-evt-027", "field": "status", "old": "Day 9 마지막날", "new": "종료" },
+    { "id": "ent-evt-033", "field": "status", "old": "마지막날", "new": "종료" },
+    { "id": "ent-evt-037", "field": "status", "old": "마지막날", "new": "종료" },
+    { "id": "ent-evt-038", "field": "status", "old": "마지막날", "new": "종료" },
+    { "id": "ent-evt-046", "field": "status", "old": "D-day", "new": "종료" },
+    { "id": "ent-evt-048", "field": "status", "old": "D-3", "new": "D-2" },
+    { "id": "ent-evt-047", "field": "status", "old": "D-6", "new": "D-5" },
+    { "id": "ent-evt-045", "field": "status", "old": "접수마감", "new": "D-3 개시 대기" },
+    { "id": "ent-evt-039", "field": "status", "old": "진행중", "new": "진행중 (D-20)" },
+    { "id": "ent-evt-015", "field": "status", "old": "진행중", "new": "진행중 (D-29)" }
+  ],
+  "stats": {
+    "new_triples": 4,
+    "inferred_triples": 5,
+    "status_updates": 11
+  }
+}

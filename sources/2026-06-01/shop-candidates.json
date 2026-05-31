@@ -1,0 +1,11 @@
+{
+  "date": "2026-06-01",
+  "scout_ran_at": "2026-06-01T07:15:00+09:00",
+  "manual_seeds_processed": 0,
+  "manual_seeds_pending": 0,
+  "active_shops_reverified": 0,
+  "new_candidates": [],
+  "discovery_queries_run": 6,
+  "discovery_channels_checked": ["websearch", "naver-place-keyword", "dayforyou"],
+  "notes": "금일 신규 오픈 가게 후보 발견 없음. 무브먼트랩·헌터 팝업 2건 어제(5/31) 운영 종료 → shop_roster_prune.py가 archived 처리 완료. manual_seeds 3건 모두 이전 사이클에서 resolved/excluded. 현대프리미엄아울렛 대전점 6월 팝업 일정 미공개."
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-01",
+  "auditor": "shop-coverage-auditor",
+  "report_path": "reports/2026/06/2026-06-01.md",
+
+  "active_shops_coverage": {
+    "expected": 0,
+    "found_in_report": 0,
+    "missing": [],
+    "status": "PASS",
+    "note": "active_shops=0 — 팝업 2건 어제 종료 후 archived. 보고서에 0건 명시 + 사유 기재."
+  },
+
+  "three_category_coverage": {
+    "events": {
+      "status": "PASS",
+      "new_count": 1,
+      "update_count": 2,
+      "note": "신규 1건(미디어체험관 이름짓기) + 업데이트 2건(물리놀이터 D-2, 공룡매직쇼 D-5)"
+    },
+    "shops": {
+      "status": "PASS",
+      "active_count": 0,
+      "note": "금일 신규 없음 + 활성 윈도우 0건 명시. 사용자 제보 3건 현황 표 포함."
+    },
+    "public_institutions": {
+      "status": "PASS",
+      "new_count": 0,
+      "note": "금일 신규 없음 명시. 119시민체험센터 휴무 안내 포함."
+    }
+  },
+
+  "manual_seeds_visibility": {
+    "status": "PASS",
+    "total_seeds": 3,
+    "displayed_in_report": 3,
+    "note": "엉클부대찌개(resolved_not_new), 인터뷰커피라운지(resolved_not_new), 유성닭발(excluded) — 3건 모두 사용자 제보 처리 현황 표에 노출."
+  },
+
+  "mermaid_kg": {
+    "status": "PASS",
+    "node_count": 18,
+    "note": "18개 노드 — 단일 전체 그래프. classDef fill 미사용. 이모지 접두사 사용."
+  },
+
+  "overall_verdict": "PASS",
+  "patches_applied": 0,
+  "summary": "3종 의무 커버 충족. active_shops 0건 정확 반영. manual_seeds 3건 표시. KG 시각화 포함. 패치 불필요."
+}

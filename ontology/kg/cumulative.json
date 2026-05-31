@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-29",
+  "last_updated": "2026-06-01",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1701,9 +1701,57 @@
     { "subject": "ent-evt-046", "predicate": "visitCombo", "object": "ent-evt-028", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "same_dong_combo", "note": "도룡동 5/31 가디언즈+공룡덕후 콤보" },
     { "subject": "ent-evt-028", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-05-30", "rule": "operator_kid_friendliness" }
   ],
+  "nodes_added_2026_05_31": [
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼" },
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!" }
+  ],
+  "edges_added_2026_05_31": [
+    { "subject": "ent-evt-047", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.95, "added": "2026-05-31" },
+    { "subject": "ent-evt-047", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-31" },
+    { "subject": "ent-evt-048", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.95, "added": "2026-05-31" },
+    { "subject": "ent-evt-048", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.95, "added": "2026-05-31" },
+    { "subject": "ent-evt-047", "predicate": "followsEvent", "object": "ent-evt-028", "type": "inferred", "confidence": 0.70, "added": "2026-05-31", "rule": "same_venue_series", "note": "공룡 테마 후속" },
+    { "subject": "ent-evt-048", "predicate": "followsEvent", "object": "ent-evt-027", "type": "inferred", "confidence": 0.60, "added": "2026-05-31", "rule": "same_venue_series", "note": "사이언스터널 콘텐츠 교체" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "Day 2 마지막날", "type": "explicit", "confidence": 0.99, "added": "2026-05-31" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "Day 9 마지막날", "type": "explicit", "confidence": 0.99, "added": "2026-05-31" },
+    { "subject": "ent-evt-046", "predicate": "status", "object": "D-day", "type": "explicit", "confidence": 0.99, "added": "2026-05-31" },
+    { "subject": "ent-evt-033", "predicate": "status", "object": "마지막날", "type": "explicit", "confidence": 0.99, "added": "2026-05-31" },
+    { "subject": "ent-evt-037", "predicate": "status", "object": "마지막날", "type": "explicit", "confidence": 0.99, "added": "2026-05-31" },
+    { "subject": "ent-evt-038", "predicate": "status", "object": "마지막날", "type": "explicit", "confidence": 0.99, "added": "2026-05-31" },
+    { "subject": "ent-evt-028", "predicate": "visitCombo", "object": "ent-evt-027", "type": "inferred", "confidence": 0.90, "added": "2026-05-31", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-028", "predicate": "visitCombo", "object": "ent-evt-046", "type": "inferred", "confidence": 0.90, "added": "2026-05-31", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-027", "predicate": "visitCombo", "object": "ent-evt-046", "type": "inferred", "confidence": 0.90, "added": "2026-05-31", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-047", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-31", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-048", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.85, "added": "2026-05-31", "rule": "operator_kid_friendliness" }
+  ],
+  "nodes_added_2026_06_01": [
+    { "id": "ent-evt-049", "type": "Event", "label": "국립어린이과학관 미디어체험관 이름 짓기 이벤트" }
+  ],
+  "edges_added_2026_06_01": [
+    { "subject": "ent-evt-049", "predicate": "organizedBy", "object": "ent-org-005", "type": "explicit", "confidence": 0.85, "added": "2026-06-01", "source": "src-010" },
+    { "subject": "ent-evt-049", "predicate": "hostsAt", "object": "ent-venue-004", "type": "explicit", "confidence": 0.85, "added": "2026-06-01", "source": "src-010" },
+    { "subject": "ent-evt-048", "predicate": "followsEvent", "object": "ent-evt-027", "type": "explicit", "confidence": 0.80, "added": "2026-06-01", "source": "src-001", "note": "브릭파티 종료 → 물리로 물리쳐라 교체 (사이언스터널) 0.60→0.80" },
+    { "subject": "ent-evt-047", "predicate": "followsEvent", "object": "ent-evt-028", "type": "explicit", "confidence": 0.80, "added": "2026-06-01", "source": "src-002", "note": "공룡덕후 종료 → 공룡매직쇼 후속 (공룡 테마) 0.70→0.80" },
+    { "subject": "ent-evt-048", "predicate": "visitCombo", "object": "ent-evt-047", "type": "inferred", "confidence": 0.75, "added": "2026-06-01", "rule": "same_dong_combo", "note": "물리로 물리쳐라(6/3~7) + 공룡매직쇼(6/6~7) 도룡동 동시 개최" },
+    { "subject": "ent-evt-048", "predicate": "visitCombo", "object": "ent-evt-039", "type": "inferred", "confidence": 0.70, "added": "2026-06-01", "rule": "same_dong_combo", "note": "물리로 물리쳐라 + 열한번째 트윙클 — 둘 다 실내, 도룡동/서구 인접" },
+    { "subject": "ent-evt-048", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-06-01", "rule": "operator_kid_friendliness", "note": "국립중앙과학관 운영 0.85→0.90" },
+    { "subject": "ent-evt-047", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-06-01", "rule": "operator_kid_friendliness", "note": "국립중앙과학관 운영 0.85→0.90" },
+    { "subject": "ent-evt-041", "predicate": "rainyFallbackFor", "object": "outdoor-events", "type": "inferred", "confidence": 0.80, "added": "2026-06-01", "rule": "indoor_rainy_fallback", "note": "피직스랩(실내) — 우천 시 도룡동 대안" },
+    { "subject": "ent-evt-028", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-06-01" },
+    { "subject": "ent-evt-027", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-06-01" },
+    { "subject": "ent-evt-033", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-06-01" },
+    { "subject": "ent-evt-037", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-06-01" },
+    { "subject": "ent-evt-038", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-06-01" },
+    { "subject": "ent-evt-046", "predicate": "status", "object": "종료", "type": "explicit", "confidence": 1.0, "added": "2026-06-01" },
+    { "subject": "ent-evt-048", "predicate": "status", "object": "D-2", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" },
+    { "subject": "ent-evt-047", "predicate": "status", "object": "D-5", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" },
+    { "subject": "ent-evt-045", "predicate": "status", "object": "D-3 개시 대기", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" },
+    { "subject": "ent-evt-039", "predicate": "status", "object": "진행중 (D-20)", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" },
+    { "subject": "ent-evt-015", "predicate": "status", "object": "진행중 (D-29)", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" }
+  ],
   "stats": {
-    "total_nodes": 134,
-    "total_edges": 184,
-    "total_triples": 401
+    "total_nodes": 137,
+    "total_edges": 218,
+    "total_triples": 432
   }
 }

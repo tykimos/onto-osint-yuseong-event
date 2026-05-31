@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-01",
+  "collected_at": "2026-06-01T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": ["국립중앙과학관 6월", "열한번째 트윙클", "피직스랩", "119시민체험센터", "숏폼 진잠도서관", "물리로 물리쳐라", "공룡매직쇼"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 이벤트 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:01:00+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "유성구 특화 6월 행사 결과 없음 — 전국 어린이날(5월) 결과만 반환"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 6월 행사 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:02:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내 페이지", "source_name": "국립중앙과학관" },
+        { "title": "Again CES 2026 행사 안내", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=48762", "snippet": "1월 행사 — 비해당", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 2026년 주요프로그램 공개", "url": "https://www.lecturernews.com/news/articleView.html?idxno=194423", "snippet": "미래세대 과학기술문화 확산을 위한 2026년 주요프로그램", "source_name": "한국강사신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 6월 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:03:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "문화행사신청/조회 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구통합도서관 프로그램 목록", "source_name": "유성구통합도서관" },
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "행사 신청 페이지", "source_name": "유성구통합도서관" },
+        { "title": "유성구 진잠도서관, K-도서관 활용", "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=1833539", "snippet": "1인 미디어 창작공간 K-도서관 활용 숏폼 제작 프로그램", "source_name": "신아일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:04:00+09:00",
+      "result_count": 0,
+      "results": [],
+      "note": "유성구 6월 신규 오픈 가게 정보 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 \"물리로 물리쳐라\" 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:05:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내", "source_name": "국립중앙과학관" },
+        { "title": "물리로 세상을 체험하다, 국립중앙과학관 '피직스랩' 전격 개관", "url": "https://www.edu-focus.com/news/461944", "snippet": "피직스랩 개관 기사 — 물리로 물리쳐라는 피직스랩 개관 축제 이름이었으나 6월 행사는 별도", "source_name": "교육포커스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 \"공룡매직쇼\" 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:06:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/1111/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "공룡덕후박람회 참가안내 — 5/30~31 종료", "source_name": "국립중앙과학관" },
+        { "title": "공연행사예약 | 국립중앙과학관 통합예약 누리집", "url": "https://rsvn.science.go.kr/nsm/evtrsvn/evtrsvnDetail?evtNo=189", "snippet": "국립중앙과학관 통합예약 — 차기 공연 예약", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 \"열한번째 트윙클\" 어린이 기획전 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:07:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "https://www.koreaunionnews.com/2046689", "snippet": "3/18~6/21 어린이미술기획전", "source_name": "한국연합신문" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 개최", "url": "https://www.newsro.kr/article243/1626322/", "snippet": "열한번째 트윙클 전시 소개", "source_name": "뉴스로" },
+        { "title": "대전시립미술관, 어린이미술전 '열한번째 트윙클' 열어", "url": "https://www.tjb.co.kr/news11/category/view/id/95553/version/1", "snippet": "TJB 대전방송 보도", "source_name": "TJB" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 복지관 6월 행사 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:08:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/health/index.do", "snippet": "유성구 보건소 메인", "source_name": "유성구청" },
+        { "title": "유성구종합사회복지관", "url": "http://yuseongswc.or.kr", "snippet": "유성구종합사회복지관 메인", "source_name": "유성구종합사회복지관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립어린이과학관 \"탐이 꿈이\" 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:09:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립어린이과학관 - 미디어체험관 이름 짓기 이벤트(~9.14.)", "url": "https://www.facebook.com/scijoy2017/posts/", "snippet": "2026년 국립어린이과학관 새로운 미디어체험관 이름 짓기 이벤트 ~9/14", "source_name": "국립어린이과학관 페이스북" },
+        { "title": "국립어린이과학관 2025~2026 전시개선사업(몰입형 실감미디어아트 체험관)", "url": "https://www.jungi.net/detail_bid/index/bid9450328", "snippet": "전시개선사업 입찰 공고", "source_name": "전기넷" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전엑스포아쿠아리움 6월 프로그램 체험 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:10:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전엑스포아쿠아리움", "url": "https://www.djexpoaqua.com/html/program.php?tab=1", "snippet": "프로그램 안내 — 수중발레·피딩쇼·마술공연", "source_name": "대전엑스포아쿠아리움" },
+        { "title": "대전엑스포아쿠아리움", "url": "https://djexpoaqua.com/", "snippet": "메인 페이지, 10:30~19:00 연중무휴", "source_name": "대전엑스포아쿠아리움" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "119시민체험센터 대전 유성 소방 안전 체험 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:11:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "119시민체험센터 소개", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4461", "snippet": "119시민체험센터 소개 페이지", "source_name": "대전소방본부" },
+        { "title": "소방체험 및 교육신청", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092", "snippet": "사전예약 필수, 화~토 운영", "source_name": "대전소방본부" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 현대프리미엄아울렛 팝업 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-01T07:12:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "현대프리미엄아울렛 대전점 메인", "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00177000", "snippet": "현대프리미엄아울렛 대전점", "source_name": "현대백화점" },
+        { "title": "팝업스토어 검색 - 데이포유", "url": "https://dayforyou.com/getScheduleList", "snippet": "팝업스토어 일정 검색", "source_name": "데이포유" },
+        { "title": "IKEA팝업 현대프리미엄아울렛 대전", "url": "https://www.ikea.com/kr/ko/stores/giheung/ikea-hyundai-outlet-dj-pub6d82f570/", "snippet": "IKEA 팝업 운영 정보", "source_name": "IKEA" }
+      ]
+    }
+  ]
+}

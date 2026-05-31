@@ -1,0 +1,88 @@
+{
+  "date": "2026-06-01",
+  "total": 10,
+  "new": 1,
+  "reported": 7,
+  "update": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "물리로 물리쳐라! D-2 (6/3~7)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_item": "2026-05-31/src-012",
+      "entity_count": 3
+    },
+    {
+      "id": "src-002",
+      "title": "공룡매직쇼 D-5 (6/6~7)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_item": "2026-05-31/src-011",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "열한번째 트윙클 진행중 (~6/21, D-20)",
+      "url": "https://www.koreaunionnews.com/2046689",
+      "tag": "reported",
+      "related_item": "2026-05-31/src-006",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "피직스랩 상시 체험 (국립중앙과학관)",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "reported",
+      "related_item": "2026-05-31/src-007",
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "탐이 꿈이의 비밀 실험실 진행중 (~6/30)",
+      "url": "https://www.science.go.kr/mps/cntnts/1063/moveCntnts.do",
+      "tag": "reported",
+      "related_item": "2026-04-26/src-014",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "숏폼 제작 클래스 D-3 (6/4~25, 진잠도서관)",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=1833539",
+      "tag": "reported",
+      "related_item": "2026-05-30/src-010",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "119시민체험센터 월요일 휴무",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_item": "2026-05-31/src-008",
+      "entity_count": 1
+    },
+    {
+      "id": "src-008",
+      "title": "대전시민천문대 상시 관측 프로그램 (5월 특별전시 종료)",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_item": "2026-05-31/src-005",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "대전엑스포아쿠아리움 상시 체험",
+      "url": "https://djexpoaqua.com/",
+      "tag": "reported",
+      "related_item": "2026-04-26/src-001",
+      "entity_count": 2
+    },
+    {
+      "id": "src-010",
+      "title": "국립어린이과학관 미디어체험관 이름 짓기 이벤트 (~9/14)",
+      "url": "https://www.facebook.com/scijoy2017/posts/",
+      "tag": "new",
+      "entity_count": 2
+    }
+  ]
+}

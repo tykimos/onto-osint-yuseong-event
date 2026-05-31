@@ -323,5 +323,21 @@
     { "id": "ent-evt-033", "update": "마지막날 (오늘 5/31 종료). 유성봄꽃전시회 전시 종료." },
     { "id": "ent-evt-037", "update": "마지막날 (오늘 5/31 종료). 천문대 운석전시 종료." },
     { "id": "ent-evt-038", "update": "마지막날 (오늘 5/31 종료). 천문대 기상기후사진전 종료." }
+  ],
+  "new_entities_2026_06_01": [
+    { "id": "ent-evt-049", "type": "Event", "name": "국립어린이과학관 미디어체험관 이름 짓기 이벤트", "properties": { "end_date": "2026-09-14", "venue": "국립어린이과학관 (온라인)", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립어린이과학관", "fee": "무료", "indoor_outdoor": "온라인", "target_age_group": ["전연령가족"], "kid_friendly_score": 0.6, "registration_required": true, "source_url": "https://www.facebook.com/scijoy2017/posts/", "note": "2025~2026 전시개선사업(몰입형 실감미디어아트 체험관) 이름 공모" }, "first_seen": "2026-06-01", "last_seen": "2026-06-01", "mention_count": 1 }
+  ],
+  "updates_2026_06_01": [
+    { "id": "ent-evt-028", "update": "종료 확정 (5/31 종료). 공룡덕후박람회 완전 종료." },
+    { "id": "ent-evt-027", "update": "종료 확정 (5/31 종료). 브릭파티 완전 종료." },
+    { "id": "ent-evt-033", "update": "종료 확정 (5/31 종료). 유성봄꽃전시회 완전 종료." },
+    { "id": "ent-evt-037", "update": "종료 확정 (5/31 종료). 천문대 운석전시 완전 종료." },
+    { "id": "ent-evt-038", "update": "종료 확정 (5/31 종료). 천문대 기상기후사진전 완전 종료." },
+    { "id": "ent-evt-046", "update": "종료 확정 (5/31 종료). 가디언즈: 빛의 수호자들 완전 종료." },
+    { "id": "ent-evt-048", "update": "D-2 (6/3 시작 이틀 전). 물리로 물리쳐라! 사이언스터널." },
+    { "id": "ent-evt-047", "update": "D-5 (6/6 시작 닷새 전). 공룡매직쇼 사이언스홀." },
+    { "id": "ent-evt-045", "update": "D-3 개시 대기 (6/4 시작 사흘 전). 숏폼 제작 클래스 진잠도서관." },
+    { "id": "ent-evt-039", "update": "진행중 (D-20 종료). 열한번째 트윙클 6/21 종료까지 20일." },
+    { "id": "ent-evt-015", "update": "진행중 (D-29 종료). 탐이 꿈이의 비밀 실험실 6/30 종료까지 29일." }
   ]
 }
