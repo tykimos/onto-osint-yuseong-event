@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-02",
   "window_days": 50,
   "recent_window_days": 50,
   "_policy": "strict 50일 cap — opened_date+50일 경과 시 즉시 archived. recent 단계 없음. 보고서에 노출되는 것은 active_shops뿐.",
@@ -223,12 +223,9 @@
     }
   ],
   "_last_prune": {
-    "ran_on": "2026-05-31T23:02:35.482201+00:00",
-    "target_date": "2026-06-01",
+    "ran_on": "2026-06-01T23:37:57.670006+00:00",
+    "target_date": "2026-06-02",
     "moved_to_recent": [],
-    "moved_to_archived": [
-      "shop-popup-movementlab-001",
-      "shop-popup-hunter-002"
-    ]
+    "moved_to_archived": []
   }
 }

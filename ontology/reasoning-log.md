@@ -1410,3 +1410,53 @@
 - **신뢰도:** 0.95
 - **상태:** 확정
 - **비고:** 도룡동 과학관 상시 체험이 최소 콘텐츠를 유지.
+
+## 2026-06-02 추론 결과
+
+### 추론 #1: operator_kid_friendliness (개미·꿀벌의 팀워크)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-050 hostsAt ent-venue-005)
+- **추론:** (ent-evt-050 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관 운영 어린이 대상 곤충 생태 전시.
+
+### 추론 #2: operator_kid_friendliness (출동! 첨단 미래자연탐사대)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-evt-051 hostsAt ent-venue-005)
+- **추론:** (ent-evt-051 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 과기정통부+과학관 공동 주관 AR 자연탐사 체험.
+
+### 추론 #3: same_dong_combo (도룡동 6월 초 3종 콤보)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-048 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-venue-005 locatedIn dong-doryong)
+- **추론:** (ent-evt-050 visitCombo ent-evt-048), (ent-evt-050 visitCombo ent-evt-051)
+- **신뢰도:** 0.80 / 0.85
+- **상태:** 확정
+- **비고:** 도룡동 과학관 내 6/3~7 기간 3종 동시 운영. 피직스랩·탐이꿈이까지 합치면 5종 콤보.
+
+### 추론 #4: same_venue_series (로보스테이지 시리즈)
+- **규칙:** same_venue_series
+- **입력:** (ent-evt-053 hostsAt ent-venue-005), 프로그램명 "로보스테이지6 : Kick Off!"
+- **추론:** (ent-evt-053 partOfSeries 로보스테이지시리즈)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 로봇 체험 정기 프로그램 6회차. 이전 1~5회차는 미추적.
+
+### 추론 #5: public_institution_kid_event (신성동 행정복지센터)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.70
+- **상태:** 잠정
+- **비고:** 행정복지센터 주관 공공 행사. 어린이 직접 대상은 아니지만 공공기관 신뢰도 가산 규칙 적용. 수유실·공유주방 등 가족 편의시설 마련.
+
+### 추론 #6: 콘텐츠 밀도 회복 (6/1 진단 수정)
+- **규칙:** (상태 분석)
+- **입력:** 6/1 진단 "콘텐츠 공백(6/1~2)" vs 6/2 3건 신규 발견
+- **추론:** 콘텐츠 밀도 회복 시점 상향. 6/2부터 이미 팀워크 전시 개시. 6/3 물리놀이터 합류 시 과학관 5종 콤보 달성.
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 어제 "공백" 진단은 개미·꿀벌 전시와 자연탐사대 전시를 누락한 상태에서의 판단이었음. 실제로는 과학관 상시 체험(피직스랩·탐이꿈이)에 더해 6/2 팀워크, 4/21~ 자연탐사대까지 가동 중.

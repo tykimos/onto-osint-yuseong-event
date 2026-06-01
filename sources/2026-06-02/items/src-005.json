@@ -1,0 +1,22 @@
+{
+  "id": "src-005",
+  "title": "신성동 행정복지센터 신청사 이전 안내 (6/16~)",
+  "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+  "snippet": "유성구 신성동 행정복지센터가 6월 16일(월)부터 신청사에서 업무를 시작한다. 신청사는 기존 청사를 철거하고 같은 부지(신성로 55)에 지하1층~지상2층(연면적 2842㎡) 규모로 건립. 1층 종합민원실·수유실, 2층 대회의실, 지하 다목적실·공유주방 마련.",
+  "source_name": "대전일보",
+  "language": "ko",
+  "discovered_date": "2026-06-02",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유성구청 페이스북·대전일보 보도에서 최초 발견. 1차 타겟 동(신성동) 공공기관 행사.",
+  "entities": [
+    { "id": "temp-evt-052", "type": "Event", "name": "신성동 행정복지센터 신청사 개청" },
+    { "id": "temp-venue-027", "type": "Venue", "name": "신성동 행정복지센터 (신청사)" },
+    { "id": "temp-org-025", "type": "Organization", "name": "신성동 행정복지센터" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-052", "predicate": "hostsAt", "object": "temp-venue-027" },
+    { "subject": "temp-venue-027", "predicate": "locatedIn", "object": "dong-sinseong" }
+  ]
+}

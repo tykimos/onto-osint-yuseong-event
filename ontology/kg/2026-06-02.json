@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-02",
+  "new_triples": [
+    { "subject": "ent-evt-050", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-001", "date": "2026-06-02", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-050", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-001", "date": "2026-06-02", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-051", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-002", "date": "2026-06-02", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-051", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-002", "date": "2026-06-02", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-051", "predicate": "organizedBy", "object": "ent-org-009", "source_id": "src-002", "date": "2026-06-02", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-evt-052", "predicate": "hostsAt", "object": "ent-venue-027", "source_id": "src-005", "date": "2026-06-02", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-venue-027", "predicate": "locatedIn", "object": "dong-sinseong", "source_id": "src-005", "date": "2026-06-02", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-evt-053", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-006", "date": "2026-06-02", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-evt-053", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-006", "date": "2026-06-02", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-evt-054", "predicate": "hostsAt", "object": "ent-venue-005", "source_id": "src-007", "date": "2026-06-02", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-evt-054", "predicate": "organizedBy", "object": "ent-org-006", "source_id": "src-007", "date": "2026-06-02", "confidence": 0.85, "type": "explicit" }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    { "subject": "ent-evt-050", "predicate": "kidFriendlyBoost", "object": "+0.2", "rule": "operator_kid_friendliness", "confidence": 0.90, "type": "inferred", "reason": "국립중앙과학관(과학관) 운영 어린이 대상 전시" },
+    { "subject": "ent-evt-051", "predicate": "kidFriendlyBoost", "object": "+0.2", "rule": "operator_kid_friendliness", "confidence": 0.90, "type": "inferred", "reason": "국립중앙과학관(과학관)+과기정통부 운영 어린이 대상 특별전" },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-048", "rule": "same_dong_combo", "confidence": 0.80, "type": "inferred", "reason": "도룡동 6/3~7 기간 중 3종 동시 운영(팀워크+물리놀이터+자연탐사대)" },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-051", "rule": "same_dong_combo", "confidence": 0.85, "type": "inferred", "reason": "도룡동 동일 과학관 내 동시 진행 전시" },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-047", "rule": "same_dong_combo", "confidence": 0.75, "type": "inferred", "reason": "도룡동 6/6~7 동시 운영(팀워크+공룡매직쇼+자연탐사대)" },
+    { "subject": "ent-evt-052", "predicate": "publicTrustBoost", "object": "+0.15", "rule": "public_institution_kid_event", "confidence": 0.70, "type": "inferred", "reason": "행정복지센터 주관 — 공공기관 신뢰도 가산. 단, 어린이 직접 대상은 아니므로 kid_friendly_score에는 미반영." },
+    { "subject": "ent-evt-053", "predicate": "partOfSeries", "object": "로보스테이지시리즈", "rule": "same_venue_series", "confidence": 0.80, "type": "inferred", "reason": "로보스테이지 6회차 — 국립중앙과학관 정기 로봇 프로그램 시리즈" }
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 11,
+    "inferred_edges": 7
+  }
+}

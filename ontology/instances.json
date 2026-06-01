@@ -339,5 +339,22 @@
     { "id": "ent-evt-045", "update": "D-3 개시 대기 (6/4 시작 사흘 전). 숏폼 제작 클래스 진잠도서관." },
     { "id": "ent-evt-039", "update": "진행중 (D-20 종료). 열한번째 트윙클 6/21 종료까지 20일." },
     { "id": "ent-evt-015", "update": "진행중 (D-29 종료). 탐이 꿈이의 비밀 실험실 6/30 종료까지 29일." }
+  ],
+  "new_entities_2026_06_02": [
+    { "id": "ent-evt-050", "type": "Event", "name": "개미·꿀벌의 팀워크", "properties": { "start_date": "2026-06-02", "end_date": "2026-07-31", "venue": "국립중앙과학관 자연사관", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "무료(입장권별도)", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.85, "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 2 },
+    { "id": "ent-evt-051", "type": "Event", "name": "출동! 첨단 미래 자연탐사대 — 박사님의 비밀 가방을 열어라!", "properties": { "start_date": "2026-04-21", "end_date": "2026-06-28", "venue": "국립중앙과학관 사이언스터널", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "과학기술정보통신부·국립중앙과학관", "fee": "미확인", "registration_required": false, "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년", "전연령가족"], "kid_friendly_score": 0.85, "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756613", "note": "4/21 시작이었으나 이전 보고서에서 누락. 6/28까지 진행 중." }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 2 },
+    { "id": "ent-evt-052", "type": "Event", "name": "신성동 행정복지센터 신청사 개청", "properties": { "start_date": "2026-06-16", "venue": "신성동 행정복지센터 신청사", "dong": "신성동", "address": "대전 유성구 신성로 55 (하기동 18-6)", "distance_from_anchor_m": 1500, "ring": "ring-bike", "host": "유성구·신성동 행정복지센터", "fee": "해당없음", "indoor_outdoor": "실내", "target_age_group": ["전연령가족"], "kid_friendly_score": 0.4, "facility_details": "지하1층~지상2층, 연면적 2842㎡. 1층 종합민원실·수유실, 2층 대회의실, 지하 다목적실·공유주방", "source_url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409" }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 3 },
+    { "id": "ent-evt-053", "type": "Event", "name": "로보스테이지6 : Kick Off!", "properties": { "start_date": "2026-06-20", "end_date": "2026-06-20", "venue": "국립중앙과학관", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "미확인", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["초등저학년", "초등고학년"], "kid_friendly_score": 0.85, "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 1 },
+    { "id": "ent-evt-054", "type": "Event", "name": "별의별 과학특강 : 별별뷰티", "properties": { "start_date": "2026-06-20", "end_date": "2026-06-20", "venue": "국립중앙과학관", "dong": "도룡동", "distance_from_anchor_m": 3200, "ring": "ring-car", "host": "국립중앙과학관", "fee": "미확인", "registration_required": true, "indoor_outdoor": "실내", "target_age_group": ["초등고학년", "중학생이상"], "kid_friendly_score": 0.6, "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do" }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 1 },
+    { "id": "ent-venue-027", "type": "Venue", "name": "신성동 행정복지센터 (신청사)", "properties": { "dong": "신성동", "address": "대전 유성구 신성로 55 (하기동 18-6)", "venue_type": "행정복지센터", "distance_from_anchor_m": 1500, "ring": "ring-bike", "parking": true, "stroller_accessible": true, "nursing_room": true }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 3 },
+    { "id": "ent-org-025", "type": "Organization", "name": "신성동 행정복지센터", "properties": { "org_type": "행정복지센터", "address": "대전 유성구 신성로 55" }, "first_seen": "2026-06-02", "last_seen": "2026-06-02", "mention_count": 3 }
+  ],
+  "updates_2026_06_02": [
+    { "id": "ent-evt-048", "update": "D-1 (내일 6/3 시작). 물리로 물리쳐라! — 사이언스터널. 출동! 첨단 미래자연탐사대(~6/28)와 사이언스터널 공유 확인." },
+    { "id": "ent-evt-047", "update": "D-4 (6/6 시작 나흘 전). 공룡매직쇼 사이언스홀." },
+    { "id": "ent-evt-045", "update": "D-2 개시 대기 (6/4 시작 이틀 전). 숏폼 제작 클래스 진잠도서관." },
+    { "id": "ent-evt-039", "update": "진행중 (D-19 종료). 열한번째 트윙클 6/21 종료까지 19일." },
+    { "id": "ent-evt-015", "update": "진행중 (D-28 종료). 탐이 꿈이의 비밀 실험실 6/30 종료까지 28일." },
+    { "id": "ent-evt-050", "update": "D-day 오늘 개막. 개미·꿀벌의 팀워크 자연사관 특별전시 6/2~7/31." }
   ]
 }

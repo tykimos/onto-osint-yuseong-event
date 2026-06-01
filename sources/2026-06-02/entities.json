@@ -1,0 +1,176 @@
+{
+  "date": "2026-06-02",
+  "entities": [
+    {
+      "temp_id": "temp-evt-050",
+      "matched_id": null,
+      "type": "Event",
+      "name": "개미·꿀벌의 팀워크",
+      "properties": {
+        "start_date": "2026-06-02",
+        "end_date": "2026-07-31",
+        "venue": "국립중앙과학관 자연사관",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "무료(입장권별도)",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reason": "곤충 생태 전시 — 개미·꿀벌 사회적 행동과 협력을 체험형으로 전시. 어린이 관심 높은 곤충 주제.",
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-evt-051",
+      "matched_id": null,
+      "type": "Event",
+      "name": "출동! 첨단 미래 자연탐사대 — 박사님의 비밀 가방을 열어라!",
+      "properties": {
+        "start_date": "2026-04-21",
+        "end_date": "2026-06-28",
+        "venue": "국립중앙과학관 사이언스터널",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "과학기술정보통신부·국립중앙과학관",
+        "fee": "미확인",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"],
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reason": "멸종위기 생물 보전·AR 탐사 체험. 첨단기술+자연과학 융합 콘텐츠.",
+        "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756613"
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-evt-052",
+      "matched_id": null,
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "properties": {
+        "start_date": "2026-06-16",
+        "venue": "신성동 행정복지센터 신청사",
+        "dong": "신성동",
+        "address": "대전 유성구 신성로 55 (하기동 18-6)",
+        "distance_from_anchor_m": 1500,
+        "ring": "ring-bike",
+        "host": "유성구·신성동 행정복지센터",
+        "fee": "해당없음",
+        "registration_required": false,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["전연령가족"],
+        "kid_friendly_score": 0.4,
+        "kid_friendly_reason": "행정시설 이전 행사 자체는 어린이 대상 아님. 단, 신청사에 수유실·다목적실·공유주방 마련되어 장기적 가족 접근성 향상.",
+        "facility_details": "지하1층~지상2층, 연면적 2842㎡. 1층 종합민원실·무인민원발급기·수유실, 2층 대회의실·중회의실, 지하1층 다목적실·세미나실·공유주방",
+        "source_url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409"
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-evt-053",
+      "matched_id": null,
+      "type": "Event",
+      "name": "로보스테이지6 : Kick Off!",
+      "properties": {
+        "start_date": "2026-06-20",
+        "end_date": "2026-06-20",
+        "venue": "국립중앙과학관",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "registration_required": true,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등저학년", "초등고학년"],
+        "kid_friendly_score": 0.85,
+        "kid_friendly_reason": "로봇 체험 프로그램 시리즈 6회차. 어린이·청소년 로봇 콘테스트/체험.",
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do"
+      },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-evt-054",
+      "matched_id": null,
+      "type": "Event",
+      "name": "별의별 과학특강 : 별별뷰티",
+      "properties": {
+        "start_date": "2026-06-20",
+        "end_date": "2026-06-20",
+        "venue": "국립중앙과학관",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "registration_required": true,
+        "indoor_outdoor": "실내",
+        "target_age_group": ["초등고학년", "중학생이상"],
+        "kid_friendly_score": 0.6,
+        "kid_friendly_reason": "과학특강 시리즈 — 뷰티 과학(화장품·피부과학). 초등 고학년 이상 타겟.",
+        "source_url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do"
+      },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-venue-027",
+      "matched_id": null,
+      "type": "Venue",
+      "name": "신성동 행정복지센터 (신청사)",
+      "properties": {
+        "dong": "신성동",
+        "address": "대전 유성구 신성로 55 (하기동 18-6)",
+        "venue_type": "행정복지센터",
+        "distance_from_anchor_m": 1500,
+        "ring": "ring-bike",
+        "parking": true,
+        "stroller_accessible": true,
+        "nursing_room": true,
+        "kids_zone": false
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-org-025",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "신성동 행정복지센터",
+      "properties": {
+        "org_type": "행정복지센터",
+        "address": "대전 유성구 신성로 55"
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    { "subject": "temp-evt-050", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-evt-050", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 0.95 },
+    { "subject": "temp-evt-051", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-002"], "confidence": 0.90 },
+    { "subject": "temp-evt-051", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-002"], "confidence": 0.90 },
+    { "subject": "temp-evt-051", "predicate": "organizedBy", "object": "ent-org-009", "source_ids": ["src-002"], "confidence": 0.90 },
+    { "subject": "temp-evt-052", "predicate": "hostsAt", "object": "temp-venue-027", "source_ids": ["src-005"], "confidence": 0.95 },
+    { "subject": "temp-venue-027", "predicate": "locatedIn", "object": "dong-sinseong", "source_ids": ["src-005"], "confidence": 0.95 },
+    { "subject": "temp-evt-053", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-006"], "confidence": 0.85 },
+    { "subject": "temp-evt-053", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-006"], "confidence": 0.85 },
+    { "subject": "temp-evt-054", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-007"], "confidence": 0.85 },
+    { "subject": "temp-evt-054", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-007"], "confidence": 0.85 }
+  ],
+  "stats": {
+    "total_entities": 7,
+    "new_entities": 7,
+    "matched_entities": 0,
+    "total_relations": 11
+  }
+}

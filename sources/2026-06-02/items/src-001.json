@@ -1,0 +1,22 @@
+{
+  "id": "src-001",
+  "title": "개미·꿀벌의 팀워크 D-day 개막 (6/2~7/31)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 자연사관 특별전시 '개미·꿀벌의 팀워크' 6/2 개막. 개미와 꿀벌의 사회적 행동·협력을 체험형 전시로 선보인다. 7/31까지 약 2개월간 운영.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-06-02",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "국립중앙과학관 행사안내 페이지에서 최초 발견. 이전 14일 소스에 동일/유사 항목 없음.",
+  "entities": [
+    { "id": "temp-evt-050", "type": "Event", "name": "개미·꿀벌의 팀워크" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-050", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "temp-evt-050", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

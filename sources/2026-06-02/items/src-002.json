@@ -1,0 +1,24 @@
+{
+  "id": "src-002",
+  "title": "출동! 첨단 미래자연탐사대 진행중 (4/21~6/28, D-26)",
+  "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756613",
+  "snippet": "과기정통부 보도자료 — 국립중앙과학관 사이언스터널에서 4/21~6/28 운영. 멸종위기 생물 보전·AR 탐사 체험. 첨단기술+자연과학 융합 특별전. 이전 보고서에서 누락되어 있었으나 여전히 진행 중인 전시.",
+  "source_name": "정책브리핑(korea.kr)",
+  "language": "ko",
+  "discovered_date": "2026-06-02",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "정책브리핑 보도자료에서 발견. 4/21 시작이었으나 이전 14일 소스에 포함되지 않았음 — 누락 복구.",
+  "entities": [
+    { "id": "temp-evt-051", "type": "Event", "name": "출동! 첨단 미래 자연탐사대" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" },
+    { "id": "ent-org-009", "type": "Organization", "name": "과학기술정보통신부" }
+  ],
+  "relations": [
+    { "subject": "temp-evt-051", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "temp-evt-051", "predicate": "organizedBy", "object": "ent-org-006" },
+    { "subject": "temp-evt-051", "predicate": "organizedBy", "object": "ent-org-009" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-02",
+  "audit_result": "PASS",
+  "checks": {
+    "three_category_coverage": {
+      "status": "PASS",
+      "event_coverage": true,
+      "event_count": 5,
+      "shop_coverage": true,
+      "shop_note": "금일 신규 없음 — 보고서에 '금일 신규 발견 없음' 명시. active_shops 0건.",
+      "public_institution_coverage": true,
+      "public_institution_count": 2,
+      "public_institution_note": "신성동 행정복지센터 신청사 개청(신규), 119시민체험센터 화요일 운영 재개(reported)"
+    },
+    "active_shops_in_report": {
+      "status": "PASS",
+      "active_shops_count": 0,
+      "all_active_shops_present": true,
+      "note": "active_shops 0건 — 보고서에 빈 메시지 정상 표시"
+    },
+    "manual_seeds_visibility": {
+      "status": "PASS",
+      "manual_seeds_count": 3,
+      "all_seeds_visible": true,
+      "seeds_status": {
+        "엉클부대찌개 테크노점": "resolved_not_new",
+        "인터뷰커피라운지": "resolved_not_new",
+        "유성닭발 관평점": "excluded"
+      }
+    }
+  },
+  "patches_applied": 0,
+  "notes": "모든 검증 항목 통과. 3종 의무 커버(이벤트·가게·공공기관) 충족. active_shops 0건에 대한 빈 메시지 정상 표시. manual_seeds 3건 전량 처리 완료 상태 보고서에 표시됨."
+}
