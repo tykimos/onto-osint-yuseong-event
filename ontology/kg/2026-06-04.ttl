@@ -1,0 +1,152 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-04)
+<#snapshot-2026-06-04> a prov:Entity ;
+  dct:date "2026-06-04"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "0"^^xsd:integer ;
+  yse:inferred_edges "0"^^xsd:integer .
+
+# --- new_triples (6) ---
+yseent:ent-evt-048 yser:visitCombo yseent:ent-evt-050 .
+yseinf:stmt-2026-06-04-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-050 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  rdfs:comment "물리놀이터+팀워크 도룡동 동일 날 동시 운영"@ko .
+yseent:ent-evt-048 yser:visitCombo yseent:ent-evt-051 .
+yseinf:stmt-2026-06-04-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-051 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  rdfs:comment "물리놀이터+자연탐사대 사이언스터널 동일 건물"@ko .
+yseent:ent-evt-047 yser:visitCombo yseent:ent-evt-048 .
+yseinf:stmt-2026-06-04-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-048 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼(6/6~7)+물리놀이터 마지막 2일 겹침"@ko .
+yseent:ent-evt-045 yser:hostsAt yseent:ent-venue-009 .
+yseinf:stmt-2026-06-04-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-045 ;
+  rdf:predicate yser:hostsAt ;
+  rdf:object yseent:ent-venue-009 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  rdfs:comment "진잠도서관에서 진행"@ko .
+yseent:ent-evt-045 yser:organizedBy yseent:ent-org-004 .
+yseinf:stmt-2026-06-04-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-045 ;
+  rdf:predicate yser:organizedBy ;
+  rdf:object yseent:ent-org-004 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  rdfs:comment "유성구통합도서관 주관"@ko .
+yseent:ent-evt-045 yser:targetsAgeGroup yseent:age-elem-high .
+yseinf:stmt-2026-06-04-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-045 ;
+  rdf:predicate yser:targetsAgeGroup ;
+  rdf:object yseent:age-elem-high ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  rdfs:comment "초등 4~6학년 대상"@ko .
+
+# --- inferred_triples (6) ---
+yseent:ent-evt-048 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-04-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 운영 이벤트 가산"@ko .
+yseent:ent-evt-050 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-04-0008 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-050 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 자연사관 전시 가산"@ko .
+yseent:ent-evt-051 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-04-0009 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-051 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 사이언스터널 전시 가산"@ko .
+yseent:ent-evt-045 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-04-0010 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-045 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "도서관 운영 프로그램 가산"@ko .
+yseent:ent-evt-052 yser:publicTrustBoost "+0.15" .
+yseinf:stmt-2026-06-04-0011 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:publicTrustBoost ;
+  rdf:object "+0.15" ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "public_institution_kid_event" ;
+  rdfs:comment "행정복지센터 신청사 개청 — 공공기관 행사"@ko .
+yseent:ent-evt-019 yser:publicTrustBoost "+0.15" .
+yseinf:stmt-2026-06-04-0012 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-019 ;
+  rdf:predicate yser:publicTrustBoost ;
+  rdf:object "+0.15" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "public_institution_kid_event" ;
+  rdfs:comment "소방서 운영 안전체험 가산"@ko .
+
+# --- referenced entities ---
+yseent:age-elem-high a yseo:AgeGroup ;
+  rdfs:label "초등고학년"@ko ;
+  yse:name "초등고학년"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:label "초등고학���"@ko ;
+  yse:min_age "10"^^xsd:integer ;
+  yse:max_age "12"^^xsd:integer .
+yseent:ent-evt-019 a yseo:Event ;
+  rdfs:label "119시민체험센터 소방안전체험"@ko ;
+  yse:name "119시민체험센터 소방안전체험"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:fee "무료"@ko ;
+  yse:indoor_outdoor "실내"@ko ;
+  yse:kid_friendly_score "0.8"^^xsd:decimal ;
+  yse:registration_required true .
+yseent:ent-org-004 a yseo:Organization ;
+  rdfs:label "유성구통합도서관"@ko ;
+  yse:name "유성구통합도서관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "4"^^xsd:integer ;
+  yse:org_type "도서관"@ko .
+yseent:ent-venue-009 a yseo:Venue ;
+  rdfs:label "전민도서관"@ko ;
+  yse:name "전민도서관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:dong "문지동"@ko ;
+  yse:venue_type "도서관"@ko ;
+  yse:address "문지로299번길 18 (문지동)"@ko ;
+  yse:phone "042-389-0350"@ko .
+
