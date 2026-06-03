@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-04",
+  "description": "2026-06-04 일별 KG 스냅샷 — 신규 엔티티 없음, 상태 전이 3건",
+  "new_nodes": [],
+  "updated_nodes": [
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!", "change": "D-day → Day 2" },
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "change": "D-3 → D-2" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 제작 클래스", "change": "D-1 → D-day 첫 수업" }
+  ],
+  "new_triples": [
+    {
+      "subject": "ent-evt-048",
+      "predicate": "visitCombo",
+      "object": "ent-evt-050",
+      "confidence": 0.85,
+      "source": "same_dong_combo",
+      "note": "물리놀이터+팀워크 도룡동 동일 날 동시 운영"
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "visitCombo",
+      "object": "ent-evt-051",
+      "confidence": 0.85,
+      "source": "same_dong_combo",
+      "note": "물리놀이터+자연탐사대 사이언스터널 동일 건물"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "visitCombo",
+      "object": "ent-evt-048",
+      "confidence": 0.9,
+      "source": "same_dong_combo",
+      "note": "공룡매직쇼(6/6~7)+물리놀이터 마지막 2일 겹침"
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "hostsAt",
+      "object": "ent-venue-009",
+      "confidence": 0.8,
+      "source": "extraction",
+      "note": "진잠도서관에서 진행"
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "organizedBy",
+      "object": "ent-org-004",
+      "confidence": 0.85,
+      "source": "extraction",
+      "note": "유성구통합도서관 주관"
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.9,
+      "source": "extraction",
+      "note": "초등 4~6학년 대상"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-048",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "note": "과학관 운영 이벤트 가산"
+    },
+    {
+      "subject": "ent-evt-050",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "note": "과학관 자연사관 전시 가산"
+    },
+    {
+      "subject": "ent-evt-051",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "note": "과학관 사이언스터널 전시 가산"
+    },
+    {
+      "subject": "ent-evt-045",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "note": "도서관 운영 프로그램 가산"
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "rule": "public_institution_kid_event",
+      "confidence": 0.85,
+      "note": "행정복지센터 신청사 개청 — 공공기관 행사"
+    },
+    {
+      "subject": "ent-evt-019",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "rule": "public_institution_kid_event",
+      "confidence": 0.9,
+      "note": "소방서 운영 안전체험 가산"
+    }
+  ],
+  "stats": {
+    "total_new_triples": 6,
+    "total_inferred_triples": 6,
+    "total_updated_nodes": 3
+  }
+}

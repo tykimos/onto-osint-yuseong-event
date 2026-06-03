@@ -1,0 +1,292 @@
+{
+  "date": "2026-06-04",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-048",
+      "type": "Event",
+      "name": "물리로 물리쳐라!",
+      "properties": {
+        "start_date": "2026-06-03",
+        "end_date": "2026-06-07",
+        "status": "Day 2 진행중",
+        "venue": "국립중앙과학관 사이언스터널+미래기술관 3층",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85,
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"]
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-050",
+      "type": "Event",
+      "name": "개미·꿀벌의 팀워크",
+      "properties": {
+        "start_date": "2026-06-02",
+        "end_date": "2026-07-31",
+        "status": "Day 3 진행중",
+        "venue": "국립중앙과학관 자연사관",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "무료(입장권별도)",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85,
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"]
+      },
+      "source_ids": ["src-002"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-051",
+      "type": "Event",
+      "name": "출동! 첨단 미래자연탐사대",
+      "properties": {
+        "start_date": "2026-04-21",
+        "end_date": "2026-06-28",
+        "status": "D-24 진행중",
+        "venue": "국립중앙과학관 사이언스터널",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85,
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"]
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-047",
+      "type": "Event",
+      "name": "공룡매직쇼",
+      "properties": {
+        "start_date": "2026-06-06",
+        "end_date": "2026-06-07",
+        "status": "D-2",
+        "venue": "국립중앙과학관 사이언스홀",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.9,
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"]
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "properties": {
+        "start_date": "2026-03-18",
+        "end_date": "2026-06-21",
+        "status": "D-17 진행중",
+        "venue": "대전시립미술관",
+        "dong": "어은동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 4000,
+        "fee": "무료",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.95,
+        "target_age_group": ["유아", "초등저학년", "초등고학년", "전연령가족"],
+        "media_count": 13
+      },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-041",
+      "type": "Event",
+      "name": "피직스랩 상시 체험",
+      "properties": {
+        "status": "상시 운영",
+        "venue": "국립중앙과학관 과학기술관 1층",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "무료(입장권별도)",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85,
+        "target_age_group": ["초등저학년", "초등고학년", "전연령가족"]
+      },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-015",
+      "type": "Event",
+      "name": "탐이 꿈이의 비밀 실험실",
+      "properties": {
+        "start_date": "2026-04-01",
+        "end_date": "2026-06-30",
+        "status": "D-26 진행중",
+        "venue": "국립어린이과학관",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "유료",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.95,
+        "target_age_group": ["유아", "초등저학년"]
+      },
+      "source_ids": ["src-007"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-045",
+      "type": "Event",
+      "name": "숏폼 제작 클래스",
+      "properties": {
+        "start_date": "2026-06-04",
+        "end_date": "2026-06-25",
+        "status": "D-day 첫 수업",
+        "venue": "진잠도서관",
+        "dong": "진잠동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 5000,
+        "fee": "무료",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.8,
+        "target_age_group": ["초등고학년"],
+        "registration_required": true,
+        "registration_status": "접수 마감 완료"
+      },
+      "source_ids": ["src-008"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-019",
+      "type": "Event",
+      "name": "119시민체험센터 소방안전체험",
+      "properties": {
+        "status": "목요일 정상 운영",
+        "open_hours": "화~토 09:30~11:30/13:30~15:30",
+        "fee": "무료",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.8,
+        "registration_required": true
+      },
+      "source_ids": ["src-009"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-006",
+      "type": "Event",
+      "name": "대전시민천문대 상시 관측 프로그램",
+      "properties": {
+        "status": "목요일 정상 운영",
+        "open_hours": "14:00~22:00",
+        "fee": "무료",
+        "indoor_outdoor": "실내+야외",
+        "kid_friendly_score": 0.85
+      },
+      "source_ids": ["src-010"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-011",
+      "type": "Event",
+      "name": "대전엑스포아쿠아리움 상시 체험",
+      "properties": {
+        "status": "정상 운영",
+        "fee": "유료 (입장권)",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85
+      },
+      "source_ids": ["src-011"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "properties": {
+        "start_date": "2026-06-16",
+        "status": "D-12",
+        "dong": "신성동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 2000,
+        "fee": "해당없음",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.5,
+        "facilities": ["수유실", "다목적실", "공유주방", "세미나실"],
+        "media_count": 5
+      },
+      "source_ids": ["src-012"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-053",
+      "type": "Event",
+      "name": "로보스테이지6: Kick Off!",
+      "properties": {
+        "start_date": "2026-06-20",
+        "status": "D-16",
+        "venue": "국립중앙과학관",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.85
+      },
+      "source_ids": ["src-013"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-054",
+      "type": "Event",
+      "name": "별별뷰티",
+      "properties": {
+        "start_date": "2026-06-20",
+        "status": "D-16",
+        "venue": "국립중앙과학관",
+        "dong": "도룡동",
+        "ring": "ring-car",
+        "distance_from_anchor_m": 3200,
+        "fee": "미확인",
+        "indoor_outdoor": "실내",
+        "kid_friendly_score": 0.7
+      },
+      "source_ids": ["src-014"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    { "subject": "ent-evt-048", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-001"], "confidence": 1.0 },
+    { "subject": "ent-evt-048", "predicate": "organizedBy", "object": "ent-org-006", "source_ids": ["src-001"], "confidence": 1.0 },
+    { "subject": "ent-evt-050", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-002"], "confidence": 1.0 },
+    { "subject": "ent-evt-047", "predicate": "hostsAt", "object": "ent-venue-005", "source_ids": ["src-004"], "confidence": 1.0 },
+    { "subject": "ent-evt-047", "predicate": "visitCombo", "object": "ent-evt-048", "source_ids": ["src-004"], "confidence": 0.9, "note": "6/6~7 공룡매직쇼+물리놀이터 마지막 2일 겹침" },
+    { "subject": "ent-evt-045", "predicate": "hostsAt", "object": "ent-venue-009", "source_ids": ["src-008"], "confidence": 0.8 },
+    { "subject": "ent-evt-052", "predicate": "locatedIn", "object": "dong-sinseong", "source_ids": ["src-012"], "confidence": 1.0 }
+  ],
+  "stats": {
+    "total_entities": 14,
+    "new_entities": 0,
+    "matched_entities": 14,
+    "total_relations": 7
+  }
+}

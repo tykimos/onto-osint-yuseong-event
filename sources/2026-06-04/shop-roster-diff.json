@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-04",
+  "curator_agent": "shop-curator",
+  "changes": [],
+  "summary": "변경 없음. active_shops 0건 유지. manual_seeds 3건 모두 이전 사이클에서 처리 완료. shop-candidates.json에서 신규 후보 0건.",
+  "roster_state": {
+    "active_shops": 0,
+    "recent_shops": 0,
+    "archived_shops": 2,
+    "manual_seeds_total": 3,
+    "manual_seeds_pending": 0,
+    "manual_seeds_resolved_not_new": 2,
+    "manual_seeds_excluded": 1
+  }
+}

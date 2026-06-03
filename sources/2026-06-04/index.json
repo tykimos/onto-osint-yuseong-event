@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-04",
+  "total": 14,
+  "new": 0,
+  "reported": 11,
+  "update": 3,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "물리로 물리쳐라! Day 2 (6/3~7)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_item": "2026-06-03/src-001",
+      "entity_count": 3
+    },
+    {
+      "id": "src-002",
+      "title": "개미·꿀벌의 팀워크 Day 3 (6/2~7/31)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-002",
+      "entity_count": 3
+    },
+    {
+      "id": "src-003",
+      "title": "출동! 첨단 미래자연탐사대 D-24 (~6/28)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756613",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-003",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "공룡매직쇼 D-2 (6/6~7)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "update",
+      "related_item": "2026-06-03/src-004",
+      "entity_count": 3
+    },
+    {
+      "id": "src-005",
+      "title": "열한번째 트윙클 D-17 (~6/21)",
+      "url": "https://www.newsro.kr/article243/1626322/",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-005",
+      "entity_count": 2
+    },
+    {
+      "id": "src-006",
+      "title": "피직스랩 상시 체험 (국립중앙과학관)",
+      "url": "https://www.news1.kr/local/daejeon-chungnam/6047996",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-006",
+      "entity_count": 2
+    },
+    {
+      "id": "src-007",
+      "title": "탐이 꿈이의 비밀 실험실 D-26 (~6/30)",
+      "url": "https://www.science.go.kr/mps/cntnts/1063/moveCntnts.do",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-007",
+      "entity_count": 2
+    },
+    {
+      "id": "src-008",
+      "title": "숏폼 제작 클래스 D-day 첫 수업 (6/4~25, 진잠도서관)",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "update",
+      "related_item": "2026-06-03/src-008",
+      "entity_count": 2
+    },
+    {
+      "id": "src-009",
+      "title": "119시민체험센터 목요일 운영",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-009",
+      "entity_count": 1
+    },
+    {
+      "id": "src-010",
+      "title": "대전시민천문대 상시 관측 프로그램",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-010",
+      "entity_count": 2
+    },
+    {
+      "id": "src-011",
+      "title": "대전엑스포아쿠아리움 상시 체험",
+      "url": "https://djexpoaqua.com/",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-011",
+      "entity_count": 2
+    },
+    {
+      "id": "src-012",
+      "title": "신성동 행정복지센터 신청사 개청 D-12 (6/16)",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+      "tag": "reported",
+      "related_item": "2026-06-03/src-013",
+      "entity_count": 2
+    },
+    {
+      "id": "src-013",
+      "title": "로보스테이지6: Kick Off! D-16 (6/20)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_item": "2026-06-02/src-006",
+      "entity_count": 2
+    },
+    {
+      "id": "src-014",
+      "title": "별별뷰티 D-16 (6/20)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_item": "2026-06-02/src-007",
+      "entity_count": 2
+    }
+  ]
+}

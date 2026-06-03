@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-04",
+  "scout_agent": "shop-scout",
+  "roster_state_at_start": {
+    "active_shops": 0,
+    "manual_seeds_pending": 0,
+    "manual_seeds_resolved": 3
+  },
+  "queries_run": 6,
+  "discovery_channels_used": ["websearch", "naver-place-keyword", "instagram-hashtag-keyword"],
+  "candidates": [],
+  "manual_seeds_results": [],
+  "re_verification_results": [],
+  "summary": "50일 윈도우 내 신규 오픈 가게 후보 0건. active_shops 0건(재검증 대상 없음). manual_seeds 미처리 0건(모두 이전 사이클에서 resolved). 용산동·전민동·관평동·문지동·신성동·도룡동 1차 타겟 동 전체 검색 완료 — 6월 첫 주 신규 오픈 가게 탐지 실패.",
+  "_research_log": [
+    {
+      "query": "용산동 신규 오픈 2026년 6월",
+      "channel": "websearch",
+      "result_count": 0,
+      "note": "해당 없음"
+    },
+    {
+      "query": "전민동 카페 신규 오픈 2026",
+      "channel": "websearch",
+      "result_count": 0,
+      "note": "해당 없음"
+    },
+    {
+      "query": "관평동 식당 오픈 2026",
+      "channel": "websearch",
+      "result_count": 0,
+      "note": "해당 없음"
+    },
+    {
+      "query": "유성구 신규 오픈 카페 식당 2026년 6월",
+      "channel": "websearch",
+      "result_count": 0,
+      "note": "해당 없음"
+    },
+    {
+      "query": "용성로 오픈 카페",
+      "channel": "websearch",
+      "result_count": 0,
+      "note": "해당 없음"
+    },
+    {
+      "query": "#유성구신규 #용성로카페",
+      "channel": "instagram-hashtag-keyword",
+      "result_count": 0,
+      "note": "해당 없음"
+    }
+  ]
+}

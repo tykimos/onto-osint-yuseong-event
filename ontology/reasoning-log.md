@@ -1490,3 +1490,39 @@
 - **상태:** 확정 (6/2 추론 유지)
 - **비고:** 브릭파티 종료(5/31) → 물리놀이터 개시(6/3) 사이 1일 전환. 사이언스터널 콘텐츠 교체 패턴 확인.
 - **비고:** 어제 "공백" 진단은 개미·꿀벌 전시와 자연탐사대 전시를 누락한 상태에서의 판단이었음. 실제로는 과학관 상시 체험(피직스랩·탐이꿈이)에 더해 6/2 팀워크, 4/21~ 자연탐사대까지 가동 중.
+
+## 2026-06-04
+
+**요약:** 숏폼 제작 클래스 D-day 첫 수업 시작. 신규 엔티티 없음 — 상태 전환 3건(물리놀이터 Day 2, 공룡매직쇼 D-2, 숏폼 D-day). 도룡동 과학관 3종 동시 운영 Day 2 안정기.
+
+### 추론 #1: same_dong_combo (도룡동 6/4 3종 콤보 유지)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-048 hostsAt ent-venue-005, status=Day 2), (ent-evt-050 hostsAt ent-venue-005, status=Day 3), (ent-evt-051 hostsAt ent-venue-005, status=D-24)
+- **추론:** (ent-evt-048 visitCombo ent-evt-050) 신뢰도 0.85, (ent-evt-048 visitCombo ent-evt-051) 신뢰도 0.85
+- **신뢰도:** 0.85
+- **상태:** 확정 (6/3 추론 유지)
+- **비고:** 도룡동 과학관 3종 콤보 2일째. 물리놀이터(사이언스터널+미래기술관) + 팀워크(자연사관) + 자연탐사대(사이언스터널). 피직스랩+탐이꿈이 포함 시 과학관 내 5종 동시 운영 — 6월 첫 주 최대 밀도.
+
+### 추론 #2: same_dong_combo (물리놀이터 + 공룡매직쇼 D-2 중첩 카운트다운)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-048 period 6/3~7), (ent-evt-047 period 6/6~7, D-2), 두 이벤트 모두 국립중앙과학관 도룡동
+- **추론:** (ent-evt-048 visitCombo ent-evt-047) 신뢰도 0.90
+- **신뢰도:** 0.90 (← 0.70에서 상향, D-2로 중첩 확정도 높아짐)
+- **상태:** 확정
+- **비고:** 물리놀이터 마지막 2일(6/6~7)과 공룡매직쇼(6/6~7) 완전 중첩 확정. D-2 진입으로 금~토 콤보 추천 긴급도 상승.
+
+### 추론 #3: operator_kid_friendliness (숏폼 D-day 가산)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-004 operates ent-venue-009), (ent-org-004 orgType 도서관), (ent-evt-045 hostsAt ent-venue-009)
+- **추론:** (ent-evt-045 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 진잠도서관 운영 숏폼 클래스 D-day. 도서관 프로그램 가산 적용.
+
+### 추론 #4: public_institution_kid_event (119시민체험센터 목요일 가산)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-015 orgType 소방서), (ent-evt-019 organizedBy ent-org-015)
+- **추론:** (ent-evt-019 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정 (전일 유지)
+- **비고:** 119시민체험센터 목요일 정상 운영. 공공기관 소방체험 신뢰도 가산.

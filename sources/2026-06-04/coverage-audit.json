@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-04",
+  "auditor_agent": "shop-coverage-auditor",
+  "checks": {
+    "active_shops_in_report": {
+      "status": "pass",
+      "active_shops_count": 0,
+      "shops_in_report": 0,
+      "missing": [],
+      "note": "active_shops 0건 — 보고서에 '활성 윈도우 내 가게 0건' 명시됨"
+    },
+    "three_category_coverage": {
+      "status": "pass",
+      "categories": {
+        "event": {
+          "count": 8,
+          "examples": ["물리로 물리쳐라!", "개미·꿀벌의 팀워크", "공룡매직쇼", "열한번째 트윙클"]
+        },
+        "shop": {
+          "count": 0,
+          "note": "금일 신규 발견 없음 — 보고서에 명시"
+        },
+        "public_institution": {
+          "count": 3,
+          "examples": ["119시민체험센터 목요일 운영", "신성동 행정복지센터 D-12", "숏폼 클래스 D-day (진잠도서관)"]
+        }
+      },
+      "note": "3종 의무 커버 충족. shop은 0건이지만 '금일 신규 없음' 명시로 규칙 준수."
+    },
+    "manual_seeds_visibility": {
+      "status": "pass",
+      "seeds_total": 3,
+      "seeds_in_report": 3,
+      "missing": [],
+      "note": "3건 모두 '사용자 제보 처리 현황' 표에 포함"
+    },
+    "30day_window_shops": {
+      "status": "pass",
+      "note": "50일 윈도우 기준. active_shops 0건이므로 누락 없음"
+    }
+  },
+  "patches_applied": [],
+  "overall_status": "pass",
+  "summary": "모든 검증 통과. 3종 의무 커버 충족, active_shops 0건 명시, manual_seeds 3건 표에 포함. 패치 불필요."
+}
