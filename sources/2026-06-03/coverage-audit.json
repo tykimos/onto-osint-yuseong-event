@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-03",
+  "auditor": "shop-coverage-auditor",
+  "checks": [
+    {
+      "check": "active_shops_in_report",
+      "status": "pass",
+      "detail": "active_shops = 0. 보고서에 '금일 신규 발견 없음. 활성 윈도우 내 가게 0건' 명시.",
+      "missing": []
+    },
+    {
+      "check": "three_category_coverage",
+      "status": "pass",
+      "detail": {
+        "event": "pass — 물리로 물리쳐라!(D-day) 외 9건 추적",
+        "shop": "pass — '금일 신규 발견 없음' 명시 (active_shops = 0)",
+        "public_institution": "pass — 119시민체험센터 수요일 운영, 신성동 행복센터 D-13, 숏폼 클래스 D-1"
+      }
+    },
+    {
+      "check": "manual_seeds_visibility",
+      "status": "pass",
+      "detail": "사용자 제보 처리 현황 테이블에 3건(resolved_not_new 2건, excluded 1건) 모두 표시."
+    }
+  ],
+  "patches_applied": 0,
+  "overall": "pass",
+  "notes": "모든 검증 통과. 패치 불필요."
+}

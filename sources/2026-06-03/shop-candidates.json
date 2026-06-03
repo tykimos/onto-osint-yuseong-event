@@ -1,0 +1,15 @@
+{
+  "date": "2026-06-03",
+  "collected_at": "2026-06-03T07:01:00+09:00",
+  "config_shop_watch_enabled": true,
+  "window_days": 50,
+  "cutoff_date": "2026-04-14",
+  "manual_seeds_processed": 0,
+  "manual_seeds_pending": 0,
+  "active_shops_reverified": 0,
+  "discovery_queries_run": 4,
+  "discovery_channels_used": ["websearch", "naver-place-proxy", "dayforyou"],
+  "new_candidates": [],
+  "reverification_results": [],
+  "notes": "active_shops=0 (모든 팝업 archived). manual_seeds 3건 모두 resolved 상태(resolved_not_new 2건, excluded 1건). 유성구 1차 타겟 동(용산·전민·관평·문지·신성·도룡)에서 50일 윈도우(4/14 이후 오픈) 내 신규 가게 발견 없음."
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-03",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -356,5 +356,17 @@
     { "id": "ent-evt-039", "update": "진행중 (D-19 종료). 열한번째 트윙클 6/21 종료까지 19일." },
     { "id": "ent-evt-015", "update": "진행중 (D-28 종료). 탐이 꿈이의 비밀 실험실 6/30 종료까지 28일." },
     { "id": "ent-evt-050", "update": "D-day 오늘 개막. 개미·꿀벌의 팀워크 자연사관 특별전시 6/2~7/31." }
+  ],
+  "updates_2026_06_03": [
+    { "id": "ent-evt-048", "update": "D-day 오늘 개시. 물리로 물리쳐라! — 사이언스터널+미래기술관 3층. 6/3(수)~7(일)." },
+    { "id": "ent-evt-050", "update": "Day 2 진행중. 개미·꿀벌의 팀워크 자연사관. ~7/31." },
+    { "id": "ent-evt-051", "update": "D-25. 출동! 자연탐사대 사이언스터널. ~6/28." },
+    { "id": "ent-evt-047", "update": "D-3. 공룡매직쇼 사이언스홀. 이번 주 금~토(6/6~7)." },
+    { "id": "ent-evt-039", "update": "D-18. 열한번째 트윙클 대전시립미술관. ~6/21." },
+    { "id": "ent-evt-015", "update": "D-27. 탐이 꿈이의 비밀 실험실. ~6/30." },
+    { "id": "ent-evt-045", "update": "D-1 행사시작. 숏폼 제작 클래스 진잠도서관. 내일(6/4) 첫 수업." },
+    { "id": "ent-evt-052", "update": "D-13. 신성동 행정복지센터 신청사 개청. 6/16." },
+    { "id": "ent-evt-053", "update": "D-17. 로보스테이지6. 6/20." },
+    { "id": "ent-evt-054", "update": "D-17. 별별뷰티. 6/20." }
   ]
 }

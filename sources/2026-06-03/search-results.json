@@ -1,0 +1,215 @@
+{
+  "date": "2026-06-03",
+  "collected_at": "2026-06-03T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 16,
+  "total_results": 38,
+  "expanded_keywords": [
+    "국립중앙과학관 물리로 물리쳐라",
+    "개미 꿀벌 팀워크",
+    "출동 자연탐사대",
+    "공룡매직쇼",
+    "열한번째 트윙클",
+    "숏폼 클래스 진잠도서관",
+    "신성동 행정복지센터"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:01+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "2026어린이날 행사 서울 어린이날행사 BEST 7", "url": "https://kr.trip.com/blog/seoul-childrens-day/", "snippet": "전국 어린이날 행사 정보", "source_name": "트립닷컴" },
+        { "title": "전국축제 대한민국 구석구석", "url": "https://korean.visitkorea.or.kr/kfes/list/wntyFstvlList.do", "snippet": "축제 캘린더", "source_name": "한국관광공사" },
+        { "title": "2026년 6월 주요 시민안내사항 및 행사계획", "url": "https://news.seoul.go.kr/gov/archives/578215", "snippet": "서울시 6월 행사", "source_name": "서울특별시" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:02+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내 페이지. 물리로 물리쳐라(6/3~7), 공룡매직쇼(6/6~7), 개미꿀벌팀워크(6/2~7/31), 로보스테이지6(6/20), 별별뷰티(6/20)", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 Instagram", "url": "https://www.instagram.com/nsmscience/", "snippet": "국립중앙과학관 공식 인스타그램", "source_name": "Instagram" },
+        { "title": "국립중앙과학관 통합예약 누리집", "url": "https://rsvn.science.go.kr/", "snippet": "행사 예약 시스템", "source_name": "국립중앙과학관" },
+        { "title": "Again CES 2026 행사 안내", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=48762", "snippet": "CES 2026 관련 행사", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:03+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구 도서관 행사 프로그램 신청 목록", "source_name": "유성구통합도서관" },
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/index.do", "snippet": "유성구 통합도서관 메인페이지", "source_name": "유성구통합도서관" },
+        { "title": "지역작가 인 도서관 운영", "url": "https://pedien.com/html/view.php?idx=1014924", "snippet": "유성구 지역작가와 함께하는 특별한 만남", "source_name": "페디언" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 가족 체험 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:04+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구 문화관광", "url": "https://www.yuseong.go.kr/tour/", "snippet": "유성구 문화관광 안내", "source_name": "유성구청" },
+        { "title": "꿀잼대전 힐링캠프 2026", "url": "https://biz.heraldcorp.com/article/10743314", "snippet": "대전시 6/13~14 상소동 오토캠핑장 가족 캠핑 프로그램 (유성구 외)", "source_name": "헤럴드경제" },
+        { "title": "대전 유성구 어린이날 어린이 한마당 개최", "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1075693", "snippet": "5월 어린이날 관련 (종료)", "source_name": "충청매일" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "물리로 물리쳐라 국립중앙과학관 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:05+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내. 물리로 물리쳐라! 6/3~7 사이언스터널+미래기술관 3층", "source_name": "국립중앙과학관" },
+        { "title": "피직스랩 전격 개관", "url": "https://www.edu-focus.com/news/461944", "snippet": "물리로 세상을 체험하다, 국립중앙과학관 피직스랩 1/23 개관", "source_name": "교육포커스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "꿀잼대전 힐링캠프 2026 6월 가족 캠핑",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:06+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "대전시, 꿈돌이와 함께하는 2026 꿀잼대전 힐링캠프 개최", "url": "https://biz.heraldcorp.com/article/10743314", "snippet": "6/13~14 상소동 오토캠핑장, 40팀, 5만원/팀", "source_name": "헤럴드경제" },
+        { "title": "꿈돌이와 캠핑 즐긴다 대전시 6월 상소동서 힐링캠프 개최", "url": "https://www.khan.co.kr/article/202605220950001/", "snippet": "대전시 숙박형 캠핑 프로그램 1회차 6/13~14", "source_name": "경향신문" },
+        { "title": "대전 6월 13~14일 상소동 오토캠핑장서 꿀잼대전 힐링캠프", "url": "https://www.newscj.com/news/articleView.html?idxno=3403242", "snippet": "관광·체험·지역콘텐츠 가족 참여형 프로그램", "source_name": "천지일보" },
+        { "title": "대전시 꿀잼대전 힐링캠프 참가자 모집", "url": "http://dj.breaknews.com/sub_read.html?uid=258413", "snippet": "신청 5/26~27, 모집 40팀", "source_name": "브레이크뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 보건소 복지관 어린이 프로그램 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:07+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성이의 튼튼스쿨 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "유성구 보건소 어린이 건강체험. 상반기 마감, 하반기 8/19~11/27", "source_name": "시사저널" },
+        { "title": "유성구종합사회복지관", "url": "http://yuseongswc.or.kr", "snippet": "유성구 종합사회복지관 프로그램", "source_name": "유성구종합사회복지관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 프로그램 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:08+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "상시 관측 프로그램, 화~일 14:00~22:00, 무료", "source_name": "대전시민천문대" },
+        { "title": "대전시민천문대 Facebook", "url": "https://www.facebook.com/daejeonobservatory/", "snippet": "대전시민천문대 공식 페이스북", "source_name": "Facebook" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 5월 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:09+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전유성구 카페 분위기 맛집 Top100", "url": "https://www.diningcode.com/list.dc?query=대전유성구+카페분위기", "snippet": "기존 카페 순위 목록", "source_name": "다이닝코드" },
+        { "title": "대전 유성구 24시간 로봇카페 오픈", "url": "https://www.youtube.com/watch?v=HJwjJVJM1qE", "snippet": "유성구 로봇카페 관련 (기존 시설)", "source_name": "YouTube" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "용산동 전민동 관평동 신규 오픈 가게 2026",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:10+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "대전광역시 유성구 전민동 이웃들이 자주 가는 맛집", "url": "https://www.daangn.com/kr/local-profile/?in=전민동-1162&search=맛집", "snippet": "전민동 지역 맛집 (기존)", "source_name": "당근" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 주민자치 프로그램 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:11+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 주민참여예산제", "url": "https://www.yuseong.go.kr/yesan/", "snippet": "주민참여 관련", "source_name": "유성구청" },
+        { "title": "유성구의회", "url": "https://yuseonggucouncil.go.kr/", "snippet": "유성구의회 홈페이지", "source_name": "유성구의회" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 열한번째 트윙클 대전시립미술관 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:12+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전시립미술관 2026 어린이미술기획전 열한번째 트윙클 개최", "url": "https://www.koreaunionnews.com/2046689", "snippet": "3/18~6/21, 어린이 체험형 미술전", "source_name": "한국연합신문" },
+        { "title": "대전시립미술관 어린이미술전 열한번째 트윙클 열어", "url": "https://www.tjb.co.kr/news11/category/view/id/95553/version/1", "snippet": "감정 탐구 주제, 체험형 전시", "source_name": "TJB대전방송" },
+        { "title": "대전시립미술관 2026 어린이미술기획전 열한번째 트윙클 개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "정승원 Playground 놀이터, 백인교 촉각 체험 작품", "source_name": "더에스엔에스타임" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 공룡매직쇼 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:13+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "양평도서관 4월 도서관 주간 행사 공룡 매직쇼", "url": "https://www.kisnews.net/694853", "snippet": "양평도서관 4월 행사 (별도 시설)", "source_name": "한국산업안전뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 팝업스토어 원데이클래스 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:14+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "팝업스토어 검색 - 데이포유", "url": "https://dayforyou.com/getScheduleList", "snippet": "전국 팝업스토어 검색", "source_name": "데이포유" },
+        { "title": "원데이클래스 유성구 평생학습센터", "url": "https://lifelong.yuseong.go.kr/lly/prog/lctr/lly/sub02_06/LIFELONG_016/classDetail.do?lctrNo=7845", "snippet": "유성구 평생학습센터 원데이클래스", "source_name": "유성구 평생학습센터" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "진잠도서관 숏폼 클래스 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:15+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구 도서관 행사신청 목록", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립어린이과학관 미디어체험관 이름짓기 2026",
+      "language": "ko",
+      "timestamp": "2026-06-03T07:00:16+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "국립어린이과학관 미디어체험관 이름 짓기 이벤트(~9.14.)", "url": "https://www.facebook.com/scijoy2017/posts/", "snippet": "새 미디어체험관 이름 공모 ~9/14", "source_name": "국립어린이과학관 Facebook" },
+        { "title": "국립어린이과학관", "url": "https://www.csc.go.kr/", "snippet": "국립어린이과학관 공식 홈페이지", "source_name": "국립어린이과학관" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-001",
+  "title": "물리로 물리쳐라! D-day 개시 (6/3~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "collected_at": "2026-06-03T07:00:05+09:00",
+  "tag": "update",
+  "language": "ko",
+  "entities": [
+    { "id": "ent-evt-048", "type": "Event", "name": "물리로 물리쳐라!", "role": "주제" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "장소" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "key_facts": [
+    "6/3(수) 오늘 개시 ~ 6/7(토)",
+    "사이언스터널 + 미래기술관 3층",
+    "아날로그 감성 물리놀이터 — 팀 미션 게임, 물리 교구 체험, 서커스 워크숍, 진로 강연",
+    "피직스랩(1/23 개관) 연계 확장 행사"
+  ]
+}

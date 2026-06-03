@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-03",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1749,9 +1749,47 @@
     { "subject": "ent-evt-039", "predicate": "status", "object": "진행중 (D-20)", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" },
     { "subject": "ent-evt-015", "predicate": "status", "object": "진행중 (D-29)", "type": "explicit", "confidence": 0.99, "added": "2026-06-01" }
   ],
+  "nodes_added_2026_06_02": [
+    { "id": "ent-evt-050", "type": "Event", "label": "개미·꿀벌의 팀워크" },
+    { "id": "ent-evt-051", "type": "Event", "label": "출동! 첨단 미래 자연탐사대" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행정복지센터 신청사 개청" },
+    { "id": "ent-evt-053", "type": "Event", "label": "로보스테이지6 : Kick Off!" },
+    { "id": "ent-evt-054", "type": "Event", "label": "별의별 과학특강 : 별별뷰티" },
+    { "id": "ent-venue-027", "type": "Venue", "label": "신성동 행정복지센터 신청사" },
+    { "id": "ent-org-025", "type": "Organization", "label": "신성동 행정복지센터" }
+  ],
+  "edges_added_2026_06_02": [
+    { "subject": "ent-evt-050", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.95, "added": "2026-06-02" },
+    { "subject": "ent-evt-050", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.95, "added": "2026-06-02" },
+    { "subject": "ent-evt-051", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.90, "added": "2026-06-02" },
+    { "subject": "ent-evt-051", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.90, "added": "2026-06-02" },
+    { "subject": "ent-evt-052", "predicate": "hostsAt", "object": "ent-venue-027", "type": "explicit", "confidence": 0.95, "added": "2026-06-02" },
+    { "subject": "ent-evt-052", "predicate": "organizedBy", "object": "ent-org-025", "type": "explicit", "confidence": 0.95, "added": "2026-06-02" },
+    { "subject": "ent-evt-053", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.85, "added": "2026-06-02" },
+    { "subject": "ent-evt-054", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.85, "added": "2026-06-02" },
+    { "subject": "ent-venue-027", "predicate": "locatedIn", "object": "dong-sinseong", "type": "explicit", "confidence": 1.0, "added": "2026-06-02" },
+    { "subject": "ent-evt-050", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-06-02", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-051", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-06-02", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-052", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.70, "added": "2026-06-02", "rule": "public_institution_kid_event" },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-048", "type": "inferred", "confidence": 0.80, "added": "2026-06-02", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-051", "type": "inferred", "confidence": 0.85, "added": "2026-06-02", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-047", "type": "inferred", "confidence": 0.75, "added": "2026-06-02", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-053", "predicate": "partOfSeries", "object": "로보스테이지시리즈", "type": "inferred", "confidence": 0.80, "added": "2026-06-02", "rule": "same_venue_series" },
+    { "subject": "ent-evt-050", "predicate": "status", "object": "D-day 개막", "type": "explicit", "confidence": 0.99, "added": "2026-06-02" },
+    { "subject": "ent-evt-048", "predicate": "status", "object": "D-1", "type": "explicit", "confidence": 0.99, "added": "2026-06-02" }
+  ],
+  "nodes_added_2026_06_03": [],
+  "edges_added_2026_06_03": [
+    { "subject": "ent-evt-048", "predicate": "status", "object": "D-day 개시", "type": "explicit", "confidence": 0.99, "added": "2026-06-03" },
+    { "subject": "ent-evt-050", "predicate": "status", "object": "Day 2 진행중", "type": "explicit", "confidence": 0.99, "added": "2026-06-03" },
+    { "subject": "ent-evt-047", "predicate": "status", "object": "D-3", "type": "explicit", "confidence": 0.99, "added": "2026-06-03" },
+    { "subject": "ent-evt-045", "predicate": "status", "object": "D-1 행사시작", "type": "explicit", "confidence": 0.99, "added": "2026-06-03" },
+    { "subject": "ent-evt-048", "predicate": "visitCombo", "object": "ent-evt-050", "type": "inferred", "confidence": 0.85, "added": "2026-06-03", "rule": "same_dong_combo", "note": "물리놀이터 D-day + 팀워크 Day 2 도룡동 동시" },
+    { "subject": "ent-evt-048", "predicate": "visitCombo", "object": "ent-evt-051", "type": "inferred", "confidence": 0.80, "added": "2026-06-03", "rule": "same_dong_combo", "note": "물리놀이터 + 자연탐사대 도룡동 동시" }
+  ],
   "stats": {
-    "total_nodes": 137,
-    "total_edges": 218,
-    "total_triples": 432
+    "total_nodes": 144,
+    "total_edges": 242,
+    "total_triples": 462
   }
 }

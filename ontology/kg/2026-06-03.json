@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-03",
+  "nodes": [
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!", "status": "D-day 개시", "period": "6/3~7" },
+    { "id": "ent-evt-050", "type": "Event", "label": "개미·꿀벌의 팀워크", "status": "Day 2 진행중", "period": "6/2~7/31" },
+    { "id": "ent-evt-051", "type": "Event", "label": "출동! 자연탐사대", "status": "D-25", "period": "~6/28" },
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "status": "D-3", "period": "6/6~7" },
+    { "id": "ent-evt-039", "type": "Event", "label": "열한번째 트윙클", "status": "D-18", "period": "~6/21" },
+    { "id": "ent-evt-041", "type": "Event", "label": "피직스랩 상시 체험", "status": "상시" },
+    { "id": "ent-evt-015", "type": "Event", "label": "탐이 꿈이의 비밀 실험실", "status": "D-27", "period": "~6/30" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 제작 클래스", "status": "D-1 행사시작", "period": "6/4~25" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행복센터 개청", "status": "D-13", "period": "6/16" },
+    { "id": "ent-evt-053", "type": "Event", "label": "로보스테이지6", "status": "D-17", "period": "6/20" },
+    { "id": "ent-evt-054", "type": "Event", "label": "별별뷰티", "status": "D-17", "period": "6/20" },
+    { "id": "ent-evt-049", "type": "Event", "label": "미디어체험관 이름짓기", "status": "진행중", "period": "~9/14" },
+    { "id": "ent-venue-005", "type": "Venue", "label": "국립중앙과학관", "dong": "도룡동" },
+    { "id": "ent-venue-004", "type": "Venue", "label": "국립어린이과학관", "dong": "도룡동" },
+    { "id": "ent-venue-025", "type": "Venue", "label": "대전시립미술관", "dong": "어은동" },
+    { "id": "ent-venue-027", "type": "Venue", "label": "신성동 행복센터 신청사", "dong": "신성동" },
+    { "id": "ent-venue-006", "type": "Venue", "label": "대전시민천문대", "dong": "도룡동" },
+    { "id": "ent-org-006", "type": "Organization", "label": "국립중앙과학관" },
+    { "id": "dong-doryong", "type": "Dong", "label": "도룡동" },
+    { "id": "dong-sinseong", "type": "Dong", "label": "신성동" },
+    { "id": "dong-eoeun", "type": "Dong", "label": "어은동" }
+  ],
+  "edges": [
+    { "from": "ent-evt-048", "to": "ent-venue-005", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-050", "to": "ent-venue-005", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-051", "to": "ent-venue-005", "relation": "hostsAt", "confidence": 0.90 },
+    { "from": "ent-evt-047", "to": "ent-venue-005", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-053", "to": "ent-venue-005", "relation": "hostsAt", "confidence": 0.85 },
+    { "from": "ent-evt-041", "to": "ent-venue-005", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-015", "to": "ent-venue-004", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-049", "to": "ent-venue-004", "relation": "hostsAt", "confidence": 0.90 },
+    { "from": "ent-evt-039", "to": "ent-venue-025", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-052", "to": "ent-venue-027", "relation": "hostsAt", "confidence": 0.95 },
+    { "from": "ent-evt-048", "to": "ent-org-006", "relation": "organizedBy", "confidence": 0.95 },
+    { "from": "ent-evt-050", "to": "ent-org-006", "relation": "organizedBy", "confidence": 0.95 },
+    { "from": "ent-evt-051", "to": "ent-org-006", "relation": "organizedBy", "confidence": 0.90 },
+    { "from": "ent-evt-047", "to": "ent-org-006", "relation": "organizedBy", "confidence": 0.95 },
+    { "from": "ent-venue-005", "to": "dong-doryong", "relation": "locatedIn", "confidence": 1.0 },
+    { "from": "ent-venue-004", "to": "dong-doryong", "relation": "locatedIn", "confidence": 1.0 },
+    { "from": "ent-venue-025", "to": "dong-eoeun", "relation": "locatedIn", "confidence": 1.0 },
+    { "from": "ent-venue-027", "to": "dong-sinseong", "relation": "locatedIn", "confidence": 1.0 },
+    { "from": "ent-venue-006", "to": "dong-doryong", "relation": "locatedIn", "confidence": 1.0 }
+  ],
+  "inferred_edges": [
+    { "from": "ent-evt-048", "to": "ent-evt-050", "relation": "visitCombo", "confidence": 0.85, "rule": "same_dong_combo", "reason": "도룡동 6/3 동시 운영 (물리놀이터+팀워크)" },
+    { "from": "ent-evt-048", "to": "ent-evt-051", "relation": "visitCombo", "confidence": 0.80, "rule": "same_dong_combo", "reason": "도룡동 6/3 동시 운영 (물리놀이터+자연탐사대)" },
+    { "from": "ent-evt-048", "to": "ent-evt-047", "relation": "visitCombo", "confidence": 0.70, "rule": "same_dong_combo", "reason": "도룡동 6/6~7 동시 운영 (물리놀이터+공룡매직쇼)" },
+    { "from": "ent-evt-050", "to": "ent-evt-051", "relation": "visitCombo", "confidence": 0.85, "rule": "same_dong_combo", "reason": "도룡동 과학관 동시 전시" },
+    { "from": "ent-evt-048", "to": null, "relation": "kidFriendlyBoost", "confidence": 0.90, "rule": "operator_kid_friendliness", "value": "+0.2", "reason": "국립중앙과학관(과학관) 운영" },
+    { "from": "ent-evt-048", "to": "ent-evt-027", "relation": "followsEvent", "confidence": 0.75, "rule": "inferred", "reason": "브릭파티(5/23~31) 종료 후 동일 장소(사이언스터널) 교체 행사" },
+    { "from": "ent-evt-053", "to": null, "relation": "partOfSeries", "confidence": 0.80, "rule": "same_venue_series", "reason": "로보스테이지 시리즈 6회차" }
+  ],
+  "summary": {
+    "total_nodes": 21,
+    "total_edges": 19,
+    "total_inferred": 7,
+    "headline": "물리로 물리쳐라! D-day 개시. 도룡동 과학관 3종 동시 운영(물리놀이터+팀워크+자연탐사대) 최대 밀도."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-03",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-048",
+      "type": "Event",
+      "name": "물리로 물리쳐라!",
+      "change": "D-1 → D-day 오늘 개시",
+      "properties_changed": {
+        "status": "D-day",
+        "d_day_count": 0
+      },
+      "source_ids": ["src-001"],
+      "distance_rationale": "국립중앙과학관 사이언스터널+미래기술관 3층 (도룡동, ~3.2km from 용성로20)",
+      "ring": "ring-car",
+      "kid_friendly_score": 0.85,
+      "kid_friendly_rationale": "아날로그 감성 물리놀이터. 팀 미션 게임·물리 교구 체험·서커스 워크숍 등 초등 대상 과학 체험. kidFriendlyBoost +0.2 (과학관 운영)"
+    },
+    {
+      "id": "ent-evt-050",
+      "type": "Event",
+      "name": "개미·꿀벌의 팀워크",
+      "change": "D-day → Day 2 진행중",
+      "properties_changed": {
+        "status": "진행중",
+        "d_day_count": null
+      },
+      "source_ids": ["src-002"]
+    },
+    {
+      "id": "ent-evt-051",
+      "type": "Event",
+      "name": "출동! 첨단 미래 자연탐사대",
+      "change": "D-26 → D-25",
+      "properties_changed": {
+        "d_day_count": 25
+      },
+      "source_ids": ["src-003"]
+    },
+    {
+      "id": "ent-evt-047",
+      "type": "Event",
+      "name": "공룡매직쇼",
+      "change": "D-4 → D-3",
+      "properties_changed": {
+        "d_day_count": 3
+      },
+      "source_ids": ["src-004"]
+    },
+    {
+      "id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "change": "D-19 → D-18",
+      "properties_changed": {
+        "d_day_count": 18
+      },
+      "source_ids": ["src-005"]
+    },
+    {
+      "id": "ent-evt-015",
+      "type": "Event",
+      "name": "탐이 꿈이의 비밀 실험실",
+      "change": "D-28 → D-27",
+      "properties_changed": {
+        "d_day_count": 27
+      },
+      "source_ids": ["src-007"]
+    },
+    {
+      "id": "ent-evt-045",
+      "type": "Event",
+      "name": "숏폼 제작 클래스",
+      "change": "D-2 → D-1 행사시작 (내일 6/4 첫 수업)",
+      "properties_changed": {
+        "d_day_count": 1,
+        "status": "D-1 행사시작"
+      },
+      "source_ids": ["src-008"]
+    },
+    {
+      "id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "change": "D-14 → D-13",
+      "properties_changed": {
+        "d_day_count": 13
+      },
+      "source_ids": ["src-013"]
+    },
+    {
+      "id": "ent-evt-053",
+      "type": "Event",
+      "name": "로보스테이지6 : Kick Off!",
+      "change": "D-18 → D-17",
+      "properties_changed": {
+        "d_day_count": 17
+      },
+      "source_ids": ["src-001"]
+    },
+    {
+      "id": "ent-evt-054",
+      "type": "Event",
+      "name": "별의별 과학특강 : 별별뷰티",
+      "change": "D-18 → D-17",
+      "properties_changed": {
+        "d_day_count": 17
+      },
+      "source_ids": ["src-001"]
+    }
+  ],
+  "total_new": 0,
+  "total_updated": 10
+}

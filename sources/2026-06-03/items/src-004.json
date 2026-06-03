@@ -1,0 +1,20 @@
+{
+  "id": "src-004",
+  "title": "공룡매직쇼 D-3 (6/6~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "collected_at": "2026-06-03T07:00:04+09:00",
+  "tag": "update",
+  "language": "ko",
+  "entities": [
+    { "id": "ent-evt-047", "type": "Event", "name": "공룡매직쇼", "role": "주제" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관", "role": "장소" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주최" }
+  ],
+  "key_facts": [
+    "D-3 (6/6 금 ~ 6/7 토)",
+    "사이언스홀",
+    "공룡 테마 매직쇼",
+    "이번 주 금~토 개최"
+  ]
+}
