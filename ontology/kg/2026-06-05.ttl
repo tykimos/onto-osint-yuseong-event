@@ -1,0 +1,83 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-05)
+<#snapshot-2026-06-05> a prov:Entity ;
+  dct:date "2026-06-05"^^xsd:date .
+
+# --- new_triples (4) ---
+yseent:ent-evt-047 yser:visitCombo yseent:ent-evt-050 .
+yseinf:stmt-2026-06-05-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-050 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼(6/6~7)+팀워크 도룡동 과학관 동시 운영"@ko .
+yseent:ent-evt-047 yser:visitCombo yseent:ent-evt-051 .
+yseinf:stmt-2026-06-05-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-051 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼+자연탐사대 동일 과학관 권역"@ko .
+yseent:ent-evt-047 yser:visitCombo yseent:ent-evt-041 .
+yseinf:stmt-2026-06-05-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-041 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼+피직스랩 과학관 내 연계"@ko .
+yseent:ent-evt-052 yser:mediaVerification yseent:x_5__sources .
+yseinf:stmt-2026-06-05-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:mediaVerification ;
+  rdf:object yseent:x_5__sources ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  rdfs:comment "대전일보+웰로+유성구청SNS+충청뉴스+굿모닝충청 교차검증"@ko .
+
+# --- inferred_triples (4) ---
+yseent:ent-evt-047 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-05-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 운영 이벤트 가산"@ko .
+yseent:ent-evt-052 yser:publicTrustBoost "+0.15" .
+yseinf:stmt-2026-06-05-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:publicTrustBoost ;
+  rdf:object "+0.15" ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "public_institution_kid_event" ;
+  rdfs:comment "행정복지센터 주관 공공기관 행사"@ko .
+yseent:ent-evt-047 yser:visitCombo yseent:ent-evt-048 .
+yseinf:stmt-2026-06-05-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-048 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "공룡매직쇼(6/6~7)+물리놀이터 마지막 2일 완전 중첩 확정"@ko .
+yseent:ent-evt-048 yser:visitCombo yseent:ent-evt-050 .
+yseinf:stmt-2026-06-05-0008 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-050 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "물리놀이터+팀워크 도룡동 동시 운영 지속"@ko .
+
+# --- referenced entities ---
+
