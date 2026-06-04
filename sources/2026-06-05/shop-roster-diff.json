@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-05",
+  "curator_agent": "shop-curator",
+  "changes": [],
+  "new_active": 0,
+  "new_archived": 0,
+  "seeds_processed": 0,
+  "notes": "변경 없음. active_shops 0건 유지. 무브먼트랩·헌터 팝업은 6/1에 이미 archived. manual_seeds 3건 전부 이전 사이클에서 처리 완료. shop-roster.json 변경 불필요."
+}

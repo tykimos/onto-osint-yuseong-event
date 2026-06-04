@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-05",
+  "description": "2026-06-05 일별 KG 스냅샷 — 신규 엔티티 없음, 상태 전이 3건, 신성동 행정복지센터 매체 교차검증 강화",
+  "new_nodes": [],
+  "updated_nodes": [
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!", "change": "Day 2 → Day 3" },
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "change": "D-2 → D-1 (내일 D-day)" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행정복지센터 신청사 개청", "change": "D-12 → D-11, 매체 +3 (인스타·충청뉴스·굿모닝충청)" }
+  ],
+  "new_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "visitCombo",
+      "object": "ent-evt-050",
+      "confidence": 0.9,
+      "source": "same_dong_combo",
+      "note": "공룡매직쇼(6/6~7)+팀워크 도룡동 과학관 동시 운영"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "visitCombo",
+      "object": "ent-evt-051",
+      "confidence": 0.85,
+      "source": "same_dong_combo",
+      "note": "공룡매직쇼+자연탐사대 동일 과학관 권역"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "confidence": 0.85,
+      "source": "same_dong_combo",
+      "note": "공룡매직쇼+피직스랩 과학관 내 연계"
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "mediaVerification",
+      "object": "5+_sources",
+      "confidence": 0.95,
+      "source": "extraction",
+      "note": "대전일보+웰로+유성구청SNS+충청뉴스+굿모닝충청 교차검증"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "note": "과학관 운영 이벤트 가산"
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "rule": "public_institution_kid_event",
+      "confidence": 0.85,
+      "note": "행정복지센터 주관 공공기관 행사"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "visitCombo",
+      "object": "ent-evt-048",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "note": "공룡매직쇼(6/6~7)+물리놀이터 마지막 2일 완전 중첩 확정"
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "visitCombo",
+      "object": "ent-evt-050",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "note": "물리놀이터+팀워크 도룡동 동시 운영 지속"
+    }
+  ],
+  "total_new_triples": 4,
+  "total_inferred_triples": 4
+}

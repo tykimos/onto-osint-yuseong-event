@@ -1,0 +1,14 @@
+{
+  "id": "src-004",
+  "title": "공룡매직쇼 D-1 (6/6~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "tag": "update",
+  "tag_reason": "어제 D-2에서 D-1로 진입 — 내일(6/6 토) D-day 시작. 사이언스홀. 물리놀이터 Day 4(6/3~7 마지막 이틀)와 완전 중첩. 금~토 과학관 방문 시 공룡매직쇼+물리놀이터+팀워크+자연탐사대+피직스랩 = 5종 콤보.",
+  "related_item": "2026-06-04/src-004",
+  "entities": [
+    { "id": "ent-evt-047", "type": "Event", "role": "주체" },
+    { "id": "ent-venue-005", "type": "Venue", "role": "장소" },
+    { "id": "ent-org-006", "type": "Organization", "role": "주최" }
+  ]
+}

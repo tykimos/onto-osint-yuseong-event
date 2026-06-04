@@ -1,0 +1,14 @@
+{
+  "id": "src-001",
+  "title": "물리로 물리쳐라! Day 3 (6/3~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "source_name": "국립중앙과학관",
+  "tag": "update",
+  "tag_reason": "어제 Day 2에서 Day 3으로 진행. 6/3~7 운영 중 금요일(3일차). 내일 물리놀이터 Day 4 + 공룡매직쇼 D-day 주말 콤보가 핵심 뉴스.",
+  "related_item": "2026-06-04/src-001",
+  "entities": [
+    { "id": "ent-evt-048", "type": "Event", "role": "주체" },
+    { "id": "ent-venue-005", "type": "Venue", "role": "장소" },
+    { "id": "ent-org-006", "type": "Organization", "role": "주최" }
+  ]
+}

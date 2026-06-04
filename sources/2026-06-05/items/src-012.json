@@ -1,0 +1,18 @@
+{
+  "id": "src-012",
+  "title": "신성동 행정복지센터 신청사 개청 D-11 (6/16)",
+  "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+  "source_name": "대전일보",
+  "tag": "update",
+  "tag_reason": "어제 D-12에서 D-11로 진입. 유성구청 공식 인스타그램·페이스북 게시물(DK9Fq10S_5s) 및 충청뉴스·굿모닝충청 보도 추가 확인으로 매체 교차검증 +3건. 1차 타겟 동 공공기관 행사로 중요도 높음.",
+  "related_item": "2026-06-04/src-012",
+  "additional_sources": [
+    { "url": "https://www.instagram.com/p/DK9Fq10S_5s/", "source_name": "유성구청 인스타그램" },
+    { "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=423555", "source_name": "굿모닝충청" },
+    { "url": "http://www.ccnnews.co.kr/news/articleView.html?idxno=376404", "source_name": "충청뉴스" }
+  ],
+  "entities": [
+    { "id": "ent-evt-052", "type": "Event", "role": "주체" },
+    { "id": "ent-org-025", "type": "Organization", "role": "주관" }
+  ]
+}

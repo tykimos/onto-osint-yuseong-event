@@ -1526,3 +1526,37 @@
 - **신뢰도:** 0.90
 - **상태:** 확정 (전일 유지)
 - **비고:** 119시민체험센터 목요일 정상 운영. 공공기관 소방체험 신뢰도 가산.
+
+## 2026-06-05 추론 결과
+
+### 추론 #1: same_dong_combo (도룡동 주말 5종 콤보 확정)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-047 hostsAt ent-venue-005), (ent-evt-048 hostsAt ent-venue-005), (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-005)
+- **추론:** (ent-evt-047 visitCombo ent-evt-048), (ent-evt-047 visitCombo ent-evt-050), (ent-evt-047 visitCombo ent-evt-051), (ent-evt-047 visitCombo ent-evt-041)
+- **신뢰도:** 0.90~0.95
+- **상태:** 확정
+- **비고:** 공룡매직쇼 D-1. 내일(6/6 토) 물리놀이터 Day 4와 동시 시작. 팀워크·자연탐사대·피직스랩까지 5종 콤보 확정. 탐이 꿈이(어린이과학관)까지 6종.
+
+### 추론 #2: operator_kid_friendliness (공룡매직쇼 가산)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-047 hostsAt ent-venue-005)
+- **추론:** (ent-evt-047 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 과학관 운영 공룡 매직쇼. 유아~초등 고학년 전연령 대상.
+
+### 추론 #3: public_institution_kid_event (신성동 행정복지센터 가산 유지)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.95 (← 매체 교차검증 +3으로 신뢰도 상승)
+- **상태:** 확정
+- **비고:** D-11. 유성구청 공식 인스타그램·페이스북 게시물(DK9Fq10S_5s) + 충청뉴스 + 굿모닝충청 추가로 총 5개 이상 매체 교차검증 달성.
+
+### 추론 #4: public_institution_kid_event (119시민체험센터 금요일 가산)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-015 orgType 소방서), (ent-evt-019 organizedBy ent-org-015)
+- **추론:** (ent-evt-019 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정 (전일 유지)
+- **비고:** 119시민체험센터 금요일 정상 운영. 공공기관 소방체험 신뢰도 가산.

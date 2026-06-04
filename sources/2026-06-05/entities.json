@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-05",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-048",
+      "type": "Event",
+      "name": "물리로 물리쳐라!",
+      "change": "Day 2 → Day 3",
+      "note": "6/3~7 사이언스터널+미래기술관 3층. 금요일 진행. 내일(토) Day 4 + 공룡매직쇼 D-day로 주말 콤보 확정."
+    },
+    {
+      "id": "ent-evt-047",
+      "type": "Event",
+      "name": "공룡매직쇼",
+      "change": "D-2 → D-1",
+      "note": "내일(6/6) 사이언스홀 D-day. 물리놀이터 Day 4와 동시 운영. 금~토 최대 콤보 추천 핵심."
+    },
+    {
+      "id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "change": "D-12 → D-11, 추가 매체 교차검증 +3",
+      "note": "유성구청 공식 인스타그램(DK9Fq10S_5s), 충청뉴스, 굿모닝충청 추가 확인. 총 매체 5+개."
+    }
+  ],
+  "total_entities_in_ontology": 120,
+  "distance_estimates": []
+}

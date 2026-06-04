@@ -1,0 +1,10 @@
+{
+  "date": "2026-06-05",
+  "scout_agent": "shop-scout",
+  "discovery_queries_run": 6,
+  "candidates_found": 0,
+  "candidates": [],
+  "manual_seeds_processed": [],
+  "active_shops_reverified": [],
+  "notes": "금일 신규 발견 없음. active_shops 0건(무브먼트랩·헌터 6/1 archived). manual_seeds 3건 전부 처리 완료(resolved_not_new 2, excluded 1). Instagram 대전 신상 키즈카페 게시물 1건 확인했으나 유성구 소재 확인 불가 — 다음 사이클 재조사 대상."
+}
