@@ -1,0 +1,19 @@
+{
+  "id": "src-002",
+  "title": "물리로 물리쳐라! Day 4 마지막 주말 토요일 (6/3~7)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "아날로그 감성 물리놀이터 Day 4. 내일(6/7 일요일)이 최종일. 공룡매직쇼와 동일 과학관 권역 동시 운영. 마지막 주말 관람 기회.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-31",
+  "tag": "update",
+  "related_report": "2026-06-05",
+  "related_item": "2026-06-05/src-001",
+  "tag_reason": "Day 3 → Day 4. 마지막 주말 토요일 진입. 내일 최종일.",
+  "entities": [
+    { "id": "ent-evt-048", "type": "Event", "name": "물리로 물리쳐라!" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

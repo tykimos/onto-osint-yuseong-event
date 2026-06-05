@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -368,5 +368,35 @@
     { "id": "ent-evt-052", "update": "D-13. 신성동 행정복지센터 신청사 개청. 6/16." },
     { "id": "ent-evt-053", "update": "D-17. 로보스테이지6. 6/20." },
     { "id": "ent-evt-054", "update": "D-17. 별별뷰티. 6/20." }
+  ],
+  "updates_2026_06_04": [
+    { "id": "ent-evt-048", "update": "Day 2 진행중. 물리로 물리쳐라! 사이언스터널+미래기술관 3층. ~6/7." },
+    { "id": "ent-evt-050", "update": "Day 3. 개미·꿀벌의 팀워크. ~7/31." },
+    { "id": "ent-evt-051", "update": "D-24. 출동! 자연탐사대. ~6/28." },
+    { "id": "ent-evt-047", "update": "D-2. 공룡매직쇼 사이언스홀. 6/6~7." },
+    { "id": "ent-evt-039", "update": "D-17. 열한번째 트윙클. ~6/21." },
+    { "id": "ent-evt-015", "update": "D-26. 탐이 꿈이. ~6/30." },
+    { "id": "ent-evt-045", "update": "첫 수업 당일. 숏폼 제작 클래스 진잠도서관." },
+    { "id": "ent-evt-052", "update": "D-12. 신성동 행정복지센터. 6/16." },
+    { "id": "ent-evt-053", "update": "D-16. 로보스테이지6. 6/20." },
+    { "id": "ent-evt-054", "update": "D-16. 별별뷰티. 6/20." }
+  ],
+  "updates_2026_06_05": [
+    { "id": "ent-evt-048", "update": "Day 3. 물리로 물리쳐라! ~6/7. 내일(토) 마지막 주말 시작." },
+    { "id": "ent-evt-047", "update": "D-1. 공룡매직쇼 내일(토) D-day 개막." },
+    { "id": "ent-evt-052", "update": "D-11. 신성동 행정복지센터 유성구청 공식 SNS 게시 확인. 매체 +3 (인스타·페이스북·충청뉴스·굿모닝충청)." }
+  ],
+  "updates_2026_06_06": [
+    { "id": "ent-evt-047", "update": "D-day 오늘 개막! 공룡매직쇼 사이언스홀. 6/6(토)~7(일). 현충일 토요일 정상 운영." },
+    { "id": "ent-evt-048", "update": "Day 4 마지막 주말 토요일. 물리로 물리쳐라! 내일(일) Day 5 = 최종일. 공룡매직쇼와 5종 콤보 마지막 완전 구성." },
+    { "id": "ent-evt-050", "update": "Day 5. 개미·꿀벌의 팀워크. 주말 토요일. ~7/31." },
+    { "id": "ent-evt-051", "update": "D-22. 출동! 자연탐사대. ~6/28." },
+    { "id": "ent-evt-039", "update": "D-15. 열한번째 트윙클. ~6/21." },
+    { "id": "ent-evt-015", "update": "D-24. 탐이 꿈이. ~6/30." },
+    { "id": "ent-evt-045", "update": "진행중. 숏폼 제작 클래스. 토요일 비수업일. 다음 수업 6/11(목)." },
+    { "id": "ent-evt-052", "update": "D-10. 신성동 행정복지센터 신청사 개청. 6/16(월)." },
+    { "id": "ent-evt-053", "update": "D-14. 로보스테이지6. 6/20." },
+    { "id": "ent-evt-054", "update": "D-14. 별별뷰티. 6/20." },
+    { "id": "ent-evt-019", "update": "현충일(6/6 토) 운영 불확실. 공휴일 휴무 적용 가능. 042-270-1133 사전 확인 권장." }
   ]
 }

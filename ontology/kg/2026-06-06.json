@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-06",
+  "description": "2026-06-06 일별 KG 스냅샷 — 신규 엔티티 없음, 상태 전이 3건 (공룡매직쇼 D-day, 물리놀이터 Day 4, 119시민체험센터 현충일 영향)",
+  "new_nodes": [],
+  "updated_nodes": [
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "change": "D-1 → D-day (오늘 개막)" },
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!", "change": "Day 3 → Day 4 (마지막 주말 토, 내일 최종일)" },
+    { "id": "ent-evt-019", "type": "Event", "label": "119시민체험센터 소방안전체험", "change": "현충일(공휴일) 토요일 — 공휴일 휴무 적용 가능성" }
+  ],
+  "new_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "followsEvent",
+      "object": "ent-evt-028",
+      "confidence": 0.85,
+      "source": "same_venue_series",
+      "note": "공룡매직쇼(6/6~7)는 공룡덕후박람회(5/30~31) 후속 공룡 테마 행사"
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "lastWeekendCombo",
+      "object": "ent-evt-047",
+      "confidence": 0.9,
+      "source": "same_dong_combo",
+      "note": "물리놀이터 마지막 주말 + 공룡매직쇼 D-day 동시 운영"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "rule": "operator_kid_friendliness",
+      "confidence": 0.9,
+      "note": "과학관 운영 어린이 친화 가산"
+    },
+    {
+      "subject": "ent-evt-047",
+      "predicate": "priorityBoost",
+      "object": "+0.1",
+      "rule": "anchor_distance_priority",
+      "confidence": 0.85,
+      "note": "ring-car(3.2km) 우선순위 가산"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 2,
+    "inferred_edges": 2
+  }
+}

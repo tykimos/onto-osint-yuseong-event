@@ -1,0 +1,19 @@
+{
+  "id": "src-001",
+  "title": "공룡매직쇼 D-day 개막 (6/6~7, 사이언스홀)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 사이언스홀에서 공룡 테마 매직쇼 개막. 6/6~7 이틀간. 물리로 물리쳐라! Day 4와 동시 운영 — 도룡동 과학관 5종 콤보 유지.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-05-31",
+  "tag": "update",
+  "related_report": "2026-06-05",
+  "related_item": "2026-06-05/src-004",
+  "tag_reason": "D-1 → D-day 상태 전이. 금일 개막.",
+  "entities": [
+    { "id": "ent-evt-047", "type": "Event", "name": "공룡매직쇼" },
+    { "id": "ent-venue-005", "type": "Venue", "name": "국립중앙과학관" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관" }
+  ],
+  "relations": []
+}

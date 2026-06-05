@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-05",
+  "last_updated": "2026-06-06",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1787,9 +1787,19 @@
     { "subject": "ent-evt-048", "predicate": "visitCombo", "object": "ent-evt-050", "type": "inferred", "confidence": 0.85, "added": "2026-06-03", "rule": "same_dong_combo", "note": "물리놀이터 D-day + 팀워크 Day 2 도룡동 동시" },
     { "subject": "ent-evt-048", "predicate": "visitCombo", "object": "ent-evt-051", "type": "inferred", "confidence": 0.80, "added": "2026-06-03", "rule": "same_dong_combo", "note": "물리놀이터 + 자연탐사대 도룡동 동시" }
   ],
+  "nodes_added_2026_06_06": [],
+  "edges_added_2026_06_06": [
+    { "subject": "ent-evt-047", "predicate": "followsEvent", "object": "ent-evt-028", "type": "explicit", "confidence": 0.85, "added": "2026-06-06", "note": "공룡매직쇼(6/6~7) → 공룡덕후박람회(5/30~31) 후속 공룡 테마" },
+    { "subject": "ent-evt-048", "predicate": "lastWeekendCombo", "object": "ent-evt-047", "type": "explicit", "confidence": 0.90, "added": "2026-06-06", "note": "물리놀이터 마지막 주말 + 공룡매직쇼 D-day 동시 운영" },
+    { "subject": "ent-evt-047", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-06-06", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-047", "predicate": "priorityBoost", "object": "+0.1", "type": "inferred", "confidence": 0.85, "added": "2026-06-06", "rule": "anchor_distance_priority", "note": "ring-car(3.2km) 우선순위 가산" },
+    { "subject": "ent-evt-047", "predicate": "status", "object": "D-day 개막", "type": "explicit", "confidence": 0.99, "added": "2026-06-06" },
+    { "subject": "ent-evt-048", "predicate": "status", "object": "Day 4 마지막주말", "type": "explicit", "confidence": 0.99, "added": "2026-06-06" },
+    { "subject": "ent-evt-019", "predicate": "status", "object": "현충일 휴무 가능", "type": "explicit", "confidence": 0.70, "added": "2026-06-06", "note": "공휴일 토요일 — 운영 여부 불확실" }
+  ],
   "stats": {
     "total_nodes": 144,
-    "total_edges": 242,
-    "total_triples": 462
+    "total_edges": 249,
+    "total_triples": 469
   }
 }

@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-06",
+  "description": "Phase 5.5 Shop Coverage Auditor — 3종 의무 커버 및 활성 가게 검증",
+  "three_category_coverage": {
+    "events": {
+      "covered": true,
+      "count": 0,
+      "note": "금일 신규 이벤트 0건. 보고서에 '금일 신규 이벤트 없음' 명시. 기존 추적 이벤트 14건 업데이트."
+    },
+    "shops": {
+      "covered": true,
+      "count": 0,
+      "note": "금일 신규 발견 없음. 활성 윈도우 내 가게 0건. 보고서에 '금일 신규 발견 없음. 활성 윈도우 내 가게 0건' 명시."
+    },
+    "public_institutions": {
+      "covered": true,
+      "count": 0,
+      "note": "금일 공공기관 신규 행사 없음. 119시민체험센터 현충일 운영 주의사항 기재. 보고서 공공기관 섹션에 현황 명시."
+    }
+  },
+  "active_shops_in_report": {
+    "expected": 0,
+    "found_in_report": 0,
+    "match": true,
+    "note": "shop-roster.json active_shops=0. 보고서 표에도 0건. 일치."
+  },
+  "manual_seeds_visibility": {
+    "total_seeds": 3,
+    "displayed_in_report": true,
+    "seeds": [
+      {
+        "name": "엉클부대찌개 테크노점",
+        "status": "resolved_not_new",
+        "in_report_table": true
+      },
+      {
+        "name": "인터뷰커피라운지",
+        "status": "resolved_not_new",
+        "in_report_table": true
+      },
+      {
+        "name": "유성닭발 관평점",
+        "status": "excluded",
+        "in_report_table": true
+      }
+    ]
+  },
+  "thirty_day_window_check": {
+    "active_shops_count": 0,
+    "all_included": true,
+    "missing": [],
+    "note": "활성 가게 0건 — 검증 대상 없음."
+  },
+  "audit_result": "PASS",
+  "patches_applied": [],
+  "notes": "3종 의무 커버 충족. 활성 가게 0건 정상. manual_seeds 3건 모두 보고서에 가시화. 누락 없음."
+}

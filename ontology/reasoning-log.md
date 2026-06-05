@@ -1560,3 +1560,37 @@
 - **신뢰도:** 0.90
 - **상태:** 확정 (전일 유지)
 - **비고:** 119시민체험센터 금요일 정상 운영. 공공기관 소방체험 신뢰도 가산.
+
+## 2026-06-06 추론 결과
+
+### 추론 #1: same_venue_series (공룡매직쇼 → 공룡덕후박람회 후속)
+- **규칙:** same_venue_series
+- **입력:** (ent-evt-047 hostsAt ent-venue-005), (ent-evt-028 hostsAt ent-venue-005), (ent-evt-047 organizedBy ent-org-006), (ent-evt-028 organizedBy ent-org-006)
+- **추론:** (ent-evt-047 followsEvent ent-evt-028)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 공룡매직쇼(6/6~7)는 공룡덕후박람회(5/30~31) 직후 동일 과학관에서 열리는 공룡 테마 후속 행사. 사이언스홀 vs 사이언스터널 장소 차이 있으나 동일 주최(국립중앙과학관) 확인.
+
+### 추론 #2: same_dong_combo (물리놀이터 마지막 주말 + 공룡매직쇼 D-day)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-048 hostsAt ent-venue-005), (ent-evt-047 hostsAt ent-venue-005), (ent-venue-005 locatedIn dong-doryong), sameDate(2026-06-06)
+- **추론:** (ent-evt-048 lastWeekendCombo ent-evt-047)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 도룡동 과학관에서 물리놀이터(Day 4 마지막 주말)와 공룡매직쇼(D-day)가 동시 운영. 5종 콤보의 마지막 완전 구성.
+
+### 추론 #3: operator_kid_friendliness (공룡매직쇼 어린이 친화 가산)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-047 hostsAt ent-venue-005)
+- **추론:** (ent-evt-047 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관(과학관) 운영 행사 → 어린이 친화도 +0.2 가산.
+
+### 추론 #4: public_institution_kid_event (119시민체험센터 현충일 운영 주의)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-015 orgType 소방서), (ent-evt-019 organizedBy ent-org-015)
+- **추론:** (ent-evt-019 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정 (전일 유지)
+- **비고:** 현충일(6/6 토)이 공휴일과 겹쳐 운영 여부 불확실. 공공기관 특성상 공휴일 휴무 적용 가능. 사전 확인 권장.

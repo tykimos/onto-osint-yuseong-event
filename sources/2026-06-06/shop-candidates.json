@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-06",
+  "description": "Phase 1.5 Shop Scout 결과 — 신규 오픈 가게 후보",
+  "candidates": [],
+  "discovery_summary": {
+    "queries_run": 6,
+    "shops_found": 0,
+    "shops_in_window": 0,
+    "shops_out_of_window": 0,
+    "note": "용산동·전민동·관평동·문지동·신성동·도룡동 일대 신규 오픈 탐색 결과, 50일 윈도우(2026-04-17 이후) 내 신규 오픈 가게가 확인되지 않음. manual_seeds 중 pending 항목 없음."
+  },
+  "manual_seeds_processed": [],
+  "active_shops_reverified": []
+}
