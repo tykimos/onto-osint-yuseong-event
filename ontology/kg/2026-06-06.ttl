@@ -1,0 +1,56 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-06)
+<#snapshot-2026-06-06> a prov:Entity ;
+  dct:date "2026-06-06"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "2"^^xsd:integer ;
+  yse:inferred_edges "2"^^xsd:integer .
+
+# --- new_triples (2) ---
+yseent:ent-evt-047 yser:followsEvent yseent:ent-evt-028 .
+yseinf:stmt-2026-06-06-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:followsEvent ;
+  rdf:object yseent:ent-evt-028 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼(6/6~7)는 공룡덕후박람회(5/30~31) 후속 공룡 테마 행사"@ko .
+yseent:ent-evt-048 yser:lastWeekendCombo yseent:ent-evt-047 .
+yseinf:stmt-2026-06-06-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:lastWeekendCombo ;
+  rdf:object yseent:ent-evt-047 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  rdfs:comment "물리놀이터 마지막 주말 + 공룡매직쇼 D-day 동시 운영"@ko .
+
+# --- inferred_triples (2) ---
+yseent:ent-evt-047 yser:kidFriendlyBoost "+0.2" .
+yseinf:stmt-2026-06-06-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:kidFriendlyBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "operator_kid_friendliness" ;
+  rdfs:comment "과학관 운영 어린이 친화 가산"@ko .
+yseent:ent-evt-047 yser:priorityBoost "+0.1" .
+yseinf:stmt-2026-06-06-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:priorityBoost ;
+  rdf:object "+0.1" ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "anchor_distance_priority" ;
+  rdfs:comment "ring-car(3.2km) 우선순위 가산"@ko .
+
+# --- referenced entities ---
+
