@@ -1,0 +1,56 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-07)
+<#snapshot-2026-06-07> a prov:Entity ;
+  dct:date "2026-06-07"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "2"^^xsd:integer ;
+  yse:inferred_edges "2"^^xsd:integer .
+
+# --- new_triples (2) ---
+yseent:ent-evt-047 yser:endsOn yseent:x_2026-06-07 .
+yseinf:stmt-2026-06-07-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:endsOn ;
+  rdf:object yseent:x_2026-06-07 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼 6/6~7 → 오늘 최종일. 내일(6/8)부터 종료."@ko .
+yseent:ent-evt-048 yser:endsOn yseent:x_2026-06-07 .
+yseinf:stmt-2026-06-07-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:endsOn ;
+  rdf:object yseent:x_2026-06-07 ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  rdfs:comment "물리로 물리쳐라! 6/3~7 → 오늘 최종일. 내일(6/8)부터 종료."@ko .
+
+# --- inferred_triples (2) ---
+yseent:ent-evt-047 yser:lastDayCombo yseent:ent-evt-048 .
+yseinf:stmt-2026-06-07-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:lastDayCombo ;
+  rdf:object yseent:ent-evt-048 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "공룡매직쇼+물리놀이터 동시 최종일 — 5종 콤보 마지막 구성일"@ko .
+yseent:ent-evt-050 yser:survivesComboReduction yseent:ent-evt-047 .
+yseinf:stmt-2026-06-07-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-050 ;
+  rdf:predicate yser:survivesComboReduction ;
+  rdf:object yseent:ent-evt-047 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "내일부터 개미·꿀벌 팀워크가 도룡동 과학관 주력 전시로 승격 (콤보 축소 후)"@ko .
+
+# --- referenced entities ---
+
