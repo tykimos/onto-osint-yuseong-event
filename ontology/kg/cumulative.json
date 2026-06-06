@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1797,9 +1797,20 @@
     { "subject": "ent-evt-048", "predicate": "status", "object": "Day 4 마지막주말", "type": "explicit", "confidence": 0.99, "added": "2026-06-06" },
     { "subject": "ent-evt-019", "predicate": "status", "object": "현충일 휴무 가능", "type": "explicit", "confidence": 0.70, "added": "2026-06-06", "note": "공휴일 토요일 — 운영 여부 불확실" }
   ],
+  "nodes_added_2026_06_07": [],
+  "edges_added_2026_06_07": [
+    { "subject": "ent-evt-047", "predicate": "endsOn", "object": "2026-06-07", "type": "explicit", "confidence": 0.95, "added": "2026-06-07", "note": "공룡매직쇼 Day 2 최종일 종료" },
+    { "subject": "ent-evt-048", "predicate": "endsOn", "object": "2026-06-07", "type": "explicit", "confidence": 0.95, "added": "2026-06-07", "note": "물리로 물리쳐라! Day 5 최종일 종료" },
+    { "subject": "ent-evt-047", "predicate": "lastDayCombo", "object": "ent-evt-048", "type": "inferred", "confidence": 0.90, "added": "2026-06-07", "rule": "same_dong_combo", "note": "공룡매직쇼+물리놀이터 동시 최종일 — 5종 콤보 마지막 구성일" },
+    { "subject": "ent-evt-050", "predicate": "survivesComboReduction", "object": "ent-evt-047", "type": "inferred", "confidence": 0.85, "added": "2026-06-07", "rule": "same_dong_combo", "note": "내일부터 팀워크가 도룡동 주력 전시로 승격 (5종→3종 축소)" },
+    { "subject": "ent-evt-047", "predicate": "status", "object": "Day 2 최종일", "type": "explicit", "confidence": 0.99, "added": "2026-06-07" },
+    { "subject": "ent-evt-048", "predicate": "status", "object": "Day 5 최종일", "type": "explicit", "confidence": 0.99, "added": "2026-06-07" },
+    { "subject": "ent-evt-006", "predicate": "status", "object": "공휴일 다음 날 휴관 가능", "type": "explicit", "confidence": 0.70, "added": "2026-06-07", "note": "6/6 현충일 → 6/7 공휴일 다음 날 휴관 규정" },
+    { "subject": "ent-evt-019", "predicate": "status", "object": "일요일 정기휴무", "type": "explicit", "confidence": 0.99, "added": "2026-06-07" }
+  ],
   "stats": {
     "total_nodes": 144,
-    "total_edges": 249,
-    "total_triples": 469
+    "total_edges": 257,
+    "total_triples": 477
   }
 }

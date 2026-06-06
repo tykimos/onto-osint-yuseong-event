@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-07",
+  "entities": [],
+  "relations": [],
+  "stats": {
+    "total_entities": 0,
+    "new_entities": 0,
+    "matched_entities": 0,
+    "total_relations": 0
+  },
+  "notes": "금일 신규 엔티티 없음. 기존 엔티티 상태 전이만 발생 (공룡매직쇼 Day 2 최종일, 물리놀이터 Day 5 최종일, 대전시민천문대 공휴일 다음 날 휴관 적용)."
+}

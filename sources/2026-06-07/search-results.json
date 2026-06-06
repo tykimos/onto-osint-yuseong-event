@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-07",
+  "collected_at": "2026-06-07T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 14,
+  "expanded_keywords": ["국립중앙과학관 공룡매직쇼", "물리로 물리쳐라", "열한번째 트윙클", "신성동 행정복지센터 개청", "유성구 도서관 프로그램", "대전시민천문대"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:00:00+09:00",
+      "result_count": 0,
+      "results": [],
+      "notes": "유성구 특정 결과 없음 — 서울 어린이날 행사 위주 결과"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 행사 2026년 6월 공룡매직쇼",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:01:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "「원더의 공룡대모험」 어린이 뮤지컬 개최 안내 - 행사", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttDetail.do?nttSn=47361", "snippet": "국립중앙과학관 사이언스홀 어린이 뮤지컬", "source_name": "국립중앙과학관" },
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 전체 행사 목록", "source_name": "국립중앙과학관" },
+        { "title": "세계 공룡의 날 공룡덕후박람회 참가안내", "url": "https://www.science.go.kr/mps/1111/bbs/208/moveBbsNttDetail.do?nttSn=47305", "snippet": "공룡덕후박람회 사전 안내 — 5/30~31 종료", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "\"원더의 공룡대모험\" 국립중앙과학관 뮤지컬 2026",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:02:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "「원더의 공룡대모험」 어린이 뮤지컬 개최 안내", "url": "https://smart.science.go.kr/exhibitions/view.action?menuCd=DOM_000000101003001000&contentsSid=47&event_id=EV0000008075", "snippet": "국립중앙과학관 사이언스홀 어린이 뮤지컬 개최", "source_name": "전국과학관길라잡이" },
+        { "title": "가족 뮤지컬 '원더의 공룡대모험' 개최", "url": "https://www.uyfocus.com/bbs/board.php?bo_table=news&wr_id=7453&device=pc", "snippet": "어린이 대상 공룡 뮤지컬 공연 안내", "source_name": "uyfocus" },
+        { "title": "「원더의 공룡대모험」 어린이 뮤지컬 개최 안내 - 행사", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttDetail.do?nttSn=47361", "snippet": "사이언스홀 어린이 뮤지컬", "source_name": "국립중앙과학관" }
+      ],
+      "notes": "원더의 공룡대모험은 2025년(5/31 토~6/1 일) 공연으로 확인됨 — 2026년 6월 행사 아님"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 가게 카페 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:03:00+09:00",
+      "result_count": 0,
+      "results": [],
+      "notes": "유성구 특정 신규 오픈 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 도서관 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:04:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구 도서관 행사 프로그램 신청", "source_name": "유성구통합도서관" },
+        { "title": "유성구 보건소", "url": "https://www.yuseong.go.kr/health/", "snippet": "유성구 보건소 공지사항", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 \"열한번째 트윙클\" 2026",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:05:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클'개최", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "3/18~6/21 어린이미술기획전", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://incheon.thesegye.com/news/view/1065599512998244", "snippet": "어린이 체험형 미술전시", "source_name": "세계일보" },
+        { "title": "대전시립미술관, 어린이미술기획전 개최 | 뉴스로", "url": "https://www.newsro.kr/article243/1626322/", "snippet": "정승원·백인교 작가 참여", "source_name": "뉴스로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "신성동 행정복지센터 신청사 개청 유성구 2026",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:06:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구 신성동 행정복지센터 신축 마쳐…16일부터 공식 업무 시작", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409", "snippet": "지하1층~지상2층, 연면적 2842㎡", "source_name": "대전일보" },
+        { "title": "대전 유성구 신성동 행정복지센터 신청사 개청", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=423555", "snippet": "6/16(월) 개청, 6/30 개청식", "source_name": "굿모닝충청" },
+        { "title": "유성구, 신성동 행정복지센터 개청…주민 소통 공간", "url": "http://www.e-today.kr/news/articleView.html?idxno=804180", "snippet": "주민 소통 공간 역할", "source_name": "경제투데이" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 6월 행사 일정 2026 개미 꿀벌 자연탐사대 피직스랩",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:07:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사 목록", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 신규 물리체험 전시관 '피직스랩' 전격 개관", "url": "https://www.edu-focus.com/news/461944", "snippet": "피직스랩 33개 전시물", "source_name": "교육포커스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 용산동 전민동 관평동 행사 이벤트 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:08:00+09:00",
+      "result_count": 0,
+      "results": [],
+      "notes": "1차 타겟 동 신규 행사 미발견"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 6월 2026 관평도서관 진잠도서관",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:09:00+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "행사신청 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구 도서관 강의 프로그램 목록", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 6월 7일 휴관 2026",
+      "language": "ko",
+      "timestamp": "2026-06-07T07:10:00+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "매주 월요일·공휴일 다음 날 휴관", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Yuseong-gu kids events Daejeon June 2026",
+      "language": "en",
+      "timestamp": "2026-06-07T07:11:00+09:00",
+      "result_count": 0,
+      "results": [],
+      "notes": "영문 검색 — 유성구 특정 결과 없음"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -398,5 +398,19 @@
     { "id": "ent-evt-053", "update": "D-14. 로보스테이지6. 6/20." },
     { "id": "ent-evt-054", "update": "D-14. 별별뷰티. 6/20." },
     { "id": "ent-evt-019", "update": "현충일(6/6 토) 운영 불확실. 공휴일 휴무 적용 가능. 042-270-1133 사전 확인 권장." }
+  ],
+  "updates_2026_06_07": [
+    { "id": "ent-evt-047", "update": "Day 2 최종일. 공룡매직쇼 사이언스홀. 오늘(일) 종료 후 내일(6/8)부터 종료 확정." },
+    { "id": "ent-evt-048", "update": "Day 5 최종일. 물리로 물리쳐라! 오늘(일) 종료 후 내일(6/8)부터 종료 확정." },
+    { "id": "ent-evt-050", "update": "Day 6. 개미·꿀벌의 팀워크. 일요일 주말. ~7/31. 내일부터 도룡동 주력 전시로 승격." },
+    { "id": "ent-evt-051", "update": "D-21. 출동! 자연탐사대. ~6/28." },
+    { "id": "ent-evt-039", "update": "D-14. 열한번째 트윙클. ~6/21." },
+    { "id": "ent-evt-015", "update": "D-23. 탐이 꿈이. ~6/30." },
+    { "id": "ent-evt-045", "update": "진행중. 숏폼 제작 클래스. 일요일 비수업일. 다음 수업 6/11(수)." },
+    { "id": "ent-evt-052", "update": "D-9. 신성동 행정복지센터 신청사 개청. 6/16(월)." },
+    { "id": "ent-evt-053", "update": "D-13. 로보스테이지6. 6/20." },
+    { "id": "ent-evt-054", "update": "D-13. 별별뷰티. 6/20." },
+    { "id": "ent-evt-006", "update": "공휴일(6/6) 다음 날(6/7 일) 휴관 규정 적용 가능. 방문 전 042-863-8762 확인 필수." },
+    { "id": "ent-evt-019", "update": "일요일 정기휴무. 119시민체험센터 화~토 운영." }
   ]
 }

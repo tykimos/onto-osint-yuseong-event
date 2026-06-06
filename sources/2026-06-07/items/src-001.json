@@ -1,0 +1,25 @@
+{
+  "id": "src-001",
+  "title": "국립중앙과학관 행사안내 (공룡매직쇼·물리놀이터·팀워크·자연탐사대 등)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "국립중앙과학관 전체 행사 목록. 공룡매직쇼(6/6~7) Day 2 최종일, 물리로 물리쳐라!(6/3~7) Day 5 최종일, 개미·꿀벌의 팀워크(~7/31) Day 6, 출동! 자연탐사대(~6/28), 피직스랩 상시.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-06-07",
+  "tag": "reported",
+  "related_report": "2026-06-06",
+  "related_item": null,
+  "tag_reason": "기존 추적 행사의 일별 상태 전이 — 공룡매직쇼 D-day→Day 2(최종일), 물리놀이터 Day 4→Day 5(최종일). 오늘 이후 이 2종 종료 확정.",
+  "entities": [
+    { "id": "ent-evt-047", "type": "Event", "name": "공룡매직쇼", "role": "Day 2 최종일" },
+    { "id": "ent-evt-048", "type": "Event", "name": "물리로 물리쳐라!", "role": "Day 5 최종일" },
+    { "id": "ent-evt-050", "type": "Event", "name": "개미·꿀벌의 팀워크", "role": "Day 6" },
+    { "id": "ent-evt-051", "type": "Event", "name": "출동! 자연탐사대", "role": "D-21" },
+    { "id": "ent-evt-041", "type": "Event", "name": "피직스랩 상시 체험", "role": "상시" },
+    { "id": "ent-org-006", "type": "Organization", "name": "국립중앙과학관", "role": "주관" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-047", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "ent-evt-048", "predicate": "hostsAt", "object": "ent-venue-005" }
+  ]
+}

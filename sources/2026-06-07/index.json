@@ -1,0 +1,123 @@
+{
+  "date": "2026-06-07",
+  "total": 14,
+  "new": 0,
+  "reported": 14,
+  "update": 0,
+  "items": [
+    {
+      "id": "src-001",
+      "title": "국립중앙과학관 행사안내 (공룡매직쇼·물리놀이터·팀워크·자연탐사대 등)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "tag": "reported",
+      "related_report": "2026-06-06",
+      "entity_count": 6,
+      "notes": "공룡매직쇼 Day 2(최종일), 물리놀이터 Day 5(최종일) 상태 전이 포함"
+    },
+    {
+      "id": "src-002",
+      "title": "대전시립미술관 열한번째 트윙클",
+      "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 2
+    },
+    {
+      "id": "src-003",
+      "title": "신성동 행정복지센터 신청사 개청 안내 (대전일보)",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+      "tag": "reported",
+      "related_report": "2026-06-02",
+      "entity_count": 2
+    },
+    {
+      "id": "src-004",
+      "title": "신성동 행정복지센터 개청 (굿모닝충청)",
+      "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=423555",
+      "tag": "reported",
+      "related_report": "2026-06-02",
+      "entity_count": 2
+    },
+    {
+      "id": "src-005",
+      "title": "신성동 행정복지센터 개청 (경제투데이)",
+      "url": "http://www.e-today.kr/news/articleView.html?idxno=804180",
+      "tag": "reported",
+      "related_report": "2026-06-02",
+      "entity_count": 1
+    },
+    {
+      "id": "src-006",
+      "title": "유성구통합도서관 행사신청",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 1
+    },
+    {
+      "id": "src-007",
+      "title": "국립중앙과학관 피직스랩 개관 (교육포커스)",
+      "url": "https://www.edu-focus.com/news/461944",
+      "tag": "reported",
+      "related_report": "2026-05-17",
+      "entity_count": 1
+    },
+    {
+      "id": "src-008",
+      "title": "대전시민천문대 공식 홈페이지",
+      "url": "https://djstar.kr/",
+      "tag": "reported",
+      "related_report": "2026-04-25",
+      "entity_count": 1,
+      "notes": "공휴일 다음 날(6/7) 휴관 정책 확인"
+    },
+    {
+      "id": "src-009",
+      "title": "열한번째 트윙클 (세계일보)",
+      "url": "http://incheon.thesegye.com/news/view/1065599512998244",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 1
+    },
+    {
+      "id": "src-010",
+      "title": "열한번째 트윙클 (뉴스로)",
+      "url": "https://www.newsro.kr/article243/1626322/",
+      "tag": "reported",
+      "related_report": "2026-05-14",
+      "entity_count": 1
+    },
+    {
+      "id": "src-011",
+      "title": "유성구 보건소 공지",
+      "url": "https://www.yuseong.go.kr/health/",
+      "tag": "reported",
+      "related_report": "2026-05-07",
+      "entity_count": 1
+    },
+    {
+      "id": "src-012",
+      "title": "119시민체험센터 예약",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "tag": "reported",
+      "related_report": "2026-04-26",
+      "entity_count": 1
+    },
+    {
+      "id": "src-013",
+      "title": "자연탐사대 (정책브리핑)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156756613",
+      "tag": "reported",
+      "related_report": "2026-06-02",
+      "entity_count": 1
+    },
+    {
+      "id": "src-014",
+      "title": "유성구청 페이스북 — 신성동 이전 안내",
+      "url": "https://www.facebook.com/happyyuseong/posts/신성동-행정복지센터-신청사-이전-안내.../1116846043814102/",
+      "tag": "reported",
+      "related_report": "2026-06-05",
+      "entity_count": 1
+    }
+  ]
+}

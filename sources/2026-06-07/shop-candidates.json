@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-07",
+  "collected_at": "2026-06-07T07:12:00+09:00",
+  "manual_seeds_processed": [],
+  "candidates": [],
+  "stats": {
+    "total_candidates": 0,
+    "found": 0,
+    "not_found": 0,
+    "manual_seeds_resolved": 0,
+    "manual_seeds_unresolved": 0
+  },
+  "notes": "manual_seeds 3건 모두 이전 사이클(2026-05-24)에서 해결 완료 (resolved_not_new 2건, excluded 1건). active_shops 0건으로 재검증 대상 없음. 신규 오픈 후보 미발견."
+}

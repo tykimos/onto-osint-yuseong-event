@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-07",
+  "phase": "3.5-shop-curator",
+  "input": {
+    "candidates_from_scout": 0,
+    "existing_active_shops": 0,
+    "manual_seeds_pending": 0,
+    "manual_seeds_total": 3
+  },
+  "actions": [],
+  "roster_changes": {
+    "new_active": 0,
+    "status_transitions": 0,
+    "window_expirations": 0,
+    "manual_seed_resolutions": 0
+  },
+  "summary": "변경 없음. active_shops 0건 유지. manual_seeds 3건 모두 기처리(resolved_not_new 2건, excluded 1건). 신규 후보 0건.",
+  "shop_roster_hash_before": "no_change",
+  "shop_roster_hash_after": "no_change"
+}

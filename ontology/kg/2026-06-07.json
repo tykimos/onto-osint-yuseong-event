@@ -1,0 +1,60 @@
+{
+  "date": "2026-06-07",
+  "description": "2026-06-07 일별 KG 스냅샷 — 신규 엔티티 없음, 상태 전이 3건 (공룡매직쇼 최종일, 물리놀이터 최종일, 천문대 휴관 적용). 오늘 이후 도룡동 콤보 5종→3종 축소.",
+  "new_nodes": [],
+  "updated_nodes": [
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "change": "D-day → Day 2 (오늘 최종일, 내일부터 종료)" },
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!", "change": "Day 4 → Day 5 (오늘 최종일, 내일부터 종료)" },
+    { "id": "ent-evt-006", "type": "Event", "label": "대전시민천문대 상시 관측", "change": "공휴일(6/6) 다음 날(6/7) 휴관 규정 적용 — 방문 전 확인 필수" },
+    { "id": "ent-evt-050", "type": "Event", "label": "개미·꿀벌의 팀워크", "change": "Day 5 → Day 6 (일요일 주말)" },
+    { "id": "ent-evt-051", "type": "Event", "label": "출동! 자연탐사대", "change": "D-22 → D-21" },
+    { "id": "ent-evt-039", "type": "Event", "label": "열한번째 트윙클", "change": "D-15 → D-14" },
+    { "id": "ent-evt-015", "type": "Event", "label": "탐이 꿈이", "change": "D-24 → D-23" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행정복지센터 신청사 개청", "change": "D-10 → D-9" },
+    { "id": "ent-evt-053", "type": "Event", "label": "로보스테이지6", "change": "D-14 → D-13" },
+    { "id": "ent-evt-054", "type": "Event", "label": "별별뷰티", "change": "D-14 → D-13" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 제작 클래스", "change": "진행중 — 일요일 비수업일, 다음 수업 6/11(수)" },
+    { "id": "ent-evt-019", "type": "Event", "label": "119시민체험센터", "change": "일요일 정기휴무" }
+  ],
+  "new_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "endsOn",
+      "object": "2026-06-07",
+      "confidence": 0.95,
+      "source": "explicit",
+      "note": "공룡매직쇼 6/6~7 → 오늘 최종일. 내일(6/8)부터 종료."
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "endsOn",
+      "object": "2026-06-07",
+      "confidence": 0.95,
+      "source": "explicit",
+      "note": "물리로 물리쳐라! 6/3~7 → 오늘 최종일. 내일(6/8)부터 종료."
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "lastDayCombo",
+      "object": "ent-evt-048",
+      "rule": "same_dong_combo",
+      "confidence": 0.9,
+      "note": "공룡매직쇼+물리놀이터 동시 최종일 — 5종 콤보 마지막 구성일"
+    },
+    {
+      "subject": "ent-evt-050",
+      "predicate": "survivesComboReduction",
+      "object": "ent-evt-047",
+      "rule": "same_dong_combo",
+      "confidence": 0.85,
+      "note": "내일부터 개미·꿀벌 팀워크가 도룡동 과학관 주력 전시로 승격 (콤보 축소 후)"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 2,
+    "inferred_edges": 2
+  }
+}
