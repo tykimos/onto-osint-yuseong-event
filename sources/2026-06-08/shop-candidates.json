@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-08",
+  "scout_ran_at": "2026-06-08T07:01:00+09:00",
+  "config_window_days": 50,
+  "cutoff_date": "2026-04-19",
+  "manual_seeds_processed": 0,
+  "manual_seeds_pending": 0,
+  "active_shops_reverified": 0,
+  "discovery_queries_run": 6,
+  "candidates_found": 0,
+  "candidates": [],
+  "notes": "50일 윈도우 기준 cutoff_date=2026-04-19 이후 오픈 가게만 active 대상. 금일 검색에서 용산동·전민동·관평동·문지동·신성동·도룡동 권역 신규 오픈 가게 발견 없음. manual_seeds 전량 이미 resolved/excluded 상태. active_shops 0건으로 재검증 대상 없음.",
+  "discovery_log": [
+    { "query": "용산동 신규 오픈 2026", "channel": "websearch-fallback", "results": 0 },
+    { "query": "전민동 카페 신규 2026", "channel": "websearch-fallback", "results": 0 },
+    { "query": "관평동 식당 오픈 2026", "channel": "websearch-fallback", "results": 0 },
+    { "query": "용성로 카페 2026", "channel": "websearch-fallback", "results": 0 },
+    { "query": "유성구 팝업스토어 6월 2026", "channel": "websearch-fallback", "results": 0 },
+    { "query": "유성구 그랜드오픈 2026", "channel": "websearch-fallback", "results": 0 }
+  ]
+}

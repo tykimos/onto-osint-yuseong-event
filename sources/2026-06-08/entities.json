@@ -1,0 +1,60 @@
+{
+  "date": "2026-06-08",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-047",
+      "type": "Event",
+      "name": "공룡매직쇼",
+      "update": "status → 종료 (6/7 최종일 완료)",
+      "notes": "사이언스홀 2일간 운영 종료. 이후 공룡 테마 이벤트 공백."
+    },
+    {
+      "id": "ent-evt-048",
+      "type": "Event",
+      "name": "물리로 물리쳐라!",
+      "update": "status → 종료 (6/7 최종일 완료)",
+      "notes": "5일간 아날로그 감성 물리놀이터 운영 종료. 사이언스터널에 자연탐사대만 잔류."
+    },
+    {
+      "id": "ent-evt-050",
+      "type": "Event",
+      "name": "개미·꿀벌의 팀워크",
+      "update": "status → Day 7 진행중 (6/2~7/31)",
+      "notes": "자연사관 특별전시. 첫 월요일 운영일(과학관 연중무휴). D-53 남음."
+    },
+    {
+      "id": "ent-evt-051",
+      "type": "Event",
+      "name": "출동! 첨단 미래자연탐사대",
+      "update": "status → Day 49 진행중 (4/21~6/28), D-20",
+      "notes": "사이언스터널 진행중 전시. 물리놀이터 종료 후 사이언스터널 단독 운영."
+    },
+    {
+      "id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "update": "status → D-13 (6/21 종료 예정)",
+      "notes": "대전시립미술관 어린이미술기획전. 마지막 2주 진입."
+    },
+    {
+      "id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "update": "status → D-8 (6/16 업무 개시)",
+      "notes": "1차타겟동 공공기관 이벤트. 6/30 개청식."
+    }
+  ],
+  "status_transitions": [
+    { "entity": "ent-evt-047", "from": "Day 2 최종일", "to": "종료" },
+    { "entity": "ent-evt-048", "from": "Day 5 최종일", "to": "종료" }
+  ],
+  "distance_estimates": [],
+  "dedup_log": [],
+  "coverage_check": {
+    "events_found": true,
+    "shops_found": false,
+    "public_institution_found": true,
+    "notes": "이벤트: 과학관·미술관 운영중. 가게: 금일 신규 없음. 공공기관: 신성동 행정복지센터 D-8, 119체험센터(월요일 휴무), 학하동 주민자치 강좌접수(비1차타겟동)."
+  }
+}

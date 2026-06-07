@@ -1628,3 +1628,37 @@
 - **신뢰도:** 0.99
 - **상태:** 확정
 - **비고:** 119시민체험센터는 화~토 운영. 일요일·월요일·공휴일 휴무. 오늘(일요일) 확정 휴무.
+
+## 2026-06-08 추론 결과
+
+### 추론 #1: event_end_confirmation (공룡매직쇼·물리놀이터 종료 확정)
+- **규칙:** event_end_date_passed
+- **입력:** (ent-evt-047 endsOn 2026-06-07), (ent-evt-048 endsOn 2026-06-07), currentDate=2026-06-08
+- **추론:** (ent-evt-047 status 종료), (ent-evt-048 status 종료)
+- **신뢰도:** 1.00
+- **상태:** 확정
+- **비고:** 어제(6/7) 최종일 경과. 공룡매직쇼·물리놀이터 모두 종료 확정. 도룡동 과학관에서 해당 2종 체험 불가.
+
+### 추론 #2: same_dong_combo (도룡동 잔류 콤보 3종 전환)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-venue-005 locatedIn dong-doryong), (ent-venue-026 locatedIn dong-doryong)
+- **추론:** (ent-evt-050 comboWith ent-evt-051), (ent-evt-050 comboWith ent-evt-041)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 5종 콤보 중 2종 종료 → 팀워크+자연탐사대+피직스랩 3종 잔류. 탐이 꿈이(어린이과학관) 포함 시 4종.
+
+### 추론 #3: series_pattern (로보스테이지6 = 2주 주기 시리즈 6회차)
+- **규칙:** same_venue_series
+- **입력:** (ent-evt-053 hostsAt ent-venue-005), (ent-evt-027 hostsAt ent-venue-005), (ent-evt-053 organizedBy ent-org-006), (ent-evt-027 organizedBy ent-org-006), interval≈14일
+- **추론:** (ent-evt-053 partOfSeries ent-evt-027)
+- **신뢰도:** 0.80
+- **상태:** 추정
+- **비고:** 과학관 행사가 대략 2주 주기로 교체(브릭파티 5/23→공룡덕후 5/30→공룡매직쇼 6/6→로보스테이지6 6/20). 시리즈 패턴 유지.
+
+### 추론 #4: regular_closure (대전시민천문대·119시민체험센터 월요일 정기 휴관/휴무)
+- **규칙:** regular_closure_day
+- **입력:** (ent-evt-006 hostsAt ent-venue-006 closure:"매주 월요일"), (ent-evt-019 hostsAt ent-venue-017 closure:"일·월 휴무"), currentDate=2026-06-08(월요일)
+- **추론:** (ent-evt-006 status "월요일 정기 휴관"), (ent-evt-019 status "월요일 정기 휴무")
+- **신뢰도:** 0.99
+- **상태:** 확정
+- **비고:** 천문대·119체험센터 모두 월요일 휴관/휴무. 다음 운영일 6/9(화).

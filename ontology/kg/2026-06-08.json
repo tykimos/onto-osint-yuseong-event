@@ -1,0 +1,59 @@
+{
+  "date": "2026-06-08",
+  "description": "2026-06-08 일별 KG 스냅샷 — 신규 엔티티 없음, 상태 전이 2건 (공룡매직쇼·물리놀이터 종료 확정). 도룡동 콤보 3종(+탐이꿈이=4종) 전환 완료. 월요일 휴관 영향.",
+  "new_nodes": [],
+  "updated_nodes": [
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "change": "Day 2 최종일(어제) → 종료" },
+    { "id": "ent-evt-048", "type": "Event", "label": "물리로 물리쳐라!", "change": "Day 5 최종일(어제) → 종료" },
+    { "id": "ent-evt-050", "type": "Event", "label": "개미·꿀벌의 팀워크", "change": "Day 6 → Day 7 (첫 월요일)" },
+    { "id": "ent-evt-051", "type": "Event", "label": "출동! 자연탐사대", "change": "D-21 → D-20" },
+    { "id": "ent-evt-039", "type": "Event", "label": "열한번째 트윙클", "change": "D-14 → D-13" },
+    { "id": "ent-evt-015", "type": "Event", "label": "탐이 꿈이", "change": "D-23 → D-22" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행정복지센터 신청사 개청", "change": "D-9 → D-8" },
+    { "id": "ent-evt-053", "type": "Event", "label": "로보스테이지6", "change": "D-13 → D-12" },
+    { "id": "ent-evt-054", "type": "Event", "label": "별별뷰티", "change": "D-13 → D-12" },
+    { "id": "ent-evt-006", "type": "Event", "label": "대전시민천문대 상시 관측", "change": "월요일 정기 휴관 — 방문 불가" },
+    { "id": "ent-evt-019", "type": "Event", "label": "119시민체험센터", "change": "월요일 정기 휴무 — 다음 운영일 6/9(화)" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 제작 클래스", "change": "진행중 — 월요일 비수업일, 다음 수업 6/11(수)" }
+  ],
+  "new_triples": [
+    {
+      "subject": "ent-evt-047",
+      "predicate": "status",
+      "object": "종료",
+      "confidence": 1.0,
+      "source": "explicit",
+      "note": "공룡매직쇼 6/6~7, 어제 최종일 종료 확정."
+    },
+    {
+      "subject": "ent-evt-048",
+      "predicate": "status",
+      "object": "종료",
+      "confidence": 1.0,
+      "source": "explicit",
+      "note": "물리로 물리쳐라! 6/3~7, 어제 최종일 종료 확정."
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-050",
+      "predicate": "comboWith",
+      "object": "ent-evt-051",
+      "rule": "same_dong_combo",
+      "confidence": 0.9,
+      "note": "도룡동 과학관 잔류 콤보: 팀워크+자연탐사대+피직스랩 — 공룡매직쇼·물리놀이터 빠져 3종 축소 전환"
+    },
+    {
+      "subject": "ent-evt-053",
+      "predicate": "partOfSeries",
+      "object": "ent-evt-027",
+      "rule": "same_venue_series",
+      "confidence": 0.8,
+      "note": "로보스테이지6은 과학관 시리즈 6회차 — 브릭파티·공룡덕후 등과 동일 2주 주기 패턴"
+    }
+  ],
+  "removed_from_active": [
+    { "id": "ent-evt-047", "reason": "종료" },
+    { "id": "ent-evt-048", "reason": "종료" }
+  ]
+}

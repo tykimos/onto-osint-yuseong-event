@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-08",
+  "curator_ran_at": "2026-06-08T07:02:00+09:00",
+  "changes": [],
+  "new_active_shops": 0,
+  "removed_shops": 0,
+  "manual_seeds_resolved": 0,
+  "notes": "shop-candidates.json에 후보 0건. active_shops 0건 유지. manual_seeds 변경 없음. 금일 roster 변경 없음."
+}
