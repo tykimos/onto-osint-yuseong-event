@@ -1,0 +1,53 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-08)
+<#snapshot-2026-06-08> a prov:Entity ;
+  dct:date "2026-06-08"^^xsd:date .
+
+# --- new_triples (2) ---
+yseent:ent-evt-047 yser:status yseent:__ .
+yseinf:stmt-2026-06-08-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-047 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:__ ;
+  yse:confidence "1.0"^^xsd:decimal ;
+  rdfs:comment "공룡매직쇼 6/6~7, 어제 최종일 종료 확정."@ko .
+yseent:ent-evt-048 yser:status yseent:__ .
+yseinf:stmt-2026-06-08-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-048 ;
+  rdf:predicate yser:status ;
+  rdf:object yseent:__ ;
+  yse:confidence "1.0"^^xsd:decimal ;
+  rdfs:comment "물리로 물리쳐라! 6/3~7, 어제 최종일 종료 확정."@ko .
+
+# --- inferred_triples (2) ---
+yseent:ent-evt-050 yser:comboWith yseent:ent-evt-051 .
+yseinf:stmt-2026-06-08-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-050 ;
+  rdf:predicate yser:comboWith ;
+  rdf:object yseent:ent-evt-051 ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "도룡동 과학관 잔류 콤보: 팀워크+자연탐사대+피직스랩 — 공룡매직쇼·물리놀이터 빠져 3종 축소 전환"@ko .
+yseent:ent-evt-053 yser:partOfSeries yseent:ent-evt-027 .
+yseinf:stmt-2026-06-08-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-053 ;
+  rdf:predicate yser:partOfSeries ;
+  rdf:object yseent:ent-evt-027 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_venue_series" ;
+  rdfs:comment "로보스테이지6은 과학관 시리즈 6회차 — 브릭파티·공룡덕후 등과 동일 2주 주기 패턴"@ko .
+
+# --- referenced entities ---
+
