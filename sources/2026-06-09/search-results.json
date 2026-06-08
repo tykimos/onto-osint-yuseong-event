@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-09",
+  "collected_at": "2026-06-09T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": [
+    "국립중앙과학관 6월 행사",
+    "개미 꿀벌 팀워크 전시",
+    "열한번째 트윙클",
+    "신성동 행정복지센터 개청",
+    "119시민체험센터",
+    "대전시민천문대"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:01:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "2026 전국 축제/행사 일정", "url": "https://xn--ok0b236bp0a.com/map", "snippet": "전국 축제 행사 일정 모음", "source_name": "전국축제" },
+        { "title": "전국축제 — 대한민국 구석구석", "url": "https://korean.visitkorea.or.kr/kfes/list/wntyFstvlList.do", "snippet": "한국관광공사 축제 캘린더", "source_name": "한국관광공사" },
+        { "title": "유성구 문화관광", "url": "https://www.yuseong.go.kr/tour/", "snippet": "유성구 문화관광 포털", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:01:30+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "국립중앙과학관", "url": "https://www.science.go.kr/", "snippet": "과학관 공식 홈페이지", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 2026년 주요프로그램 공개", "url": "https://www.dailycc.net/news/articleView.html?idxno=858076", "snippet": "2026 주제 미래의 꿈 — AI·우주 등 체험형 행사", "source_name": "충청신문" },
+        { "title": "국립중앙과학관 통합예약 누리집", "url": "https://rsvn.science.go.kr/", "snippet": "예약 시스템", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관 인스타그램", "url": "https://www.instagram.com/nsmscience/", "snippet": "공식 SNS", "source_name": "Instagram" },
+        { "title": "국립중앙과학관, 2026 주제는 '미래의 꿈'", "url": "https://v.daum.net/v/20260106161044350", "snippet": "AI·우주 등 체험형 행사 다채", "source_name": "Daum" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:02:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "행사신청 — 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "도서관 프로그램 신청", "source_name": "유성구통합도서관" },
+        { "title": "유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/index.do", "snippet": "도서관 메인", "source_name": "유성구통합도서관" },
+        { "title": "유성구, 지역작가 인 도서관 운영", "url": "https://pedien.com/html/view.php?idx=1014924", "snippet": "지역작가와 함께하는 특별한 만남", "source_name": "페디언" },
+        { "title": "대전공공도서관", "url": "https://www.u-library.kr/", "snippet": "대전 공공도서관 통합 포털", "source_name": "대전공공도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성 가족 체험 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:02:30+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "꿀잼 대전 힐링캠프 개최", "url": "https://www.sijung.co.kr/news/articleView.html?idxno=430113", "snippet": "6/13~14 상소동 오토캠핑장, 가족 참여형 캠핑 프로그램", "source_name": "시정일보" },
+        { "title": "2026 유성온천문화축제", "url": "https://daejeontour.co.kr/festival_djt/32", "snippet": "5월 축제 종료", "source_name": "대전관광공사" },
+        { "title": "2026년 06월 대전관광있슈", "url": "http://www.daejeontourism.com/kor/eventList.do?menuIdx=698", "snippet": "6월 대전 행사 목록", "source_name": "대전관광공사" },
+        { "title": "대전 유성구 가볼 만한 곳, 온 가족이 즐기는 실내 문화 공간", "url": "https://www.joongangenews.com/news/articleView.html?idxno=489806", "snippet": "어린이회관·과학관 등 안내", "source_name": "중앙이코노미뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 Again CES 2026 행사",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:03:00+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "Again CES 2026 행사 안내", "url": "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=48762", "snippet": "1/24~25 사이언스홀 — 이미 종료", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "꿀잼대전 힐링캠프 2026년 6월 가족",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:03:30+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전시, 꿈돌이와 함께하는 '2026 꿀잼대전 힐링캠프' 개최", "url": "https://biz.heraldcorp.com/article/10743314", "snippet": "6/13~14 상소동 40팀 모집, 팀당 5만원", "source_name": "헤럴드경제" },
+        { "title": "꿈돌이와 캠핑 즐긴다···대전시 6월 상소동서 힐링캠프 개최", "url": "https://www.khan.co.kr/article/202605220950001/", "snippet": "5/26~27 신청, 가족 4인 기준", "source_name": "경향신문" },
+        { "title": "머물수록 빠져드는 대전 꿈돌이와 힐링 캠핑", "url": "https://www.thesnstime.com/meomulsurog-bbajyeodeuneun-daejeon-ggumdoliwa-hamgge-ddeonaneun-hilring-kaemping/", "snippet": "초록빛 자연 속 특별한 대전 여행", "source_name": "더에스엔에스타임" },
+        { "title": "꿈돌이와 함께 힐링 캠핑 즐겨보세요", "url": "https://www.sedaily.com/article/20047154", "snippet": "캠핑요리대회, 엽서만들기, 페이스페인팅, 버블쇼", "source_name": "서울경제" },
+        { "title": "머물고 싶은 도시 대전! 올해 첫 꿀잼대전 힐링캠프 참가자 모집", "url": "https://the-industry.co.kr/news/260", "snippet": "참가신청 5/26~27", "source_name": "디인더스트리" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:04:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰 레포레스트", "url": "https://www.welfarehello.com/community/hometownNews/c7c1f15b-d46a-4e5e-9689-0b77a91258e8", "snippet": "레포레스트 카페 — 기존 카페", "source_name": "웰페어헬로" },
+        { "title": "대전유성구 카페 분위기 맛집 Top100", "url": "https://www.diningcode.com/list.dc?query=대전유성구+카페분위기", "snippet": "기존 카페 목록", "source_name": "다이닝코드" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 2026년 6월 프로그램",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:04:30+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "공식 홈페이지", "source_name": "대전시민천문대" },
+        { "title": "대전시민천문대 별축제", "url": "https://daejeontour.co.kr/ko/festival/festivalView.do?festv_id=44", "snippet": "5월 별축제 종료", "source_name": "대전관광공사" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 주민자치 프로그램 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:05:00+09:00",
+      "result_count": 2,
+      "results": [
+        { "title": "유성구 주민참여예산제", "url": "https://www.yuseong.go.kr/yesan/", "snippet": "주민참여예산 공모", "source_name": "유성구청" },
+        { "title": "유성구, 2026년 주민참여예산 공모", "url": "https://www.job-post.co.kr/news/articleView.html?idxno=125641", "snippet": "구민 아이디어 모집", "source_name": "잡포스트" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 열한번째 트윙클 대전시립미술관 2026",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:05:30+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://incheon.thesegye.com/news/view/1065599512998244", "snippet": "3/18~6/21, 체험형 어린이 전시", "source_name": "세계일보" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 개최", "url": "https://www.newsro.kr/article243/1626322/", "snippet": "정승원·백인교 작가 참여", "source_name": "뉴스로" },
+        { "title": "대전시립미술관 어린이미술기획전 열한번째 트윙클", "url": "https://www.thesnstime.com/daejeonsiribmisulgwan-2026-eorinimisulgihoegjeon-yeolhanbeonjjae-teuwingkeulgaecoe/", "snippet": "미끄럼틀·섬유촉각 체험형 전시", "source_name": "더에스엔에스타임" },
+        { "title": "대전시립미술관, 어린이미술전 '열한번째 트윙클' 열어", "url": "https://www.tjb.co.kr/news11/category/view/id/95553/version/1", "snippet": "TJB 대전방송 보도", "source_name": "TJB" },
+        { "title": "대전시립미술관, 어린이 미술기획전 열한번째 트윙클 개최", "url": "https://www.asiae.co.kr/article/2026022120292789238", "snippet": "아시아경제 보도", "source_name": "아시아경제" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "신성동 행정복지센터 신청사 개청 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-09T07:06:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "대전 유성구 신성동 행정복지센터 신청사 개청", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=423555", "snippet": "6/16 업무개시, 6/30 개청식", "source_name": "굿모닝충청" },
+        { "title": "유성구 신성동 행정복지센터 신축 마쳐…16일부터 공식 업무 시작", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409", "snippet": "지하1층~지상2층, 연면적 2842㎡", "source_name": "대전일보" },
+        { "title": "대전유성구소식, 6월 16일 신성동 행정복지센터 신청사 업무 개시", "url": "https://www.welfarehello.com/community/hometownNews/f6f1453d-a9d7-4150-bcc9-6f1b79195174", "snippet": "6/16 업무 개시, 6/30 오전 10시 개청식", "source_name": "웰로" },
+        { "title": "유성구청 인스타그램 — 신성동 행정복지센터 이전 안내", "url": "https://www.instagram.com/p/DK9Fq10S_5s/", "snippet": "공식 SNS 안내", "source_name": "Instagram" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Daejeon Yuseong family kids events June 2026",
+      "language": "en",
+      "timestamp": "2026-06-09T07:07:00+09:00",
+      "result_count": 1,
+      "results": [
+        { "title": "Things to Do in Yuseong-gu, Daejeon (2026)", "url": "https://thingstodoindaejeon.com/district/yuseong-gu/", "snippet": "Yuseong-gu travel guide", "source_name": "thingstodoindaejeon" }
+      ]
+    }
+  ]
+}

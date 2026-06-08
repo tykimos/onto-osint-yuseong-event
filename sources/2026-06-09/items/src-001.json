@@ -1,0 +1,18 @@
+{
+  "id": "src-001",
+  "date": "2026-06-09",
+  "type": "status_update",
+  "title": "신성동 행정복지센터 신청사 개청식 6/30 확정",
+  "url": "https://www.welfarehello.com/community/hometownNews/f6f1453d-a9d7-4150-bcc9-6f1b79195174",
+  "source_name": "웰로",
+  "language": "ko",
+  "collected_at": "2026-06-09T07:06:00+09:00",
+  "content_summary": "유성구 신성동 행정복지센터가 6월 16일(월)부터 신청사(신성로 55)에서 공식 업무를 시작합니다. 개청식은 6월 30일(월) 오전 10시 개최 예정. 신청사는 지하1층~지상2층, 연면적 2842㎡ 규모. 1층 종합민원실·수유실, 2층 대회의실, 지하 다목적실·공유주방.",
+  "entities_extracted": ["ent-evt-052", "ent-venue-027", "ent-org-025"],
+  "tags": ["공공기관", "행정복지센터", "신성동", "1차타겟동"],
+  "cross_references": [
+    "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+    "https://www.goodmorningcc.com/news/articleView.html?idxno=423555",
+    "https://www.instagram.com/p/DK9Fq10S_5s/"
+  ]
+}

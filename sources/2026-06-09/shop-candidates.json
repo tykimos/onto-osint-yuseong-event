@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-09",
+  "generated_by": "shop-scout",
+  "config_window_days": 50,
+  "policy": "strict_50day_cap",
+  "cutoff_date": "2026-04-20",
+  "candidates": [],
+  "manual_seeds_processed": [],
+  "active_shops_reverified": [],
+  "summary": {
+    "total_candidates": 0,
+    "new_candidates": 0,
+    "reverified": 0,
+    "manual_seeds_pending": 0,
+    "note": "No pending manual_seeds. No active_shops to reverify. Web searches returned no new shop openings within the 50-day window (opened after 2026-04-20)."
+  }
+}

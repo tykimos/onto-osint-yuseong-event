@@ -1,0 +1,69 @@
+{
+  "date": "2026-06-09",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "update": "개청식 일정 확정: 6/30(월) 오전 10시. 기존 6/16 업무개시 + 6/30 개청식 2단계 이전. 웰로(welfarehello.com) 기사에서 최초 확인.",
+      "updated_properties": {
+        "ceremony_date": "2026-06-30",
+        "ceremony_time": "10:00",
+        "status": "D-7 업무개시(6/16), D-21 개청식(6/30)"
+      },
+      "source_ids": ["src-001"],
+      "confidence": 0.90
+    },
+    {
+      "id": "ent-evt-019",
+      "type": "Event",
+      "name": "119시민체험센터 소방안전체험",
+      "update": "화요일 운영 재개 (어제 월 휴무). 화~토 09:30~11:30/13:30~15:30.",
+      "source_ids": ["src-002"],
+      "confidence": 0.95
+    },
+    {
+      "id": "ent-evt-006",
+      "type": "Event",
+      "name": "대전시민천문대 상시 관측 프로그램",
+      "update": "화요일 운영 재개 (어제 월 정기 휴관). 14:00~22:00.",
+      "source_ids": ["src-003"],
+      "confidence": 0.95
+    }
+  ],
+  "status_tracking": {
+    "active_events": [
+      { "id": "ent-evt-050", "name": "개미·꿀벌의 팀워크", "status": "Day 8 진행중", "end_date": "2026-07-31", "d_minus": "D-52" },
+      { "id": "ent-evt-051", "name": "출동! 첨단 미래자연탐사대", "status": "진행중", "end_date": "2026-06-28", "d_minus": "D-19" },
+      { "id": "ent-evt-039", "name": "열한번째 트윙클", "status": "마지막 2주 진입", "end_date": "2026-06-21", "d_minus": "D-12" },
+      { "id": "ent-evt-015", "name": "탐이 꿈이의 비밀 실험실", "status": "진행중", "end_date": "2026-06-30", "d_minus": "D-21" },
+      { "id": "ent-evt-041", "name": "피직스랩 상시 체험", "status": "상설 운영", "end_date": null, "d_minus": null },
+      { "id": "ent-evt-045", "name": "숏폼 제작 클래스", "status": "진행중 (화 비수업일)", "end_date": "2026-06-25", "d_minus": "D-16" },
+      { "id": "ent-evt-006", "name": "대전시민천문대 상시 관측", "status": "오늘(화) 운영 재개", "end_date": null, "d_minus": null },
+      { "id": "ent-evt-019", "name": "119시민체험센터", "status": "오늘(화) 운영 재개", "end_date": null, "d_minus": null },
+      { "id": "ent-evt-017", "name": "아가·맘 행복교실", "status": "진행중 (화 비수업일)", "end_date": "2026-06-27", "d_minus": "D-18" },
+      { "id": "ent-evt-049", "name": "미디어체험관 이름짓기", "status": "진행중 (온라인)", "end_date": "2026-09-14", "d_minus": "D-97" }
+    ],
+    "upcoming_events": [
+      { "id": "ent-evt-052", "name": "신성동 행정복지센터 개청", "status": "D-7 업무개시, D-21 개청식", "start_date": "2026-06-16" },
+      { "id": "ent-evt-053", "name": "로보스테이지6", "status": "D-11", "start_date": "2026-06-20" },
+      { "id": "ent-evt-054", "name": "별별뷰티", "status": "D-11", "start_date": "2026-06-20" },
+      { "id": "ent-evt-036", "name": "창의나래관 개관", "status": "7월 예정", "start_date": "2026-07" }
+    ],
+    "deadline_imminent": [
+      {
+        "event": "학하동 주민자치센터 하반기 강좌 접수",
+        "deadline": "2026-06-10 17:30",
+        "d_minus": "D-1",
+        "note": "내일 수요일 마감. 방문·온라인 접수 가능."
+      }
+    ],
+    "recently_ended": [
+      { "id": "ent-evt-047", "name": "공룡매직쇼", "ended": "2026-06-07" },
+      { "id": "ent-evt-048", "name": "물리로 물리쳐라!", "ended": "2026-06-07" }
+    ]
+  },
+  "distance_estimates": [],
+  "kid_friendly_scores": []
+}

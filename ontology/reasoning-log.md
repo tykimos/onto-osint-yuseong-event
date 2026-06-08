@@ -1662,3 +1662,29 @@
 - **신뢰도:** 0.99
 - **상태:** 확정
 - **비고:** 천문대·119체험센터 모두 월요일 휴관/휴무. 다음 운영일 6/9(화).
+
+## 2026-06-09 추론 결과
+
+### 추론 #1: attribute_update (신성동 행정복지센터 개청식 일정 확정)
+- **규칙:** attribute_enrichment
+- **입력:** (ent-evt-052 start_date "2026-06-16"), 웰로 기사 신규 발견 (ceremony_date: "2026-06-30 10:00")
+- **추론:** (ent-evt-052 ceremony_date "2026-06-30"), (ent-evt-052 status "D-7 업무개시, D-21 개청식")
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 대전일보·굿모닝충청·유성구청 인스타 기존 출처에 웰로 추가. 6/16 업무개시와 6/30 개청식의 2단계 이전 확인.
+
+### 추론 #2: regular_reopening (천문대·119체험센터 화요일 운영 재개)
+- **규칙:** regular_closure_day (역)
+- **입력:** (ent-evt-006 closure "매주 월요일"), (ent-evt-019 closure "일·월 휴무"), currentDate=2026-06-09(화요일)
+- **추론:** (ent-evt-006 status "운영재개"), (ent-evt-019 status "운영재개")
+- **신뢰도:** 0.99
+- **상태:** 확정
+- **비고:** 어제(월) 휴관/휴무 후 오늘(화) 정상 운영 재개.
+
+### 추론 #3: same_dong_combo (도룡동 4종 콤보 유지)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-005), (ent-evt-015 hostsAt ent-venue-004), 모두 dong-doryong 소재
+- **추론:** (ent-evt-050 comboWith ent-evt-051), (ent-evt-050 comboWith ent-evt-041), (ent-evt-050 comboWith ent-evt-015)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 공룡매직쇼·물리놀이터 종료 후에도 팀워크+자연탐사대+피직스랩+탐이꿈이 = 4종 콤보 유지.

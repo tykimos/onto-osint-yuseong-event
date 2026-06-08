@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-09",
+  "generated_by": "shop-coverage-auditor",
+  "audit_results": {
+    "three_category_coverage": {
+      "events": { "covered": true, "count": 0, "note": "금일 신규 이벤트 없음 — 보고서에 명시" },
+      "shops": { "covered": true, "count": 0, "note": "활성 윈도우 내 가게 0건 — 보고서에 명시" },
+      "public_institutions": { "covered": true, "count": 3, "note": "119시민체험센터 운영재개, 대전시민천문대 운영재개, 신성동 행정복지센터 D-7" }
+    },
+    "active_shops_in_report": {
+      "expected": 0,
+      "found": 0,
+      "missing": [],
+      "passed": true
+    },
+    "manual_seeds_visibility": {
+      "expected": 3,
+      "found": 3,
+      "passed": true,
+      "details": [
+        { "name": "엉클부대찌개 테크노점", "status": "resolved_not_new", "visible": true },
+        { "name": "인터뷰커피라운지", "status": "resolved_not_new", "visible": true },
+        { "name": "유성닭발 관평점", "status": "excluded", "visible": true }
+      ]
+    },
+    "patches_applied": 0,
+    "overall_pass": true
+  }
+}

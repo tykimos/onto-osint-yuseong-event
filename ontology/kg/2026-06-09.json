@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-09",
+  "nodes": [
+    { "id": "ent-evt-050", "type": "Event", "label": "개미·꿀벌의 팀워크", "status": "Day 8", "ring": "ring-car" },
+    { "id": "ent-evt-051", "type": "Event", "label": "출동! 자연탐사대", "status": "D-19", "ring": "ring-car" },
+    { "id": "ent-evt-041", "type": "Event", "label": "피직스랩 상시 체험", "status": "상설", "ring": "ring-car" },
+    { "id": "ent-evt-015", "type": "Event", "label": "탐이 꿈이의 비밀 실험실", "status": "D-21", "ring": "ring-car" },
+    { "id": "ent-evt-039", "type": "Event", "label": "열한번째 트윙클", "status": "D-12", "ring": "ring-car" },
+    { "id": "ent-evt-006", "type": "Event", "label": "대전시민천문대 상시 관측", "status": "운영재개", "ring": "ring-car" },
+    { "id": "ent-evt-019", "type": "Event", "label": "119시민체험센터", "status": "운영재개", "ring": "ring-car" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행정복지센터 개청", "status": "D-7/D-21", "ring": "ring-bike" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 제작 클래스", "status": "진행중", "ring": "ring-car" },
+    { "id": "ent-evt-017", "type": "Event", "label": "아가·맘 행복교실", "status": "진행중", "ring": "ring-stroll" },
+    { "id": "ent-evt-053", "type": "Event", "label": "로보스테이지6", "status": "D-11", "ring": "ring-car" },
+    { "id": "ent-evt-054", "type": "Event", "label": "별별뷰티", "status": "D-11", "ring": "ring-car" },
+    { "id": "ent-evt-047", "type": "Event", "label": "공룡매직쇼", "status": "종료", "ring": "ring-car" },
+    { "id": "ent-evt-048", "type": "Event", "label": "물리놀이터", "status": "종료", "ring": "ring-car" },
+    { "id": "ent-venue-005", "type": "Venue", "label": "국립중앙과학관", "dong": "도룡동" },
+    { "id": "ent-venue-004", "type": "Venue", "label": "국립어린이과학관", "dong": "도룡동" },
+    { "id": "ent-venue-006", "type": "Venue", "label": "대전시민천문대", "dong": "도룡동" },
+    { "id": "ent-venue-025", "type": "Venue", "label": "대전시립미술관", "dong": "둔산동" },
+    { "id": "ent-venue-017", "type": "Venue", "label": "119시민체험센터", "dong": "유성구" },
+    { "id": "ent-venue-027", "type": "Venue", "label": "신성동 행정복지센터", "dong": "신성동" },
+    { "id": "ent-venue-016", "type": "Venue", "label": "아가랑도서관", "dong": "전민동" },
+    { "id": "dong-doryong", "type": "Dong", "label": "도룡동" },
+    { "id": "dong-sinseong", "type": "Dong", "label": "신성동" },
+    { "id": "dong-jeonmin", "type": "Dong", "label": "전민동" },
+    { "id": "ent-org-006", "type": "Organization", "label": "국립중앙과학관" },
+    { "id": "ent-org-025", "type": "Organization", "label": "신성동 행정복지센터" }
+  ],
+  "edges": [
+    { "source": "ent-evt-050", "target": "ent-venue-005", "relation": "hostsAt" },
+    { "source": "ent-evt-051", "target": "ent-venue-005", "relation": "hostsAt" },
+    { "source": "ent-evt-041", "target": "ent-venue-005", "relation": "hostsAt" },
+    { "source": "ent-evt-015", "target": "ent-venue-004", "relation": "hostsAt" },
+    { "source": "ent-evt-039", "target": "ent-venue-025", "relation": "hostsAt" },
+    { "source": "ent-evt-006", "target": "ent-venue-006", "relation": "hostsAt" },
+    { "source": "ent-evt-019", "target": "ent-venue-017", "relation": "hostsAt" },
+    { "source": "ent-evt-052", "target": "ent-venue-027", "relation": "hostsAt" },
+    { "source": "ent-evt-017", "target": "ent-venue-016", "relation": "hostsAt" },
+    { "source": "ent-evt-050", "target": "ent-org-006", "relation": "organizedBy" },
+    { "source": "ent-evt-051", "target": "ent-org-006", "relation": "organizedBy" },
+    { "source": "ent-evt-041", "target": "ent-org-006", "relation": "organizedBy" },
+    { "source": "ent-evt-052", "target": "ent-org-025", "relation": "organizedBy" },
+    { "source": "ent-venue-005", "target": "dong-doryong", "relation": "locatedIn" },
+    { "source": "ent-venue-004", "target": "dong-doryong", "relation": "locatedIn" },
+    { "source": "ent-venue-006", "target": "dong-doryong", "relation": "locatedIn" },
+    { "source": "ent-venue-027", "target": "dong-sinseong", "relation": "locatedIn" },
+    { "source": "ent-venue-016", "target": "dong-jeonmin", "relation": "locatedIn" },
+    { "source": "ent-evt-053", "target": "ent-evt-047", "relation": "followsEvent" }
+  ],
+  "inferred_triples": [
+    {
+      "rule": "same_venue_series",
+      "triple": ["ent-evt-050", "partOfSeries", "ent-evt-051"],
+      "reason": "동일 장소(국립중앙과학관)에서 동일 주최(국립중앙과학관)가 운영하는 진행중 전시 2건"
+    },
+    {
+      "rule": "indoor_rainy_fallback",
+      "triple": ["ent-evt-050", "rainyFallbackFor", "outdoor_events"],
+      "reason": "실내 전시 — 우천 시 안전한 대체 방문지"
+    }
+  ],
+  "summary": {
+    "total_nodes": 26,
+    "total_edges": 19,
+    "new_nodes": 0,
+    "new_edges": 0,
+    "inferred_triples": 2
+  }
+}
