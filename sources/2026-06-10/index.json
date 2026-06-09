@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-10",
+  "topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "total_sources": 12,
+  "new_items": 0,
+  "updated_items": 2,
+  "items": [
+    {
+      "id": "src-001",
+      "type": "status_update",
+      "title": "학하동 주민자치센터 하반기 강좌 접수 D-day 마감",
+      "url": "https://www.yuseong.go.kr/",
+      "source_name": "유성구청",
+      "language": "ko",
+      "relevance": "high",
+      "summary": "하반기(7~9월) 강좌 접수. 오늘(6/10 수 17:30) 마감. 온라인·방문 접수 최종일.",
+      "entities_referenced": [],
+      "tags": ["행정복지센터", "주민자치", "마감D-day"]
+    },
+    {
+      "id": "src-002",
+      "type": "update",
+      "title": "신성동 행정복지센터 시설 상세 (뉴스1 포토)",
+      "url": "https://www.news1.kr/photos/7369035",
+      "source_name": "뉴스1",
+      "language": "ko",
+      "relevance": "medium",
+      "summary": "신성동 행정복지센터 신청사 시설 규모 상세: 지하1층·지상2층, 연면적 2842㎡. 1층 종합민원실·수유실, 2층 대회의실·중회의실, 지하 다목적실·공유주방. 별관 어울마당. D-6(업무개시)/D-20(개청식).",
+      "entities_referenced": ["ent-evt-052", "ent-venue-027", "ent-org-025"],
+      "tags": ["공공기관", "행정복지센터", "신성동", "1차타겟"]
+    },
+    {
+      "id": "src-003",
+      "type": "ongoing",
+      "title": "국립중앙과학관 도룡동 콤보 4종 운영 (Day 9)",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "source_name": "국립중앙과학관",
+      "language": "ko",
+      "relevance": "high",
+      "summary": "개미·꿀벌의 팀워크(Day 9)+출동! 자연탐사대(D-18)+피직스랩(상설)+탐이 꿈이(D-20) = 4종 콤보 운영중. 연중무휴.",
+      "entities_referenced": ["ent-evt-050", "ent-evt-051", "ent-evt-041", "ent-evt-015"],
+      "tags": ["과학관", "도룡동", "전시", "체험"]
+    },
+    {
+      "id": "src-004",
+      "type": "ongoing",
+      "title": "열한번째 트윙클 D-11",
+      "url": "https://www.newsro.kr/article243/1626322/",
+      "source_name": "뉴스로",
+      "language": "ko",
+      "relevance": "high",
+      "summary": "대전시립미술관 어린이미술기획전. 3/18~6/21. 마지막 2주 진행중. 체험형 전시.",
+      "entities_referenced": ["ent-evt-039", "ent-venue-025"],
+      "tags": ["미술관", "어린이", "체험", "종료임박"]
+    },
+    {
+      "id": "src-005",
+      "type": "ongoing",
+      "title": "대전시민천문대 수요일 정상 운영",
+      "url": "https://djstar.kr/",
+      "source_name": "대전시민천문대",
+      "language": "ko",
+      "relevance": "medium",
+      "summary": "화~일 14:00~22:00 정상 운영. 상시 관측 프로그램.",
+      "entities_referenced": ["ent-evt-006", "ent-venue-006"],
+      "tags": ["공공기관", "천문대", "도룡동"]
+    },
+    {
+      "id": "src-006",
+      "type": "ongoing",
+      "title": "119시민체험센터 수요일 정상 운영",
+      "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=5092",
+      "source_name": "대전시 119시민체험센터",
+      "language": "ko",
+      "relevance": "medium",
+      "summary": "화~토 09:30~11:30/13:30~15:30 정상 운영.",
+      "entities_referenced": ["ent-evt-019", "ent-venue-017"],
+      "tags": ["공공기관", "소방서", "안전체험"]
+    },
+    {
+      "id": "src-007",
+      "type": "ongoing",
+      "title": "신성동 행정복지센터 D-6/D-20",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+      "source_name": "대전일보",
+      "language": "ko",
+      "relevance": "high",
+      "summary": "6/16(월) 업무개시 D-6. 6/30(월) 개청식 D-20.",
+      "entities_referenced": ["ent-evt-052", "ent-venue-027"],
+      "tags": ["공공기관", "행정복지센터", "신성동"]
+    },
+    {
+      "id": "src-008",
+      "type": "ongoing",
+      "title": "숏폼 제작 클래스 진행중",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "source_name": "유성구통합도서관",
+      "language": "ko",
+      "relevance": "medium",
+      "summary": "진잠도서관 K-도서관. 6/4~25. 초등4~6학년. 내일 6/11 수업 예정.",
+      "entities_referenced": ["ent-evt-045"],
+      "tags": ["도서관", "초등고학년", "영상제작"]
+    },
+    {
+      "id": "src-009",
+      "type": "ongoing",
+      "title": "아가·맘 행복교실 진행중",
+      "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+      "source_name": "유성구통합도서관",
+      "language": "ko",
+      "relevance": "low",
+      "summary": "아가랑도서관(전민동). 4/4~6/27 매주 금. 영유아 대상. 다음 수업 6/13(금).",
+      "entities_referenced": ["ent-evt-017", "ent-venue-016"],
+      "tags": ["도서관", "영유아", "전민동"]
+    },
+    {
+      "id": "src-010",
+      "type": "upcoming",
+      "title": "로보스테이지6 D-10",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "source_name": "국립중앙과학관",
+      "language": "ko",
+      "relevance": "low",
+      "summary": "6/20 국립중앙과학관. 초등 대상 로봇 체험 행사.",
+      "entities_referenced": ["ent-evt-053"],
+      "tags": ["과학관", "로봇", "도룡동"]
+    },
+    {
+      "id": "src-011",
+      "type": "upcoming",
+      "title": "별별뷰티 D-10",
+      "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+      "source_name": "국립중앙과학관",
+      "language": "ko",
+      "relevance": "low",
+      "summary": "6/20 국립중앙과학관. 초등고학년 이상.",
+      "entities_referenced": ["ent-evt-054"],
+      "tags": ["과학관", "특강", "도룡동"]
+    },
+    {
+      "id": "src-012",
+      "type": "excluded",
+      "title": "2026 특이하누&비어위크 (scope.exclude)",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1158721",
+      "source_name": "금강일보",
+      "language": "ko",
+      "relevance": "excluded",
+      "summary": "6/5~21 엑스포과학공원 한빛탑광장. 맥주+한우 축제. scope.exclude(주류 행사) 적용으로 보고서 제외.",
+      "entities_referenced": [],
+      "tags": ["축제", "주류", "scope_exclude"]
+    }
+  ]
+}

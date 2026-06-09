@@ -1,0 +1,10 @@
+{
+  "date": "2026-06-10",
+  "scout_ran": true,
+  "queries_run": 9,
+  "candidates_found": 0,
+  "candidates": [],
+  "manual_seeds_processed": 0,
+  "manual_seeds_pending": 0,
+  "notes": "용산동·전민동·관평동·문지동 신규 오픈 검색 수행. 50일 윈도우(2026-04-21 이후 오픈) 내 신규 가게 미검출. 기존 3건 manual_seeds 모두 처리 완료 상태(resolved_not_new 2건, excluded 1건). active_shops 재검증 대상 0건(활성 가게 없음)."
+}

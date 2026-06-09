@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-10",
+  "entities": [
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "properties": {
+        "status": "D-6(업무개시)/D-20(개청식)",
+        "facility_detail": "지하1층·지상2층, 연면적 2842㎡. 1F 종합민원실·수유실, 2F 대회의실·중회의실, B1 다목적실·공유주방. 별관 어울마당.",
+        "source_media_count": 5,
+        "confidence": 0.98
+      },
+      "source_ids": ["src-002", "src-007"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-050",
+      "type": "Event",
+      "name": "개미·꿀벌의 팀워크",
+      "properties": { "status": "Day 9", "end_date": "2026-07-31" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-051",
+      "type": "Event",
+      "name": "출동! 첨단 미래자연탐사대",
+      "properties": { "status": "D-18", "end_date": "2026-06-28" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-041",
+      "type": "Event",
+      "name": "피직스랩 상시체험",
+      "properties": { "status": "상설" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-015",
+      "type": "Event",
+      "name": "탐이 꿈이의 비밀 실험실",
+      "properties": { "status": "D-20", "end_date": "2026-06-30" },
+      "source_ids": ["src-003"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "properties": { "status": "D-11", "end_date": "2026-06-21" },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-006",
+      "type": "Event",
+      "name": "대전시민천문대 상시 관측 프로그램",
+      "properties": { "status": "정상운영" },
+      "source_ids": ["src-005"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-019",
+      "type": "Event",
+      "name": "119시민체험센터 소방안전체험",
+      "properties": { "status": "정상운영" },
+      "source_ids": ["src-006"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-053",
+      "type": "Event",
+      "name": "로보스테이지6",
+      "properties": { "status": "D-10", "start_date": "2026-06-20" },
+      "source_ids": ["src-010"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-evt-054",
+      "type": "Event",
+      "name": "별별뷰티",
+      "properties": { "status": "D-10", "start_date": "2026-06-20" },
+      "source_ids": ["src-011"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 0,
+    "matched_entities": 10,
+    "total_relations": 0
+  }
+}

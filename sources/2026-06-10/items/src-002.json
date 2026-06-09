@@ -1,0 +1,22 @@
+{
+  "id": "src-002",
+  "title": "신성동 행정복지센터 시설 상세 (뉴스1 포토)",
+  "url": "https://www.news1.kr/photos/7369035",
+  "snippet": "유성구 신성동 행정복지센터 신청사. 지하1층·지상2층(연면적 2842㎡). 1층 종합민원실·무인민원발급기·수유실, 2층 대회의실·중회의실, 지하 다목적실·세미나실·공유주방. 별관 주민자치회 사무실·어울마당.",
+  "source_name": "뉴스1",
+  "language": "ko",
+  "discovered_date": "2026-06-10",
+  "tag": "update",
+  "related_report": "2026-06-02",
+  "related_item": "src-005 (2026-06-09)",
+  "tag_reason": "기존 보도(대전일보·웰로·굿모닝충청)의 교차검증 + 시설 규모·층별 구성 상세 신규 정보. 뉴스1 포토 기사로 시설 이미지 공개.",
+  "entities": [
+    { "id": "ent-evt-052", "type": "Event", "name": "신성동 행정복지센터 신청사 개청", "properties": { "업무개시": "2026-06-16", "개청식": "2026-06-30 10:00" } },
+    { "id": "ent-venue-027", "type": "Venue", "name": "신성동 행정복지센터 신청사", "properties": { "address": "유성구 신성로 55", "floors": "B1-2F", "area_sqm": 2842, "facilities": ["종합민원실", "무인민원발급기", "수유실", "대회의실", "중회의실", "다목적실", "세미나실", "공유주방", "어울마당"] } },
+    { "id": "ent-org-025", "type": "Organization", "name": "신성동 행정복지센터" }
+  ],
+  "relations": [
+    { "subject": "ent-evt-052", "predicate": "hostsAt", "object": "ent-venue-027" },
+    { "subject": "ent-evt-052", "predicate": "organizedBy", "object": "ent-org-025" }
+  ]
+}
