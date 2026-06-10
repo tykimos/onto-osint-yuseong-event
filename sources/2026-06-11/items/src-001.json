@@ -1,0 +1,18 @@
+{
+  "id": "src-001",
+  "date": "2026-06-11",
+  "type": "ongoing",
+  "title": "숏폼 제작 클래스 수업일 (6/11 목)",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "source_name": "유성구통합도서관",
+  "language": "ko",
+  "relevance": "high",
+  "entities": ["ent-evt-045"],
+  "tags": ["도서관", "초등고학년", "영상제작", "수업일"],
+  "extracted_facts": [
+    "진잠도서관 K-도서관 숏폼 제작 클래스",
+    "기간: 6/4~25, 매주 수목 수업",
+    "대상: 초등 4~6학년",
+    "오늘(6/11 목) 수업일"
+  ]
+}

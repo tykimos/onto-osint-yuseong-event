@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-11",
+  "nodes": [
+    { "id": "ent-evt-050", "type": "Event", "label": "개미·꿀벌의 팀워크", "status": "Day 10", "ring": "ring-car" },
+    { "id": "ent-evt-051", "type": "Event", "label": "출동! 자연탐사대", "status": "D-17", "ring": "ring-car" },
+    { "id": "ent-evt-041", "type": "Event", "label": "피직스랩 상시 체험", "status": "상설", "ring": "ring-car" },
+    { "id": "ent-evt-015", "type": "Event", "label": "탐이 꿈이의 비밀 실험실", "status": "D-19", "ring": "ring-car" },
+    { "id": "ent-evt-039", "type": "Event", "label": "열한번째 트윙클", "status": "D-10", "ring": "ring-car" },
+    { "id": "ent-evt-006", "type": "Event", "label": "대전시민천문대 상시 관측", "status": "정상운영", "ring": "ring-car" },
+    { "id": "ent-evt-019", "type": "Event", "label": "119시민체험센터", "status": "정상운영", "ring": "ring-car" },
+    { "id": "ent-evt-052", "type": "Event", "label": "신성동 행정복지센터 개청", "status": "D-5/D-19", "ring": "ring-bike" },
+    { "id": "ent-evt-045", "type": "Event", "label": "숏폼 제작 클래스", "status": "오늘 수업일", "ring": "ring-car" },
+    { "id": "ent-evt-017", "type": "Event", "label": "아가·맘 행복교실", "status": "진행중", "ring": "ring-stroll" },
+    { "id": "ent-evt-053", "type": "Event", "label": "로보스테이지6", "status": "D-9", "ring": "ring-car" },
+    { "id": "ent-evt-054", "type": "Event", "label": "별별뷰티", "status": "D-9", "ring": "ring-car" },
+    { "id": "ent-venue-005", "type": "Venue", "label": "국립중앙과학관", "dong": "도룡동" },
+    { "id": "ent-venue-004", "type": "Venue", "label": "국립어린이과학관", "dong": "도룡동" },
+    { "id": "ent-venue-006", "type": "Venue", "label": "대전시민천문대", "dong": "도룡동" },
+    { "id": "ent-venue-025", "type": "Venue", "label": "대전시립미술관", "dong": "둔산동" },
+    { "id": "ent-venue-017", "type": "Venue", "label": "119시민체험센터", "dong": "유성구" },
+    { "id": "ent-venue-027", "type": "Venue", "label": "신성동 행정복지센터", "dong": "신성동" },
+    { "id": "ent-venue-016", "type": "Venue", "label": "아가랑도서관", "dong": "전민동" },
+    { "id": "dong-doryong", "type": "Dong", "label": "도룡동" },
+    { "id": "dong-sinseong", "type": "Dong", "label": "신성동" },
+    { "id": "dong-jeonmin", "type": "Dong", "label": "전민동" },
+    { "id": "ent-org-006", "type": "Organization", "label": "국립중앙과학관" },
+    { "id": "ent-org-025", "type": "Organization", "label": "신성동 행정복지센터" }
+  ],
+  "edges": [
+    { "source": "ent-evt-050", "target": "ent-venue-005", "relation": "hostsAt" },
+    { "source": "ent-evt-051", "target": "ent-venue-005", "relation": "hostsAt" },
+    { "source": "ent-evt-041", "target": "ent-venue-005", "relation": "hostsAt" },
+    { "source": "ent-evt-015", "target": "ent-venue-004", "relation": "hostsAt" },
+    { "source": "ent-evt-039", "target": "ent-venue-025", "relation": "hostsAt" },
+    { "source": "ent-evt-006", "target": "ent-venue-006", "relation": "hostsAt" },
+    { "source": "ent-evt-019", "target": "ent-venue-017", "relation": "hostsAt" },
+    { "source": "ent-evt-052", "target": "ent-venue-027", "relation": "hostsAt" },
+    { "source": "ent-evt-017", "target": "ent-venue-016", "relation": "hostsAt" },
+    { "source": "ent-evt-050", "target": "ent-org-006", "relation": "organizedBy" },
+    { "source": "ent-evt-051", "target": "ent-org-006", "relation": "organizedBy" },
+    { "source": "ent-evt-052", "target": "ent-org-025", "relation": "organizedBy" },
+    { "source": "ent-venue-005", "target": "dong-doryong", "relation": "locatedIn" },
+    { "source": "ent-venue-006", "target": "dong-doryong", "relation": "locatedIn" },
+    { "source": "ent-venue-027", "target": "dong-sinseong", "relation": "locatedIn" },
+    { "source": "ent-venue-016", "target": "dong-jeonmin", "relation": "locatedIn" },
+    { "source": "ent-evt-053", "target": "ent-venue-005", "relation": "hostsAt", "style": "dashed", "note": "예고" },
+    { "source": "ent-evt-054", "target": "ent-venue-005", "relation": "hostsAt", "style": "dashed", "note": "예고" }
+  ],
+  "new_triples": 0,
+  "inferred_triples": [
+    {
+      "rule": "same_dong_combo",
+      "subject": "ent-evt-050",
+      "predicate": "visitCombo",
+      "object": "ent-evt-006",
+      "confidence": 0.85,
+      "note": "도룡동 과학관→천문대 당일 콤보 유지"
+    },
+    {
+      "rule": "anchor_distance_priority",
+      "subject": "ent-evt-052",
+      "predicate": "priorityBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "note": "신성동 행정복지센터 ring-bike. D-5 업무개시 임박 — 이번 주 월요일 오픈."
+    },
+    {
+      "rule": "public_institution_kid_event",
+      "subject": "ent-evt-052",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.9,
+      "note": "행정복지센터 주최 — 공공기관 신뢰도 가산"
+    }
+  ]
+}

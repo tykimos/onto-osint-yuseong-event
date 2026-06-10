@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-11",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-045",
+      "type": "Event",
+      "name": "숏폼 제작 클래스",
+      "update": "오늘(6/11 목) 수업일. 진행 중(6/4~25).",
+      "source_ids": ["src-001"]
+    },
+    {
+      "id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "update": "D-5(업무개시 6/16) / D-19(개청식 6/30). 이번 주 월요일 업무 시작.",
+      "source_ids": ["src-007"]
+    }
+  ],
+  "distance_estimates": [],
+  "kid_friendly_scores": [],
+  "notes": "금일 신규 엔티티 없음. 학하동 강좌접수 어제 마감 완료, 선정발표 내일(6/12 금). 숏폼 클래스 오늘 수업일."
+}

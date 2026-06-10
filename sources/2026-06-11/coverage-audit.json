@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-11",
+  "auditor": "shop-coverage-auditor",
+  "checks": {
+    "active_shops_in_report": {
+      "expected": 0,
+      "found": 0,
+      "pass": true,
+      "note": "active_shops 0건. 보고서에 '활성 윈도우 내 가게 0건' 명시."
+    },
+    "three_category_coverage": {
+      "event": true,
+      "shop": true,
+      "public_institution": true,
+      "pass": true,
+      "note": "3종 모두 커버. 이벤트(과학관 4종 콤보 등), 가게(0건 명시), 공공기관(신성동 D-5, 119체험센터, 천문대, 학하동 강좌 등)."
+    },
+    "manual_seeds_visibility": {
+      "total_seeds": 3,
+      "displayed_in_report": 3,
+      "pass": true,
+      "note": "resolved_not_new 2건 + excluded 1건 모두 표시."
+    }
+  },
+  "patches_applied": [],
+  "result": "PASS — 모든 검증 항목 통과. 패치 불필요."
+}

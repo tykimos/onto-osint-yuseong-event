@@ -1714,3 +1714,29 @@
 - **신뢰도:** 0.90
 - **상태:** 확정
 - **비고:** 행정복지센터는 공공기관 — 신뢰도·접근성 가산. 수유실·다목적실·공유주방 등 가족 친화 시설 확인.
+
+## 2026-06-11 추론 결과
+
+### 추론 #1: same_dong_combo (도룡동 4종 콤보 Day 10)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-005), (ent-evt-015 hostsAt ent-venue-004), 모두 dong-doryong 소재
+- **추론:** (ent-evt-050 comboWith ent-evt-051), (ent-evt-050 comboWith ent-evt-041), (ent-evt-050 comboWith ent-evt-015)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 4종 콤보 Day 10. 과학관 연중무휴. 천문대(목 정상운영 14:00~22:00) 포함 시 5종 확장 콤보 가능.
+
+### 추론 #2: anchor_distance_priority (신성동 행정복지센터 D-5)
+- **규칙:** anchor_distance_priority
+- **입력:** (ent-venue-027 withinRing ring-bike), ring-bike priority=3
+- **추론:** (ent-evt-052 priorityBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 신성동 행정복지센터 ring-bike(~1.5km). 업무개시 D-5 — 이번 주 월요일(6/16) 오픈.
+
+### 추론 #3: public_institution_kid_event (신성동 행정복지센터 공공기관 가산)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 행정복지센터 공공기관 가산 유지.

@@ -1,0 +1,18 @@
+{
+  "id": "src-002",
+  "date": "2026-06-11",
+  "type": "status_update",
+  "title": "학하동 주민자치 강좌 선정발표 D-1",
+  "url": "https://www.yuseong.go.kr/kor/",
+  "source_name": "유성구청",
+  "language": "ko",
+  "relevance": "medium",
+  "entities": [],
+  "tags": ["행정복지센터", "주민자치", "접수마감후"],
+  "extracted_facts": [
+    "학하동 주민자치센터 하반기(7~9월) 강좌",
+    "접수 마감 완료: 6/10(수) 17:30",
+    "선정 발표: 6/12(금) 문자 발송 예정",
+    "수강 기간: 7/1(수)~9/30(수)"
+  ]
+}
