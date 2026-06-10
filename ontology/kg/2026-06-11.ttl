@@ -1,0 +1,191 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-11)
+<#snapshot-2026-06-11> a prov:Entity ;
+  dct:date "2026-06-11"^^xsd:date .
+
+# --- inferred_triples (3) ---
+yseent:ent-evt-050 yser:visitCombo yseent:ent-evt-006 .
+yseinf:stmt-2026-06-11-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-050 ;
+  rdf:predicate yser:visitCombo ;
+  rdf:object yseent:ent-evt-006 ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_dong_combo" ;
+  rdfs:comment "도룡동 과학관→천문대 당일 콤보 유지"@ko .
+yseent:ent-evt-052 yser:priorityBoost "+0.2" .
+yseinf:stmt-2026-06-11-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:priorityBoost ;
+  rdf:object "+0.2" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "anchor_distance_priority" ;
+  rdfs:comment "신성동 행정복지센터 ring-bike. D-5 업무개시 임박 — 이번 주 월요일 오픈."@ko .
+yseent:ent-evt-052 yser:publicTrustBoost "+0.15" .
+yseinf:stmt-2026-06-11-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:publicTrustBoost ;
+  rdf:object "+0.15" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "public_institution_kid_event" ;
+  rdfs:comment "행정복지센터 주최 — 공공기관 신뢰도 가산"@ko .
+
+# --- referenced entities ---
+yseent:dong-doryong a yseo:Dong ;
+  rdfs:label "도룡동"@ko ;
+  yse:name "도룡동"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "12"^^xsd:integer ;
+  yse:is_primary_target true .
+yseent:dong-jeonmin a yseo:Dong ;
+  rdfs:label "전민동"@ko ;
+  yse:name "전민동"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:is_primary_target true .
+yseent:dong-sinseong a yseo:Dong ;
+  rdfs:label "신성동"@ko ;
+  yse:name "신성동"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "0"^^xsd:integer ;
+  yse:is_primary_target true .
+yseent:ent-evt-006 a yseo:Event ;
+  rdfs:label "대전시민천문대 상시 관측 프로그램"@ko ;
+  yse:name "대전시민천문대 상시 관측 프로그램"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:fee "무료"@ko ;
+  yse:indoor_outdoor "실내+야외"@ko ;
+  yse:kid_friendly_score "0.85"^^xsd:decimal .
+yseent:ent-evt-015 a yseo:Event ;
+  rdfs:label "탐이 꿈이의 비밀 실험실"@ko ;
+  yse:name "탐이 꿈이의 비밀 실험실"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:start_date "2026-04-01"^^xsd:date ;
+  yse:end_date "2026-06-30"^^xsd:date ;
+  yse:fee "유료"@ko ;
+  yse:indoor_outdoor "실내"@ko ;
+  yse:kid_friendly_score "0.95"^^xsd:decimal ;
+  yse:registration_required true .
+yseent:ent-evt-017 a yseo:Event ;
+  rdfs:label "아가·맘 행복교실"@ko ;
+  yse:name "아가·맘 행복교실"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:start_date "2026-04-04"^^xsd:date ;
+  yse:end_date "2026-06-27"^^xsd:date ;
+  yse:fee "무료"@ko ;
+  yse:indoor_outdoor "실내"@ko ;
+  yse:kid_friendly_score "0.95"^^xsd:decimal ;
+  yse:registration_required true .
+yseent:ent-evt-019 a yseo:Event ;
+  rdfs:label "119시민체험센터 소방안전체험"@ko ;
+  yse:name "119시민체험센터 소방안전체험"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:fee "무료"@ko ;
+  yse:indoor_outdoor "실내"@ko ;
+  yse:kid_friendly_score "0.8"^^xsd:decimal ;
+  yse:registration_required true .
+yseent:ent-evt-039 a yseo:Event ;
+  rdfs:label "열한번째 트윙클"@ko ;
+  yse:name "열한번째 트윙클"@ko .
+yseent:ent-evt-041 a yseo:Event ;
+  rdfs:label "피직스랩 상시 체험"@ko ;
+  yse:name "피직스랩 상시 체험"@ko .
+yseent:ent-evt-045 a yseo:Event ;
+  rdfs:label "숏폼 제작 클래스"@ko ;
+  yse:name "숏폼 제작 클래스"@ko .
+yseent:ent-evt-050 a yseo:Event ;
+  rdfs:label "개미·꿀벌의 팀워크"@ko ;
+  yse:name "개미·꿀벌의 팀워크"@ko .
+yseent:ent-evt-051 a yseo:Event ;
+  rdfs:label "출동! 자연탐사대"@ko ;
+  yse:name "출동! 자연탐사대"@ko .
+yseent:ent-evt-052 a yseo:Event ;
+  rdfs:label "신성동 행정복지센터 개청"@ko ;
+  yse:name "신성동 행정복지센터 개청"@ko .
+yseent:ent-evt-053 a yseo:Event ;
+  rdfs:label "로보스테이지6"@ko ;
+  yse:name "로보스테이지6"@ko .
+yseent:ent-evt-054 a yseo:Event ;
+  rdfs:label "별별뷰티"@ko ;
+  yse:name "별별뷰티"@ko .
+yseent:ent-org-006 a yseo:Organization ;
+  rdfs:label "국립중앙과학관"@ko ;
+  yse:name "국립중앙과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "6"^^xsd:integer ;
+  yse:org_type "과학���"@ko .
+yseent:ent-org-025 a yseo:Organization ;
+  rdfs:label "신성동 행정복지센터"@ko ;
+  yse:name "신성동 행정복지센터"@ko .
+yseent:ent-venue-004 a yseo:Venue ;
+  rdfs:label "국립어린이과학관"@ko ;
+  yse:name "국립어린이과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:dong "도룡동"@ko ;
+  yse:venue_type "과학관"@ko .
+yseent:ent-venue-005 a yseo:Venue ;
+  rdfs:label "국립중앙과학관"@ko ;
+  yse:name "국립중앙과학관"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "6"^^xsd:integer ;
+  yse:dong "도룡동"@ko ;
+  yse:venue_type "과학관"@ko .
+yseent:ent-venue-006 a yseo:Venue ;
+  rdfs:label "대전시민천문대"@ko ;
+  yse:name "대전시민천문대"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:dong "도룡동"@ko ;
+  yse:venue_type "천문대"@ko .
+yseent:ent-venue-016 a yseo:Venue ;
+  rdfs:label "아가랑도서관"@ko ;
+  yse:name "아가랑도서관"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "2"^^xsd:integer ;
+  yse:dong "전민동"@ko ;
+  yse:venue_type "도서관"@ko ;
+  yse:distance_from_anchor_m "900"^^xsd:integer ;
+  yse:ring "ring-stroll"@ko .
+yseent:ent-venue-017 a yseo:Venue ;
+  rdfs:label "119시민체험센터"@ko ;
+  yse:name "119시민체험센터"@ko ;
+  yse:first_seen "2026-04-26"^^xsd:date ;
+  yse:last_seen "2026-04-26"^^xsd:date ;
+  yse:mention_count "1"^^xsd:integer ;
+  yse:venue_type "체험센터"@ko ;
+  yse:open_hours "화~토 09:30~11:30/13:30~15:30"@ko .
+yseent:ent-venue-025 a yseo:Venue ;
+  rdfs:label "대전시립미술관"@ko ;
+  yse:name "대전시립미술관"@ko .
+yseent:ent-venue-027 a yseo:Venue ;
+  rdfs:label "신성동 행정복지센터"@ko ;
+  yse:name "신성동 행정복지센터"@ko .
+
