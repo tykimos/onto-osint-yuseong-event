@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-12",
+  "description": "일별 KG 스냅샷 — 금요일 상태 업데이트",
+  "new_nodes": [],
+  "new_triples": [],
+  "updated_nodes": [
+    {
+      "id": "ent-evt-052",
+      "update": "media_count: 3→6, status: D-4/D-18"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "rule": "anchor_distance_priority",
+      "input": "(ent-venue-016 withinRing ring-stroll), (ent-evt-017 hostsAt ent-venue-016)",
+      "output": "(ent-evt-017 priorityBoost +0.3)",
+      "confidence": 0.9,
+      "note": "아가맘 행복교실 오늘 수업일 — ring-stroll(~900m) 우선 배치"
+    },
+    {
+      "rule": "public_institution_kid_event",
+      "input": "(ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)",
+      "output": "(ent-evt-052 publicTrustBoost +0.15)",
+      "confidence": 0.9,
+      "note": "신성동 행정복지센터 D-4 — 공공기관 어린이 시설(수유실·공유주방)"
+    },
+    {
+      "rule": "same_dong_combo",
+      "input": "(ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), all locatedIn dong-doryong",
+      "output": "(ent-evt-050 visitCombo ent-evt-051), (ent-evt-050 visitCombo ent-evt-041)",
+      "confidence": 0.9,
+      "note": "도룡동 과학관 4종 콤보 Day 11 — 금요일 연중무휴 방문 최적"
+    }
+  ],
+  "summary": "신규 엔티티 0건, 상태 업데이트 3건 (매체 확대 1건, D-day 전환 2건), 추론 트리플 3건. 저활동일."
+}

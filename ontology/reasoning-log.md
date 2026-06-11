@@ -1740,3 +1740,29 @@
 - **신뢰도:** 0.90
 - **상태:** 확정
 - **비고:** 행정복지센터 공공기관 가산 유지.
+
+## 2026-06-12 추론 결과
+
+### 추론 #1: anchor_distance_priority (아가맘 행복교실 금요일 수업)
+- **규칙:** anchor_distance_priority
+- **입력:** (ent-venue-016 withinRing ring-stroll), ring-stroll priority=2, (ent-evt-017 hostsAt ent-venue-016)
+- **추론:** (ent-evt-017 priorityBoost +0.3)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 아가랑도서관(전민동, ~900m) 금요일 수업일. ring-stroll(priority 2) → 보고서 우선 배치.
+
+### 추론 #2: public_institution_kid_event (신성동 행정복지센터 D-4, 매체 확대)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 업무개시 D-4(6/16). 매체 3→6 확대(대전뉴스·충청뉴스·경제투데이 추가). 공공기관 가산 유지.
+
+### 추론 #3: same_dong_combo (도룡동 4종 콤보 Day 11)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-evt-015 hostsAt ent-venue-004), 모두 dong-doryong 소재
+- **추론:** (ent-evt-050 comboWith ent-evt-051), (ent-evt-050 comboWith ent-evt-041), (ent-evt-050 comboWith ent-evt-015)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 4종 콤보 Day 11. 과학관 연중무휴. 금요일 정상 운영. 천문대(14:00~22:00)+119시민체험센터(~15:30) 포함 시 6종 확장 콤보 가능.

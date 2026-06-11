@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-12",
+  "agent": "shop-scout",
+  "discovery_searches": 4,
+  "candidates_found": 0,
+  "candidates": [],
+  "manual_seeds_processed": [],
+  "notes": "14회 웹검색에서 유성구 50일 윈도우(2026-04-23 이후 개점) 내 신규 가게·팝업 후보 0건. 현대프리미엄아울렛 팝업 정보는 과거(2025) 또는 5/31 종료된 것만 확인됨. manual_seeds 3건은 모두 resolved 상태(resolved_not_new 2건, excluded 1건)로 추가 처리 불요."
+}

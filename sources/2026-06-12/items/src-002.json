@@ -1,0 +1,15 @@
+{
+  "id": "src-002",
+  "date": "2026-06-12",
+  "title": "아가·맘 행복교실 오늘 수업일 (6/12 금)",
+  "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do",
+  "source_name": "유성구통합도서관",
+  "type": "ongoing",
+  "summary": "아가랑도서관(전민동, ~900m). 4/4~6/27 매주 금. 영유아 대상. 오늘(금) 수업일.",
+  "entities": ["ent-evt-017", "ent-venue-016"],
+  "tags": ["도서관", "영유아", "전민동", "수업일"],
+  "relevance": "high",
+  "kid_friendly_score": 0.95,
+  "ring": "ring-stroll",
+  "dong": "전민동"
+}

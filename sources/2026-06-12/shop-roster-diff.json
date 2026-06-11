@@ -1,0 +1,8 @@
+{
+  "date": "2026-06-12",
+  "agent": "shop-curator",
+  "changes": [],
+  "summary": "변경 없음. active_shops 0건 유지. 신규 후보 0건. manual_seeds 3건 전량 resolved 상태 유지.",
+  "active_count_before": 0,
+  "active_count_after": 0
+}

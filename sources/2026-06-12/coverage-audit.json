@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-12",
+  "agent": "shop-coverage-auditor",
+  "checks": {
+    "active_shops_in_report": {
+      "pass": true,
+      "active_shops_count": 0,
+      "shops_in_report": 0,
+      "missing": [],
+      "note": "활성 윈도우 가게 0건 — 보고서에 '금일 신규 발견 없음. 활성 윈도우 내 가게 0건' 명시. 정상."
+    },
+    "three_category_coverage": {
+      "pass": true,
+      "categories": {
+        "events": {
+          "present": true,
+          "count": 0,
+          "note": "신규 이벤트 없음 명시 + 진행중 이벤트 추천/상태 업데이트"
+        },
+        "shops": {
+          "present": true,
+          "count": 0,
+          "note": "'신규 오픈 가게·팝업·프로모션' 섹션 존재, 0건 명시"
+        },
+        "public_institutions": {
+          "present": true,
+          "count": 7,
+          "note": "학하동·신성동·아가랑도서관·119센터·천문대·진잠도서관·튼튼스쿨 7건"
+        }
+      }
+    },
+    "manual_seeds_visibility": {
+      "pass": true,
+      "seeds_in_roster": 3,
+      "seeds_in_report": 3,
+      "missing": [],
+      "note": "3건 모두 '사용자 제보 처리 현황' 테이블에 표시됨"
+    }
+  },
+  "patches_applied": [],
+  "result": "PASS — 모든 검증 항목 통과. 패치 불요."
+}

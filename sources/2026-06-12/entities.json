@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-12",
+  "new_entities": [],
+  "updated_entities": [
+    {
+      "id": "ent-evt-052",
+      "type": "Event",
+      "name": "신성동 행정복지센터 신청사 개청",
+      "update": "매체 3→6개 (대전뉴스·충청뉴스·경제투데이 추가). 업무개시 D-4(6/16), 개청식 D-18(6/30).",
+      "source_ids": ["src-005"]
+    },
+    {
+      "id": "ent-evt-017",
+      "type": "Event",
+      "name": "아가·맘 행복교실",
+      "update": "오늘(6/12 금) 수업일. 다음 수업 6/13(금) — 연속 금요일.",
+      "source_ids": ["src-002"]
+    },
+    {
+      "id": "ent-evt-039",
+      "type": "Event",
+      "name": "열한번째 트윙클",
+      "update": "D-9 (6/21 종료). 마지막 2주 진행중.",
+      "source_ids": ["src-004"]
+    }
+  ],
+  "status_transitions": [
+    { "entity_id": "ent-evt-052", "from": "D-5/D-19", "to": "D-4/D-18" },
+    { "entity_id": "ent-evt-039", "from": "D-10", "to": "D-9" },
+    { "entity_id": "ent-evt-050", "from": "Day 10", "to": "Day 11" },
+    { "entity_id": "ent-evt-051", "from": "D-17", "to": "D-16" },
+    { "entity_id": "ent-evt-015", "from": "D-19", "to": "D-18" },
+    { "entity_id": "ent-evt-053", "from": "D-9", "to": "D-8" },
+    { "entity_id": "ent-evt-054", "from": "D-9", "to": "D-8" },
+    { "entity_id": "ent-evt-045", "from": "수업일(목)", "to": "비수업일(금), 다음 6/18(수)" }
+  ],
+  "dedup_log": [],
+  "distance_estimates": []
+}
