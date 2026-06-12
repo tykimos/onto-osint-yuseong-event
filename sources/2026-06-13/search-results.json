@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-13",
+  "collected_at": "2026-06-12T22:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 48,
+  "expanded_keywords": ["국립중앙과학관 6월", "열한번째 트윙클", "신성동 행정복지센터", "로보스테이지6", "아가맘 행복교실", "대전시민천문대 토요별음악회"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:01:00+09:00",
+      "result_count": 7,
+      "results": [
+        { "title": "2026년 6월 대한민국 축제 일정: 지역별·테마별 정리", "url": "https://www.thinknote.co.kr/2026-june-korea-festivals/", "snippet": "6월 축제는 단오와 전통문화, 해양·수변 야외 행사, 먹거리와 공연형 페스티벌이 균형 있게 섞인 달", "source_name": "Thinknote" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 6월 행사 2026",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:02:00+09:00",
+      "result_count": 7,
+      "results": [
+        { "title": "행사 | 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내 페이지", "source_name": "국립중앙과학관" },
+        { "title": "국립중앙과학관, 미래세대 과학기술문화 확산을 위한 2026년 주요프로그램 공개", "url": "https://www.lecturernews.com/news/articleView.html?idxno=194423", "snippet": "AI, 기후변화, 우주·로봇, 생물다양성 등 미래 사회 핵심 이슈 프로그램 연중 운영", "source_name": "한국강사신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:03:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "문화행사신청/조회 - 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구통합도서관 프로그램 목록", "source_name": "유성구통합도서관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 6월 프로그램 2026",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:04:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "14:00~22:00, 휴관 매주 월요일, 무료", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 신규 오픈 카페 식당 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:05:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전 유성구 카페, 고요한 숲 뷰에서 커피 한잔할 수 있는 '레포레스트'", "url": "https://www.welfarehello.com/community/hometownNews/...", "snippet": "유성구 덕명동 카페 레포레스트 소개", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "신성동 행정복지센터 개청 2026",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:06:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구 신성동 행정복지센터 신축 마쳐…16일부터 공식 업무 시작", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409", "snippet": "6/16 업무개시, 6/30 개청식", "source_name": "대전일보" },
+        { "title": "유성구, 신성동 행정복지센터 개청…주민 소통 공간", "url": "https://www.news1.kr/photos/7369035", "snippet": "B1~2F, 연면적 2842㎡", "source_name": "뉴스1" },
+        { "title": "유성구, 신성동 행정복지센터 개청…주민 소통 공간 역할 '톡톡'", "url": "http://www.ccnnews.co.kr/news/articleView.html?idxno=376404", "snippet": "주민 소통 공간 역할", "source_name": "충청뉴스" },
+        { "title": "유성구, 신성동 행정복지센터 개청…주민 소통 공간", "url": "http://www.e-today.kr/news/articleView.html?idxno=804180", "snippet": "개청식 6/30", "source_name": "경제투데이" },
+        { "title": "유성구, 신성동 행정복지센터 개청 포토뉴스", "url": "http://www.daejeonnews.kr/news/articleView.html?idxno=35321", "snippet": "포토뉴스", "source_name": "대전뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 보건소 복지관 어린이 프로그램 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:07:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "유성구, 어린이 건강체험 프로그램 '유성이의 튼튼스쿨' 운영", "url": "https://www.sisajournal.com/news/articleView.html?idxno=371774", "snippet": "상반기 마감, 하반기 8/19~11/27", "source_name": "시사저널" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 열한번째 트윙클 2026",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:08:00+09:00",
+      "result_count": 9,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 개최", "url": "https://www.newsro.kr/article243/1626322/", "snippet": "3/18~6/21, 체험형 전시", "source_name": "뉴스로" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://incheon.thesegye.com/news/view/1065599512998244", "snippet": "어린이를 독립적 존재로", "source_name": "세계일보(인천)" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 로보스테이지 2026 6월",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:09:00+09:00",
+      "result_count": 7,
+      "results": [
+        { "title": "국립중앙과학관 행사안내", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "6/20 로보스테이지6 Kick Off 확인", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 팝업스토어 원데이클래스 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:10:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "팝업스토어 검색 - 데이포유", "url": "https://dayforyou.com/getScheduleList", "snippet": "아이스온 팝업 IN 베리시 대전 6/12~6/25 신세계Art&Science 5F", "source_name": "데이포유" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 주민자치 프로그램 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:11:00+09:00",
+      "result_count": 9,
+      "results": [
+        { "title": "유성구, 2026년 주민참여예산 공모…구민 아이디어 모집", "url": "https://www.job-post.co.kr/news/articleView.html?idxno=125641", "snippet": "총 18억 원 규모 주민참여예산", "source_name": "잡포스트" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 토요별음악회 6월 2026",
+      "language": "ko",
+      "timestamp": "2026-06-12T22:12:00+09:00",
+      "result_count": 10,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "토요별 음악회 매주 토 20시", "source_name": "대전시민천문대" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-13",
+  "description": "일별 KG 스냅샷 — 2026-06-13 (토요일)",
+  "day_of_week": "토요일",
+  "summary": "신규 이벤트 0건, 신규 가게 0건(아이스온 팝업 발견되었으나 kid_friendly:false로 KG 미반영). 도룡동 4종 콤보 Day 12 + 천문대 토요별음악회 = 토요일 최대 조합. 트윙클 D-8 마지막 2주 토요일.",
+  "active_events": [
+    { "id": "ent-evt-050", "label": "개미·꿀벌의 팀워크", "status": "Day 12", "venue": "ent-venue-005", "dong": "dong-doryong" },
+    { "id": "ent-evt-051", "label": "출동! 자연탐사대", "status": "D-15", "venue": "ent-venue-005", "dong": "dong-doryong" },
+    { "id": "ent-evt-041", "label": "피직스랩", "status": "상설", "venue": "ent-venue-026", "dong": "dong-doryong" },
+    { "id": "ent-evt-015", "label": "탐이 꿈이의 비밀 실험실", "status": "D-17", "venue": "ent-venue-004", "dong": "dong-doryong" },
+    { "id": "ent-evt-039", "label": "열한번째 트윙클", "status": "D-8", "venue": "ent-venue-025", "dong": "dong-dunsan" },
+    { "id": "ent-evt-006", "label": "대전시민천문대 상시 관측 + 토요별음악회", "status": "운영중", "venue": "ent-venue-006", "dong": "dong-doryong" },
+    { "id": "ent-evt-019", "label": "119시민체험센터 소방안전체험", "status": "운영중 (주 마지막일)", "venue": "ent-venue-017", "dong": "dong-yuseong" },
+    { "id": "ent-evt-052", "label": "신성동 행정복지센터 개청", "status": "D-3", "venue": "ent-venue-027", "dong": "dong-sinseong" }
+  ],
+  "upcoming_events": [
+    { "id": "ent-evt-053", "label": "로보스테이지6", "status": "D-7", "venue": "ent-venue-005", "dong": "dong-doryong" },
+    { "id": "ent-evt-054", "label": "별별뷰티", "status": "D-7", "venue": "ent-venue-005", "dong": "dong-doryong" }
+  ],
+  "inactive_today": [
+    { "id": "ent-evt-017", "label": "아가·맘 행복교실", "reason": "비수업일(토), 다음 6/20(금)" },
+    { "id": "ent-evt-045", "label": "숏폼 제작 클래스", "reason": "비수업일(토), 다음 6/18(수)" }
+  ],
+  "shop_candidates_processed": [
+    { "name": "아이스온 팝업 IN 베리시 대전", "decision": "KG 미반영", "reason": "kid_friendly: false (여성 속옷 브랜드). 50일 윈도우 내이나 어린이·가족 대상 아님." }
+  ],
+  "new_nodes": [],
+  "new_triples": [],
+  "updated_triples": [
+    { "subject": "ent-evt-050", "predicate": "dayCount", "object": 12, "note": "Day 11→12" },
+    { "subject": "ent-evt-052", "predicate": "dDay", "object": -3, "note": "D-4→D-3" },
+    { "subject": "ent-evt-039", "predicate": "dDay", "object": -8, "note": "D-9→D-8" },
+    { "subject": "ent-evt-053", "predicate": "dDay", "object": -7, "note": "D-8→D-7" },
+    { "subject": "ent-evt-054", "predicate": "dDay", "object": -7, "note": "D-8→D-7" }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-050",
+      "predicate": "comboWith",
+      "object": "ent-evt-006",
+      "rule": "same_dong_saturday_special",
+      "confidence": 0.90,
+      "note": "과학관 4종 콤보 + 천문대 토요별음악회 = 토요일 한정 5종 확장 콤보 (평일에는 4종)"
+    }
+  ]
+}

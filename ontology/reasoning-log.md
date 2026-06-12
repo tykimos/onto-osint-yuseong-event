@@ -1766,3 +1766,45 @@
 - **신뢰도:** 0.90
 - **상태:** 확정
 - **비고:** 4종 콤보 Day 11. 과학관 연중무휴. 금요일 정상 운영. 천문대(14:00~22:00)+119시민체험센터(~15:30) 포함 시 6종 확장 콤보 가능.
+
+## 2026-06-13 추론 결과
+
+### 추론 #1: same_dong_combo (도룡동 4종 콤보 Day 12 + 천문대 토요별음악회 = 5종 확장)
+- **규칙:** same_dong_combo + saturday_special
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-evt-015 hostsAt ent-venue-004), (ent-evt-006 hostsAt ent-venue-006), 모두 dong-doryong 소재, 토요일
+- **추론:** (ent-evt-050 comboWith ent-evt-051), (ent-evt-050 comboWith ent-evt-041), (ent-evt-050 comboWith ent-evt-015), (ent-evt-050 comboWith ent-evt-006)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 4종 콤보 Day 12 + 천문대 토요별음악회(20시) = 토요일 한정 5종 확장 콤보. 과학관(주간) → 천문대(야간) 시간대 자연 연계. 토요일이 도룡동 과학벨트 최대 조합일.
+
+### 추론 #2: anchor_distance_priority (신성동 행정복지센터 D-3 — 주말 지나면 D-day)
+- **규칙:** anchor_distance_priority
+- **입력:** (ent-venue-027 withinRing ring-bike), ring-bike priority=3
+- **추론:** (ent-evt-052 priorityBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 신성동 행정복지센터 ring-bike(~1.5km). 업무개시 D-3 — 주말 2일 지나면 월요일(6/16) 오픈. D-3 이내이므로 "마감 임박" 섹션 대상.
+
+### 추론 #3: public_institution_kid_event (신성동 행정복지센터 공공기관 가산 유지)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 행정복지센터 공공기관 가산 유지. 매체 6개 유지.
+
+### 추론 #4: shop_candidate_rejection (아이스온 팝업 — kid_friendly:false)
+- **규칙:** shop_kid_friendly_filter
+- **입력:** (temp-popup-iceon shop_type 팝업스토어), (temp-popup-iceon kid_friendly false), (temp-popup-iceon opened_date 2026-06-12), (50일 윈도우 내)
+- **추론:** (temp-popup-iceon → active_shops 미등록, KG 미반영)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 베리시(VERISH) 여성 속옷 브랜드 팝업. 50일 윈도우 내이고 신규이나, kid_friendly:false이므로 보고서 "신규 오픈 가게" 본문 표에 노출하지 않음. shop-roster의 active_shops에 등록하지 않음. 별도 "참고" 수준 언급만.
+
+### 추론 #5: deadline_proximity (트윙클 D-8 마지막 2주 토요일)
+- **규칙:** deadline_proximity
+- **입력:** (ent-evt-039 end_date 2026-06-21), (금일 2026-06-13 토요일)
+- **추론:** (ent-evt-039 deadlineAlert "마지막 2주 토요일")
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 6/21 종료까지 남은 토요일은 오늘(6/13)과 마지막(6/21) 2일. 체험형 전시(미끄럼틀·섬유 만지기)는 주말에 최적. 무료. 보고서 Top 5 1순위 배치.

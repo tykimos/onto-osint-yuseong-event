@@ -1,0 +1,77 @@
+{
+  "date": "2026-06-13",
+  "auditor": "shop-coverage-auditor",
+  "audit_mode": "patch",
+  "report_path": "reports/2026/06/2026-06-13.md",
+  "shop_roster_path": "ontology/shop-roster.json",
+  "checks": {
+    "three_category_coverage": {
+      "status": "pass",
+      "events": {
+        "count": 0,
+        "has_explicit_none_message": true,
+        "message_in_report": "금일 유성구 일대 어린이·가족 동반 신규 이벤트 없음."
+      },
+      "shops": {
+        "active_count": 0,
+        "has_explicit_none_message": true,
+        "message_in_report": "금일 활성 윈도우 내 가게 0건 (50일 윈도우 기준).",
+        "iceon_popup_noted": true,
+        "iceon_popup_kid_friendly": false,
+        "iceon_popup_correctly_excluded": true
+      },
+      "public_institutions": {
+        "count": 7,
+        "items": [
+          "신성동 행정복지센터 D-3",
+          "대전시민천문대 토요별음악회",
+          "119시민체험센터 토요일 운영",
+          "아가랑도서관 (비수업일)",
+          "진잠도서관 (비수업일)",
+          "유성이의 튼튼스쿨 (하반기 예고)",
+          "기타 공공기관 — 신규 없음 명시"
+        ],
+        "has_explicit_none_message": false,
+        "note": "7건 공공기관 언급. 명시적 '없음' 메시지 불필요 (실질 내용 존재)."
+      }
+    },
+    "active_shops_vs_report": {
+      "status": "pass",
+      "roster_active_count": 0,
+      "report_active_count": 0,
+      "match": true,
+      "note": "roster와 보고서 모두 0건 일치."
+    },
+    "manual_seeds_visibility": {
+      "status": "pass",
+      "seeds_in_roster": 3,
+      "seeds_shown_in_report": 3,
+      "table_present": true,
+      "all_statuses_visible": true
+    },
+    "thirty_day_window_shops": {
+      "status": "pass",
+      "note": "active_shops 0건. 30일 윈도우 내 보고서 노출 대상 없음. archived 2건(무브먼트랩·헌터, 6/1 archived)은 50일 초과로 정상 제외."
+    },
+    "d_day_accuracy": {
+      "status": "pass",
+      "checked_items": [
+        { "event": "신성동 행정복지센터", "expected_d_day": "D-3", "report_d_day": "D-3", "match": true },
+        { "event": "트윙클", "expected_d_day": "D-8", "report_d_day": "D-8", "match": true },
+        { "event": "로보스테이지6", "expected_d_day": "D-7", "report_d_day": "D-7", "match": true },
+        { "event": "별별뷰티", "expected_d_day": "D-7", "report_d_day": "D-7", "match": true },
+        { "event": "자연탐사대", "expected_d_day": "D-15", "report_d_day": "D-15", "match": true },
+        { "event": "탐이꿈이", "expected_d_day": "D-17", "report_d_day": "D-17", "match": true }
+      ]
+    },
+    "mermaid_kg_present": {
+      "status": "pass",
+      "node_count": 10,
+      "max_nodes": 30,
+      "within_limit": true
+    }
+  },
+  "overall_status": "pass",
+  "patches_applied": [],
+  "notes": "모든 검증 통과. 3종 의무 커버 충족 (이벤트 0건 + 명시적 '없음', 가게 0건 + 명시적 '없음' + 아이스온 참고 노트, 공공기관 7건). shop-roster와 보고서 active_shops 일치(0건). D-day 카운트 전수 검증 통과."
+}

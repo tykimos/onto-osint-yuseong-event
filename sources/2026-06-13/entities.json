@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-13",
+  "entities": [
+    {
+      "temp_id": "temp-popup-iceon",
+      "matched_id": null,
+      "type": "Shop",
+      "name": "아이스온 팝업 IN 베리시 대전",
+      "properties": {
+        "shop_type": "팝업스토어",
+        "dong": "도룡동",
+        "address": "대전 유성구 엑스포로 1 신세계 Art&Science 5F",
+        "distance_from_anchor_m": 3500,
+        "ring": "ring-car",
+        "kid_friendly": false,
+        "opened_date": "2026-06-12",
+        "is_popup": true,
+        "popup_close_date": "2026-06-25",
+        "is_new": true,
+        "parent_venue": "ent-shop-003"
+      },
+      "source_ids": ["src-001"],
+      "mention_count": 1,
+      "distance_estimation_basis": "신세계 Art&Science 대전(도룡동 엑스포로 1)은 기존 인스턴스 ent-shop-003과 동일 건물. 용성로20에서 약 3.5km 추정."
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-popup-iceon",
+      "predicate": "shopLocatedIn",
+      "object": "dong-doryong",
+      "source_ids": ["src-001"],
+      "confidence": 0.9
+    }
+  ],
+  "stats": {
+    "total_entities": 1,
+    "new_entities": 1,
+    "matched_entities": 0,
+    "total_relations": 1
+  }
+}

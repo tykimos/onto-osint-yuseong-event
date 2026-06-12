@@ -1,0 +1,23 @@
+{
+  "id": "src-001",
+  "title": "아이스온 팝업 IN 베리시 대전 (6/12~6/25)",
+  "url": "https://dayforyou.com/getScheduleList",
+  "snippet": "베리시(VERISH) 여성 속옷 브랜드 아이스온 라인 팝업. 신세계 Art&Science 5F(도룡동). 6/12~6/25. 헌 브라 교환 이벤트 + 최대 100% 할인 쿠폰.",
+  "source_name": "데이포유",
+  "language": "ko",
+  "discovered_date": "2026-06-13",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 동일/유사 항목 없음. 6/12 오픈한 신규 팝업.",
+  "entities": [
+    { "id": "temp-popup-iceon", "type": "Shop", "name": "아이스온 팝업 IN 베리시 대전", "role": "팝업스토어" }
+  ],
+  "relations": [
+    { "subject": "temp-popup-iceon", "predicate": "shopLocatedIn", "object": "dong-doryong" }
+  ],
+  "kid_friendly_assessment": "false — 여성 속옷(브라·캐미솔) 전문 브랜드 팝업. 어린이 대상 아님. 가족 동반 백화점 방문 시 간접 노출 가능하나 어린이 이벤트 아님.",
+  "scope_check": "scope.exclude 해당 없음 (주류·정치·성인전용 아님). 단 어린이·가족 보고서 핵심 대상 아님.",
+  "distance_from_anchor_m": 3500,
+  "ring": "ring-car"
+}

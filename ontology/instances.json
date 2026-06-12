@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "entities": [
     { "id": "dong-yongsan", "type": "Dong", "name": "용산동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 0 },
     { "id": "dong-jeonmin", "type": "Dong", "name": "전민동", "properties": { "is_primary_target": true }, "first_seen": "2026-04-25", "last_seen": "2026-04-25", "mention_count": 1 },
@@ -439,5 +439,21 @@
     { "id": "ent-evt-017", "update": "진행중. 아가·맘 행복교실. 화요일 비수업일. 다음 수업 6/13(금)." },
     { "id": "ent-evt-053", "update": "D-11. 로보스테이지6. 6/20." },
     { "id": "ent-evt-054", "update": "D-11. 별별뷰티. 6/20." }
+  ],
+  "updates_2026_06_13": [
+    { "id": "ent-evt-050", "update": "Day 12. 개미·꿀벌의 팀워크. 토요일 가족 방문 피크. ~7/31." },
+    { "id": "ent-evt-051", "update": "D-15. 출동! 자연탐사대. ~6/28." },
+    { "id": "ent-evt-041", "update": "상설 운영. 피직스랩. 토요일 정상운영." },
+    { "id": "ent-evt-015", "update": "D-17. 탐이 꿈이. ~6/30." },
+    { "id": "ent-evt-039", "update": "D-8. 열한번째 트윙클. ~6/21. 마지막 2주 토요일 — 주말 방문 최적." },
+    { "id": "ent-evt-006", "update": "토요일 정상 운영(14:00~22:00). 토요별 음악회 20시. 가족 동반 야간 관측." },
+    { "id": "ent-evt-019", "update": "토요일 정상 운영(09:30~11:30/13:30~15:30). 주 마지막 운영일(내일 일요일 휴무)." },
+    { "id": "ent-evt-017", "update": "비수업일(토). 어제(금) 수업 완료. 다음 수업 6/20(금). ~6/27." },
+    { "id": "ent-evt-045", "update": "비수업일(토). 다음 수업 6/18(수). ~6/25." },
+    { "id": "ent-evt-052", "update": "D-3. 신성동 행정복지센터. 주말 지나면 D-day. 6/16(월) 업무개시." },
+    { "id": "ent-evt-053", "update": "D-7. 로보스테이지6. 6/20(토). 다음 주 토요일." },
+    { "id": "ent-evt-054", "update": "D-7. 별별뷰티. 6/20(토). 다음 주 토요일." },
+    { "id": "ent-evt-032", "update": "상반기 마감. 하반기 8/19~11/27, 7/20 신청." },
+    { "id": "temp-popup-iceon", "update": "신규 발견. 아이스온 팝업 IN 베리시 대전. 6/12~6/25. 신세계 5F. kid_friendly: false. 보고서 미노출." }
   ]
 }
