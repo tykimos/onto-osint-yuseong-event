@@ -1,0 +1,19 @@
+{
+  "id": "src-003",
+  "title": "신성동 행정복지센터 D-2 (모레 월요일 업무개시)",
+  "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409",
+  "snippet": "6/16(월) 업무개시 D-2. 6/30(월) 개청식 D-16. 지하1층 지상2층 2842㎡. 유성구청 인스타그램 공식 이전 안내 게시 확인.",
+  "source_name": "대전일보 외 6개 매체",
+  "language": "ko",
+  "discovered_date": "2026-06-14",
+  "tag": "reported",
+  "related_report": "2026-06-13",
+  "related_item": "src-004",
+  "tag_reason": "어제 D-3로 보고됨. D-2 전환. 유성구청 공식 인스타그램 이전 안내 게시(src-011) 확인 추가.",
+  "entities": [
+    { "id": "ent-evt-052", "type": "Event", "name": "신성동 행정복지센터 신청사 개청" },
+    { "id": "ent-venue-027", "type": "Venue", "name": "신성동 행정복지센터 신청사" },
+    { "id": "ent-org-025", "type": "Organization", "name": "신성동 행정복지센터" }
+  ],
+  "relations": []
+}

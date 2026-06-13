@@ -1808,9 +1808,17 @@
     { "subject": "ent-evt-006", "predicate": "status", "object": "공휴일 다음 날 휴관 가능", "type": "explicit", "confidence": 0.70, "added": "2026-06-07", "note": "6/6 현충일 → 6/7 공휴일 다음 날 휴관 규정" },
     { "subject": "ent-evt-019", "predicate": "status", "object": "일요일 정기휴무", "type": "explicit", "confidence": 0.99, "added": "2026-06-07" }
   ],
+  "nodes_added_2026_06_14": [],
+  "edges_added_2026_06_14": [
+    { "subject": "ent-evt-039", "predicate": "status", "object": "D-7 종료임박", "type": "explicit", "confidence": 0.98, "added": "2026-06-14", "note": "트윙클 D-8→D-7 전환. 마지막 주 일요일." },
+    { "subject": "ent-evt-052", "predicate": "status", "object": "업무개시 D-2", "type": "explicit", "confidence": 0.98, "added": "2026-06-14", "note": "신성동 행정복지센터 D-3→D-2 전환. 유성구청 인스타그램 이전 안내 게시 확인." },
+    { "subject": "ent-evt-050", "predicate": "visitCombo", "object": "ent-evt-006", "type": "inferred", "confidence": 0.90, "added": "2026-06-14", "rule": "same_dong_combo", "note": "도룡동 일요일 과학관+천문대 연계 콤보" },
+    { "subject": "ent-evt-039", "predicate": "rainyFallbackFor", "object": "outdoor_events", "type": "inferred", "confidence": 0.85, "added": "2026-06-14", "rule": "indoor_rainy_fallback", "note": "실내 전시 우천 대체" },
+    { "subject": "ent-evt-052", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.90, "added": "2026-06-14", "rule": "public_institution_kid_event", "note": "행정복지센터 공공기관 가산 유지" }
+  ],
   "stats": {
     "total_nodes": 144,
-    "total_edges": 257,
-    "total_triples": 477
+    "total_edges": 262,
+    "total_triples": 482
   }
 }

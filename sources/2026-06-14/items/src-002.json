@@ -1,0 +1,18 @@
+{
+  "id": "src-002",
+  "title": "열한번째 트윙클 D-7 (마지막 주 일요일, 종료 임박)",
+  "url": "https://www.newsro.kr/article243/1626322/",
+  "snippet": "대전시립미술관 2026 어린이미술기획전. 3/18~6/21. D-7. 마지막 주 일요일. 체험형 전시 — 미끄럼틀, 섬유 만지기. 무료.",
+  "source_name": "뉴스로",
+  "language": "ko",
+  "discovered_date": "2026-06-14",
+  "tag": "reported",
+  "related_report": "2026-06-13",
+  "related_item": "src-003",
+  "tag_reason": "어제 D-8로 보고됨. D-7 전환. 마지막 주 일요일이라는 맥락 추가.",
+  "entities": [
+    { "id": "ent-evt-039", "type": "Event", "name": "열한번째 트윙클" },
+    { "id": "ent-venue-025", "type": "Venue", "name": "대전시립미술관" }
+  ],
+  "relations": []
+}

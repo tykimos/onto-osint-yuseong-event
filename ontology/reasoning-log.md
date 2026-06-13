@@ -1808,3 +1808,45 @@
 - **신뢰도:** 0.95
 - **상태:** 확정
 - **비고:** 6/21 종료까지 남은 토요일은 오늘(6/13)과 마지막(6/21) 2일. 체험형 전시(미끄럼틀·섬유 만지기)는 주말에 최적. 무료. 보고서 Top 5 1순위 배치.
+
+## 2026-06-14 추론 결과
+
+### 추론 #1: same_dong_combo (도룡동 일요일 4+1종 콤보)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-050 hostsAt ent-venue-005), (ent-evt-051 hostsAt ent-venue-005), (ent-evt-041 hostsAt ent-venue-026), (ent-evt-006 hostsAt ent-venue-006), (ent-venue-005 locatedIn dong-doryong), (ent-venue-006 locatedIn dong-doryong)
+- **추론:** (ent-evt-050 visitCombo ent-evt-051), (ent-evt-050 visitCombo ent-evt-041), (ent-evt-050 visitCombo ent-evt-006)
+- **신뢰도:** 0.95 / 0.95 / 0.90
+- **상태:** 확정
+- **비고:** 일요일. 과학관 4종(팀워크+자연탐사대+피직스랩+탐이꿈이) + 천문대 상시 관측(14:00~22:00). 토요별음악회는 토요일 전용으로 어제 종료. 천문대와 합치면 5종 가능하나 음악회 제외로 실질 4.5종.
+
+### 추론 #2: public_institution_kid_event (신성동 행정복지센터 D-2)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 행정복지센터 공공기관 가산 유지. 유성구청 공식 인스타그램 이전 안내 게시 확인(src-011) — 매체 7개로 확대.
+
+### 추론 #3: deadline_proximity (트윙클 D-7 마지막 주 일요일)
+- **규칙:** deadline_proximity
+- **입력:** (ent-evt-039 end_date 2026-06-21), (금일 2026-06-14 일요일)
+- **추론:** (ent-evt-039 deadlineAlert "마지막 주 일요일 — 남은 주말 2일")
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 6/21 종료까지 남은 주말은 오늘(6/14 일)과 마지막날(6/21 토) 2일. D-7 진입. 체험형 전시 주말 방문 권장.
+
+### 추론 #4: indoor_rainy_fallback (트윙클 = 실내 우천 대체)
+- **규칙:** indoor_rainy_fallback
+- **입력:** (ent-evt-039 indoor_outdoor 실내), (ent-evt-033 indoor_outdoor 야외 — 이미 종료)
+- **추론:** (ent-evt-039 rainyFallbackFor outdoor_events)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 실내 전시(대전시립미술관)는 우천 시 가족 방문 대안.
+
+### 추론 #5: upcoming_combo_preview (다음 주 6/20 토요일 콤보 예고)
+- **규칙:** same_dong_combo (예측)
+- **입력:** (ent-evt-053 start_date 2026-06-20 hostsAt ent-venue-005), (ent-evt-054 start_date 2026-06-20 hostsAt ent-venue-005)
+- **추론:** (ent-evt-053 visitCombo ent-evt-054) — 6/20 한정
+- **신뢰도:** 0.85
+- **상태:** 잠정 (미래 이벤트)
+- **비고:** 로보스테이지6 + 별별뷰티 + 기존 4종 = 다음 주 토요일 6종 콤보 가능 예측.

@@ -1,0 +1,14 @@
+{
+  "date": "2026-06-14",
+  "generated_by": "shop-curator",
+  "changes": {
+    "new_active": [],
+    "new_recent": [],
+    "moved_to_archived": [],
+    "moved_to_suspected_closed": [],
+    "re_discovered": [],
+    "manual_seeds_updated": []
+  },
+  "summary": "변경 없음. active_shops 0건 유지. manual_seeds 3건 전건 처리 완료(resolved_not_new 2건, excluded 1건). shop-roster.json 상태 동일.",
+  "audit_ready": true
+}

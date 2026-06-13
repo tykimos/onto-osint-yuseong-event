@@ -1,0 +1,79 @@
+{
+  "date": "2026-06-14",
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-039",
+      "predicate": "status",
+      "object": "D-7 종료임박",
+      "source_id": "src-002",
+      "date": "2026-06-14",
+      "confidence": 0.98,
+      "type": "explicit",
+      "previous_value": "D-8"
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "status",
+      "object": "업무개시 D-2",
+      "source_id": "src-003",
+      "date": "2026-06-14",
+      "confidence": 0.98,
+      "type": "explicit",
+      "previous_value": "업무개시 D-3"
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-050",
+      "predicate": "visitCombo",
+      "object": "ent-evt-051",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "type": "inferred",
+      "reason": "같은 도룡동(국립중앙과학관)에서 같은 날 운영 중"
+    },
+    {
+      "subject": "ent-evt-050",
+      "predicate": "visitCombo",
+      "object": "ent-evt-041",
+      "rule": "same_dong_combo",
+      "confidence": 0.95,
+      "type": "inferred",
+      "reason": "같은 도룡동(국립중앙과학관)에서 같은 날 운영 중"
+    },
+    {
+      "subject": "ent-evt-050",
+      "predicate": "visitCombo",
+      "object": "ent-evt-006",
+      "rule": "same_dong_combo",
+      "confidence": 0.90,
+      "type": "inferred",
+      "reason": "같은 도룡동(과학관+천문대)에서 같은 날 운영 중. 일요일 천문대 정상 운영 확인."
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "rule": "public_institution_kid_event",
+      "confidence": 0.95,
+      "type": "inferred",
+      "reason": "행정복지센터(공공기관) 시설 — 수유실·공유주방 등 가족 편의시설 포함"
+    },
+    {
+      "subject": "ent-evt-039",
+      "predicate": "rainyFallbackFor",
+      "object": "outdoor_events",
+      "rule": "indoor_rainy_fallback",
+      "confidence": 0.85,
+      "type": "inferred",
+      "reason": "실내 전시(대전시립미술관)는 우천 시 야외 행사의 대체 후보"
+    }
+  ],
+  "stats": {
+    "new_nodes": 0,
+    "new_edges": 0,
+    "updated_edges": 2,
+    "inferred_edges": 5
+  }
+}

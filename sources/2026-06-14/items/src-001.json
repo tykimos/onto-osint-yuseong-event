@@ -1,0 +1,20 @@
+{
+  "id": "src-001",
+  "title": "국립중앙과학관 도룡동 콤보 4종 운영 (Day 13, 일요일 — 연중무휴)",
+  "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do",
+  "snippet": "개미·꿀벌의 팀워크(자연사관, ~7/31), 출동! 자연탐사대(사이언스터널, ~6/28), 피직스랩(상설), 탐이 꿈이(~6/30) 4종 일요일 연중무휴 운영.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-06-14",
+  "tag": "reported",
+  "related_report": "2026-06-13",
+  "related_item": "src-002",
+  "tag_reason": "어제 보고서에 4종 콤보 Day 12로 보고됨. Day 13 상태 업데이트이나 유의미한 변경 없음.",
+  "entities": [
+    { "id": "ent-evt-050", "type": "Event", "name": "개미·꿀벌의 팀워크" },
+    { "id": "ent-evt-051", "type": "Event", "name": "출동! 첨단 미래자연탐사대" },
+    { "id": "ent-evt-041", "type": "Event", "name": "피직스랩 상시체험" },
+    { "id": "ent-evt-015", "type": "Event", "name": "탐이 꿈이의 비밀 실험실" }
+  ],
+  "relations": []
+}

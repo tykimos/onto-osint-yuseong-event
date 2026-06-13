@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-14",
+  "generated_by": "shop-coverage-auditor",
+  "report_path": "reports/2026/06/2026-06-14.md",
+  "roster_path": "ontology/shop-roster.json",
+  "checks": {
+    "active_shops_coverage": {
+      "status": "PASS",
+      "active_shops_count": 0,
+      "shops_in_report": 0,
+      "missing": [],
+      "note": "활성 가게 0건 — 보고서에 '0건' 명시 확인."
+    },
+    "recent_shops_coverage": {
+      "status": "PASS",
+      "recent_shops_count": 0,
+      "note": "최근 가게 0건."
+    },
+    "manual_seeds_visibility": {
+      "status": "PASS",
+      "total_seeds": 3,
+      "visible_in_report": 3,
+      "missing": [],
+      "note": "3건 모두 '사용자 제보 처리 현황' 표에 표시됨 (resolved_not_new 2건, excluded 1건)."
+    },
+    "three_category_coverage": {
+      "event_coverage": {
+        "status": "PASS",
+        "note": "이벤트 섹션에 진행 중 이벤트 다수 포함 (트윙클, 과학관 콤보 등). 신규는 '금일 신규 없음' 명시."
+      },
+      "shop_coverage": {
+        "status": "PASS",
+        "note": "가게 섹션에 '활성 윈도우 내 가게 0건' 명시. 아이스온 팝업 참고 정보 포함."
+      },
+      "public_institution_coverage": {
+        "status": "PASS",
+        "note": "공공기관 섹션에 신성동 행정복지센터(D-2), 천문대, 119시민체험센터(휴무), 도서관 프로그램, 보건소 등 포함. 기타 공공기관 '신규 없음' 명시."
+      }
+    }
+  },
+  "critical_issues": 0,
+  "warnings": 0,
+  "patches_applied": 0,
+  "overall_status": "PASS",
+  "summary": "모든 검증 항목 통과. active_shops 0건이므로 shop 누락 없음. manual_seeds 3건 전건 보고서에 표시됨. 3종 의무 커버(이벤트·가게·공공기관) 모두 충족."
+}
