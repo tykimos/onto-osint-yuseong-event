@@ -1,0 +1,82 @@
+@base <https://github.com/tykimos/onto-osint-yuseong-event/ontology/> .
+@prefix yse: <https://github.com/tykimos/onto-osint-yuseong-event/ontology#> .
+@prefix yseo: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/class#> .
+@prefix yser: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/relation#> .
+@prefix yseent: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/entity/> .
+@prefix yseinf: <https://github.com/tykimos/onto-osint-yuseong-event/ontology/inference/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+# Onto-OSINT-Yuseong-Event — daily KG snapshot (2026-06-15)
+<#snapshot-2026-06-15> a prov:Entity ;
+  dct:date "2026-06-15"^^xsd:date ;
+  yse:new_nodes "0"^^xsd:integer ;
+  yse:new_edges "0"^^xsd:integer ;
+  yse:inferred_edges "0"^^xsd:integer .
+
+# --- updated_triples (2) ---
+yseent:ent-evt-052 yser:statusUpdate yseent:D-1__________6_16_ .
+yseinf:stmt-2026-06-15-0001 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:statusUpdate ;
+  rdf:object yseent:D-1__________6_16_ ;
+  yse:confidence "1.0"^^xsd:decimal .
+yseent:ent-evt-006 yser:statusUpdate yseent:______ .
+yseinf:stmt-2026-06-15-0002 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-006 ;
+  rdf:predicate yser:statusUpdate ;
+  rdf:object yseent:______ ;
+  yse:confidence "1.0"^^xsd:decimal .
+
+# --- inferred_triples (5) ---
+yseent:ent-evt-050 yser:indoor_rainy_fallback_primary yseent:ring-car-monday .
+yseinf:stmt-2026-06-15-0003 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-050 ;
+  rdf:predicate yser:indoor_rainy_fallback_primary ;
+  rdf:object yseent:ring-car-monday ;
+  yse:confidence "0.85"^^xsd:decimal ;
+  prov:wasDerivedFrom "indoor_rainy_fallback" .
+yseent:ent-evt-052 yser:publicTrustBoost "+0.15" .
+yseinf:stmt-2026-06-15-0004 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-052 ;
+  rdf:predicate yser:publicTrustBoost ;
+  rdf:object "+0.15" ;
+  yse:confidence "0.9"^^xsd:decimal ;
+  prov:wasDerivedFrom "public_institution_kid_event" .
+yseent:ent-evt-039 yser:urgencyBoost yseent:D-6_last_week .
+yseinf:stmt-2026-06-15-0005 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-039 ;
+  rdf:predicate yser:urgencyBoost ;
+  rdf:object yseent:D-6_last_week ;
+  yse:confidence "0.95"^^xsd:decimal ;
+  prov:wasDerivedFrom "anchor_distance_priority" .
+yseent:ent-evt-053 yser:same_venue_series yseent:ent-evt-050 .
+yseinf:stmt-2026-06-15-0006 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-053 ;
+  rdf:predicate yser:same_venue_series ;
+  rdf:object yseent:ent-evt-050 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_venue_series" .
+yseent:ent-evt-054 yser:same_venue_series yseent:ent-evt-053 .
+yseinf:stmt-2026-06-15-0007 a rdf:Statement ;
+  rdf:subject yseent:ent-evt-054 ;
+  rdf:predicate yser:same_venue_series ;
+  rdf:object yseent:ent-evt-053 ;
+  yse:confidence "0.8"^^xsd:decimal ;
+  prov:wasDerivedFrom "same_venue_series" .
+
+# --- referenced entities ---
+yseent:ent-evt-006 a yseo:Event ;
+  rdfs:label "대전시민천문대 상시 관측 프로그램"@ko ;
+  yse:name "대전시민천문대 상시 관측 프로그램"@ko ;
+  yse:first_seen "2026-04-25"^^xsd:date ;
+  yse:last_seen "2026-04-25"^^xsd:date ;
+  yse:mention_count "3"^^xsd:integer ;
+  yse:fee "무료"@ko ;
+  yse:indoor_outdoor "실내+야외"@ko ;
+  yse:kid_friendly_score "0.85"^^xsd:decimal .
+
