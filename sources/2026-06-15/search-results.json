@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-15",
+  "collected_at": "2026-06-15T07:00:00+09:00",
+  "config_topic": "대전 유성구 어린이·가족 동반 이벤트 일일 모니터링",
+  "search_count": 12,
+  "total_results": 38,
+  "expanded_keywords": ["국립중앙과학관", "대전시립미술관", "신성동 행정복지센터", "로보스테이지", "별별뷰티", "아가맘 행복교실", "숏폼 클래스", "119시민체험센터", "대전시민천문대"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 어린이 가족 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:00:00+09:00",
+      "result_count": 6,
+      "results": [
+        { "title": "2026년 어린이날 행사｜전국 행사 총정리", "url": "https://brunch.co.kr/@4076383e559c48c/150", "snippet": "전국 어린이날 행사 총정리", "source_name": "브런치" }
+      ],
+      "note": "유성구 6월 어린이 행사 직접 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 행사 2026년 6월 어린이",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:01:00+09:00",
+      "result_count": 7,
+      "results": [
+        { "title": "행사 | 행사안내 — 국립중앙과학관", "url": "https://www.science.go.kr/mps/1070/bbs/431/moveBbsNttList.do", "snippet": "국립중앙과학관 행사안내 페이지", "source_name": "국립중앙과학관" },
+        { "title": "교육 | 전체교육프로그램", "url": "https://www.science.go.kr/mps/1092/allEduPrograms.do", "snippet": "국립중앙과학관 교육프로그램", "source_name": "국립중앙과학관" },
+        { "title": "어린이과학관 통합예약 누리집", "url": "https://rsvn.science.go.kr/nsm/exbtrsvn/dspy/0021", "snippet": "어린이과학관 예약", "source_name": "국립중앙과학관" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 도서관 프로그램 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:02:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "행사신청 — 유성구통합도서관", "url": "https://lib.yuseong.go.kr/web/menu/10095/program/30010/lectureList.do", "snippet": "유성구통합도서관 문화행사 및 프로그램 신청 페이지", "source_name": "유성구통합도서관" },
+        { "title": "아가·맘 행복교실 프로그램 안내", "url": "https://www.welfarehello.com/community/hometownNews/0fda2727-354e-4382-8caa-04ccebd49352", "snippet": "아가랑도서관 아가·맘 행복교실 4/4~6/27", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전 유성구 신규 오픈 카페 식당 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:03:00+09:00",
+      "result_count": 4,
+      "results": [],
+      "note": "유성구 6월 신규 오픈 가게 직접 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 행정복지센터 보건소 복지관 행사 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:04:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "유성구청 공식 홈페이지", "url": "https://www.yuseong.go.kr/", "snippet": "유성구 공식", "source_name": "유성구청" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시립미술관 열한번째 트윙클 2026",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:05:00+09:00",
+      "result_count": 9,
+      "results": [
+        { "title": "대전시립미술관, 2026 어린이미술기획전 개최", "url": "https://www.newsro.kr/article243/1626322/", "snippet": "열한번째 트윙클 3/18~6/21 체험형 전시", "source_name": "뉴스로" },
+        { "title": "대전시립미술관, 2026 어린이미술기획전 '열한번째 트윙클' 개최", "url": "http://incheon.thesegye.com/news/view/1065599512998244", "snippet": "어린이 감정 체험 전시", "source_name": "세계일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "신성동 행정복지센터 신청사 개청 유성구 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:06:00+09:00",
+      "result_count": 8,
+      "results": [
+        { "title": "유성구 신성동 행정복지센터 신축 마쳐…16일부터 공식 업무 시작", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2208409", "snippet": "6/16 업무개시, 6/30 개청식", "source_name": "대전일보" },
+        { "title": "대전 유성구 신성동 행정복지센터 신청사 개청", "url": "https://www.goodmorningcc.com/news/articleView.html?idxno=423555", "snippet": "지하1층 지상2층 연면적 2842㎡", "source_name": "굿모닝충청" },
+        { "title": "유성구, 신성동 행정복지센터 개청…주민 소통 공간 역할 '톡톡'", "url": "http://www.ccnnews.co.kr/news/articleView.html?idxno=376404", "snippet": "행정 업무 + 주민 복합 공간", "source_name": "충청뉴스" },
+        { "title": "대전유성구소식, 6월 16일 신성동 행정복지센터 '신청사 업무 개시'", "url": "https://www.welfarehello.com/community/hometownNews/f6f1453d-a9d7-4150-bcc9-6f1b79195174", "snippet": "6/16 업무개시 안내", "source_name": "웰로" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "국립중앙과학관 로보스테이지 6월 20일 2026",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:07:00+09:00",
+      "result_count": 3,
+      "results": [
+        { "title": "국립중앙과학관 2026년 주요프로그램 공개", "url": "https://www.dailycc.net/news/articleView.html?idxno=858076", "snippet": "국립중앙과학관 2026 연간 프로그램", "source_name": "충청신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "대전시민천문대 2026년 6월 프로그램",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:08:00+09:00",
+      "result_count": 4,
+      "results": [
+        { "title": "대전시민천문대", "url": "https://djstar.kr/", "snippet": "운영시간 14:00~22:00, 매주 월요일 휴관", "source_name": "대전시민천문대" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "119시민체험센터 대전 소방 안전체험 2026",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:09:00+09:00",
+      "result_count": 5,
+      "results": [
+        { "title": "119시민체험센터 소개", "url": "https://www.daejeon.go.kr/dj119/CmmContentsHtmlView.do?menuSeq=4461", "snippet": "소방체험 화~토 09:30~11:30/13:30~15:30", "source_name": "대전시 소방본부" },
+        { "title": "대전소방본부 119시민체험센터, '가족ON! 안전ON! 안전체험 데이' 행사 진행", "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=887490", "snippet": "5월 가정의달 안전체험데이 성황", "source_name": "충남일보" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "유성구 팝업스토어 원데이클래스 키즈 2026년 6월",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:10:00+09:00",
+      "result_count": 2,
+      "results": [],
+      "note": "유성구 6월 팝업/키즈 직접 결과 없음"
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "용산동 전민동 관평동 문지동 신규 가게 오픈 2026",
+      "language": "ko",
+      "timestamp": "2026-06-15T07:11:00+09:00",
+      "result_count": 2,
+      "results": [],
+      "note": "1차 타겟 동 신규 가게 직접 결과 없음"
+    }
+  ]
+}

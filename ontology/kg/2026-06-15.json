@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-15",
+  "new_triples": [],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-052",
+      "predicate": "statusUpdate",
+      "object": "D-1 (업무개시 내일 6/16)",
+      "confidence": 1.0,
+      "source_ids": ["src-003"]
+    },
+    {
+      "subject": "ent-evt-006",
+      "predicate": "statusUpdate",
+      "object": "월요일 휴관",
+      "confidence": 1.0,
+      "source_ids": ["src-004"]
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-050",
+      "predicate": "indoor_rainy_fallback_primary",
+      "object": "ring-car-monday",
+      "confidence": 0.85,
+      "rule": "indoor_rainy_fallback",
+      "reason": "월요일 천문대·119 휴관으로 과학관 4종 콤보가 유일한 실내 방문지"
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.9,
+      "rule": "public_institution_kid_event",
+      "reason": "행정복지센터 업무개시 — 수유실·다목적실 등 가족 편의시설 제공"
+    },
+    {
+      "subject": "ent-evt-039",
+      "predicate": "urgencyBoost",
+      "object": "D-6_last_week",
+      "confidence": 0.95,
+      "rule": "anchor_distance_priority",
+      "reason": "트윙클 D-6 마지막 주 — 종료 임박 가산점"
+    },
+    {
+      "subject": "ent-evt-053",
+      "predicate": "same_venue_series",
+      "object": "ent-evt-050",
+      "confidence": 0.8,
+      "rule": "same_venue_series",
+      "reason": "로보스테이지6(6/20) — 국립중앙과학관에서 같은 주 행사"
+    },
+    {
+      "subject": "ent-evt-054",
+      "predicate": "same_venue_series",
+      "object": "ent-evt-053",
+      "confidence": 0.8,
+      "rule": "same_venue_series",
+      "reason": "별별뷰티(6/20) — 로보스테이지와 같은 날 같은 장소"
+    }
+  ],
+  "stats": {
+    "total_triples_today": 0,
+    "updated_triples": 2,
+    "inferred_triples": 5,
+    "carried_forward": "see cumulative.json"
+  }
+}

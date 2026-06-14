@@ -1850,3 +1850,47 @@
 - **신뢰도:** 0.85
 - **상태:** 잠정 (미래 이벤트)
 - **비고:** 로보스테이지6 + 별별뷰티 + 기존 4종 = 다음 주 토요일 6종 콤보 가능 예측.
+
+## 2026-06-15 추론 결과
+
+**요약:** 월요일 저활동일. 신규 엔티티 0건, 신규 트리플 0건. 상태 업데이트 2건(신성동 D-1, 천문대 월요일 휴관). 추론 5건.
+
+### 추론 #1: indoor_rainy_fallback (월요일 실내 유일 선택지)
+- **규칙:** indoor_rainy_fallback
+- **입력:** (ent-evt-006 월요일 휴관), (ent-evt-019 월요일 휴무), (ent-evt-050 hostsAt ent-venue-005 연중무휴)
+- **추론:** (ent-evt-050 indoor_rainy_fallback_primary "ring-car-monday")
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 월요일 천문대·119 휴관/휴무로 과학관 4종 콤보가 유일한 방문 가능 실내 시설.
+
+### 추론 #2: public_institution_kid_event (신성동 D-1 가산)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 신성동 행정복지센터 업무개시 D-1. 수유실·다목적실 등 가족 편의시설 내일부터 이용 가능.
+
+### 추론 #3: deadline_proximity (트윙클 D-6 마지막 주)
+- **규칙:** deadline_proximity
+- **입력:** (ent-evt-039 end_date 2026-06-21), (금일 2026-06-15 월요일)
+- **추론:** (ent-evt-039 deadlineAlert "마지막 주 — 남은 운영일 6일(화~토)")
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 6/21 종료까지 6일. 남은 주말은 마지막날(6/21 토) 1일만.
+
+### 추론 #4: same_venue_series (로보스테이지6 → 과학관 콤보 합류 예고)
+- **규칙:** same_venue_series
+- **입력:** (ent-evt-053 start_date 2026-06-20 hostsAt ent-venue-005)
+- **추론:** (ent-evt-053 same_venue_series ent-evt-050) — 같은 장소 6/20 한정
+- **신뢰도:** 0.80
+- **상태:** 잠정
+- **비고:** 이번 주 토요일(D-5) 로보스테이지6 = 기존 4종에 추가되어 5종 콤보.
+
+### 추론 #5: same_venue_series (별별뷰티 → 과학관 콤보 합류 예고)
+- **규칙:** same_venue_series
+- **입력:** (ent-evt-054 start_date 2026-06-20 hostsAt ent-venue-005)
+- **추론:** (ent-evt-054 same_venue_series ent-evt-053)
+- **신뢰도:** 0.80
+- **상태:** 잠정
+- **비고:** 별별뷰티 = 로보스테이지와 같은 날(6/20) 같은 장소. 6종 콤보 확정 예고.

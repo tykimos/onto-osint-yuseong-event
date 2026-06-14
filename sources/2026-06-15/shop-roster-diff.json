@@ -1,0 +1,8 @@
+{
+  "date": "2026-06-15",
+  "changes": [],
+  "summary": "변경 없음. active_shops 0건 유지. manual_seeds 3건 모두 이전 사이클에서 처리 완료(resolved_not_new 2건, excluded 1건). 신규 후보 0건.",
+  "active_shops_count": 0,
+  "archived_shops_count": 2,
+  "manual_seeds_pending": 0
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-15",
+  "config_shop_watch_enabled": true,
+  "window_days": 50,
+  "target_date": "2026-06-15",
+  "window_start": "2026-04-26",
+  "scout_summary": {
+    "manual_seeds_processed": 0,
+    "manual_seeds_pending": 0,
+    "active_shops_reverified": 0,
+    "new_candidates_found": 0,
+    "candidates_confirmed": 0,
+    "candidates_rejected": 0,
+    "searches_run": 3,
+    "note": "검색 12회 중 3회가 가게 탐색 전용. 용산동·전민동·관평동·문지동·신성동·도룡동 6개 1차 타겟 동에서 50일 윈도우(4/26~6/15) 내 신규 오픈 가게 후보 0건. 현대프리미엄아울렛 대전점 6월 팝업 확인 불가. 신세계 Art&Science 아이스온 팝업(6/12~6/25)은 여성 속옷 브랜드로 kid_friendly: false — 미등록."
+  },
+  "candidates": [],
+  "manual_seeds_status": [
+    {
+      "seed_name": "엉클부대찌개 테크노점 (관평동)",
+      "status": "resolved_not_new",
+      "note": "이전 사이클에서 처리 완료 — 2025년 10~11월 오픈. 50일 윈도우 미해당."
+    },
+    {
+      "seed_name": "인터뷰커피라운지 (도룡동)",
+      "status": "resolved_not_new",
+      "note": "이전 사이클에서 처리 완료 — 2024년 7월 오픈."
+    },
+    {
+      "seed_name": "유성닭발 관평점 (관평동)",
+      "status": "excluded",
+      "note": "이전 사이클에서 처리 완료 — 주류 전문, scope.exclude 적용."
+    }
+  ]
+}

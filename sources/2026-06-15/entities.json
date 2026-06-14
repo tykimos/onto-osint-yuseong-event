@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-15",
+  "entities": [],
+  "relations": [],
+  "stats": {
+    "total_entities": 0,
+    "new_entities": 0,
+    "matched_entities": 14,
+    "total_relations": 0
+  },
+  "note": "신규 엔티티 없음. 기존 엔티티 14건 참조(상태 업데이트만). 매칭된 엔티티: ent-evt-050(팀워크 Day 14), ent-evt-051(자연탐사대 D-13), ent-evt-041(피직스랩), ent-evt-015(탐이꿈이 D-15), ent-evt-039(트윙클 D-6), ent-evt-052(신성동 D-1), ent-evt-006(천문대 월요일 휴관), ent-evt-019(119 월요일 휴무), ent-evt-017(아가맘 비수업일), ent-evt-045(숏폼 비수업일), ent-evt-032(튼튼스쿨 상반기 종료), ent-evt-053(로보스테이지 D-5), ent-evt-054(별별뷰티 D-5), ent-venue-027(신성동 신청사)."
+}
