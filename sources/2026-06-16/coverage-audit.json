@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-16",
+  "agent": "shop-coverage-auditor",
+  "audit_results": {
+    "three_category_coverage": {
+      "events": true,
+      "shops": true,
+      "public_institutions": true,
+      "notes": "이벤트: 신규 2건(주말과학교실, 탐사원정대) + 진행 중 다수. 가게: 0건 active (명시 완료). 공공기관: 신성동 행정복지센터 D-day + 천문대 재개 + 119 재개 + 도서관 비수업일 + 보건소 예고."
+    },
+    "active_shops_in_report": {
+      "total_active": 0,
+      "total_in_report": 0,
+      "missing": [],
+      "status": "PASS",
+      "notes": "active_shops 0건 — 보고서에 '0건' 명시 완료."
+    },
+    "manual_seeds_visibility": {
+      "total_seeds": 3,
+      "visible_in_report": 3,
+      "status": "PASS",
+      "notes": "3건 모두 사용자 제보 처리 현황 테이블에 표시됨."
+    },
+    "patches_applied": [],
+    "overall_status": "PASS"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-16",
+  "agent": "shop-scout",
+  "discovery_queries_run": 8,
+  "manual_seeds_processed": 0,
+  "active_shops_reverified": 0,
+  "candidates": [],
+  "notes": "50일 윈도우(2026-04-27~2026-06-16) 내 신규 오픈 가게 후보 미발견. 용산동·전민동·관평동·문지동 대상 Naver Place/Kakao Map/Instagram 해시태그/블로그 검색 수행. 기존 active_shops 0건(이전 2건 팝업은 이미 archived). manual_seeds 3건 모두 resolved/excluded 상태로 재처리 불필요."
+}

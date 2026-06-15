@@ -1,0 +1,20 @@
+{
+  "id": "src-004",
+  "title": "2026년 1차 희귀동식물 탐사원정대 6/20(토) 10:00~12:00",
+  "url": "https://rsvn.science.go.kr/",
+  "snippet": "6/20(토) 10:00~12:00. 가족 대상 생물다양성 체험 프로그램. 로보스테이지6·별별뷰티와 같은 날.",
+  "source_name": "국립중앙과학관 통합예약",
+  "language": "ko",
+  "discovered_date": "2026-06-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스에 동일/유사 항목 없음. 국립중앙과학관 통합예약 누리집 및 한국강사신문 보도에서 최초 확인.",
+  "entities": [
+    { "id": "temp-056", "type": "Event", "name": "2026년 1차 희귀동식물 탐사원정대", "role": "주요 이벤트" }
+  ],
+  "relations": [
+    { "subject": "temp-056", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "temp-056", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

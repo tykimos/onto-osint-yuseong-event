@@ -1894,3 +1894,45 @@
 - **신뢰도:** 0.80
 - **상태:** 잠정
 - **비고:** 별별뷰티 = 로보스테이지와 같은 날(6/20) 같은 장소. 6종 콤보 확정 예고.
+
+## 2026-06-16 추론 결과
+
+### 추론 #1: operator_kid_friendliness (주말과학교실 가산)
+- **규칙:** operator_kid_friendliness
+- **입력:** (ent-org-006 operates ent-venue-005), (ent-org-006 orgType 과학관), (ent-evt-055 hostsAt ent-venue-005)
+- **추론:** (ent-evt-055 kidFriendlyBoost +0.2)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 국립중앙과학관 운영 어린이 전용 교육 프로그램.
+
+### 추론 #2: same_dong_combo (도룡동 6/20 슈퍼 토요일)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-056 hostsAt ent-venue-005), (ent-evt-053 hostsAt ent-venue-005), (ent-evt-054 hostsAt ent-venue-005), (ent-evt-055 hostsAt ent-venue-005)
+- **추론:** (ent-evt-056 visitCombo ent-evt-053), (ent-evt-056 visitCombo ent-evt-054)
+- **신뢰도:** 0.90 / 0.85
+- **상태:** 확정
+- **비고:** 6/20(토) 과학관 4종 동시 운영 — 탐사원정대(10:00~12:00)+로보스테이지6+별별뷰티+주말과학교실. 시간대 분산으로 가족 하루 연계 방문 최적.
+
+### 추론 #3: public_institution_kid_event (신성동 행정복지센터)
+- **규칙:** public_institution_kid_event
+- **입력:** (ent-org-025 orgType 행정복지센터), (ent-evt-052 organizedBy ent-org-025)
+- **추론:** (ent-evt-052 publicTrustBoost +0.15)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** D-day 업무개시. 수유실·공유주방 등 가족 편의시설 즉시 활성화. 1차 타겟 동(신성동) 공공기관.
+
+### 추론 #4: anchor_distance_priority (신성동 ring-bike 가산)
+- **규칙:** anchor_distance_priority
+- **입력:** (ent-venue-027 withinRing ring-bike), (ring-bike priority 3)
+- **추론:** (ent-evt-052 priorityBoost = (5-3)*0.1 = 0.2)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 용성로20에서 ~1.5km. ring-bike(자전거·짧은 차량). ring-car 권역 시설보다 접근성 가산.
+
+### 추론 #5: same_dong_combo (주말과학교실 → 과학관 상설 콤보)
+- **규칙:** same_dong_combo
+- **입력:** (ent-evt-055 hostsAt ent-venue-005), (ent-evt-050 hostsAt ent-venue-005)
+- **추론:** (ent-evt-055 visitCombo ent-evt-050)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 매주 토요일 주말과학교실(교육) + 팀워크 전시 + 피직스랩 체험 = 과학관 콤보 방문 최적.

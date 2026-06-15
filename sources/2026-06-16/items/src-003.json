@@ -1,0 +1,20 @@
+{
+  "id": "src-003",
+  "title": "미래인재 주말과학교실 6/13~7/4 매주 토 (누락 프로그램 발견)",
+  "url": "https://www.science.go.kr/mps/1092/allEduPrograms.do",
+  "snippet": "5세 유아(2020생)~초등6학년 대상. 매주 토 3타임(09:30~11:30, 13:30~15:30, 16:00~17:00). 접수 5/13~6/12 선착순 마감.",
+  "source_name": "국립중앙과학관",
+  "language": "ko",
+  "discovered_date": "2026-06-16",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 14일 소스(6/2~6/15 index.json)에 동일/유사 항목 없음. 6/13 첫 수업이 이미 완료된 상태에서 금일 최초 발견. 과학관 교육 프로그램 페이지에서 확인.",
+  "entities": [
+    { "id": "temp-055", "type": "Event", "name": "미래인재 주말과학교실 (6월)", "role": "주요 이벤트" }
+  ],
+  "relations": [
+    { "subject": "temp-055", "predicate": "hostsAt", "object": "ent-venue-005" },
+    { "subject": "temp-055", "predicate": "organizedBy", "object": "ent-org-006" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-16",
+  "agent": "shop-curator",
+  "changes": {
+    "new_active": [],
+    "renewed": [],
+    "moved_to_recent": [],
+    "moved_to_archived": [],
+    "manual_seeds_resolved": []
+  },
+  "summary": "변동 없음. active_shops 0건, archived_shops 2건(무브먼트랩·헌터 팝업), manual_seeds 3건(모두 resolved/excluded) 상태 유지. 신규 후보 미발견."
+}

@@ -1,0 +1,155 @@
+{
+  "date": "2026-06-16",
+  "new_triples": [
+    {
+      "subject": "ent-evt-055",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "confidence": 0.95,
+      "source_ids": ["src-003"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-055",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "confidence": 0.95,
+      "source_ids": ["src-003"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-055",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "source_ids": ["src-003"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-055",
+      "predicate": "targetsAgeGroup",
+      "object": "age-toddler",
+      "confidence": 0.9,
+      "source_ids": ["src-003"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-055",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-low",
+      "confidence": 0.95,
+      "source_ids": ["src-003"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-055",
+      "predicate": "targetsAgeGroup",
+      "object": "age-elem-high",
+      "confidence": 0.95,
+      "source_ids": ["src-003"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-056",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "confidence": 0.9,
+      "source_ids": ["src-004"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-056",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "confidence": 0.9,
+      "source_ids": ["src-004"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-056",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "confidence": 0.95,
+      "source_ids": ["src-004"],
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-evt-056",
+      "predicate": "targetsAgeGroup",
+      "object": "age-family",
+      "confidence": 0.85,
+      "source_ids": ["src-004"],
+      "type": "explicit"
+    }
+  ],
+  "updated_triples": [
+    {
+      "subject": "ent-evt-052",
+      "predicate": "statusUpdate",
+      "object": "D-day (업무개시 오늘 6/16)",
+      "confidence": 1.0,
+      "source_ids": ["src-001"]
+    },
+    {
+      "subject": "ent-evt-006",
+      "predicate": "statusUpdate",
+      "object": "화요일 운영 재개 14:00~22:00",
+      "confidence": 1.0,
+      "source_ids": ["src-006"]
+    },
+    {
+      "subject": "ent-evt-019",
+      "predicate": "statusUpdate",
+      "object": "화요일 운영 재개 09:30~",
+      "confidence": 1.0,
+      "source_ids": ["src-007"]
+    }
+  ],
+  "inferred_triples": [
+    {
+      "subject": "ent-evt-055",
+      "predicate": "kidFriendlyBoost",
+      "object": "+0.2",
+      "confidence": 0.9,
+      "rule": "operator_kid_friendliness",
+      "reason": "국립중앙과학관(과학관) 운영 어린이 교육 프로그램"
+    },
+    {
+      "subject": "ent-evt-055",
+      "predicate": "visitCombo",
+      "object": "ent-evt-050",
+      "confidence": 0.85,
+      "rule": "same_dong_combo",
+      "reason": "같은 도룡동·과학관 권역에서 같은 날(토) 운영 가능"
+    },
+    {
+      "subject": "ent-evt-056",
+      "predicate": "visitCombo",
+      "object": "ent-evt-053",
+      "confidence": 0.9,
+      "rule": "same_dong_combo",
+      "reason": "6/20(토) 과학관 동시 운영 — 탐사원정대+로보스테이지6"
+    },
+    {
+      "subject": "ent-evt-056",
+      "predicate": "visitCombo",
+      "object": "ent-evt-054",
+      "confidence": 0.85,
+      "rule": "same_dong_combo",
+      "reason": "6/20(토) 과학관 동시 운영 — 탐사원정대+별별뷰티"
+    },
+    {
+      "subject": "ent-evt-052",
+      "predicate": "publicTrustBoost",
+      "object": "+0.15",
+      "confidence": 0.9,
+      "rule": "public_institution_kid_event",
+      "reason": "행정복지센터 개청 — 수유실·공유주방 등 가족 편의시설 즉시 이용"
+    }
+  ],
+  "stats": {
+    "new_nodes": 2,
+    "new_edges": 10,
+    "inferred_edges": 5
+  }
+}

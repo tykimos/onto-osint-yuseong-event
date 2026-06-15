@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-16",
+  "entities": [
+    {
+      "temp_id": "temp-055",
+      "matched_id": null,
+      "type": "Event",
+      "name": "미래인재 주말과학교실 (6월)",
+      "properties": {
+        "start_date": "2026-06-13",
+        "end_date": "2026-07-04",
+        "schedule": "매주 토요일",
+        "times": ["09:30~11:30", "13:30~15:30", "16:00~17:00"],
+        "venue": "국립중앙과학관",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "유료 (추정)",
+        "registration_required": true,
+        "registration_status": "접수 마감 (5/13~6/12 선착순)",
+        "indoor_outdoor": "실내",
+        "target_age_group": ["유아", "초등저학년", "초등고학년"],
+        "target_age_detail": "5세 유아(2020생)~초등6학년",
+        "kid_friendly_score": 0.95,
+        "kid_friendly_reason": "과학관 어린이 교육 프로그램 전용 — 연령별 맞춤 과학 실험·체험",
+        "source_url": "https://www.science.go.kr/mps/1092/allEduPrograms.do"
+      },
+      "source_ids": ["src-003"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-056",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2026년 1차 희귀동식물 탐사원정대",
+      "properties": {
+        "start_date": "2026-06-20",
+        "end_date": "2026-06-20",
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "venue": "국립중앙과학관 야외 권역",
+        "dong": "도룡동",
+        "distance_from_anchor_m": 3200,
+        "ring": "ring-car",
+        "host": "국립중앙과학관",
+        "fee": "미확인",
+        "registration_required": true,
+        "indoor_outdoor": "야외",
+        "target_age_group": ["전연령가족"],
+        "kid_friendly_score": 0.8,
+        "kid_friendly_reason": "가족 대상 야외 생물 탐사 체험 — 어린이 호기심 자극, 자연학습",
+        "source_url": "https://rsvn.science.go.kr/"
+      },
+      "source_ids": ["src-004"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-055",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-003"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-055",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_ids": ["src-003"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-056",
+      "predicate": "hostsAt",
+      "object": "ent-venue-005",
+      "source_ids": ["src-004"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-056",
+      "predicate": "organizedBy",
+      "object": "ent-org-006",
+      "source_ids": ["src-004"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-055",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "source_ids": ["src-003"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "temp-056",
+      "predicate": "locatedIn",
+      "object": "dong-doryong",
+      "source_ids": ["src-004"],
+      "confidence": 0.95
+    }
+  ],
+  "stats": {
+    "total_entities": 2,
+    "new_entities": 2,
+    "matched_entities": 0,
+    "total_relations": 6
+  }
+}

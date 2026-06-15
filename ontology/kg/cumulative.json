@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-16",
   "nodes": [
     {
       "id": "ent-evt-001",
@@ -1816,9 +1816,30 @@
     { "subject": "ent-evt-039", "predicate": "rainyFallbackFor", "object": "outdoor_events", "type": "inferred", "confidence": 0.85, "added": "2026-06-14", "rule": "indoor_rainy_fallback", "note": "실내 전시 우천 대체" },
     { "subject": "ent-evt-052", "predicate": "publicTrustBoost", "object": "+0.15", "type": "inferred", "confidence": 0.90, "added": "2026-06-14", "rule": "public_institution_kid_event", "note": "행정복지센터 공공기관 가산 유지" }
   ],
+  "nodes_added_2026_06_16": [
+    { "id": "ent-evt-055", "type": "Event", "label": "미래인재 주말과학교실 (6월)", "added": "2026-06-16" },
+    { "id": "ent-evt-056", "type": "Event", "label": "2026년 1차 희귀동식물 탐사원정대", "added": "2026-06-16" }
+  ],
+  "edges_added_2026_06_16": [
+    { "subject": "ent-evt-055", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.95, "added": "2026-06-16" },
+    { "subject": "ent-evt-055", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.95, "added": "2026-06-16" },
+    { "subject": "ent-evt-055", "predicate": "locatedIn", "object": "dong-doryong", "type": "explicit", "confidence": 0.95, "added": "2026-06-16" },
+    { "subject": "ent-evt-055", "predicate": "targetsAgeGroup", "object": "age-toddler", "type": "explicit", "confidence": 0.9, "added": "2026-06-16" },
+    { "subject": "ent-evt-055", "predicate": "targetsAgeGroup", "object": "age-elem-low", "type": "explicit", "confidence": 0.95, "added": "2026-06-16" },
+    { "subject": "ent-evt-055", "predicate": "targetsAgeGroup", "object": "age-elem-high", "type": "explicit", "confidence": 0.95, "added": "2026-06-16" },
+    { "subject": "ent-evt-056", "predicate": "hostsAt", "object": "ent-venue-005", "type": "explicit", "confidence": 0.9, "added": "2026-06-16" },
+    { "subject": "ent-evt-056", "predicate": "organizedBy", "object": "ent-org-006", "type": "explicit", "confidence": 0.9, "added": "2026-06-16" },
+    { "subject": "ent-evt-056", "predicate": "locatedIn", "object": "dong-doryong", "type": "explicit", "confidence": 0.95, "added": "2026-06-16" },
+    { "subject": "ent-evt-056", "predicate": "targetsAgeGroup", "object": "age-family", "type": "explicit", "confidence": 0.85, "added": "2026-06-16" },
+    { "subject": "ent-evt-052", "predicate": "status", "object": "D-day 업무개시", "type": "explicit", "confidence": 1.0, "added": "2026-06-16" },
+    { "subject": "ent-evt-055", "predicate": "kidFriendlyBoost", "object": "+0.2", "type": "inferred", "confidence": 0.90, "added": "2026-06-16", "rule": "operator_kid_friendliness" },
+    { "subject": "ent-evt-055", "predicate": "visitCombo", "object": "ent-evt-050", "type": "inferred", "confidence": 0.85, "added": "2026-06-16", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-056", "predicate": "visitCombo", "object": "ent-evt-053", "type": "inferred", "confidence": 0.90, "added": "2026-06-16", "rule": "same_dong_combo" },
+    { "subject": "ent-evt-056", "predicate": "visitCombo", "object": "ent-evt-054", "type": "inferred", "confidence": 0.85, "added": "2026-06-16", "rule": "same_dong_combo" }
+  ],
   "stats": {
-    "total_nodes": 144,
-    "total_edges": 262,
-    "total_triples": 482
+    "total_nodes": 146,
+    "total_edges": 277,
+    "total_triples": 497
   }
 }
